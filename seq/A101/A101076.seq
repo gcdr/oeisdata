@@ -1,10 +1,10 @@
-%I A101076 #15 Jan 17 2019 13:44:06
+%I A101076 #18 Oct 19 2025 23:56:19
 %S A101076 4,5,184,400,479,1318,5645,6028,16823,62386,70637
 %N A101076 Indices of primes in sequence defined by A(0) = 81, A(n) = 10*A(n-1) + 61 for n > 0.
-%C A101076 Numbers n such that (790*10^n - 61)/9 is prime.
-%C A101076 Numbers n such that digit 8 followed by n >= 0 occurrences of digit 7 followed by digit 1 is prime.
+%C A101076 Numbers k such that (790*10^k - 61)/9 is prime.
+%C A101076 Numbers k such that digit 8 followed by k >= 0 occurrences of digit 7 followed by digit 1 is prime.
 %C A101076 Numbers corresponding to terms <= 479 are certified primes.
-%C A101076 a(12) > 10^5. - Robert Price, Oct 25 2015
+%C A101076 a(12) > 10^5. - _Robert Price_, Oct 25 2015
 %D A101076 Klaus Brockhaus and Walter Oberschelp, Zahlenfolgen mit homogenem Ziffernkern, MNU 59/8 (2006), pp. 462-467.
 %H A101076 Makoto Kamada, <a href="https://stdkmd.net/nrr/8/87771.htm#prime">Prime numbers of the form 877...771</a>.
 %H A101076 <a href="/index/Pri#Pri_rep">Index entries for primes involving repunits</a>.

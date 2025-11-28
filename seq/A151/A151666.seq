@@ -1,10 +1,10 @@
-%I A151666 #26 Aug 07 2021 01:44:45
+%I A151666 #28 Sep 23 2025 18:13:31
 %S A151666 1,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,
 %T A151666 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,
 %U A151666 1,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 %N A151666 Number of partitions of n into distinct powers of 4.
 %H A151666 Reinhard Zumkeller, <a href="/A151666/b151666.txt">Table of n, a(n) for n = 0..10000</a>
-%H A151666 David Applegate, Omar E. Pol and N. J. A. Sloane, <a href="/A000695/a000695_1.pdf">The Toothpick Sequence and Other Sequences from Cellular Automata</a>, Congressus Numerantium, Vol. 206 (2010), 157-191. [There is a typo in Theorem 6: (13) should read u(n) = 4.3^(wt(n-1)-1) for n >= 2.]
+%H A151666 David Applegate, Omar E. Pol and N. J. A. Sloane, <a href="/A000695/a000695_2.pdf">The Toothpick Sequence and Other Sequences from Cellular Automata</a>, Congressus Numerantium, Vol. 206 (2010), 157-191
 %H A151666 Lukasz Merta, <a href="https://arxiv.org/abs/1803.00292">Composition inverses of the variations of the Baum-Sweet sequence</a>, arXiv:1803.00292 [math.NT], 2018. See q(n) (with different offset) p. 9.
 %H A151666 N. J. A. Sloane, <a href="/wiki/Catalog_of_Toothpick_and_CA_Sequences_in_OEIS">Catalog of Toothpick and Cellular Automata Sequences in the OEIS</a>
 %F A151666 G.f.: Prod_{k >= 0 } (1+x^(4^k)). Exponents give A000695.

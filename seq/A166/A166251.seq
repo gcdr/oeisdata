@@ -1,4 +1,4 @@
-%I A166251 #48 Jun 01 2023 22:32:28
+%I A166251 #53 Nov 05 2025 15:22:18
 %S A166251 5,7,23,37,79,83,89,163,211,223,257,277,317,331,337,359,383,389,397,
 %T A166251 449,457,467,479,541,547,557,563,631,673,701,709,761,787,797,839,863,
 %U A166251 877,887,919,929,977,1129,1181,1201,1213,1237,1283,1307,1327,1361,1399,1409
@@ -11,8 +11,8 @@
 %C A166251 Conjecture: a(n)/A000040(n) is asymptotic to 9. This would follow from my conjectured asymptotic proportion of 1's in A102820 (the first differences of A020900).
 %C A166251 (End)
 %H A166251 Reinhard Zumkeller, <a href="/A166251/b166251.txt">Table of n, a(n) for n = 1..10000</a>
-%H A166251 V. Shevelev, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL15/Shevelev/shevelev19.html">Ramanujan and Labos primes, their generalizations, and classifications of primes</a>, J. Integer Seq. 15 (2012) Article 12.5.4
-%H A166251 J. Sondow, J. W. Nicholson, and T. D. Noe, <a href="http://arxiv.org/abs/1105.2249"> Ramanujan Primes: Bounds, Runs, Twins, and Gaps</a>, J. Integer Seq. 14 (2011) Article 11.6.2
+%H A166251 Vladimir Shevelev, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL15/Shevelev/shevelev19.html">Ramanujan and Labos primes, their generalizations, and classifications of primes</a>, J. Integer Seq. 15 (2012) Article 12.5.4
+%H A166251 Jonathan Sondow, J. W. Nicholson, and T. D. Noe, <a href="https://arxiv.org/abs/1105.2249">Ramanujan Primes: Bounds, Runs, Twins, and Gaps</a>, arXiv:1105.2249 [math.NT], 2011; J. Integer Seq. 14 (2011) Article 11.6.2
 %e A166251 Since 2*17 < 37 < 2*19, and the interval (34, 38) does not contain other primes, 37 is an isolated prime.
 %t A166251 isolatedQ[p_] := p == NextPrime[2*NextPrime[p/2, -1]] && p == NextPrime[2*NextPrime[p/2], -1]; Select[Prime /@ Range[300], isolatedQ] (* _Jean-François Alcover_, Nov 29 2012, after _M. F. Hasler_ *)
 %o A166251 (Haskell)

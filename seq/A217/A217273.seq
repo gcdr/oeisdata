@@ -1,8 +1,8 @@
-%I A217273 #4 Sep 29 2012 06:58:38
+%I A217273 #8 Oct 03 2025 17:23:33
 %S A217273 0,1,1,2,9,2,4,64,64,4,8,441,1472,441,8,16,3025,33856,33856,3025,16,
 %T A217273 32,20736,772800,2572816,772800,20736,32,64,142129,17640000,194881600,
 %U A217273 194881600,17640000,142129,64,128,974169,402494400,14755689729
-%N A217273 T(n,k)=Number of nXk arrays of occupancy after each element moves to some horizontal or vertical neighbor
+%N A217273 T(n,k)=Number of nXk arrays of occupancy after each element moves to some horizontal or vertical neighbor.
 %C A217273 Table starts
 %C A217273 ....0..........1...............2..................4.....................8
 %C A217273 ....1..........9..............64................441..................3025
@@ -24,4 +24,4 @@
 %Y A217273 Column 2 is A049684
 %K A217273 nonn,tabl
 %O A217273 1,4
-%A A217273 _R. H. Hardin_ Sep 29 2012
+%A A217273 _R. H. Hardin_, Sep 29 2012

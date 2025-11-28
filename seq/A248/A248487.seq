@@ -1,8 +1,8 @@
-%I A248487 #4 Oct 07 2014 08:34:57
+%I A248487 #6 Jul 23 2025 11:44:55
 %S A248487 10147,13147,17923,25495,37519,56635,87071,139671,223939,358353,
 %T A248487 572625,914413,1460881,2403329,3911253,6314645,10144189,16254195,
 %U A248487 26030501,42892553,69870145,112856927,181334473,290588327,465439207,767011173
-%N A248487 Number of length n+5 0..6 arrays with some three disjoint pairs in each consecutive six terms having the same sum
+%N A248487 Number of length n+5 0..6 arrays with some three disjoint pairs in each consecutive six terms having the same sum.
 %C A248487 Column 6 of A248489
 %H A248487 R. H. Hardin, <a href="/A248487/b248487.txt">Table of n, a(n) for n = 1..210</a>
 %e A248487 Some solutions for n=6

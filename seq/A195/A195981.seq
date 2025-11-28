@@ -1,10 +1,10 @@
-%I A195981 #23 Sep 05 2018 09:49:25
+%I A195981 #24 Nov 05 2025 15:22:21
 %S A195981 1,-1,-1,-1,-2,-4,-10,-25,-66,-178,-490,-1370,-3881,-11113,-32115,
 %T A195981 -93542,-274332,-809377,-2400641,-7154066,-21409915,-64317898,
 %U A195981 -193886665,-586311736,-1778101466,-5406660260,-16479943037,-50344990445,-154120149335,-472717222756,-1452529814867,-4470733286364,-13782117172530,-42549485082664,-131545321942331
 %N A195981 Coefficients of expansion of 1/xi_0(y) (see A195980 for definition).
 %C A195981 All the terms after the first are negative.
-%H A195981 A. D. Sokal, <a href="http://arxiv.org/abs/1106.1003">The leading root of the partial theta function</a>, arXiv preprint arXiv:1106.1003, 2011.  Adv. Math. 229 (2012), no. 5, 2603-2621.
+%H A195981 A. D. Sokal, <a href="https://arxiv.org/abs/1106.1003">The leading root of the partial theta function</a>, arXiv preprint arXiv:1106.1003, 2011.  Adv. Math. 229 (2012), no. 5, 2603-2621.
 %t A195981 nmax = 34;
 %t A195981 theta0[x_, y_] = Sum[x^n y^(n(n-1)/2), {n, 0, (1/2)(1+Sqrt[1+8nmax]) // Ceiling}];
 %t A195981 xi0[y_] = -Sum[a[n] y^n, {n, 0, nmax}];

@@ -1,4 +1,4 @@
-%I A007070 M3482 #199 Dec 29 2024 14:28:56
+%I A007070 M3482 #207 Nov 05 2025 15:35:27
 %S A007070 1,4,14,48,164,560,1912,6528,22288,76096,259808,887040,3028544,
 %T A007070 10340096,35303296,120532992,411525376,1405035520,4797091328,
 %U A007070 16378294272,55918994432,190919389184,651839567872,2225519493120,7598398836736,25942556360704,88573427769344,302408598355968
@@ -35,9 +35,11 @@
 %H A007070 S. Falcon, <a href="http://dx.doi.org/10.9734/BJMCS/2014/11783">Iterated Binomial Transforms of the k-Fibonacci Sequence</a>, British Journal of Mathematics & Computer Science, 4 (22): 2014.
 %H A007070 Pamela Fleischmann, Jonas Höfer, Annika Huch, and Dirk Nowotka, <a href="https://arxiv.org/abs/2306.14192">alpha-beta-Factorization and the Binary Case of Simon's Congruence</a>, arXiv:2306.14192 [math.CO], 2023.
 %H A007070 A. S. Fraenkel and C. Kimberling, <a href="http://dx.doi.org/10.1016/0012-365X(94)90259-3">Generalized Wythoff arrays, shuffles and interspersions</a>, Discr. Math. 126 (1-3) (1994) 137-149.
+%H A007070 Sela Fried, <a href="https://arxiv.org/abs/2505.14196">Even-up words and their variants</a>, arXiv:2505.14196 [math.CO], 2025. See p. 8.
+%H A007070 Sela Fried, Toufik Mansour, and Mark Shattuck, <a href="https://arxiv.org/abs/2504.03013">Counting k-ary words by number of adjacency differences of a prescribed size</a>, arXiv:2504.03013 [math.CO], 2025. See p. 7.
 %H A007070 INRIA Algorithms Project, <a href="http://ecs.inria.fr/services/structure?nbr=440">Encyclopedia of Combinatorial Structures 440</a>
 %H A007070 László Németh and László Szalay, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL24/Nemeth/nemeth8.html">Sequences Involving Square Zig-Zag Shapes</a>, J. Int. Seq., Vol. 24 (2021), Article 21.5.2.
-%H A007070 J. Riordan, <a href="http://www.jstor.org/stable/2005477">The distribution of crossings of chords joining pairs of 2n points on a circle</a>, Math. Comp., 29 (1975), 215-222.
+%H A007070 J. Riordan, <a href="https://www.jstor.org/stable/2005477">The distribution of crossings of chords joining pairs of 2n points on a circle</a>, Math. Comp., 29 (1975), 215-222.
 %H A007070 J. Riordan, <a href="/A003480/a003480.pdf">The distribution of crossings of chords joining pairs of 2n points on a circle</a>, Math. Comp., 29 (1975), 215-222. [Annotated scanned copy]
 %H A007070 Michael Z. Spivey and Laura L. Steil, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL9/Spivey/spivey7.html">The k-Binomial Transforms and the Hankel Transform</a>, J. Integ. Seqs. Vol. 9 (2006), #06.1.1.
 %H A007070 <a href="/index/Poi#poker">Index entries for sequences related to poker</a>
@@ -66,7 +68,7 @@
 %t A007070 LinearRecurrence[{4,-2}, {1,4}, 30] (* _Harvey P. Dale_, Sep 16 2014 *)
 %o A007070 (PARI) a(n)=polcoeff(1/(1-4*x+2*x^2)+x*O(x^n),n)
 %o A007070 (PARI) a(n)=if(n<1,1,ceil((2+sqrt(2))*a(n-1)))
-%o A007070 (Sage) [lucas_number1(n,4,2) for n in range(1, 24)]# _Zerinvary Lajos_, Apr 22 2009
+%o A007070 (SageMath) [lucas_number1(n,4,2) for n in range(1, 24)]# _Zerinvary Lajos_, Apr 22 2009
 %o A007070 (Magma) Z<x>:=PolynomialRing(Integers()); N<r>:=NumberField(x^2-8); S:=[ ((4+r)^(1+n)-(4-r)^(1+n))/((2^(1+n))*r): n in [0..20] ]; [ Integers()!S[j]: j in [1..#S] ]; // _Vincenzo Librandi_, Mar 27 2011
 %o A007070 (Magma) [n le 2 select 3*n-2 else 4*Self(n-1)-2*Self(n-2): n in [1..23]];  // _Bruno Berselli_, Mar 28 2011
 %o A007070 (Haskell)

@@ -1,11 +1,12 @@
-%I A273310 #14 Feb 16 2025 08:33:35
+%I A273310 #17 Nov 05 2025 15:22:34
 %S A273310 1,4,40,216,952,3960,16120,65016,261112,1046520,4190200,16769016,
 %T A273310 67092472,268402680,1073676280,4294836216
 %N A273310 Number of active (ON, black) cells at stage 2^n-1 of the two-dimensional cellular automaton defined by "Rule 641", based on the 5-celled von Neumann neighborhood.
 %C A273310 Initialized with a single black (ON) cell at stage zero.
 %C A273310 Conjecture: Rules 649, 897 and 905 also generate this sequence. - _Lars Blomberg_, Jul 17 2016
+%C A273310 Seems to differ from A271092 only at n=1. - _R. J. Mathar_, Mar 27 2025
 %D A273310 S. Wolfram, A New Kind of Science, Wolfram Media, 2002; p. 170.
-%H A273310 N. J. A. Sloane, <a href="http://arxiv.org/abs/1503.01168">On the Number of ON Cells in Cellular Automata</a>, arXiv:1503.01168 [math.CO], 2015
+%H A273310 N. J. A. Sloane, <a href="https://arxiv.org/abs/1503.01168">On the Number of ON Cells in Cellular Automata</a>, arXiv:1503.01168 [math.CO], 2015
 %H A273310 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/ElementaryCellularAutomaton.html">Elementary Cellular Automaton</a>
 %H A273310 S. Wolfram, <a href="http://wolframscience.com/">A New Kind of Science</a>
 %H A273310 <a href="/index/Ce#cell">Index entries for sequences related to cellular automata</a>

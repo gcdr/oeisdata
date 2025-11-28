@@ -1,4 +1,4 @@
-%I A273278 #7 May 19 2016 11:27:45
+%I A273278 #8 Nov 05 2025 15:22:34
 %S A273278 1,4,4,2,4,8,4,1,4,8,8,4,2,9,6,3,4,12,9,6,8,8,5,2,4,14,15,6,1,14,9,2,
 %T A273278 4,9,12,8,8,9,11,1,8,18,7,4,4,17,8,3,2,12,18,9,9,17,15,4,6,8,8,10,3,
 %U A273278 15,13,5,4,22,15,6,12,15,13
@@ -7,7 +7,7 @@
 %C A273278 See part (ii) of the conjecture in A269400 for similar conjectures.
 %C A273278 For more conjectural refinements of Lagrange's four-square theorem, one may consult arXiv:1604.06723.
 %H A273278 Zhi-Wei Sun, <a href="/A273278/b273278.txt">Table of n, a(n) for n = 0..10000</a>
-%H A273278 Zhi-Wei Sun, <a href="http://arxiv.org/abs/1604.06723">Refining Lagrange's four-square theorem</a>, arXiv:1604.06723 [math.GM], 2016.
+%H A273278 Zhi-Wei Sun, <a href="https://arxiv.org/abs/1604.06723">Refining Lagrange's four-square theorem</a>, arXiv:1604.06723 [math.GM], 2016.
 %e A273278 a(7) = 1 since 7 = 2^2 + 1^2 + 1^2 + 1^2 with 2^2*1^2 + 3*1^2*1^2 + 2*1^2*1^2 = 3^2.
 %e A273278 a(39) = 1 since 39 = 2^2 + 1^2 + 5^2 + 3^2 with 2^2*1^2 + 3*1^2*5^2 + 2*5^2*3^2 = 23^2.
 %e A273278 a(87) = 1 since 87 = 2^2 + 1^2 + 1^2 + 9^2 with 2^2*1^2 + 3*1^2*1^2 + 2*1^2*9^2 = 13^2.

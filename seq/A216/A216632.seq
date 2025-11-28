@@ -1,7 +1,7 @@
-%I A216632 #3 Sep 11 2012 05:33:04
+%I A216632 #7 Oct 03 2025 17:15:03
 %S A216632 1,1,1,1,1,1,2,3,6,12,24,63,164,424,1163,2919,8289,24060,70704,212130,
 %T A216632 672520,2080293,6485878,20449084
-%N A216632 Number of nondecreasing arrays of n 0..n-1 integers with the sum of their 4th powers equal to sum(i^4,i=0..n-1)
+%N A216632 Number of nondecreasing arrays of n 0..n-1 integers with the sum of their 4th powers equal to sum(i^4,i=0..n-1).
 %C A216632 Column 4 of A216635
 %e A216632 All solutions for n=9
 %e A216632 ..1....0....0....0....0....0
@@ -15,4 +15,4 @@
 %e A216632 ..8....7....8....8....7....8
 %K A216632 nonn
 %O A216632 1,7
-%A A216632 _R. H. Hardin_ Sep 11 2012
+%A A216632 _R. H. Hardin_, Sep 11 2012

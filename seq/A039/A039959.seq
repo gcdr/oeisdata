@@ -1,12 +1,14 @@
-%I A039959 #12 Oct 17 2015 17:27:40
+%I A039959 #17 Mar 06 2025 10:05:12
 %S A039959 1,1,4,7,21,37,85,151,292,490,848,1346,2157,3260,4925,7148,10327,
 %T A039959 14477,20177,27483,37194,49431,65277,84945,109873,140394,178377,
-%U A039959 224334,280647,348040,429526,526108,641524,777127,937513,1124461,1343567,1597115,1891850
+%U A039959 224334,280647,348040,429526,526108,641524,777127,937513,1124461,1343567,1597115,1891850,2230685,2621671,3068438
 %N A039959 Number of ways of numbering the vertices of a cube so sum of the 8 numbers is n.
 %C A039959 In Redfield 1927 on page 443 he writes "If in V we put 1/(1-x^r) for every s_r, we obtain the infinite series 1 + x + 4x^2 + 7x^3 + 21x^4 + 37x^5 + ..., in which the coefficient of x^t enumerates the distinct configurations obtained by placing a zero or a positive integer at every vertex of the cube, subject to the condition that the sum of the 8 numbers is always t.". - _Michael Somos_, Oct 17 2015
 %C A039959 Note that the enumeration is modded out by the symmetries of the cube. - _Michael Somos_, Oct 17 2015
 %D A039959 J. H. Redfield, The theory of group-reduced distributions, Amer. J. Math., 49 (1927), 433-455; reprinted in P. A. MacMahon, Coll. Papers I, pp. 805-827.
+%H A039959 Ray Chandler, <a href="/A039959/b039959.txt">Table of n, a(n) for n = 0..100</a>
 %H A039959 <a href="/index/Tu#2wis">Index entries for two-way infinite sequences</a>
+%H A039959 <a href="/index/Rec#order_20">Index entries for linear recurrences with constant coefficients</a>, signature (2,1,-2,-1,-4,4,4,2,0,-10,0,2,4,4,-4,-1,-2,1,2,-1).
 %F A039959 G.f.: (x^12 - x^11 + x^10 + 6*x^8 + x^7 + 8*x^6 + x^5 + 6*x^4 + x^2 - x + 1) / ((1 - x) * (1 - x^2) * (1 - x^3) * (1 - x^4))^2. - _Michael Somos_, Mar 05 2004
 %F A039959 G.f.: (1/24) * (1 - x)^-8 + (3/8) * (1 - x^2)^-4 + (1/3) * (1 - x)^-2 * (1 - x^3)^-2 + (1/4) * (1 - x^4)^-2. - _Michael Somos_, Oct 17 2015
 %F A039959 a(n) = -a(-8 - n) for all n in Z. - _Michael Somos_, Oct 17 2015

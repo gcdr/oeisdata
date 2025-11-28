@@ -1,4 +1,4 @@
-%I A013578 #6 Jan 08 2014 22:38:59
+%I A013578 #8 Jul 08 2025 02:48:11
 %S A013578 1,2,4,5,10,13,16
 %N A013578 Maximal size of equidistant permutation array R(n,2).
 %D A013578 CRC Handbook of Combinatorial Designs, 1996, p. 327.
@@ -6,4 +6,4 @@
 %Y A013578 Cf. A005677.
 %K A013578 nonn,hard,more
 %O A013578 3,2
-%A A013578 _N. J. A. Sloane_.
+%A A013578 _N. J. A. Sloane_

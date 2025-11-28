@@ -1,4 +1,4 @@
-%I A007540 M3838 #136 Dec 23 2024 02:24:13
+%I A007540 M3838 #142 Nov 05 2025 15:35:27
 %S A007540 5,13,563
 %N A007540 Wilson primes: primes p such that (p-1)! == -1 (mod p^2).
 %C A007540 Suggested by the Wilson-Lagrange Theorem: An integer p > 1 is a prime if and only if (p-1)! == -1 (mod p). Cf. Wilson quotients, A007619.
@@ -21,15 +21,16 @@
 %D A007540 G. B. Mathews, Theory of Numbers Part I., Cambridge: Deighton, Bell and Co., London: George Bell and Sons, 1892, page 318.
 %D A007540 Paulo Ribenboim, My Numbers, My Friends: Popular Lectures on Number Theory, Springer Science & Business Media, 2000, ISBN 0-387-98911-0.
 %D A007540 Paulo Ribenboim, The Book of Prime Number Records. Springer-Verlag, NY, 2nd ed., 1989, p. 277.
+%D A007540 Paulo Ribenboim, The Little Book of Bigger Primes, Springer-Verlag NY 2004. See pp. 234-235.
 %D A007540 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
 %D A007540 Ilan Vardi, Computational Recreations in Mathematica. Addison-Wesley, Redwood City, CA, 1991, p. 73.
 %D A007540 David Wells, The Penguin Dictionary of Curious and Interesting Numbers, Penguin Books, NY, 1986, p. 163.
 %H A007540 N. G. W. H. Beeger, <a href="https://archive.org/details/messengerofmathe43cambuoft/page/72">Quelques remarques sur les congruences r^(p-1) == 1 (mod p^2) et (p- 1)! == -1 (mod p^2)</a>, The Messenger of Mathematics, Vol. 43 (1913), pp. 72-84.
-%H A007540 Edgar Costa, Robert Gerbicz and David Harvey, <a href="https://doi.org/10.1090/S0025-5718-2014-02800-7">A search for Wilson primes</a>, Mathematics of Computation, Vol. 83, No. 290 (2014), pp. 3071-3091; <a href="http://arxiv.org/abs/1209.3436">arXiv preprint</a>, arXiv:1209.3436 [math.NT], 2012.
+%H A007540 Edgar Costa, Robert Gerbicz and David Harvey, <a href="https://doi.org/10.1090/S0025-5718-2014-02800-7">A search for Wilson primes</a>, Mathematics of Computation, Vol. 83, No. 290 (2014), pp. 3071-3091; <a href="https://arxiv.org/abs/1209.3436">arXiv preprint</a>, arXiv:1209.3436 [math.NT], 2012.
 %H A007540 R. Crandall, K. Dilcher and C. Pomerance, <a href="https://doi.org/10.1090/S0025-5718-97-00791-6">A search for Wieferich and Wilson primes</a>, Mathematics of Computation, 66 (1997), 433-449.
 %H A007540 Karl Goldberg, <a href="https://doi.org/10.1112/jlms/s1-28.2.252">A Table of Wilson Quotients and the Third Wilson Prime</a>, Journal of the London Mathematical Society, Vol. 28 (1953), pp. 252-256.
 %H A007540 James Grime and Brady Haran, <a href="https://www.youtube.com/watch?v=eZUa5k_VIZg">What do 5, 13 and 563 have in common?</a>, YouTube video (2014).
-%H A007540 Emma Lehmer, <a href="http://www.jstor.org/stable/2300697">A Note on Wilson's Quotient</a>, The American Mathematical Monthly, Vol. 44, No. 4 (1937), pp. 237-238.
+%H A007540 Emma Lehmer, <a href="https://www.jstor.org/stable/2300697">A Note on Wilson's Quotient</a>, The American Mathematical Monthly, Vol. 44, No. 4 (1937), pp. 237-238.
 %H A007540 Emma Lehmer, <a href="https://www.jstor.org/stable/2301133">On the Congruence (p-1)! == -1 (mod p^2)</a>, The American Mathematical Monthly, Vol. 44, No. 7 (1937), p. 462.
 %H A007540 Emma Lehmer, <a href="https://www.jstor.org/stable/1968791">On congruences involving Bernoulli numbers and the quotients of Fermat and Wilson"</a>, Annals of Mathematics, Vol. 39, No. 2 (1938), pp. 350-360.
 %H A007540 George Ballard Mathews, <a href="https://archive.org/details/theoryofnumbersp00math/page/318/">Theory of numbers, Part I</a>, Cambridge, 1892, p. 318.

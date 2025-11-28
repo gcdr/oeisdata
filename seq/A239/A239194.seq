@@ -1,8 +1,8 @@
-%I A239194 #4 Mar 11 2014 21:42:35
+%I A239194 #6 Jun 02 2025 09:24:52
 %S A239194 4,12,12,40,120,40,128,1276,1276,128,416,13128,43648,13128,416,1344,
 %T A239194 136684,1436268,1436268,136684,1344,4352,1416192,47885992,151351888,
 %U A239194 47885992,1416192,4352,14080,14700364,1588084496,16147220164,16147220164
-%N A239194 T(n,k)=Number of nXk 0..4 arrays with no element equal to the sum of elements to its left or the sum of the elements above it, modulo 5
+%N A239194 T(n,k)=Number of nXk 0..4 arrays with no element equal to the sum of elements to its left or the sum of the elements above it, modulo 5.
 %C A239194 Table starts
 %C A239194 .....4.........12.............40.................128.....................416
 %C A239194 ....12........120...........1276...............13128..................136684

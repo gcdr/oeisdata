@@ -1,8 +1,8 @@
-%I A274848 #17 Jun 16 2017 05:25:51
+%I A274848 #21 Jul 10 2025 14:09:04
 %S A274848 6,16,28,30,32,44,52,54,64,68,70,76,80,104,164,172,174,182,184,186,
 %T A274848 196,222,236,238,246,256,260,266,286,292,306,308,310,316,328,344,350,
 %U A274848 352,366,374,418,434,436,442,452,474,494,498,508,512,536,548,570,574,582,584,602,628,632,636,642,644,650,654,664,678
-%N A274848 Numbers n such that n^2 is expressible in just one way as (p+1)(q+1) where p, q are distinct primes.
+%N A274848 Numbers k such that k^2 is expressible in just one way as (p+1)(q+1) where p, q are distinct primes.
 %H A274848 Robert Israel, <a href="/A274848/b274848.txt">Table of n, a(n) for n = 1..10000</a>
 %H A274848 Zak Seidov, <a href="/A274848/a274848.txt">Table of n, a(n), p, q; n=1..10000</a>
 %e A274848 6^2=36=(2+1)*(11+1), 16^2=256=(7+1)(31+1), 28^2=784=(7+1)(97+1).

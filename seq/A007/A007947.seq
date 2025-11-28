@@ -1,4 +1,4 @@
-%I A007947 #271 Feb 12 2025 10:44:40
+%I A007947 #283 Nov 05 2025 15:21:45
 %S A007947 1,2,3,2,5,6,7,2,3,10,11,6,13,14,15,2,17,6,19,10,21,22,23,6,5,26,3,14,
 %T A007947 29,30,31,2,33,34,35,6,37,38,39,10,41,42,43,22,15,46,47,6,7,10,51,26,
 %U A007947 53,6,55,14,57,58,59,30,61,62,21,2,65,66,67,34,69,70,71,6,73,74,15,38,77,78
@@ -15,7 +15,7 @@
 %C A007947 a(n) is also the smallest base (also termed radix) for which the representation of 1/n is of finite length.  For example a(12) = 6 and 1/12 in base 6 is 0.03, which is of finite length. - _Lee A. Newberg_, Jul 27 2016
 %C A007947 a(n) is also the divisor k of n such that d(k) = 2^omega(n). a(n) is also the smallest divisor u of n such that n divides u^n. - _Juri-Stepan Gerasimov_, Apr 06 2017
 %H A007947 Daniel Forgues, <a href="/A007947/b007947.txt">Table of n, a(n) for n = 1..100000</a> (first 10000 terms from T. D. Noe)
-%H A007947 Masum Billal, <a href="http://arxiv.org/abs/1501.00609">Divisible Sequence and its Characteristic Sequence</a>, arXiv:1501.00609 [math.NT], 2015, theorem 11 page 5.
+%H A007947 Masum Billal, <a href="https://arxiv.org/abs/1501.00609">Divisible Sequence and its Characteristic Sequence</a>, arXiv:1501.00609 [math.NT], 2015, theorem 11 page 5.
 %H A007947 Henry Bottomley, <a href="http://fs.gallup.unm.edu/Bottomley-Sm-Mult-Functions.htm">Some Smarandache-type multiplicative sequences</a>
 %H A007947 Steven R. Finch, <a href="/A007947/a007947.pdf">Unitarism and Infinitarism</a>, February 25, 2004. [Cached copy, with permission of the author]
 %H A007947 Jarosław Grytczuk, <a href="http://dx.doi.org/10.1016/j.disc.2007.08.039">Thue type problems for graphs, points and numbers</a>, Discrete Math., 308 (2008), 4419-4429.
@@ -43,14 +43,14 @@
 %F A007947 a(A059896(n,k)) = A059896(a(n), a(k)).
 %F A007947 a(A003961(n)) = A003961(a(n)).
 %F A007947 a(n^2) = a(n).
-%F A007947 a(A225546(n)) = A019565(A267116(n)).
-%F A007947 (End)
+%F A007947 a(A225546(n)) = A019565(A267116(n)). (End)
 %F A007947 Sum_{k=1..n} a(k) ~ c * n^2, where c = A065463/2. - _Vaclav Kotesovec_, Jun 24 2020
 %F A007947 From _Richard L. Ollerton_, May 07 2021: (Start)
 %F A007947 a(n) = Sum_{k=1..n} mu(n/gcd(n,k))^2.
 %F A007947 a(n) = Sum_{k=1..n} mu(gcd(n,k))^2*phi(gcd(n,k))/phi(n/gcd(n,k)).
 %F A007947 For n>1, Sum_{k=1..n} a(gcd(n,k))*mu(a(gcd(n,k)))*phi(gcd(n,k))/gcd(n,k) = 0.
 %F A007947 For n>1, Sum_{k=1..n} a(n/gcd(n,k))*mu(a(n/gcd(n,k)))*phi(gcd(n,k))*gcd(n,k) = 0. (End)
+%F A007947 a(n) = (-1)^omega(n) * Sum_{d|n} mu(d)*psi(d), where omega = A001221 and psi = A001615. - _Ridouane Oudra_, Aug 01 2025
 %e A007947 G.f. = x + 2*x^2 + 3*x^3 + 2*x^4 + 5*x^5 + 6*x^6 + 7*x^7 + 2*x^8 + 3*x^9 + ... - _Michael Somos_, Jul 15 2018
 %p A007947 with(numtheory); A007947 := proc(n) local i,t1,t2; t1 := ifactors(n)[2]; t2 := mul(t1[i][1],i=1..nops(t1)); end;
 %p A007947 A007947 := n -> ilcm(op(numtheory[factorset](n))):
@@ -67,7 +67,7 @@
 %o A007947 (Magma) [ &*PrimeDivisors(n): n in [1..100] ]; // _Klaus Brockhaus_, Dec 04 2008
 %o A007947 (Haskell)
 %o A007947 a007947 = product . a027748_row  -- _Reinhard Zumkeller_, Feb 27 2012
-%o A007947 (Sage) def A007947(n): return mul(p for p in prime_divisors(n))
+%o A007947 (SageMath) def A007947(n): return mul(p for p in prime_divisors(n))
 %o A007947 [A007947(n) for n in (1..60)] # _Peter Luschny_, Mar 07 2017
 %o A007947 (Python)
 %o A007947 from sympy import primefactors, prod
@@ -81,6 +81,7 @@
 %Y A007947 Bisections: A099984, A099985.
 %Y A007947 Sequences about numbers that have the same squarefree kernel: A065642, array A284311 (A284457).
 %Y A007947 A003961, A059896 are used to express relationship between terms of this sequence.
+%Y A007947 Cf. A001615, A008683, A076479, A078615.
 %K A007947 nonn,easy,nice,mult
 %O A007947 1,2
 %A A007947 R. Muller, Mar 15 1996

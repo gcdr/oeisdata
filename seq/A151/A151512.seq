@@ -1,11 +1,11 @@
-%I A151512 #26 May 28 2019 05:06:27
+%I A151512 #27 Nov 05 2025 15:22:17
 %S A151512 1,1,0,1,1,0,1,3,1,0,1,6,7,1,0,1,10,25,15,1,0,1,15,65,90,31,1,0,1,21,
 %T A151512 140,350,301,63,0,0,1,28,266,1050,1701,966,119,0,0,1,36,462,2646,6951,
 %U A151512 7770,2989,210,0,0,1,45,750,5880,22827,42525,33985,8925,336,0,0
 %N A151512 The triangle in A151359 read by rows upwards.
 %C A151512 Conjectured: The i-th element of row j is the number of different equivalence relationships, within a set of (j-1) element, having (j-i) equivalence classes. For example: row 5 = [1, 6, 7, 1, 0] means that, in a set of 4 elements, there exists 7 equivalence relationships having 3 different equivalence classes. - _Philippe Beaudoin_, Nov 09 2013
-%H A151512 Moa Apagodu, David Applegate, N. J. A. Sloane, and Doron Zeilberger, <a href="http://arxiv.org/abs/1701.08394">Analysis of the Gift Exchange Problem</a>, arXiv:1701.08394, 2017.
-%H A151512 David Applegate and N. J. A. Sloane, <a href="http://arxiv.org/abs/0907.0513">The Gift Exchange Problem</a> (arXiv:0907.0513, 2009) (see Table 7 E5(n,k) page 16).
+%H A151512 Moa Apagodu, David Applegate, N. J. A. Sloane, and Doron Zeilberger, <a href="https://arxiv.org/abs/1701.08394">Analysis of the Gift Exchange Problem</a>, arXiv:1701.08394, 2017.
+%H A151512 David Applegate and N. J. A. Sloane, <a href="https://arxiv.org/abs/0907.0513">The Gift Exchange Problem</a> (arXiv:0907.0513, 2009) (see Table 7 E5(n,k) page 16).
 %e A151512 Triangle begins:
 %e A151512   1
 %e A151512   1  0

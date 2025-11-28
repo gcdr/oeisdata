@@ -1,4 +1,4 @@
-%I A034444 #293 Feb 16 2025 08:32:37
+%I A034444 #305 Jul 02 2025 16:01:56
 %S A034444 1,2,2,2,2,4,2,2,2,4,2,4,2,4,4,2,2,4,2,4,4,4,2,4,2,4,2,4,2,8,2,2,4,4,
 %T A034444 4,4,2,4,4,4,2,8,2,4,4,4,2,4,2,4,4,4,2,4,4,4,4,4,2,8,2,4,4,2,4,8,2,4,
 %U A034444 4,8,2,4,2,4,4,4,4,8,2,4,2,4,2,8,4,4,4,4,2,8,4,4,4,4,4,4,2,4,4,4,2,8,2,4,8
@@ -26,7 +26,7 @@
 %H A034444 Steven R. Finch, <a href="/A007947/a007947.pdf">Unitarism and Infinitarism</a>, February 25, 2004. [Cached copy, with permission of the author]
 %H A034444 Steven R. Finch, <a href="https://doi.org/10.1017/9781316997741">Mathematical Constants II</a>, Encyclopedia of Mathematics and Its Applications, Cambridge University Press, Cambridge, 2018, p. 49-50.
 %H A034444 Lorenz Halbeisen, <a href="http://www.iam.fmph.uniba.sk/amuc/_vol-74/_no_2/_halbeisen/halbeisen.html">A number-theoretic conjecture and its implication for set theory</a>, Acta Math. Univ. Comenianae 74(2) (2005), 243-254.
-%H A034444 Lorenz Halbeisen and Norbert Hungerbuehler, <a href="http://math.berkeley.edu/~halbeis/publications/pdf/seq.pdf">Number theoretic aspects of a combinatorial function</a>, Notes on Number Theory and Discrete Mathematics 5 (1999), 138-150.
+%H A034444 Lorenz Halbeisen and Norbert Hungerbuehler, <a href="https://user.math.uzh.ch/halbeisen/publications/pdf/seq.pdf">Number theoretic aspects of a combinatorial function</a>, Notes on Number Theory and Discrete Mathematics 5 (1999), 138-150.
 %H A034444 Jon Maiga, <a href="http://jonkagstrom.com/articles/upper_bound_of_fibonacci_entry_points.pdf">Upper bound of Fibonacci entry points</a>, 2019.
 %H A034444 OEIS Wiki, <a href="https://oeis.org/wiki/Shadow_transform">Shadow transform</a>.
 %H A034444 N. J. A. Sloane, <a href="/transforms.txt">Transforms</a>.
@@ -38,13 +38,13 @@
 %F A034444 a(n) = Product_{ primes p|n } (1 + Legendre(1, p)).
 %F A034444 Multiplicative with a(p^k)=2 for p prime and k>0. - _Henry Bottomley_, Oct 25 2001
 %F A034444 a(n) = Sum_{d|n} tau(d^2)*mu(n/d), Dirichlet convolution of A048691 and A008683. - _Benoit Cloitre_, Oct 03 2002
-%F A034444 Dirichlet generating function: zeta(s)^2/zeta(2s). - _Franklin T. Adams-Watters_, Sep 11 2005.
+%F A034444 Dirichlet generating function: zeta(s)^2/zeta(2s). - _Franklin T. Adams-Watters_, Sep 11 2005
 %F A034444 Inverse Mobius transform of A008966. - _Franklin T. Adams-Watters_, Sep 11 2005
 %F A034444 Asymptotically [Finch] the cumulative sum of a(n) = Sum_{n=1..N} a(n) ~ (6/(Pi^2))*N*log(N) + (6/(Pi^2))*(2*gamma - 1 - (12/(Pi^2))*zeta'(2))*N + O(sqrt(N)). - _Jonathan Vos Post_, May 08 2005 [typo corrected by _Vaclav Kotesovec_, Sep 13 2018]
 %F A034444 a(n) = Sum_{d|n} floor(rad(d)/d), where rad is A007947 and floor(rad(n)/n) = A008966(n). - _Enrique Pérez Herrero_, Nov 13 2009
 %F A034444 a(n) = A000005(n) - A048105(n); number of nonzero terms in row n of table A225817. - _Reinhard Zumkeller_, Jul 30 2013
 %F A034444 G.f.: Sum_{n>0} A008966(n)*x^n/(1-x^n). - _Mircea Merca_, Feb 25 2014
-%F A034444 a(n) = Sum_{d|n} lambda(d)*mu(d)), where lambda is A008836. - _Enrique Pérez Herrero_, Apr 27 2014
+%F A034444 a(n) = Sum_{d|n} lambda(d)*mu(d), where lambda is A008836. - _Enrique Pérez Herrero_, Apr 27 2014
 %F A034444 a(n) = A277561(A156552(n)). - _Antti Karttunen_, May 29 2017
 %F A034444 a(n) = A005361(n^2)/A005361(n). - _Velin Yanev_, Jul 26 2017
 %F A034444 L.g.f.: -log(Product_{k>=1} (1 - mu(k)^2*x^k)^(1/k)) = Sum_{n>=1} a(n)*x^n/n. - _Ilya Gutkovskiy_, Jul 30 2018
@@ -69,6 +69,7 @@
 %p A034444 # alternative Maple program:
 %p A034444 a:= n-> 2^nops(ifactors(n)[2]):
 %p A034444 seq(a(n), n=1..105);  # _Alois P. Heinz_, Jan 23 2024
+%p A034444 a := n -> 2^NumberTheory:-NumberOfPrimeFactors(n, distinct):  # _Peter Luschny_, May 13 2025
 %t A034444 a[n_] := Count[Divisors[n], d_ /; GCD[d, n/d] == 1]; a /@ Range[105] (* _Jean-François Alcover_, Apr 05 2011 *)
 %t A034444 Table[2^PrimeNu[n],{n,110}] (* _Harvey P. Dale_, Jul 14 2011 *)
 %o A034444 (PARI) a(n)=1<<omega(n) \\ _Charles R Greathouse IV_, Feb 11 2011
@@ -94,4 +95,4 @@
 %K A034444 nonn,nice,easy,mult
 %O A034444 1,2
 %A A034444 _N. J. A. Sloane_
-%E A034444 More terms from _James A. Sellers_, Jun 20 2000
+%E A034444 More terms from _James Sellers_, Jun 20 2000

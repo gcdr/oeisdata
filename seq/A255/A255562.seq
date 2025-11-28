@@ -1,10 +1,10 @@
-%I A255562 #57 Apr 13 2022 01:16:25
+%I A255562 #58 Nov 05 2025 15:22:29
 %S A255562 3,5,7,3,11,7,37,19,277,331,223,439,7,406507,67,330515394367,967,
 %T A255562 10576492618777,116041,223724392248491824062507397,3691561,
 %U A255562 100105207373914057144918297314160710207525630111509317,423951181
 %N A255562 A reversed prime Fibonacci sequence: a(n+2) is the smallest odd prime such that a(n) is the smallest odd prime divisor of a(n+1)+a(n+2).
 %C A255562 The sequence satisfies a(1) = 3, a(2) = 5, and a(n+2) is the smallest odd prime with the following property: a(n) is the smallest odd prime divisor of a(n+1)+a(n+2). It is a provably infinite sequence. It is also the "reverse" of a prime Fibonacci sequence terminating in 5,3. A prime Fibonacci sequence satisfies the following relation: a(n+2) is the smallest odd prime dividing a(n)+a(n+1), unless a(n)+a(n+1) is a power of two, in which case the sequence terminates. Prime Fibonacci sequences provably terminate, but provably can be extended indefinitely to the left.
-%H A255562 J. F. Alm and T. Herald, <a href="http://arxiv.org/abs/1507.04807">A Note on Prime Fibonacci Sequences</a>, Fibonacci Quarterly 54:1 (2016), pp. 55-58. arXiv:1507.04807 [math.NT], 2015.
+%H A255562 J. F. Alm and T. Herald, <a href="https://arxiv.org/abs/1507.04807">A Note on Prime Fibonacci Sequences</a>, Fibonacci Quarterly 54:1 (2016), pp. 55-58. arXiv:1507.04807 [math.NT], 2015.
 %o A255562 (Python)
 %o A255562 import math
 %o A255562 def sieve(n):

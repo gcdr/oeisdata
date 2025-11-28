@@ -1,6 +1,6 @@
-%I A129341 #13 Sep 12 2024 19:23:12
+%I A129341 #17 Aug 01 2025 14:47:58
 %S A129341 0,1,2,3,7,8,10,11,12,23,27,31,34,36,41,76,88,631,774,893,2827
-%N A129341 Numbers n such that n-th and (n+1)th triangular numbers have no common digit.
+%N A129341 Numbers k such that k-th and (k+1)-th triangular numbers have no common digit.
 %C A129341 No more terms <5000000. Is the sequence finite?
 %C A129341 The PARI program shows that there is no further term up to 10^100. - _Robert Gerbicz_, Jun 10 2007
 %e A129341 n=893: T(n)=399171, T(n+1)=400065; n=2827: T(n)=3997378, T(n+1)=4000206.

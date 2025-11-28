@@ -1,8 +1,8 @@
-%I A250056 #4 Nov 11 2014 07:58:00
+%I A250056 #6 Jul 23 2025 12:11:04
 %S A250056 160545,715155,3213429,14492075,65419155,295152625,1329866076,
 %T A250056 5981519744,27178700296,123528843942,561247084167,2548305470845,
 %U A250056 11560959719480,52404317892755,237372299583294,1076863279617926,4887429513163975
-%N A250056 Number of length n+6 0..5 arrays with no seven consecutive terms having the maximum of any two terms equal to the minimum of the remaining five terms
+%N A250056 Number of length n+6 0..5 arrays with no seven consecutive terms having the maximum of any two terms equal to the minimum of the remaining five terms.
 %C A250056 Column 5 of A250059
 %H A250056 R. H. Hardin, <a href="/A250056/b250056.txt">Table of n, a(n) for n = 1..210</a>
 %e A250056 Some solutions for n=1

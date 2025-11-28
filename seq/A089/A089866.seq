@@ -1,4 +1,4 @@
-%I A089866 #15 Mar 31 2012 14:02:27
+%I A089866 #16 Nov 10 2025 21:50:38
 %S A089866 0,1,2,3,4,5,6,8,7,9,10,11,12,13,14,15,19,21,22,16,17,18,20,23,24,25,
 %T A089866 26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,51,52,56,58,59,60,62,
 %U A089866 63,64,42,43,44,45,46,47,48,49,50,53,54,55,57,61,65,66,67,68,69
@@ -14,7 +14,7 @@
 %C A089866 ................................................................
 %C A089866 Compare to A154122.
 %C A089866 See "Catalan bijections" OEIS-Wiki page for a detailed explanation how to obtain a given integer sequence from this definition.
-%H A089866 A. Karttunen, <a href="http://oeis.org/wiki/Catalan_bijections">Catalan bijections</a>
+%H A089866 A. Karttunen, <a href="https://oeis.org/wiki/Catalan_bijections">Catalan bijections</a>
 %H A089866 A. Karttunen, <a href="/A089408/a089408.c.txt">C-program for computing this sequence</a>
 %H A089866 <a href="/index/Per#IntegerPermutationCatAuto">Index entries for signature-permutations induced by Catalan automorphisms</a>
 %o A089866 (Two Scheme-functions implementing this automorphism on list-structures/S-expressions, constructive (*A089866) and destructive (*A089866!) version:)

@@ -1,7 +1,7 @@
-%I A070063 #28 May 26 2019 15:26:02
+%I A070063 #32 Sep 14 2025 02:31:03
 %S A070063 1,3,8,0,6,4,9
 %N A070063 Decimal expansion of the Boltzmann constant k in the 2019 SI system in units J/K.
-%C A070063 The exact Boltzmann constant is one of the seven units in the 2019 system of units. See the BIMP link with the CGPM resolutuions from November 2018 which will become effective May 20 2019. See also A322415. - _Wolfdieter Lang_, Feb 12 2019
+%C A070063 The exact Boltzmann constant is one of the seven units in the 2019 system of units. See the BIMP link with the CGPM resolutions from November 2018 which will become effective May 20 2019. See also A322415. - _Wolfdieter Lang_, Feb 12 2019
 %D A070063 CRC Handbook for Chemistry and Physics, 75th edition, (1994-1995), Page 1-1.
 %H A070063 BIPM, <a href="https://www.bipm.org/en/cgpm-2018/">CGPM-2018</a> [See the link ``Resolutions of the CGPM" there.]
 %H A070063 NIST, <a href="http://physics.nist.gov/cgi-bin/cuu/Value?k">CODATA Value: Boltzmann constant</a>

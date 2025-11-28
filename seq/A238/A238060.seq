@@ -1,8 +1,8 @@
-%I A238060 #4 Feb 17 2014 10:55:03
+%I A238060 #6 Jul 23 2025 10:44:15
 %S A238060 14429,373572,9814274,262520800,6977336094,184559576240,4896168992178,
 %T A238060 130300801140848,3460857040227988,91752190849368036,
 %U A238060 2436945806893773614,64734113272662248736,1719213625840543673114,45616366483261333652780
-%N A238060 Number of (n+1)X(3+1) 0..3 arrays with the maximum plus the lower median minus the upper median of every 2X2 subblock differing from its horizontal and vertical neighbors by exactly one
+%N A238060 Number of (n+1)X(3+1) 0..3 arrays with the maximum plus the lower median minus the upper median of every 2X2 subblock differing from its horizontal and vertical neighbors by exactly one.
 %C A238060 Column 3 of A238063
 %H A238060 R. H. Hardin, <a href="/A238060/b238060.txt">Table of n, a(n) for n = 1..210</a>
 %e A238060 Some solutions for n=1

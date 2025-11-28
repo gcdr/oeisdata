@@ -1,11 +1,11 @@
-%I A181992 #14 Aug 12 2019 18:09:21
+%I A181992 #15 Nov 10 2025 21:50:39
 %S A181992 1,1,5,1513,60376809,613498040952501,2655748106132754540814283,
 %T A181992 7350748555338515554166266981278924209,
 %U A181992 18155845241010181420704703186769135339279915667193169,53121946985233865823079732996510797894348260342024814486694637630897821
 %N A181992 n-alternating permutations of length n^2.
 %C A181992 These are the generalized Euler numbers A181985(n, n) and also the André numbers A181937(n, n^2).
 %H A181992 Alois P. Heinz, <a href="/A181992/b181992.txt">Table of n, a(n) for n = 0..26</a>
-%H A181992 Peter Luschny, <a href="http://oeis.org/wiki/User:Peter_Luschny/SeidelTransform">An old operation on sequences: the Seidel transform</a>
+%H A181992 Peter Luschny, <a href="https://oeis.org/wiki/User:Peter_Luschny/SeidelTransform">An old operation on sequences: the Seidel transform</a>
 %p A181992 A181992 := proc(n) local E, dim, i, k; dim := n*n;
 %p A181992 E := array(0..dim, 0..dim); E[0, 0] := 1;
 %p A181992 for i from 1 to dim do

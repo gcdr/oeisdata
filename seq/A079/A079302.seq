@@ -1,6 +1,7 @@
-%I A079302 #17 Feb 16 2025 08:32:48
+%I A079302 #20 Apr 22 2025 09:48:05
 %S A079302 0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,2,0,3,0,0,0,1,2,0,0,18,0,13,0,0,
-%T A079302 0,0,0,6,5,2,0,3,6,0,0,0,0,37,0,1,2,0,3,34,0,17,0,25
+%T A079302 0,0,0,6,5,2,0,3,6,0,0,0,0,37,0,1,2,0,3,34,0,17,0,25,44,4,0,15,32,7,0,
+%U A079302 0,0,0,0,3,0,244,0,7,13,2,8,0,6,129,0,3,6
 %N A079302 a(n) = number of shortest addition chains for n that are non-Brauer chains.
 %C A079302 In a general addition chain, each element > 1 is a sum of two previous elements (the two may be the same element). In a Brauer chain, each element > 1 is a sum of the immediately previous element and another previous element. Conversely, a non-Brauer chain has at least one element that is the sum of two elements earlier than the preceding one.
 %H A079302 Glen Whitney, <a href="/A079302/b079302.txt">Table of n, a(n) for n = 1..18286</a> (Terms 1..1024 from D. W. Wilson)

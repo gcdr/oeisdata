@@ -1,4 +1,4 @@
-%I A012830 #7 Feb 05 2015 15:36:30
+%I A012830 #8 Sep 30 2025 20:34:16
 %S A012830 1,4,88,4184,398848,58835456,12993783424,3911934210560,
 %T A012830 1562951627091968,793328025614454784,501079933291827593216,
 %U A012830 384338283691725654392832,352458553186266111883247616
@@ -7,4 +7,4 @@
 %t A012830 nn = 20; Table[(CoefficientList[Series[ArcTanh[ArcSinh[x]*Sec[x]], {x, 0, 2*nn+1}], x] * Range[0, 2*nn+1]!)[[n]], {n, 2, 2*nn, 2}] (* _Vaclav Kotesovec_, Feb 05 2015 *)
 %K A012830 nonn
 %O A012830 0,2
-%A A012830 Patrick Demichel (patrick.demichel(AT)hp.com)
+%A A012830 _Patrick Demichel_

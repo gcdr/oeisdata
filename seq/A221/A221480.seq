@@ -1,8 +1,8 @@
-%I A221480 #3 Jan 17 2013 17:24:59
+%I A221480 #7 Oct 03 2025 19:42:34
 %S A221480 0,292,11784,802711,48514602,2942599561,178388225956,10813887700409,
 %T A221480 655520056354214,39736291487120087,2408728477458995298,
 %U A221480 146011851408477524221
-%N A221480 Number of nX5 arrays of occupancy after each element moves to some horizontal or antidiagonal neighbor, without consecutive moves in the same direction
+%N A221480 Number of nX5 arrays of occupancy after each element moves to some horizontal or antidiagonal neighbor, without consecutive moves in the same direction.
 %C A221480 Column 5 of A221483
 %e A221480 Some solutions for n=3
 %e A221480 ..0..1..1..2..0....0..2..1..0..1....1..2..1..0..0....0..2..2..0..1
@@ -10,4 +10,4 @@
 %e A221480 ..0..1..1..2..1....0..1..1..2..0....0..0..1..1..0....0..3..0..1..0
 %K A221480 nonn
 %O A221480 1,2
-%A A221480 _R. H. Hardin_ Jan 17 2013
+%A A221480 _R. H. Hardin_, Jan 17 2013

@@ -1,8 +1,8 @@
-%I A287246 #6 Jun 13 2017 10:05:46
+%I A287246 #8 Jun 02 2025 12:22:12
 %S A287246 77753398058,94151657522,98497118618,105654348614,107396027126,
 %T A287246 107978124554,112402593722,112536300194,113395841738,113591877506,
 %U A287246 113834039318,113903752562,114541896698,114637401218,114663447902,114856499738,115175241854,115246892846,115271202986
-%N A287246 Numbers whose sum of proper divisors is equal to 57939481594
+%N A287246 Numbers whose sum of proper divisors is equal to 57939481594.
 %C A287246 The number 57939481594 is the 44th element of A283157. That is, no even number below it has more preimages under the sum-of-proper-divisors function.
 %C A287246 There are exactly 94 elements in the sequence.
 %C A287246 In 2016, C. Pomerance proved that, for every e>0, the number of preimages is O_e(n^{2/3+e}).

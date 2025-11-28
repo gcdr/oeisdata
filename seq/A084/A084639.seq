@@ -1,4 +1,4 @@
-%I A084639 #94 Feb 21 2025 12:33:10
+%I A084639 #99 Nov 26 2025 15:59:36
 %S A084639 0,1,4,9,20,41,84,169,340,681,1364,2729,5460,10921,21844,43689,87380,
 %T A084639 174761,349524,699049,1398100,2796201,5592404,11184809,22369620,
 %U A084639 44739241,89478484,178956969,357913940,715827881,1431655764,2863311529,5726623060,11453246121
@@ -21,7 +21,7 @@
 %C A084639 For n > 0, also the total distance that the disks travel from the leftmost peg to the middle peg in the Tower of Hanoi puzzle, in the unique solution with 2^n - 1 moves (see links). - _Sela Fried_, Dec 17 2023
 %H A084639 Vincenzo Librandi, <a href="/A084639/b084639.txt">Table of n, a(n) for n = 0..1000</a>
 %H A084639 Sela Fried, <a href="/A026644/a026644_1.pdf">Economically solving the Tower of Hanoi puzzle</a>.
-%H A084639 A. F. Horadam, <a href="https://web.archive.org/web/2024*/https://www.fq.math.ca/Scanned/34-1/horadam2.pdf">Jacobsthal Representation Numbers</a>, Fib Quart. 34, 40-54, 1996.
+%H A084639 A. F. Horadam, <a href="https://www.fq.math.ca/Scanned/34-1/horadam2.pdf">Jacobsthal Representation Numbers</a>, Fib Quart. 34, 40-54, 1996.
 %H A084639 Wolfdieter Lang, <a href="/A084639/a084639.pdf">Notes on certain inhomogeneous three term recurrences.</a>
 %H A084639 El-Mehdi Mehiri, Saad Mneimneh, and Hacène Belbachir, <a href="https://arxiv.org/abs/2502.11045">The Towers of Fibonacci, Lucas, Pell, and Jacobsthal</a>, arXiv:2502.11045 [math.CO], 2025. See p. 12.
 %H A084639 <a href="/index/Rec#order_03">Index entries for linear recurrences with constant coefficients</a>, signature (2,1,-2).
@@ -42,6 +42,8 @@
 %o A084639 (Magma) [2^(n+2)/3+(-1)^n/6-3/2: n in [0..35]]; // _Vincenzo Librandi_, Aug 08 2011
 %o A084639 (PARI) a(n)=2^(n+2)/3-if(n%2,5,4)/3 \\ _Charles R Greathouse IV_, Aug 08 2011
 %o A084639 (PARI) concat(0, Vec(x*(1+2*x)/((1+x)*(1-x)*(1-2*x)) + O(x^100))) \\ _Altug Alkan_, Dec 17 2015
+%o A084639 (Python)
+%o A084639 def A084639(n): return (4<<n|1)//3-1-(n&1) # _Chai Wah Wu_, Apr 25 2025
 %Y A084639 Cf. A000975, A000225, A001045.
 %Y A084639 Cf. A265747.
 %K A084639 easy,nonn,changed

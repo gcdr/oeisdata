@@ -1,9 +1,9 @@
-%I A202816 #12 Jun 03 2020 03:45:09
+%I A202816 #13 Nov 05 2025 15:22:21
 %S A202816 1,1,0,3,4,4,11,8,4,0,57,68,76,80,80,361,304,236,160,80,0,2763,3124,
 %T A202816 3428,3664,3824,3904,3904,24611,21848,18724,15296,11632,7808,3904,0,
 %U A202816 250737,275348,297196,315920,331216,342848,350656,354560,354560
 %N A202816 The left-hand half-triangle of A185356 (or A202690).
-%H A202816 M. Josuat-Vergès, J.-C. Novelli and J.-Y. Thibon, <a href="http://arxiv.org/abs/1110.5272">The algebraic combinatorics of snakes</a>, arXiv preprint arXiv:1110.5272 [math.CO], 2011.
+%H A202816 M. Josuat-Vergès, J.-C. Novelli and J.-Y. Thibon, <a href="https://arxiv.org/abs/1110.5272">The algebraic combinatorics of snakes</a>, arXiv preprint arXiv:1110.5272 [math.CO], 2011.
 %e A202816 Triangle begins:
 %e A202816     1
 %e A202816     1   0

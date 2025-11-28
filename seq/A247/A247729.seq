@@ -1,8 +1,8 @@
-%I A247729 #6 Sep 23 2014 16:32:09
+%I A247729 #8 Jul 23 2025 11:37:15
 %S A247729 8,172,1248,5796,19744,55372,133780,290004,576064,1068584,1871996,
 %T A247729 3129068,5023940,7795872,11741676,17233232,24718860,34744832,47955536,
 %U A247729 65119328,87126876,115022012,149997832,193432664,246883888,312129332
-%N A247729 Number of length 3+3 0..n arrays with no disjoint pairs in any consecutive four terms having the same sum
+%N A247729 Number of length 3+3 0..n arrays with no disjoint pairs in any consecutive four terms having the same sum.
 %C A247729 Row 3 of A247726
 %H A247729 R. H. Hardin, <a href="/A247729/b247729.txt">Table of n, a(n) for n = 1..210</a>
 %F A247729 Empirical: a(n) = 2*a(n-1) +a(n-2) -2*a(n-3) -2*a(n-4) -2*a(n-5) +5*a(n-6) +2*a(n-7) -2*a(n-9) -5*a(n-10) +2*a(n-11) +2*a(n-12) +2*a(n-13) -a(n-14) -2*a(n-15) +a(n-16)

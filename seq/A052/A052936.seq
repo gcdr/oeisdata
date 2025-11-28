@@ -1,4 +1,4 @@
-%I A052936 #30 Sep 08 2022 08:44:59
+%I A052936 #33 Oct 30 2025 15:09:42
 %S A052936 1,2,7,25,90,325,1175,4250,15375,55625,201250,728125,2634375,9531250,
 %T A052936 34484375,124765625,451406250,1633203125,5908984375,21378906250,
 %U A052936 77349609375,279853515625,1012519531250,3663330078125,13254052734375
@@ -20,7 +20,7 @@
 %t A052936 Join[{1}, Table[If[EvenQ[n], 5^(n/2 -1)*LucasL[n+2], 5^((n-1)/2)* Fibonacci[n + 2]], {n, 30}]] (* _G. C. Greubel_, Oct 18 2019 *)
 %o A052936 (PARI) my(x='x+O('x^30)); Vec((1-x)*(1-2*x)/(1-5*x+5*x^2)) \\ _G. C. Greubel_, Oct 18 2019
 %o A052936 (Magma) I:=[2,7]; [1] cat [n le 2 select I[n] else 5*(Self(n-1) - Self(n-2)): n in [1..30]]; // _G. C. Greubel_, Oct 18 2019
-%o A052936 (Sage)
+%o A052936 (SageMath)
 %o A052936 def A052936_list(prec):
 %o A052936     P.<x> = PowerSeriesRing(ZZ, prec)
 %o A052936     return P((1-x)*(1-2*x)/(1-5*x+5*x^2)).list()
@@ -29,5 +29,5 @@
 %Y A052936 Cf. A000032, A000045.
 %K A052936 easy,nonn
 %O A052936 0,2
-%A A052936 encyclopedia(AT)pommard.inria.fr, Jan 25 2000
-%E A052936 More terms from _James A. Sellers_, Jun 06 2000
+%A A052936 _INRIA Encyclopedia of Combinatorial Structures_, Jan 25 2000
+%E A052936 More terms from _James Sellers_, Jun 06 2000

@@ -1,4 +1,4 @@
-%I A082183 #50 Apr 24 2021 03:49:23
+%I A082183 #54 Nov 05 2025 15:22:02
 %S A082183 2,5,9,3,5,27,10,4,8,14,17,9,5,21,135,12,14,35,6,9,17,30,12,18,10,7,
 %T A082183 54,21,23,495,42,14,26,8,49,27,15,20,98,30,32,80,9,19,35,62,45,17,20,
 %U A082183 14,99,39,10,18,54,24,44,78,81,45,25,85,153,11,50,125,20,29,53,94,97
@@ -13,7 +13,7 @@
 %C A082183 Let q be the quotient n(n+1)/q. Then m-k = min(d,q) and m+k+1 = max(d,q). Solve for k, which is the required minimum k(n) = a(n).
 %C A082183 Example:  n=5, T(n)=15, 2T(n)=30 = 3*10, d=3, q=10, k=3, m=6, 15+6 = 21. (End)
 %H A082183 Chai Wah Wu, <a href="/A082183/b082183.txt">Table of n, a(n) for n = 2..10000</a>
-%H A082183 J. S. Myers, R. Schroeppel, S. R. Shannon, N. J. A. Sloane, and P. Zimmermann, <a href="http://arxiv.org/abs/2004.14000">Three Cousins of Recaman's Sequence</a>, arXiv:2004:14000 [math.NT], April 2020.
+%H A082183 J. S. Myers, R. Schroeppel, S. R. Shannon, N. J. A. Sloane, and P. Zimmermann, <a href="https://arxiv.org/abs/2004.14000">Three Cousins of Recaman's Sequence</a>, arXiv:2004:14000 [math.NT], April 2020.
 %p A082183 f:= proc(n) local e,t,te;
 %p A082183      t:= n*(n+1);
 %p A082183      e:= padic:-ordp(t,2);
@@ -22,6 +22,7 @@
 %p A082183 map(f, [$2..100]); # _Robert Israel_, Sep 15 2017
 %t A082183 Table[SelectFirst[Range[10^3], Function[m, PolygonalNumber@ Floor@ Sqrt[2 m] == m][PolygonalNumber[n] + PolygonalNumber[#]] &], {n, 2, 72}] (* _Michael De Vlieger_, Sep 19 2017, after Maple by _Robert Israel_ *)
 %o A082183 (PARI) for(n=2, 100, t=n*(n+1)/2; for(k=1, 10^9, u=t+k*(k+1)/2; v=floor(sqrt(2*u)); if(v*(v+1)/2==u, print1(k", "); break)))
+%o A082183 (PARI) a(n) = my(t=n*(n+1)/2, k=1, u=t+k*(k+1)/2, v=sqrtint(2*u)); while(v*(v+1)/2 != u, k++; u=t+k*(k+1)/2; v=sqrtint(2*u)); k; \\ _Michel Marcus_, Sep 22 2025
 %o A082183 (Python)
 %o A082183 from __future__ import division
 %o A082183 from sympy import divisors

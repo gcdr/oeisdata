@@ -1,4 +1,4 @@
-%I A090305 #26 Sep 08 2022 08:45:12
+%I A090305 #27 Sep 22 2025 16:00:43
 %S A090305 2,16,258,4144,66562,1069136,17172738,275832944,4430499842,
 %T A090305 71163830416,1143051786498,18359992414384,294902930416642,
 %U A090305 4736806879080656,76083812995707138,1222077814810394864,19629328849962024962
@@ -22,7 +22,7 @@
 %t A090305 LucasL[Range[20]-1, 16] (* _G. C. Greubel_, Dec 31 2019 *)
 %o A090305 (PARI) vector(21, n, 2*(-I)^(n-1)*polchebyshev(n-1, 1, 8*I) ) \\ _G. C. Greubel_, Dec 31 2019
 %o A090305 (Magma) m:=16; I:=[2,m]; [n le 2 select I[n] else m*Self(n-1) +Self(n-2): n in [1..20]]; // _G. C. Greubel_, Dec 31 2019
-%o A090305 (Sage) [2*(-I)^n*chebyshev_T(n, 8*I) for n in (0..20)] # _G. C. Greubel_, Dec 31 2019
+%o A090305 (SageMath) [2*(-I)^n*chebyshev_T(n, 8*I) for n in (0..20)] # _G. C. Greubel_, Dec 31 2019
 %o A090305 (GAP) m:=16;; a:=[2,m];; for n in [3..20] do a[n]:=m*a[n-1]+a[n-2]; od; a; # _G. C. Greubel_, Dec 31 2019
 %Y A090305 Cf. A002070, A015910.
 %Y A090305 Lucas polynomials: A114525.

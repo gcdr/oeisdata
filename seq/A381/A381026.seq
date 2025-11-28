@@ -1,6 +1,6 @@
-%I A381026 #5 Feb 14 2025 09:55:13
+%I A381026 #9 Apr 18 2025 17:45:18
 %S A381026 568,626
-%N A381026 Primitive solutions k to the exponential Diophantine equation k^7 = Sum_{i=1..7} y_i^7 with y_i > 0.
+%N A381026 Primitive solutions k to the Diophantine equation k^7 = Sum_{i=1..7} y_i^7 with y_i > 0.
 %H A381026 Jean-Charles Meyrignac, <a href="http://euler.free.fr/">Computing Minimal Equal Sums Of Like Powers</a>.
 %H A381026 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/DiophantineEquation7thPowers.html">Diophantine Equation - 7th powers</a>.
 %H A381026 <a href="/index/Di#Diophantine">Index to sequences related to Diophantine equations</a> (7,1,7)

@@ -1,4 +1,4 @@
-%I A206296 #50 Feb 16 2025 08:33:16
+%I A206296 #56 Sep 11 2025 18:48:11
 %S A206296 1,2,3,10,63,2750,842751,85558343750,2098355820117528699,
 %T A206296 769999781728184386440152910156250,
 %U A206296 2359414683424785920146467280333749864720543920418139851
@@ -25,9 +25,10 @@
 %t A206296 c[n_] := CoefficientList[Fibonacci[n, x], x]
 %t A206296 f[n_] := Product[Prime[k]^c[n][[k]], {k, 1, Length[c[n]]}]
 %t A206296 Table[f[n], {n, 1, 11}]  (* A206296 *)
-%o A206296 (Scheme, with memoization-macro definec)
+%o A206296 (Scheme) ;; With memoization-macro definec.
 %o A206296 (definec (A206296 n) (cond ((<= n 1) (+ 1 n)) (else (* (A003961 (A206296 (- n 1))) (A206296 (- n 2))))))
 %o A206296 (Python)
+%o A206296 from functools import reduce
 %o A206296 from sympy import factorint, prime, primepi
 %o A206296 from operator import mul
 %o A206296 def a003961(n):

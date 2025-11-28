@@ -1,4 +1,4 @@
-%I A022169 #40 May 13 2019 15:25:28
+%I A022169 #47 Nov 05 2025 15:21:49
 %S A022169 1,1,1,1,6,1,1,31,31,1,1,156,806,156,1,1,781,20306,20306,781,1,1,3906,
 %T A022169 508431,2558556,508431,3906,1,1,19531,12714681,320327931,320327931,
 %U A022169 12714681,19531,1,1,97656,317886556
@@ -7,18 +7,20 @@
 %D A022169 F. J. MacWilliams and N. J. A. Sloane, The Theory of Error-Correcting Codes, Elsevier-North Holland, 1978, p. 698.
 %D A022169 M. Sved, Gaussians and binomials, Ars. Combinatoria, 17A (1984), 325-351.
 %H A022169 G. C. Greubel, <a href="/A022169/b022169.txt">Rows n=0..50 of triangle, flattened</a>
-%H A022169 R. Mestrovic, <a href="http://arxiv.org/abs/1409.3820">Lucas' theorem: its generalizations, extensions and applications (1878--2014)</a>, arXiv preprint arXiv:1409.3820 [math.NT], 2014.
+%H A022169 R. Mestrovic, <a href="https://arxiv.org/abs/1409.3820">Lucas' theorem: its generalizations, extensions and applications (1878--2014)</a>, arXiv preprint arXiv:1409.3820 [math.NT], 2014.
 %H A022169 Kent E. Morrison, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL9/Morrison/morrison37.html">Integer Sequences and Matrices Over Finite Fields</a>, Journal of Integer Sequences, Vol. 9 (2006), Article 06.2.1.
 %H A022169 <a href="/index/Ga#Gaussian_binomial_coefficients">Index entries for sequences related to Gaussian binomial coefficients</a>
 %F A022169 T(n,k) = T(n-1,k-1) + q^k * T(n-1,k). - _Peter A. Lawrence_, Jul 13 2017
-%e A022169 1;
-%e A022169 1, 1;
-%e A022169 1, 6, 1;
-%e A022169 1, 31, 31, 1;
-%e A022169 1, 156, 806, 156, 1;
-%e A022169 1, 781, 20306, 20306, 781, 1;
-%e A022169 1, 3906, 508431, 2558556, 508431, 3906, 1;
-%e A022169 1, 19531, 12714681, 320327931, 320327931, 12714681, 19531, 1,
+%F A022169 G.f. of column k: x^k * exp( Sum_{j>=1} f((k+1)*j)/f(j) * x^j/j ), where f(j) = 5^j - 1. - _Seiichi Manyama_, May 09 2025
+%e A022169 Triangle begins:
+%e A022169   1;
+%e A022169   1,     1;
+%e A022169   1,     6,        1;
+%e A022169   1,    31,       31,         1;
+%e A022169   1,   156,      806,       156,         1;
+%e A022169   1,   781,    20306,     20306,       781,        1;
+%e A022169   1,  3906,   508431,   2558556,    508431,     3906,     1;
+%e A022169   1, 19531, 12714681, 320327931, 320327931, 12714681, 19531, 1,
 %p A022169 A027872 := proc(n)
 %p A022169         mul( 5^i-1, i=1..n) ;
 %p A022169 end proc:

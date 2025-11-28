@@ -1,8 +1,8 @@
-%I A149585 #8 Feb 28 2022 02:06:22
+%I A149585 #10 Jun 02 2025 00:53:01
 %S A149585 1,1,5,15,55,203,791,3041,12057,48249,194705,790373,3237213,13323957,
 %T A149585 55078721,228709819,953594747,3988265595,16730145283,70382381531,
 %U A149585 296830291631,1254604475451,5314036803363,22552374316543,95878895567139,408287637231539,1741343710323743,7437497858831271
-%N A149585 Number of walks within N^3 (the first octant of Z^3) starting at (0,0,0) and consisting of n steps taken from {(-1, -1, 0), (-1, -1, 1), (-1, 0, 1), (0, 0, -1), (1, 1, 1)}
+%N A149585 Number of walks within N^3 (the first octant of Z^3) starting at (0,0,0) and consisting of n steps taken from {(-1, -1, 0), (-1, -1, 1), (-1, 0, 1), (0, 0, -1), (1, 1, 1)}.
 %H A149585 Robert Israel, <a href="/A149585/b149585.txt">Table of n, a(n) for n = 0..225</a>
 %H A149585 Alin Bostan and Manuel Kauers, <a href="https://arxiv.org/abs/0811.2899">Automatic Classification of Restricted Lattice Walks</a>, arXiv:0811.2899 [math.CO], 2009.
 %p A149585 Steps:= [[-1, -1, 0], [-1, -1, 1], [-1, 0, 1], [0, 0, -1], [1, 1, 1] ]:

@@ -1,11 +1,11 @@
-%I A152005 #31 Jan 18 2024 09:58:51
+%I A152005 #32 Nov 05 2025 15:22:17
 %S A152005 2,140,280,1092,166460,189070,665840,804540,845460,34250920,38336088,
 %T A152005 133784560,138535992,225792840,4998790160,6301258040,7559616818,
 %U A152005 8367691640,39991371446,104637102152,227490888350,1497809326860,296523233581822
 %N A152005 Numbers whose square is the product of two distinct tetrahedral numbers A000292.
 %C A152005 There may be values that are not given in the recurrence shown. This sequence is suggested by Ulas, p. 11, who supplied the recurrence.
 %C A152005 a(24) > 3*10^14. - _Donovan Johnson_, Jan 11 2012
-%H A152005 Maciej Ulas, <a href="http://arxiv.org/abs/0811.2477">On certain Diophantine equations related to triangular and tetrahedral numbers</a>, arXiv:0811.2477 [math.NT], 2008.
+%H A152005 Maciej Ulas, <a href="https://arxiv.org/abs/0811.2477">On certain Diophantine equations related to triangular and tetrahedral numbers</a>, arXiv:0811.2477 [math.NT], 2008.
 %F A152005 a(n) = T(i)*T(j) where T(k) = A000292(k) = C(k+2,3) = k*(k+1)*(k+2)/6.
 %e A152005 From _R. J. Mathar_, Jan 22 2009: (Start)
 %e A152005 2 is in the sequence because 2^2 = 4*1 = T(2)*T(1).

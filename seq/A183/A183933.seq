@@ -1,8 +1,8 @@
-%I A183933 #5 Mar 31 2012 12:35:55
+%I A183933 #9 Oct 03 2025 02:10:52
 %S A183933 1,5,20,83,262,777,2117,5278,12353,27893,58831,118985,235504,443653,
 %T A183933 810431,1459822,2529977,4285656,7192569,11698167,18689016,29678739,
 %U A183933 45907880,70000817,106315189,157902365,231761845,339336920,487306673
-%N A183933 Number of nondecreasing arrangements of n numbers in -7..7 with sum zero and sum of squares less than n*56/3
+%N A183933 Number of nondecreasing arrangements of n numbers in -7..7 with sum zero and sum of squares less than n*56/3.
 %C A183933 Column 7 of A183935
 %H A183933 R. H. Hardin, <a href="/A183933/b183933.txt">Table of n, a(n) for n = 1..63</a>
 %e A183933 Some solutions for n=4
@@ -12,4 +12,4 @@
 %e A183933 ..6....4....4....3....5....6....3....4....6....3....3....6....5....2....5....1
 %K A183933 nonn
 %O A183933 1,2
-%A A183933 _R. H. Hardin_ Jan 08 2011
+%A A183933 _R. H. Hardin_, Jan 08 2011

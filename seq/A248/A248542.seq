@@ -1,8 +1,8 @@
-%I A248542 #4 Oct 08 2014 04:03:39
+%I A248542 #6 Jul 23 2025 11:46:23
 %S A248542 2,15,52,149,462,907,2000,3827,6566,9607,13716,19361,26626,35005,
 %T A248542 45144,57553,72370,89055,108244,130139,155466,183111,214128,250561,
 %U A248542 289902,332521,379740,431741,487886,547037,610576,680137,755678,835739,919484
-%N A248542 Number of length 5+3 0..n arrays with every four consecutive terms having the sum of some three elements equal to three times the fourth
+%N A248542 Number of length 5+3 0..n arrays with every four consecutive terms having the sum of some three elements equal to three times the fourth.
 %C A248542 Row 5 of A248537
 %H A248542 R. H. Hardin, <a href="/A248542/b248542.txt">Table of n, a(n) for n = 1..210</a>
 %e A248542 Some solutions for n=6

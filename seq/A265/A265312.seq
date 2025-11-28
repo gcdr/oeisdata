@@ -1,4 +1,4 @@
-%I A265312 #30 Mar 28 2020 10:58:48
+%I A265312 #31 Sep 22 2025 16:01:23
 %S A265312 1,1,1,1,1,1,1,1,2,1,1,1,2,5,1,1,1,2,6,15,1,1,1,2,6,23,52,1,1,1,2,6,
 %T A265312 24,106,203,1,1,1,2,6,24,119,568,877,1,1,1,2,6,24,120,700,3459,4140,1,
 %U A265312 1,1,2,6,24,120,719,4748,23544,21147,1,1,1,2,6,24,120,720,5013,36403,176850,115975,1
@@ -18,7 +18,7 @@
 %p A265312     end:
 %p A265312 seq(seq(A(n, d-n), n=0..d), d=0..12);  # _Alois P. Heinz_, Aug 21 2017
 %t A265312 A[n_, h_]:=A[n, h]=If[Min[n, h]==0, 1, Sum[Binomial[n - 1, j - 1] A[j - 1, h - 1] A[n - j, h] , {j, n}]]; Table[A[n, d - n], {d, 0, 12}, {n, 0, d}]//Flatten (* _Indranil Ghosh_, Aug 21 2017, after maple code *)
-%o A265312 (Sage) # uses[bell_transform from A264428]
+%o A265312 (SageMath) # uses[bell_transform from A264428]
 %o A265312 def bell_number_matrix(ord, len):
 %o A265312     b = [1]*len; L = [b]
 %o A265312     for k in (1..ord-1):

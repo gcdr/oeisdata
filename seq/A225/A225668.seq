@@ -1,10 +1,10 @@
-%I A225668 #36 Nov 02 2024 06:49:46
+%I A225668 #37 Nov 05 2025 15:22:24
 %S A225668 0,4,6,8,9,10,11,12,12,13,13,14,14,15,15,16,16,16,16,17,17,17,18,18,
 %T A225668 18,18,19,19,19,19,19,20,20,20,20,20,20,20,21,21,21,21,21,21,21,22,22,
 %U A225668 22,22,22,22,22,22,23,23,23,23,23,23,23,23,23,23,24
 %N A225668 a(n) = floor(4*log_2(n)).
 %C A225668 Arises in analysis of "when to clean your room".
-%H A225668 Kimball Martin and Krishnan Shankar, <a href="http://arxiv.org/abs/1305.1984">How often should you clean your room?</a>, arXiv:1305.1984 [math.CO], 2013-2014.
+%H A225668 Kimball Martin and Krishnan Shankar, <a href="https://arxiv.org/abs/1305.1984">How often should you clean your room?</a>, arXiv:1305.1984 [math.CO], 2013-2014.
 %F A225668 a(n) = floor(4*log(n)/log(2)).
 %F A225668 a(n) = floor(log_2(n^4)) = A000523(A000583(n)), i.e., this A225668 = A000523 o A000583. - _M. F. Hasler_, Nov 07 2019
 %e A225668 a(3) = floor(4*log_2(3)) = floor(6.33985000) = 6.

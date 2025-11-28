@@ -1,6 +1,7 @@
-%I A120049 #12 Aug 23 2024 22:06:30
+%I A120049 #17 Mar 18 2025 13:35:15
 %S A120049 0,0,0,7,105,1418,17572,207207,2367507,26483012,291646797,3173159326,
-%T A120049 34192782745,365561221293,3882841742380
+%T A120049 34192782745,365561221293,3882841742380,41015564702074,
+%U A120049 431227959019552,4515480975731045,47115876816676830
 %N A120049 Number of 8-almost primes less than or equal to 10^n.
 %e A120049 There are 7 eight-almost primes up to 1000: 256, 384, 576, 640, 864, 896 & 960.
 %t A120049 AlmostPrimePi[k_Integer, n_] := Module[{a, i}, a[0] = 1; If[k == 1, PrimePi[n], Sum[PrimePi[n/Times @@ Prime[Array[a, k - 1]]] - a[k - 1] + 1, Evaluate[ Sequence @@ Table[{a[i], a[i - 1], PrimePi[(n/Times @@ Prime[Array[a, i - 1]])^(1/(k - i + 1))]}, {i, k - 1}]]]]]; (* _Eric W. Weisstein_, Feb 07 2006 *)
@@ -16,5 +17,6 @@
 %K A120049 nonn
 %O A120049 0,4
 %A A120049 _Robert G. Wilson v_, Feb 07 2006
-%E A120049 a(13) and a(14) from _Robert G. Wilson v_, Jan 07 2007
+%E A120049 a(13)-a(14) from _Robert G. Wilson v_, Jan 07 2007
 %E A120049 Example corrected by _Harvey P. Dale_, Aug 13 2018
+%E A120049 a(15)-a(18) from _Henri Lifchitz_, Mar 18 2025

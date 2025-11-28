@@ -1,4 +1,4 @@
-%I A302984 #13 Apr 19 2018 12:35:36
+%I A302984 #14 Nov 05 2025 15:22:41
 %S A302984 0,0,0,0,0,1,2,2,3,3,3,4,5,5,8,5,5,7,4,6,7,9,9,10,10,7,9,8,10,15,10,9,
 %T A302984 10,8,6,10,10,11,14,14,8,12,13,13,20,15,12,16,10,15,12,10,15,17,16,12,
 %U A302984 16,14,14,21
@@ -9,7 +9,7 @@
 %H A302984 Zhi-Wei Sun, <a href="/A302984/b302984.txt">Table of n, a(n) for n = 1..10000</a>
 %H A302984 Zhi-Wei Sun, <a href="http://dx.doi.org/10.1016/j.jnt.2016.11.008">Refining Lagrange's four-square theorem</a>, J. Number Theory 175(2017), 167-190.
 %H A302984 Zhi-Wei Sun, <a href="http://maths.nju.edu.cn/~zwsun/179b.pdf">New conjectures on representations of integers (I)</a>, Nanjing Univ. J. Math. Biquarterly 34(2017), no. 2, 97-120.
-%H A302984 Zhi-Wei Sun, <a href="http://arxiv.org/abs/1701.05868">Restricted sums of four squares</a>, arXiv:1701.05868 [math.NT], 2017-2018.
+%H A302984 Zhi-Wei Sun, <a href="https://arxiv.org/abs/1701.05868">Restricted sums of four squares</a>, arXiv:1701.05868 [math.NT], 2017-2018.
 %e A302984 a(6) = 1 with 6 = 0^2 + 2*0^2 + 2^0 + 5*2^0.
 %e A302984 a(7) = 2 with 7 = 1^2 + 2*0^2 + 2^0 + 5*2^0 = 0^2 + 2*0^2 + 2^1 + 5*2^0.
 %e A302984 a(8) = 2 with 8 = 0^2 + 2*1^2 + 2^0 + 5*2^0 = 1^2 + 2*0^2 + 2^1 + 5*2^0.

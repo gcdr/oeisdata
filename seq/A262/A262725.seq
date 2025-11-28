@@ -1,11 +1,11 @@
-%I A262725 #60 Sep 27 2024 23:16:43
+%I A262725 #62 Nov 05 2025 15:22:30
 %S A262725 1,-1,-1,1,1,-1,-1,1,1,-1,-1,1,1,-1,-1,1,1,-1,-1,1,1,-1,-1,1,-1,1,1,
 %T A262725 -1,-1,1,1,-1,-1,1,1,-1,-1,1,1,-1,-1,1,1,-1,-1,1,1,-1,1,-1,-1,1,1,-1,
 %U A262725 -1,1,1,-1,-1,1,1,-1,-1,1,1,-1,-1,1,1,-1,-1,1
 %N A262725 The unique function f with f(1)=1 and f(jD!+k)=(-1)^j f(k) for all D, j=1..D, and k=1..D!.
 %C A262725 sup_n |Sum_{j=1..n} f(jd)| is finite (but not bounded) for all d, thus giving a counterexample to a strong form of the Erdős discrepancy conjecture (see Remark 1.14 on p. 7 of Tao paper).
 %H A262725 Antti Karttunen, <a href="/A262725/b262725.txt">Table of n, a(n) for n = 1..40320</a>
-%H A262725 Terence Tao, <a href="http://arxiv.org/abs/1509.05363">The Erdős discrepancy problem</a>, arXiv:1509.05363 [math.CO], 2016.
+%H A262725 Terence Tao, <a href="https://arxiv.org/abs/1509.05363">The Erdős discrepancy problem</a>, arXiv:1509.05363 [math.CO], 2016.
 %H A262725 <a href="/index/Fa#facbase">Index entries for sequences related to factorial base representation</a>
 %F A262725 a(n) = (-1)^A034968(n-1). - _Antti Karttunen_ and _Peter Munn_, Aug 09 2024
 %t A262725 (* Generates terms recursively, using definition *)
@@ -13,7 +13,7 @@
 %t A262725 (* Generates terms individually, via A034968 (slower) *)
 %t A262725 A034968[n_] := Module[{a = n, i = 2}, While[i! <= n, a-=(i-1)*Floor[n/i++!]]; a];
 %t A262725 Array[(-1)^A034968[#] &, 5!, 0] (* _Paolo Xausa_, Aug 10 2024 *)
-%o A262725 (Sage)
+%o A262725 (SageMath)
 %o A262725 A=[1,1]
 %o A262725 for D in [1..4]:
 %o A262725     j=1

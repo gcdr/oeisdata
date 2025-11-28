@@ -1,4 +1,4 @@
-%I A304273 #43 Mar 13 2021 00:06:05
+%I A304273 #44 Nov 05 2025 15:22:41
 %S A304273 2,1,0,1,1,0,0,0,1,1,0,1,0,0,1,1,0,1,0,1,0,0,1,1,0,1,0,0,1,0,1,0,0,0,
 %T A304273 0,0,1,1,0,1,0,0,0,0,0,0,0,1,0,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,1,0,1,0,
 %U A304273 0,1,0,0,1,1,1,1,0,1,1,0,1,1,1,1,1,1,0,1,0,0,0,0,0,1,1,0,1,1,0,1,0,1,1,0,0
@@ -6,7 +6,7 @@
 %C A304273 This sequence exists since the smallest even integers (see A303500) are prefixes of each other.
 %C A304273 Apparently a variant of A205083. - _R. J. Mathar_, Jun 09 2018
 %H A304273 Michael De Vlieger, <a href="/A304273/b304273.txt">Table of n, a(n) for n = 1..10000</a>
-%H A304273 B. Chen, R. Chen, J. Guo, S. Lee et al., <a href="http://arxiv.org/abs/1808.04304">On Base 3/2 and its Sequences</a>, arXiv:1808.04304 [math.NT], 2018.
+%H A304273 B. Chen, R. Chen, J. Guo, S. Lee et al., <a href="https://arxiv.org/abs/1808.04304">On Base 3/2 and its Sequences</a>, arXiv:1808.04304 [math.NT], 2018.
 %F A304273 For n>1, a(n) = A304274(n-1) - 1.
 %e A304273 The number 5 in base 3/2 is 22, and the number 6 is 210. Therefore 210 is the smallest even integer with 3 digits in base 3/2. Its prefix 21 is 4: the smallest even integer with 2 digits in base 3/2.
 %p A304273 b:= proc(n) option remember; `if`(n<2, 2*n,

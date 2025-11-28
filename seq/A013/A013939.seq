@@ -1,4 +1,4 @@
-%I A013939 #97 Feb 16 2025 08:32:32
+%I A013939 #101 Sep 22 2025 16:00:23
 %S A013939 0,1,2,3,4,6,7,8,9,11,12,14,15,17,19,20,21,23,24,26,28,30,31,33,34,36,
 %T A013939 37,39,40,43,44,45,47,49,51,53,54,56,58,60,61,64,65,67,69,71,72,74,75,
 %U A013939 77,79,81,82,84,86,88,90,92,93,96,97,99,101,102,104,107,108,110,112
@@ -20,7 +20,7 @@
 %p A013939 A013939 := proc(n) option remember;  `if`(n = 1, 0, a(n) + iquo(n+1, ithprime(n+1))) end:
 %p A013939 seq(A013939(i), i = 1..69);  # _Peter Luschny_, Jul 16 2011
 %t A013939 a[n_] := Sum[Floor[n/Prime[k]], {k, 1, n}]; Table[a[n], {n, 1, 69}] (* _Jean-François Alcover_, Jun 11 2012, from 2nd formula *)
-%t A013939 Accumulate[PrimeNu[Range[120]] (* _Harvey P. Dale_, Jun 05 2015 *)
+%t A013939 Accumulate[PrimeNu[Range[120]]] (* _Harvey P. Dale_, Jun 05 2015 *)
 %o A013939 (PARI) t=0;vector(99,n,t+=omega(n)) \\ _Charles R Greathouse IV_, Jan 11 2012
 %o A013939 (PARI) a(n)=my(s);forprime(p=2,n,s+=n\p);s \\ _Charles R Greathouse IV_, Jan 11 2012
 %o A013939 (PARI) a(n) = sum(k=1, sqrtint(n), k * (primepi(n\k) - primepi(n\(k+1)))) + sum(k=1, n\(sqrtint(n)+1), if(isprime(k), n\k, 0)); \\ _Daniel Suteu_, Nov 24 2018
@@ -35,7 +35,7 @@
 %o A013939 from sympy import primerange
 %o A013939 def A013939(n): return sum(n//p for p in primerange(n+1)) # _Chai Wah Wu_, Oct 06 2024
 %o A013939 (Magma) [(&+[Floor(n/NthPrime(k)): k in [1..n]]): n in [1..70]]; // _G. C. Greubel_, Nov 24 2018
-%o A013939 (Sage) [sum(floor(n/nth_prime(k)) for k in (1..n)) for n in (1..70)] # _G. C. Greubel_, Nov 24 2018
+%o A013939 (SageMath) [sum(floor(n/nth_prime(k)) for k in (1..n)) for n in (1..70)] # _G. C. Greubel_, Nov 24 2018
 %Y A013939 Cf. A005187, A006218, A011371, A013936.
 %Y A013939 Cf. A093614, A048865, A006218.
 %Y A013939 Cf. A027748, A000040, A082287.

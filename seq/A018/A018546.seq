@@ -1,4 +1,4 @@
-%I A018546 #12 Feb 02 2020 14:50:20
+%I A018546 #14 Jul 09 2025 17:32:44
 %S A018546 1,2,3,6,101,202,303,606
 %N A018546 Divisors of 606.
 %H A018546 <a href="/index/Di#divisors">Index entries for sequences related to divisors of numbers</a>
@@ -6,4 +6,4 @@
 %o A018546 (PARI) divisors(606) \\ _Charles R Greathouse IV_, Jun 23 2017
 %K A018546 nonn,fini,full,easy
 %O A018546 1,2
-%A A018546 _N. J. A. Sloane_.
+%A A018546 _N. J. A. Sloane_

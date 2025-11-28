@@ -1,8 +1,8 @@
-%I A233478 #4 Dec 11 2013 04:32:45
+%I A233478 #6 Jul 23 2025 08:02:53
 %S A233478 21111771232,45223720670867,94192817031882237,196122261590679299496,
 %T A233478 407469009947158776878785,846537132143871418217915702,
 %U A233478 1758426966252867944813771559333,3652590644663404309130794104320920
-%N A233478 Number of (n+2)X(4+2) 0..3 arrays with no increasing sequence of length 3 horizontally or vertically
+%N A233478 Number of (n+2)X(4+2) 0..3 arrays with no increasing sequence of length 3 horizontally or vertically.
 %C A233478 Column 4 of A233480
 %H A233478 R. H. Hardin, <a href="/A233478/b233478.txt">Table of n, a(n) for n = 1..69</a>
 %e A233478 Some solutions for n=1

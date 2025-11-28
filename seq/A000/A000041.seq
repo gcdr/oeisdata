@@ -1,4 +1,4 @@
-%I A000041 M0663 N0244 #1112 Feb 16 2025 08:32:19
+%I A000041 M0663 N0244 #1165 Nov 10 2025 21:50:37
 %S A000041 1,1,2,3,5,7,11,15,22,30,42,56,77,101,135,176,231,297,385,490,627,792,
 %T A000041 1002,1255,1575,1958,2436,3010,3718,4565,5604,6842,8349,10143,12310,
 %U A000041 14883,17977,21637,26015,31185,37338,44583,53174,63261,75175,89134,105558,124754,147273,173525
@@ -13,7 +13,6 @@
 %C A000041 Sequence agrees with expansion of Molien series for symmetric group S_n up to the term in x^n. - Maurice D. Craig (towenaar(AT)optusnet.com.au), Oct 30 2006
 %C A000041 Also the number of nonnegative integer solutions to x_1 + x_2 + x_3 + ... + x_n = n such that n >= x_1 >= x_2 >= x_3 >= ... >= x_n >= 0, because by letting y_k = x_k - x_(k+1) >= 0 (where 0 < k < n) we get y_1 + 2y_2 + 3y_3 + ... + (n-1)y_(n-1) + nx_n = n. - Werner Grundlingh (wgrundlingh(AT)gmail.com), Mar 14 2007
 %C A000041 Let P(z) := Sum_{j>=0} b_j z^j, b_0 != 0. Then 1/P(z) = Sum_{j>=0} c_j z^j, where the c_j must be computed from the infinite triangular system b_0 c_0 = 1, b_0 c_1 + b_1 c_0 = 0 and so on (Cauchy products of the coefficients set to zero). The n-th partition number arises as the number of terms in the numerator of the expression for c_n: The coefficient c_n of the inverted power series is a fraction with b_0^(n+1) in the denominator and in its numerator having a(n) products of n coefficients b_i each. The partitions may be read off from the indices of the b_i. - Peter C. Heinig (algorithms(AT)gmx.de), Apr 09 2007
-%C A000041 a(n) is the number of different ways to run up a staircase with n steps, taking steps of sizes 1, 2, 3, ... and r (r <= n), where the order is not important and there is no restriction on the number or the size of each step taken. - _Mohammad K. Azarian_, May 21 2008
 %C A000041 A sequence of positive integers p = p_1 ... p_k is a descending partition of the positive integer n if p_1 + ... + p_k = n and p_1 >= ... >= p_k. If formally needed p_j = 0 is appended to p for j > k. Let P_n denote the set of these partition for some n >= 1. Then a(n) = 1 + Sum_{p in P_n} floor((p_1-1)/(p_2+1)). (Cf. A000065, where the formula reduces to the sum.) Proof in Kelleher and O'Sullivan (2009). For example a(6) = 1 + 0 + 0 + 0 + 0 + 1 + 0 + 0 + 1 + 1 + 2 + 5 = 11. - _Peter Luschny_, Oct 24 2010
 %C A000041 Let n = Sum( k_(p_m) p_m ) = k_1 + 2k_2 + 5k_5 + 7k_7 + ..., where p_m is the m-th generalized pentagonal number (A001318). Then a(n) is the sum over all such pentagonal partitions of n of (-1)^(k_5+k_7 + k_22 + ...) ( k_1 + k_2 + k_5 + ...)! /( k_1! k_2! k_5! ...), where the exponent of (-1) is the sum of all the k's corresponding to even-indexed GPN's. - _Jerome Malenfant_, Feb 14 2011
 %C A000041 From _Jerome Malenfant_, Feb 14 2011: (Start)
@@ -61,6 +60,7 @@
 %C A000041 Equivalently, number of idempotent mappings f from a set X of n elements into itself (i.e., satisfying f o f = f) up to permutation (i.e., f~f' :<=> There is a permutation sigma in Sym(X) such that f' o sigma = sigma o f). - _Philip Turecek_, Apr 17 2023
 %C A000041 Conjecture: Each integer n > 2 different from 6 can be written as a sum of finitely many numbers of the form a(k) + 2 (k > 0) with no summand dividing another. This has been verified for n <= 7140. - _Zhi-Wei Sun_, May 16 2023
 %C A000041 a(n) is also the number of partitions of n*(n+3)/2 into n distinct parts. - _David García Herrero_, Aug 20 2024
+%C A000041 a(n) is also the number of non-isomorphic sigma algebras on {1,...,n}. A000110(n) counts all sigma algebras on {1,...,n}. Every sigma algebra on a finite set X is exactly the collection of all unions of its atoms (its minimal nonempty members), and those atoms partition X. An isomorphism of sigma algebras must map atoms to atoms, so the isomorphism class of a sigma algebra is determined by the multiset of its atom-sizes, which is an integer partition of n. - _Matthew Azar_, Jul 18 2025
 %D A000041 George E. Andrews, The Theory of Partitions, Addison-Wesley, Reading, Mass., 1976.
 %D A000041 George E. Andrews and K. Ericksson, Integer Partitions, Cambridge University Press 2004.
 %D A000041 T. M. Apostol, Introduction to Analytic Number Theory, Springer-Verlag, 1976, page 307.
@@ -71,10 +71,14 @@
 %D A000041 B. C. Berndt, Number Theory in the Spirit of Ramanujan, Chap. I Amer. Math. Soc. Providence RI 2006.
 %D A000041 Miklos Bona, editor, Handbook of Enumerative Combinatorics, CRC Press, 2015, page 999.
 %D A000041 J. M. Borwein, D. H. Bailey and R. Girgensohn, Experimentation in Mathematics, A K Peters, Ltd., Natick, MA, 2004. x+357 pp. See p. 183.
+%D A000041 Florian Cajori, A History of Mathematical Notations, Dover edition (2012), par. 411.
+%D A000041 John H. Conway and Richard K. Guy, The Book of Numbers, New York: Springer-Verlag, 1996. See pp. 94-96.
+%D A000041 Elena Deza and Michel Marie Deza, Figurate numbers, World Scientific Publishing (2012), page 298.
 %D A000041 L. E. Dickson, History of the Theory of Numbers, Vol.II Chapter III pp. 101-164, Chelsea NY 1992.
 %D A000041 N. J. Fine, Basic Hypergeometric Series and Applications, Amer. Math. Soc., 1988; p. 37, Eq. (22.13).
 %D A000041 H. Gupta et al., Tables of Partitions. Royal Society Mathematical Tables, Vol. 4, Cambridge Univ. Press, 1958, p. 90.
 %D A000041 G. H. Hardy and S. Ramanujan, Asymptotic formulas in combinatorial analysis, Proc. London Math. Soc., 17 (1918), 75-.
+%D A000041 G. H. Hardy, Ramanujan: twelve lectures on subjects suggested by his life and work, Cambridge, University Press, 1940, pp. 83-100, 113-131.
 %D A000041 G. H. Hardy and E. M. Wright, An Introduction to the Theory of Numbers (Fifth edition), Oxford Univ. Press (Clarendon), 1979, 273-296.
 %D A000041 D. E. Knuth, The Art of Computer Programming, vol. 4A, Combinatorial Algorithms, Section 7.2.1.4, p. 396.
 %D A000041 D. S. Mitrinovic et al., Handbook of Number Theory, Kluwer, Section XIV.1, p. 491.
@@ -87,6 +91,7 @@
 %D A000041 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
 %D A000041 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
 %D A000041 R. E. Tapscott and D. Marcovich, "Enumeration of Permutational Isomers: The Porphyrins", Journal of Chemical Education, 55 (1978), 446-447.
+%D A000041 James J. Tattersall, Elementary Number Theory in Nine Chapters, Cambridge University Press, 1999, pages 286-289, 297-298, 303.
 %D A000041 Robert M. Young, "Excursions in Calculus", Mathematical Association of America, p. 367.
 %H A000041 David W. Wilson, <a href="/A000041/b000041.txt">Table of n, a(n) for n = 0..10000</a>
 %H A000041 Milton Abramowitz and Irene A. Stegun, eds., <a href="http://www.convertit.com/Go/ConvertIt/Reference/AMS55.ASP">Handbook of Mathematical Functions</a>, National Bureau of Standards, Applied Math. Series 55, Tenth Printing, 1972, p. 836. [scanned copy]
@@ -100,7 +105,7 @@
 %H A000041 Amazing Mathematical Object Factory, <a href="https://web.archive.org/web/20070920114320/http://www.aarms.math.ca/ACMN/amof/e_partI.htm">Information on Partitions</a>. [Wayback Machine link]
 %H A000041 Edward Anderson, <a href="https://arxiv.org/abs/1805.03346">Rubber Relationalism: Smallest Graph-Theoretically Nontrivial Leibniz Spaces</a>, arXiv:1805.03346 [gr-qc], 2018.
 %H A000041 Theresa C. Anderson, Larry Rolen and Ruth Stoehr, <a href="https://doi.org/10.1090/S0002-9939-2010-10577-4">Benford's Law for Coefficients of Modular Forms and Partition Functions</a>, Proceedings of the American Mathematical Society, Vol. 139, No. 5, May 2011, pp. 1533-1541.
-%H A000041 George E. Andrews, <a href="http://www.emis.de/journals/SLC/opapers/s25andrews.html">Three Aspects of Partitions</a>, Séminaire Lotharingien de Combinatoire, B25f (1990), 1 p.
+%H A000041 George E. Andrews, <a href="https://www.mat.univie.ac.at/~slc/opapers/s25andrews.html">Three Aspects of Partitions</a>, Séminaire Lotharingien de Combinatoire, B25f (1990), 1 p.
 %H A000041 George E. Andrews, <a href="https://doi.org/10.37236/1858">On a Partition Function of Richard Stanley</a>, The Electronic Journal of Combinatorics, Volume 11, Issue 2 (2004-6) (The Stanley Festschrift volume), Research Paper #R1.
 %H A000041 George E. Andrews and Ken Ono, <a href="http://pubmedcentral.com/articlerender.fcgi?artid=1266147">Ramanujan's congruences and Dyson's crank</a>
 %H A000041 George E. Andrews and Ranjan Roy, <a href="https://doi.org/10.37236/1317">Ramanujan's Method in q-series Congruences</a>, The Electronic Journal of Combinatorics, Volume 4, Issue 2 (1997) (The Wilf Festschrift volume) > Research Paper #R2.
@@ -134,7 +139,7 @@
 %H A000041 Jimena Davis and Elizabeth Perez, <a href="http://www.ces.clemson.edu/~kevja/REU/2002/JDavisAndEPerez.pdf">Computations Of The Partition Function, p(n)</a>
 %H A000041 Stephen DeSalvo and Igor Pak, <a href="https://arxiv.org/abs/1310.7982">Log-Concavity of the Partition Function</a>, arXiv:1310.7982 [math.CO], 2013-2014.
 %H A000041 F. J. Dyson, <a href="https://archim.org.uk/eureka/archive/Eureka-8.pdf">Some guesses in the theory of partitions</a>, Eureka (Cambridge) 8 (1944), 10-15.
-%H A000041 Shalosh B. Ekhad and Doron Zeilberger, <a href="http://arxiv.org/abs/1403.5664">Automatic Proofs of Asymptotic Abnormality (and much more!) of Natural Statistics Defined on Catalan-Counted Combinatorial Families</a>, arXiv:1403.5664 [math.CO], 2014.
+%H A000041 Shalosh B. Ekhad and Doron Zeilberger, <a href="https://arxiv.org/abs/1403.5664">Automatic Proofs of Asymptotic Abnormality (and much more!) of Natural Statistics Defined on Catalan-Counted Combinatorial Families</a>, arXiv:1403.5664 [math.CO], 2014.
 %H A000041 Wenjie Fang, Hsien-Kuei Hwang, and Mihyun Kang, <a href="https://arxiv.org/abs/2004.08901">Phase transitions from exp(n^(1/2)) to exp(n^(2/3)) in the asymptotics of banded plane partitions</a>, arXiv:2004.08901 [math.CO], 2020.
 %H A000041 FindStat - Combinatorial Statistic Finder, <a href="https://www.findstat.org/CollectionsDatabase/IntegerPartitions/">Integer partitions</a>
 %H A000041 Nathan J. Fine, <a href="http://www.pnas.org/cgi/reprint/34/12/616.pdf">Some New Results On Partitions</a>
@@ -154,16 +159,16 @@
 %H A000041 Ferdinand Ihringer, <a href="https://arxiv.org/abs/2002.06601">Remarks on the Erdős Matching Conjecture for Vector Spaces</a>, arXiv:2002.06601 [math.CO], 2020.
 %H A000041 INRIA Algorithms Project, <a href="http://ecs.inria.fr/services/structure?nbr=61">Encyclopedia of Combinatorial Structures 61</a> and <a href="http://ecs.inria.fr/services/structure?nbr=74">Encyclopedia of Combinatorial Structures 74</a>
 %H A000041 Fredrik Johansson, <a href="http://fredrikj.net/math/nist.pdf">Fast arbitrary-precision evaluation of special functions in the Arb library</a>, OPSFA13, NIST, June 2015, page 15.
-%H A000041 Jonthan M. Kane, <a href="http://www.jstor.org/stable/2690190">Distribution of orders of Abelian groups</a>, Math. Mag., 49 (1976), 132-135.
-%H A000041 Jerome Kelleher and Barry O'Sullivan, <a href="http://arxiv.org/abs/0909.2331">Generating All Partitions: A Comparison Of Two Encodings</a>, arXiv:0909.2331 [cs.DS], 2009-2014.
+%H A000041 Jonthan M. Kane, <a href="https://www.jstor.org/stable/2690190">Distribution of orders of Abelian groups</a>, Math. Mag., 49 (1976), 132-135.
+%H A000041 Jerome Kelleher and Barry O'Sullivan, <a href="https://arxiv.org/abs/0909.2331">Generating All Partitions: A Comparison Of Two Encodings</a>, arXiv:0909.2331 [cs.DS], 2009-2014.
 %H A000041 Erica Klarreich, <a href="http://www.sciencenews.org/articles/20050618/bob9.asp">Pieces of Numbers: A proof brings closure to a dramatic tale of partitions and primes</a>, Science News, Week of Jun 18, 2005; Vol. 167, No. 25, p. 392.
-%H A000041 Martin Klazar, <a href="http://arxiv.org/abs/1808.08449">What is an answer? — remarks, results and problems on PIO formulas in combinatorial enumeration, part I</a>, arXiv:1808.08449 [math.CO], 2018.
-%H A000041 Vaclav Kotesovec, <a href="http://arxiv.org/abs/1509.08708">A method of finding the asymptotics of q-series based on the convolution of generating functions</a>, arXiv:1509.08708 [math.CO], Sep 30 2015.
+%H A000041 Martin Klazar, <a href="https://arxiv.org/abs/1808.08449">What is an answer? — remarks, results and problems on PIO formulas in combinatorial enumeration, part I</a>, arXiv:1808.08449 [math.CO], 2018.
+%H A000041 Vaclav Kotesovec, <a href="https://arxiv.org/abs/1509.08708">A method of finding the asymptotics of q-series based on the convolution of generating functions</a>, arXiv:1509.08708 [math.CO], Sep 30 2015.
 %H A000041 J. Laurendi, <a href="http://www.artofproblemsolving.com/Resources/Papers/LaurendiPartitions.pdf">Partitions of Integers</a>
 %H A000041 Oleg Lazarev, Matt Mizuhara, and Ben Reid, <a href="http://www.math.oregonstate.edu/~swisherh/LazarevMizuharaReid.pdf">Some Results in Partitions, Plane Partitions, and Multipartitions</a>
-%H A000041 Li Wenwei, <a href="http://arxiv.org/abs/1612.05526">Estimation of the Partition Number: After Hardy and Ramanujan</a>, arXiv preprint arXiv:1612.05526 [math.NT], 2016-2018.
+%H A000041 Li Wenwei, <a href="https://arxiv.org/abs/1612.05526">Estimation of the Partition Number: After Hardy and Ramanujan</a>, arXiv preprint arXiv:1612.05526 [math.NT], 2016-2018.
 %H A000041 T. Lockette, Explore Magazine, <a href="http://rgp.ufl.edu/explore/v05n2/math.html">Path To Partitions</a>
-%H A000041 Jerome Malenfant, <a href="http://arxiv.org/abs/1103.1585">Finite, Closed-form Expressions for the Partition Function and for Euler, Bernoulli, and Stirling Numbers</a>, arXiv:1103.1585 [math.NT], 2011.
+%H A000041 Jerome Malenfant, <a href="https://arxiv.org/abs/1103.1585">Finite, Closed-form Expressions for the Partition Function and for Euler, Bernoulli, and Stirling Numbers</a>, arXiv:1103.1585 [math.NT], 2011.
 %H A000041 Dr. Math, <a href="http://mathforum.org/dr.math/problems/partitions.html">Partitioning the Integers</a> and <a href="http://mathforum.org/dr.math/problems/huckin11.14.98.html">Partitioning an Integer</a>
 %H A000041 M. MacMahon, Collected Papers of Ramanujan, <a href="http://www.imsc.res.in/~rao/ramanujan/CamUnivCpapers/Cpaper36/page33.htm">Table for p(n);n=1 through 200</a>
 %H A000041 S. Markovski and M. Mihova, <a href="http://www.math.bas.bg/infres/MathBalk/MB-22/MB-22-101-119.pdf">An explicit formula for computing the partition numbers p(n)</a>, Math. Balkanica 22 (2008) 101-119 <a href="http://www.ams.org/mathscinet-getitem?mr=2467361">MR2467361</a>
@@ -179,11 +184,11 @@
 %H A000041 Hisanori Mishima, <a href="http://www.asahi-net.or.jp/~KC2H-MSM/mathland/part">Factorization of Partition Numbers</a>
 %H A000041 T. S. Motzkin, <a href="/A000262/a000262.pdf">Sorting numbers for cylinders and other classification numbers</a>, in Combinatorics, Proc. Symp. Pure Math. 19, AMS, 1971, pp. 167-176. [Annotated, scanned copy]
 %H A000041 D. J. Newman, <a href="http://projecteuclid.org/euclid.mmj/1028998729">A simplified proof of the partition formula</a>, Michigan Math. J. 9:3 (1962), pp. 193-287.
-%H A000041 Jean-Louis Nicolas, <a href="https://doi.org/10.5802/aif.714">Sur les entiers N pour lesquels il y a beaucoup de groupes abéliens d’ordre N</a>, Annales de l'Institut Fourier, Tome 28 (1978) no. 4,  p. 1-16.
-%H A000041 OEIS Wiki, <a href="http://oeis.org/wiki/Sorting_numbers">Sorting numbers</a>
+%H A000041 Jean-Louis Nicolas, <a href="https://doi.org/10.5802/aif.714">Sur les entiers N pour lesquels il y a beaucoup de groupes abéliens d'ordre N</a>, Annales de l'Institut Fourier, Tome 28 (1978) no. 4, p. 1-16.
+%H A000041 OEIS Wiki, <a href="https://oeis.org/wiki/Sorting_numbers">Sorting numbers</a>
 %H A000041 Ken Ono, <a href="http://math.la.asu.edu/~sf2000/kono.pdf">Arithmetic of the partition function</a>
 %H A000041 Ken Ono, <a href="http://dx.doi.org/10.1090/S1079-6762-95-01005-5">Parity of the partition function</a>, Electron. Res. Announc. Amer. Math. Soc. 1 (1995), 35-42.
-%H A000041 Ken Ono, <a href="http://www.emis.de/journals/Annals/151_1/ono.pdf">Distribution of the partition function modulo m</a>, Annals Math. 151 (2000), 293-307.
+%H A000041 Ken Ono, <a href="https://arxiv.org/abs/math/0008140">Distribution of the partition function modulo m</a>, Annals Math. 151 (2000), 293-307.
 %H A000041 Ken Ono (with J. Bruinier, A. Folsom and Z. Kent), Emory University, <a href="http://www.youtube.com/watch?v=aj4FozCSg8g">Adding and counting</a>
 %H A000041 T. J. Osler, <a href="http://www2.rowan.edu/mars/depts/math/HASSEN/NT/Playpart.html">Playing with Partitions on the Computer</a>
 %H A000041 I. Pak, <a href="https://doi.org/10.1007/s11139-006-9576-1">Partition bijections, a survey</a>, Ramanujan J. 12 (2006) 5-75.
@@ -204,11 +209,11 @@
 %H A000041 F. Ruskey, <a href="http://combos.org/part">Generate Numerical Partitions</a>
 %H A000041 F. Ruskey, <a href="https://web.archive.org/web/20160604023632/http://www.theory.cs.uvic.ca/tables/partitions.txt.gz">The first 284547 partition numbers</a> (52MB compressed file, archived link)
 %H A000041 M. Savic, <a href="http://www.cs.bsu.edu/homepages/fischer/Journal/01-01/savic.pdf">The Partition Function and Ramanujan's 5k+4 Congruence</a>
-%H A000041 Zhumagali Shomanov, <a href="http://arxiv.org/abs/1508.03173">Combinatorial formula for the partition function</a>, arXiv:1508.03173 [math.CO], 2015.
+%H A000041 Zhumagali Shomanov, <a href="https://arxiv.org/abs/1508.03173">Combinatorial formula for the partition function</a>, arXiv:1508.03173 [math.CO], 2015.
 %H A000041 T. Sillke, <a href="http://www.mathematik.uni-bielefeld.de/~sillke/SEQUENCES/series011">Number of integer partitions</a>
 %H A000041 R. P. Stanley, <a href="http://www-math.mit.edu/~rstan/papers/comb.pdf">A combinatorial miscellany</a>
 %H A000041 Cormac O'Sullivan, <a href="https://arxiv.org/abs/2205.13468">Detailed asymptotic expansions for partitions into powers</a>, arXiv:2205.13468 [math.NT], 2022-3.
-%H A000041 Yi Wang and Bao-Xuan Zhu, <a href="http://arxiv.org/abs/1303.5595">Proofs of some conjectures on monotonicity of number-theoretic and combinatorial sequences</a>, arXiv preprint arXiv:1303.5595 [math.CO], 2013.
+%H A000041 Yi Wang and Bao-Xuan Zhu, <a href="https://arxiv.org/abs/1303.5595">Proofs of some conjectures on monotonicity of number-theoretic and combinatorial sequences</a>, arXiv preprint arXiv:1303.5595 [math.CO], 2013.
 %H A000041 R. L. Weaver, <a href="https://doi.org/10.1023/A:1011493128408">New Congruences for the Partition Function</a>, The Ramanujan Journal 5(1) 2001.
 %H A000041 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/Partition.html">Partition</a>, <a href="https://mathworld.wolfram.com/PartitionFunctionP.html">Partition Function P</a>, <a href="https://mathworld.wolfram.com/q-PochhammerSymbol.html">q-Pochhammer Symbol</a>, and <a href="https://mathworld.wolfram.com/RamanujansIdentity.html">Ramanujan's Identity</a>
 %H A000041 West Sussex Grid for Learning, Multicultural Mathematics, <a href="http://wsgfl.westsussex.gov.uk/maths/Ramanujan.htm">Ramanujan's Partition of Numbers</a>
@@ -217,7 +222,7 @@
 %H A000041 H. S. Wilf, <a href="http://www.math.upenn.edu/~wilf/PIMS/PIMSLectures.pdf">Lectures on Integer Partitions</a>
 %H A000041 Wolfram Research, <a href="http://functions.wolfram.com/IntegerFunctions/PartitionsP/11">Generating functions of p(n)</a>
 %H A000041 D. J. Wright, <a href="http://www.math.okstate.edu/~wrightd/4713/nt_essay/node14.html">Partitions</a> [broken link]
-%H A000041 Doron Zeilberger, Noam Zeilberger, <a href="https://arxiv.org/1810.12701">Two Questions about the Fractional Counting of Partitions</a>, arXiv:1810.12701 [math.CO], 2018.
+%H A000041 Doron Zeilberger, Noam Zeilberger, <a href="https://arxiv.org/abs/1810.12701">Two Questions about the Fractional Counting of Partitions</a>, arXiv:1810.12701 [math.CO], 2018.
 %H A000041 Robert M. Ziff, <a href="http://dx.doi.org/10.1088/0305-4470/28/5/013">On Cardy's formula for the critical crossing probability in 2d percolation</a>, J. Phys. A. 28, 1249-1255 (1995).
 %H A000041 <a href="/index/Cor#core">Index entries for "core" sequences</a>
 %H A000041 <a href="/index/Par#partN">Index entries for related partition-counting sequences</a>
@@ -309,7 +314,7 @@
 %F A000041 Sum_{n>=1} 1/a(n) = A078506. - _Amiram Eldar_, Nov 01 2020
 %F A000041 Sum_{n>=0} a(n)/2^n = A065446. - _Amiram Eldar_, Jan 19 2021
 %F A000041 From _Simon Plouffe_, Mar 12 2021: (Start)
-%F A000041 Sum_{n>=0} a(n)/exp(Pi*n) = 2^(3/8)*Gamma(3/4)/(Pi^(1/4)*exp(Pi/24)).
+%F A000041 Sum_{n>=0} a(n)/exp(Pi*n) = 2^(3/8)*Gamma(3/4)/(Pi^(1/4)*exp(Pi/24)) = A387545.
 %F A000041 Sum_{n>=0} a(n)/exp(2*Pi*n) = 2^(1/2)*Gamma(3/4)/(Pi^(1/4)*exp(Pi/12)).
 %F A000041 [corrected by _Vaclav Kotesovec_, May 12 2023] (End)
 %F A000041 [These are the reciprocals of phi(exp(-Pi)) (A259148) and phi(exp(-2*Pi)) (A259149), where phi(q) is the Euler modular function. See B. C. Berndt (RLN, Vol. V, p. 326), and formulas (13) and (14) in I. Mező, 2013. - _Peter Luschny_, Mar 13 2021]
@@ -355,8 +360,8 @@
 %o A000041 (PARI) f(n)= my(v,i,k,s,t);v=vector(n,k,0);v[n]=2;t=0;while(v[1]<n, i=2;while(v[i]==0,i++);v[i]--;s=sum(k=i,n,k*v[k]); while(i>1,i--;s+=i*(v[i]=(n-s)\i));t++);t \\ _Thomas Baruchel_, Nov 07 2005
 %o A000041 (PARI) a(n)=if(n<0, 0, polcoeff(exp(sum(k=1, n, x^k/(1-x^k)/k, x*O(x^n))), n)) \\ _Joerg Arndt_, Apr 16 2010
 %o A000041 (MuPAD) combinat::partitions::count(i) $i=0..54 // _Zerinvary Lajos_, Apr 16 2007
-%o A000041 (Sage) [number_of_partitions(n) for n in range(46)]  # _Zerinvary Lajos_, May 24 2009
-%o A000041 (Sage)
+%o A000041 (SageMath) [number_of_partitions(n) for n in range(46)]  # _Zerinvary Lajos_, May 24 2009
+%o A000041 (SageMath)
 %o A000041 @CachedFunction
 %o A000041 def A000041(n):
 %o A000041     if n == 0: return 1
@@ -368,7 +373,7 @@
 %o A000041         k += 1
 %o A000041     return S
 %o A000041 [A000041(n) for n in range(50)]  # _Peter Luschny_, Oct 13 2012
-%o A000041 (Sage) # uses[EulerTransform from A166861]
+%o A000041 (SageMath) # uses[EulerTransform from A166861]
 %o A000041 a = BinaryRecurrenceSequence(1, 0)
 %o A000041 b = EulerTransform(a)
 %o A000041 print([b(n) for n in range(50)]) # _Peter Luschny_, Nov 11 2020
@@ -383,11 +388,10 @@
 %o A000041 (Maxima) num_partitions(60,list); /* _Emanuele Munarini_, Feb 24 2014 */
 %o A000041 (GAP) List([1..10],n->Size(OrbitsDomain(SymmetricGroup(IsPermGroup,n),SymmetricGroup(IsPermGroup,n),\^))); # _Attila Egri-Nagy_, Aug 15 2014
 %o A000041 (Perl) use ntheory ":all"; my @p = map { partitions($_) } 0..100; say "[@p]"; # _Dana Jacobsen_, Sep 06 2015
-%o A000041 (Racket)
-%o A000041 #lang racket
-%o A000041 ; SUM(k,-inf,+inf) (-1)^k p(n-k(3k-1)/2)
-%o A000041 ; For k outside the range (1-(sqrt(1-24n))/6 to (1+sqrt(1-24n))/6) argument n-k(3k-1)/2 < 0.
-%o A000041 ; Therefore the loops below are finite. The hash avoids repeated identical computations.
+%o A000041 (Scheme)
+%o A000041 ;; SUM(k,-inf,+inf) (-1)^k p(n-k(3k-1)/2)
+%o A000041 ;; For k outside the range (1-(sqrt(1-24n))/6 to (1+sqrt(1-24n))/6) argument n-k(3k-1)/2 < 0.
+%o A000041 ;; Therefore the loops below are finite. The hash avoids repeated identical computations.
 %o A000041 (define (p n) ; Nr of partitions of n.
 %o A000041 (hash-ref h n
 %o A000041   (λ ()
@@ -402,15 +406,15 @@
 %o A000041    (hash-set! h n r)
 %o A000041    r)))
 %o A000041 (define h (make-hash '((0 . 1))))
-%o A000041 ; (for ((k (in-range 0 50))) (printf "~s, " (p k))) runs in a moment.
-%o A000041 ; _Jos Koot_, Jun 01 2016
+%o A000041 ;; (for ((k (in-range 0 50))) (printf "~s, " (p k))) runs in a moment.
+%o A000041 ;; _Jos Koot_, Jun 01 2016
 %o A000041 (Python)
-%o A000041 from sympy.ntheory import npartitions
-%o A000041 print([npartitions(i) for i in range(101)])  # _Indranil Ghosh_, Mar 17 2017
+%o A000041 from sympy.functions.combinatorial.numbers import partition
+%o A000041 print([partition(i) for i in range(101)]) # _Joan Ludevid_, May 25 2025
 %o A000041 (Julia) # DedekindEta is defined in A000594
 %o A000041 A000041List(len) = DedekindEta(len, -1)
 %o A000041 A000041List(50) |> println # _Peter Luschny_, Mar 09 2018
-%Y A000041 Cf. A000009, A000079, A000203, A001318, A008284, A026820, A065446, A078506, A113685, A132311, A000248.
+%Y A000041 Cf. A000009, A000079, A000203, A001318, A008284, A026820, A065446, A078506, A113685, A132311, A000248, A000110, A387545.
 %Y A000041 Partial sums give A000070.
 %Y A000041 For successive differences see A002865, A053445, A072380, A081094, A081095.
 %Y A000041 Antidiagonal sums of triangle A092905. a(n) = A054225(n,0).

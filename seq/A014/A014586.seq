@@ -1,4 +1,4 @@
-%I A014586 #44 Jun 06 2022 11:16:46
+%I A014586 #45 Sep 22 2025 16:00:23
 %S A014586 0,1,0,1,2,0,1,0,1,2,0,1,0,1,2,0,1,0,1,2,0,1,0,1,2,3,2,3,4,5,3,2,3,4,
 %T A014586 0,1,2,3,2,0,1,2,3,2,0,1,2,3,2,3,4,5,0,1,3,4,5,0,1,3,4,5,0,1,3,0,1,0,
 %U A014586 1,2,4,3,0,1,5,6,2,3,4,5,6,2,3,4,5,0,1,6,3,2,4,2,6,4,5,0,1,6,4
@@ -12,7 +12,7 @@
 %H A014586 Sean A. Irvine, <a href="https://github.com/archmageirvine/joeis/blob/master/src/irvine/oeis/a014/A014586.java">Java program</a> (github)
 %H A014586 Wikipedia, <a href="https://en.wikipedia.org/wiki/Sprague%E2%80%93Grundy_theorem">Sprague-Grundy theorem</a>
 %F A014586 a(n) = 0 iff n belongs to A030193. - _Rémy Sigrist_, May 30 2019
-%o A014586 (Sage)
+%o A014586 (SageMath)
 %o A014586 def A014586_list(max) :
 %o A014586     res = []
 %o A014586     for i in range(max+1) :

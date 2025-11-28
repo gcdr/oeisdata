@@ -1,8 +1,8 @@
-%I A152171 #10 Nov 14 2023 13:40:45
+%I A152171 #12 Jun 02 2025 01:13:08
 %S A152171 1,1,1,2,5,12,29,73,190,505,1363,3727,10306,28771,80975,229512,654545,
 %T A152171 1876899,5408142,15650939,45470545,132573406,387775229,1137575084,
 %U A152171 3346189045,9867291817,29163523978,86377998093,256343194011
-%N A152171 G.f. := (1-sqrt(1-4*x+4*x^2-4*x^3))/(2(1-x+x^2)x)
+%N A152171 G.f. := (1-sqrt(1-4*x+4*x^2-4*x^3))/(2(1-x+x^2)x).
 %C A152171 a(n) is the number of Dyck paths of length n without the height of peaks 2 (mod 3) and the height of valleys 1 (mod 3)
 %H A152171 Michael De Vlieger, <a href="/A152171/b152171.txt">Table of n, a(n) for n = 0..2028</a>
 %H A152171 Jean-Luc Baril, Rigoberto Flórez, and José L. Ramírez, <a href="http://jl.baril.u-bourgogne.fr/symasympyramid.pdf">Counting symmetric and asymmetric peaks in motzkin paths with air pockets</a>, Univ. Bourgogne (France, 2023).

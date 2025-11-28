@@ -1,6 +1,6 @@
-%I A128026 #15 Jul 29 2023 18:32:38
+%I A128026 #18 Oct 09 2025 19:21:28
 %S A128026 2,3,5,37,599,38393,51431,118681,376417
-%N A128026 Numbers n such that (10^n - 3^n)/7 is prime.
+%N A128026 Numbers k such that (10^k - 3^k)/7 is prime.
 %C A128026 All terms are primes.
 %C A128026 No other terms < 1000000.
 %H A128026 Jon Grantham and Andrew Granville, <a href="https://arxiv.org/abs/2307.07894">Fibonacci primes, primes of the form 2^n-k and beyond</a>, arXiv:2307.07894 [math.NT], 2023.

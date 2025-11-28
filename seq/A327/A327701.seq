@@ -1,4 +1,4 @@
-%I A327701 #29 Oct 02 2019 12:43:40
+%I A327701 #31 Jul 09 2025 04:49:11
 %S A327701 1,20,3,107,5,310,7,668,909,1253,11,2082,13,3224,3880,4670,17,6558,19
 %N A327701 Maximum value for base-n variant of A326344.
 %C A327701 For each n >= 2, let b_n(k) be the base-n A326344-like sequence defined as follows:
@@ -12,4 +12,4 @@
 %Y A327701 Cf. A326344, A326894, A327241.
 %K A327701 nonn,base,more
 %O A327701 2,2
-%A A327701 _Robert Dougherty-Bliss_, Sep 29 2019.
+%A A327701 _Robert Dougherty-Bliss_, Sep 29 2019

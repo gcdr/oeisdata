@@ -1,10 +1,10 @@
-%I A272471 #19 Apr 28 2017 22:40:26
+%I A272471 #20 Nov 05 2025 15:22:33
 %S A272471 1,1,2,4,3,9,1,4,18,7,6,35,26,1,9,64,73,10,13,112,179,52,1,19,192,403,
 %T A272471 194,13,28,323,850,597,87,1,41,534,1707,1624,408,16,60,872,3303,4046,
 %U A272471 1532,131,1,88,1410,6203,9428,4951,742,19,129,2260,11366,20847,14361,3308
 %N A272471 Triangle T(n,m) by rows: The number of tatami tilings of a 2 X n grid with dimers and 2*m monomers.
 %H A272471 G. C. Greubel, <a href="/A272471/b272471.txt">Table of n, a(n) for the first 100 rows, flattened</a>
-%H A272471 A. Erickson, F. Ruskey, J. Woodcock, M. Schurch, <a href="http://arxiv.org/abs/1103.3309">Auspicious tatami mat arrangements</a>, arXiv:1103.3309 (2011).
+%H A272471 A. Erickson, F. Ruskey, J. Woodcock, M. Schurch, <a href="https://arxiv.org/abs/1103.3309">Auspicious tatami mat arrangements</a>, arXiv:1103.3309 (2011).
 %F A272471 G.f. x*(y^2 +2*x*y^2 +x^2*y^2 +1 -x^3)/(x^4 -x^3*y^2 -x^3 -x^2*y^2 +x^2 -2*x +1). - _R. J. Mathar_, May 01 2016
 %e A272471 The triangle starts in row n=1 as:
 %e A272471 1,1;

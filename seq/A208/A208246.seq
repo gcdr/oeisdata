@@ -1,8 +1,8 @@
-%I A208246 #28 Feb 20 2021 03:44:33
+%I A208246 #31 Nov 05 2025 15:22:21
 %S A208246 0,0,0,0,0,0,0,0,1,1,1,1,2,2,2,2,2,2,3,3,3,2,3,4,4,3,4,5,4,3,5,6,4,3,
 %T A208246 5,7,5,4,6,8,4,3,5,8,4,2,4,8,5,3,4,7,4,3,5,7,3,2,4,6,5,4,4,7,5,4,5,7,
 %U A208246 4,2,4,7,5,3,4,6,4,4,6,6,3,2,5,6,4,4,5,7,5,5,7,8,2,2,6,8,5,3,4,7
-%N A208246 Number of ways to write n = p+q with p prime or practical, and q-4, q, q+4 all practical
+%N A208246 Number of ways to write n = p+q with p prime or practical, and q-4, q, q+4 all practical.
 %C A208246 Conjecture: a(n)>0 for all n>8.
 %C A208246 Zhi-Wei Sun also made some similar conjectures, below are few examples.
 %C A208246 (1) Each integer n>3 can be written as p+q with p prime or practical, and q and q+2 both practical.
@@ -11,7 +11,7 @@
 %C A208246 (4) Any integer n>1 can be written as x^2+y (x,y>0) with 2x and 2xy both practical.
 %C A208246 Note that if x>=y>0 with x practical then xy is also practical.
 %H A208246 Zhi-Wei Sun, <a href="/A208246/b208246.txt">Table of n, a(n) for n = 1..20000</a>
-%H A208246 Zhi-Wei Sun, <a href="http://arxiv.org/abs/1211.1588">Conjectures on representations involving primes</a>, arxiv:1211.1588 [math.NT], 2012-2017.
+%H A208246 Zhi-Wei Sun, <a href="https://arxiv.org/abs/1211.1588">Conjectures on representations involving primes</a>, arxiv:1211.1588 [math.NT], 2012-2017.
 %e A208246 a(11)=1 since 11=3+8 with 3 prime, and 4, 8, 12 all practical.
 %e A208246 a(12)=1 since 12=4+8 with 4, 8, 12 all practical.
 %t A208246 f[n_]:=f[n]=FactorInteger[n]

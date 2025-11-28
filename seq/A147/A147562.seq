@@ -1,4 +1,4 @@
-%I A147562 #185 Feb 16 2025 08:33:09
+%I A147562 #188 Nov 05 2025 15:22:07
 %S A147562 0,1,5,9,21,25,37,49,85,89,101,113,149,161,197,233,341,345,357,369,
 %T A147562 405,417,453,489,597,609,645,681,789,825,933,1041,1365,1369,1381,1393,
 %U A147562 1429,1441,1477,1513,1621,1633,1669,1705,1813,1849,1957,2065,2389,2401,2437,2473
@@ -23,7 +23,7 @@
 %D A147562 S. Wolfram, A New Kind of Science, Wolfram Media, 2002; p. 928.
 %H A147562 N. J. A. Sloane, <a href="/A147562/b147562.txt">Table of n, a(n) for n = 0..10000</a>
 %H A147562 David Applegate, <a href="/A139250/a139250.anim.html">The movie version</a>
-%H A147562 David Applegate, Omar E. Pol and N. J. A. Sloane, <a href="/A000695/a000695_1.pdf">The Toothpick Sequence and Other Sequences from Cellular Automata</a>, Congressus Numerantium, Vol. 206 (2010), 157-191. [There is a typo in Theorem 6: (13) should read u(n) = 4.3^(wt(n-1)-1) for n >= 2.]
+%H A147562 David Applegate, Omar E. Pol and N. J. A. Sloane, <a href="/A000695/a000695_2.pdf">The Toothpick Sequence and Other Sequences from Cellular Automata</a>, Congressus Numerantium, Vol. 206 (2010), 157-191
 %H A147562 Steven R. Finch, <a href="/A139250/a139250_1.pdf">Toothpicks and Live Cells</a>, July 21, 2015. [Cached copy, with permission of the author]
 %H A147562 Hsien-Kuei Hwang, Svante Janson, and Tsung-Hsi Tsai, <a href="https://arxiv.org/abs/2210.10968">Identities and periodic oscillations of divide-and-conquer recurrences splitting at half</a>, arXiv:2210.10968 [cs.DS], 2022, p. 31.
 %H A147562 Bradley Klee, <a href="/A147562/a147562_1.png">Log-periodic coloring of the first quadrant, over the chair tiling</a>.
@@ -32,7 +32,7 @@
 %H A147562 David Singmaster, <a href="https://m500.org.uk/wp-content/uploads/2023/11/M195WEB.pdf#page=4">On the cellular automaton of Ulam and Warburton</a>, M500 Magazine of the Open University, #195 (December 2003), pp. 2-7.  Also <a href="/A079314/a079314.pdf">scanned annotated cached copy</a>, included with permission.
 %H A147562 N. J. A. Sloane, <a href="/A147562/a147562.png">Illustration of terms 0 through 9</a>
 %H A147562 N. J. A. Sloane, <a href="/wiki/Catalog_of_Toothpick_and_CA_Sequences_in_OEIS">Catalog of Toothpick and Cellular Automata Sequences in the OEIS</a>
-%H A147562 N. J. A. Sloane, <a href="http://arxiv.org/abs/1503.01168">On the Number of ON Cells in Cellular Automata</a>, arXiv:1503.01168 [math.CO], 2015.
+%H A147562 N. J. A. Sloane, <a href="https://arxiv.org/abs/1503.01168">On the Number of ON Cells in Cellular Automata</a>, arXiv:1503.01168 [math.CO], 2015.
 %H A147562 N. J. A. Sloane, <a href="https://www.youtube.com/watch?v=9ogbsh8KuEM">Exciting Number Sequences</a> (video of talk), Mar 05 2021
 %H A147562 N. J. A. Sloane and Brady Haran, <a href="https://www.youtube.com/watch?v=_UtCli1SgjI">Terrific Toothpick Patterns</a>, Numberphile video (2018).
 %H A147562 Mike Warburton, <a href="https://arxiv.org/abs/1901.10565">Ulam-Warburton Automaton - Counting Cells with Quadratics</a>, arXiv:1901.10565 [math.CO], 2019.

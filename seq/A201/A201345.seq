@@ -1,8 +1,8 @@
-%I A201345 #5 Mar 31 2012 12:36:44
+%I A201345 #9 Oct 03 2025 09:04:44
 %S A201345 0,0,0,0,0,0,0,15,15,0,0,213,295,213,0,0,2007,6304,6304,2007,0,0,
 %T A201345 15497,120750,194873,120750,15497,0,0,106589,1977305,6442039,6442039,
 %U A201345 1977305,106589,0,0,680287,28778603,204185475,365946958,204185475,28778603
-%N A201345 T(n,k)=Number of nXk 0..4 arrays with every row and column running average nondecreasing rightwards and downwards but some diagonal running average having a decrease
+%N A201345 T(n,k)=Number of nXk 0..4 arrays with every row and column running average nondecreasing rightwards and downwards but some diagonal running average having a decrease.
 %C A201345 Table starts
 %C A201345 .0........0..........0............0.............0.............0.............0
 %C A201345 .0........0.........15..........213..........2007.........15497........106589
@@ -22,4 +22,4 @@
 %e A201345 ..1..2..3....4..4..4....1..2..4....2..2..2....2..2..4....1..1..2....3..3..4
 %K A201345 nonn,tabl
 %O A201345 1,8
-%A A201345 _R. H. Hardin_ Nov 30 2011
+%A A201345 _R. H. Hardin_, Nov 30 2011

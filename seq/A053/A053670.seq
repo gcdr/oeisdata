@@ -1,4 +1,4 @@
-%I A053670 #25 Sep 25 2021 06:49:46
+%I A053670 #26 Jul 02 2025 16:01:59
 %S A053670 3,5,5,3,7,5,3,5,7,3,5,5,3,11,7,3,5,5,3,11,5,3,5,7,3,5,5,3,7,7,3,5,5,
 %T A053670 3,11,5,3,5,7,3,5,5,3,7,7,3,5,5,3,7,5,3,5,7,3,5,5,3,7,7,3,5,5,3,7,5,3,
 %U A053670 5,11,3,5,5,3,7,7,3,5,5,3,7,5,3,5,11,3,5,5,3,7,11,3,5,5,3,7,5,3,5,7,3,5
@@ -22,4 +22,4 @@
 %K A053670 nonn,nice,easy
 %O A053670 1,1
 %A A053670 _Henry Bottomley_, Feb 15 2000
-%E A053670 More terms from Andrew Gacek (andrew(AT)dgi.net), Feb 21 2000 and _James A. Sellers_, Feb 22 2000
+%E A053670 More terms from Andrew Gacek (andrew(AT)dgi.net), Feb 21 2000 and _James Sellers_, Feb 22 2000

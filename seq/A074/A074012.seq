@@ -1,10 +1,10 @@
-%I A074012 #20 Apr 26 2024 15:58:42
+%I A074012 #21 Sep 22 2025 16:00:40
 %S A074012 0,0,6,20,125,600,3150,15500,78000,390625,1952500,9762500,48831250,
 %T A074012 244125000
 %N A074012 Number of elements of GF(5^n) with trace 1 and subtrace 3.
 %C A074012 Same as the number of elements of GF(5^n) with trace 2 and subtrace 2. Same as the number of elements of GF(5^n) with trace 3 and subtrace 2. Same as the number of elements of GF(5^n) with trace 4 and subtrace 3.
 %H A074012 Frank Ruskey, <a href="http://combos.org/TSGF5">Number of Elements of GF(5^n) with given trace and subtrace</a>
-%o A074012 (Sage)
+%o A074012 (SageMath)
 %o A074012 def a(n):
 %o A074012     ans = 0
 %o A074012     for x in GF(5^n):

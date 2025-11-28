@@ -1,4 +1,4 @@
-%I A230458 #52 May 26 2019 15:17:04
+%I A230458 #53 Nov 05 2025 15:35:35
 %S A230458 9,1,9,2,6,3,1,7,7,0
 %N A230458 Decimal expansion of Δν_{Cs} in unit s^{-1}; one of the seven units of the 2019 SI system.
 %C A230458 The second s is defined to be exactly 9192631770 periods of the resonance frequency of the hyperfine transition of the cesium 133 atom.
@@ -8,7 +8,7 @@
 %H A230458 BIPM, <a href="https://www.bipm.org/utils/common/pdf/CGPM-2018/26th-CGPM-Resolutions.pdf">On the revision of the International System of Units (SI)</a>, BIPM, Nov 13-16 2018.
 %H A230458 Bureau International des Poids et Mesures, <a href="http://www.bipm.org/en/publications/si-brochure/second.html">Unit of time (second)</a>
 %H A230458 W. M. Itano and N. F. Ramsey, <a href="http://www.scientificamerican.com/article/accurate-measurement-of-time/">Accurate measurement of time</a>, Scientific American, 269 (July 1993), 56-65.
-%H A230458 N. F. Ramsey, <a href="http://www.jstor.org/stable/27854962">Precise measurement of time</a>, American Scientist, 76 (No. 1, 1988), 42-49.
+%H A230458 N. F. Ramsey, <a href="https://www.jstor.org/stable/27854962">Precise measurement of time</a>, American Scientist, 76 (No. 1, 1988), 42-49.
 %H A230458 Wikipedia, <a href="http://en.wikipedia.org/wiki/Second">Second</a>
 %H A230458 Wikipedia, <a href="https://en.wikipedia.org/wiki/2019_redefinition_of_SI_base_units">2019 redefinition of SI base units</a>
 %F A230458 Δν_{Cs} = 9192631770 s^{-1}.

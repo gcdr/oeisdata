@@ -1,10 +1,10 @@
-%I A238734 #30 Mar 16 2021 04:06:58
+%I A238734 #31 Nov 05 2025 15:22:26
 %S A238734 2,7,7,8,7,6,8,8,2,0,7,3,2,3,1,9,6,1,9,3,2,3,1,0,8,6,6,7,0,3,2,5,3,4,
 %T A238734 2,0,3,6,0,2,0,6,2,9,4,1,4,7,3,6,8,2,9,8,8,2,4,5,2,7,0,5,3,3,6,7,7,1,
 %U A238734 6,4,9,8,0,0,8,2,8,3,5,0,7,5,9,9,6,6,3,7,4,8,8,4,6,9,1,0,3,9,4,1,6,6,9,8,0,9,2,9,5,8,6,6,1
 %N A238734 Log of twice the twin prime constant, C_2, log(2*A005597).
 %C A238734 The value occurs as term in equation (15) in the Wolf paper. - _Ralf Stephan_, Mar 28 2014
-%H A238734 Marek Wolf, <a href="https://doi.org/10.1103/PhysRevE.89.022922">Nearest-neighbor-spacing distribution of prime numbers and quantum chaos</a>, Phys. Rev. E 89, 022922 (2014); <a href="http://arxiv.org/abs/1212.3841">arXiv preprint</a>, arXiv:1212.3841 [math.NT], 2012-2014.
+%H A238734 Marek Wolf, <a href="https://doi.org/10.1103/PhysRevE.89.022922">Nearest-neighbor-spacing distribution of prime numbers and quantum chaos</a>, Phys. Rev. E 89, 022922 (2014); <a href="https://arxiv.org/abs/1212.3841">arXiv preprint</a>, arXiv:1212.3841 [math.NT], 2012-2014.
 %F A238734 Equals log(2*A005597).
 %e A238734 0.2778768820732319619323108667032534203602062941473682988245270533677164980...
 %t A238734 digits = 113;

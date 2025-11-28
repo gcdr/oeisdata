@@ -1,6 +1,7 @@
-%I A331424 #29 May 05 2021 01:51:26
+%I A331424 #33 Apr 22 2025 12:20:28
 %S A331424 7,79,6451,2806861
 %N A331424 Prime numbers p such that p^2 divides 31^(p-1) - 1.
+%D A331424 Paulo Ribenboim, The Little Book of Bigger Primes, Springer-Verlag NY 2004. See p. 233.
 %H A331424 Richard Fischer, <a href="http://www.fermatquotient.com/FermatQuotienten/FermQ_Sort.txt">Fermatquotienten von 2 bis 1052</a>, Dec 19 2019.
 %H A331424 Wikipedia, <a href="https://en.wikipedia.org/wiki/Wieferich_prime">Wieferich prime</a>
 %t A331424 Select[Range[3*10^6], PrimeQ[#] && PowerMod[31, # - 1, #^2] == 1 &] (* _Amiram Eldar_, May 05 2021 *)

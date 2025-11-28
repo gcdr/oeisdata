@@ -1,4 +1,4 @@
-%I A006854 M3136 #14 Aug 16 2017 05:28:26
+%I A006854 M3136 #18 Jul 08 2025 16:56:57
 %S A006854 1,1,3,33,13699,19738610121,601031719117714604698691
 %N A006854 Nonantipodal balanced colorings of n-cube.
 %D A006854 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
@@ -6,5 +6,5 @@
 %F A006854 For n > 1, a(n) = Sum_{k=0..2^(n-2)} A(n,2*k) where A(n,2*k) = N(n,2*k) - Sum_{i=0..k-1} binomial(2^(n-1)-2*i, k-i) * A(n,2*i) with N(n,2*k) as defined in A006853 [From Palmer et al.]. - _Sean A. Irvine_, Aug 16 2017
 %K A006854 nonn
 %O A006854 1,3
-%A A006854 _N. J. A. Sloane_.
+%A A006854 _N. J. A. Sloane_
 %E A006854 a(7) from _Sean A. Irvine_, Aug 16 2017

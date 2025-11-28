@@ -1,11 +1,11 @@
-%I A145725 #18 Feb 16 2025 08:33:09
+%I A145725 #19 Nov 05 2025 15:22:07
 %S A145725 1,1,1,1,2,2,2,3,5,5,5,7,9,10,11,14,18,20,22,27,32,36,40,48,57,63,70,
 %T A145725 82,95,106,119,137,158,175,195,222,252,280,311,352,397,439,486,546,
 %U A145725 611,676,747,834,929,1024,1128,1253,1389,1528,1679,1857,2052,2250
 %N A145725 McKay-Thompson series of class 60C for the Monster group with a(0) = 1.
 %C A145725 Ramanujan theta functions: f(q) (see A121373), phi(q) (A000122), psi(q) (A010054), chi(q) (A000700).
 %H A145725 G. C. Greubel, <a href="/A145725/b145725.txt">Table of n, a(n) for n = -1..1000</a>
-%H A145725 Vaclav Kotesovec, <a href="http://arxiv.org/abs/1509.08708">A method of finding the asymptotics of q-series based on the convolution of generating functions</a>, arXiv:1509.08708 [math.CO], Sep 30 2015
+%H A145725 Vaclav Kotesovec, <a href="https://arxiv.org/abs/1509.08708">A method of finding the asymptotics of q-series based on the convolution of generating functions</a>, arXiv:1509.08708 [math.CO], Sep 30 2015
 %H A145725 Michael Somos, <a href="/A010815/a010815.txt">Introduction to Ramanujan theta functions</a>
 %H A145725 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/RamanujanThetaFunctions.html">Ramanujan Theta Functions</a>
 %F A145725 Expansion of q^(-1) * psi(-q^3) * psi(-q^5) / (psi(-q) * psi(-q^15)) in powers of q where psi() is a Ramanujan theta function.

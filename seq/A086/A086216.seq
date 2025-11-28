@@ -1,8 +1,8 @@
-%I A086216 #60 Feb 16 2025 08:32:50
+%I A086216 #61 Nov 05 2025 15:22:03
 %S A086216 0,0,0,0,1,4,25,384,14480,1211735,184649399,47952362294
 %N A086216 Number of 4-connected unlabeled n-node graphs.
 %C A086216 The definition means that the connectivity is 4 or more.
-%H A086216 Travis Hoppe and Anna Petrone, <a href="http://arxiv.org/abs/1408.3644">Integer sequence discovery from small graphs</a>, arXiv preprint arXiv:1408.3644, [math.CO], 2014.
+%H A086216 Travis Hoppe and Anna Petrone, <a href="https://arxiv.org/abs/1408.3644">Integer sequence discovery from small graphs</a>, arXiv preprint arXiv:1408.3644, [math.CO], 2014.
 %H A086216 Travis Hoppe and Anna Petrone, <a href="http://doi.org/10.1016/j.dam.2015.07.017">Integer sequence discovery from small graphs</a>, Discr. Appl. Math. 201 (2016) 172-181.
 %H A086216 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/k-ConnectedGraph.html">k-Connected Graph</a>
 %F A086216 a(n) = A086217(n) + A052445(n). - _Andrew Howroyd_, Sep 04 2019

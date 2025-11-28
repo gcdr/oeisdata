@@ -1,4 +1,4 @@
-%I A090301 #21 Sep 08 2022 08:45:12
+%I A090301 #24 Sep 22 2025 16:00:43
 %S A090301 2,15,227,3420,51527,776325,11696402,176222355,2655031727,40001698260,
 %T A090301 602680505627,9080209282665,136805819745602,2061167505466695,
 %U A090301 31054318401746027,467875943531657100,7049193471376602527
@@ -26,9 +26,9 @@
 %e A090301 a(4) = 15*a(3) + a(2) = 15*3420 + 227 = ((15+sqrt(229))/2)^4 + ((15-sqrt(229))/2)^4 = 51526.9999805 + 0.0000194 = 51527.
 %p A090301 seq(simplify(2*(-I)^n*ChebyshevT(n, 15*I/2)), n = 0..20); # _G. C. Greubel_, Dec 31 2019
 %t A090301 LucasL[Range[20]-1, 15] (* _G. C. Greubel_, Dec 31 2019 *)
-%o A090301 (PARI) vector(21, n, 2*(-I)^(n-1)*polchebyshev(n-1, 1, 15*I/2) ) \\ _G. C. Greubel_, Dec 3012019
+%o A090301 (PARI) vector(21, n, 2*(-I)^(n-1)*polchebyshev(n-1, 1, 15*I/2) ) \\ _G. C. Greubel_, Dec 31 2019
 %o A090301 (Magma) m:=15; I:=[2,m]; [n le 2 select I[n] else m*Self(n-1) +Self(n-2): n in [1..20]]; // _G. C. Greubel_, Dec 31 2019
-%o A090301 (Sage) [2*(-I)^n*chebyshev_T(n, 15*I/2) for n in (0..20)] # _G. C. Greubel_, Dec 31 2019
+%o A090301 (SageMath) [2*(-I)^n*chebyshev_T(n, 15*I/2) for n in (0..20)] # _G. C. Greubel_, Dec 31 2019
 %o A090301 (GAP) m:=15;; a:=[2,m];; for n in [3..20] do a[n]:=m*a[n-1]+a[n-2]; od; a; # _G. C. Greubel_, Dec 31 2019
 %Y A090301 Cf. A058087, A071416.
 %Y A090301 Lucas polynomials: A114525.

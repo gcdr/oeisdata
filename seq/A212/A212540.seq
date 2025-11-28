@@ -1,8 +1,8 @@
-%I A212540 #4 May 20 2012 06:18:18
+%I A212540 #8 Oct 03 2025 16:36:11
 %S A212540 1,5,12,24,33,69,83,116,145,188,193,290,293,332,428,496,497,606,607,
 %T A212540 772,840,857,858,1079,1098,1109,1153,1277,1278,1626,1627,1723,1750,
 %U A212540 1757,1832,2100,2101,2106,2130,2541,2542,2784,2785,2843,3111,3115,3116,3462,3477
-%N A212540 Number of nondecreasing sequences of 7 1..n integers with every element dividing the sequence sum
+%N A212540 Number of nondecreasing sequences of 7 1..n integers with every element dividing the sequence sum.
 %C A212540 Row 7 of A212536
 %H A212540 R. H. Hardin, <a href="/A212540/b212540.txt">Table of n, a(n) for n = 1..210</a>
 %e A212540 Some solutions for n=8
@@ -15,4 +15,4 @@
 %e A212540 ..8....6....7....6....5....8....4....7....6....8....8....6....6....4....6....6
 %K A212540 nonn
 %O A212540 1,2
-%A A212540 _R. H. Hardin_ May 20 2012
+%A A212540 _R. H. Hardin_, May 20 2012

@@ -1,7 +1,7 @@
-%I A145182 #6 Mar 02 2018 13:14:49
+%I A145182 #8 Jun 02 2025 00:37:36
 %S A145182 8,536,153992264,3651713626720249047672536,
 %T A145182 48695646535829720063008633136610768101443687873746944465180200686293744264
-%N A145182 Continued cotangent recurrence a(n+1)=a(n)^3+3*a(n) and a(1)=8
+%N A145182 Continued cotangent recurrence a(n+1)=a(n)^3+3*a(n) and a(1)=8.
 %C A145182 General formula for continued cotangent recurrences type:
 %C A145182 a(n+1)=a(n)3+3*a(n) and a(1)=k is following:
 %C A145182 a(n)=Floor[((k+Sqrt[k^2+4])/2)^(3^(n-1))]

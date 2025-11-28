@@ -1,4 +1,4 @@
-%I A177790 #28 Nov 25 2020 21:19:10
+%I A177790 #37 Jul 25 2025 12:46:19
 %S A177790 1,2,6,14,34,84,208,518,1296,3254,8196,20700,52404,132942,337878,
 %T A177790 860142,2192902,5598144,14308378,36610970,93770358,240390602,
 %U A177790 616787116,1583765724,4069672444,10464501074,26924530158,69315481778,178545361842,460138256784
@@ -6,7 +6,7 @@
 %C A177790 a(n) equals the number of different permutations of n 0's and n 1's such that no more than two occurrences of the same number ever appear in a row. - _Dave R.M. Langers_, Apr 07 2016
 %C A177790 This also equals the number of possible different rows or columns that may occur in a 2n-by-2n binary puzzle. - _Dave R.M. Langers_, Apr 07 2016
 %H A177790 Alois P. Heinz, <a href="/A177790/b177790.txt">Table of n, a(n) for n = 0..750</a>
-%H A177790 Daiki Miyahara, Léo Robert, Pascal Lafourcade, So Takeshige, Takaaki Mizuki, Kazumasa Shinagawa, Atsuki Nagao, Hideaki Sone, <a href="https://drops.dagstuhl.de/opus/volltexte/2020/12760/pdf/lipics-vol157-fun2021-complete.pdf#page=339">Card-Based ZKP Protocols for Takuzu and Juosan</a>, 10th International Conference on Fun with Algorithms (FUN 2021). Schloss Dagstuhl-Leibniz-Zentrum für Informatik, 20:1-21.
+%H A177790 Daiki Miyahara, Léo Robert, Pascal Lafourcade, So Takeshige, Takaaki Mizuki, Kazumasa Shinagawa, Atsuki Nagao, and Hideaki Sone, <a href="https://drops.dagstuhl.de/opus/volltexte/2020/12760/pdf/lipics-vol157-fun2021-complete.pdf#page=339">Card-Based ZKP Protocols for Takuzu and Juosan</a>, 10th International Conference on Fun with Algorithms (FUN 2021). Schloss Dagstuhl-Leibniz-Zentrum für Informatik, 20:1-21.
 %F A177790 a(n) = Sum_{i=0..floor(n/2)} 2*C(n-i,i)^2 + C(n-i,i)*C(n-i-1,i+1) + C(n-i,i)*C(n-i+1,i-1).
 %F A177790 a(n) = [x^n y^n] (-(1+x+x^2)*(1+y+y^2) / (-1+x*y+x*y^2+x^2*y+x^2*y^2)).
 %F A177790 G.f.: 1 + ((1-t)^2*sqrt((1+t+t^2)*(1-3*t+t^2))-(1-3*t+t^2)*(1+t^2)) / (t^2*(1-3*t+t^2)).

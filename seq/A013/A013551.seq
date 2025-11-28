@@ -1,4 +1,4 @@
-%I A013551 #11 Nov 12 2016 08:12:11
+%I A013551 #12 Sep 30 2025 20:34:18
 %S A013551 1,-2,2,-4,2,-136,676,-656,62,-47672,2714132,-3091664,7223932,
 %T A013551 -16788784,120994136,-15764283616,13831453742,-3729134588968,
 %U A013551 463898158095404,-119174509180016
@@ -8,5 +8,5 @@
 %t A013551 Numerator[CoefficientList[Series[Exp[Cot[x]-Coth[x]],{x,0,20}],x] ] (* _Harvey P. Dale_, Feb 16 2014 *)
 %K A013551 sign,frac
 %O A013551 0,2
-%A A013551 Patrick Demichel (patrick.demichel(AT)hp.com)
+%A A013551 _Patrick Demichel_
 %E A013551 Name edited by _R. J. Mathar_, Dec 21 2011

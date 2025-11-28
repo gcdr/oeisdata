@@ -1,4 +1,4 @@
-%I A002620 M0998 N0374 #821 Dec 14 2024 07:17:34
+%I A002620 M0998 N0374 #850 Nov 23 2025 10:08:29
 %S A002620 0,0,1,2,4,6,9,12,16,20,25,30,36,42,49,56,64,72,81,90,100,110,121,132,
 %T A002620 144,156,169,182,196,210,225,240,256,272,289,306,324,342,361,380,400,
 %U A002620 420,441,462,484,506,529,552,576,600,625,650,676,702,729,756,784,812
@@ -13,7 +13,7 @@
 %C A002620 For example, a(2) = 1 and one capture can produce "doubled pawns", a(3) = 2 and two captures is sufficient to produce tripled pawns, etc. (Of course other, uncounted, non-capturing pawn moves are also necessary from the starting position in order to put three or more pawns on a given file.) - _Rick L. Shepherd_, Sep 17 2002
 %C A002620 Terms are the geometric mean and arithmetic mean of their neighbors alternately. - _Amarnath Murthy_, Oct 17 2002
 %C A002620 Maximum product of two integers whose sum is n. - _Matthew Vandermast_, Mar 04 2003
-%C A002620 a(n+1) gives number of non-symmetric partitions of n into at most 3 parts, with zeros used as padding. E.g., a(6) = 12 because we can write 5 = 5 + 0 + 0 = 0 + 5 + 0 = 4 + 1 + 0 = 1 + 4 + 0 = 1 + 0 + 4 = 3 + 2 + 0 = 2 + 3 + 0 = 2 + 0 + 3 = 2 + 2 + 1 = 2 + 1 + 2 = 3 + 1 + 1 = 1 + 3 + 1. - _Jon Perry_, Jul 08 2003
+%C A002620 a(n+2) gives number of non-symmetric partitions of n into at most 3 parts, with zeros used as padding. E.g., a(7) = 12 because we can write 5 = 5 + 0 + 0 = 0 + 5 + 0 = 4 + 1 + 0 = 1 + 4 + 0 = 1 + 0 + 4 = 3 + 2 + 0 = 2 + 3 + 0 = 2 + 0 + 3 = 2 + 2 + 1 = 2 + 1 + 2 = 3 + 1 + 1 = 1 + 3 + 1. - _Jon Perry_, Jul 08 2003
 %C A002620 a(n-1) gives number of distinct elements greater than 1 of non-symmetric partitions of n into at most 3 parts, with zeros used as padding, appear in the middle. E.g., 5 = 5 + 0 + 0 = 0 + 5 + 0 = 4 + 1 + 0 = 1 + 4 + 0 = 1 + 0 + 4 = 3 + 2 + 0 = 2 + 3 + 0 = 2 + 0 + 3 = 2 + 2 + 1 = 2 + 1 + 2 = 3 + 1 + 1 = 1 + 3 + 1. Of these, 050, 140, 320, 230, 221, 131 qualify and a(4) = 6. - _Jon Perry_, Jul 08 2003
 %C A002620 Union of square numbers (A000290) and oblong numbers (A002378). - _Lekraj Beedassy_, Oct 02 2003
 %C A002620 Conjectured size of the smallest critical set in a Latin square of order n (true for n <= 8). - _Richard Bean_, Jun 12 2003 and Nov 18 2003
@@ -86,7 +86,7 @@
 %C A002620 a(n+2) is the number of distinct genotype frequency vectors possible for a sample of n diploid individuals at a biallelic genetic locus with a specified major allele. Such vectors are the lists of nonnegative genotype frequencies (n_AA, n_AB, n_BB) with n_AA + n_AB + n_BB = n and n_AA >= n_BB. - _Noah A Rosenberg_, Feb 05 2019
 %C A002620 a(n+2) is the number of distinct real spectra (eigenvalues repeated according to their multiplicity) for an orthogonal n X n matrix. The case of an empty spectrum list is logically counted as one of those possibilities, when it exists. Thus a(n+2) is the number of distinct reduced forms (on the real field, in orthonormal basis) for elements in O(n). - _Christian Devanz_, Feb 13 2019
 %C A002620 a(n) is the number of non-isomorphic asymmetric graphs that can be created by adding a single edge to a path on n+4 vertices. - Emma Farnsworth, Natalie Gomez, Herlandt Lino, and _Darren Narayan_, Jul 03 2019
-%C A002620 a(n+1) is the number of integer triangles with maximum side-length n. - _James East_, Oct 30 2019
+%C A002620 a(n+1) is the number of integer triangles with largest side n. - _James East_, Oct 30 2019
 %C A002620 a(n) is the number of nonempty subsets of {1,2,...,n} that contain exactly one odd and one even number.  For example, for n=7, a(7)=12 and the 12 subsets are {1,2}, {1,4}, {1,6}, {2,3}, {2,5}, {2,7}, {3,4}, {3,6}, {4,5}, {4,7}, {5,6}, {6,7}. - _Enrique Navarrete_, Dec 16 2019
 %C A002620 a(n+1) is also the n-th term of the Saind sequence (w_n)_{n>=1}, i.e., the infinite sequence caused by the entries of the queue of the degree sequences associated with the Saind arrays, as n increases. - _Giulia Palma_, Jun 24 2020
 %C A002620 Aside from the first two terms, a(n) enumerates the number of distinct normal ordered terms in the expansion of the differential operator (x + d/dx)^m associated to the Hermite polynomials and the Heisenberg-Weyl algebra. It also enumerates the number of distinct monomials in the bivariate polynomials corresponding to the partial sums of the series for cos(x+y) and sin(x+y). Cf. A344678. - _Tom Copeland_, May 27 2021
@@ -101,6 +101,9 @@
 %C A002620 Let us consider triangles whose vertices are the centers of three squares constructed on the sides of a right triangle. a(n) is the integer part of the area of these triangles, taken without repetitions and in ascending order. See the illustration in the links. - _Nicolay Avilov_, Aug 05 2024
 %C A002620 For n>=2, a(n) is the indendence number of the 2-token graph F_2(P_n) of the path graph P_n on n vertices. (Alternatively, as noted by Peter Munn, F_2(P_n) is the nXn square lattice, or grid, graph diminished by a cut across the diagonal.) - _Miquel A. Fiol_, Oct 05 2024
 %C A002620 For n >= 1, also the lower matching number of the n-triangular honeycomb rook graph. - _Eric W. Weisstein_, Dec 14 2024
+%C A002620 a(n-1) is also the minimal number of edges that a graph of n vertices must have such that any 3 vertices share at least one edge. - _Ruediger Jehn_, May 20 2025
+%C A002620 a(n) is the number of edges of the antiregular graph A_n.  This is the unique connected graph with n vertices and degrees 1 to n-1 (floor(n/2) repeated). - _Allan Bickle_, Jun 15 2025
+%C A002620 a(n) is the number of rooted binary perfect phylogenies with sample size n+1, a caterpillar shape, and 3 leaves. - _Noah A Rosenberg_, Nov 15 2025
 %D A002620 Sergei Abramovich, Combinatorics of the Triangle Inequality: From Straws to Experimental Mathematics for Teachers, Spreadsheets in Education (eJSiE), Vol. 9, Issue 1, Article 1, 2016. See Fig. 3.
 %D A002620 G. L. Alexanderson et al., The William Powell Putnam Mathematical Competition - Problems and Solutions: 1965-1984, M.A.A., 1985; see Problem A-1 of 27th Competition.
 %D A002620 T. M. Apostol, Introduction to Analytic Number Theory, Springer-Verlag, 1976, page 73, problem 25.
@@ -112,6 +115,7 @@
 %D A002620 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
 %D A002620 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
 %H A002620 Franklin T. Adams-Watters, <a href="/A002620/b002620.txt">Table of n, a(n) for n = 0..10000</a>
+%H A002620 Akbar Ali, <a href="https://shahindp.com/Contrib_Math/v1/CM20_v1_pp67_79.pdf">A survey of antiregular graphs</a>, Contrib. Math. 1 (2020), 67-79.
 %H A002620 Suayb S. Arslan, <a href="https://arxiv.org/abs/1709.07446">Asymptotically MDS Array BP-XOR Codes</a>, arXiv:1709.07949 [cs.IT], 2017.
 %H A002620 Nicolay Avilov, <a href="/A002620/a002620.jpg">Illustration of the sequence</a>.
 %H A002620 J. A. Bate and G. H. J. van Rees, <a href="http://citeseerx.ist.psu.edu/pdf/c992c21aa8010d9e4c84d69c924370a457088307">The Size of the Smallest Strong Critical Set in a Latin Square</a>, Ars Combinatoria, Vol. 53 (1999) 73-83.
@@ -122,16 +126,16 @@
 %H A002620 Washington G. Bomfim, <a href="http://commons.wikimedia.org/wiki/Image:A002620.PNG">Illustration of the bracelets with 8 beads, 2 of which are red, 1 of which is blue</a>.
 %H A002620 Henry Bottomley, <a href="/A002620/a002620.gif">Illustration of initial terms</a>.
 %H A002620 J. Brandts and C. Cihangir, <a href="http://www.math.cas.cz/~am2013/proceedings/contributions/brandts.pdf">Counting triangles that share their vertices with the unit n-cube</a>, in Conference Applications of Mathematics 2013 in honor of the 70th birthday of Karel Segeth. Jan Brandts, Sergey Korotov, et al., eds., Institute of Mathematics AS CR, Prague 2013.
-%H A002620 Jan Brandts and A Cihangir, <a href="http://arxiv.org/abs/1512.03044">Enumeration and investigation of acute 0/1-simplices modulo the action of the hyperoctahedral group</a>, arXiv preprint arXiv:1512.03044 [math.CO], 2015.
+%H A002620 Jan Brandts and A Cihangir, <a href="https://arxiv.org/abs/1512.03044">Enumeration and investigation of acute 0/1-simplices modulo the action of the hyperoctahedral group</a>, arXiv preprint arXiv:1512.03044 [math.CO], 2015.
 %H A002620 P. J. Cameron, <a href="http://www.maths.qmw.ac.uk/~pjc/bcc/allprobs.pdf">BCC Problem List</a>, Problem BCC15.15 (DM285), Discrete Math., Vol. 167/168 (1997), pp. 605-615.
 %H A002620 P. J. Cameron, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL3/groups.html">Sequences realized by oligomorphic permutation groups</a>, J. Integ. Seq., Vol. 3 (2000), Article 00.1.5.
 %H A002620 Johann Cigler, <a href="https://arxiv.org/abs/1711.03340">Some remarks on Rogers-Szegö polynomials and Losanitsch's triangle</a>, arXiv:1711.03340 [math.CO], 2017.
 %H A002620 H. de Alba, W. Carballosa, J. Leaños, and L. M. Rivera, <a href="http://ajc.maths.uq.edu.au/pdf/76/ajc_v76_p387.pdf">Independence and matching numbers of some token graphs</a> Australas. J. Combin. 76(3) (2020), 387-403.
 %H A002620 F. Javier de Vega, <a href="https://arxiv.org/abs/2003.13378">An extension of Furstenberg's theorem of the infinitude of primes</a>, arXiv:2003.13378 [math.NT], 2020.
 %H A002620 Bakir Farhi, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL16/Farhi/farhi7.html">On the Representation of the Natural Numbers as the Sum of Three Terms of the Sequence floor(n^2/a)</a>, Journal of Integer Sequences, Vol. 16 (2013), Article 13.6.4.
-%H A002620 E. Fix and J. L. Hodges, Jr., <a href="http://www.jstor.org/stable/2236885">Significance probabilities of the Wilcoxon test</a>, Annals Math. Stat., Vol. 26 (1955), pp. 301-312.
+%H A002620 E. Fix and J. L. Hodges, Jr., <a href="https://www.jstor.org/stable/2236885">Significance probabilities of the Wilcoxon test</a>, Annals Math. Stat., Vol. 26 (1955), pp. 301-312.
 %H A002620 E. Fix and J. L. Hodges, <a href="/A000601/a000601.pdf">Significance probabilities of the Wilcoxon test</a>, Annals Math. Stat., Vol. 26 (1955), pp. 301-312. [Annotated scanned copy]
-%H A002620 A. Ganesan, <a href="http://arxiv.org/abs/1206.6279">Automorphism groups of graphs</a>, arXiv preprint arXiv:1206.6279 [cs.DM], 2012. - From _N. J. A. Sloane_, Dec 17 2012
+%H A002620 A. Ganesan, <a href="https://arxiv.org/abs/1206.6279">Automorphism groups of graphs</a>, arXiv preprint arXiv:1206.6279 [cs.DM], 2012. - From _N. J. A. Sloane_, Dec 17 2012
 %H A002620 Juan B. Gil and Jessica A. Tomasko, <a href="https://arxiv.org/abs/2207.12617">Pattern-avoiding even and odd Grassmannian permutations</a>, arXiv:2207.12617 [math.CO], 2022.
 %H A002620 J. W. L. Glaisher and G. Carey Foster, <a href="https://www.jstor.org/stable/41135937">The Method of Quarter Squares</a>, Journal of the Institute of Actuaries, Vol. 28, No. 3, January, 1890, pp. 227-235.
 %H A002620 E. Gottlieb and M. Sheard, <a href="http://discretews.math.msstate.edu/2014/gottlieb_slides.pdf">An Erdős-Szekeres result for set partitions</a>, Slides from a talk, Nov 14 2014. [A006260 is a typo for A002620]
@@ -141,8 +145,8 @@
 %H A002620 T. Huber, N. Mayes, J. Opoku, and D. Ye, <a href="https://doi.org/10.1016/j.jnt.2023.11.009">Ramanujan type congruences for quotients of Klein forms</a>, Journal of Number Theory, 258, 281-333, (2024). See Corollary 2.5 page 11.
 %H A002620 Hsien-Kuei Hwang, Svante Janson, and Tsung-Hsi Tsai, <a href="https://arxiv.org/abs/2210.10968">Identities and periodic oscillations of divide-and-conquer recurrences splitting at half</a>, arXiv:2210.10968 [cs.DS], 2022, p. 36.
 %H A002620 INRIA Algorithms Project, <a href="http://ecs.inria.fr/services/structure?nbr=105">Encyclopedia of Combinatorial Structures 105</a>
-%H A002620 O. A. Ivanov, <a href="http://www.jstor.org/stable/10.4169/000298910X523362">On the number of regions into which n straight lines divide the plane</a>, Amer. Math. Monthly, 117 (2010), 881-888. See Th. 4.
-%H A002620 T. Jenkyns and E. Muller, <a href="http://www.jstor.org/stable/2589119">Triangular triples from ceilings to floors</a>, Amer. Math. Monthly, Vol. 107 (Aug. 2000), pp. 634-639.
+%H A002620 O. A. Ivanov, <a href="https://www.jstor.org/stable/10.4169/000298910X523362">On the number of regions into which n straight lines divide the plane</a>, Amer. Math. Monthly, 117 (2010), 881-888. See Th. 4.
+%H A002620 T. Jenkyns and E. Muller, <a href="https://www.jstor.org/stable/2589119">Triangular triples from ceilings to floors</a>, Amer. Math. Monthly, Vol. 107 (Aug. 2000), pp. 634-639.
 %H A002620 Paloma Jiménez-Sepúlveda and Luis Manuel Rivera, <a href="https://arxiv.org/abs/1810.06354">Independence numbers of some double vertex graphs and pair graphs</a>, arXiv:1810.06354 [math.CO], 2018.
 %H A002620 V. Jovovic, Vladeta Jovovic, <a href="/A005748/a005748.pdf">Number of binary matrices</a>.
 %H A002620 Clark Kimberling and John E. Brown, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL7/Kimberling/kimber67.html">Partial Complements and Transposable Dispersions</a>, J. Integer Seq., Vol. 7 (2004), Article 04.1.6.
@@ -155,18 +159,20 @@
 %H A002620 Rene Marczinzik, <a href="https://arxiv.org/abs/1701.00972">Finitistic Auslander algebras</a>, arXiv:1701.00972 [math.RT], 2017 [Page 9, Conjecture].
 %H A002620 Mircea Merca, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL14/Merca/merca3.html">Inequalities and Identities Involving Sums of Integer Functions</a>, J. Integer Sequences, Vol. 14 (2011), Article 11.9.1.
 %H A002620 Emanuele Munarini, <a href="https://doi.org/10.4418/2021.76.1.14">Topological indices for the antiregular graphs</a>, Le Mathematiche, Vol. 76, No. 1 (2021), pp. 277-310, see page 282.
+%H A002620 Mohammed L. Nadji, Moussa Ahmia, Daniel F. Checa, and José L. Ramírez, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL28/Ramirez/ramirez19.html">Arndt Compositions with Restricted Parts, Palindromes, and Colored Variants</a>, J. Int. Seq. (2025) Vol. 28, Issue 3, Article 25.3.6. See p. 11.
 %H A002620 Kival Ngaokrajang, <a href="/A002620/a002620.pdf">Illustration of twin hearts patterns (6c4c): T, U, V</a>.
 %H A002620 E. A. Nordhaus and J. Gaddum, <a href="https://lost-contact.mit.edu/afs//nada.kth.se/home/p/u1wdw8tp/Downloads/2306658.pdf">On complementary graphs</a>, Amer. Math. Monthly, Vol. 63 (1956), pp. 175-177.
-%H A002620 Brian O'Sullivan and Thomas Busch, <a href="http://arxiv.org/abs/0810.0231">Spontaneous emission in ultra-cold spin-polarised anisotropic Fermi seas</a>, arXiv:0810.0231v1 [quant-ph], 2008. [Eq 8a, lambda=2]
+%H A002620 Brian O'Sullivan and Thomas Busch, <a href="https://arxiv.org/abs/0810.0231">Spontaneous emission in ultra-cold spin-polarised anisotropic Fermi seas</a>, arXiv:0810.0231v1 [quant-ph], 2008. [Eq 8a, lambda=2]
 %H A002620 Simon Plouffe, <a href="https://arxiv.org/abs/0911.4975">Approximations de séries génératrices et quelques conjectures</a>, Dissertation, Université du Québec à Montréal, 1992; arXiv:0911.4975 [math.NT], 2009;
 %H A002620 Simon Plouffe, <a href="/A000051/a000051_2.pdf">1031 Generating Functions</a>, Appendix to Thesis, Montreal, 1992.
 %H A002620 N. Reading, <a href="http://www4.ncsu.edu/~nreadin/papers/dissective.pdf">Order Dimension, Strong Bruhat Order and Lattice Properties for Posets </a>
 %H A002620 N. Reading, <a href="http://doi.org/10.1023/A:1015287106470">Order Dimension, Strong Bruhat Order and Lattice Properties for Posets</a>, Order, Vol. 19, No. 1 (2002), pp. 73-100.
-%H A002620 Denis Roegel, <a href="https://locomat.loria.fr/blater1887/blater1887doc.pdf">A reconstruction of Blater’s table of quarter-squares (1887)</a>, Locomat Project, 6 November 2013.
+%H A002620 Denis Roegel, <a href="https://locomat.loria.fr/blater1887/blater1887doc.pdf">A reconstruction of Blater's table of quarter-squares (1887)</a>, Locomat Project, 6 November 2013.
 %H A002620 J. Scholes, <a href="https://mks.mff.cuni.cz/kalva/putnam/putn66.html">27th Putnam 1966 Prob. A1</a>.
+%H A002620 Chloe E. Shiff and Noah A. Rosenberg, <a href="https://doi.org/10.1016/j.dam.2025.10.053">Enumeration of rooted binary perfect phylogenies</a>, Discr. Appl. Math. 380 (2026), 538-561. See Table 2.
 %H A002620 N. J. A. Sloane, <a href="/classic.html#LOSS">Classic Sequences</a>.
 %H A002620 Sam E. Speed, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL6/Speed/speed11.html">The Integer Sequence A002620 and Upper Antagonistic Functions</a>, Journal of Integer Sequences, Vol. 6 (2003), Article 03.1.4.
-%H A002620 K. E. Stange, <a href="http://arxiv.org/abs/1108.3051">Integral points on elliptic curves and explicit valuations of division polynomials</a> arXiv:1108.3051v3 [math.NT], 2011-2014.
+%H A002620 K. E. Stange, <a href="https://arxiv.org/abs/1108.3051">Integral points on elliptic curves and explicit valuations of division polynomials</a> arXiv:1108.3051v3 [math.NT], 2011-2014.
 %H A002620 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/BlackBishopGraph.html">Black Bishop Graph</a>.
 %H A002620 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/CompleteBipartiteGraph.html">Complete Bipartite Graph</a>.
 %H A002620 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/GraphCrossingNumber.html">Graph Crossing Number</a>.
@@ -290,11 +296,11 @@
 %o A002620 (PARI) a(n)=n^2\4
 %o A002620 (PARI) (t(n)=n*(n+1)/2);for(i=1,50,print1(",",(-1)^i*sum(k=1,i,(-1)^k*t(k))))
 %o A002620 (PARI) a(n)=n^2>>2 \\ _Charles R Greathouse IV_, Nov 11 2009
-%o A002620 (PARI) x='x+O('x^100); concat([0, 0], Vec(x^2/((1-x)^2*(1-x^2)))) \\ _Altug Alkan_, Oct 15 2015
+%o A002620 (PARI) my(x='x+O('x^100)); concat([0, 0], Vec(x^2/((1-x)^2*(1-x^2)))) \\ _Altug Alkan_, Oct 15 2015
 %o A002620 (Haskell)
 %o A002620 a002620 = (`div` 4) . (^ 2) -- _Reinhard Zumkeller_, Feb 24 2012
 %o A002620 (Maxima) makelist(floor(n^2/4),n,0,50); /* _Martin Ettl_, Oct 17 2012 */
-%o A002620 (Sage)
+%o A002620 (SageMath)
 %o A002620 def A002620():
 %o A002620      x, y = 0, 1
 %o A002620      yield x
@@ -318,6 +324,6 @@
 %Y A002620 Cf. A000290, A056834, A130519, A056838, A056865.
 %Y A002620 Cf. A250000 (queens on a chessboard), A176222 (kings on a chessboard), A355509 (knights on a chessboard).
 %Y A002620 Maximal product of k positive integers with sum n, for k = 2..10: this sequence (k=2), A006501 (k=3), A008233 (k=4), A008382 (k=5), A008881 (k=6), A009641 (k=7), A009694 (k=8), A009714 (k=9), A354600 (k=10).
-%K A002620 nonn,easy,nice,core
+%K A002620 nonn,easy,nice,core,changed
 %O A002620 0,4
 %A A002620 _N. J. A. Sloane_

@@ -1,4 +1,4 @@
-%I A026800 #47 Dec 01 2024 12:47:32
+%I A026800 #50 Sep 22 2025 16:00:28
 %S A026800 0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,1,1,1,1,1,1,2,2,3,3,4,4,5,6,7,8,10,11,
 %T A026800 13,15,18,20,24,27,32,36,42,48,56,63,73,83,96,108,125,141,162,183,209,
 %U A026800 236,270,304,346,390,443,498,565,635,719,807,911,1022,1153,1291,1453,1628,1829,2045
@@ -23,11 +23,12 @@
 %p A026800 S:= series(x^7/mul(1-x^i,i=7..N-7),x,N+1):
 %p A026800 seq(coeff(S,x,i),i=0..N); # _Robert Israel_, Jul 04 2019
 %t A026800 CoefficientList[Series[x^7/QPochhammer[x^7, x], {x, 0, 75}], x] (* _G. C. Greubel_, Nov 03 2019 *)
+%t A026800 Join[{0},Table[Count[IntegerPartitions[n],_?(#[[-1]]==7&)],{n,80}]] (* _Harvey P. Dale_, Apr 05 2025 *)
 %o A026800 (Magma) p :=  func< n | n lt 0 select 0 else NumberOfPartitions(n) >;
 %o A026800 A026800 := func< n | p(n-7)-p(n-8)-p(n-9)+p(n-12)+2*p(n-14)-p(n-16)- p(n-17)-p(n-18)-p(n-19)+2*p(n-21)+p(n-23)-p(n-26)-p(n-27)+p(n-28) >; // _Jason Kimberley_, Feb 03 2011
 %o A026800 (Magma) R<x>:=PowerSeriesRing(Integers(), 75); [0,0,0,0,0,0,0] cat Coefficients(R!( x^7/(&*[1-x^(m+7): m in [0..80]]) )); // _G. C. Greubel_, Nov 03 2019
 %o A026800 (PARI) my(x='x+O('x^75)); concat([0,0,0,0,0,0,0], Vec(x^7/prod(m=0,80, 1-x^(m+7)))) \\ _G. C. Greubel_, Nov 03 2019
-%o A026800 (Sage)
+%o A026800 (SageMath)
 %o A026800 def A026800_list(prec):
 %o A026800     P.<x> = PowerSeriesRing(ZZ, prec)
 %o A026800     return P( x^7/product((1-x^(m+7)) for m in (0..80)) ).list()

@@ -1,8 +1,8 @@
-%I A173744 #7 Oct 24 2017 18:09:06
+%I A173744 #9 Jun 02 2025 02:42:13
 %S A173744 1,2,3,6,20,28,45,75,90,147,150,169,176,189,208,252,294,336,338,378,
 %T A173744 480,608,792,875,1400,1444,1521,1715,1750,1960,2808,2904,3042,3159,
 %U A173744 3430,3744,4056,4624,6318,6591,6859,8448,11016,13182,13718,14700,16900
-%N A173744 Numbers n such that tau(phi(n))= phi(rad(n))
+%N A173744 Numbers n such that tau(phi(n))= phi(rad(n)).
 %C A173744 Here rad(n) is the product of the primes dividing n (A007947), tau(n) is the number of divisors of n (A000005), phi(n): Euler totient function (A000010)
 %D A173744 M. Abramowitz and I. A. Stegun, eds., Handbook of Mathematical Functions, National Bureau of Standards Applied Math. Series 55, 1964 (and various reprintings), p. 840.
 %H A173744 Harvey P. Dale, <a href="/A173744/b173744.txt">Table of n, a(n) for n = 1..300</a>

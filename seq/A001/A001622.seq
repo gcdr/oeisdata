@@ -1,4 +1,4 @@
-%I A001622 M4046 N1679 #563 Feb 24 2025 13:48:05
+%I A001622 M4046 N1679 #595 Nov 26 2025 15:59:31
 %S A001622 1,6,1,8,0,3,3,9,8,8,7,4,9,8,9,4,8,4,8,2,0,4,5,8,6,8,3,4,3,6,5,6,3,8,
 %T A001622 1,1,7,7,2,0,3,0,9,1,7,9,8,0,5,7,6,2,8,6,2,1,3,5,4,4,8,6,2,2,7,0,5,2,
 %U A001622 6,0,4,6,2,8,1,8,9,0,2,4,4,9,7,0,7,2,0,7,2,0,4,1,8,9,3,9,1,1,3,7,4,8,4,7,5
@@ -24,16 +24,20 @@
 %C A001622 Phi is the length of the equal legs of an isosceles triangle with side c = phi^2, and internal angles (A,B) = 36 degrees, C = 108 degrees. - _Gary W. Adamson_, Jun 20 2022
 %C A001622 The positive solution to x^2 - x - 1 = 0. - _Michal Paulovic_, Jan 16 2023
 %C A001622 The minimal polynomial of phi^n, for nonvanishing integer n, is P(n, x) = x^2 - L(n)*x + (-1)^n, with the Lucas numbers L = A000032, extended to negative arguments with L(n) = (-1)^n*L(n). P(0, x) = (x - 1)^2 is not minimal. - _Wolfdieter Lang_, Feb 20 2025
+%C A001622 This is the largest real zero x of (x^4 + x^2 + 1)^2 = 2*(x^8 + x^4 + 1). - _Thomas Ordowski_, May 14 2025
+%D A001622 John H. Conway and Richard K. Guy, The Book of Numbers, New York: Springer-Verlag, 1996. See pp. 24, 112, 123, 184, 190, 203.
 %D A001622 Michael Doob, The Canadian Mathematical Olympiad & L'Olympiade Mathématique du Canada 1969-1993 - Canadian Mathematical Society & Société Mathématique du Canada, Problem 4, 1975, pages 76-77, 1993.
 %D A001622 Richard A. Dunlap, The Golden Ratio and Fibonacci Numbers, World Scientific, River Edge, NJ, 1997.
 %D A001622 Steven R. Finch, Mathematical Constants, Encyclopedia of Mathematics and its Applications, Vol. 94, Cambridge University Press, 2003, Section 1.2.
 %D A001622 Martin Gardner, The Second Scientific American Book Of Mathematical Puzzles and Diversions, "Phi: The Golden Ratio", Chapter 8, Simon & Schuster, NY, 1961.
 %D A001622 Martin Gardner, Weird Water and Fuzzy Logic: More Notes of a Fringe Watcher, "The Cult of the Golden Ratio", Chapter 9, Prometheus Books, 1996, pages 90-97.
+%D A001622 Ralph P. Grimaldi, Fibonacci and Catalan Numbers: An Introduction, (2012). See p. 54.
 %D A001622 Jan Gullberg, Mathematics from the Birth of Numbers, W. W. Norton & Co., NY & London, 1997, §8.5 The Fibonacci and Related Sequences, p. 287.
 %D A001622 H. E. Huntley, The Divine Proportion, Dover, NY, 1970.
 %D A001622 Mario Livio, The Golden Ratio, Broadway Books, NY, 2002. [see the review by G. Markowsky in the links field]
 %D A001622 Gary B. Meisner, The Golden Ratio: The Divine Beauty of Mathematics, Race Point Publishing (The Quarto Group), 2018. German translation: Der Goldene Schnitt, Librero, 2023.
 %D A001622 Scott Olsen, The Golden Section, Walker & Co., NY, 2006.
+%D A001622 Alfred S. Posamentier, Math Charmers, Tantalizing Tidbits for the Mind, Prometheus Books, NY, 2003, pages 137-139.
 %D A001622 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
 %D A001622 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
 %D A001622 Hans Walser, The Golden Section, Math. Assoc. of Amer. Washington DC 2001.
@@ -43,7 +47,7 @@
 %H A001622 Mohammad K. Azarian, <a href="https://doi.org/10.35834/1998/1003176">Problem 123</a>, Missouri Journal of Mathematical Sciences, Vol. 10, No. 3 (Fall 1998), p. 176; <a href="https://doi.org/10.35834/2000/1201050">Solution</a>, ibid., Vol. 12, No. 1 (Winter 2000), pp. 61-62.
 %H A001622 John Baez, <a href="http://math.ucr.edu/home/baez/week203.html">This week's finds in mathematical physics, Week 203</a>.
 %H A001622 John Baez, <a href="http://math.ucr.edu/home/baez/numbers/">The Rankin Lectures 2008, My Favorite Numbers: 5</a>. [<a href="http://www.youtube.com/watch?v=2oPGmxDua2U">video</a>]
-%H A001622 Murray Berg, <a href="https://web.archive.org/web/2024*/https://www.fq.math.ca/Scanned/4-2/berg.pdf">Phi, the golden ratio (to 4599 decimal places) and Fibonacci numbers</a>, Fib. Quart., Vol. 4, No. 2 (1961), pp. 157-162.
+%H A001622 Murray Berg, <a href="https://www.fq.math.ca/Scanned/4-2/berg.pdf">Phi, the golden ratio (to 4599 decimal places) and Fibonacci numbers</a>, Fib. Quart., Vol. 4, No. 2 (1961), pp. 157-162.
 %H A001622 Ömür Deveci, Zafer Adıgüzel and Taha Doğan, <a href="https://doi.org/10.7546/nntdm.2020.26.1.179-190">On the Generalized Fibonacci-circulant-Hurwitz numbers</a>, Notes on Number Theory and Discrete Mathematics (2020) Vol. 26, No. 1, 179-190.
 %H A001622 T. Eveilleau, <a href="https://web.archive.org/web/20070317084220/http://perso.orange.fr/therese.eveilleau/pages/truc_mat/textes/rectangle_dor.htm">Le nombre d'or</a> (in French).
 %H A001622 Abdul Gaffar, Anand B. Joshi, Sonali Singh, and Keerti Srivastava, <a href="https://doi.org/10.1007/s11042-022-12246-y">A high capacity multi-image steganography technique based on golden ratio and non-subsampled contourlet transform</a>, Multimedia Tools and Applications (2022).
@@ -61,7 +65,7 @@
 %H A001622 Gary B. Meisner, <a href="https://www.goldennumber.net/">Phi, The Golden Number</a>.
 %H A001622 George Markowsky, <a href="http://www.umcs.maine.edu/~markov/GoldenRatio.pdf">Misconceptions About the Golden Ratio</a>, College Mathematics Journal, 23:1 (January 1992), 2-19.
 %H A001622 George Markowsky, <a href="http://www.ams.org/notices/200503/rev-markowsky.pdf">Book review: The Golden Ratio</a>, Notices of the AMS, 52:3 (March 2005), 344-347.
-%H A001622 R. S. Melham and A. G. Shannon, <a href="https://web.archive.org/web/2024*/https://www.fq.math.ca/Scanned/33-1/melham2.pdf">Inverse Trigonometric Hyperbolic Summation Formulas Involving Generalized Fibonacci Numbers</a>, The Fibonacci Quarterly, Vol. 33, No. 1 (1995), pp. 32-40.
+%H A001622 R. S. Melham and A. G. Shannon, <a href="https://www.fq.math.ca/Scanned/33-1/melham2.pdf">Inverse Trigonometric Hyperbolic Summation Formulas Involving Generalized Fibonacci Numbers</a>, The Fibonacci Quarterly, Vol. 33, No. 1 (1995), pp. 32-40.
 %H A001622 Jean-Christophe Michel, <a href="http://jc.michel.free.fr/nombre_d_or.php">Le nombre d'or</a>.
 %H A001622 J. J. O'Connor and E. F. Robertson, <a href="https://mathshistory.st-andrews.ac.uk/HistTopics/Golden_ratio/">The Golden ratio</a>.
 %H A001622 Hugo Pfoertner, <a href="/A001622/a001622.txt">1 million digits of phi</a>, Computed using A. J. Yee's y-cruncher.
@@ -71,7 +75,7 @@
 %H A001622 Herman P. Robinson, <a href="/A257574/a257574.pdf">The CSR Function</a>, Popular Computing (Calabasas, CA), Vol. 4, No. 35 (Feb 1976), pages PC35-3 to PC35-4. Annotated and scanned copy.
 %H A001622 E. F. Schubert, <a href="https://www.ecse.rpi.edu/~schubert/Educational-resources/Fibonacci%20series.pdf">The Fibonacci series</a>.
 %H A001622 Vladimir Shevelev, <a href="https://web.archive.org/web/*/http://list.seqfan.eu/oldermail/seqfan/2014-March/012737.html">A property of n-bonacci constant</a>, Seqfan (Mar 23 2014).
-%H A001622 Jonathan Sondow, <a href="http://arxiv.org/abs/1106.4246">Evaluation of Tachiya's algebraic infinite products involving Fibonacci and Lucas numbers</a>, Diophantine Analysis and Related Fields 2011 - AIP Conference Proceedings, Vol. 1385, pp. 97-100; arXiv:1106.4246 [math.NT], 2011.
+%H A001622 Jonathan Sondow, <a href="https://arxiv.org/abs/1106.4246">Evaluation of Tachiya's algebraic infinite products involving Fibonacci and Lucas numbers</a>, Diophantine Analysis and Related Fields 2011 - AIP Conference Proceedings, Vol. 1385, pp. 97-100; arXiv:1106.4246 [math.NT], 2011.
 %H A001622 Matthew R. Watkins, <a href="http://empslocal.ex.ac.uk/people/staff/mrwatkin/zeta/goldenmean.htm">The "Golden Mean" in number theory</a>.
 %H A001622 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/GoldenRatio.html">Golden Ratio</a>.
 %H A001622 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/Fibonaccin-StepNumber.html">Fibonacci n-Step Number</a>.
@@ -164,7 +168,7 @@
 %Y A001622 Cf. A000012 (continued fraction coefficients), A000032, A000045, A006497, A080039, A104457, A188635, A192222, A192223, A145996, A139339, A197762, A002163, A094874, A134973.
 %Y A001622 Cf. A102208, A102769, A131595.
 %Y A001622 Cf. A302973, A303069, A304022.
-%K A001622 nonn,cons,nice,easy,changed
+%K A001622 nonn,cons,core,nice,easy,changed
 %O A001622 1,2
 %A A001622 _N. J. A. Sloane_
 %E A001622 Additional links contributed by _Lekraj Beedassy_, Dec 23 2003

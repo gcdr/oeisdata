@@ -1,4 +1,4 @@
-%I A059933 #48 Feb 16 2025 08:32:44
+%I A059933 #49 Nov 05 2025 15:35:29
 %S A059933 16,7625597484986,50973998591214355139406377,
 %T A059933 53793641718868912174424175024032593379100060,
 %U A059933 19916489515870532960258562190639398471599239042185934648024761145811,5103708485122940631839901111036829791435007685667303872450435153015345686896530517814322070729709
@@ -7,7 +7,7 @@
 %C A059933 Goodstein's theorem shows that the Goodstein sequence G_n(k) eventually stabilizes and then decreases by 1 at each step until it reaches 0. Thereafter the values of G_n(k) < 0 are not part of the sequence. By Goodstein's theorem we conclude that G_n(k) is a finite sequence.
 %C A059933 In this case when a(0) = G_0(16) = 16, there seems little possibility of describing how incredibly large n must be for a(n) to reach 0.
 %H A059933 Reinhard Zumkeller, <a href="/A059933/b059933.txt">Table of n, a(n) for n = 0..18</a>
-%H A059933 R. L. Goodstein, <a href="http://www.jstor.org/stable/2268019">On the Restricted Ordinal Theorem</a>, J. Symb. Logic 9, 33-41, 1944.
+%H A059933 R. L. Goodstein, <a href="https://www.jstor.org/stable/2268019">On the Restricted Ordinal Theorem</a>, J. Symb. Logic 9, 33-41, 1944.
 %H A059933 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/GoodsteinSequence.html">Goodstein Sequence</a>
 %H A059933 Wikipedia, <a href="http://en.wikipedia.org/wiki/Goodstein&#39;s_theorem">Goodstein's Theorem</a>
 %H A059933 Reinhard Zumkeller, <a href="/A211378/a211378.hs.txt">Haskell programs for Goodstein sequences</a>

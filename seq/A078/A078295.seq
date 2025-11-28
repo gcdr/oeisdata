@@ -1,6 +1,6 @@
-%I A078295 #5 Dec 05 2013 19:55:57
-%S A078295 1,2,3,4,5,6,7,8,9,10,132,12,65,56,45,32,102,54,76,120,21,132,23,120,
-%T A078295 675,78,54,56,87,120,465,32,132,34,210,324,2109,76,78,120,123,210,43,
+%I A078295 #8 Jun 26 2025 18:55:57
+%S A078295 1,2,3,4,5,6,7,8,9,10,132,12,65,56,45,32,34,54,76,120,21,132,23,120,
+%T A078295 675,78,54,56,87,90,465,32,132,34,210,324,2109,76,78,120,123,210,43,
 %U A078295 132,45,3542,423,432,98,123450,102,312,901,54,1320,56,342,3654,354,120
 %N A078295 Smallest multiple of n whose digits can be re-arranged to be a substring of the cyclic concatenation 1234567890123435678901234...
 %C A078295 Numbers n such that n or some digit permutation of n is a substring of the cyclic concatenation of digits 1,2,3,4,5,6,7,8,9,0,1,2...
@@ -11,3 +11,4 @@
 %O A078295 1,2
 %A A078295 _Amarnath Murthy_, Nov 26 2002
 %E A078295 More terms from _Sam Alexander_, Oct 19 2003
+%E A078295 a(17) and a(30) corrected by _Sean A. Irvine_, Jun 26 2025

@@ -1,4 +1,4 @@
-%I A000695 M3259 N1315 #302 Feb 16 2025 08:32:21
+%I A000695 M3259 N1315 #332 Nov 05 2025 15:35:23
 %S A000695 0,1,4,5,16,17,20,21,64,65,68,69,80,81,84,85,256,257,260,261,272,273,
 %T A000695 276,277,320,321,324,325,336,337,340,341,1024,1025,1028,1029,1040,
 %U A000695 1041,1044,1045,1088,1089,1092,1093,1104,1105,1108,1109,1280,1281,1284,1285
@@ -22,7 +22,7 @@
 %H A000695 Jean-Paul Allouche and Jeffrey Shallit, <a href="http://dx.doi.org/10.1016/0304-3975(92)90001-V">The ring of k-regular sequences</a>, Theoretical Computer Sci., Vol. 98 (1992), pp. 163-197.
 %H A000695 Jean-Paul Allouche and Jeffrey Shallit, <a href="http://www.cs.uwaterloo.ca/~shallit/Papers/as0.ps">The ring of k-regular sequences</a>, Theoretical Computer Sci., Vol. 98 (1992), pp. 163-197.
 %H A000695 David Applegate, Marc LeBrun and N. J. A. Sloane, <a href="http://neilsloane.com/doc/carry1.pdf">Carryless Arithmetic (I): The Mod 10 Version</a>.
-%H A000695 David Applegate, Omar E. Pol and N. J. A. Sloane, <a href="/A000695/a000695_1.pdf">The Toothpick Sequence and Other Sequences from Cellular Automata</a>, Congressus Numerantium, Vol. 206 (2010), pp. 157-191. [There is a typo in Theorem 6: (13) should read u(n) = 4.3^(wt(n-1)-1) for n >= 2.]
+%H A000695 David Applegate, Omar E. Pol and N. J. A. Sloane, <a href="/A000695/a000695_2.pdf">The Toothpick Sequence and Other Sequences from Cellular Automata</a>, Congressus Numerantium, Vol. 206 (2010), pp. 157-191.
 %H A000695 David Applegate, Marc LeBrun and N. J. A. Sloane, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL14/Sloane/carry2.html">Dismal Arithmetic</a>, J. Int. Seq., Vol. 14 (2011), Article 11.9.8.
 %H A000695 Joerg Arndt, <a href="http://www.jjj.de/fxt/#fxtbook">Matters Computational (The Fxtbook)</a>, pp. 59-60, pp. 750-751.
 %H A000695 Robert Baillie and Thomas Schmelzer, <a href="https://library.wolfram.com/infocenter/MathSource/7166/">Summing Kempner's Curious (Slowly-Convergent) Series</a>, Mathematica Notebook kempnerSums.nb, Wolfram Library Archive, 2008.
@@ -31,12 +31,12 @@
 %H A000695 Roger B. Eggleton, <a href="http://dx.doi.org/10.1155/2015/216475">Maximal Midpoint-Free Subsets of Integers</a>, International Journal of Combinatorics Volume 2015, Article ID 216475, 14 pages.
 %H A000695 S. J. Eigen, Y. Ito, and V. S. Prasad, <a href="http://dx.doi.org/10.1016/j.jnt.2004.04.001">Universally bad integers and the 2-adics</a>, J. Number Theory, Vol. 107, No. 2 (2004), pp. 322-334.
 %H A000695 Hsien-Kuei Hwang, Svante Janson, and Tsung-Hsi Tsai, <a href="https://arxiv.org/abs/2210.10968">Identities and periodic oscillations of divide-and-conquer recurrences splitting at half</a>, arXiv:2210.10968 [cs.DS], 2022, p. 44.
-%H A000695 Bin Lan and James A. Sellers, <a href="http://www.emis.de/journals/INTEGERS/papers/p23/p23.Abstract.html">Properties of a Restricted Binary Partition Function a la Andrews and Lewis</a>, Electronic Journal of Combinatorial Number Theory, Volume 15 #A23.
+%H A000695 Bin Lan and James A. Sellers, <a href="http://www.integers-ejcnt.org/p23/p23.Abstract.html">Properties of a Restricted Binary Partition Function a la Andrews and Lewis</a>, Electronic Journal of Combinatorial Number Theory, Volume 15 #A23.
 %H A000695 Lukasz Merta, <a href="https://arxiv.org/abs/1803.00292">Composition inverses of the variations of the Baum-Sweet sequence</a>, arXiv:1803.00292 [math.NT], 2018. See m(n) p. 11.
-%H A000695 Leo Moser, <a href="http://www.jstor.org/stable/2689100">An application of generating series</a>, Math. Mag., Vol. 35, No. 1 (1962), pp. 37-38.
+%H A000695 Leo Moser, <a href="https://www.jstor.org/stable/2689100">An application of generating series</a>, Math. Mag., Vol. 35, No. 1 (1962), pp. 37-38.
 %H A000695 Leo Moser, <a href="/A000695/a000695.pdf">An application of generating series</a>, Math. Mag., Vol. 35, No. 1 (1962), pp. 37-38. [Annotated scanned copy]
 %H A000695 John Tyler Rascoe, <a href="/A000695/a000695.jpg">Illustration of terms</a>.
-%H A000695 Vladimir Shevelev, <a href="http://arxiv.org/abs/1603.04434">Two analogs of Thue-Morse sequence</a>, arXiv:1603.04434 [math.NT], 2016-2017.
+%H A000695 Vladimir Shevelev, <a href="https://arxiv.org/abs/1603.04434">Two analogs of Thue-Morse sequence</a>, arXiv:1603.04434 [math.NT], 2016-2017.
 %H A000695 N. J. A. Sloane, <a href="/wiki/Catalog_of_Toothpick_and_CA_Sequences_in_OEIS">Catalog of Toothpick and Cellular Automata Sequences in the OEIS</a>
 %H A000695 Ralf Stephan, <a href="/somedcgf.html">Some divide-and-conquer sequences with (relatively) simple ordinary generating functions</a>, 2004.
 %H A000695 Ralf Stephan, <a href="/A079944/a079944.ps">Table of generating functions</a>.
@@ -103,7 +103,7 @@
 %o A000695 (Python)
 %o A000695 def A000695(n): return int(bin(n)[2:],4) # _Chai Wah Wu_, Aug 21 2023
 %o A000695 (Magma) m:=60; R<x>:=PowerSeriesRing(Integers(), m); [0] cat Coefficients(R!( (&+[4^k*x^(2^k)/(1+x^(2^k)): k in [0..20]])/(1-x) )); // _G. C. Greubel_, Dec 06 2018
-%o A000695 (Sage)  s=(sum(4^k*x^(2^k)/(1+x^(2^k)) for k in range(10))/(1-x)).series(x, 60); s.coefficients(x, sparse=False) # _G. C. Greubel_, Dec 06 2018
+%o A000695 (SageMath) s=(sum(4^k*x^(2^k)/(1+x^(2^k)) for k in range(10))/(1-x)).series(x, 60); s.coefficients(x, sparse=False) # _G. C. Greubel_, Dec 06 2018
 %o A000695 (Julia)
 %o A000695 function a(n)
 %o A000695     m, r, b = n, 0, 1
@@ -113,7 +113,9 @@
 %o A000695         b *= 4
 %o A000695     end
 %o A000695 r end; [a(n) for n in 0:51] |> println # _Peter Luschny_, Jan 03 2021
-%o A000695 (C) uint32_t a_next(uint32_t a_n) { return (a_n + 0xaaaaaaab) & 0x55555555; } /* _Falk Hüffner_, Jan 24 2022 */
+%o A000695 (C)
+%o A000695 #include <stdint.h>
+%o A000695 uint32_t a_next(uint32_t a_n) { return (a_n + 0xaaaaaaab) & 0x55555555; } /* _Falk Hüffner_, Jan 24 2022 */
 %Y A000695 For generating functions Product_{k>=0} (1 + a*x^(b^k)) for the following values of (a,b) see: (1,2) A000012 and A000027, (1,3) A039966 and A005836, (1,4) A151666 and A000695, (1,5) A151667 and A033042, (2,2) A001316, (2,3) A151668, (2,4) A151669, (2,5) A151670, (3,2) A048883, (3,3) A117940, (3,4) A151665, (3,5) A151671, (4,2) A102376, (4,3) A151672, (4,4) A151673, (4,5) A151674.
 %Y A000695 Main diagonal of A048720, second column of A048723.
 %Y A000695 Cf. A000225, A000302, A001511, A007583, A059884, A059901, A059904, A059905, A059906, A007088, A033042-A033052, A126684, A145812.

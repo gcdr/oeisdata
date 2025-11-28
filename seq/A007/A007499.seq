@@ -1,4 +1,4 @@
-%I A007499 M0598 #19 Jul 13 2022 02:07:45
+%I A007499 M0598 #23 Jul 08 2025 17:05:06
 %S A007499 2,3,4,12,20,55,127,371,1037,3249,10071,32913,108112,363618,1233938,
 %T A007499 4244102,14716095,51480027,181312939
 %N A007499 Number of cases considered in a particular algorithm for enumerating hexaflexagrams.
@@ -10,5 +10,5 @@
 %Y A007499 Cf. A000207.
 %K A007499 nonn,more
 %O A007499 1,1
-%A A007499 _N. J. A. Sloane_, _Robert G. Wilson v_, circa 1976.
+%A A007499 _N. J. A. Sloane_, _Robert G. Wilson v_, circa 1976
 %E A007499 Title clarified and a(11)-a(19) from _Sean A. Irvine_, Jul 12 2022

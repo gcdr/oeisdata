@@ -1,4 +1,4 @@
-%I A022597 #61 Feb 16 2025 08:32:34
+%I A022597 #64 Nov 05 2025 15:21:49
 %S A022597 1,-2,1,-2,4,-4,5,-6,9,-12,13,-16,21,-26,29,-36,46,-54,62,-74,90,-106,
 %T A022597 122,-142,171,-200,227,-264,311,-358,408,-470,545,-626,709,-810,933,
 %U A022597 -1062,1198,-1362,1555,-1760,1980,-2238,2536,-2858,3205,-3602,4063,-4560,5092,-5704,6400,-7150,7966
@@ -9,8 +9,8 @@
 %H A022597 Seiichi Manyama, <a href="/A022597/b022597.txt">Table of n, a(n) for n = 0..10000</a> (terms 0..1000 from T. D. Noe)
 %H A022597 D. Foata and G.-N. Han, <a href="http://www-irma.u-strasbg.fr/~foata/paper/pub81.html">Jacobi and Watson Identities Combinatorially Revisited</a>
 %H A022597 D. Ford, J. McKay and S. P. Norton, <a href="http://dx.doi.org/10.1080/00927879408825127">More on replicable functions</a>, Commun. Algebra 22, No. 13, 5175-5193 (1994).
-%H A022597 Martin Klazar, <a href="http://arxiv.org/abs/1808.08449">What is an answer? — remarks, results and problems on PIO formulas in combinatorial enumeration, part I</a>, arXiv:1808.08449 [math.CO], 2018.
-%H A022597 Vaclav Kotesovec, <a href="http://arxiv.org/abs/1509.08708">A method of finding the asymptotics of q-series based on the convolution of generating functions</a>, arXiv:1509.08708 [math.CO], Sep 30 2015, p. 13.
+%H A022597 Martin Klazar, <a href="https://arxiv.org/abs/1808.08449">What is an answer? — remarks, results and problems on PIO formulas in combinatorial enumeration, part I</a>, arXiv:1808.08449 [math.CO], 2018.
+%H A022597 Vaclav Kotesovec, <a href="https://arxiv.org/abs/1509.08708">A method of finding the asymptotics of q-series based on the convolution of generating functions</a>, arXiv:1509.08708 [math.CO], Sep 30 2015, p. 13.
 %H A022597 Michael Somos, <a href="/A010815/a010815.txt">Introduction to Ramanujan theta functions</a>
 %H A022597 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/JacobiThetaFunctions.html">Jacobi Theta Functions</a>
 %H A022597 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/RamanujanThetaFunctions.html">Ramanujan Theta Functions</a>
@@ -25,6 +25,7 @@
 %F A022597 a(n) ~ (-1)^n * exp(Pi*sqrt(n/3)) / (2^(3/2) * 3^(1/4) * n^(3/4)). - _Vaclav Kotesovec_, Aug 27 2015
 %F A022597 a(0) = 1, a(n) = -(2/n)*Sum_{k=1..n} A000593(k)*a(n-k) for n > 0. - _Seiichi Manyama_, Apr 03 2017
 %F A022597 G.f.: exp(-2*Sum_{k>=1} (-1)^(k+1)*x^k/(k*(1 - x^k))). - _Ilya Gutkovskiy_, Feb 06 2018
+%F A022597 Empirical: Sum_{n>=0} a(n) / exp(n*Pi) = exp(-Pi/12) * 2^(1/4) = A388323. - _Simon Plouffe_, Sep 15 2025
 %e A022597 G.f. = 1 - 2*x + x^2 - 2*x^3 + 4*x^4 - 4*x^5 + 5*x^6 - 6*x^7 + 9*x^8 + ...
 %e A022597 T24J = 1/q - 2*q^11 + q^23 - 2*q^35 + 4*q^47 - 4*q^59 + 5*q^71 - 6*q^83 + ...
 %t A022597 a[ n_] := SeriesCoefficient[ QPochhammer[ x, x^2]^2, {x, 0, n}]; (* _Michael Somos_, Jul 11 2011 *)

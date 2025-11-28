@@ -1,8 +1,8 @@
-%I A254203 #3 Jan 26 2015 20:42:16
+%I A254203 #5 Jul 23 2025 14:32:24
 %S A254203 5,16,68,315,1653,9126,50166,266060,1445197,8388620,49943639,
 %T A254203 291356973,1672450652,9817427902,60070829938,373040809711,
 %U A254203 2261787393319
-%N A254203 Number of length n 1..(7+2) arrays with no leading or trailing partial sum equal to a prime
+%N A254203 Number of length n 1..(7+2) arrays with no leading or trailing partial sum equal to a prime.
 %C A254203 Column 7 of A254204
 %e A254203 Some solutions for n=4
 %e A254203 ..8....9....6....4....6....9....8....9....4....4....1....4....9....8....4....8

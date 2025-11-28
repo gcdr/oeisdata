@@ -1,6 +1,23 @@
-%I A350566 #10 Aug 17 2023 08:16:42
+%I A350566 #25 Aug 30 2025 10:12:44
 %S A350566 1,1,14,947,161388,56558003,36757837732
-%N A350566 a(n) is the maximal permanent of an n X n matrix using the integers 1 to n^2.
+%N A350566 a(n) is the maximum permanent of an n X n matrix using the integers 1 to n^2.
+%C A350566 a(7) >= 38677620556961 corresponding to the matrix
+%C A350566   14, 25, 39,  3, 45,  2, 42
+%C A350566   32, 21, 10, 46,  5, 47,  8
+%C A350566   31, 20,  9, 48,  1, 49,  6
+%C A350566   44, 24, 18, 33, 13, 34, 15
+%C A350566   22, 29, 35, 12, 36, 11, 37
+%C A350566   16, 26, 38,  7, 43,  4, 40
+%C A350566   23, 41, 30, 19, 27, 17, 28 . - _Robert Israel_, Mar 19 2025
+%C A350566 a(7) >= 38677691168324 corresponding to the matrix
+%C A350566    1,  4, 14, 25, 39, 42, 45
+%C A350566    5,  6, 16, 26, 38, 40, 43
+%C A350566   11, 12, 22, 29, 35, 36, 37
+%C A350566   17, 19, 23, 41, 30, 28, 27
+%C A350566   33, 34, 44, 24, 18, 15, 13
+%C A350566   48, 46, 32, 21, 10,  8,  3
+%C A350566   49, 47, 31, 20,  9,  7,  2. - _Pontus von Brömssen_, Mar 20 2025
+%H A350566 Carl-Erik Fröberg, <a href="https://doi.org/10.1007/BF01941124">On a combinatorial problem related to permanents</a>, BIT 28 (1988), No. 3, 406-411.
 %e A350566 a(2) = 14:
 %e A350566   [2, 3;
 %e A350566    4, 1]
@@ -34,7 +51,7 @@
 %o A350566 from itertools import permutations
 %o A350566 from sympy import Matrix
 %o A350566 def A350566(n): return 1 if n == 0 else max(Matrix(n,n,p).per() for p in permutations(range(1,n**2+1))) # _Chai Wah Wu_, Jan 21 2022
-%Y A350566 Cf. A085000, A350565, A350858, A350859.
+%Y A350566 Cf. A085000 (determinant), A350565 (minimum), A350858, A350859, A358487 (elements 0 to n^2-1).
 %K A350566 nonn,hard,more
 %O A350566 0,3
 %A A350566 _Hugo Pfoertner_ at the suggestion of _Stefano Spezia_, Jan 21 2022

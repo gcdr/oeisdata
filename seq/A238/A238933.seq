@@ -1,8 +1,8 @@
-%I A238933 #4 Mar 07 2014 08:27:07
+%I A238933 #6 Jul 23 2025 10:56:56
 %S A238933 540,176224,22636472,2531484558,330899764092,45110351036260,
 %T A238933 6073850637262806,810496773508386224,108127360707006003716,
 %U A238933 14442654537530496784878,1929809100292543309059168
-%N A238933 Number of (4+1)X(n+1) 0..3 arrays with no element greater than all horizontal neighbors or equal to all vertical neighbors
+%N A238933 Number of (4+1)X(n+1) 0..3 arrays with no element greater than all horizontal neighbors or equal to all vertical neighbors.
 %C A238933 Row 4 of A238929
 %H A238933 R. H. Hardin, <a href="/A238933/b238933.txt">Table of n, a(n) for n = 1..103</a>
 %e A238933 Some solutions for n=2

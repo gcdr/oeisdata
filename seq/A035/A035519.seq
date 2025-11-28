@@ -1,4 +1,4 @@
-%I A035519 #57 Jan 22 2023 15:01:20
+%I A035519 #62 Nov 05 2025 15:35:28
 %S A035519 65,621770,281089082,2022652202,2042832002,868591084757,872546974178,
 %T A035519 872568754178,6979302951885,20313693904202,20313839704202,
 %U A035519 20331657922202,20331875722202,20333875702202,40313893704200
@@ -9,8 +9,9 @@
 %D A035519 Shyam Sunder Gupta, Systematic computations of rare numbers, The Mathematics Education, Vol. XXXII, No. 3, Sept. 1998.
 %H A035519 Shyam Sunder Gupta, <a href="/A035519/b035519.txt">Table of n, a(n) for n = 1..132</a>
 %H A035519 Shyam Sunder Gupta, <a href="http://www.shyamsundergupta.com/rare.htm">Rare Numbers</a>
-%H A035519 R. K. Guy, <a href="http://www.jstor.org/stable/2325149">Conway's RATS and other reversals</a>, Unsolved Problems Column, American Math. Monthly, page 425, May 1989.
-%H A035519 R. K. Guy, <a href="http://www.jstor.org/stable/2324584">Unsolved problems come of Age</a>, American Math. Monthly, page 908, Dec. 1989.
+%H A035519 Shyam Sunder Gupta, <a href="https://doi.org/10.1007/978-981-97-2465-9_14">Rare Numbers</a>, Exploring the Beauty of Fascinating Numbers, Springer (2025) Ch. 14, 381-397. {{doi|10.1007/978-981-97-2465-9_14}}
+%H A035519 R. K. Guy, <a href="https://www.jstor.org/stable/2325149">Conway's RATS and other reversals</a>, Unsolved Problems Column, American Math. Monthly, page 425, May 1989.
+%H A035519 R. K. Guy, <a href="https://www.jstor.org/stable/2324584">Unsolved problems come of Age</a>, American Math. Monthly, page 908, Dec. 1989.
 %H A035519 Carlos Rivera, <a href="https://www.primepuzzles.net/conjectures/conj_023.htm">Conjecture 23. The Shyam's conjecture about the Rare Numbers</a>, The Prime Puzzles and Problems Connection.
 %e A035519 65 - 56 = 9 and 65 + 56 = 121 are both squares.
 %t A035519 r[n_]:=FromDigits[Reverse[IntegerDigits[n,10]],10]; f[n_]:=n!=r[n]&&IntegerQ[Sqrt[n-r[n]]]&&IntegerQ[Sqrt[n+r[n]]]; Timing[lst={};Do[If[f[n],AppendTo[lst,n]],{n,11,15!}];lst] (* _Vladimir Joseph Stephan Orlovsky_, Oct 10 2009 *)

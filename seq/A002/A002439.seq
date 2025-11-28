@@ -1,15 +1,15 @@
-%I A002439 M5138 N2228 #113 Jul 31 2024 04:10:36
+%I A002439 M5138 N2228 #122 Nov 05 2025 15:21:41
 %S A002439 1,23,1681,257543,67637281,27138236663,15442193173681,
 %T A002439 11828536957233383,11735529528739490881,14639678925928297567703,
 %U A002439 22427641105413135505628881,41393949926819051111431239623,90592214447886493688036507587681,231969423543894989257690172433129143
 %N A002439 Glaisher's T numbers.
-%C A002439 Kashaev’s invariant for the (3,2)-torus knot. See Hikami 2003. For other Kashaev invariants see A208679, A208680, and A208681. - _Peter Bala_, Mar 01 2012
+%C A002439 Kashaev's invariant for the (3,2)-torus knot. See Hikami 2003. For other Kashaev invariants see A208679, A208680, and A208681. - _Peter Bala_, Mar 01 2012
 %C A002439 From _Peter Bala_, Dec 18 2021: (Start)
 %C A002439 Glaisher's T numbers occur in the evaluation of the L-function L(X_12,s) := Sum_{k >= 1} X_12(k)/k^s for positive even values of s, where X_12(n) = A110161(n) is a nonprincipal Dirichlet character mod 12: the result is L(X_12,2*n+2) = a(n)/(6*sqrt(3)*36^n*(2*n+1)!) * Pi^(2*n+2).
 %C A002439 We make the following conjectures:
 %C A002439 1) Taking the sequence modulo an integer k gives an eventually periodic sequence with period dividing phi(k). For example, the sequence taken modulo 50 begins [1, 23, 31, 43, 31, 13, 31, 33, 31, 3, 31, 23, 31, 43, 31, 13, 31, 33, 31, 3, 31, 23, ...] and appears to have a pre-period of length 1 and a period of length 10 = (1/2)*phi(50).
 %C A002439 2) Let i >= 0 and define a_i(n) = a(n+i). Then for each i the Gauss congruences a_i(n*p^k) == a_i(n*p^(k-1)) ( mod p^k ) hold for all prime p and positive integers n and k.
-%C A002439 If true, then for each i the expansion of exp( Sum_{n >= 1} a_i(n)*x^n/n )  has integer coefficients.
+%C A002439 If true, then for each i the expansion of exp( Sum_{n >= 1} a_i(n)*x^n/n ) has integer coefficients.
 %C A002439 3)(i)   a(m*n) == a(m)^n (mod 2^k) for k = 2*v_2(m) + 7, where v_p(i) denotes the p-adic valuation of i.
 %C A002439   (ii)  a(m*n) == a(m)^n (mod 3^k) for k = 2*v_3(m) + 2.
 %C A002439 4)(i)   a(2*m*n) == a(n)^(2*m) (mod 2^k) for k = v_2(m) + 7
@@ -27,14 +27,14 @@
 %H A002439 G. E. Andrews, J. Jimenez-Urroz and K. Ono, <a href="http://www.math.wisc.edu/~ono/reprints/055.pdf">q-series identities and values of certain L-functions</a>, Duke Math J., Volume 108, No.3 (2001), 395-419.
 %H A002439 Peter Bala, <a href="/A002439/a002439.pdf">Some S-fractions related to the expansions of sin(ax)/cos(bx) and cos(ax)/cos(bx)</a>
 %H A002439 J. Bryson, K. Ono, S. Pitman and R. C. Rhoades, <a href="http://www.mathcs.emory.edu/~ono/publications-cv/pdfs/140.pdf">Unimodal Sequences and Quantum and Mock Modular Forms</a>, P. 2.
-%H A002439 Frank Garvan, <a href="http://arxiv.org/abs/1406.5611">Congruences and relations for r-Fishburn numbers</a>, arXiv:1406.5611 [math.NT], 2014.
+%H A002439 Frank Garvan, <a href="https://arxiv.org/abs/1406.5611">Congruences and relations for r-Fishburn numbers</a>, arXiv:1406.5611 [math.NT], 2014.
 %H A002439 J. W. L. Glaisher, <a href="http://plms.oxfordjournals.org/content/s1-31/1/216.extract">On a set of coefficients analogous to the Eulerian numbers</a>, Proc. London Math. Soc., 31 (1899), 216-235.
-%H A002439 K. Hikami, <a href="http://www.emis.de/journals/EM/expmath/volumes/12/12.3/Hikami.pdf">Volume Conjecture and Asymptotic Expansion of q-Series</a>, Experimental Mathematics Vol. 12, Issue 3 (2003).
+%H A002439 K. Hikami, <a href="https://doi.org/10.1080/10586458.2003.10504502">Volume Conjecture and Asymptotic Expansion of q-Series</a>, Experimental Mathematics Vol. 12, Issue 3 (2003).
 %H A002439 Michael E. Hoffman, <a href="http://www.combinatorics.org/ojs/index.php/eljc/article/view/v6i1r21">Derivative Polynomials, Euler Polynomials, and Associated Integer Sequences</a>, The Electronic Journal of Combinatorics, Volume 6.1 (1999): Research paper R21, 13 p.
 %H A002439 Hsien-Kuei Hwang and Emma Yu Jin, <a href="https://arxiv.org/abs/1911.06690">Asymptotics and statistics on Fishburn matrices and their generalizations</a>, arXiv:1911.06690 [math.CO], 2019.
 %H A002439 J. C. P. Miller, <a href="/A002439/a002439_1.pdf">Letter to N. J. A. Sloane, Mar 26 1971</a>
 %H A002439 Hjalmar Rosengren, <a href="https://arxiv.org/abs/1605.02915">Elliptic pfaffians and solvable lattice models</a>, arXiv preprint arXiv:1605.02915 [math-ph], 2016.
-%H A002439 A. Vieru, <a href="http://arxiv.org/abs/1107.2938">Agoh's conjecture: its proof, its generalizations, its analogues</a>, arXiv preprint arXiv:1107.2938 [math.NT], 2011.
+%H A002439 A. Vieru, <a href="https://arxiv.org/abs/1107.2938">Agoh's conjecture: its proof, its generalizations, its analogues</a>, arXiv preprint arXiv:1107.2938 [math.NT], 2011.
 %H A002439 Don Zagier, <a href="http://people.mpim-bonn.mpg.de/zagier/">Vassiliev invariants and a strange identity related to the Dedekind eta-function</a>, Topology, vol.40, pp.945-960 (2001).
 %H A002439 <a href="/index/Ge#Glaisher">Index entries for sequences related to Glaisher's numbers</a>
 %F A002439 Q_{2n+1}(sqrt(3))/sqrt(3), where the polynomials Q_n() are defined in A104035. - _N. J. A. Sloane_, Nov 06 2009
@@ -62,9 +62,9 @@
 %t A002439 a[n_] := a[n] = (-4)^n - Sum[(-9)^k*Binomial[2n + 1, 2k]*a[n-k], {k, 1, n}]; a[0] = 1; Table[a[n], {n, 0, 11}] (* _Jean-François Alcover_, Dec 05 2011, after Maple *)
 %t A002439 With[{nn=30},Take[CoefficientList[Series[Sin[2x]/(2Cos[3x]),{x,0,nn}], x]Range[0,nn-1]!,{2,-1,2}]] (* _Harvey P. Dale_, Feb 05 2012 *)
 %t A002439 a[n_] := -(-4)^n 3^(1 + 2 n) EulerE[1 + 2 n, 1/6]  (* _Bill Gosper_, Oct 12 2015 *)
-%o A002439 (PARI) {a(n) = my(m=n+1); if( m<2, m>0, (-4)^(m-1) - sum(k=1, m, (-9)^k * binomial(2*m-1, 2*k) * a(n-k)))}; /* _Michael Somos_, Dec 11, 1999 */
+%o A002439 (PARI) {a(n) = my(m=n+1); if( m<2, m>0, (-4)^(m-1) - sum(k=1, m, (-9)^k * binomial(2*m-1, 2*k) * a(n-k)))}; /* _Michael Somos_, Dec 11 1999 */
 %o A002439 (Magma) m:=32; R<x>:=PowerSeriesRing(Rationals(), m); b:=Coefficients(R!( Sin(2*x)/(2*Cos(3*x)) )); [Factorial(2*n-1)*b[2*n-1]: n in [1..Floor((m-2)/2)]]; // _G. C. Greubel_, Jul 04 2019
-%o A002439 (Sage) m = 32; T = taylor(sin(2*x)/(2*cos(3*x)), x, 0, m); [factorial(2*n+1)*T.coefficient(x, 2*n+1) for n in (0..(m-2)/2)] # _G. C. Greubel_, Jul 04 2019
+%o A002439 (SageMath) m = 32; T = taylor(sin(2*x)/(2*cos(3*x)), x, 0, m); [factorial(2*n+1)*T.coefficient(x, 2*n+1) for n in (0..(m-2)/2)] # _G. C. Greubel_, Jul 04 2019
 %Y A002439 Cf. A000364, A000464, A002105, A079144, A158690.
 %Y A002439 Bisections: A156175, A156176.
 %Y A002439 Twice this sequence gives A000191. A208679, A208680, A208681.

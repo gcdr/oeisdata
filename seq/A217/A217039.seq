@@ -1,9 +1,11 @@
-%I A217039 #23 Sep 08 2022 08:46:04
+%I A217039 #29 Jul 20 2025 18:00:15
 %S A217039 5,7,47,457,547,557,577,757,4447,4457,4547,5477,5557,7457,7477,7547,
 %T A217039 7577,7757,44777,45557,45757,47777,54547,54577,55457,55547,57457,
 %U A217039 57557,74747,75557,75577,77447,77477,77557,77747,444547,444557,445447,445477,445747,447757
-%N A217039 Primes whose decimal representation has only digits in {4,5,7}.
-%C A217039 These could be called crooked primes. These are the primes in A214584. Primes whose numerals are all written (san serif) with at least one right or acute angle.
+%N A217039 Primes having only {4, 5, 7} as digits.
+%C A217039 These are the primes in A214584. Primes whose numerals are all written (san serif) with at least one right or acute angle.
+%H A217039 Jason Bard, <a href="/A217039/b217039.txt">Table of n, a(n) for n = 1..10000</a>
+%H A217039 <a href="/index/Pri#PrimesWithDigits">Index to entries for primes with digits in a given set</a>
 %F A217039 A000040 INTERSECTION A214584.
 %t A217039 Select[Flatten[Table[FromDigits/@Tuples[{4,5,7},n],{n,6}]],PrimeQ] (* _Bruno Berselli_, Sep 25 2012 *)
 %o A217039 (Magma) [p: p in PrimesUpTo(450000) | Intseq(p) subset [4,5,7]]; // _Bruno Berselli_, Sep 25 2012

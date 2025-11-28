@@ -1,12 +1,12 @@
-%I A087977 #29 Jul 11 2018 06:40:37
+%I A087977 #42 Nov 05 2025 15:35:31
 %S A087977 210,7314,37960,134043,357642,1217250,1217250,14273478,44939642,
 %T A087977 76067298,163459742,547163235,2081479430,2771263512,11715712410,
-%U A087977 17911205580,56608713884,118968284928,118968284928,585927201062
+%U A087977 17911205580,56608713884,118968284928,118968284928,585927201062,585927201062,585927201062,585927201062
 %N A087977 a(n) is the first term in the first chain of at least n consecutive numbers each having exactly four distinct prime factors.
 %C A087977 Eggleton and MacDougall show that there are no more than 419 terms in this sequence. - _T. D. Noe_, Oct 13 2008
-%C A087977 a(24) > 10^13. - _Donovan Johnson_, Jan 15 2009
-%H A087977 Donovan Johnson, <a href="/A087977/b087977.txt">Table of n, a(n) for n = 1..23</a>
-%H A087977 Roger B. Eggleton and James A. MacDougall, <a href="http://www.jstor.org/stable/27643119">Consecutive integers with equally many principal divisors</a>, Math. Mag. 81 (2008), 235-248.
+%C A087977 a(28) > 2 * 10^15. - _Toshitaka Suzuki_, Jun 22 2025
+%H A087977 Toshitaka Suzuki, <a href="/A087977/b087977.txt">Table of n, a(n) for n = 1..27</a> (terms 1..23 from Donovan Johnson).
+%H A087977 Roger B. Eggleton and James A. MacDougall, <a href="https://www.jstor.org/stable/27643119">Consecutive integers with equally many principal divisors</a>, Math. Mag. 81 (2008), 235-248.
 %e A087977 a(6) = a(7) = 1217250 because the relevant 7 successive numbers have 4 distinct prime factors:
 %e A087977   1217250 = 2   *  3^2 *   5^3 * 541;
 %e A087977   1217251 = 7   * 17   *  53   * 193;

@@ -1,12 +1,12 @@
-%I A216919 #35 Jul 11 2022 14:57:10
+%I A216919 #41 Nov 05 2025 15:35:34
 %S A216919 1,1,1,2,1,1,6,1,1,1,24,3,2,1,1,120,3,2,1,1,1,720,15,8,3,2,1,1,5040,
 %T A216919 15,40,3,6,1,1,1,40320,105,40,15,24,1,2,1,1,362880,105,280,15,24,1,6,
 %U A216919 1,1,1,3628800,945,2240,105,144,5,24,3,2,1,1,39916800,945
 %N A216919 The Gauss factorial N_n! for N >= 0, n >= 1, square array read by antidiagonals.
 %C A216919 The term is due to Cosgrave & Dilcher. The Gauss factorial should not be confused with the q-factorial [n]_q! which is also called Gaussian factorial.
 %H A216919 Alois P. Heinz, <a href="/A216919/b216919.txt">Antidiagonals n = 1..141, flattened</a>
-%H A216919 J. B. Cosgrave, K. Dilcher, <a href="http://www.emis.de/journals/INTEGERS/papers/i39/i39.Abstract.html"> Extensions of the Gauss-Wilson Theorem</a>, Integers: Electronic Journal of Combinatorial Number Theory, 8 (2008).
-%H A216919 J. B. Cosgrave, K. Dilcher, <a href="http://www.jstor.org/stable/10.4169/amer.math.monthly.118.09.812">An Introduction to Gauss Factorials</a>, The American Mathematical Monthly, Vol. 118, No. 9 (2011), 812-829.
+%H A216919 J. B. Cosgrave and K. Dilcher, <a href="https://math.colgate.edu/~integers/i39/i39.Abstract.html">Extensions of the Gauss-Wilson Theorem</a>, Integers: Electronic Journal of Combinatorial Number Theory, 8 (2008).
+%H A216919 J. B. Cosgrave and K. Dilcher, <a href="https://www.jstor.org/stable/10.4169/amer.math.monthly.118.09.812">An Introduction to Gauss Factorials</a>, The American Mathematical Monthly, Vol. 118, No. 9 (2011), 812-829.
 %H A216919 K. Dilcher, <a href="http://vimeo.com/25261314">Gauss Factorials: Properties and Applications</a>. Video by the Irmacs Centre, May 18, 2011.
 %F A216919 N_n! = product_{1<=j<=N, GCD(j,n)=1} j.
 %e A216919 [n\N][0, 1, 2, 3,  4,   5,   6,    7,     8,      9,     10]
@@ -27,7 +27,7 @@
 %p A216919 A:= (n, N)-> mul(`if`(igcd(j, n)=1, j, 1), j=1..N):
 %p A216919 seq(seq(A(n, d-n), n=1..d), d=1..12);  # _Alois P. Heinz_, Oct 03 2012
 %t A216919 GaussFactorial[m_, n_] := Product[ If[ GCD[j, n] == 1, j, 1], {j, 1, m}]; Table[ GaussFactorial[m - n, n], {m, 1, 12}, {n, 1, m}] // Flatten (* _Jean-François Alcover_, Mar 18 2013 *)
-%o A216919 (Sage)
+%o A216919 (SageMath)
 %o A216919 def Gauss_factorial(N, n): return mul(j for j in (1..N) if gcd(j, n) == 1)
 %o A216919 for n in (1..13): [Gauss_factorial(N, n) for N in (0..10)]
 %o A216919 (PARI) T(m,n)=prod(k=2, m, if(gcd(k,n)==1, k, 1))

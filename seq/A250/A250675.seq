@@ -1,8 +1,8 @@
-%I A250675 #4 Nov 26 2014 18:19:36
+%I A250675 #6 Jul 23 2025 12:40:30
 %S A250675 3321772,115965426,2996016017,61498698426,1070591197687,
 %T A250675 15971487229178,210335029800118,2486539928867930,26773801460595558,
 %U A250675 265593229627937954,2450139707701747024,21184357574916340526,172798870644903483178
-%N A250675 Number of (n+1)X(7+1) 0..3 arrays with nondecreasing x(i,j)+x(i,j-1) in the i direction and nondecreasing absolute value of x(i,j)-x(i-1,j) in the j direction
+%N A250675 Number of (n+1)X(7+1) 0..3 arrays with nondecreasing x(i,j)+x(i,j-1) in the i direction and nondecreasing absolute value of x(i,j)-x(i-1,j) in the j direction.
 %C A250675 Column 7 of A250676
 %H A250675 R. H. Hardin, <a href="/A250675/b250675.txt">Table of n, a(n) for n = 1..27</a>
 %e A250675 Some solutions for n=1

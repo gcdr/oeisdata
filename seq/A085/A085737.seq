@@ -1,12 +1,12 @@
-%I A085737 #35 Mar 16 2020 14:24:45
+%I A085737 #41 Nov 10 2025 21:50:38
 %S A085737 1,1,1,1,1,1,0,1,1,0,-1,1,2,1,-1,0,-1,1,1,-1,0,1,-1,-1,8,-1,-1,1,0,1,
 %T A085737 -1,4,4,-1,1,0,-1,1,-1,-4,8,-4,-1,1,-1,0,-1,1,-8,4,4,-8,1,-1,0,5,-5,7,
 %U A085737 4,-116,32,-116,4,7,-5,5,0,5,-5,32,-28,16,16,-28,32,-5,5,0
 %N A085737 Numerators in triangle formed from Bernoulli numbers.
 %C A085737 Triangle is determined by rules 0) the top number is 1; 1) each number is the sum of the two below it; 2) it is left-right symmetric; 3) the numbers in each of the border rows, after the first 3, are alternately 0.
-%C A085737 Up to signs this is the difference table of the Bernoulli numbers (see A212196). The Sage script below is based on L. Seidel's algorithm and does not make use of a library function for the Bernoulli numbers; in fact it generates the Bernoulli numbers on the fly. - _Peter Luschny_, May 04 2012
+%C A085737 Up to signs this is the difference table of the Bernoulli numbers (see A212196). The SageMath script below is based on L. Seidel's algorithm and does not make use of a library function for the Bernoulli numbers; in fact it generates the Bernoulli numbers on the fly. - _Peter Luschny_, May 04 2012
 %H A085737 Fabien Lange and Michel Grabisch, <a href="http://dx.doi.org/10.1016/j.disc.2008.12.007">The interaction transform for functions on lattices</a> Discrete Math. 309 (2009), no. 12, 4037-4048. [From _N. J. A. Sloane_, Nov 26 2011]
-%H A085737 Peter Luschny, <a href="http://oeis.org/wiki/User:Peter_Luschny/ComputationAndAsymptoticsOfBernoulliNumbers">The computation and asymptotics of the Bernoulli numbers</a>.
+%H A085737 Peter Luschny, <a href="https://oeis.org/wiki/User:Peter_Luschny/ComputationAndAsymptoticsOfBernoulliNumbers">The computation and asymptotics of the Bernoulli numbers</a>.
 %H A085737 Ludwig Seidel, <a href="https://www.zobodat.at/pdf/Sitz-Ber-Akad-Muenchen-math-Kl_1877_0157-0187.pdf">Über eine einfache Entstehungsweise der Bernoulli'schen Zahlen und einiger verwandten Reihen</a>, Sitzungsberichte der mathematisch-physikalischen Classe der königlich bayerischen Akademie der Wissenschaften zu München, volume 7 (1877), 157-187. [_Peter Luschny_, May 04 2012]
 %F A085737 T(n, 0) = (-1)^n*Bernoulli(n), T(n, k) = T(n-1, k-1) - T(n, k-1) for k=1..n.
 %F A085737 T(n,k) = Sum_{j=0..k} binomial(k,j)*Bernoulli(n-j). [Lange and Grabisch]
@@ -22,7 +22,7 @@
 %e A085737   -1/30,  1/30, -1/105, -4/105,  8/105, -4/105, -1/105, 1/30, -1/30;
 %p A085737 nmax:=11; for n from 0 to nmax do T(n, 0):= (-1)^n*bernoulli(n) od: for n from 1 to nmax do for k from 1 to n do  T(n, k) := T(n-1, k-1) - T(n, k-1) od: od: for n from 0 to nmax do seq(T(n, k), k=0..n) od: seq(seq(numer(T(n, k)), k=0..n), n=0..nmax);  # _Johannes W. Meijer_, Jun 29 2011, revised Nov 25 2012
 %t A085737 t[n_, 0] := (-1)^n*BernoulliB[n]; t[n_, k_] := t[n, k] = t[n-1, k-1] - t[n, k-1]; Table[t[n, k] // Numerator, {n, 0, 11}, {k, 0, n}] // Flatten (* _Jean-François Alcover_, Jan 07 2014 *)
-%o A085737 (Sage)
+%o A085737 (SageMath)
 %o A085737 def BernoulliDifferenceTable(n) :
 %o A085737     def T(S, a) :
 %o A085737         R = [a]

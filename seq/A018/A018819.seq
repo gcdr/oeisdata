@@ -1,4 +1,4 @@
-%I A018819 #197 Jun 20 2024 17:22:06
+%I A018819 #210 Nov 05 2025 15:21:48
 %S A018819 1,1,2,2,4,4,6,6,10,10,14,14,20,20,26,26,36,36,46,46,60,60,74,74,94,
 %T A018819 94,114,114,140,140,166,166,202,202,238,238,284,284,330,330,390,390,
 %U A018819 450,450,524,524,598,598,692,692,786,786,900,900,1014,1014,1154,1154,1294,1294
@@ -57,11 +57,12 @@
 %H A018819 Michael D. Hirschhorn and James A. Sellers, <a href="http://web.maths.unsw.edu.au/~mikeh/webpapers/paper110.pdf">A different view of m-ary partitions</a>, Australasian J. Combin., vol.30 (2004), 193-196.
 %H A018819 Jonathan Jordan and Richard Southwell, <a href="http://dx.doi.org/10.4236/am.2010.15045">Further Properties of Reproducing Graphs</a>, Applied Mathematics, Vol. 1 No. 5, 2010, pp. 344-350. doi: 10.4236/am.2010.15045. - From _N. J. A. Sloane_, Feb 03 2013
 %H A018819 Yasuyuki Kachi and Pavlos Tzermias, <a href="http://mi.mathnet.ru/adm508">On the m-ary partition numbers</a>, Algebra and Discrete Mathematics, Volume 19 (2015). Number 1, pp. 67-76.
+%H A018819 Aditya Khanna, <a href="https://arxiv.org/abs/2510.12723">Transition Matrices between Plethystic Bases of Polysymmetric Functions via Bijective Methods</a>, arXiv:2510.12723 [math.CO], 2025. See pp. 5, 46.
 %H A018819 Matjaž Konvalinka and Igor Pak, <a href="http://www.math.ucla.edu/~pak/papers/CayleyComp7.pdf">Cayley compositions, partitions, polytopes, and geometric bijections</a>, Journal of Combinatorial Theory, Series A, Volume 123, Issue 1, April 2014, Pages 86-91; see also <a href="https://doi.org/10.1016/j.jcta.2013.11.008">DOI link</a>. - From _N. J. A. Sloane_, Dec 22 2012
 %H A018819 Apisit Pakapongpun and Thomas Ward, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL12/Ward/ward17.html">Functorial Orbit counting</a>, J. Int. Seq., 12 (2009) 09.2.4, example 25.
 %H A018819 Øystein J. Rodseth and James A. Sellers, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL8/Sellers/sellers75.html">On a Restricted m-Non-Squashing Partition Function</a>, Journal of Integer Sequences, Vol. 8 (2005), Article 05.5.4.
 %H A018819 David Ruelle, <a href="http://www.ams.org/notices/200208/fea-ruelle.pdf">Dynamical zeta functions and transfer operators</a>, Notices Amer. Math. Soc., 49 (No. 8, 2002), 887-895; see p. 888.
-%H A018819 N. J. A. Sloane and James A. Sellers, <a href="http://arxiv.org/abs/math/0312418">On non-squashing partitions</a>, arXiv:math/0312418 [math.CO], 2003.
+%H A018819 N. J. A. Sloane and James A. Sellers, <a href="https://arxiv.org/abs/math/0312418">On non-squashing partitions</a>, arXiv:math/0312418 [math.CO], 2003.
 %H A018819 N. J. A. Sloane and James A. Sellers, <a href="http://dx.doi.org/10.1016/j.disc.2004.11.014">On non-squashing partitions</a>, Discrete Math., 294 (2005), 259-274.
 %F A018819 a(2m+1) = a(2m), a(2m) = a(2m-1) + a(m). Proof: If n is odd there is a part of size 1; removing it gives a partition of n - 1. If n is even either there is a part of size 1, whose removal gives a partition of n - 1, or else all parts have even sizes and dividing each part by 2 gives a partition of n/2.
 %F A018819 G.f.: 1 / Product_{j>=0} (1-x^(2^j)).
@@ -75,59 +76,60 @@
 %F A018819 Let A(x) by the g.f. and B(x) = A(x^k), then 0 = B*((1-A)^k - (-A)^k) + (-A)^k, see fxtbook link. - _Joerg Arndt_, Dec 17 2012
 %F A018819 G.f.: Product_{n>=0} (1+x^(2^n))^(n+1), see the fxtbook link. - _Joerg Arndt_, Feb 28 2014
 %F A018819 G.f.: 1 + Sum_{i>=0} x^(2^i) / Product_{j=0..i} (1 - x^(2^j)). - _Ilya Gutkovskiy_, May 07 2017
+%F A018819 a(n) = a(n-2) + a(floor(n/2)) for n >= 2. - _Alan Michael Gómez Calderón_, Sep 13 2025
 %e A018819 G.f. = 1 + x + 2*x^2 + 2*x^3 + 4*x^4 + 4*x^5 + 6*x^6 + 6*x^7 + 10*x^8 + ...
 %e A018819 a(4) = 4: the partitions are 4, 2 + 2, 2 + 1 + 1, 1 + 1 + 1 + 1.
 %e A018819 a(7) = 6: the partitions are 4 + 2 + 1, 4 + 1 + 1 + 1, 2 + 2 + 2 + 1, 2 + 2 + 1 + 1 + 1, 2 + 1 + 1 + 1 + 1 + 1, 1 + 1 + 1 + 1 + 1 + 1 + 1.
 %e A018819 From _Joerg Arndt_, Dec 17 2012: (Start)
 %e A018819 The a(10) = 14 binary partitions of 10 are (in lexicographic order)
-%e A018819 [ 1]  [ 1 1 1 1 1 1 1 1 1 1 ]
-%e A018819 [ 2]  [ 2 1 1 1 1 1 1 1 1 ]
-%e A018819 [ 3]  [ 2 2 1 1 1 1 1 1 ]
-%e A018819 [ 4]  [ 2 2 2 1 1 1 1 ]
-%e A018819 [ 5]  [ 2 2 2 2 1 1 ]
-%e A018819 [ 6]  [ 2 2 2 2 2 ]
-%e A018819 [ 7]  [ 4 1 1 1 1 1 1 ]
-%e A018819 [ 8]  [ 4 2 1 1 1 1 ]
-%e A018819 [ 9]  [ 4 2 2 1 1 ]
-%e A018819 [10]  [ 4 2 2 2 ]
-%e A018819 [11]  [ 4 4 1 1 ]
-%e A018819 [12]  [ 4 4 2 ]
-%e A018819 [13]  [ 8 1 1 ]
-%e A018819 [14]  [ 8 2 ]
+%e A018819   [ 1] [ 1 1 1 1 1 1 1 1 1 1 ]
+%e A018819   [ 2] [ 2 1 1 1 1 1 1 1 1 ]
+%e A018819   [ 3] [ 2 2 1 1 1 1 1 1 ]
+%e A018819   [ 4] [ 2 2 2 1 1 1 1 ]
+%e A018819   [ 5] [ 2 2 2 2 1 1 ]
+%e A018819   [ 6] [ 2 2 2 2 2 ]
+%e A018819   [ 7] [ 4 1 1 1 1 1 1 ]
+%e A018819   [ 8] [ 4 2 1 1 1 1 ]
+%e A018819   [ 9] [ 4 2 2 1 1 ]
+%e A018819   [10] [ 4 2 2 2 ]
+%e A018819   [11] [ 4 4 1 1 ]
+%e A018819   [12] [ 4 4 2 ]
+%e A018819   [13] [ 8 1 1 ]
+%e A018819   [14] [ 8 2 ]
 %e A018819 The a(11) = 14 binary partitions of 11 are obtained by appending 1 to each partition in the list.
 %e A018819 The a(10) = 14 non-squashing partitions of 10 are (in lexicographic order)
-%e A018819 [ 1]  [ 6 3 1 1 ]
-%e A018819 [ 2]  [ 6 3 2 ]
-%e A018819 [ 3]  [ 6 4 1 ]
-%e A018819 [ 4]  [ 6 5 ]
-%e A018819 [ 5]  [ 7 2 1 1 ]
-%e A018819 [ 6]  [ 7 2 2 ]
-%e A018819 [ 7]  [ 7 3 1 ]
-%e A018819 [ 8]  [ 7 4 ]
-%e A018819 [ 9]  [ 8 2 1 ]
-%e A018819 [10]  [ 8 3 ]
-%e A018819 [11]  [ 9 1 1 ]
-%e A018819 [12]  [ 9 2 ]
-%e A018819 [13]  [ 10 1 ]
-%e A018819 [14]  [ 11 ]
+%e A018819   [ 1] [ 6 3 1 1 ]
+%e A018819   [ 2] [ 6 3 2 ]
+%e A018819   [ 3] [ 6 4 1 ]
+%e A018819   [ 4] [ 6 5 ]
+%e A018819   [ 5] [ 7 2 1 1 ]
+%e A018819   [ 6] [ 7 2 2 ]
+%e A018819   [ 7] [ 7 3 1 ]
+%e A018819   [ 8] [ 7 4 ]
+%e A018819   [ 9] [ 8 2 1 ]
+%e A018819   [10] [ 8 3 ]
+%e A018819   [11] [ 9 1 1 ]
+%e A018819   [12] [ 9 2 ]
+%e A018819   [13] [ 10 1 ]
+%e A018819   [14] [ 11 ]
 %e A018819 The a(11) = 14 non-squashing partitions of 11 are obtained by adding 1 to the first part in each partition in the list.
 %e A018819 (End)
 %e A018819 From _David V. Feldman_, Jan 29 2020: (Start)
 %e A018819 The a(10) = 14 non-borrowing partitions of 10 are (in lexicographic order)
-%e A018819 [ 1] [1 1 1 1 1 1 1 1 1 1]
-%e A018819 [ 2] [2 2 2 2 2]
-%e A018819 [ 3] [3 1 1 1 1 1 1 1]
-%e A018819 [ 4] [3 3 1 1 1 1]
-%e A018819 [ 5] [3 3 2 2]
-%e A018819 [ 6] [3 3 3 1]
-%e A018819 [ 7] [5 1 1 1 1 1]
-%e A018819 [ 8] [5 5]
-%e A018819 [ 9] [6 2 2]
-%e A018819 [10] [6 4]
-%e A018819 [11] [7 1 1 1]
-%e A018819 [12] [7 3]
-%e A018819 [13] [9 1]
-%e A018819 [14] [10]
+%e A018819   [ 1] [1 1 1 1 1 1 1 1 1 1]
+%e A018819   [ 2] [2 2 2 2 2]
+%e A018819   [ 3] [3 1 1 1 1 1 1 1]
+%e A018819   [ 4] [3 3 1 1 1 1]
+%e A018819   [ 5] [3 3 2 2]
+%e A018819   [ 6] [3 3 3 1]
+%e A018819   [ 7] [5 1 1 1 1 1]
+%e A018819   [ 8] [5 5]
+%e A018819   [ 9] [6 2 2]
+%e A018819   [10] [6 4]
+%e A018819   [11] [7 1 1 1]
+%e A018819   [12] [7 3]
+%e A018819   [13] [9 1]
+%e A018819   [14] [10]
 %e A018819 The a(11) = 14 non-borrowing partitions of 11 are obtained either by adding 1 to the first even part in each partition (if any) or else appending a 1 after the last part.
 %e A018819 (End)
 %e A018819 For example, the five partitions of 4, written in nonincreasing order, are [1, 1, 1, 1], [2, 1, 1], [2, 2], [3, 1], [4]. The last four satisfy the condition, and a(4) = 4. The Maple program below verifies this for small values of n.

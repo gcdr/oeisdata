@@ -1,9 +1,10 @@
-%I A070175 #17 Oct 09 2024 04:34:50
+%I A070175 #21 Jun 24 2025 18:48:44
 %S A070175 1,2,4,6,8,12,16,24,30,32,48,60,64,96,120,128,192,210,240,256,384,420,
 %T A070175 480,512,768,840,960,1024,1536,1680,1920,2048,2310,3072,3360,3840,
 %U A070175 4096,4620,6144,6720,7680,8192,9240,12288,13440,15360,16384,18480,24576
 %N A070175 The smallest representative of each (bigomega(n),omega(n)) pair.
 %C A070175 Equivalently, products of a member of A000079 and a member of A002110. - _Matthew Vandermast_, Nov 04 2008
+%C A070175 These are all the numbers of least prime signature (A025487) that are not divisible by 9. - _Hal M. Switkay_, Jun 23 2025
 %H A070175 Michael De Vlieger, <a href="/A070175/b070175.txt">Table of n, a(n) for n = 0..10186</a> (all terms a(n) <= A002110(54))
 %e A070175 24 is a term because (bigomega(24),omega(24))=(4,2) and 24 is the smallest n for which (bigomega(n),omega(n))=(4,2).
 %t A070175 f[x_] := Block[{i, k, m, nn, p}, nn = Product[Prime[j], {j, x}]; Set[{k, i, p}, Range[0, 2]]; {1}~Join~Union@ Reap[Until[i > x, While[Set[m, 2^k*p] <= nn, Sow[m]; k++]; k = 0; i++; p *= Prime[i] ] ][[-1, 1]] ]; f[6] (* _Michael De Vlieger_, Oct 08 2024 *)

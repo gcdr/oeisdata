@@ -1,4 +1,4 @@
-%I A018269 #14 Mar 02 2021 13:59:03
+%I A018269 #16 Jul 08 2025 06:34:26
 %S A018269 1,2,4,17,34,68
 %N A018269 Divisors of 68.
 %H A018269 <a href="/index/Di#divisors">Index entries for sequences related to divisors of numbers</a>
@@ -6,4 +6,4 @@
 %o A018269 (PARI) divisors(68) \\ _Charles R Greathouse IV_, Jun 22 2017
 %K A018269 nonn,fini,full,easy
 %O A018269 1,2
-%A A018269 _N. J. A. Sloane_.
+%A A018269 _N. J. A. Sloane_

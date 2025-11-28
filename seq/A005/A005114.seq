@@ -1,4 +1,4 @@
-%I A005114 M1552 #117 Feb 16 2025 08:32:28
+%I A005114 M1552 #140 Sep 19 2025 00:43:23
 %S A005114 2,5,52,88,96,120,124,146,162,188,206,210,216,238,246,248,262,268,276,
 %T A005114 288,290,292,304,306,322,324,326,336,342,372,406,408,426,430,448,472,
 %U A005114 474,498,516,518,520,530,540,552,556,562,576,584,612,624,626,628,658
@@ -15,6 +15,7 @@
 %D A005114 Clifford A. Pickover, A Passion for Mathematics, Wiley, 2005; see p. 65.
 %D A005114 József Sándor, Dragoslav S. Mitrinovic, Borislav Crstici, Handbook of Number Theory I, Springer Science & Business Media, 2005, page 93.
 %D A005114 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A005114 James J. Tattersall, Elementary Number Theory in Nine Chapters, Cambridge University Press, 1999, page 147.
 %D A005114 David Wells, The Penguin Dictionary of Curious and Interesting Numbers. Penguin Books, NY, 1986, Revised edition 1987. See p. 125.
 %H A005114 Giovanni Resta, <a href="/A005114/b005114.txt">Table of n, a(n) for n = 1..13863</a> (terms < 10^5; first 8153 terms from Klaus Brockhaus)
 %H A005114 M. Abramowitz and I. A. Stegun, eds., <a href="http://www.convertit.com/Go/ConvertIt/Reference/AMS55.ASP">Handbook of Mathematical Functions</a>, National Bureau of Standards, Applied Math. Series 55, Tenth Printing, 1972 [alternative scanned copy], p. 840.
@@ -23,7 +24,8 @@
 %H A005114 William D. Banks and Florian Luca, <a href="https://www.impan.pl/pl/wydawnictwa/czasopisma-i-serie-wydawnicze/colloquium-mathematicum/all/103/1/87562/nonaliquots-and-robbins-numbers">Nonaliquots and Robbins numbers</a>, Colloq. Math., Vol. 103, No. 1 (2005), pp. 27-32.
 %H A005114 Yong-Gao Chen and Qing-Qing Zhao, <a href="https://doi.org/10.5486/pmd.2011.4820">Nonaliquot numbers</a>, Publ. Math. Debrecen, Vol. 78, No. 2 (2011), pp. 439-442.
 %H A005114 K. Chum, R. K. Guy, M. J. Jacobson, Jr., and A. S. Mosunov, <a href="https://doi.org/10.1080/10586458.2018.1477077">Numerical and statistical analysis of aliquot sequences</a>, Experimental Mathematics (2018), pp. 1-12.
-%H A005114 Paul Erdős, <a href="http://www.renyi.hu/~p_erdos/1973-27.pdf">Über die Zahlen der Form sigma(n)-n und n-phi(n)</a>, Elemente der Math., Vol. 28 (1973), pp. 83-86; <a href="https://www.digizeitschriften.de/en/dms/met/?PPN=PPN378850199_0028&amp;DMDID=dmdlog30">alternative link</a> (in German).
+%H A005114 Paul Erdős, <a href="http://www.renyi.hu/~p_erdos/1973-27.pdf">Über die Zahlen der Form sigma(n)-n und n-phi(n)</a>, Elemente der Math., Vol. 28 (1973), pp. 83-86; <a href="https://gdz.sub.uni-goettingen.de/id/PPN378850199_0028">alternative link</a> (in German).
+%H A005114 Shyam Sunder Gupta, <a href="https://doi.org/10.1007/978-981-97-2465-9_15">Beauty of Number 153</a>, Exploring the Beauty of Fascinating Numbers, Springer (2025) Ch. 15, 399-410.
 %H A005114 Victor Meally, <a href="/A006556/a006556.pdf">Letter to N. J. A. Sloane</a>, no date.
 %H A005114 Paul Pollack, <a href="http://pollack.uga.edu/NABDofficial.pdf">Not Always Buried Deep: A Second Course in Elementary Number Theory</a>, AMS, 2009, p. 272.
 %H A005114 Paul Pollack and Carl Pomerance, <a href="https://doi.org/10.1090/btran/10">Some problems of Erdős on the sum-of-divisors function</a>, For Richard Guy on his 99th birthday: May his sequence be unbounded, Trans. Amer. Math. Soc. Ser. B, Vol. 3 (2016), pp. 1-26; <a href="http://pollack.uga.edu/reversal-errata.pdf">Errata</a>.
@@ -31,6 +33,7 @@
 %H A005114 Carl Pomerance and Hee-Sung Yang, <a href="https://doi.org/10.1090/S0025-5718-2013-02775-5">Variant of a theorem of Erdős on the sum-of-proper-divisors function</a>, Math. Comp., Vol. 83, No. 288 (2014), pp. 1903-1913; <a href="http://www.math.dartmouth.edu/~carlp/uupaper6.pdf">alternative link</a>.
 %H A005114 Giovanni Resta, <a href="http://www.numbersaplenty.com/set/untouchable_number/">Untouchable numbers</a> (the 150232 terms up to 10^6).
 %H A005114 H. J. J. te Riele, <a href="https://ir.cwi.nl/pub/13093">A theoretical and computational study of generalized aliquot sequences</a>, Mathematisch Centrum, Amsterdam, 1976. See chapter 9.
+%H A005114 Jean-Jacques Vaudroz, <a href="/A005114/a005114.pl.txt">Perl program</a>
 %H A005114 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/UntouchableNumber.html">Untouchable Number</a>.
 %H A005114 Wikipedia, <a href="http://en.wikipedia.org/wiki/Untouchable_number">Untouchable number</a>.
 %H A005114 Robert G. Wilson v, <a href="/A007015/a007015.pdf">Letter to N. J. A. Sloane, Jul. 1992</a>.

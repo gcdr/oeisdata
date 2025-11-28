@@ -1,4 +1,4 @@
-%I A247303 #38 Jun 23 2021 12:05:15
+%I A247303 #40 Nov 05 2025 15:22:28
 %S A247303 1,0,0,2,0,2,3,0,2,4,3,2,5,2,2,8,2,4,7,2,7,6,4,8,7,4,6,10,4,10,11,0,
 %T A247303 10,12,7,10,11,6,8,16,9,8,12,10,10,14,13,8,15,12,10,18,10,14,17,8,14,
 %U A247303 20,15,10,21,10,10,32,10,12,23,10,19,22,16,16,21,16
@@ -6,7 +6,7 @@
 %C A247303 The parity of this sequence is A228495(n+1).
 %C A247303 Alternatively, the number of ways to write n = x+y, where x, y are evil numbers (members of A001969). - _Jeffrey Shallit_, Jun 22 2021
 %H A247303 Reinhard Zumkeller, <a href="/A247303/b247303.txt">Table of n, a(n) for n = 0..10000</a>
-%H A247303 Tanya Khovanova, <a href="http://arxiv.org/abs/1410.2193">There are no coincidences</a>, arXiv:1410.2193 [math.CO], 2014.
+%H A247303 Tanya Khovanova, <a href="https://arxiv.org/abs/1410.2193">There are no coincidences</a>, arXiv:1410.2193 [math.CO], 2014.
 %F A247303 G.f.: (1/4)*(1/(1 - x) + Product_{k>=0} (1 - x^(2^k)))^2. - _Ilya Gutkovskiy_, Apr 03 2019
 %F A247303 a(n) = Sum_{k=0..n} (1-A010060(k))*(1-A010060(n-k)), for n>=0. - _G. C. Greubel_, Apr 03 2019
 %F A247303 From _Jeffrey Shallit_, Jun 22 2021: (Start)
@@ -39,7 +39,7 @@
 %o A247303 a247303_list = f [head a010059_list] $ tail a010059_list where
 %o A247303    f xs (z:zs) = (sum $ zipWith (*) xs (reverse xs)) : f (z : xs) zs
 %o A247303 -- _Reinhard Zumkeller_, Sep 14 2014
-%o A247303 (Sage) [sum((1-sloane.A010060(k))*(1-sloane.A010060(n-k)) for k in (0..n)) for n in (0..80)] # _G. C. Greubel_, Apr 03 2019
+%o A247303 (SageMath) [sum((1-sloane.A010060(k))*(1-sloane.A010060(n-k)) for k in (0..n)) for n in (0..80)] # _G. C. Greubel_, Apr 03 2019
 %Y A247303 Cf. A010059, A108804.
 %K A247303 nonn,easy
 %O A247303 0,4

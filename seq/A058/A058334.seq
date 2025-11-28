@@ -1,11 +1,11 @@
-%I A058334 #21 Apr 17 2020 07:41:12
+%I A058334 #22 Sep 22 2025 16:00:36
 %S A058334 0,1,2,3,7,18,22,27,31,78,94,115,171,402,438,507,1363,1467,2263,2283,
 %T A058334 3627,9247,9955
 %N A058334 Numbers n such that the trinomial x^n + x + 1 is irreducible over GF(5).
 %C A058334 No other n < 4400. - _Michael Somos_, Mar 12 2007
 %C A058334 Next term > 10^4. [_Joerg Arndt_, Mar 02 2016]
 %o A058334 (PARI) isok(n) = polisirreducible(Mod(1, 5)*(x^n + x + 1)); \\ _Michel Marcus_, Feb 11 2014
-%o A058334 (Sage)
+%o A058334 (SageMath)
 %o A058334 P.<x> = GF(5)[]
 %o A058334 for n in range(0, 10000):
 %o A058334        if (x^n+x+1).is_irreducible():

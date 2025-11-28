@@ -1,7 +1,7 @@
-%I A000957 M1624 N0635 #327 Feb 09 2025 09:45:44
+%I A000957 M1624 N0635 #350 Nov 26 2025 10:22:45
 %S A000957 0,1,0,1,2,6,18,57,186,622,2120,7338,25724,91144,325878,1174281,
 %T A000957 4260282,15548694,57048048,210295326,778483932,2892818244,10786724388,
-%U A000957 40347919626,151355847012,569274150156,2146336125648,8110508473252,30711521221376
+%U A000957 40347919626,151355847012,569274150156,2146336125648,8110508473252,30711521221376,116518215264492,442862000693438
 %N A000957 Fine's sequence (or Fine numbers): number of relations of valence >= 1 on an n-set; also number of ordered rooted trees with n nodes having root of even degree.
 %C A000957 Row-sum of signed Catalan triangle A009766. - _Wouter Meeussen_
 %C A000957 There are two schools of thought about the best indexing for these numbers. Deutsch and Shapiro have a(4) = 6 whereas here a(5) = 6. The formulas given here use both labelings.
@@ -25,6 +25,7 @@
 %C A000957 For n >= 3, a(n) is the number of permutations pi of [n-2] such that s(pi) avoids the patterns 132, 231, and 312, where s is West's stack-sorting map. - _Colin Defant_, Sep 16 2018
 %C A000957 Named after the American scientist Terrence Leon Fine (1939-2021). - _Amiram Eldar_, Jun 08 2021
 %D A000957 Emeric Deutsch and Louis W. Shapiro, Seventeen Catalan identities, Bull. Instit. Combin. Applic., Vol. 31 (2001), pp. 31-38.
+%D A000957 Ralph P. Grimaldi, Fibonacci and Catalan Numbers: An Introduction, (2012). See pp. 285-286.
 %D A000957 Ki Hang Kim, Douglas G. Rogers and Fred W. Roush, Similarity relations and semiorders. Proceedings of the Tenth Southeastern Conference on Combinatorics, Graph Theory and Computing (Florida Atlantic Univ., Boca Raton, Fla., 1979), pp. 577-594, Congress. Numer., XXIII-XXIV, Utilitas Math., Winnipeg, Man., 1979. MR0561081 (81i:05013). - _N. J. A. Sloane_, Jun 05 2012
 %D A000957 Louis W. Shapiro and Carol J. Wang, Generating identities via 2 X 2 matrices, Congressus Numerantium, 205 (2010), 33-46.
 %D A000957 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
@@ -33,8 +34,9 @@
 %H A000957 Francesca Aicardi, <a href="https://arxiv.org/abs/2310.07317">Fuss-Catalan Triangles</a>, arXiv:2310.07317 [math.CO], 2023.
 %H A000957 Martin Aigner, <a href="http://dx.doi.org/10.1016/j.disc.2007.06.012">Enumeration via ballot numbers</a>, Discrete Math., 308 (2008), 2544-2563.
 %H A000957 M. Albert, R. Aldred, M. Atkinson, C Handley, D. Holton, D. McCaughan and H. van Ditmarsch, <a href="https://doi.org/10.37236/1928">Sorting Classes</a>, Elec. J. of Comb., Vol. 12 (2005), R31.
-%H A000957 Elena Barcucci, Elisa Pergola, Renzo Pinzani and Simone Rinaldi, <a href="https://www.emis.de/journals/SLC/wpapers/s46rinaldi.html">ECO method and hill-free generalized Motzkin paths</a>, Séminaire Lotharingien de Combinatoire, 46 (2001).
+%H A000957 Elena Barcucci, Elisa Pergola, Renzo Pinzani and Simone Rinaldi, <a href="https://www.mat.univie.ac.at/~slc/wpapers/s46rinaldi.html">ECO method and hill-free generalized Motzkin paths</a>, Séminaire Lotharingien de Combinatoire, 46 (2001).
 %H A000957 Jean-Luc Baril, <a href="https://doi.org/10.37236/665">Classical sequences revisited with permutations avoiding dotted pattern</a>, Electronic Journal of Combinatorics, Vol. 18 (2011), #P178.
+%H A000957 Jean Luc Baril, Rigoberto Flórez, and José L. Ramirez, <a href="http://jl.baril.u-bourgogne.fr/narayana.pdf">Generalized Narayana arrays, restricted Dyck paths, and related bijections</a>, Univ. Bourgogne (France, 2025). See p. 4.
 %H A000957 Paul Barry, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL8/Barry/barry84.html">A Catalan Transform and Related Transformations on Integer Sequences</a>, Journal of Integer Sequences, Vol. 8 (2005), Article 05.4.5.
 %H A000957 Paul Barry, <a href="https://arxiv.org/abs/1803.06408">Three Études on a sequence transformation pipeline</a>, arXiv:1803.06408 [math.CO], 2018.
 %H A000957 Paul Barry, <a href="https://arxiv.org/abs/2004.04577">On a Central Transform of Integer Sequences</a>, arXiv:2004.04577 [math.CO], 2020.
@@ -53,19 +55,20 @@
 %H A000957 Colin Defant, <a href="https://arxiv.org/abs/1809.03123">Stack-sorting preimages of permutation classes</a>, arXiv:1809.03123 [math.CO], 2018.
 %H A000957 Emeric Deutsch and Louis W. Shapiro, <a href="http://dx.doi.org/10.1016/S0012-365X(01)00121-2">A survey of the Fine numbers</a>, Discrete Math., Vol. 241 (2001), pp. 241-265.
 %H A000957 Filippo Disanto, Andrea Frosini and Simone Rinaldi and Renzo Pinzani, <a href="http://www.seams-bull-math.ynu.edu.cn/downloadfile.jsp?filemenu=_200805&amp;filename=The%20Combinatorics%20of%20Convex%20Permutominoes.pdf">The Combinatorics of Convex Permutominoes</a>, Southeast Asian Bulletin of Mathematics, Vol. 32 (2008), pp. 883-912.
-%H A000957 R. R. X. Du, J. He, X. Yun, <a href="http://arxiv.org/abs/1501.07468">Counting vertices in plane and k-ary trees with given outdegree</a>, arXiv preprint arXiv:1501.07468 [math.CO], 2015.
-%H A000957 Shalosh B. Ekhad, Mingjia Yang and Doron Zeilberger, <a href="http://arxiv.org/abs/1707.04654">Automated proofs of many conjectured recurrences in the OEIS made by R. J. Mathar</a>, arXiv:1707.04654 (2017)
+%H A000957 R. R. X. Du, J. He, and X. Yun, <a href="https://arxiv.org/abs/1501.07468">Counting vertices in plane and k-ary trees with given outdegree</a>, arXiv preprint arXiv:1501.07468 [math.CO], 2015.
+%H A000957 Shalosh B. Ekhad, Mingjia Yang and Doron Zeilberger, <a href="https://arxiv.org/abs/1707.04654">Automated proofs of many conjectured recurrences in the OEIS made by R. J. Mathar</a>, arXiv:1707.04654 [math.HO], 2017.
 %H A000957 Sergio Falcon, <a href="http://www.mathnet.or.kr/mathnet/thesis_file/CKMS-28-4-827-832.pdf">Catalan transform of the K-Fibonacci sequence</a>, Commun. Korean Math. Soc. 28 (2013), No. 4, pp. 827-832; http://dx.doi.org/10.4134/CKMS.2013.28.4.827.
 %H A000957 Terrence Fine, <a href="http://dx.doi.org/10.1016/S0019-9958(70)90177-4">Extrapolation when very little is known about the source</a>, Information and Control, Vol. 16 (1970), pp. 331-359.
 %H A000957 Shishuo Fu and Yaling Wang, <a href="https://arxiv.org/abs/1908.03912">Bijective recurrences concerning two Schröder triangles</a>, arXiv:1908.03912 [math.CO], 2019.
+%H A000957 Ignas Gasparavičius, Andrius Grigutis, and Juozas Petkelis, <a href="https://arxiv.org/abs/2507.23619">Picturesque convolution-like recurrences and partial sums' generation</a>, arXiv:2507.23619 [math.NT], 2025. See p. 27.
 %H A000957 Taras Goy and Mark Shattuck, <a href="https://arxiv.org/abs/2303.10223">Hessenberg-Toeplitz Matrix Determinants with Schröder and Fine Number Entries</a>, arXiv:2303.10223 [math.CO], 2023.
 %H A000957 Taras Goy and Mark Shattuck, <a href="https://doi.org/10.15330/cmp.15.2.420-436">Hessenberg-Toeplitz Matrix Determinants with Schröder and Fine Number Entries</a>, Carpathian Math. Publ. 15 (2023), No. 2, 420-436.
 %H A000957 Candice Jean-Louis and Asamoah Nkwanta, <a href="http://dx.doi.org/10.1016/j.laa.2012.10.027">Some algebraic structure of the Riordan group</a>, Linear Algebra and its Applications, Vol. 438, No. 5 (2013), pp. 2018-2035. - _N. J. A. Sloane_, Jan 03 2013
 %H A000957 Sergey Kitaev, Anna de Mier, Marc Noy, <a href="http://dx.doi.org/10.1016/j.ejc.2013.06.013">On the number of self-dual rooted maps</a>, European J. Combin., Vol. 35 (2014), pp. 377-387. MR3090510. See page 827.
-%H A000957 Sergey Kitaev, Jeffrey Remmel and Mark Tiefenbruck, <a href="http://arxiv.org/abs/1201.6243">Marked mesh patterns in 132-avoiding permutations I</a>, arXiv preprint arXiv:1201.6243 [math.CO], 2012. - From _N. J. A. Sloane_, May 09 2012
-%H A000957 Sergey Kitaev, Jeffrey Remmel, and Mark Tiefenbruck, <a href="http://www.emis.de/journals/INTEGERS/papers/p16/p16.Abstract.html">Quadrant Marked Mesh Patterns in 132-Avoiding Permutations II</a>, Electronic Journal of Combinatorial Number Theory, Volume 15 #A16. (<a href="http://arxiv.org/abs/1302.2274">arXiv:1302.2274</a>)
+%H A000957 Sergey Kitaev, Jeffrey Remmel and Mark Tiefenbruck, <a href="https://arxiv.org/abs/1201.6243">Marked mesh patterns in 132-avoiding permutations I</a>, arXiv preprint arXiv:1201.6243 [math.CO], 2012. - From _N. J. A. Sloane_, May 09 2012
+%H A000957 Sergey Kitaev, Jeffrey Remmel, and Mark Tiefenbruck, <a href="http://www.integers-ejcnt.org/p16/p16.Abstract.html">Quadrant Marked Mesh Patterns in 132-Avoiding Permutations II</a>, Electronic Journal of Combinatorial Number Theory, Volume 15 #A16. (<a href="https://arxiv.org/abs/1302.2274">arXiv:1302.2274</a>)
 %H A000957 John W. Layman, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL4/LAYMAN/hankel.html">The Hankel Transform and Some of its Properties</a>, J. Integer Sequences, Vol. 4 (2001), Article 01.1.5.
-%H A000957 Toufik Mansour and Mark Shattuck, <a href="http://arxiv.org/abs/1407.3516">Chebyshev Polynomials and Statistics on a New Collection of Words in the Catalan Family</a>, arXiv:1407.3516 [math.CO], 2014.
+%H A000957 Toufik Mansour and Mark Shattuck, <a href="https://arxiv.org/abs/1407.3516">Chebyshev Polynomials and Statistics on a New Collection of Words in the Catalan Family</a>, arXiv:1407.3516 [math.CO], 2014.
 %H A000957 Peter McCalla and Asamoah Nkwanta, <a href="https://arxiv.org/abs/1901.07092">Catalan and Motzkin Integral Representations</a>, arXiv:1901.07092 [math.NT], 2019.
 %H A000957 Asamoah Nkwanta and Akalu Tefera, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL16/Nkwanta/nkwanta4.html">Curious Relations and Identities Involving the Catalan Generating Function and Numbers</a>, Journal of Integer Sequences, Vol. 16 (2013), Article 13.9.5.
 %H A000957 Paul Peart and Wen-Jin Woan, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL3/PEART/peart1.html">Generating Functions via Hankel and Stieltjes Matrices</a>, J. Integer Seqs., Vol. 3 (2000), Article 00.2.1.
@@ -75,7 +78,7 @@
 %H A000957 Louis W. Shapiro and Carol J. Wang, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL12/Shapiro/shapiro7.html">A bijection between 3-Motzkin paths and Schroder paths with no peak at odd height</a>, JIS, Vol. 12 (2009), Article 09.3.2.
 %H A000957 Volker Strehl, <a href="http://dx.doi.org/10.1016/0012-365X(77)90124-8">A note on similarity relations</a>, Discr. Math., Vol. 19, No. 1 (1977), pp. 99-102.
 %H A000957 Hua Sun and Yi Wang, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL17/Wang/wang11.html">A Combinatorial Proof of the Log-Convexity of Catalan-Like Numbers</a>, J. Int. Seq., Vol. 17 (2014), Article 14.5.2
-%H A000957 Murray Tannock, <a href="https://skemman.is/bitstream/1946/25589/1/msc-tannock-2016.pdf">Equivalence classes of mesh patterns with a dominating pattern</a>, M.Sc. Thesis, Reykjavik Univ., May 2016.
+%H A000957 Murray Tannock, <a href="https://hdl.handle.net/1946/25589">Equivalence classes of mesh patterns with a dominating pattern</a>, M.Sc. Thesis, Reykjavik Univ., May 2016.
 %H A000957 <a href="/index/Ro#rooted">Index entries for sequences related to rooted trees</a>
 %F A000957 Catalan(n) = 2*a(n+1) + a(n), n >= 1. [Corrected by _Pontus von Brömssen_, Jul 23 2022]
 %F A000957 a(n) = (A064306(n-1) + (-1)^(n-1))/2^n, n >= 1.
@@ -129,7 +132,7 @@
 %o A000957    (map (`div` 2) $ tail $ zipWith (-) a000108_list a000957_list)
 %o A000957 -- _Reinhard Zumkeller_, Nov 12 2011
 %o A000957 (Magma) [0,1] cat  [n le 1 select n-1 else (Catalan(n)-Self(n-1))/2: n in [1..30]]; // _Vincenzo Librandi_, Nov 17 2016
-%o A000957 (Sage)
+%o A000957 (SageMath)
 %o A000957 def Fine():
 %o A000957     f, c, n = 1, 1, 1
 %o A000957     yield 0
@@ -158,6 +161,6 @@
 %Y A000957 Logarithmic derivative: A072547.
 %Y A000957 Cf. A068875, A000108, A000045, A005043, A057078, A007317, A091867, A104597.
 %Y A000957 Cf. A000012, A009766, A039598, A055395, A064306, A100754, A126093.
-%K A000957 nonn,nice,easy
+%K A000957 nonn,nice,easy,changed
 %O A000957 0,5
 %A A000957 _N. J. A. Sloane_

@@ -1,4 +1,4 @@
-%I A301314 #14 Apr 23 2018 13:37:31
+%I A301314 #15 Nov 05 2025 15:22:41
 %S A301314 1,1,1,1,2,1,1,1,2,3,1,1,2,1,2,1,4,4,1,2,1,3,1,1,4,2,4,1,2,3,1,1,4,2,
 %T A301314 4,3,2,5,4,3,3,7,3,2,3,1,3,1,3,6,7,2,4,7,3,1,5,2,6,3,2,7,7,1,4,9,3,4,
 %U A301314 2,5,5,4,5,4,6,1,5,5,1,2
@@ -9,7 +9,7 @@
 %C A301314 See also A301303 and A301304 for similar conjectures.
 %H A301314 Zhi-Wei Sun, <a href="/A301314/b301314.txt">Table of n, a(n) for n = 1..10000</a>
 %H A301314 Zhi-Wei Sun, <a href="http://dx.doi.org/10.1016/j.jnt.2016.11.008">Refining Lagrange's four-square theorem</a>, J. Number Theory 175(2017), 167-190.
-%H A301314 Zhi-Wei Sun, <a href="http://arxiv.org/abs/1701.05868">Restricted sums of four squares</a>, arXiv:1701.05868 [math.NT], 2017-2018.
+%H A301314 Zhi-Wei Sun, <a href="https://arxiv.org/abs/1701.05868">Restricted sums of four squares</a>, arXiv:1701.05868 [math.NT], 2017-2018.
 %e A301314 a(7) = 1 since 7 = 1^2 + 2^2 + 1^2 + 1^2 with 1 + 3*2 + 9*1 = 2*2^3.
 %e A301314 a(19) = 1 since 19 = 4^2 + 1^2 + 1^2 + 1^2 with 4 + 3*1 + 9*1 = 2*2^3.
 %e A301314 a(46) = 1 since 46 = 0^2 + 6^2 + 1^2 + 3^2 with 0 + 3*6 + 9*1 = 3^3.

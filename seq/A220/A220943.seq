@@ -1,8 +1,8 @@
-%I A220943 #4 Dec 25 2012 19:52:41
+%I A220943 #8 Oct 03 2025 19:09:12
 %S A220943 0,1,1,2,20,2,4,208,208,4,8,2056,7551,2056,8,16,20483,291080,291080,
 %T A220943 20483,16,32,203905,11115933,43253705,11115933,203905,32,64,2029453,
 %U A220943 424939090,6388528170,6388528170,424939090,2029453,64,128,20199560
-%N A220943 T(n,k)=Number of nXk arrays of occupancy after each element moves to some horizontal, vertical or antidiagonal neighbor
+%N A220943 T(n,k)=Number of nXk arrays of occupancy after each element moves to some horizontal, vertical or antidiagonal neighbor.
 %C A220943 Table starts
 %C A220943 ...0.........1............2...............4................8...............16
 %C A220943 ...1........20..........208............2056............20483...........203905
@@ -22,4 +22,4 @@
 %Y A220943 Column 1 is A000079(n-2)
 %K A220943 nonn,tabl
 %O A220943 1,4
-%A A220943 _R. H. Hardin_ Dec 25 2012
+%A A220943 _R. H. Hardin_, Dec 25 2012

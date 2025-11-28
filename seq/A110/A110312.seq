@@ -1,10 +1,11 @@
-%I A110312 #187 Dec 24 2023 21:47:23
+%I A110312 #193 Nov 05 2025 15:22:04
 %S A110312 4,1,6,5,7,5,9,7,10,6,11,9,11,10,12,10,13,11
 %N A110312 Minimum number of polygonal pieces in a dissection of a regular n-gon into a square (conjectured).
 %C A110312 I do not know which of these values have been proved to be minimal. (Probably only a(4)!).
 %C A110312 Turning over is allowed. The pieces must be bounded by simple curves to avoid difficulties with non-measurable sets.
 %C A110312 The three related sequences A110312, A362938, A362939 are exceptions to the usual OEIS policy of requiring that all terms in sequences must be known exactly. These sequences are included because of their importance and in the hope that someone will establish the truth of some of the conjectured values.
 %C A110312 The definitions imply that A362938(n) <= A362939(n) <= a(n).
+%C A110312 a(3)=4 is proved in Demaine et al. (2025).
 %D A110312 G. N. Frederickson, Dissections: Plane and Fancy, Cambridge, 1997.
 %D A110312 H. Lindgren, Geometric Dissections, Van Nostrand, Princeton, 1964.
 %D A110312 H. Lindgren (revised by G. N. Frederickson), Recreational Problems in Geometric Dissections and How to Solve Them, Dover, NY, 1972.
@@ -14,12 +15,13 @@
 %H A110312 Stewart T. Coffin, <a href="/A110312/a110312_3.gif">Dudeney's 1902 4-piece dissection of a triangle to a square</a>, from The Puzzling World of Polyhedral Dissections.
 %H A110312 Stewart T. Coffin, <a href="http://www.johnrausch.com/PuzzlingWorld/chap01e.htm">The Puzzling World of Polyhedral Dissections</a>, link to part of Chapter 1. [Broken link?]
 %H A110312 Stewart T. Coffin, <a href="/A110312/a110312.pdf">The Puzzling World of Polyhedral Dissections</a> [Scan of two pages from Chapter 1 that deal with the triangle-to-square dissection, annotated by _N. J. A. Sloane_, Sep 12 2019]
+%H A110312 Erik D. Demaine, Tonan Kamata, and Ryuhei Uehara, <a href="https://doi.org/10.48550/arXiv.2412.03865">Dudenay's Dissection is Optimal</a>, arXiv, 2025.
 %H A110312 Geometry Junkyard, <a href="http://www.ics.uci.edu/~eppstein/junkyard/dissect.html">Dissection</a>
 %H A110312 N. J. A. Sloane, <a href="http://neilsloane.com/doc/g4g7.pdf">Seven Staggering Sequences</a>.
 %H A110312 N. J. A. Sloane, <a href="https://arxiv.org/abs/2301.03149">"A Handbook of Integer Sequences" Fifty Years Later</a>, arXiv:2301.03149 [math.NT], 2023, p. 21.
 %H A110312 N. J. A. Sloane, New Gilbreath Conjectures, Sum and Erase, Dissecting Polygons, and Other New Sequences, Doron Zeilberger's Exper. Math. Seminar, Rutgers, Sep 14 2023: <a href="https://vimeo.com/866583736?share=copy">Video</a>, <a href="http://neilsloane.com/doc/EMSep2023.pdf">Slides</a>, <a href="http://neilsloane.com/doc/EMSep2023.Updates.txt">Updates</a>. (Mentions this sequence.)
 %H A110312 N. J. A. Sloane and Gavin A. Theobald, <a href="https://arxiv.org/abs/2309.14866">On Dissecting Polygons into Rectangles</a>, arXiv:2309.14866 [math.CO], 2023.
-%H A110312 N. J. A. Sloane and Vinay A. Vaishampayan, <a href="http://arxiv.org/abs/0710.3857">Generalizations of Schöbi's tetrahedral dissection</a>, Discrete and Comput. Geom., 41 (No. 2, 2009), 232-248; arXiv:0710.3857.
+%H A110312 N. J. A. Sloane and Vinay A. Vaishampayan, <a href="https://arxiv.org/abs/0710.3857">Generalizations of Schöbi's tetrahedral dissection</a>, Discrete and Comput. Geom., 41 (No. 2, 2009), 232-248; arXiv:0710.3857.
 %H A110312 Gavin Theobald, <a href="http://www.gavin-theobald.uk/Index.html">The Geometric Dissections Database</a>
 %H A110312 Gavin Theobald, <a href="http://www.gavin-theobald.uk/HTML/LargeImages/C/4-20.pdf">Illustration showing that a(20) <= 11</a>
 %H A110312 Gavin Theobald, <a href="http://www.gavin-theobald.uk/HTML/LargeImages/C/4-30.pdf">Illustration showing that a(30) <= 13</a>

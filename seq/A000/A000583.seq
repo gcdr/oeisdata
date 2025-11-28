@@ -1,7 +1,7 @@
-%I A000583 M5004 N2154 #248 Feb 16 2025 08:32:21
+%I A000583 M5004 N2154 #276 Nov 05 2025 15:35:22
 %S A000583 0,1,16,81,256,625,1296,2401,4096,6561,10000,14641,20736,28561,38416,
 %T A000583 50625,65536,83521,104976,130321,160000,194481,234256,279841,331776,
-%U A000583 390625,456976,531441,614656,707281,810000,923521,1048576,1185921
+%U A000583 390625,456976,531441,614656,707281,810000,923521,1048576,1185921,1336336,1500625,1679616,1874161
 %N A000583 Fourth powers: a(n) = n^4.
 %C A000583 Figurate numbers based on 4-dimensional regular convex polytope called the 4-measure polytope, 4-hypercube or tesseract with Schlaefli symbol {4,3,3}. - Michael J. Welch (mjw1(AT)ntlworld.com), Apr 01 2004
 %C A000583 Totally multiplicative sequence with a(p) = p^4 for prime p. - _Jaroslav Krizek_, Nov 01 2009
@@ -10,19 +10,23 @@
 %C A000583 For n > 0, a(n) is the largest integer k such that k^4 + n is a multiple of k + n. Also, for n > 0, a(n) is the largest integer k such that k^2 + n^2 is a multiple of k + n^2. - _Derek Orr_, Sep 04 2014
 %C A000583 Does not satisfy Benford's law [Ross, 2012]. - _N. J. A. Sloane_, Feb 08 2017
 %C A000583 a(n+2)/2 is the area of a trapezoid with vertices at (T(n), T(n+1)), (T(n+1), T(n)), (T(n+1), T(n+2)), and (T(n+2), T(n+1)) with T(n)=A000292(n) for n >= 0. - _J. M. Bergot_, Feb 16 2018
+%D A000583 John H. Conway and Richard K. Guy, The Book of Numbers, New York: Springer-Verlag, 1996. See p. 64.
+%D A000583 Elena Deza and Michel Marie Deza, Figurate numbers, World Scientific Publishing (2012), pages 167, 310-311.
 %D A000583 R. L. Graham, D. E. Knuth and O. Patashnik, Concrete Mathematics. Addison-Wesley, Reading, MA, 1990, p. 255; 2nd. ed., p. 269. Worpitzky's identity (6.37).
+%D A000583 Dov Juzuk, Curiosa 56: An interesting observation, Scripta Mathematica 6 (1939), 218.
 %D A000583 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
 %D A000583 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A000583 James J. Tattersall, Elementary Number Theory in Nine Chapters, Cambridge University Press, 1999, Page 47.
 %H A000583 T. D. Noe, <a href="/A000583/b000583.txt">Table of n, a(n) for n = 0..1000</a>
 %H A000583 Henry Bottomley, <a href="/A000583/a000583.gif">Illustration of initial terms</a>
 %H A000583 Henry Bottomley, <a href="http://fs.gallup.unm.edu/Bottomley-Sm-Mult-Functions.htm">Some Smarandache-type multiplicative sequences</a>
 %H A000583 Ralph Greenberg, <a href="http://www.math.washington.edu/~greenber/MathPoet.html">Math for Poets</a>.
-%H A000583 Milan Janjic, <a href="http://www.pmfbl.org/janjic/">Enumerative Formulas for Some Functions on Finite Sets</a>.
+%H A000583 Milan Janjic, <a href="https://old.pmf.unibl.org/wp-content/uploads/2017/10/enumfun.pdf">Enumerative Formulas for Some Functions on Finite Sets</a>.
 %H A000583 Sameen Ahmed Khan, <a href="https://doi.org/10.12732/ijam.v33i2.6">Sums of the powers of reciprocals of polygonal numbers</a>, Int'l J. of Appl. Math. (2020) Vol. 33, No. 2, 265-282.
 %H A000583 Hyun Kwang Kim, <a href="http://dx.doi.org/10.1090/S0002-9939-02-06710-2">On Regular Polytope Numbers</a>, Proc. Amer. Math. Soc., Vol. 131, No. 1 (2002), pp. 65-75.
 %H A000583 Simon Plouffe, <a href="https://arxiv.org/abs/0911.4975">Approximations de séries génératrices et quelques conjectures</a>, Dissertation, Université du Québec à Montréal, 1992; arXiv:0911.4975 [math.NT], 2009.
 %H A000583 Simon Plouffe, <a href="/A000051/a000051_2.pdf">1031 Generating Functions</a>, Appendix to Thesis, Montreal, 1992
-%H A000583 Kenneth A. Ross, <a href="http://www.jstor.org/stable/10.4169/math.mag.85.1.036">First Digits of Squares and Cubes</a>, Math. Mag. 85 (2012) 36-42.
+%H A000583 Kenneth A. Ross, <a href="https://www.jstor.org/stable/10.4169/math.mag.85.1.036">First Digits of Squares and Cubes</a>, Math. Mag. 85 (2012) 36-42.
 %H A000583 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/BiquadraticNumber.html">Biquadratic Number</a>.
 %H A000583 <a href="/index/Cor#core">Index entries for "core" sequences</a>
 %H A000583 <a href="/index/Rec#order_05">Index entries for linear recurrences with constant coefficients</a>, signature (5,-10,10,-5,1).

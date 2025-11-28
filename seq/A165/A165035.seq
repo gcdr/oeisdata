@@ -1,8 +1,8 @@
-%I A165035 #4 Mar 30 2012 17:28:43
+%I A165035 #6 Jun 02 2025 01:57:12
 %S A165035 1,2,2,2,2,3,2,3,1,3,2,3,2,3,2,3,2,3,2,3,3,3,2,3,2,3,3,3,3,4,3,2,3,3,
 %T A165035 3,3,3,3,3,3,3,3,3,3,3,4,3,3,2,3,3,3,3,3,4,3,3,3,3,3,3,3,2,3,3,3,3,3,
 %U A165035 3,3,4,3,2,3,3,3,3,3,3,4,3,3,3,3,3,3,3,3,3,3,3,3,3,2,3,4,3,3,3,3,4,4,4,4,4
-%N A165035 (Length of preperiodic part) + (length of cycle) of trajectory of n under iteration of the base-5 Kaprekar map in A165032
+%N A165035 (Length of preperiodic part) + (length of cycle) of trajectory of n under iteration of the base-5 Kaprekar map in A165032.
 %H A165035 Joseph Myers, <a href="/A165035/b165035.txt">Table of n, a(n) for n=0..3125</a>
 %H A165035 <a href="/index/K#Kaprekar_map">Index entries for the Kaprekar map</a>
 %Y A165035 Cf. A165032, A165034.

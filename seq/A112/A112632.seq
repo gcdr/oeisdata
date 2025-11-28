@@ -1,4 +1,4 @@
-%I A112632 #33 Nov 19 2023 21:16:56
+%I A112632 #34 Nov 05 2025 15:35:32
 %S A112632 1,1,2,1,2,1,2,1,2,3,2,1,2,1,2,3,4,3,2,3,2,1,2,3,2,3,2,3,2,3,2,3,4,3,
 %T A112632 4,3,2,1,2,3,4,3,4,3,4,3,2,1,2,1,2,3,2,3,4,5,6,5,4,5,4,5,4,5,4,5,4,3,
 %U A112632 4,3,4,5,4,3,2,3,4,3,4,3,4,3,4,3,2,3,4,3,4,3,4,5,4,5,4,5,6,7,6,5
@@ -6,7 +6,7 @@
 %C A112632 Cumulative sums of A134323, negated. The first negative term is a(23338590792) = -1 for the prime 608981813029. See page 4 of the paper by Granville and Martin. - _T. D. Noe_, Jan 23 2008 [Corrected by _Jianing Song_, Nov 24 2018]
 %C A112632 See the comment about "Chebyshev's bias" in A321856. - _Jianing Song_, Nov 24 2018
 %H A112632 T. D. Noe, <a href="/A112632/b112632.txt">Table of n, a(n) for n = 1..10000</a>
-%H A112632 A. Granville and G. Martin, <a href="http://www.jstor.org/stable/27641834">Prime number races</a>, Amer. Math. Monthly, 113 (No. 1, 2006), pp. 1-33.
+%H A112632 A. Granville and G. Martin, <a href="https://www.jstor.org/stable/27641834">Prime number races</a>, Amer. Math. Monthly, 113 (No. 1, 2006), pp. 1-33.
 %H A112632 Wikipedia, <a href="https://en.wikipedia.org/wiki/Chebyshev%27s_bias">Chebyshev's bias</a>
 %F A112632 a(n) = -Sum_{primes p<=n} Legendre(prime(i),3) = -Sum_{primes p<=n} Kronecker(-3,prime(i)) = -Sum_{i=1..n} A102283(prime(i)). - _Jianing Song_, Nov 24 2018
 %e A112632 a(1) = 1 because 2 == -1 (mod 3).

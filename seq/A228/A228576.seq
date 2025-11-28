@@ -1,11 +1,11 @@
-%I A228576 #43 May 24 2022 02:46:09
+%I A228576 #45 Nov 05 2025 15:22:25
 %S A228576 0,1,1,2,3,4,3,7,10,9,4,13,24,29,16,5,21,50,77,74,25,6,31,92,177,228,
 %T A228576 173,36,7,43,154,361,582,629,382,49,8,57,240,669,1304,1793,1640,813,
 %U A228576 64,9,73,354,1149,2642,4401,5226,4093,1690,81,10,91,500,1857,4940,9685,14028,14545,9876,3461,100
 %N A228576 A triangle formed like generalized Pascal's triangle. The rule is T(n,k) = 2*T(n-1,k-1) + T(n-1,k), the left border is n and the right border is n^2 instead of 1.
 %H A228576 Boris Putievskiy, <a href="/A228576/b228576.txt">Rows n = 1..140 of triangle, flattened</a>
 %H A228576 Rely Pellicer, David Alvo, <a href="http://www.academia.edu/956605/Modified_Pascal_Triangle_and_Pascal_Surfaces">Modified Pascal Triangle and Pascal Surfaces</a> p.4
-%H A228576 Boris Putievskiy, <a href="http://arxiv.org/abs/1212.2732">Transformations [of] Integer Sequences And Pairing Functions</a> arXiv:1212.2732 [math.CO], 2012.
+%H A228576 Boris Putievskiy, <a href="https://arxiv.org/abs/1212.2732">Transformations [of] Integer Sequences And Pairing Functions</a> arXiv:1212.2732 [math.CO], 2012.
 %H A228576 Rattanapol Wasutharat and Kantaphon Kuhapatanakul, <a href="http://www.m-hikari.com/ijcms/ijcms-2012/41-44-2012/wasutharatIJCMS41-44-2012.pdf">The Generalized Pascal-Like Triangle and Applications</a> Int. J. Contemp. Math. Sciences, Vol. 7, 2012, no. 41, pp. 1989 - 1992
 %H A228576 <a href="/index/Pas#Pascal">Index entries for triangles and arrays related to Pascal's triangle</a>
 %F A228576 T(n, k) = 2*T(n-1, k-1) + T(n-1, k) for n,k >=0, with T(n,0) = n, T(n,n) = n^2.
@@ -40,7 +40,7 @@
 %o A228576   return T;
 %o A228576 end function;
 %o A228576 [T(n,k): k in [0..n], n in [0..12]]; // _G. C. Greubel_, Nov 13 2019
-%o A228576 (Sage)
+%o A228576 (SageMath)
 %o A228576 @CachedFunction
 %o A228576 def T(n, k):
 %o A228576     if (k==0): return n

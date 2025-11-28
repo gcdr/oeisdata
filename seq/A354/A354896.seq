@@ -1,8 +1,8 @@
-%I A354896 #17 Feb 23 2023 03:49:49
+%I A354896 #19 Jun 02 2025 15:25:44
 %S A354896 0,0,1,1,1,0,1,0,1,1,0,1,1,1,0,0,1,0,1,1,0,0,0,1,1,0,1,1,1,0,0,0,1,0,
 %T A354896 1,0,1,0,1,1,1,0,1,0,1,0,0,1,1,0,1,1,0,1,1,0,1,1,1,0,1,0,1,1,0,1,1,0,
 %U A354896 1,0,1,0,1,0,1,1,1,0,0,1,0,1,0,1
-%N A354896 A fixed point of the two-block substitution  00->001, 01->010, 10->101, 11->110
+%N A354896 A fixed point of the two-block substitution  00->001, 01->010, 10->101, 11->110.
 %C A354896 Previous name was: Fixed point of the two-block Thue-Morse substitution  00->001, 01->010, 10->101, 11->110.
 %C A354896 The two-block substitution kappa:  00->001, 01->010, 10->101, 11->110 has four fixed points, (a(n)) is the fixed point starting with 00.
 %C A354896 Although iterates of kappa are undefined, we can generate the fixed point (a(n))  by iteration of a map kappa' defined by kappa'(w) = kappa(w) if w has even length, and kappa'(v) = kappa(w) if v = w0 or v = w1 has odd length.

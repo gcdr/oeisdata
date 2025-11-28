@@ -1,4 +1,4 @@
-%I A174205 #18 Mar 23 2020 17:31:34
+%I A174205 #19 Sep 22 2025 16:01:01
 %S A174205 1,0,1,0,1,1,0,1,1,0,1,0,1,0,1,0,1,1,0,1,1,1,0,1,1,0,0,1,0,1,0,0,1,0,
 %T A174205 1,1,0,0,1,1,0,1,0,1,1,1,0,1,0,1,0,1,1,0,1,1,0,1,1,1,1,0,1,1,1,0,0,1,
 %U A174205 0,0,1,0,0,1,0,0,1,0,1,0,0,1,1,0,1,0,0,1,1,1,0,0,1,0,1,0,1,0,1,0,1,1,0,1,0,1,1,0,1,1,0,1,1,1,0,0,1,0,1,0,1,0,1,0,1,1,0,1,0,1,1,0,1
@@ -8,7 +8,7 @@
 %C A174205 .110111.01.11101111.0. Also delete odd-indexed occurrences of 1 (replaced by .):
 %C A174205 ..10.1..01..1.01.1..0.
 %C A174205 The stream of bits that remain after these two rounds of deletion is chopped into single bits which define the entries of the current sequence.
-%o A174205 (Sage)
+%o A174205 (SageMath)
 %o A174205 def A174205(N=100):
 %o A174205     a = [0] + flatten([n.digits(base=2)[::-1] for n in IntegerRange(1,N)])
 %o A174205     for bit in 0, 1:

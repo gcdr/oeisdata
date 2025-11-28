@@ -1,8 +1,8 @@
-%I A223259 #4 Mar 19 2013 06:28:46
+%I A223259 #8 Oct 03 2025 21:25:41
 %S A223259 125,10985,988625,89405945,8093320565,732779276465,66349405785905,
 %T A223259 6007647236699705,543966961228880285,49253916167787710105,
 %U A223259 4459734862897444858625,403810232078942017132025
-%N A223259 Rolling icosahedron footprints: number of nX4 0..11 arrays starting with 0 where 0..11 label vertices of an icosahedron and every array movement to a horizontal or vertical neighbor moves along an icosahedral edge
+%N A223259 Rolling icosahedron footprints: number of nX4 0..11 arrays starting with 0 where 0..11 label vertices of an icosahedron and every array movement to a horizontal or vertical neighbor moves along an icosahedral edge.
 %C A223259 Column 4 of A223263
 %H A223259 R. H. Hardin, <a href="/A223259/b223259.txt">Table of n, a(n) for n = 1..210</a>
 %F A223259 Empirical: a(n) = 118*a(n-1) -2675*a(n-2) +17534*a(n-3) -37105*a(n-4) +10948*a(n-5) +20013*a(n-6)
@@ -25,4 +25,4 @@
 %e A223259 11.->.3.5.7.9.10
 %K A223259 nonn
 %O A223259 1,1
-%A A223259 _R. H. Hardin_ Mar 19 2013
+%A A223259 _R. H. Hardin_, Mar 19 2013

@@ -1,4 +1,4 @@
-%I A018430 #15 Jun 22 2017 23:04:56
+%I A018430 #17 Jul 08 2025 06:48:40
 %S A018430 1,2,4,7,8,14,28,49,56,98,196,392
 %N A018430 Divisors of 392.
 %H A018430 <a href="/index/Di#divisors">Index entries for sequences related to divisors of numbers</a>
@@ -6,4 +6,4 @@
 %o A018430 (PARI) divisors(392) \\ _Charles R Greathouse IV_, Jun 22 2017
 %K A018430 nonn,fini,full,easy
 %O A018430 1,2
-%A A018430 _N. J. A. Sloane_.
+%A A018430 _N. J. A. Sloane_

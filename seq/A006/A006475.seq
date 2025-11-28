@@ -1,4 +1,4 @@
-%I A006475 M2185 #11 Mar 30 2012 16:44:58
+%I A006475 M2185 #15 Jul 08 2025 16:48:06
 %S A006475 2,324,48869983488
 %N A006475 Number of 2-tournaments on n nodes.
 %D A006475 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
@@ -6,4 +6,4 @@
 %H A006475 <a href="/index/To#tournament">Index entries for sequences related to tournaments</a>
 %K A006475 nonn,bref
 %O A006475 4,1
-%A A006475 _N. J. A. Sloane_.
+%A A006475 _N. J. A. Sloane_

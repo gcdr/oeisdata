@@ -1,6 +1,7 @@
-%I A078528 #8 May 27 2024 11:25:52
+%I A078528 #11 Jul 03 2025 20:39:08
 %S A078528 1,1,2,5,15,30,76,170,422,961,2339,5390,12977,30059,71918,167019,
-%T A078528 397691
+%T A078528 397691,924931,2194478,5107991,12085695,28143758,66442935,154759821,
+%U A078528 364706675,849562628
 %N A078528 Number of unconstrained walks on square lattice trapped after n steps.
 %C A078528 See under A078527. In the probability sum in A077483 and A078526 the unconstrained walks are responsible for the occurrence of 3^(n-1) in the denominator of P(n).
 %H A078528 Hugo Pfoertner, <a href="http://www.randomwalk.de/stw2d.html">Results for the 2D Self-Trapping Random Walk</a>
@@ -10,3 +11,4 @@
 %K A078528 more,nonn
 %O A078528 7,3
 %A A078528 _Hugo Pfoertner_, Nov 27 2002
+%E A078528 a(24)-a(32) from _Sean A. Irvine_, Jul 03 2025

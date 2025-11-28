@@ -1,4 +1,4 @@
-%I A006351 M1885 #165 Jan 16 2025 12:38:16
+%I A006351 M1885 #167 Nov 05 2025 15:21:45
 %S A006351 1,2,8,52,472,5504,78416,1320064,25637824,564275648,13879795712,
 %T A006351 377332365568,11234698041088,363581406419456,12707452084972544,
 %U A006351 477027941930515456,19142041172838025216,817675811320888020992,37044610820729973813248,1774189422608238694776832
@@ -14,8 +14,8 @@
 %H A006351 F. Bergeron, Ph. Flajolet and B. Salvy, <a href="http://algo.inria.fr/flajolet/Publications/BeFlSa92.pdf">Varieties of Increasing Trees</a>, Lecture Notes in Computer Science vol. 581, ed. J.-C. Raoult, Springer 1992, pp. 24-48.
 %H A006351 Veronica Bitonti, Bishal Deb, and Alan D. Sokal, <a href="https://arxiv.org/abs/2412.10214">Thron-type continued fractions (T-fractions) for some classes of increasing trees</a>, arXiv:2412.10214 [math.CO], 2024. See p. 58.
 %H A006351 Peter J. Cameron, <a href="https://doi.org/10.37236/1198">Counting two-graphs related to trees</a>, Elec. J. Combin., Vol. 2, #R4. [From _Aaron Meyerowitz_, Sep 30 2010]
-%H A006351 Frédéric Chapoton, Florent Hivert, and Jean-Christophe Novelli, <a href="http://arxiv.org/abs/1307.0092">A set-operad of formal fractions and dendriform-like sub-operads</a>, arXiv preprint arXiv:1307.0092 [math.CO], 2013
-%H A006351 Diego Dominici, <a href="http://arxiv.org/abs/math/0501052">Nested derivatives: A simple method for computing series expansions of inverse functions</a>, arXiv:math/0501052 [math.CA], 2005.
+%H A006351 Frédéric Chapoton, Florent Hivert, and Jean-Christophe Novelli, <a href="https://arxiv.org/abs/1307.0092">A set-operad of formal fractions and dendriform-like sub-operads</a>, arXiv preprint arXiv:1307.0092 [math.CO], 2013
+%H A006351 Diego Dominici, <a href="https://arxiv.org/abs/math/0501052">Nested derivatives: A simple method for computing series expansions of inverse functions</a>, arXiv:math/0501052 [math.CA], 2005.
 %H A006351 Brian Drake, <a href="http://people.brandeis.edu/~gessel/homepage/students/drakethesis.pdf">An inversion theorem for labeled trees and some limits of areas under lattice paths (Example 1.5.1 )</a>, Ph. D. dissertation, Brandeis Univ., 2008.
 %H A006351 Steven R. Finch, <a href="http://www.people.fas.harvard.edu/~sfinch/">Series-parallel networks</a>
 %H A006351 Steven R. Finch, <a href="/A000084/a000084_2.pdf">Series-parallel networks</a>, July 7, 2003. [Cached copy, with permission of the author]
@@ -23,7 +23,7 @@
 %H A006351 ISCGI, <a href="http://www.graphclasses.org/classes/gc_151.html">Cograph graphs</a>
 %H A006351 Song He, Fei Teng, and Yong Zhang, <a href="https://arxiv.org/abs/1907.06041">String Correlators: Recursive Expansion, Integration-by-Parts and Scattering Equations</a>, arXiv:1907.06041 [hep-th], 2019. Also in <a href="https://doi.org/10.1007/JHEP09(2019)085">Journal of High Energy Physics</a> (2019), 2019:85.
 %H A006351 Walter Knödel, <a href="http://gdz.sub.uni-goettingen.de/dms/resolveppn/?PPN=GDZPPN002470373">Über Zerfällungen</a>, Monatsh. Math., 55 (1951), 20-27.
-%H A006351 Vladimir Kruchinin, <a href="http://arxiv.org/abs/1211.3244">The method for obtaining expressions for coefficients of reverse generating functions</a>, arXiv:1211.3244 [math.CO], 2012.
+%H A006351 Vladimir Kruchinin, <a href="https://arxiv.org/abs/1211.3244">The method for obtaining expressions for coefficients of reverse generating functions</a>, arXiv:1211.3244 [math.CO], 2012.
 %H A006351 Z. A. Lomnicki, <a href="https://doi.org/10.2307/1425808">Two-terminal series-parallel networks</a>, Adv. Appl. Prob., 4 (1972), 109-150.
 %H A006351 Michael D. Moffitt, <a href="https://doi.org/10.1609/aaai.v36i9.21271">Search Strategies for Topological Network Optimization</a>, Proceedings of the AAAI Conference on Artificial Intelligence, 36(9) (2022), 10299-10308.
 %H A006351 John W. Moon, <a href="https://doi.org/10.1016/S0304-0208(08)73057-3">Some enumerative results on series-parallel networks</a>, Annals Discrete Math., 33 (1987), 199-226 (the e.g.f. U(x)).
@@ -65,7 +65,7 @@
 %p A006351 seq(A006351(n), n=1..18); # _Peter Luschny_, Nov 16 2012
 %t A006351 max = 18; f[x_] := 2*Log[1+x]-x; Rest[ CoefficientList[ InverseSeries[ Series[ f[x], {x, 0, max}], x], x]]*Range[max]! (* _Jean-François Alcover_, Nov 25 2011 *)
 %o A006351 (Maxima) a(n):=if n=1 then 1 else ((n-1)!*sum(binomial(n+k-1,n-1)* sum((-1)^(j)*binomial(k,j)*sum((binomial(j,l)*(j-l)!*2^(j-l)*(-1)^l* stirling1(n-l+j-1,j-l))/(n-l+j-1)!,l,0,j),j,1,k),k,1,n-1)); /* _Vladimir Kruchinin_, Jan 24 2012 */
-%o A006351 (Sage) # uses[eulerian2 from A201637]
+%o A006351 (SageMath) # uses[eulerian2 from A201637]
 %o A006351 def A006351(n): return add(A201637(n-1, k)*2^(n-k-1) for k in (0..n-1))
 %o A006351 [A006351(n) for n in (1..18)]  # _Peter Luschny_, Nov 16 2012
 %o A006351 (PARI) x='x+O('x^66); Vec(serlaplace(serreverse( 2*log(1+x) - 1*x ))) \\ _Joerg Arndt_, May 01 2013

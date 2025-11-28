@@ -1,10 +1,10 @@
-%I A179929 #37 Aug 01 2024 14:12:50
+%I A179929 #42 Nov 10 2025 21:50:39
 %S A179929 1,2,2,-6,-30,42,882,954,-39870,-203958,2300562,29677914,-120958110,
 %T A179929 -4657703958,-7059175758,807984602874,6667870853250,-145556787011958,
 %U A179929 -2827006784652078,21703953751815834,1108558810703202210
 %N A179929 a(n) = 2^n*A(n, -1/2), A(n, x) the Eulerian polynomials.
 %H A179929 Stanislav Sykora, <a href="/A179929/b179929.txt">Table of n, a(n) for n = 0..199</a>
-%H A179929 OEIS Wiki, <a href="http://oeis.org/wiki/Eulerian_polynomials"> Eulerian polynomials</a>
+%H A179929 OEIS Wiki, <a href="https://oeis.org/wiki/Eulerian_polynomials">Eulerian polynomials</a>
 %F A179929 From _Philippe Deléham_, Dec 22 2011: (Start)
 %F A179929 a(n) = Sum_{k, 0<=k<=n} A123125(n,k)*(-1)^(n-k)*2^k
 %F A179929 a(n) = Sum_{k, 0<=k<=n} A173018(n,k)*2^(n-k)*(-1)^k. (End)

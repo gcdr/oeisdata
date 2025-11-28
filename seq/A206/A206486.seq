@@ -1,4 +1,4 @@
-%I A206486 #14 Mar 07 2017 11:26:38
+%I A206486 #15 Nov 05 2025 15:22:21
 %S A206486 0,2,10,10,32,32,36,36,88,88,88,106,106,106,222,140,106,284,140,268,
 %T A206486 268,222,284,370,536,284,756,330,268,708,222,490,536,268,658,1052,370,
 %U A206486 370,708,978,284,872,330,658,1856,756,708,1542,798,1712,658,872,490,2882,1254
@@ -13,7 +13,7 @@
 %D A206486 G. Ruecker and C. Ruecker, Walk counts, labyrinthicity, and complexity of acyclic and cyclic graphs and molecules, J. Chem. Inf. Comput. Sci., 40, 2000, 99-106.
 %D A206486 G. Ruecker and C. Ruecker, Substructure, subgraph, and walk counts as measures of the complexity of graphs and molecules, J. Chem. Inf. Comput. Sci., 41, 2001, 1457-1462.
 %D A206486 D. Bonchev and G. A. Buck, Quantitative measures of network complexity, in: Complexity in Chemistry, Biology, and Ecology, Springer, New York, pp. 191-235.
-%H A206486 E. Deutsch, <a href="http://arxiv.org/abs/1111.4288"> Rooted tree statistics from Matula numbers</a>, arXiv:1111.4288.
+%H A206486 E. Deutsch, <a href="https://arxiv.org/abs/1111.4288"> Rooted tree statistics from Matula numbers</a>, arXiv:1111.4288.
 %H A206486 <a href="/index/Mat#matula">Index entries for sequences related to Matula-Goebel numbers</a>
 %F A206486 In A193403 it is shown how to find the adjacency matrix of a rooted tree with a given Matula-Goebel number. It is well-known that the (i,j)-entry in the k-th power of the adjacency matrix of a graph G gives the number of walks of length k in G from vertex i to vertex j. The Maple program (improvable) is based on the above facts.
 %e A206486 a(3)=10 because the rooted tree with Matula-Goebel number 3 is the path a-b-c on 3 vertices and the walks are: ab, ba, bc, cb, abc, cba, aba, bab, bcb, and cbc.

@@ -1,4 +1,4 @@
-%I A179455 #50 May 25 2020 11:51:15
+%I A179455 #52 Nov 10 2025 21:49:43
 %S A179455 1,1,1,2,1,5,6,1,15,23,24,1,52,106,119,120,1,203,568,700,719,720,1,
 %T A179455 877,3459,4748,5013,5039,5040,1,4140,23544,36403,39812,40285,40319,
 %U A179455 40320,1,21147,176850,310851,354391,362057,362836,362879,362880
@@ -7,7 +7,7 @@
 %C A179455 See the interpretation of _Joerg Arndt_ in A187761: Maps such that f^[k](x) = f^[k-1](x) correspond to column k of A179455 (for n >= k). - _Peter Luschny_, Jan 08 2013
 %H A179455 Alois P. Heinz, <a href="/A179455/b179455.txt">Rows n = 0..141, flattened</a>
 %H A179455 Swapnil Garg, Alan Peng, <a href="https://arxiv.org/abs/2005.08889">Classical and consecutive pattern avoidance in rooted forests</a>, arXiv:2005.08889 [math.CO], May 2020.
-%H A179455 Peter Luschny, <a href="http://www.oeis.org/wiki/User:Peter_Luschny/PermutationTrees">Permutation Trees</a>.
+%H A179455 Peter Luschny, <a href="https://www.oeis.org/wiki/User:Peter_Luschny/PermutationTrees">Permutation Trees</a>.
 %e A179455 As a (0,0)-based triangle with an additional column [1,0,0,0,...] at the left hand side:
 %e A179455 1;
 %e A179455 0, 1;
@@ -22,7 +22,7 @@
 %t A179455 b[n_, t_, h_] := b[n, t, h] = If[n == 0 || h == 0, 1, Sum[Binomial[n - 1, j - 1]*b[j - 1, 0, h - 1]*b[n - j, t, h], {j, 1, n}]];
 %t A179455 T[0, 0] = 1; T[n_, k_] := b[n, 1, k];
 %t A179455 Table[T[n, k], {n, 0, 9}, {k, 0, If[n == 0, 0, n-1]}] // Flatten (* _Jean-François Alcover_, Jul 10 2019, after _Alois P. Heinz_ in A179454 *)
-%o A179455 (Sage)
+%o A179455 (SageMath)
 %o A179455 # Generating algorithm from Joerg Arndt.
 %o A179455 def A179455row(n):
 %o A179455     def generate(n, k):
@@ -45,7 +45,7 @@
 %o A179455             count[k] += 1
 %o A179455     return count
 %o A179455 for n in range(9): A179455row(n) # _Peter Luschny_, Jan 08 2013
-%o A179455 (Sage) # uses[bell_transform from A264428]
+%o A179455 (SageMath) # uses[bell_transform from A264428]
 %o A179455 # Adds the column (1,0,0,0,..) to the left hand side and starts at n=0.
 %o A179455 def A179455_matrix(dim):
 %o A179455     b = [1]+[0]*(dim-1); L = [b]

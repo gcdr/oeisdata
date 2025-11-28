@@ -1,4 +1,4 @@
-%I A113404 #45 Feb 16 2025 08:32:59
+%I A113404 #46 Nov 05 2025 15:22:05
 %S A113404 6,90,630,660,1170,2190,3780,6420,8940,9030,13260,16470,24150,28800,
 %T A113404 29610,39990,56580,56910,71610,83460,94530,114450,157830,159060,
 %U A113404 171180,177360,190500,197910,268050,315840,395520,435240,440910,513570,536010,539310,557340,635130
@@ -8,10 +8,10 @@
 %H A113404 T. Forbes, Norman Luhn <a href="http://www.pzktupel.de/ktuplets">Prime k-tuplets</a>
 %H A113404 G. H. Hardy and J. E. Littlewood, <a href="https://doi.org/10.1007/BF02403921">Some problems of 'Partitio numerorum'; III: On the expression of a number as a sum of primes</a>, Acta Math., Vol. 44, No. 1 (1923), pp. 1-70.
 %H A113404 Alexei Kourbatov, <a href="http://www.javascripter.net/math/primes/maximalgapsbetweenktuples.htm#4tuples">Maximal gaps between prime k-tuples</a> (graphs, more terms)
-%H A113404 A. Kourbatov, <a href="http://arxiv.org/abs/1301.2242">Maximal gaps between prime k-tuples: a statistical approach</a>, arXiv preprint arXiv:1301.2242 [math.NT], 2013. - From _N. J. A. Sloane_, Feb 09 2013
-%H A113404 Alexei Kourbatov, <a href="http://arxiv.org/abs/1309.4053">Tables of record gaps between prime constellations</a>, arXiv preprint arXiv:1309.4053 [math.NT], 2013.
-%H A113404 Alexei Kourbatov, <a href="http://arxiv.org/abs/1401.6959">The distribution of maximal prime gaps in Cramer's probabilistic model of primes</a>, arXiv preprint arXiv:1401.6959 [math.NT], 2014.
-%H A113404 Alexei Kourbatov and Marek Wolf, <a href="http://arxiv.org/abs/1901.03785">Predicting maximal gaps in sets of primes</a>, arXiv preprint arXiv:1901.03785 [math.NT], 2019.
+%H A113404 A. Kourbatov, <a href="https://arxiv.org/abs/1301.2242">Maximal gaps between prime k-tuples: a statistical approach</a>, arXiv preprint arXiv:1301.2242 [math.NT], 2013. - From _N. J. A. Sloane_, Feb 09 2013
+%H A113404 Alexei Kourbatov, <a href="https://arxiv.org/abs/1309.4053">Tables of record gaps between prime constellations</a>, arXiv preprint arXiv:1309.4053 [math.NT], 2013.
+%H A113404 Alexei Kourbatov, <a href="https://arxiv.org/abs/1401.6959">The distribution of maximal prime gaps in Cramer's probabilistic model of primes</a>, arXiv preprint arXiv:1401.6959 [math.NT], 2014.
+%H A113404 Alexei Kourbatov and Marek Wolf, <a href="https://arxiv.org/abs/1901.03785">Predicting maximal gaps in sets of primes</a>, arXiv preprint arXiv:1901.03785 [math.NT], 2019.
 %H A113404 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/k-TupleConjecture.html">k-Tuple Conjecture</a>.
 %H A113404 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/Hardy-LittlewoodConstants.html">Hardy-Littlewood Constants</a>.
 %H A113404 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/PrimeConstellation.html">Prime Constellation</a>.

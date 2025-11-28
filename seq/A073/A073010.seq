@@ -1,9 +1,9 @@
-%I A073010 #109 Feb 16 2025 08:32:46
+%I A073010 #131 Nov 19 2025 07:52:24
 %S A073010 6,0,4,5,9,9,7,8,8,0,7,8,0,7,2,6,1,6,8,6,4,6,9,2,7,5,2,5,4,7,3,8,5,2,
 %T A073010 4,4,0,9,4,6,8,8,7,4,9,3,6,4,2,4,6,8,5,8,5,2,3,2,9,4,9,7,8,4,6,2,7,0,
 %U A073010 7,7,2,7,0,4,2,1,1,7,9,6,1,2,2,8,0,4,1,6,6,2,7,3,7,3,5,3,3,8,9,6,1,8,7,4,0
 %N A073010 Decimal expansion of Pi/sqrt(27).
-%C A073010 Original name: Decimal expansion of sum(1/(n*binomial(2*n,n)), n=1..infinity).
+%C A073010 Original name: Decimal expansion of Sum_{n>0} 1/(n*binomial(2*n,n)).
 %C A073010 This appears to be Pi/sqrt(27). See A111510. - _Marco Matosic_, Feb 27 2008
 %C A073010 This is Pi*sqrt(3)/9 = A019676*A002194, see eq. (12) in Lehmer link. - _R. J. Mathar_, Mar 04 2009
 %C A073010 Value of the Dirichlet L-series of the non-principal character modulo m=3 (A102283) at s=1. - _R. J. Mathar_, Oct 03 2011
@@ -13,11 +13,12 @@
 %H A073010 Jonathan M. Borwein and Roland Girgensohn, <a href="http://dx.doi.org/10.1007/s00010-005-2774-x">Evaluations of binomial series</a>, Aequat. Math. 70 (2005), 25-36.
 %H A073010 Étienne Fouvry, Claude Levesque, and Michel Waldschmidt, <a href="https://arxiv.org/abs/1712.09019">Representation of integers by cyclotomic binary forms</a>, arXiv:1712.09019 [math.NT], 2017.
 %H A073010 Alessandro Languasco, Pieter Moree, Sumaia Saad Eddin, and Alisa Sedunova, <a href="https://arxiv.org/abs/1908.01152">Computation of the Kummer ratio of the class number for prime cyclotomic fields</a>, arXiv:1908.01152 [math.NT], 2019. See r(q) for q=3 in Table 1, p. 7.
-%H A073010 D. H. Lehmer, <a href="http://www.jstor.org/stable/2322496">Interesting Series Involving the Central Binomial Coefficient</a>, Am. Math. Monthly 92 (1985) 449-457. See eq. (12).
+%H A073010 D. H. Lehmer, <a href="https://www.jstor.org/stable/2322496">Interesting Series Involving the Central Binomial Coefficient</a>, Am. Math. Monthly 92 (1985) 449-457. See eq. (12).
 %H A073010 Courtney Moen, <a href="https://www.jstor.org/stable/2690456">Infinite series with binomial coefficients</a>, Math. Mag. 64 (1) (1991), 53-55.
 %H A073010 Paul J. Nahin, <a href="https://doi.org/10.1007/978-3-030-43788-6">Inside interesting integrals</a>, Undergrad. Lecture Notes in Physics, Springer (2020), (1.6.2)
 %H A073010 Simon Plouffe, <a href="http://vixra.org/pdf/1409.0110v1.pdf">Sum(1/(n*binomial(2*n,n)), n=1..infinity)</a>, see p. 87.
-%H A073010 Renzo Sprugnoli, <a href="https://www.emis.de/journals/INTEGERS/papers/g27/g27.Abstract.html">Sums of reciprocals of the central binomial coefficients</a>, El. J. Combin. Numb. Th. 6 (2006) # A27
+%H A073010 Michael I. Shamos, <a href="http://euro.ecom.cmu.edu/people/faculty/mshamos/cat.pdf">A catalog of the real numbers</a>, (2007). See p. 501.
+%H A073010 Renzo Sprugnoli, <a href="http://www.integers-ejcnt.org/g27/g27.Abstract.html">Sums of reciprocals of the central binomial coefficients</a>, El. J. Combin. Numb. Th. 6 (2006) # A27.
 %H A073010 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/CentralBinomialCoefficient.html">Central Binomial Coefficient</a>.
 %H A073010 <a href="/index/Tra#transcendental">Index entries for transcendental numbers</a>.
 %F A073010 -Pi/(3*sqrt(3)) = Sum_{n>=0} (1/(6*n+1) - 2/(6*n+2) - 3/(6*n+3) - 1/(6*n+4) + 2/(6*n+5) + 3/(6*n+6)). - _Mats Granvik_, Sep 08 2013
@@ -37,16 +38,23 @@
 %F A073010 Equals (3*S - 4)/8, where S = A248682. - _Peter Luschny_, Jul 22 2022
 %F A073010 Equals Product_{p prime} (1 - Kronecker(-3, p)/p)^(-1) = Product_{p prime != 3} (1 + (-1)^(p mod 3)/p)^(-1). - _Amiram Eldar_, Nov 06 2023
 %F A073010 From _Peter Bala_, Dec 09 2023: (Start)
-%F A073010 Pi/sqrt(27) = Sum_{n >= 1} 1/(n*binomial(2*n,n)) =  (1/6)*Sum_{n >= 1} 3^n/(n*binomial(2*n,n)) (see Lehmer, equation 12, and also p. 456).
+%F A073010 Pi/sqrt(27) = Sum_{n >= 1} 1/(n*binomial(2*n,n)) = (1/6)*Sum_{n >= 1} 3^n/(n*binomial(2*n,n)) (see Lehmer, equation 12, and also p. 456).
 %F A073010 Pi/sqrt(27) = (1/2)*Sum_{n >= 0} 1/((2*n + 1)*binomial(2*n,n)).
 %F A073010 Pi/sqrt(27) = (9/4)*Sum_{n >= 3} (n - 1)*(n - 2)/binomial(2*n,n). (End)
 %F A073010 Equals integral_{x=0..oo} 1/(1-x^3) dx [Nahin]. - _R. J. Mathar_, May 16 2024
+%F A073010 From _Peter Bala_, Mar 05 2025: (Start)
+%F A073010 Equals 2*Integral_{x = 0..1} 1/(3 + x^2) dx = Integral_{x = 0..1} (4 - x)/(sqrt(x)*(12 + x*(1 - x))) dx.
+%F A073010 Equals Sum_{n >= 1} (-1/3)^n * (3 - 14*n)/(n*(2*n-1)*binomial(4*n, 2*n)). The series terms are O(7*sqrt(2*Pi/n)/48^n). (End)
+%F A073010 Equals Integral_{x=0..oo} (x^3)/(x^6 + 1) dx. - _Kritsada Moomuang_, Jun 04 2025
 %e A073010 0.60459978807807261686469275254738524409468...
 %t A073010 RealDigits[ N [Sum[1/(n*Binomial[2n, n]), {n, 1, Infinity}], 110]] [[1]]
 %t A073010 RealDigits[Pi/(3*Sqrt[3]), 10, 105][[1]] (* _T. D. Noe_, Sep 11 2013 *)
 %o A073010 (PARI) Pi/sqrt(27) \\ _Charles R Greathouse IV_, Sep 11 2013
 %o A073010 (Magma) R:=RealField(106); SetDefaultRealField(R); n:=Pi(R)/Sqrt(27); Reverse(Intseq(Floor(10^105*n))); // _Bruno Berselli_, Mar 12 2018
+%o A073010 (SageMath)
+%o A073010 A073010=numerical_approx(pi/(3*sqrt(3)), digits= 250)
+%o A073010 print([ZZ(i) for i in A073010.str()[1:-5] if i.isdigit()]) # _G. C. Greubel_, Nov 16 2025
 %Y A073010 Cf. A002194, A019676, A111510, A245670, A248682.
-%K A073010 nonn,cons,easy
+%K A073010 nonn,cons,easy,changed
 %O A073010 0,1
 %A A073010 _Robert G. Wilson v_, Aug 03 2002

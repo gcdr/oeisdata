@@ -1,4 +1,4 @@
-%I A162660 #34 Mar 10 2024 03:41:01
+%I A162660 #44 Nov 10 2025 21:50:39
 %S A162660 0,1,0,0,2,0,-2,0,3,0,0,-8,0,4,0,16,0,-20,0,5,0,0,96,0,-40,0,6,0,-272,
 %T A162660 0,336,0,-70,0,7,0,0,-2176,0,896,0,-112,0,8,0,7936,0,-9792,0,2016,0,
 %U A162660 -168,0,9,0,0,79360,0,-32640,0,4032,0,-240,0,10,0
@@ -19,31 +19,32 @@
 %C A162660 E_n(x) = P_{F}[n](x-1) with F(k)=2^(-k) are the Euler polynomials.
 %C A162660 The most striking formal difference between the Swiss-Knife-type polynomials and the Bernoulli-Euler type polynomials is: The SK-type polynomials have integer coefficients whereas the BE-type polynomials have rational coefficients.
 %C A162660 Let R be the exponential Riordan array (exp(x)*sech(x), x) = P * A119879 = 2*P(I + P^2)^(-1) where P denotes Pascal's triangle A007318. Then T = R - I. - _Peter Bala_, Mar 07 2024
-%H A162660 Leonhard Euler (1735), <a href="http://arxiv.org/abs/math/0506415">De summis serierum reciprocarum</a>, Opera Omnia I.14, E 41, 73-86; On the sums of series of reciprocals, arXiv:math/0506415 [math.HO], 2005-2008.
+%H A162660 Ayse Yilmaz Ceylan and Yilmaz Simsek, <a href="https://doi.org/10.3390/sym17071126">Formulae for Generalization of Touchard Polynomials with Their Generating Functions</a>, Symmetry (2025) Vol. 17, Issue 7, Art. No. 1126. See Eq. 28 and after.
+%H A162660 Leonhard Euler (1735), <a href="https://arxiv.org/abs/math/0506415">De summis serierum reciprocarum</a>, Opera Omnia I.14, E 41, 73-86; On the sums of series of reciprocals, arXiv:math/0506415 [math.HO], 2005-2008.
 %H A162660 Peter Luschny, <a href="http://www.luschny.de/math/seq/SwissKnifePolynomials.html">The Swiss-Knife polynomials</a>.
-%H A162660 Peter Luschny, <a href="http://oeis.org/wiki/User:Peter_Luschny/SwissKnifePolynomials">Swiss-Knife Polynomials and Euler Numbers</a>.
+%H A162660 Peter Luschny, <a href="https://oeis.org/wiki/User:Peter_Luschny/SwissKnifePolynomials">Swiss-Knife Polynomials and Euler Numbers</a>.
 %H A162660 Wikipedia, <a href="http://en.wikipedia.org/wiki/Bernoulli_number">Bernoulli number</a>.
 %H A162660 J. Worpitzky, <a href="http://gdz.sub.uni-goettingen.de/dms/resolveppn/?PPN=GDZPPN002158698">Studien über die Bernoullischen und Eulerschen Zahlen</a>, Journal für die reine und angewandte Mathematik, 94 (1883), 203-232.
-%F A162660 T(n, k) = [x^(n-k)](skp(n,x+1)-skp(n,x-1))/2) where skp(n,x) are the Swiss-Knife polynomials A153641. - _Peter Luschny_, Jul 23 2012
+%F A162660 T(n, k) = [x^(n-k)](skp(n,x+1)-skp(n,x-1))/2 where skp(n,x) are the Swiss-Knife polynomials A153641. - _Peter Luschny_, Jul 23 2012
 %F A162660 E.g.f. exp(x*t)*tanh(t) = 0*(t^0/0!) + 1*(t^1/1!) + (2*x)*(t^2/2!) + (3*x^2-2)*(t^3/3!) + ...
 %F A162660 V_n(x) = -x^n + Sum_{k=0..n} C(n,k)*Euler(k)*(x+1)^(n-k).
 %e A162660 Triangle begins:
-%e A162660 [0]    0;
-%e A162660 [1]    1,     0;
-%e A162660 [2]    0,     2,     0;
-%e A162660 [3]   -2,     0,     3,   0;
-%e A162660 [4]    0,    -8,     0,   4,    0;
-%e A162660 [5]   16,     0,   -20,   0,    5,    0;
-%e A162660 [6]    0,    96,     0, -40,    0,    6,    0;
-%e A162660 [7] -272,     0,   336,   0,  -70,    0,    7,  0;
-%e A162660 [8]    0, -2176,     0, 896,    0, -112,    0,  8,  0;
-%e A162660 [9] 7936,     0, -9792,   0, 2016,    0, -168,  0,  9,  0;
+%e A162660   [0]    0;
+%e A162660   [1]    1,     0;
+%e A162660   [2]    0,     2,     0;
+%e A162660   [3]   -2,     0,     3,   0;
+%e A162660   [4]    0,    -8,     0,   4,    0;
+%e A162660   [5]   16,     0,   -20,   0,    5,    0;
+%e A162660   [6]    0,    96,     0, -40,    0,    6,    0;
+%e A162660   [7] -272,     0,   336,   0,  -70,    0,    7,  0;
+%e A162660   [8]    0, -2176,     0, 896,    0, -112,    0,  8,  0;
+%e A162660   [9] 7936,     0, -9792,   0, 2016,    0, -168,  0,  9,  0;
 %p A162660 # Polynomials V_n(x):
 %p A162660 V := proc(n,x) local k,pow; pow := (n,k) -> `if`(n=0 and k=0,1,n^k); add(binomial(n,k)*euler(k)*pow(x+1,n-k),k=0..n) - pow(x,n) end:
 %p A162660 # Coefficients a(n):
 %p A162660 seq(print(seq(coeff(n!*coeff(series(exp(x*t)*tanh(t),t,16),t,n),x,k),k=0..n)),n=0..8);
 %t A162660 skp[n_, x_] := Sum[Binomial[n, k]*EulerE[k]*x^(n-k), {k, 0, n}]; v[n_, x_] := (skp[n, x+1]-skp[n, x-1])/2; t[n_, k_] := Coefficient[v[n, x], x, k]; Table[t[n, k], {n, 0, 10}, {k, 0, n}] // Flatten (* _Jean-François Alcover_, Jan 09 2014 *)
-%o A162660 (Sage)
+%o A162660 (SageMath)
 %o A162660 R = PolynomialRing(QQ, 'x')
 %o A162660 @CachedFunction
 %o A162660 def skp(n, x) : # Swiss-Knife polynomials A153641.

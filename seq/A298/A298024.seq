@@ -1,4 +1,4 @@
-%I A298024 #70 Nov 24 2024 03:27:48
+%I A298024 #71 Nov 05 2025 15:22:41
 %S A298024 1,4,10,14,18,24,28,32,38,42,46,52,56,60,66,70,74,80,84,88,94,98,102,
 %T A298024 108,112,116,122,126,130,136,140,144,150,154,158,164,168,172,178,182,
 %U A298024 186,192,196,200,206,210,214,220,224,228,234,238,242,248,252,256,262
@@ -14,7 +14,7 @@
 %H A298024 Chung, Ping Ngai, Miguel A. Fernandez, Yifei Li, Michael Mara, Frank Morgan, Isamar Rosa Plata, Niralee Shah, Luis Sordo Vieira, and Elena Wikner. <a href="http://dx.doi.org/10.1090/noti838">Isoperimetric Pentagonal Tilings</a>, Notices of the AMS 59, no. 5 (2012), pp. 632-640. See Fig. 1 (right).
 %H A298024 Brian Galebach, <a href="http://probabilitysports.com/tilings.html">Collection of n-Uniform Tilings</a>. See Number 4 from the list of 20 2-uniform tilings.
 %H A298024 Brian Galebach, <a href="/A250120/a250120.html">k-uniform tilings (k <= 6) and their A-numbers</a>
-%H A298024 Chaim Goodman-Strauss and N. J. A. Sloane, <a href="https://doi.org/10.1107/S2053273318014481">A Coloring Book Approach to Finding Coordination Sequences</a>, Acta Cryst. A75 (2019), 121-134, also <a href="http://NeilSloane.com/doc/Cairo_final.pdf">on NJAS's home page</a>. Also <a href="http://arxiv.org/abs/1803.08530">arXiv preprint</a>, arXiv:1803.08530 [math.CO], 2018-2019.
+%H A298024 Chaim Goodman-Strauss and N. J. A. Sloane, <a href="https://doi.org/10.1107/S2053273318014481">A Coloring Book Approach to Finding Coordination Sequences</a>, Acta Cryst. A75 (2019), 121-134, also <a href="http://NeilSloane.com/doc/Cairo_final.pdf">on NJAS's home page</a>. Also <a href="https://arxiv.org/abs/1803.08530">arXiv preprint</a>, arXiv:1803.08530 [math.CO], 2018-2019.
 %H A298024 Tom Karzes, <a href="/A250122/a250122.html">Tiling Coordination Sequences</a>
 %H A298024 Frank Morgan, <a href="https://www.youtube.com/watch?v=PpUx0nnWfKQ">Optimal Pentagonal Tilings</a>, Video, May 2021. [Mentions this tiling]
 %H A298024 Reticular Chemistry Structure Resource (RCSR), <a href="http://rcsr.net/layers/cem-d">The cem-d tiling (or net)</a>

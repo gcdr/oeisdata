@@ -1,4 +1,4 @@
-%I A279247 #9 Feb 16 2025 08:33:37
+%I A279247 #10 Nov 05 2025 15:22:35
 %S A279247 1,11,1,11,101,11011,101,1011011,101,11011,101,101011011,101,
 %T A279247 1010000011011,101,10101011011,10000000101,101110000011011,
 %U A279247 10000000101,1010001110101011011,101,10000011011,100000000000101,1100010101011011,1010100010000000101
@@ -7,7 +7,7 @@
 %D A279247 S. Wolfram, A New Kind of Science, Wolfram Media, 2002; p. 170.
 %H A279247 Robert Price, <a href="/A279247/b279247.txt">Table of n, a(n) for n = 0..126</a>
 %H A279247 Robert Price, <a href="/A279247/a279247.tmp.txt">Diagrams of first 20 stages</a>
-%H A279247 N. J. A. Sloane, <a href="http://arxiv.org/abs/1503.01168">On the Number of ON Cells in Cellular Automata</a>, arXiv:1503.01168 [math.CO], 2015
+%H A279247 N. J. A. Sloane, <a href="https://arxiv.org/abs/1503.01168">On the Number of ON Cells in Cellular Automata</a>, arXiv:1503.01168 [math.CO], 2015
 %H A279247 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/ElementaryCellularAutomaton.html">Elementary Cellular Automaton</a>
 %H A279247 S. Wolfram, <a href="http://wolframscience.com/">A New Kind of Science</a>
 %H A279247 Wolfram Research, <a href="http://atlas.wolfram.com/">Wolfram Atlas of Simple Programs</a>

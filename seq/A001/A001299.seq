@@ -1,4 +1,4 @@
-%I A001299 #54 Apr 18 2017 07:02:34
+%I A001299 #55 Nov 10 2025 21:50:37
 %S A001299 1,1,1,1,1,2,2,2,2,2,4,4,4,4,4,6,6,6,6,6,9,9,9,9,9,13,13,13,13,13,18,
 %T A001299 18,18,18,18,24,24,24,24,24,31,31,31,31,31,39,39,39,39,39,49,49,49,49,
 %U A001299 49,60,60,60,60,60,73,73,73,73,73,87,87,87,87,87,103,103,103,103,103
@@ -9,7 +9,7 @@
 %D A001299 G. Pólya and G. Szegő, Problems and Theorems in Analysis, Springer-Verlag, NY, 2 vols., 1972, Vol. 1, p. 1.
 %H A001299 T. D. Noe, <a href="/A001299/b001299.txt">Table of n, a(n) for n = 0..10000</a>
 %H A001299 INRIA Algorithms Project, <a href="http://ecs.inria.fr/services/structure?nbr=175">Encyclopedia of Combinatorial Structures 175</a>
-%H A001299 Gerhard Kirchner, <a href="http://oeis.org/A187243/a187243_1.pdf">Derivation of formulas</a>
+%H A001299 Gerhard Kirchner, <a href="https://oeis.org/A187243/a187243_1.pdf">Derivation of formulas</a>
 %H A001299 Ed Pegg, Jr., <a href="http://www.mathpuzzle.com/MAA/07-Sequence%20Pictures/mathgames_12_08_03.html">Sequence Pictures</a>, Math Games column, Dec 08 2003.
 %H A001299 Ed Pegg, Jr., <a href="/A000043/a000043_2.pdf">Sequence Pictures</a>, Math Games column, Dec 08 2003 [Cached copy, with permission (pdf only)]
 %H A001299 <a href="/index/Mag#change">Index entries for sequences related to making change.</a>

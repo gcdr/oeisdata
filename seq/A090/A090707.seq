@@ -1,10 +1,10 @@
-%I A090707 #34 Sep 06 2021 16:48:00
+%I A090707 #38 Oct 26 2025 09:03:20
 %S A090707 2,3,11,13,23,31,101,103,113,131,211,223,233,311,331,1013,1021,1033,
 %T A090707 1103,1201,1213,1223,1231,1301,2003,2111,2113,2131,2203,2213,2311,
 %U A090707 2333,3001,3011,3203,3221,3301,3323,10111,10211,10303,10313,10321,10331
 %N A090707 Primes whose decimal representation is a valid number in base 4 and interpreted as such is again a prime.
 %H A090707 Charles R Greathouse IV, <a href="/A090707/b090707.txt">Table of n, a(n) for n = 1..10000</a>
-%H A090707 Alejandro J. Becerra Jr., <a href="https://github.com/ajbecerr/OEIS/blob/main/A089971%2C%20A089981%2C%20A090707-A090710%2C%20A235394-A235395.ipynb">Python code for computing terms of A089971, A089981, A090707-A090710, A235394-A235395</a>.
+%H A090707 Alejandro J. Becerra Jr., <a href="https://github.com/ajbecerr/OEIS/blob/main/A089971%2C%20A089981%2C%20A090707-A090710%2C%20A235394-A235395.ipynb">Python code for computing terms of A089971, A089981, A090707-A090710, A235394-A235395</a>. [dead link]
 %e A090707 13 is prime in decimal and also when considered as a number in base 4: 13 [base 4] = 7 [base 10] which is also prime.
 %t A090707 Select[ FromDigits@# & /@ IntegerDigits[ Prime@ Range@ 270, 4], PrimeQ] (* _Robert G. Wilson v_, Jan 05 2014 *)
 %t A090707 FromDigits[#,10]&/@Select[Tuples[{0,1,2,3},5],AllTrue[{FromDigits[#,4],FromDigits[#,10]},PrimeQ]&] (* _Harvey P. Dale_, Jul 30 2021 *)

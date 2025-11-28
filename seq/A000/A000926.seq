@@ -1,4 +1,4 @@
-%I A000926 M0476 N0176 #109 Feb 16 2025 08:32:22
+%I A000926 M0476 N0176 #123 Nov 05 2025 15:35:23
 %S A000926 1,2,3,4,5,6,7,8,9,10,12,13,15,16,18,21,22,24,25,28,30,33,37,40,42,45,
 %T A000926 48,57,58,60,70,72,78,85,88,93,102,105,112,120,130,133,165,168,177,
 %U A000926 190,210,232,240,253,273,280,312,330,345,357,385,408,462,520,760,840,1320,1365,1848
@@ -21,20 +21,22 @@
 %D A000926 J.-M. De Koninck, Ces nombres qui nous fascinent, Entry 1848, p. 146, Ellipses, Paris 2008.
 %D A000926 C. F. Gauss, Disquisitiones Arithmeticae, 1801. English translation: Yale University Press, New Haven, CT, 1966, Sections 329-334.
 %D A000926 G. B. Mathews, Theory of Numbers, Chelsea, no date, p. 263.
-%D A000926 P. Ribenboim, 'My Numbers, My Friends', Chap.11 Springer-Verlag 2000 NY
+%D A000926 Paulo Ribenboim, My Numbers, My Friends, Chapter 11, Springer-Verlag, NY, 2000.
+%D A000926 Paulo Ribenboim, The Little Book of Bigger Primes, Springer-Verlag NY 2004. See pp. 142-143.
 %D A000926 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
 %D A000926 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A000926 James J. Tattersall, Elementary Number Theory in Nine Chapters, Cambridge University Press, 1999, page 103.
 %D A000926 A. Weil, Number theory: an approach through history; from Hammurapi to Legendre, Birkhäuser, Boston, 1984; see pp. 188, 219-226.
 %H A000926 S. Chowla, <a href="http://qjmath.oxfordjournals.org/content/os-5/1/304.extract">An extension of Heilbronn's class number theorem</a>, Quart. J. math., 5 (1934), 304-307.
 %H A000926 K. S. Brown, Mathpages, <a href="http://www.mathpages.com/home/kmath058.htm">Numeri Idonei</a>
 %H A000926 Günther Frei, <a href="http://www.numdam.org/item/10.5802/pmb.a-37.pdf">Les nombres convenables de Leonhard Euler</a>, Publications Université de Besançon, 1983-1984.
 %H A000926 Günther Frei, <a href="https://doi.org/10.1007/BF03025809">Euler's convenient numbers</a>, Math. Intell. Vol. 7 No. 3 (1985), 55-58 and 64.
 %H A000926 E. Hertel, C. Richter, <a href="http://dx.doi.org/10.1007/s00454-014-9576-7">Tiling Convex Polygons with Congruent Equilateral Triangles</a>, Discrete & Computational Geometry, 2014, DOI 10.1007/s00454-014-9576-7. Mentions this sequence. - _N. J. A. Sloane_, Mar 17 2014
-%H A000926 O.-H. Keller, <a href="http://www.digizeitschriften.de/dms/img/?PPN=PPN301416052_0016&amp;DMDID=dmdlog23">Über die "Numeri idonei" von Euler</a>, Beitraege Algebra Geom., 16 (1983), 79-91. [Math. Rev. 85m:11019]
+%H A000926 O.-H. Keller, <a href="https://eudml.org/doc/138255">Über die "Numeri idonei" von Euler</a>, Beitraege Algebra Geom., 16 (1983), 79-91. [Math. Rev. 85m:11019]
 %H A000926 Robert Krzyzanowski, <a href="http://homepages.math.uic.edu/~robertk/files/number_theory_project2.pdf">Euler's Convenient Numbers</a>
 %H A000926 David Masser, <a href="https://arxiv.org/abs/2010.10256">Alan Baker</a>, arXiv:2010.10256 [math.HO], 2020. See p. 24.
 %H A000926 Eric Rains, <a href="/A000926/a000926.txt">Comments on A000926</a>
-%H A000926 P. Ribenboim, <a href="http://www.jstor.org/stable/2690773">Galimatias Arithmeticae</a>, in Mathematics Magazine 71(5) 339 1998 MAA.
+%H A000926 Paulo Ribenboim, <a href="https://www.jstor.org/stable/2690773">Galimatias Arithmeticae</a>, in Mathematics Magazine 71(5) 339 1998 MAA.
 %H A000926 Rick L. Shepherd, <a href="http://libres.uncg.edu/ir/uncg/f/Shepherd_uncg_0154M_11099.pdf">Binary quadratic forms and genus theory</a>, Master of Arts Thesis, University of North Carolina at Greensboro, 2013.
 %H A000926 N. J. A. Sloane et al., <a href="https://oeis.org/wiki/Binary_Quadratic_Forms_and_OEIS">Binary Quadratic Forms and OEIS</a> (Index to related sequences, programs, references)
 %H A000926 J. Steinig, <a href="http://dx.doi.org/10.5169/seals-24651">On Euler's ideoneal numbers</a>, Elemente Math., 21 (1966), 73-88.

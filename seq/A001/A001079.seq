@@ -1,4 +1,4 @@
-%I A001079 M4005 N1659 #145 May 22 2024 01:23:37
+%I A001079 M4005 N1659 #146 Nov 05 2025 15:21:39
 %S A001079 1,5,49,485,4801,47525,470449,4656965,46099201,456335045,4517251249,
 %T A001079 44716177445,442644523201,4381729054565,43374646022449,
 %U A001079 429364731169925,4250272665676801,42073361925598085,416483346590304049
@@ -18,7 +18,7 @@
 %D A001079 V. Thébault, Les Récréations Mathématiques. Gauthier-Villars, Paris, 1952, p. 281.
 %H A001079 T. D. Noe, <a href="/A001079/b001079.txt">Table of n, a(n) for n=0..200</a>
 %H A001079 Hacène Belbachir, Soumeya Merwa Tebtoub, and László Németh, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL23/Nemeth/nemeth7.html">Ellipse Chains and Associated Sequences</a>, J. Int. Seq., Vol. 23 (2020), Article 20.8.5.
-%H A001079 John M. Campbell, <a href="http://arxiv.org/abs/1105.3399">An Integral Representation of Kekulé Numbers, and Double Integrals Related to Smarandache Sequences</a>, arXiv preprint arXiv:1105.3399 [math.GM], 2011.
+%H A001079 John M. Campbell, <a href="https://arxiv.org/abs/1105.3399">An Integral Representation of Kekulé Numbers, and Double Integrals Related to Smarandache Sequences</a>, arXiv preprint arXiv:1105.3399 [math.GM], 2011.
 %H A001079 Leonhard Euler, <a href="http://www.mathematik.uni-bielefeld.de/~sieben/euler/euler_2.djvu">Vollstaendige Anleitung zur Algebra, Zweiter Teil</a>.
 %H A001079 Leonhard Euler, <a href="https://scholarlycommons.pacific.edu/euler-works/29/">De solutione problematum diophanteorum per numeros integros</a>, par. 18.
 %H A001079 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>

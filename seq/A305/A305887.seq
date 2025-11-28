@@ -1,6 +1,6 @@
-%I A305887 #13 Jun 18 2018 05:38:01
+%I A305887 #17 May 29 2025 12:37:42
 %S A305887 4,5,10,29,173,249,19073,71489,1166789,3800333,7021253,15920129,
-%T A305887 84551600693
+%T A305887 84551600693,224223772673
 %N A305887 The least increasing sequence of numbers where all pairwise sums are semiprimes, with a(1)=4.
 %C A305887 All terms > 10 are congruent to {3, 9} mod 10.
 %C A305887 Triangle of resulting semiprimes begins:
@@ -14,3 +14,4 @@
 %O A305887 1,1
 %A A305887 _Zak Seidov_, Jun 14 2018
 %E A305887 a(13) from _Giovanni Resta_, Jun 14 2018
+%E A305887 a(14) from _Jinyuan Wang_, May 29 2025

@@ -1,4 +1,4 @@
-%I A036561 #188 Jan 21 2025 02:04:19
+%I A036561 #194 Nov 05 2025 15:21:57
 %S A036561 1,2,3,4,6,9,8,12,18,27,16,24,36,54,81,32,48,72,108,162,243,64,96,144,
 %T A036561 216,324,486,729,128,192,288,432,648,972,1458,2187,256,384,576,864,
 %U A036561 1296,1944,2916,4374,6561,512,768,1152,1728,2592,3888,5832,8748,13122,19683
@@ -14,11 +14,12 @@
 %C A036561 A permutation of A003586. - _L. Edson Jeffery_, Sep 22 2014
 %C A036561 Form a word of length i by choosing a (possibly empty) word on alphabet {0,1} then concatenating a word of length j on alphabet {2,3,4}. T(i,j) is the number of such words. - _Geoffrey Critzer_, Jun 23 2016
 %C A036561 Form of Zorach additive triangle (see A035312) where each number is sum of west and northwest numbers, with the additional condition that each number is GCD of the two numbers immediately below it. - _Michel Lagneau_, Dec 27 2018
+%C A036561 Each subsequence from A036561(k)=2^x to A036561(k+L)=3^x corresponds with a Collatz orbit (using reduced Collatz function (3x+1)/2 if odd) of length L that starts at n=2*2^x-1 and ends at m=2*3^x-1. Example: consider the Collatz orbit starting with 31=2^4*2-1: {31,47,71,107,161}. This sequence corresponds to the subsequence of A036561 starting at 2^4=16 and ending at 3^4=81: {16, 24, 36, 54, 81}. Incidentally, note that such a Collatz orbit will always be followed directly by a number of the form 3^(x+1)-1, one less than the next power of three that will appear in A036561. - _Jonathan Shadrach Gilbert_, Oct 23 2025
 %D A036561 Jay Kappraff, Beyond Measure, World Scientific, 2002, p. 148.
 %D A036561 Flora R. Levin, The Manual of Harmonics of Nicomachus the Pythagorean, Phanes Press, 1994, p. 114.
 %H A036561 Reinhard Zumkeller and Matthew House, <a href="/A036561/b036561.txt">Rows n = 0..300 of triangle, flattened</a> [Rows 0 through 120 were computed by Reinhard Zumkeller; rows 121 through 300 by Matthew House, Jul 09 2015]
 %H A036561 Fred Daniel Kline, <a href="http://mathematica.stackexchange.com/questions/6067/">How do I convert this Nicomachus' Triangle to one with edges?</a>
-%H A036561 Boris Putievskiy, <a href="http://arxiv.org/abs/1212.2732">Transformations [of] Integer Sequences And Pairing Functions</a> arXiv:1212.2732 [math.CO], 2012.
+%H A036561 Boris Putievskiy, <a href="https://arxiv.org/abs/1212.2732">Transformations [of] Integer Sequences And Pairing Functions</a> arXiv:1212.2732 [math.CO], 2012.
 %H A036561 Pierre de la Ramée (Petrus Ramus), <a href="http://docnum.u-strasbg.fr/cdm/ref/collection/coll7/id/40857">P. Rami Arithmeticae (anno 1569) Liber 2, Cap. XVI "De inventione continue proportionalium" p.46 (leaf 0055)</a> describes this integer triangle in a layout close to the current OEIS 'tabl' layout.
 %H A036561 Marko Riedel, <a href="/A036561/a036561.pdf">Proof of identity by Egorychev method</a>.
 %H A036561 Thomas Scheuerle, <a href="/A036561/a036561.jpg">Version of this triangle from Boethius (480-524)</a>, Anicius Manlius Severinus Boethius, De institutione arithmetica, Medeltidshandskrift 1 (Mh 1), Lund University Library, early 10th century, page 4r.

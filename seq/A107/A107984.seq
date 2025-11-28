@@ -1,4 +1,4 @@
-%I A107984 #25 May 23 2022 09:12:21
+%I A107984 #29 Jul 11 2025 08:47:08
 %S A107984 1,5,4,14,16,10,30,40,35,20,55,80,81,64,35,91,140,154,140,105,56,140,
 %T A107984 224,260,256,220,160,84,204,336,405,420,390,324,231,120,285,480,595,
 %U A107984 640,625,560,455,320,165,385,660,836,924,935,880,770,616,429,220,506,880
@@ -6,6 +6,7 @@
 %C A107984 Kekulé numbers for certain benzenoids. Column 0 yields A000330. Main diagonal yields A000292. Row sums yield A006414.
 %H A107984 S. J. Cyvin and I. Gutman, <a href="https://doi.org/10.1007/978-3-662-00892-8">Kekulé structures in benzenoid hydrocarbons</a>, Lecture Notes in Chemistry, No. 46, Springer, New York, 1988 (p. 237, K{B(n,3,-l)}).
 %F A107984 T(n-2,k-1) = n*(2*n-k)*(n-k)*k/6. - _M. F. Hasler_, Dec 26 2016
+%F A107984 G.f.: (1 + x - 4*x^2*y + x^3*y^2 + x^4*y^2)/((1 - x)^4*(1 - x*y)^4). - _Stefano Spezia_, Jul 11 2025
 %e A107984 Triangle begins:
 %e A107984    1;
 %e A107984    5,  4;

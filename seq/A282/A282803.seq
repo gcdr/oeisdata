@@ -1,13 +1,14 @@
-%I A282803 #14 Feb 16 2025 08:33:42
+%I A282803 #17 Nov 05 2025 15:22:37
 %S A282803 1,2,7,2,31,10,127,42,511,170,2047,682,8191,2730,32767,10922,131071,
 %T A282803 43690,524287,174762,2097151,699050,8388607,2796202,33554431,11184810,
 %U A282803 134217727,44739242,536870911,178956970,2147483647,715827882,8589934591,2863311530
 %N A282803 Decimal representation of the x-axis, from the origin to the right edge, of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 507", based on the 5-celled von Neumann neighborhood.
 %C A282803 Initialized with a single black (ON) cell at stage zero.
+%C A282803 Seems to differ from A282799 only at n=1. - _R. J. Mathar_, Apr 19 2025
 %D A282803 S. Wolfram, A New Kind of Science, Wolfram Media, 2002; p. 170.
 %H A282803 Robert Price, <a href="/A282803/b282803.txt">Table of n, a(n) for n = 0..126</a>
 %H A282803 Robert Price, <a href="/A282803/a282803.tmp.txt">Diagrams of first 20 stages</a>
-%H A282803 N. J. A. Sloane, <a href="http://arxiv.org/abs/1503.01168">On the Number of ON Cells in Cellular Automata</a>, arXiv:1503.01168 [math.CO], 2015
+%H A282803 N. J. A. Sloane, <a href="https://arxiv.org/abs/1503.01168">On the Number of ON Cells in Cellular Automata</a>, arXiv:1503.01168 [math.CO], 2015
 %H A282803 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/ElementaryCellularAutomaton.html">Elementary Cellular Automaton</a>
 %H A282803 S. Wolfram, <a href="http://wolframscience.com/">A New Kind of Science</a>
 %H A282803 Wolfram Research, <a href="http://atlas.wolfram.com/">Wolfram Atlas of Simple Programs</a>

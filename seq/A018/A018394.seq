@@ -1,4 +1,4 @@
-%I A018394 #14 Sep 04 2022 12:49:15
+%I A018394 #16 Jul 08 2025 06:45:04
 %S A018394 1,5,13,25,65,325
 %N A018394 Divisors of 325.
 %H A018394 <a href="/index/Di#divisors">Index entries for sequences related to divisors of numbers</a>
@@ -6,4 +6,4 @@
 %o A018394 (PARI) divisors(325) \\ _Charles R Greathouse IV_, Jun 22 2017
 %K A018394 nonn,fini,full,easy
 %O A018394 1,2
-%A A018394 _N. J. A. Sloane_.
+%A A018394 _N. J. A. Sloane_

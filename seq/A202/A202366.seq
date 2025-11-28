@@ -1,8 +1,8 @@
-%I A202366 #11 Oct 18 2012 06:00:36
+%I A202366 #13 Jun 02 2025 07:25:02
 %S A202366 0,6,18,-36,-360,-1350,27162,337608,-606528,-90432450,-880859934,
 %T A202366 18455713503,693789107544,1701104157090,-385899715094310,
 %U A202366 -8961561593356464,131483054194960485,11226865165557040813,130224770734566143291,-10087278971257481285822
-%N A202366 Approximate series expansion of arccosh(exp(3*x) - sin(3*x))
+%N A202366 Approximate series expansion of arccosh(exp(3*x) - sin(3*x)).
 %C A202366 Inspired by the Demichel sequences.
 %C A202366 Coefficients are multiplied by (n+1)! and rounded to the nearest integer. First fraction occurs at degree 11 ( 18455713503 = round(129189994524/7) ).
 %H A202366 Vincenzo Librandi, <a href="/A202366/b202366.txt">Table of n, a(n) for n = 0..100</a>

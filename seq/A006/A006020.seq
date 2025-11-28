@@ -1,4 +1,4 @@
-%I A006020 M2237 #7 Mar 30 2012 16:44:54
+%I A006020 M2237 #11 Jul 08 2025 16:40:54
 %S A006020 3,2,1,4,3,1,3,3,2,5,4,5,2,5,1,3,3,2,5,4,3,4,5,2,5,4,3,5,4,3,2,5,3,5,
 %T A006020 5,3,4,5,2,5,4,2,5,4,7,2,5,2,5,4,2,4,5,3,5,4,5,2,5,4,2,4,4,7,2,1,4,3,
 %U A006020 3,5,5,2,3,4,5
@@ -7,4 +7,4 @@
 %D A006020 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
 %K A006020 nonn
 %O A006020 1,1
-%A A006020 _N. J. A. Sloane_.
+%A A006020 _N. J. A. Sloane_

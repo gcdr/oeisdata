@@ -1,4 +1,4 @@
-%I A063438 #28 Apr 13 2024 12:47:54
+%I A063438 #33 May 27 2025 07:12:03
 %S A063438 3,3,3,3,3,3,4,3,3,3,3,3,3,4,3,3,3,3,3,3,4,3,3,3,3,3,3,4,3,3,3,3,3,3,
 %T A063438 4,3,3,3,3,3,3,4,3,3,3,3,3,3,4,3,3,3,3,3,3,4,3,3,3,3,3,3,4,3,3,3,3,3,
 %U A063438 3,4,3,3,3,3,3,3,4,3,3,3,3,3,3,4,3,3,3,3,3,3,4,3,3,3,3,3,3,4,3,3,3,3,3,3,4
@@ -8,7 +8,7 @@
 %D A063438 G. H. Hardy, Divergent Series, Oxford 1979.
 %D A063438 Zeller, K. and Beekmann, W., Theorie der Limitierungsverfahren. Springer Verlag, Berlin, 1970.
 %H A063438 Harry J. Smith, <a href="/A063438/b063438.txt">Table of n, a(n) for n = 1..2000</a>
-%H A063438 Jean-Paul Allouche, Julien Cassaigne, Jeffrey Shallit, Luca Q. Zamboni, <a href="https://arxiv.org/pdf/1711.10807.pdf">A Taxonomy of Morphic Sequences</a>, arXiv preprint arXiv:1711.10807, Nov 29 2017.
+%H A063438 Jean-Paul Allouche, Julien Cassaigne, Jeffrey Shallit, and Luca Q. Zamboni, <a href="https://arxiv.org/abs/1711.10807">A Taxonomy of Morphic Sequences</a>, arXiv preprint arXiv:1711.10807 [cs.FL], Nov 29 2017.
 %F A063438 a(n) = A115790(n) + 3. - _Michel Marcus_, Jul 15 2013
 %e A063438 a(6)=3 because 7*Pi = 21.99..., 6*Pi = 18.84..., so a(6) = 21 - 18;
 %e A063438 a(7)=4 because 8*Pi = 25.13..., 7*Pi = 21.99..., so a(7) = 25 - 21.

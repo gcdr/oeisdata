@@ -1,4 +1,4 @@
-%I A018529 #12 Sep 04 2022 13:46:52
+%I A018529 #14 Jul 08 2025 06:57:45
 %S A018529 1,2,17,34,289,578
 %N A018529 Divisors of 578.
 %H A018529 <a href="/index/Di#divisors">Index entries for sequences related to divisors of numbers</a>
@@ -6,4 +6,4 @@
 %o A018529 (PARI) divisors(578) \\ _Charles R Greathouse IV_, Jun 23 2017
 %K A018529 nonn,fini,full,easy
 %O A018529 1,2
-%A A018529 _N. J. A. Sloane_.
+%A A018529 _N. J. A. Sloane_

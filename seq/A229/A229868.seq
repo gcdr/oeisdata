@@ -1,6 +1,6 @@
-%I A229868 #4 Dec 18 2015 18:18:42
+%I A229868 #6 Jul 23 2025 05:48:06
 %S A229868 5,125,40625,266515625,36821326171875,110831249753697265625
-%N A229868 Number of n X n 0..4 arrays with corresponding row and column sums equal
+%N A229868 Number of n X n 0..4 arrays with corresponding row and column sums equal.
 %C A229868 Column 4 of A229870
 %e A229868 Some solutions for n=4
 %e A229868 ..0..0..0..1....0..0..1..1....0..0..1..0....0..0..1..0....0..0..1..0

@@ -1,4 +1,4 @@
-%I A002819 M0042 N0012 #86 Feb 16 2025 08:32:26
+%I A002819 M0042 N0012 #91 Nov 05 2025 15:35:24
 %S A002819 0,1,0,-1,0,-1,0,-1,-2,-1,0,-1,-2,-3,-2,-1,0,-1,-2,-3,-4,-3,-2,-3,-2,
 %T A002819 -1,0,-1,-2,-3,-4,-5,-6,-5,-4,-3,-2,-3,-2,-1,0,-1,-2,-3,-4,-5,-4,-5,
 %U A002819 -6,-5,-6,-5,-6,-7,-6,-5,-4,-3,-2,-3,-2,-3,-2,-3,-2,-1,-2,-3,-4,-3,-4,-5,-6,-7,-6,-7,-8,-7,-8,-9,-10,-9,-8,-9,-8,-7,-6
@@ -13,16 +13,17 @@
 %D A002819 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
 %H A002819 T. D. Noe, <a href="/A002819/b002819.txt">Table of n, a(n) for n = 0..10000</a>
 %H A002819 Peter Borwein, Ron Ferguson, and Michael J. Mossinghoff, <a href="https://doi.org/10.1090/S0025-5718-08-02036-X">Sign changes in sums of the Liouville function</a>. Math. Comp. 77 (2008), 1681-1694.
-%H A002819 Benoit Cloitre, <a href="http://arxiv.org/abs/1107.0812">A tauberian approach to RH</a>, arXiv preprint arXiv:1107.0812 [math.NT], 2011-2017.
+%H A002819 Benoit Cloitre, <a href="https://arxiv.org/abs/1107.0812">A tauberian approach to RH</a>, arXiv preprint arXiv:1107.0812 [math.NT], 2011-2017.
 %H A002819 H. Gupta, <a href="/A002053/a002053.pdf">On a table of values of L(n)</a>, Proceedings of the Indian Academy of Sciences. Section A, 12 (1940), 407-409. [Annotated scanned copy]
 %H A002819 H. Gupta, <a href="/A002053/a002053.pdf">On a table of values of L(n)</a>, Proceedings of the Indian Academy of Sciences. Section A, 12 (1940), 407-409. [Annotated scanned copy]
-%H A002819 D. T. Haimo, <a href="http://www.jstor.org/stable/2975344">Experimentation and Conjecture Are Not Enough</a>, The American Mathematical Monthly Volume 102 Number 2, 1995, page 105.
+%H A002819 D. T. Haimo, <a href="https://www.jstor.org/stable/2975344">Experimentation and Conjecture Are Not Enough</a>, The American Mathematical Monthly Volume 102 Number 2, 1995, page 105.
 %H A002819 R. S. Lehman, <a href="http://dx.doi.org/10.1090/S0025-5718-1960-0120198-5">On Liouville's function</a>, Math. Comp., 14 (1960), 311-320.
 %H A002819 Michael J. Mossinghoff and Timothy S. Trudgian, <a href="https://arxiv.org/abs/1906.02847">A tale of two omegas</a>, arXiv:1906.02847 [math.NT], 2019.
 %H A002819 Ben Sparks, <a href="https://www.youtube.com/watch?v=eQCUPQdi6DY">906,150,257 and the Pólya conjecture (MegaFavNumbers)</a>, SparksMath video (2020)
 %H A002819 M. Tanaka, <a href="http://dx.doi.org/10.3836/tjm/1270216093">A Numerical Investigation on Cumulative Sum of the Liouville Function</a>, Tokyo J. Math. 3, 187-189, 1980.
 %H A002819 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/LiouvilleFunction.html">Liouville Function</a>
 %F A002819 a(n) = determinant of A174856. - _Mats Granvik_, Mar 31 2010
+%F A002819 a(n) = Sum_{k=1..floor(sqrt(n))} A002321(floor(n / k^2)). - _Daniel Suteu_, May 30 2025
 %p A002819 A002819 := n -> add((-1)^numtheory[bigomega](i),i=1..n): # _Peter Luschny_, Sep 15 2011
 %t A002819 Accumulate[Join[{0},LiouvilleLambda[Range[90]]]] (* _Harvey P. Dale_, Nov 08 2011 *)
 %o A002819 (PARI) a(n)=sum(i=1,n,(-1)^bigomega(i))

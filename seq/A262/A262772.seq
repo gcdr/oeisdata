@@ -1,6 +1,6 @@
-%I A262772 #12 Sep 08 2022 08:46:14
+%I A262772 #15 Aug 21 2025 18:51:47
 %S A262772 7,45,67,145,411,825,1021,4039,9069,9789,12463,15137,26313,27499
-%N A262772 Numbers n such that n!! - 32 is prime.
+%N A262772 Numbers k such that k!! - 32 is prime.
 %C A262772 Corresponding primes are 73, 25373791335626257947657609343, ... .
 %C A262772 a(15) > 50000.
 %H A262772 Joe McLean, <a href="http://web.archive.org/web/20091027034731/http://uk.geocities.com/nassarawa%40btinternet.com/probprim2.htm">Interesting Sources of Probable Primes</a>

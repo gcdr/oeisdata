@@ -1,4 +1,4 @@
-%I A061356 #103 Feb 16 2025 08:32:44
+%I A061356 #127 Nov 05 2025 15:35:30
 %S A061356 1,2,1,9,6,1,64,48,12,1,625,500,150,20,1,7776,6480,2160,360,30,1,
 %T A061356 117649,100842,36015,6860,735,42,1,2097152,1835008,688128,143360,
 %U A061356 17920,1344,56,1,43046721,38263752,14880348,3306744,459270,40824,2268,72,1
@@ -11,15 +11,17 @@
 %C A061356 With offset 1, T(n,k) is the number of forests of rooted trees on n nodes with exactly k (rooted) trees. - _Geoffrey Critzer_, Feb 10 2012
 %C A061356 Also the Bell transform of the sequence (n+1)^n (A000169(n+1)) without column 0. For the definition of the Bell transform see A264428. - _Peter Luschny_, Jan 21 2016
 %C A061356 Abel polynomials A(n,x) = x*(x+n)^(n-1) satisfy d/dx A(n,x) = n*A(n-1,x+1). - _Michael Somos_, May 10 2024
+%C A061356 Also, T(n,k) is the number of parking functions with k ties. - _Kyle Celano_, Aug 18 2025
 %D A061356 L. Comtet, Analyse Combinatoire, P.U.F., Paris 1970. Volume 1, p 81.
 %D A061356 L. Comtet, Advanced Combinatorics, Reidel, 1974.
 %H A061356 G. C. Greubel, <a href="/A061356/b061356.txt">Table of n, a(n) for the first 50 rows, flattened</a>
-%H A061356 A. Avron and N. Dershowitz, <a href="http://www.jstor.org/stable/10.4169/amer.math.monthly.123.7.699">Cayley's Formula, A Page From The Book</a>, Amer. Math. Monthly, Vol. 123, No. 7, Aug.-Sep. 2016, 699-700 (2).
+%H A061356 A. Avron and N. Dershowitz, <a href="https://www.jstor.org/stable/10.4169/amer.math.monthly.123.7.699">Cayley's Formula, A Page From The Book</a>, Amer. Math. Monthly, Vol. 123, No. 7, Aug.-Sep. 2016, 699-700 (2).
 %H A061356 Peter Bala, <a href="/A112007/a112007_Bala.txt">Diagonals of triangles with generating function exp(t*F(x))</a>
 %H A061356 W. Bomfim, <a href="http://en.wikipedia.org/wiki/File:Bijecao.gif">Bijection between rooted forests and multigraphs without cycles except one loop in each connected component.</a> [From _Washington Bomfim_, Sep 04 2010]
-%H A061356 J. W. Moon, <a href="http://www.jstor.org/stable/2312668">Another proof of Cayley's formula for counting trees</a>, Amer. Math. Monthly, Vol. 70, No. 8, Oct. 1963, 846-847.
+%H A061356 J. W. Moon, <a href="https://www.jstor.org/stable/2312668">Another proof of Cayley's formula for counting trees</a>, Amer. Math. Monthly, Vol. 70, No. 8, Oct. 1963, 846-847.
 %H A061356 Jim Pitman, <a href="http://www.stat.berkeley.edu/tech-reports/457.pdf">Coalescent Random Forests</a>, Technical Report No. 457, Department of Statistics, University of California.
 %H A061356 Jim Pitman, <a href="https://doi.org/10.1006/jcta.1998.2919">Coalescent Random Forests</a>, Journal of Combinatorial Theory, Series A, Volume 85, Issue 2, February 1999, Pages 165-193.
+%H A061356 Paul R. F. Schumacher, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL21/Schumacher/schu5.pdf">Descents in parking functions</a>, J. Integer Seq., Vol. 21 (2018), Article 18.2.3.
 %H A061356 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/AbelPolynomial.html">Abel Polynomial</a>.
 %H A061356 Wikipedia, <a href="http://en.wikipedia.org/wiki/Lambert_W_function">Lambert W function</a>
 %H A061356 J. Zeng, <a href="http://dx.doi.org/10.1023/A:1009809224933">A Ramanujan sequence that refines the Cayley formula for trees</a>, Ramanujan J., 3(1999) 1, 45-54.
@@ -35,13 +37,14 @@
 %F A061356 The o.g.f.'s for the diagonals of the triangle are the rational functions R(n,x)/(1-x)^(2*n+1), where R(n,x) are the row polynomials of A155163. See below for examples.
 %F A061356 (End)
 %F A061356 T(n,m) = C(n,m)*Sum_{k=1..n-m} m^k*T(n-m,k), T(n,n) = 1. - _Vladimir Kruchinin_, Mar 31 2015
-%e A061356 :    1;
-%e A061356 :    2,     1;
-%e A061356 :    9,     6,     1;
-%e A061356 :   64,    48,    12,    1;
-%e A061356 :  625,   500,   150,   20,    1;
-%e A061356 : 7776,  6480,  2160,  360,   30,    1;
-%e A061356 ...
+%e A061356 Triangle begins
+%e A061356     1;
+%e A061356     2,     1;
+%e A061356     9,     6,     1;
+%e A061356    64,    48,    12,    1;
+%e A061356   625,   500,   150,   20,    1;
+%e A061356  7776,  6480,  2160,  360,   30,    1;
+%e A061356  ...
 %e A061356 From _Peter Bala_, Sep 21 2012: (Start)
 %e A061356 O.g.f.'s for the diagonals begin:
 %e A061356 1/(1-x) = 1 + x + x^2 + x^3 + ...
@@ -60,7 +63,7 @@
 %t A061356 M = BellMatrix[(# + 1)^#&, rows];
 %t A061356 Table[M[[n, k]], {n, 2, rows}, {k, 2, n}] // Flatten (* _Jean-François Alcover_, Jun 23 2018, after _Peter Luschny_ *)
 %o A061356 (Maxima) create_list(binomial(n,k)*(n+1)^(n-k),n,0,20,k,0,n); /* _Emanuele Munarini_, Apr 01 2014 */
-%o A061356 (Sage) # uses[bell_matrix from A264428]
+%o A061356 (SageMath) # uses[bell_matrix from A264428]
 %o A061356 # Adds (1,0,0,0,...) as column 0 to the triangle.
 %o A061356 bell_matrix(lambda n: (n+1)^n, 12) # _Peter Luschny_, Jan 21 2016
 %o A061356 (PARI) for(n=2,11, for(k=1,n-1, print1(binomial(n-2, k-1)*(n-1)^(n-k-1), ", "))) \\ _G. C. Greubel_, Nov 12 2017

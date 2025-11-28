@@ -1,4 +1,4 @@
-%I A018531 #12 Sep 04 2022 13:47:52
+%I A018531 #14 Jul 08 2025 06:57:51
 %S A018531 1,2,3,6,97,194,291,582
 %N A018531 Divisors of 582.
 %H A018531 <a href="/index/Di#divisors">Index entries for sequences related to divisors of numbers</a>
@@ -6,4 +6,4 @@
 %o A018531 (PARI) divisors(582) \\ _Charles R Greathouse IV_, Jun 23 2017
 %K A018531 nonn,fini,full,easy
 %O A018531 1,2
-%A A018531 _N. J. A. Sloane_.
+%A A018531 _N. J. A. Sloane_

@@ -1,8 +1,8 @@
-%I A231742 #5 Aug 11 2014 22:45:55
+%I A231742 #7 Jul 23 2025 06:39:17
 %S A231742 16,318,4430,60806,784076,9945132,126926437,1625269595,20795246129,
 %T A231742 265933115701,3401419933047,43511214955897,556577494538011,
 %U A231742 7119285135911590,91064607669052460,1164839484230300582
-%N A231742 Number of nX3 0..3 arrays with no element less than a strict majority of its horizontal and vertical neighbors
+%N A231742 Number of nX3 0..3 arrays with no element less than a strict majority of its horizontal and vertical neighbors.
 %C A231742 Column 3 of A231746
 %H A231742 R. H. Hardin, <a href="/A231742/b231742.txt">Table of n, a(n) for n = 1..210</a>
 %H A231742 R. H. Hardin, <a href="/A231742/a231742.txt">Empirical recurrence of order 87</a>

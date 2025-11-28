@@ -1,10 +1,10 @@
-%I A149057 #8 Jan 20 2024 14:16:18
+%I A149057 #9 Nov 05 2025 15:22:13
 %S A149057 1,1,3,10,41,158,703,2966,13622,60295,282385,1285337,6097884,28283284,
 %T A149057 135373026,636175260,3064466767,14540133618,70377730620,336373997612,
 %U A149057 1634218219670,7855462500604,38278123228839,184836490256889,902854275332470,4375843959459194,21417210557620449,104120226745428208
 %N A149057 Number of walks within N^3 (the first octant of Z^3) starting at (0,0,0) and consisting of n steps taken from {(-1, -1, 0), (-1, 1, 1), (0, 1, 1), (1, -1, 1), (1, 1, -1)}.
 %H A149057 Robert Israel, <a href="/A149057/b149057.txt">Table of n, a(n) for n = 0..200</a>
-%H A149057 A. Bostan and M. Kauers, 2008. Automatic Classification of Restricted Lattice Walks, <a href="http://arxiv.org/abs/0811.2899">ArXiv 0811.2899</a>.
+%H A149057 A. Bostan and M. Kauers, 2008. Automatic Classification of Restricted Lattice Walks, <a href="https://arxiv.org/abs/0811.2899">ArXiv 0811.2899</a>.
 %p A149057 Steps:= [[-1, -1, 0], [-1, 1, 1], [0, 1, 1], [1, -1, 1], [1, 1, -1] ]:
 %p A149057 f:= proc(n, p) option remember;
 %p A149057   if n <= min(p) then return 5^n fi;

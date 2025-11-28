@@ -1,4 +1,4 @@
-%I A125510 #45 Jan 26 2025 20:25:34
+%I A125510 #50 Nov 05 2025 15:22:05
 %S A125510 1,6,6,42,6,36,42,48,6,150,36,72,42,84,48,252,6,108,150,120,36,336,72,
 %T A125510 144,42,186,84,474,48,180,252,192,6,504,108,288,150,228,120,588,36,
 %U A125510 252,336,264,72,900,144,288,42,342,186,756,84,324,474,432,48,840,180,360,252,372
@@ -6,13 +6,13 @@
 %C A125510 This sequence is obtainable, from eta products, by expanding the quotient of Eq. (135) over Eq. (105) in Broadhurst (arXiv:1604.03057). See PARI program below. - _David Broadhurst_, Apr 12 2016
 %C A125510 Cubic AGM theta functions: a(q) (see A004016), b(q) (A005928), c(q) (A005882).
 %H A125510 John Cannon, <a href="/A125510/b125510.txt">Table of n, a(n) for n = 0..5000</a>
-%H A125510 David Broadhurst, <a href="http://arxiv.org/abs/1604.03057">Feynman integrals, L-series and Kloosterman moments</a>, arXiv:1604.03057 [physics.gen-ph], 2016.
+%H A125510 David Broadhurst, <a href="https://arxiv.org/abs/1604.03057">Feynman integrals, L-series and Kloosterman moments</a>, arXiv:1604.03057 [physics.gen-ph], 2016.
 %H A125510 G. Nebe and N. J. A. Sloane, <a href="http://www.math.rwth-aachen.de/~Gabriele.Nebe/LATTICES/QQF.4.g.html">Home page for this lattice</a>
 %F A125510 Expansion of a(x) * a(x^2) in powers of x where a() is a cubic AGM theta function. - _Michael Somos_, Feb 10 2011
 %F A125510 G.f.: 1 + 6 * (Sum_{k>0} F(x^k) + 3 * F(x^(3*k))) where F(x) = (x + x^3) / (1 - x^2)^2. - _Michael Somos_, Feb 10 2011
 %F A125510 G.f.: 1 + 6 * (Sum_{k>0} k * F(x^k) + (3*k) * F(x^(3*k))) where F(x) = x / (1 + x). - _Michael Somos_, Feb 10 2011
 %F A125510 a(n) = 6*b(n) where b() is multiplicative with b(2^e) = 1, b(3^e) = 3^(e+1) - 2, b(p^e) = (p^(e+1) - 1) / (p-1) if p>3. - _Michael Somos_, Feb 17 2017
-%F A125510 Expansion of (eta(q) * eta(q^2))^4 + 9 * (eta(q^3) * eta(q^6))^4) / (eta(q) * eta(q^2) * eta(q^3) * eta(q^6)) in powers of q. - _Michael Somos_, Feb 17 2017
+%F A125510 Expansion of ((eta(q) * eta(q^2))^4 + 9 * (eta(q^3) * eta(q^6))^4) / (eta(q) * eta(q^2) * eta(q^3) * eta(q^6)) in powers of q. - _Michael Somos_, Feb 17 2017
 %F A125510 G.f. is a period 1 Fourier series which satisfies f(-1 / (6 t)) = 6 (t/i)^2 f(t) where q = exp(2 Pi i t). - _Michael Somos_, Feb 17 2017
 %F A125510 G.f. A(x) = (F(x) + 3*F(x^3)) / 4 where F() = g.f. of A004011. - _Michael Somos_, Feb 17 2017
 %F A125510 a(n) = A282544(2*n). - _Michael Somos_, Feb 18 2017

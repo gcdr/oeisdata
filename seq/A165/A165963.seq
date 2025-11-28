@@ -1,7 +1,7 @@
-%I A165963 #4 Jul 22 2017 11:24:25
+%I A165963 #6 Jul 22 2025 07:24:06
 %S A165963 0,16,80,516,3794,31456,290970,2974380,33311520,405773448,5342413414,
 %T A165963 75612301688
-%N A165963 Number of permutations of length n without increasing or decreasing modular 3-sequences
+%N A165963 Number of permutations of length n without increasing or decreasing modular 3-sequences.
 %C A165963 Increasing modular 3-sequences are of the following form: i,i+1,i+2, where arithmetic is modulo n, while correspondingly decreasing modular 3-sequences are of the form i,i-1,i-2, where arithmetic is modulo n.
 %H A165963 W. M. Dymacek, I. Lambert, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL14/Dymacek/dymacek5.html">Permutations Avoiding Runs of i, i+1, i+2 or i, i-1, i-2 </a>, J. Int. Seq. 14 (2011) # 11.1.6, Table 1.
 %F A165963 Let b(n) be the sequence A165964. Then this sequence a(n)=n(b(n)).

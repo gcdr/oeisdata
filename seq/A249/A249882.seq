@@ -1,8 +1,8 @@
-%I A249882 #4 Nov 07 2014 21:12:42
+%I A249882 #6 Jul 23 2025 12:07:54
 %S A249882 1377040,8435180,52655600,331379292,2092722780,13234666552,
 %T A249882 83742245992,529949953516,3358192453066,21288206931304,
 %U A249882 134961924549462,855630524458102,5424416320580056,34388196239050174,218000736689229312
-%N A249882 Number of length n+6 0..7 arrays with no seven consecutive terms having the maximum of any three terms equal to the minimum of the remaining four terms
+%N A249882 Number of length n+6 0..7 arrays with no seven consecutive terms having the maximum of any three terms equal to the minimum of the remaining four terms.
 %C A249882 Column 7 of A249883
 %H A249882 R. H. Hardin, <a href="/A249882/b249882.txt">Table of n, a(n) for n = 1..210</a>
 %e A249882 Some solutions for n=1

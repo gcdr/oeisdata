@@ -1,4 +1,4 @@
-%I A238008 #29 Mar 10 2014 04:23:35
+%I A238008 #30 Sep 22 2025 16:01:15
 %S A238008 -5,-3,0,1,10,12,22,159,639,651,2629
 %N A238008 Numbers n such that n*(n+3)*(n+6) is a triangular number.
 %C A238008 From _Joerg Arndt_, Feb 27 2014: (Start)
@@ -16,7 +16,7 @@
 %o A238008 isok(n)=istriang( n*(n+3)*(n+6) );
 %o A238008 for (n=-10^6, 10^6, if ( isok(n), print1(n,", ") ) );
 %o A238008 \\ _Joerg Arndt_, Feb 17 2014
-%o A238008 (Sage)
+%o A238008 (SageMath)
 %o A238008 # for the curve y^2 + b1*x*y + b3*y =  x^3 + b2*x^2 + b4*x + b5, use
 %o A238008 # EllipticCurve([b1,b2, b3,b4,b5])
 %o A238008 # we have       y^2 +           2*y == x^3 + 18*x^2 + 72*x +  0, so need

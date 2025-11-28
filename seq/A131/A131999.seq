@@ -1,4 +1,4 @@
-%I A131999 #28 Feb 16 2025 08:33:06
+%I A131999 #34 Sep 18 2025 19:31:25
 %S A131999 1,-2,-2,4,-2,8,4,-16,-2,-14,8,20,4,24,-16,-16,-2,-36,-14,36,8,32,20,
 %T A131999 -48,4,-42,24,40,-16,56,-16,-64,-2,-40,-36,64,-14,72,36,-48,8,-84,32,
 %U A131999 84,20,56,-48,-96,4,-114,-42,72,24,104,40,-80,-16,-72,56,116,-16
@@ -7,7 +7,8 @@
 %C A131999 Ramanujan theta functions: f(q) (see A121373), phi(q) (A000122), psi(q) (A010054), chi(q) (A000700).
 %D A131999 N. J. Fine, Basic Hypergeometric Series and Applications, Amer. Math. Soc., 1988; p. 85, Eq. (32.67).
 %H A131999 G. C. Greubel, <a href="/A131999/b131999.txt">Table of n, a(n) for n = 0..10000</a>
-%H A131999 Y. Martin, <a href="http://dx.doi.org/10.1090/S0002-9947-96-01743-6">Multiplicative eta-quotients</a>, Trans. Amer. Math. Soc. 348 (1996), no. 12, 4825-4856, see page 4852 Table I.
+%H A131999 David Broadhurst and Daniele Dorigoni, <a href="https://arxiv.org/abs/2507.21352">Resurgent Lambert series with characters</a>, arXiv:2507.21352 [math.NT], 2025. See p. 37.
+%H A131999 Yves Martin, <a href="http://dx.doi.org/10.1090/S0002-9947-96-01743-6">Multiplicative eta-quotients</a>, Trans. Amer. Math. Soc. 348 (1996), no. 12, 4825-4856, see page 4852 Table I.
 %H A131999 Michael Somos, <a href="/A030203/a030203.txt">Index to Yves Martin's list of 74 multiplicative eta-quotients and their A-numbers</a>
 %H A131999 Michael Somos, <a href="/A010815/a010815.txt">Introduction to Ramanujan theta functions</a>
 %H A131999 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/RamanujanThetaFunctions.html">Ramanujan Theta Functions</a>
@@ -21,6 +22,7 @@
 %F A131999 a(n) = -2 * A117000(n) unless n=0. a(n) = (-1)^n * A113416(n). a(2*n + 1) = - 2 * A113417(n).
 %F A131999 G.f. is a period 1 Fourier series which satisfies f(-1 / (8 t)) = 2^(11/2) (t/i)^2 g(t) where q = exp(2 Pi i t) and g(t) is the g.f. for A124340. - _Michael Somos_, Jun 28 2015
 %F A131999 Convolution square is A259491. - _Michael Somos_, Jun 28 2015
+%F A131999 Empirical: Sum_{n>=0} a(n) / exp(n*Pi) = (1/16) * Gamma(5/8)^4 * (3+2 * sqrt(2)) * sqrt(2) * (2+sqrt(2))^(1/2) / Pi / Gamma(7/8)^4 = A388595. - _Simon Plouffe_, Sep 18 2025
 %e A131999 G.f. = 1 - 2*q - 2*q^2 + 4*q^3 - 2*q^4 + 8*q^5 + 4*q^6 - 16*q^7 - 2*q^8 + ...
 %t A131999 a[ n_] := If[ n < 1, Boole[n == 0], -2 DivisorSum[ n, # KroneckerSymbol[ 2, #] &]]; (* _Michael Somos_, Jun 28 2015 *)
 %t A131999 a[ n_] := SeriesCoefficient[ QPochhammer[ q]^2 QPochhammer[ q^2] QPochhammer[ q^4]^3 / QPochhammer[ q^8]^2, {q, 0, n}]; (* _Michael Somos_, Jun 28 2015 *)

@@ -1,4 +1,4 @@
-%I A060739 #29 May 19 2020 03:50:23
+%I A060739 #32 Nov 05 2025 15:35:30
 %S A060739 1,1,-2,-36,7200,17640000,-560105280000,-239102222768640000,
 %T A060739 1408147589778024775680000,116620600756651855983415296000000,
 %U A060739 -137839975629646325813680872620851200000000,-2352568589682795058651211199786427114330521600000000
@@ -12,9 +12,9 @@
 %C A060739 It is simpler definition of a(n).
 %C A060739 It follows from the observation that Sqrt[ Abs[ a(n+1)/a(n)/2 ] ] = {1, 3, 10, 35, 126, 462, ...} = C(2n+1, n+1) = A001700. (End)
 %H A060739 Harry J. Smith, <a href="/A060739/b060739.txt">Table of n, a(n) for n=0,...,43</a>
-%H A060739 T. M. Richardson, <a href="http://arxiv.org/abs/1405.6315">The Reciprocal Pascal Matrix</a>, arXiv preprint arXiv:1405.6315 [math.CO], 2014.
+%H A060739 T. M. Richardson, <a href="https://arxiv.org/abs/1405.6315">The Reciprocal Pascal Matrix</a>, arXiv preprint arXiv:1405.6315 [math.CO], 2014.
 %H A060739 Doron Zeilberger, <a href="https://arxiv.org/abs/1405.6315">Reverend Charles to the aid of Major Percy and Fields-Medalist Enrico</a>, arXiv:1405.6315 [math.CO], 2014.
-%H A060739 Doron Zeilberger, <a href="http://www.jstor.org/stable/2974719">Reverend Charles to the aid of Major Percy and Fields-Medalist Enrico</a>, Amer. Math. Monthly 103 (1996), 501-502.
+%H A060739 Doron Zeilberger, <a href="https://www.jstor.org/stable/2974719">Reverend Charles to the aid of Major Percy and Fields-Medalist Enrico</a>, Amer. Math. Monthly 103 (1996), 501-502.
 %F A060739 If Multinomial[a, b, c] denotes the multinomial coefficient (a+b+c)! / (a! * b! * c!) (which is an integer) then : a(n) = (-1)^(n(n-1)/2) * Product k=0, ..., n-1 Multinomial[k, k, n-1-k] = (-1)^(n(n-1)/2) * product k=0, ..., n-1 (n+k-1)!/((k!)^2 * (n-1-k)!)
 %F A060739 a(n) = (-1)^(n(n-1)/2) * Product[ Binomial[2k,k]^2/2, {k,1,n-1} ]. [_Alexander Adamchuk_, Nov 14 2009]
 %F A060739 |a(n)| = A163085(2*(n-1))/(n-1)! for n > 0. - _Peter Luschny_, Sep 18 2012
@@ -24,7 +24,7 @@
 %t A060739 a[n_] := (-1)^(n (n - 1)/2)*Product[ Multinomial[k, k, n - 1 - k], {k, 0, n - 1}]; Table[a[n], {n, 0, 11}] (* _Jean-François Alcover_, Dec 08 2011, after first formula *)
 %o A060739 (PARI) for(n=1,15,print1(1/matdet(matrix(n,n,i,j,i/(j+i))),",")) \\ See Cloitre's comment
 %o A060739 (PARI) { for (n=0, 43, if (n<2, a=1, a=(-1)^(n\2)/matdet(matrix(n-1, n-1, i, j, i/(j+i)))); write("b060739.txt", n, " ", a); ) } \\ _Harry J. Smith_, Jul 10 2009
-%o A060739 (Sage)
+%o A060739 (SageMath)
 %o A060739 def A060739(n): return (-1)^(n//2)*A163085(2*(n-1))/factorial(n-1) if n > 0 else 1
 %o A060739 [A060739(i) for i in (0..11)] # _Peter Luschny_, Sep 18 2012
 %Y A060739 Cf. A005249, A067689.

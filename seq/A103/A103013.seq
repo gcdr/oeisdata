@@ -1,8 +1,8 @@
-%I A103013 #16 Jan 17 2019 13:44:07
+%I A103013 #20 Jul 24 2025 13:27:52
 %S A103013 0,2,3,86,134,185,344,396,476,834,1799,2147,2418,5216,5882,6216,13394,
 %T A103013 19746,66485
-%N A103013 Numbers n such that 5*10^n + 4*R_n - 3 is prime, where R_n = 11...1 is the repunit (A002275) of length n.
-%C A103013 Also numbers n such that (49*10^n-31)/9 is prime.
+%N A103013 Numbers k such that 5*10^k + 4*R_k - 3 is prime, where R_k = 11...1 is the repunit (A002275) of length k.
+%C A103013 Also numbers k such that (49*10^k-31)/9 is prime.
 %C A103013 a(20) > 10^5. - _Robert Price_, Jul 16 2015
 %H A103013 Makoto Kamada, <a href="https://stdkmd.net/nrr/5/54441.htm#prime">Prime numbers of the form 544...441</a>.
 %H A103013 <a href="/index/Pri#Pri_rep">Index entries for primes involving repunits</a>.

@@ -1,4 +1,4 @@
-%I A064538 #146 Feb 16 2025 08:32:45
+%I A064538 #148 Nov 05 2025 15:22:01
 %S A064538 1,2,6,4,30,12,42,24,90,20,66,24,2730,420,90,48,510,180,3990,840,6930,
 %T A064538 660,690,720,13650,1092,378,56,870,60,14322,7392,117810,7140,210,72,
 %U A064538 1919190,103740,8190,1680,94710,13860,99330,9240,217350,9660,9870,10080,324870
@@ -20,11 +20,11 @@
 %H A064538 Bernd C. Kellner and Jonathan Sondow, <a href="http://math.colgate.edu/~integers/v52/v52.pdf">On Carmichael and polygonal numbers, Bernoulli polynomials, and sums of base-p digits</a>, Integers 21 (2021), #A52, 21 pp.; arXiv:<a href="https://arxiv.org/abs/1902.10672">1902.10672</a> [math.NT], 2019.
 %H A064538 Meng Fai Lim, <a href="https://arxiv.org/abs/2308.04099">On the p-divisibility of even K-groups of the ring of integers of a cyclotomic field</a>, arXiv:2308.04099 [math.NT], 2023.
 %H A064538 Dr. Math, <a href="https://web.archive.org/web/20020219093559/http://mathforum.org/dr.math/problems/kijjaz11.24.98.html">Summing n^k</a>.
-%H A064538 R. Mestrovic, <a href="http://arxiv.org/abs/1211.4570">A congruence modulo n^3 involving two consecutive sums of powers and its applications</a>, arXiv:1211.4570 [math.NT], 2012.
+%H A064538 R. Mestrovic, <a href="https://arxiv.org/abs/1211.4570">A congruence modulo n^3 involving two consecutive sums of powers and its applications</a>, arXiv:1211.4570 [math.NT], 2012.
 %H A064538 R. Mestrovic, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL17/Mestrovic/mes4.html">On a Congruence Modulo n^3 Involving Two Consecutive Sums of Powers</a>, Journal of Integer Sequences, Vol. 17 (2014), 14.8.4.
 %H A064538 G. Michon, <a href="http://www.numericana.com/answer/numbers.htm#faulhaber">Faulhaber's Formula</a> on NUMERICANA.com.
 %H A064538 E. S. Rowland, <a href="https://ericrowland.github.io/investigations/sumsofpowers.html">Sums of Consecutive Powers</a>
-%H A064538 Vladimir Shevelev, <a href="http://arxiv.org/abs/0711.3692">A Short Proof of a Known Relation for Consecutive Power Sums</a>, arXiv:0711.3692 [math.CA], 2007.
+%H A064538 Vladimir Shevelev, <a href="https://arxiv.org/abs/0711.3692">A Short Proof of a Known Relation for Consecutive Power Sums</a>, arXiv:0711.3692 [math.CA], 2007.
 %H A064538 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/PowerSum.html">Power Sum</a>
 %H A064538 Wikipedia, <a href="http://en.wikipedia.org/wiki/Faulhaber&#39;s_formula">Faulhaber's Formula</a>.
 %F A064538 a(n) = (n+1)*A195441(n). - _Jonathan Sondow_, Nov 12 2015
@@ -40,7 +40,7 @@
 %t A064538 A064538[n_] := Denominator[ Together[ (BernoulliB[n+1, x] - BernoulliB[n+1])/(n+1)]];
 %t A064538 Table[A064538[n], {n, 0, 44}] (* _Jean-François Alcover_, Feb 21 2012, after Maple *)
 %o A064538 (PARI) a(n) = {my(vp = Vec(bernpol(n+1, x)-bernfrac(n+1))/(n+1)); lcm(vector(#vp, k, denominator(vp[k])));} \\ _Michel Marcus_, Feb 07 2016
-%o A064538 (Sage)
+%o A064538 (SageMath)
 %o A064538 A064538 = lambda n: (n+1)*mul([p for p in (2..(n+2)//(2+n%2)) if is_prime(p) and sum((n+1).digits(base=p)) >= p])
 %o A064538 print([A064538(n) for n in (0..48)]) # _Peter Luschny_, May 14 2017
 %o A064538 (Python)

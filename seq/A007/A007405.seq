@@ -1,4 +1,4 @@
-%I A007405 M1674 #136 Nov 21 2024 10:00:04
+%I A007405 M1674 #142 Nov 05 2025 15:21:45
 %S A007405 1,2,6,24,116,648,4088,28640,219920,1832224,16430176,157554048,
 %T A007405 1606879040,17350255744,197553645440,2363935624704,29638547505408,
 %U A007405 388328781668864,5304452565517824,75381218537805824,1112348880749130752,17014743624340539392,269360902955086379008
@@ -8,7 +8,8 @@
 %C A007405 This is the number of type B set partitions, see R. Suter. - _Per W. Alexandersson_, Dec 19 2022
 %D A007405 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
 %H A007405 T. D. Noe, <a href="/A007405/b007405.txt">Table of n, a(n) for n = 0..100</a>
-%H A007405 V. E. Adler, <a href="http://arxiv.org/abs/1510.02900">Set partitions and integrable hierarchies</a>, arXiv:1510.02900 [nlin.SI], 2015.
+%H A007405 V. E. Adler, <a href="https://arxiv.org/abs/1510.02900">Set partitions and integrable hierarchies</a>, arXiv:1510.02900 [nlin.SI], 2015.
+%H A007405 Hasan Arslan, Nazmiye Alemdar, Mariam Zaarour, and Hüseyin Altındiş, <a href="https://arxiv.org/abs/2504.16522">On Bell numbers of type D</a>, arXiv:2504.16522 [math.CO], 2025. See p. 3.
 %H A007405 Jean-Luc Baril, Pamela E. Harris, and José L. Ramírez, <a href="https://arxiv.org/abs/2405.05357">Flattened Catalan Words</a>, arXiv:2405.05357 [math.CO], 2024. See p. 2.
 %H A007405 Paul Barry, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL15/Barry3/barry84r2.html">A Note on Three Families of Orthogonal Polynomials defined by Circular Functions, and Their Moment Sequences</a>, Journal of Integer Sequences, Vol. 15 (2012), #12.7.2.
 %H A007405 Paul Barry, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL17/Barry2/barry281.html">Constructing Exponential Riordan Arrays from Their A and Z Sequences</a>, Journal of Integer Sequences, 17 (2014), #14.2.6.
@@ -44,14 +45,14 @@
 %t A007405 max = 19; f[x_]:= Exp[x + Exp[2x]/2 -1/2]; CoefficientList[Series[f[x], {x,0,max}], x]*Range[0, max]! (* _Jean-François Alcover_, Nov 22 2011 *)
 %t A007405 Table[Sum[Binomial[n, k] * 2^k * BellB[k, 1/2], {k, 0, n}], {n, 0, 20}] (* _Vaclav Kotesovec_, Apr 17 2020 *)
 %o A007405 (PARI) x='x+O('x^66); Vec(serlaplace(exp(x+1/2*exp(2*x)-1/2))) \\ _Joerg Arndt_, May 13 2013
-%o A007405 (Sage)
+%o A007405 (SageMath)
 %o A007405 @CachedFunction
 %o A007405 def S(n, k, m):
 %o A007405     if k > n or k < 0 : return 0
 %o A007405     if n == 0 and k == 0: return 1
 %o A007405     return S(n-1, k-1, m) + (m*(k+1)-1)*S(n-1, k, m)
 %o A007405 def A007405(n): return add(S(n, k, 2) for k in (0..n)) # _Peter Luschny_, May 20 2013
-%o A007405 (Sage)
+%o A007405 (SageMath)
 %o A007405 b=2;
 %o A007405 def A007405_list(prec):
 %o A007405     P.<x> = PowerSeriesRing(QQ, prec)

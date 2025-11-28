@@ -1,6 +1,6 @@
-%I A112728 #7 Jul 13 2013 11:49:56
+%I A112728 #11 Jul 21 2025 16:18:58
 %S A112728 1,37044,1222452,193637687880
-%N A112728 Numbers n such that geometric mean of phi(n), n and sigma(n) is an integer.
+%N A112728 Numbers k such that geometric mean of phi(k), k and sigma(k) is an integer.
 %C A112728 It is interesting that a(2) divides a(3).
 %C A112728 There is no further term up to 6*10^8.
 %C A112728 a(5) > 4*10^11. - _Giovanni Resta_, Jul 13 2013

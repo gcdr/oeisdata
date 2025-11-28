@@ -1,4 +1,4 @@
-%I A098430 #88 Aug 30 2024 02:55:47
+%I A098430 #104 Oct 20 2025 07:55:21
 %S A098430 1,8,96,1280,17920,258048,3784704,56229888,843448320,12745441280,
 %T A098430 193730707456,2958796259328,45368209309696,697972450918400,
 %U A098430 10768717814169600,166556168859156480,2581620617316925440,40091049586568724480,623638549124402380800,9715632133727531827200
@@ -9,6 +9,7 @@
 %C A098430 Convolving a(n) with itself yields A001025, the powers of 16. Thus the limiting ratio of this sequence is 16. - _Bob Selcoe_, Jul 16 2014
 %C A098430 Number of strings x of length 4n over the alphabet {1, -1} such that the dot product of x with (x reversed) is 0. - _Jeffrey Shallit_, Mar 06 2017
 %C A098430 Number of orthogonal pairs of vectors of length 2n, constructed with any symmetric binary-valued symbol set. - _Ross Drewe_, May 18 2018
+%C A098430 Diagonal of the rational function 1 / (1 - 4*x - y). - _Ilya Gutkovskiy_, Apr 24 2025
 %H A098430 Vincenzo Librandi, <a href="/A098430/b098430.txt">Table of n, a(n) for n = 0..200</a>
 %H A098430 Hacène Belbachir, Abdelghani Mehdaoui, and László Szalay, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL22/Szalay/szalay42.html">Diagonal Sums in the Pascal Pyramid, II: Applications</a>, J. Int. Seq., Vol. 22 (2019), Article 19.3.5.
 %H A098430 Tony D. Noe, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL9/Noe/noe35.html">On the Divisibility of Generalized Central Trinomial Coefficients</a>, Journal of Integer Sequences, Vol. 9 (2006), Article 06.2.7.
@@ -23,6 +24,8 @@
 %F A098430 From _Amiram Eldar_, Jul 21 2020: (Start)
 %F A098430 Sum_{n>=0} 1/a(n) = 16/15 + 16*sqrt(15)*arcsin(1/4)/225.
 %F A098430 Sum_{n>=0} (-1)^n/a(n) = 16/17 - 16*sqrt(17)*arcsinh(1/4)/289. (End)
+%F A098430 a(n) = Sum_{k = 0..2*n} (-1)^k *A000984(k) * A000984(2*n-k). Cf. Sum_{k = 0..2*n} A000984(k) * A000984(2*n-k) = 16^n. - _Peter Bala_, Aug 23 2025
+%F A098430 a(n) ~ 16^n / sqrt(Pi*n). - _Amiram Eldar_, Oct 19 2025
 %p A098430 A098430 := n -> 4^n*binomial(2*n,n): seq(A098430(n), n=0..30); # _Wesley Ivan Hurt_, Jul 16 2014
 %t A098430 CoefficientList[Series[1/Sqrt[1 - 16 x], {x, 0, 16}], x] (* _Robert G. Wilson v_, Jun 28 2012 *)
 %t A098430 Table[4^n(2n)!/(n!)^2,{n,0,20}] (* _Harvey P. Dale_, Aug 13 2021 *)
@@ -32,7 +35,7 @@
 %o A098430 (Magma) [4^n*Factorial(2*n)/Factorial(n)^2: n in [0..20]]; // _Vincenzo Librandi_, Jul 05 2011
 %o A098430 (Haskell)
 %o A098430 a098430 n = a000302 n * a000984 n -- _Reinhard Zumkeller_, Nov 14 2014
-%o A098430 (Sage)
+%o A098430 (SageMath)
 %o A098430 a = lambda n: 16^n*hypergeometric([-2*n, 1/2], [1], 2)
 %o A098430 [simplify(a(n)) for n in range(23)] # _Peter Luschny_, May 19 2015
 %Y A098430 Cf. A000302, A000984, A174301, A249308.

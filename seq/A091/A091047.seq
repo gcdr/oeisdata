@@ -1,4 +1,4 @@
-%I A091047 #8 Jul 01 2019 03:37:20
+%I A091047 #9 Jun 08 2025 16:15:42
 %S A091047 1,2,3,4,5,6,7,8,9,2,3,5,7,9,3,7,3,3,19,6,7,8,3,9,3,6,3,6,29,5,7,9,3,
 %T A091047 19,3,3,7,3,39,6,7,8,3,9,29,19,39,9,49,5,7,9,3,19,3,7,39,3,59,8,3,9,
 %U A091047 29,19,39,9,3,9,69,7,39,3,59,8,3,9,29,39,79,3,59,8,3,9,29,39,79,3,89,90,91,92
@@ -9,4 +9,4 @@
 %Y A091047 Cf. A054055 (largest digit of n) A068505 (n as base b+1 number where b=largest digit of n) A091048 (number of times n must be interpreted as a base b+1 number where b is the largest digit of n until an unchanging value is reached) A091049 (a(n) = first term which reduces to an unchanging value in n steps via repeated interpretation of a(n) as a base b+1 number where b is the largest digit of a(n)).
 %K A091047 base,nonn
 %O A091047 1,2
-%A A091047 Chuck Seggelin (barkeep(AT)plastereddragon.com), Dec 15 2003
+%A A091047 _Chuck Seggelin_, Dec 15 2003

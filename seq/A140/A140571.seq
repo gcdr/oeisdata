@@ -1,4 +1,4 @@
-%I A140571 #18 Sep 27 2023 12:21:05
+%I A140571 #19 Nov 05 2025 15:22:06
 %S A140571 2,0,5,7,2,8,4,1,2,8,4,7,8,7,9,3,4,1,2,8,5,8,2,2,3,9,6,4,4,8,3,7,6,9,
 %T A140571 0,9,1,0,0,4,3,4,7,8,2,7,4,9,4,2,1,2,6,8,0,7,4,1,5,3,8,1,9,6,6,2,4,2,
 %U A140571 3,6,9,2,9,5,4,2,7,6,3,5,1,3,3,4,9,8,5,1,9,0,8,0,7,8,9,0,1,6,5,3,6,5,5,9,7,7
@@ -9,7 +9,7 @@
 %H A140571 Bruno Deschamps, Bakir Farhi, <a href="https://doi.org/10.1016/j.jnt.2006.06.002">Essentialité dans les bases additives</a>, J. Number Theory, 123 (2007), p. 170-192.
 %H A140571 P. Erdos and R. L. Graham, <a href="http://matwbn.icm.edu.pl/ksiazki/aa/aa37/aa37119.pdf">On Bases with an Exact Order</a>, Acta Arith. 37(1980)201-207.
 %H A140571 G. Grekos, <a href="https://www.jstor.org/stable/44166477">Sur l'ordre d'une base additive</a>, (French) Séminaire de Théorie des nombres de Bordeaux, 1987/1988, exposé 31.
-%H A140571 Peter Hegarty, <a href="http://arxiv.org/abs/0807.0463">The Postage Stamp Problem and Essential Subsets in Integer Bases</a>, arXiv:0807.0463 [math.NT], 2008.
+%H A140571 Peter Hegarty, <a href="https://arxiv.org/abs/0807.0463">The Postage Stamp Problem and Essential Subsets in Integer Bases</a>, arXiv:0807.0463 [math.NT], 2008.
 %F A140571 Equals 30*sqrt(log(1564)/1564).
 %e A140571 2.0572841284787934...
 %t A140571 RealDigits[(30*Sqrt[Log[1564]/1564]),10,120][[1]] (* _Harvey P. Dale_, Sep 27 2023 *)

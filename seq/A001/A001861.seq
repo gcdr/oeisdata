@@ -1,4 +1,4 @@
-%I A001861 M1662 N0653 #222 Apr 06 2024 09:03:11
+%I A001861 M1662 N0653 #225 Nov 10 2025 21:50:37
 %S A001861 1,2,6,22,94,454,2430,14214,89918,610182,4412798,33827974,273646526,
 %T A001861 2326980998,20732504062,192982729350,1871953992254,18880288847750,
 %U A001861 197601208474238,2142184050841734,24016181943732414,278028611833689478,3319156078802044158,40811417293301014150
@@ -23,16 +23,16 @@
 %H A001861 J. M. Borwein, <a href="https://carmamaths.org/resources/jon/OEIStalk.pdf">Adventures with the OEIS: Five sequences Tony may like</a>, Guttmann 70th [Birthday] Meeting, 2015, revised May 2016.
 %H A001861 J. M. Borwein, <a href="/A060997/a060997.pdf">Adventures with the OEIS: Five sequences Tony may like</a>, Guttmann 70th [Birthday] Meeting, 2015, revised May 2016. [Cached copy, with permission]
 %H A001861 Jacques Carlier and Corinne Lucet, <a href="http://dx.doi.org/10.1016/0166-218X(95)00032-M">A decomposition algorithm for network reliability evaluation</a>. In First International Colloquium on Graphs and Optimization (GOI), 1992 (Grimentz). Discrete Appl. Math. 65 (1996), 141-156 (see page 152 and Fig 6).
-%H A001861 Adam M. Goyt and Lara K. Pudwell, <a href="http://arxiv.org/abs/1203.3786">Avoiding colored partitions of two elements in the pattern sense</a>, arXiv preprint arXiv:1203.3786 [math.CO], 2012. - From _N. J. A. Sloane_, Sep 17 2012
+%H A001861 Adam M. Goyt and Lara K. Pudwell, <a href="https://arxiv.org/abs/1203.3786">Avoiding colored partitions of two elements in the pattern sense</a>, arXiv preprint arXiv:1203.3786 [math.CO], 2012. - From _N. J. A. Sloane_, Sep 17 2012
 %H A001861 Wan-Ming Guo and Lily Li Liu, <a href="https://doi.org/10.2298/FIL2309923G">Asymptotic normality of the Stirling-Whitney-Riordan triangle</a>, Filomat (2023) Vol. 37, No. 9, 2923-2934.
 %H A001861 INRIA Algorithms Project, <a href="http://ecs.inria.fr/services/structure?nbr=66">Encyclopedia of Combinatorial Structures 66</a> [broken link?]
 %H A001861 Marin Knežević, Vedran Krčadinac, and Lucija Relić, <a href="https://arxiv.org/abs/2012.15307">Matrix products of binomial coefficients and unsigned Stirling numbers</a>, arXiv:2012.15307 [math.CO], 2020.
 %H A001861 G. Labelle et al., <a href="http://dx.doi.org/10.1016/S0012-365X(01)00257-6">Stirling numbers interpolation using permutations with forbidden subsequences</a>, Discrete Math. 246 (2002), 177-195.
 %H A001861 Huyile Liang, Jeffrey Remmel, and Sainan Zheng, <a href="https://arxiv.org/abs/1710.05795">Stieltjes moment sequences of polynomials</a>, arXiv:1710.05795 [math.CO], 2017, see page 20.
-%H A001861 T. Mansour, M. Shattuck and D. G. L. Wang, <a href="http://arxiv.org/abs/1306.3355">Recurrence relations for patterns of type (2, 1) in flattened permutations</a>, arXiv preprint arXiv:1306.3355 [math.CO], 2013.
+%H A001861 T. Mansour, M. Shattuck and D. G. L. Wang, <a href="https://arxiv.org/abs/1306.3355">Recurrence relations for patterns of type (2, 1) in flattened permutations</a>, arXiv preprint arXiv:1306.3355 [math.CO], 2013.
 %H A001861 Victor Meally, <a href="/A002868/a002868.pdf">Comparison of several sequences given in Motzkin's paper "Sorting numbers for cylinders...", letter to N. J. A. Sloane, N. D.</a>
 %H A001861 T. S. Motzkin, <a href="/A000262/a000262.pdf">Sorting numbers for cylinders and other classification numbers</a>, in Combinatorics, Proc. Symp. Pure Math. 19, AMS, 1971, pp. 167-176. [Annotated, scanned copy]
-%H A001861 OEIS Wiki, <a href="http://oeis.org/wiki/Sorting_numbers">Sorting numbers</a>
+%H A001861 OEIS Wiki, <a href="https://oeis.org/wiki/Sorting_numbers">Sorting numbers</a>
 %H A001861 J. Riordan, <a href="/A001861/a001861.pdf">Letter to N. J. A. Sloane, Oct. 1970</a>
 %H A001861 J. Riordan, <a href="/A001861/a001861_1.pdf">Letter, Oct 31 1977</a>
 %H A001861 Frank Simon, <a href="https://nbn-resolving.org/urn:nbn:de:bsz:14-qucosa-101154">Algebraic Methods for Computing the Reliability of Networks</a>, Dissertation, Doctor Rerum Naturalium (Dr. rer. nat.), Fakultät Mathematik und Naturwissenschaften der Technischen Universität Dresden, 2012. See Table 5.1. - From _N. J. A. Sloane_, Jan 04 2013
@@ -72,7 +72,7 @@
 %o A001861 (PARI) a(n)=if(n<0,0,n!*polcoeff(exp(2*(exp(x+x*O(x^n))-1)),n))
 %o A001861 (PARI) {a(n)=polcoeff(sum(m=0, n, 2^m*x^m/prod(k=1,m,1-k*x +x*O(x^n))), n)} /* _Paul D. Hanna_, Feb 15 2012 */
 %o A001861 (PARI) {a(n) = sum(k=0, n, 2^k*stirling(n, k, 2))} \\ _Seiichi Manyama_, Jul 28 2019
-%o A001861 (Sage) expnums(30, 2) # _Zerinvary Lajos_, Jun 26 2008
+%o A001861 (SageMath) expnums(30, 2) # _Zerinvary Lajos_, Jun 26 2008
 %o A001861 (Magma) [&+[2^k*StirlingSecond(n, k): k in [0..n]]: n in [0..25]]; // _Vincenzo Librandi_, May 18 2019
 %Y A001861 For boxes of 1 color, see A000110, for 3 colors see A027710, for 4 colors see A078944, for 5 colors see A144180, for 6 colors see A144223, for 7 colors see A144263, for 8 colors see A221159.
 %Y A001861 First column of A078937.

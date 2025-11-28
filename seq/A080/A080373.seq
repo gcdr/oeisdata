@@ -1,8 +1,8 @@
-%I A080373 #14 Jun 22 2024 04:04:29
+%I A080373 #16 Sep 16 2025 00:10:33
 %S A080373 3,6,24,77,271,271,1395,1395,1395,13717,34369,172146,172146,804584,
 %T A080373 804584,804584,12762142,16138563,16138563,56307979,56307979,56307979,
 %U A080373 56307979,56307979,1857276773,3511121443
-%N A080373 a(n) is the smallest number k such that GCD of n values of prime(j)-1 for successive j values starting with k is greater than 2, where prime(j) = j-th prime.
+%N A080373 a(n) is the smallest number k such that GCD of n values of prime(j)-1 for successive j values starting with k is greater than 2.
 %F A080373 a(n) = Min{x; gcd[prime(x)-1, ..., prime(x+n-1)] > 2}, where prime() = A000040().
 %e A080373 For n = 2: a(2) = 6 = A067605(2).
 %e A080373 For n = 3: a(3) = 24 means: firstly occurs that for three consecutive p-1 terms GCD[prime(24)-1, prime(25)-1, prime(26)-1] = GCD[88, 96, 100] = 4 > 2;

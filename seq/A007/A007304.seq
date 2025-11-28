@@ -1,4 +1,4 @@
-%I A007304 M5207 #109 Jan 21 2025 11:38:16
+%I A007304 M5207 #117 Nov 11 2025 10:37:26
 %S A007304 30,42,66,70,78,102,105,110,114,130,138,154,165,170,174,182,186,190,
 %T A007304 195,222,230,231,238,246,255,258,266,273,282,285,286,290,310,318,322,
 %U A007304 345,354,357,366,370,374,385,399,402,406,410,418,426,429,430,434,435,438
@@ -11,6 +11,7 @@
 %D A007304 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
 %D A007304 "Sphenic", The American Heritage Dictionary of the English Language, Fourth Edition, Houghton Mifflin Company, 2000.
 %H A007304 T. D. Noe, <a href="/A007304/b007304.txt">Table of n, a(n) for n = 1..10000</a>
+%H A007304 Chai Wah Wu, <a href="https://math.colgate.edu/~integers/z95/z95.pdf">Algorithms for Complementary Sequences</a>, Integers (2025) Vol. 25, Art. No. A95. See p. 24.
 %H A007304 <a href="/index/Pri#prime_signature">Index to sequences related to prime signature</a>
 %F A007304 A008683(a(n)) = -1.
 %F A007304 A000005(a(n)) = 8. - _R. J. Mathar_, Aug 14 2009
@@ -50,6 +51,8 @@
 %p A007304         end do:
 %p A007304     end if;
 %p A007304 end proc: # _R. J. Mathar_, Dec 06 2016
+%p A007304 is_a := proc(n) local P; P := NumberTheory:-PrimeFactors(n); nops(P) = 3 and n = mul(P) end:
+%p A007304 A007304List := upto -> select(is_a, [seq(1..upto)]):  # _Peter Luschny_, Apr 14 2025
 %t A007304 Union[Flatten[Table[Prime[n]*Prime[m]*Prime[k], {k, 20}, {n, k+1, 20}, {m, n+1, 20}]]]
 %t A007304 Take[ Sort@ Flatten@ Table[ Prime@i Prime@j Prime@k, {i, 3, 21}, {j, 2, i - 1}, {k, j - 1}], 53] (* _Robert G. Wilson v_ *)
 %t A007304 With[{upto=500},Sort[Select[Times@@@Subsets[Prime[Range[Ceiling[upto/6]]],{3}],#<=upto&]]] (* _Harvey P. Dale_, Jan 08 2015 *)
@@ -78,6 +81,11 @@
 %o A007304         else:
 %o A007304             kmin = kmid
 %o A007304     return kmax # _Chai Wah Wu_, Aug 29 2024
+%o A007304 (SageMath)
+%o A007304 def is_a(n):
+%o A007304     P = prime_divisors(n)
+%o A007304     return len(P) == 3 and prod(P) == n
+%o A007304 print([n for n in range(1, 439) if is_a(n)]) # _Peter Luschny_, Apr 14 2025
 %Y A007304 Products of exactly k distinct primes, for k = 1 to 6: A000040, A006881. A007304, A046386, A046387, A067885.
 %Y A007304 Cf. A002033, A010051, A020639, A037074, A046393, A061299, A067467, A071140, A096917, A096918, A096919, A100765, A103653, A107464, A107768, A179643, A179695.
 %Y A007304 Cf. A162143 (a(n)^2).

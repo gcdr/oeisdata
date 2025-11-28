@@ -1,8 +1,8 @@
-%I A156046 #2 Mar 30 2012 17:34:33
+%I A156046 #4 Jun 02 2025 01:20:09
 %S A156046 2,2,2,2,4,2,2,7,7,2,2,22,25,22,2,2,100,118,118,100,2,2,606,702,717,
 %T A156046 702,606,2,2,4326,4928,5021,5021,4928,4326,2,2,35289,39611,40210,
 %U A156046 40288,40210,39611,35289,2,2,322570,357855,362174,362758,362758,362174,357855
-%N A156046 A triangle sequence made symmetrical by reverse coefficients: t0(n,m)=(2 + n! - m! - (n - m)! + 2 + PartitionsP[n] - PartitionsP[ m] - PartitionsP[n - m]); t(n,m)=(t0(n,m)+Reverse[t0(n,m)])/2
+%N A156046 A triangle sequence made symmetrical by reverse coefficients: t0(n,m)=(2 + n! - m! - (n - m)! + 2 + PartitionsP[n] - PartitionsP[ m] - PartitionsP[n - m]); t(n,m)=(t0(n,m)+Reverse[t0(n,m)])/2.
 %C A156046 Row sums are:
 %C A156046 {2, 4, 8, 18, 73, 440, 3337, 28554, 270512, 2810718, 31841200,...}.
 %C A156046 When divided by two this sequence is very close to Pascal's triangle,

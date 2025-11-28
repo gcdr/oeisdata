@@ -1,8 +1,8 @@
-%I A237462 #4 Feb 08 2014 05:56:50
+%I A237462 #6 Jul 23 2025 10:10:38
 %S A237462 231680,2183186,12536462,71637702,395458926,2568519258,15211412806,
 %T A237462 83900667490,481534162516,2970670373368,17490078291240,99292021436308,
 %U A237462 577450800371012,3466510884084752,20334046128755916,117196890875285924
-%N A237462 Number of (n+1)X(7+1) 0..2 arrays with the maximum plus the lower median of every 2X2 subblock differing from its horizontal and vertical neighbors by exactly one
+%N A237462 Number of (n+1)X(7+1) 0..2 arrays with the maximum plus the lower median of every 2X2 subblock differing from its horizontal and vertical neighbors by exactly one.
 %C A237462 Column 7 of A237463
 %H A237462 R. H. Hardin, <a href="/A237462/b237462.txt">Table of n, a(n) for n = 1..96</a>
 %e A237462 Some solutions for n=1

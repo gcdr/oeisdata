@@ -1,8 +1,8 @@
-%I A221429 #4 Jan 15 2013 21:11:37
+%I A221429 #8 Oct 03 2025 19:39:15
 %S A221429 0,1,1,0,9,0,1,42,42,1,0,217,236,217,0,1,1116,4390,4390,1116,1,0,5722,
 %T A221429 46288,194879,46288,5722,0,1,29383,622615,6688747,6688747,622615,
 %U A221429 29383,1,0,150821,7432234,250167826,594252456,250167826,7432234,150821,0,1
-%N A221429 T(n,k)=Number of nXk arrays of occupancy after each element moves to some horizontal or vertical neighbor, without consecutive moves in the same direction
+%N A221429 T(n,k)=Number of nXk arrays of occupancy after each element moves to some horizontal or vertical neighbor, without consecutive moves in the same direction.
 %C A221429 Table starts
 %C A221429 .0......1........0..........1...........0...........1.............0
 %C A221429 .1......9.......42........217........1116........5722.........29383
@@ -21,4 +21,4 @@
 %e A221429 ..1..1..0..2....2..2..1..1....0..0..0..0....1..0..1..0....1..1..1..2
 %K A221429 nonn,tabl
 %O A221429 1,5
-%A A221429 _R. H. Hardin_ Jan 15 2013
+%A A221429 _R. H. Hardin_, Jan 15 2013

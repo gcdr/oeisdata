@@ -1,11 +1,11 @@
-%I A256201 #21 Sep 29 2021 02:41:18
+%I A256201 #22 Nov 05 2025 15:22:29
 %S A256201 1,1,2,6,24,119,694,4580,33254,260285,2163930,18900534,172016256,
 %T A256201 1621031261,15739870457,156855197297,1599233708733,16638560125635,
 %U A256201 176269571712376,1898076560618372,20742488003444465,229747253093647567,2576270755655436479,29218474225923168362
 %N A256201 Number of permutations in S_n that avoid the pattern 35241.
 %H A256201 Anthony Guttmann, <a href="/A256201/b256201.txt">Table of n, a(n) for n = 0..26</a>
 %H A256201 Nathan Clisby, Andrew R. Conway, Anthony J. Guttmann, Yuma Inoue, <a href="https://arxiv.org/abs/2109.13485">Classical length-5 pattern-avoiding permutations</a>, arXiv:2109.13485 [math.CO], 2021.
-%H A256201 Zvezdelina Stankova-Frenkel and Julian West, <a href="http://arxiv.org/abs/math/0103152">A new class of Wilf-equivalent permutations</a>, arXiv:math/0103152 [math.CO], 2001.
+%H A256201 Zvezdelina Stankova-Frenkel and Julian West, <a href="https://arxiv.org/abs/math/0103152">A new class of Wilf-equivalent permutations</a>, arXiv:math/0103152 [math.CO], 2001.
 %t A256201 avoid[n_, pat_] := Module[{p1 = pat[[1]], p2 = pat[[2]], p3 = pat[[3]], p4 = pat[[4]], p5 = pat[[5]], lseq = {}, i, p,
 %t A256201     lpat = Subsets[(n + 1) - Range[n], {Length[pat]}],
 %t A256201     psn = Permutations[Range[n]]},

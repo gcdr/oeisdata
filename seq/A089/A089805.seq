@@ -1,10 +1,10 @@
-%I A089805 #20 Feb 16 2025 08:32:51
+%I A089805 #21 Nov 05 2025 15:35:31
 %S A089805 1,0,-1,0,0,0,0,0,0,0,-1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
 %T A089805 0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 %U A089805 -1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 %N A089805 Expansion of Jacobi theta function (theta_4(q^6) - theta_4(q^(2/3)))/2/q^(2/3).
 %H A089805 G. C. Greubel, <a href="/A089805/b089805.txt">Table of n, a(n) for n = 0..1000</a>
-%H A089805 G. E. Andrews, <a href="http://www.jstor.org/stable/2321943">An introduction to Ramanujan's "lost" notebook</a>, Amer. Math. Monthly 86 (1979), no. 2, 89-108.
+%H A089805 G. E. Andrews, <a href="https://www.jstor.org/stable/2321943">An introduction to Ramanujan's "lost" notebook</a>, Amer. Math. Monthly 86 (1979), no. 2, 89-108.
 %H A089805 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/JacobiThetaFunctions.html">Jacobi Theta Functions</a>
 %H A089805 I. J. Zucker, <a href="https://doi.org/10.1088/0305-4470/23/2/009">Further Relations Amongst Infinite Series and Products. II. The Evaluation of Three-Dimensional Lattice Sums</a>, J. Phys. A: Math. Gen. 23, 117-132, 1990.
 %F A089805 a(2*n) = A089801(n). a(2*n + 1) = 0. - _Michael Somos_, Jun 30 2015

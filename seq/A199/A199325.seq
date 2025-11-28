@@ -1,8 +1,8 @@
-%I A199325 #23 Sep 08 2022 08:46:00
+%I A199325 #25 Jul 14 2025 17:25:13
 %S A199325 5,11,101,151,1051,1151,1511,5011,5051,5101,5501,10111,10151,10501,
 %T A199325 11551,15101,15511,15551,50051,50101,50111,50551,51001,51151,51511,
 %U A199325 51551,55001,55051,55501,55511,100151,100501,100511,101051,101111,101501,110051,110501,115001,115151,150001,150011,150151,150551
-%N A199325 Primes with digits '0', '1' and '5' only.
+%N A199325 Primes having only {0, 1, 5} as digits.
 %H A199325 Robert Israel, <a href="/A199325/b199325.txt">Table of n, a(n) for n = 1..10000</a>
 %H A199325 <a href="/index/Pri#PrimesWithDigits">Index to entries about primes with digits in a given set</a>
 %p A199325 N:= 10000: # to get the first N terms

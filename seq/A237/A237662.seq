@@ -1,8 +1,8 @@
-%I A237662 #12 Feb 16 2014 17:22:59
+%I A237662 #14 Jun 02 2025 09:21:03
 %S A237662 3,7,11,17,23,31,37,47,59,67,73,101,127,131,191,223,229,239,251,257,
 %T A237662 383,401,457,479,503,521,577,991,997,1019,1031,1153,1601,1993,2039,
 %U A237662 2053,2069,3583,3593,3851,3967,4079,4091,4099,4111,4133,6143,6211
-%N A237662 Primes of the form 2^(k+l+m+1) - 2^(l+m+1) + 2^(m+1) + l - 2
+%N A237662 Primes of the form 2^(k+l+m+1) - 2^(l+m+1) + 2^(m+1) + l - 2.
 %C A237662 These prime numbers can be written in the numeral system described in A235860 (perhaps not minimally) this way : 2..21..12..2 (or 1..12..2) k twos followed to the right by l ones, followed to the right by m twos.
 %C A237662 k can be zero, with the arbitrary limitation, when k = 0, l <= m.
 %C A237662 When k = m = 1 we get primes of the form 2^(l + 2) + l + 2.

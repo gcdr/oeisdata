@@ -1,8 +1,8 @@
-%I A363701 #34 Nov 17 2024 07:31:37
+%I A363701 #35 Sep 22 2025 16:01:35
 %S A363701 0,1,5,6,8,9,10,12,14,17,21,28,30,32,34,36,37
 %N A363701 Numbers k with the property that the character table of S_k contains a zero in every nontrivial column.
 %C A363701 This sequence contains A363675 and A363676.
-%o A363701 (Sage)
+%o A363701 (SageMath)
 %o A363701 def zeros(n):
 %o A363701     G = SymmetricGroup(n)
 %o A363701     N = G.character_table()

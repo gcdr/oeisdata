@@ -1,4 +1,4 @@
-%I A185328 #37 Dec 03 2024 12:32:41
+%I A185328 #38 Sep 22 2025 16:01:05
 %S A185328 1,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,2,2,3,3,4,4,5,5,7,7,9,10,12,13,16,17,
 %T A185328 21,23,27,30,36,39,46,51,60,66,77,85,99,110,126,140,162,179,205,228,
 %U A185328 260,289,329,365,415,461,521,579,655,726,818,909,1022,1134,1273,1411
@@ -20,7 +20,7 @@
 %t A185328 CoefficientList[Series[1/QPochhammer[x^8, x], {x,0,75}], x] (* _G. C. Greubel_, Nov 03 2019 *)
 %o A185328 (PARI) my(x='x+O('x^70)); Vec(1/prod(m=0,80, 1-x^(m+8))) \\ _G. C. Greubel_, Nov 03 2019
 %o A185328 (Magma) R<x>:=PowerSeriesRing(Integers(), 70); Coefficients(R!( 1/(&*[1-x^(m+8): m in [0..80]]) )); // _G. C. Greubel_, Nov 03 2019
-%o A185328 (Sage)
+%o A185328 (SageMath)
 %o A185328 def A185328_list(prec):
 %o A185328     P.<x> = PowerSeriesRing(ZZ, prec)
 %o A185328     return P( 1/product((1-x^(m+8)) for m in (0..80)) ).list()

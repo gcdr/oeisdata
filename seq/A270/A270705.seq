@@ -1,4 +1,4 @@
-%I A270705 #18 Jul 21 2023 09:15:35
+%I A270705 #19 Nov 05 2025 15:22:32
 %S A270705 1,2,5,5,6,4,3,4,4,4,3,2,3,3,6,4,4,4,3,3,3,4,6,5,6,5,5,8,8,9,7,5,7,6,
 %T A270705 7,9,7,10,5,5,9,6,12,7,8,6,3,10,6,5,7,5,8,7,8,9,5,9,8,7,5,7,7,5,6,6,5,
 %U A270705 4,6,4,8,5,9,6,3,7,5,8,8,8,8,6,6,6,6,6,8,3,1,4,6
@@ -10,7 +10,7 @@
 %H A270705 Zhi-Wei Sun, <a href="/A270705/b270705.txt">Table of n, a(n) for n = 0..10000</a>
 %H A270705 Zhi-Wei Sun, <a href="http://dx.doi.org/10.4064/aa127-2-1">Mixed sums of squares and triangular numbers</a>, Acta Arith. 127(2007), 103-113.
 %H A270705 Zhi-Wei Sun, <a href="https://doi.org/10.1007/s11425-015-4994-4">On universal sums of polygonal numbers</a>, Sci. China Math. 58(2015), no. 7, 1367-1396.
-%H A270705 Zhi-Wei Sun, <a href="http://arxiv.org/abs/1502.03056">On universal sums ax^2+by^2+f(z), aT_x+bT_y+f(z) and zT_x+by^2+f(z)</a>, preprint, arXiv:1502.03056 [math.NT], 2015.
+%H A270705 Zhi-Wei Sun, <a href="https://arxiv.org/abs/1502.03056">On universal sums ax^2+by^2+f(z), aT_x+bT_y+f(z) and zT_x+by^2+f(z)</a>, preprint, arXiv:1502.03056 [math.NT], 2015.
 %e A270705 a(88) = 1 since 88 = 1^2*pen(1) + pen(-5) + pen(-6).
 %t A270705 pen[x_]:=pen[x]=x(3x+1)/2
 %t A270705 pQ[n_]:=pQ[n]=IntegerQ[Sqrt[24n+1]]

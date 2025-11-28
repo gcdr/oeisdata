@@ -1,7 +1,7 @@
-%I A101397 #32 Jan 17 2019 13:44:06
+%I A101397 #36 Jul 02 2025 15:22:19
 %S A101397 0,1,3,7,10,40,419,449,1737,2245,3131,3813,5345,5659,5681,8410,9097,
 %T A101397 11293,21061
-%N A101397 Numbers n such that 4*10^n+3 is prime.
+%N A101397 Numbers k such that 4*10^k+3 is prime.
 %C A101397 See Kamada link for search limit and prime vs. PRP status.
 %C A101397 a(20) > 2*10^5. - _Robert Price_, Jul 17 2015
 %H A101397 Makoto Kamada, <a href="https://stdkmd.net/nrr/4/40003.htm#prime">Prime numbers of the form 400...003</a>.

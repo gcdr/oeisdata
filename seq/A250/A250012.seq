@@ -1,8 +1,8 @@
-%I A250012 #4 Nov 10 2014 15:44:23
+%I A250012 #6 Jul 23 2025 12:10:02
 %S A250012 77700,412160,2224848,12088256,65834856,358850926,1956551556,
 %T A250012 10675467072,58265451392,318035896726,1736031995536,9476509948438,
 %U A250012 51730456261496,282392239338566,1541573535938290,8415469692133606,45940290780213824
-%N A250012 Number of length n+5 0..6 arrays with no six consecutive terms having the maximum of any three terms equal to the minimum of the remaining three terms
+%N A250012 Number of length n+5 0..6 arrays with no six consecutive terms having the maximum of any three terms equal to the minimum of the remaining three terms.
 %C A250012 Column 6 of A250014
 %H A250012 R. H. Hardin, <a href="/A250012/b250012.txt">Table of n, a(n) for n = 1..210</a>
 %e A250012 Some solutions for n=1

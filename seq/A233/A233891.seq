@@ -1,8 +1,8 @@
-%I A233891 #4 Dec 17 2013 07:35:46
+%I A233891 #6 Jul 23 2025 08:14:31
 %S A233891 161168,5829956,197246776,8442821772,317752132336,13755592501748,
 %T A233891 530020280813856,22858877905193252,889603831608487232,
 %U A233891 38192457821678629076,1495266348359989393168,63945337592938269038024
-%N A233891 Number of (n+1)X(7+1) 0..6 arrays with every 2X2 subblock having the sum of the squares of the edge differences equal to 30, and no two adjacent values equal
+%N A233891 Number of (n+1)X(7+1) 0..6 arrays with every 2X2 subblock having the sum of the squares of the edge differences equal to 30, and no two adjacent values equal.
 %C A233891 Column 7 of A233892
 %H A233891 R. H. Hardin, <a href="/A233891/b233891.txt">Table of n, a(n) for n = 1..51</a>
 %e A233891 Some solutions for n=1

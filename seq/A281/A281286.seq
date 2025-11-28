@@ -1,4 +1,4 @@
-%I A281286 #8 Feb 16 2025 08:33:39
+%I A281286 #9 Nov 05 2025 15:22:36
 %S A281286 1,0,110,1,10000,111,1100000,11111,100000000,11011111,11000000000,
 %T A281286 100111111,1100000000000,10001111111,100000100000000,11101111111111,
 %U A281286 11010001100000000,1101000011111111,1100001100000000000,110000011111111111,100001111000000000000
@@ -7,7 +7,7 @@
 %D A281286 S. Wolfram, A New Kind of Science, Wolfram Media, 2002; p. 170.
 %H A281286 Robert Price, <a href="/A281286/b281286.txt">Table of n, a(n) for n = 0..126</a>
 %H A281286 Robert Price, <a href="/A281286/a281286.tmp.txt">Diagrams of first 20 stages</a>
-%H A281286 N. J. A. Sloane, <a href="http://arxiv.org/abs/1503.01168">On the Number of ON Cells in Cellular Automata</a>, arXiv:1503.01168 [math.CO], 2015
+%H A281286 N. J. A. Sloane, <a href="https://arxiv.org/abs/1503.01168">On the Number of ON Cells in Cellular Automata</a>, arXiv:1503.01168 [math.CO], 2015
 %H A281286 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/ElementaryCellularAutomaton.html">Elementary Cellular Automaton</a>
 %H A281286 S. Wolfram, <a href="http://wolframscience.com/">A New Kind of Science</a>
 %H A281286 Wolfram Research, <a href="http://atlas.wolfram.com/">Wolfram Atlas of Simple Programs</a>

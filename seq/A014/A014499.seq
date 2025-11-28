@@ -1,4 +1,4 @@
-%I A014499 #49 Mar 27 2023 05:17:57
+%I A014499 #51 Nov 05 2025 15:21:47
 %S A014499 1,2,2,3,3,3,2,3,4,4,5,3,3,4,5,4,5,5,3,4,3,5,4,4,3,4,5,5,5,4,7,3,3,4,
 %T A014499 4,5,5,4,5,5,5,5,7,3,4,5,5,7,5,5,5,7,5,7,2,4,4,5,4,4,5,4,5,6,5,6,5,4,
 %U A014499 6,6,4,6,7,6,7,8,4,5,4,5,5,5,7,5,7,7,4,5,6,7,6,8,7,7,7,8,8,3,4
@@ -6,7 +6,7 @@
 %C A014499 a(n) is the rank of prime(n) in the base-2 dominance order on the natural numbers. - _Tom Edgar_, Mar 25 2014
 %H A014499 T. D. Noe, <a href="/A014499/b014499.txt">Table of n, a(n) for n = 1..10000</a>
 %H A014499 Tyler Ball and Daniel Juda, <a href="https://scholar.rose-hulman.edu/rhumj/vol14/iss2/2">Dominance over N</a>, Rose-Hulman Undergraduate Mathematics Journal, Vol. 13, No. 2, Fall 2013.
-%H A014499 Christian Elsholtz, <a href="http://arxiv.org/abs/1602.05974">Almost all primes have a multiple of small Hamming weight</a>, arXiv:1602.05974 [math.NT], 2016.
+%H A014499 Christian Elsholtz, <a href="https://arxiv.org/abs/1602.05974">Almost all primes have a multiple of small Hamming weight</a>, arXiv:1602.05974 [math.NT], 2016.
 %H A014499 <a href="/index/Bi#binary">Index entries for sequences related to binary expansion of n</a>
 %F A014499 a(n) = A000120(A000040(n)).
 %F A014499 a(A049084(A061712(n))) = n. - _Reinhard Zumkeller_, Feb 10 2013
@@ -20,7 +20,7 @@
 %o A014499 (Haskell)
 %o A014499 a014499 = a000120 . a000040  -- _Reinhard Zumkeller_, Feb 10 2013
 %o A014499 (Magma) [&+Intseq(NthPrime(n), 2): n in [1..100] ]; // _Vincenzo Librandi_, Mar 25 2014
-%o A014499 (Sage) [sum(i.digits(base=2)) for i in primes_first_n(200)] # _Tom Edgar_, Mar 25 2014
+%o A014499 (SageMath) [sum(i.digits(base=2)) for i in primes_first_n(200)] # _Tom Edgar_, Mar 25 2014
 %o A014499 (Python)
 %o A014499 from sympy import prime
 %o A014499 def A014499(n): return prime(n).bit_count() # _Chai Wah Wu_, Mar 22 2023

@@ -1,8 +1,8 @@
-%I A256574 #62 Feb 16 2025 08:33:25
+%I A256574 #64 Jul 23 2025 15:12:59
 %S A256574 1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,
 %T A256574 0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,0,0,0,1,0,0,2,0,0,0,0,0,0,0,1,1,0,0,
 %U A256574 0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0
-%N A256574 Expansion of chi(x) * psi(-x^3) * psi(x^48) in powers of x where psi(), chi() are Ramanujan theta functions
+%N A256574 Expansion of chi(x) * psi(-x^3) * psi(x^48) in powers of x where psi(), chi() are Ramanujan theta functions.
 %C A256574 Ramanujan theta functions: f(q) (see A121373), phi(q) (A000122), psi(q) (A010054), chi(q) (A000700).
 %H A256574 G. C. Greubel, <a href="/A256574/b256574.txt">Table of n, a(n) for n = 0..1000</a> (terms 0..86 from Michael Somos)
 %H A256574 Michael Somos, <a href="/A010815/a010815.txt">Introduction to Ramanujan theta functions</a>

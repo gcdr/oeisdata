@@ -1,4 +1,4 @@
-%I A128701 #21 Jun 18 2019 18:24:05
+%I A128701 #22 Nov 05 2025 15:35:32
 %S A128701 1,3,10,18,20,42,84,90,108,168,300,336,504,540,600,630,660,1008,1200,
 %T A128701 1560,1620,1980,2100,2340,2400,3024,3120,3240,3780,3960,4200,4680,
 %U A128701 5880,6120,6240,7920,8400,8820
@@ -7,7 +7,7 @@
 %H A128701 Amiram Eldar, <a href="/A128701/b128701.txt">Table of n, a(n) for n = 1..8404</a>
 %H A128701 L. Alaoglu and P. Erdős, <a href="http://www.renyi.hu/~p_erdos/1944-03.pdf">On highly composite and similar numbers</a>, Trans. Amer. Math. Soc., 56 (1944), 448-469.
 %H A128701 Jeffrey C. Lagarias, <a href="https://arxiv.org/abs/math/0008177">An Elementary Problem Equivalent to the Riemann Hypothesis</a>, arXiv:math/0008177 [math.NT], 2000-2001.
-%H A128701 Jeffrey C. Lagarias, <a href="http://www.jstor.org/stable/2695443">An elementary problem equivalent to the Riemann hypothesis</a>, American Mathematical Monthly 109 (2002), pp. 534-543.
+%H A128701 Jeffrey C. Lagarias, <a href="https://www.jstor.org/stable/2695443">An elementary problem equivalent to the Riemann hypothesis</a>, American Mathematical Monthly 109 (2002), pp. 534-543.
 %H A128701 Wikipedia, <a href="http://en.wikipedia.org/wiki/Highly_abundant_number">Highly Abundant Numbers</a>.
 %F A128701 The highly abundant numbers (A002093) are those values of n for which sigma(n)>sigma(m) for all m<n, where sigma(n)= A000203(n).
 %e A128701 As 10 is the third highly abundant number that cannot be expressed as a product of consecutive primes with nonincreasing exponents, then a(3)=10.

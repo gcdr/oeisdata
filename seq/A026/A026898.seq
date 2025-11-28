@@ -1,4 +1,4 @@
-%I A026898 #129 Jan 31 2024 17:54:01
+%I A026898 #138 Sep 22 2025 16:00:28
 %S A026898 1,2,4,9,23,66,210,733,2781,11378,49864,232769,1151915,6018786,
 %T A026898 33087206,190780213,1150653921,7241710930,47454745804,323154696185,
 %U A026898 2282779990495,16700904488706,126356632390298,987303454928973,7957133905608837,66071772829247410
@@ -32,9 +32,11 @@
 %H A026898 Reinhard Zumkeller, <a href="/A026898/b026898.txt">Table of n, a(n) for n = 0..500</a>
 %H A026898 Fufa Beyene, Jörgen Backelin, Roberto Mantaci, and Samuel A. Fufa, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL26/Beyene/beyene13.html">Set Partitions and Other Bell Number Enumerated Objects</a>, J. Int. Seq., Vol. 26 (2023), Article 23.1.8.
 %H A026898 Giulio Cerbai, <a href="https://arxiv.org/abs/2401.10027">Pattern-avoiding modified ascent sequences</a>, arXiv:2401.10027 [math.CO], 2024. See p. 12.
+%H A026898 Giulio Cerbai and Anders Claesson, <a href="https://arxiv.org/abs/2507.09304">Counting fixed-point-free Cayley permutations</a>, arXiv:2507.09304 [math.CO], 2025. See p. 25.
 %H A026898 Sajed Haque, <a href="http://hdl.handle.net/10012/12234">Discriminators of Integer Sequences</a>, 2017, See p. 33 Corollary 29.
 %H A026898 Mathematics Stack Exchange, <a href="https://math.stackexchange.com/questions/77790/asymptotics-of-1n-2n-1-3n-2-cdots-n-12-n1/78167#78167">Asymptotics of ...</a>, 2011.
-%H A026898 Chunyan Yan and Zhicong Lin, <a href="https://arxiv.org/abs/1912.03674">Inversion sequences avoiding pairs of patterns</a>, arXiv:1912.03674 [math.CO], 2019.
+%H A026898 Chunyan Yan and Zhicong Lin, <a href="https://arxiv.org/abs/1912.03674">Inversion sequences avoiding pairs of patterns</a>, arXiv:1912.03674 [math.CO], 2019. See p. 3.
+%H A026898 Robin D. P. Zhou, <a href="https://arxiv.org/abs/2505.05171">Pattern avoidance in revised ascent sequences</a>, arXiv:2505.05171 [math.CO], 2025. See p. 4.
 %F A026898 a(n) = A003101(n) + 1.
 %F A026898 G.f.: Sum_{n>=0} x^n/(1 - (n+1)*x). - _Paul D. Hanna_, Sep 13 2011
 %F A026898 G.f.: G(0) where G(k) = 1 + x*(2*k*x-1)/((2*k*x+x-1) - x*(2*k*x+x-1)^2/(x*(2*k*x+x-1) + (2*k*x+2*x-1)/G(k+1) )); (continued fraction). - _Sergei N. Gladkovskii_, Jan 26 2013
@@ -88,7 +90,7 @@
 %o A026898 a026898 n = sum $ zipWith (^) [n + 1, n .. 1] [0 ..]
 %o A026898 -- _Reinhard Zumkeller_, Sep 14 2014
 %o A026898 (Magma) [(&+[(n-k+1)^k: k in [0..n]]): n in [0..50]]; // _Stefano Spezia_, Jan 09 2019
-%o A026898 (Sage) [sum((n-j+1)^j for j in (0..n)) for n in (0..30)] # _G. C. Greubel_, Jun 15 2021
+%o A026898 (SageMath) [sum((n-j+1)^j for j in (0..n)) for n in (0..30)] # _G. C. Greubel_, Jun 15 2021
 %Y A026898 Cf. A000110, A000258, A000670, A003101, A008277, A038125, A062810.
 %Y A026898 Cf. A105795, A179928, A287215, A287216.
 %K A026898 nonn

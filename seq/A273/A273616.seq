@@ -1,4 +1,4 @@
-%I A273616 #8 May 27 2016 05:21:05
+%I A273616 #9 Nov 05 2025 15:22:34
 %S A273616 1,4,4,2,5,8,4,2,4,8,11,4,2,10,8,1,4,12,10,8,9,8,9,1,4,17,16,6,3,16,8,
 %T A273616 1,4,8,18,10,8,12,13,2,10,18,9,8,5,17,11,3,2,15,22,7,13,15,17,4,6,10,
 %U A273616 11,14,2,18,17,1,5,23,13,9,13,14,14,1,8,16,26,8,4,16,7,1,8
@@ -6,7 +6,7 @@
 %C A273616 Conjecture: For each ordered pair (a,b) = (3,13), (5,11), (15,57), (15,165), (138,150), any natural number can be written as x^2 + y^2 + z^2 + w^2 with (a*x^2+b*y^2)*z a square, where x,y,z,w are nonnegative integers.
 %C A273616 For more conjectural refinements of Lagrange's four-square theorem, see the author's preprint arXiv:1604.06723.
 %H A273616 Zhi-Wei Sun, <a href="/A273616/b273616.txt">Table of n, a(n) for n = 0..10000</a>
-%H A273616 Zhi-Wei Sun, <a href="http://arxiv.org/abs/1604.06723">Refining Lagrange's four-square theorem</a>, arXiv:1604.06723 [math.GM], 2016.
+%H A273616 Zhi-Wei Sun, <a href="https://arxiv.org/abs/1604.06723">Refining Lagrange's four-square theorem</a>, arXiv:1604.06723 [math.GM], 2016.
 %e A273616 a(15) = 1 since 15 = 2^2 + 1^2 + 1^2 + 3^2 with (3*2^2+13*1^2)*1 = 5^2.
 %e A273616 a(23) = 1 since 23 = 3^2 + 3^2 + 1^2 + 2^2 with (3*3^2+13*3^2)*1 = 12^2.
 %e A273616 a(31) = 1 since 31 = 2^2 + 1^2 + 1^2 + 5^2 with (3*2^2+13*1^2)*1 = 5^2.

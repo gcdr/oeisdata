@@ -1,4 +1,4 @@
-%I A072167 #23 Dec 01 2018 07:59:05
+%I A072167 #24 Nov 05 2025 15:22:02
 %S A072167 1,2,6,24,120,720,5040,40320,362880,3628800,39916799,479001478,
 %T A072167 6227012074,87177809092,1307651456625,20921799763626,355647213494682,
 %U A072167 6400805686152436,121585553747301448,2430677026538811240
@@ -6,7 +6,7 @@
 %C A072167 In general, column k > 1 of A214015 is asymptotic to (Product_{j=1..k} j!) * k^(2*n + k^2/2) / (Pi^((k-1)/2) * 2^((k-1)*(k+2)/2) * n^((k^2-1)/2)). - _Vaclav Kotesovec_, Sep 10 2014
 %H A072167 Vaclav Kotesovec, <a href="/A072167/b072167.txt">Table of n, a(n) for n = 1..500</a>
 %H A072167 F. Bergeron and F. Gascon, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL3/CYT/cyt.html">Counting Young tableaux of bounded height</a>, J. Integer Sequences, Vol. 3 (2000), #00.1.7.
-%H A072167 Shalosh B. Ekhad, Nathaniel Shar, and Doron Zeilberger, <a href="http://arxiv.org/abs/1504.02513">The number of 1...d-avoiding permutations of length d+r for SYMBOLIC d but numeric r</a>, arXiv:1504.02513 [math.CO], 2015.
+%H A072167 Shalosh B. Ekhad, Nathaniel Shar, and Doron Zeilberger, <a href="https://arxiv.org/abs/1504.02513">The number of 1...d-avoiding permutations of length d+r for SYMBOLIC d but numeric r</a>, arXiv:1504.02513 [math.CO], 2015.
 %H A072167 Ira M. Gessel, <a href="http://dx.doi.org/10.1016/0097-3165(90)90060-A">Symmetric functions and P-recursiveness</a>, J. Combin. Theory Ser. A 53 (1990), no. 2, 257-285.
 %H A072167 Nathaniel Shar, <a href="https://pdfs.semanticscholar.org/98e3/71b675789ed6ec4f9c9cd82e2dee9ca79399.pdf">Experimental methods in permutation patterns and bijective proof</a>, PhD Dissertation, Mathematics Department, Rutgers University, May 2016.
 %F A072167 a(n) ~ 546852789 * 2^(2*n + 26)* 5^(2*n + 55) / (n^(99/2) * Pi^(9/2)). - _Vaclav Kotesovec_, Sep 10 2014

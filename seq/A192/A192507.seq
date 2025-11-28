@@ -1,4 +1,4 @@
-%I A192507 #24 Apr 26 2024 12:25:50
+%I A192507 #25 Sep 22 2025 16:01:06
 %S A192507 0,0,1,2,7,14,52,104,333,870,2571,4590,20440,56736,133782,327558,
 %T A192507 1265391,2612694,10188836,20769420,76562106
 %N A192507 Number of conjugacy classes of primitive elements in GF(3^n) which have trace 0.
@@ -17,7 +17,7 @@
 %o A192507     return cnt/n;
 %o A192507 end;
 %o A192507 for n in [1..16] do  Print (a(n), ", ");  od;
-%o A192507 (Sage) # much more efficient
+%o A192507 (SageMath) # much more efficient
 %o A192507 p=3; # choose characteristic
 %o A192507 for n in range(1,66):
 %o A192507     F = GF(p^n, 'x')

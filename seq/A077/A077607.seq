@@ -1,4 +1,4 @@
-%I A077607 #85 Feb 29 2020 18:11:08
+%I A077607 #87 Nov 05 2025 15:22:02
 %S A077607 1,-2,-2,-8,-44,-296,-2312,-20384,-199376,-2138336,-24936416,
 %T A077607 -314142848,-4252773824,-61594847360,-950757812864,-15586971531776,
 %U A077607 -270569513970944,-4959071121374720,-95721139472072192,-1941212789888952320,-41271304403571227648
@@ -8,7 +8,7 @@
 %H A077607 Jean-Christophe Aval, Jean-Christophe Novelli, Jean-Yves Thibon, <a href="https://dmtcs.episciences.org/2892">The # product in combinatorial Hopf algebras</a>, dmtcs:2892 - Discrete Mathematics & Theoretical Computer Science, January 1, 2011, DMTCS Proceedings vol. AO, 23rd International Conference on Formal Power Series and Algebraic Combinatorics (FPSAC 2011).
 %H A077607 Richard J. Martin, and Michael J. Kearney, <a href="http://dx.doi.org/10.1007/s00493-014-3183-3">Integral representation of certain combinatorial recurrences</a>, Combinatorica: 35:3 (2015), 309-315.
 %H A077607 Ioannis Michos, Christina Savvidou, <a href="https://arxiv.org/abs/1803.08818">Enumeration of super-strong Wilf equivalence classes of permutations</a>, arXiv:1803.08818 [math.CO], 2018.
-%H A077607 Vincent Pilaud, V. Pons, <a href="http://arxiv.org/abs/1606.09643">Permutrees</a>, arXiv preprint arXiv:1606.09643 [math.CO], 2016 (Unsigned version).
+%H A077607 Vincent Pilaud, V. Pons, <a href="https://arxiv.org/abs/1606.09643">Permutrees</a>, arXiv preprint arXiv:1606.09643 [math.CO], 2016 (Unsigned version).
 %F A077607 a(n) = -n!*a(1)-(n-1)!*a(2)-...-2!*a(n-1), with a(1)=1.
 %F A077607 G.f.: 1/Sum_{k>=0} (k+1)!*x^k. - _Vladeta Jovovic_, May 04 2003
 %F A077607 From _Sergei N. Gladkovskii_, Aug 15 2012 - Nov 07 2013: (Start)
@@ -31,7 +31,7 @@
 %p A077607 seq(a(n), n=1..25);  # _Alois P. Heinz_, Dec 20 2017
 %t A077607 Clear[a]; a[1]=1; a[n_]:=a[n]=Sum[-(n-j+1)!*a[j],{j,1,n-1}]; Table[a[n],{n,1,20}] (* _Vaclav Kotesovec_, Jul 27 2015 *)
 %t A077607 terms=21; 1/Sum[(k+1)!*x^k, {k, 0, terms}]+O[x]^terms // CoefficientList[#, x]& (* _Jean-François Alcover_, Dec 20 2017, after _Vladeta Jovovic_ *)
-%o A077607 (Sage)
+%o A077607 (SageMath)
 %o A077607 def A077607_list(len):
 %o A077607     R, C = [1], [1]+[0]*(len-1)
 %o A077607     for n in (1..len-1):

@@ -1,8 +1,8 @@
-%I A203787 #5 Mar 31 2012 12:36:58
+%I A203787 #9 Oct 03 2025 10:43:32
 %S A203787 90,565,565,3352,10109,3352,18332,187118,187118,18332,93578,2903185,
 %T A203787 13948153,2903185,93578,452825,38244007,855879499,855879499,38244007,
 %U A203787 452825,2103364,439011778,42858325343,215433191774,42858325343,439011778
-%N A203787 T(n,k)=Number of (n+1)X(k+1) 0..3 arrays with column and row pair sums b(i,j)=a(i,j)+a(i,j-1) and c(i,j)=a(i,j)+a(i-1,j) such that rows of b(i,j) and columns of c(i,j) are lexicographically nondecreasing
+%N A203787 T(n,k)=Number of (n+1)X(k+1) 0..3 arrays with column and row pair sums b(i,j)=a(i,j)+a(i,j-1) and c(i,j)=a(i,j)+a(i-1,j) such that rows of b(i,j) and columns of c(i,j) are lexicographically nondecreasing.
 %C A203787 Table starts
 %C A203787 ......90.........565.............3352.................18332
 %C A203787 .....565.......10109...........187118...............2903185
@@ -21,4 +21,4 @@
 %e A203787 ..2..3..0..2....2..3..2..2....2..3..3..3....2..2..2..2....3..3..3..3
 %K A203787 nonn,tabl
 %O A203787 1,1
-%A A203787 _R. H. Hardin_ Jan 05 2012
+%A A203787 _R. H. Hardin_, Jan 05 2012

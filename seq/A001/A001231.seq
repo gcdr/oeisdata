@@ -1,4 +1,4 @@
-%I A001231 #29 Feb 16 2025 08:32:23
+%I A001231 #31 Jul 08 2025 00:18:27
 %S A001231 1,1,1,1,0,1,1,4,0
 %N A001231 Number of nonisomorphic projective planes of order n.
 %C A001231 The Bruck-Ryser theorem says that a(n)=0 if n == 1 or 2 (mod 4) and is not the sum of two squares.
@@ -13,4 +13,4 @@
 %H A001231 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/ProjectivePlane.html">Projective Planes</a>
 %K A001231 nonn,hard,more,nice
 %O A001231 2,8
-%A A001231 _N. J. A. Sloane_.
+%A A001231 _N. J. A. Sloane_

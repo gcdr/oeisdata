@@ -1,7 +1,7 @@
-%I A226270 #23 Mar 19 2024 12:28:14
+%I A226270 #24 Nov 05 2025 15:22:24
 %S A226270 1,7,69,843,12081,197127
 %N A226270 Number of primitive permutations with n buds and 3 red or blue elements.
-%H A226270 Adrian Ocneanu, <a href="http://arxiv.org/abs/1304.1263">On the inner structure of a permutation: bicolored partitions and Eulerians, trees and primitives</a>; arXiv preprint arXiv:1304.1263 [math.CO], 2013.
+%H A226270 Adrian Ocneanu, <a href="https://arxiv.org/abs/1304.1263">On the inner structure of a permutation: bicolored partitions and Eulerians, trees and primitives</a>; arXiv preprint arXiv:1304.1263 [math.CO], 2013.
 %H A226270 Jianghao Xu and Di Yang, <a href="https://arxiv.org/abs/2403.04631">Galilean symmetry of the KdV hierarchy</a>, arXiv:2403.04631 [math-ph], 2024. See p. 6.
 %F A226270 Conjectural recurrence: a(n) = (1/3)*(n+1)*d(n+2) - Sum_{k = 0..n-1} d(n+1-k)*a(k)  with a(0)= 1, where d(n) = (2*n-1)!! = A001147(n). If true then the sequence continues [1, 7, 69, 843, 12081, 197127, 3595509, 72393003, 1594224801, 38123341767, 984142175589, ...]. - _Peter Bala_, Dec 26 2019
 %F A226270 From _Peter Bala_, Jul 07 2022: (Start)

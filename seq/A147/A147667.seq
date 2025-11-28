@@ -1,9 +1,9 @@
-%I A147667 #23 May 14 2022 20:23:10
+%I A147667 #26 Aug 03 2025 13:20:48
 %S A147667 61,1136791005963704961126617632861,
 %T A147667 173472015290681763212224222187425603741981,
 %U A147667 31861838222649045530727106406255616308752331078816472270207782250106896363274089867800367051529351065966102374800998198276889145001421
-%N A147667 Primes of the form 5^n - 4^n.
-%C A147667 All terms are odd, and if n is even, then 5^n - 4^n is divisible by 3. [_Vincenzo Librandi_, Nov 25 2010]
+%N A147667 Primes of the form 5^k - 4^k.
+%C A147667 All terms are odd, and if k is even, then 5^k - 4^k is divisible by 3. [_Vincenzo Librandi_, Nov 25 2010]
 %C A147667 The next term (a(5)) has 156 digits. - _Harvey P. Dale_, May 14 2022
 %H A147667 Muniru A Asiru, <a href="/A147667/b147667.txt">Table of n, a(n) for n = 1..9</a>
 %e A147667 5^3 - 4^3 = 125 - 64 = 61.

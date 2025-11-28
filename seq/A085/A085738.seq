@@ -1,12 +1,12 @@
-%I A085738 #38 Jun 12 2021 13:38:00
+%I A085738 #44 Nov 10 2025 21:50:38
 %S A085738 1,2,2,6,3,6,1,6,6,1,30,30,15,30,30,1,30,15,15,30,1,42,42,105,105,105,
 %T A085738 42,42,1,42,21,105,105,21,42,1,30,30,105,105,105,105,105,30,30,1,30,
 %U A085738 15,105,105,105,105,15,30,1,66,66,165,165,1155,231,1155,165,165,66,66
 %N A085738 Denominators in triangle formed from Bernoulli numbers.
 %C A085738 Triangle is determined by rules 0) the top number is 1; 1) each number is the sum of the two below it; 2) it is left-right symmetric; 3) the numbers in each of the border rows, after the first 3, are alternately 0.
-%C A085738 Up to signs this is the difference table of the Bernoulli numbers (see A212196). The Sage script below is based on L. Seidel's algorithm and does not make use of a library function for the Bernoulli numbers; in fact it generates the Bernoulli numbers on the fly. - _Peter Luschny_, May 04 2012
+%C A085738 Up to signs this is the difference table of the Bernoulli numbers (see A212196). The SageMath script below is based on L. Seidel's algorithm and does not make use of a library function for the Bernoulli numbers; in fact it generates the Bernoulli numbers on the fly. - _Peter Luschny_, May 04 2012
 %H A085738 Fabien Lange and Michel Grabisch, <a href="http://dx.doi.org/10.1016/j.disc.2008.12.007">The interaction transform for functions on lattices</a> Discrete Math. 309 (2009), no. 12, 4037-4048. [From _N. J. A. Sloane_, Nov 26 2011]
-%H A085738 Peter Luschny, <a href="http://oeis.org/wiki/User:Peter_Luschny/ComputationAndAsymptoticsOfBernoulliNumbers">The computation and asymptotics of the Bernoulli numbers</a>.
+%H A085738 Peter Luschny, <a href="https://oeis.org/wiki/User:Peter_Luschny/ComputationAndAsymptoticsOfBernoulliNumbers">The computation and asymptotics of the Bernoulli numbers</a>.
 %H A085738 Ludwig Seidel, <a href="https://www.zobodat.at/pdf/Sitz-Ber-Akad-Muenchen-math-Kl_1877_0157-0187.pdf">Über eine einfache Entstehungsweise der Bernoulli'schen Zahlen und einiger verwandten Reihen</a>, Sitzungsberichte der mathematisch-physikalischen Classe der königlich bayerischen Akademie der Wissenschaften zu München, volume 7 (1877), 157-187. [_Peter Luschny_, May 04 2012]
 %F A085738 T(n, 0) = (-1)^n*Bernoulli(n); T(n, k) = T(n-1, k-1) - T(n, k-1) for k=1..n. [Corrected (sign flipped) by _R. J. Mathar_, Jun 02 2010]
 %F A085738 Let U(m, n) = (-1)^(m + n)*T(m+n, n). Then the e.g.f. for U(m, n) is (x - y)/(e^x - e^y). - _Ira M. Gessel_, Jun 12 2021
@@ -23,7 +23,7 @@
 %t A085738 t[n_, 0] := (-1)^n BernoulliB[n];
 %t A085738 t[n_, k_] := t[n, k] = t[n-1, k-1] - t[n, k-1];
 %t A085738 Table[t[n, k] // Denominator, {n, 0, 10}, {k, 0, n}] (* _Jean-François Alcover_, Jun 04 2019 *)
-%o A085738 (Sage) # uses[BernoulliDifferenceTable from A085737]
+%o A085738 (SageMath) # uses[BernoulliDifferenceTable from A085737]
 %o A085738 def A085738_list(n): return [q.denominator() for q in BernoulliDifferenceTable(n)]
 %o A085738 A085738_list(6)
 %o A085738 # _Peter Luschny_, May 04 2012

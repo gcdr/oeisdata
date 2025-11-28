@@ -1,4 +1,4 @@
-%I A106616 #38 Nov 25 2022 13:17:35
+%I A106616 #39 Sep 22 2025 16:00:47
 %S A106616 0,1,2,1,4,1,2,7,8,3,2,11,4,13,14,1,16,17,6,19,4,7,22,23,8,5,26,9,28,
 %T A106616 29,2,31,32,11,34,7,12,37,38,13,8,41,14,43,44,3,46,47,16,49,10,17,52,
 %U A106616 53,18,11,56,19,58,59,4,61,62,21,64,13,22,67,68,23,14,71,24,73,74,5,76,77,26
@@ -17,7 +17,7 @@
 %F A106616 Sum_{k=1..n} a(k) ~ (49/150) * n^2. (End)
 %p A106616 seq(numer(n/(n+15)),n=0..100); # _Nathaniel Johnston_, Apr 18 2011
 %t A106616 f[n_]:=Numerator[n/(n+15)]; Array[f,100,0] (* _Vladimir Joseph Stephan Orlovsky_, Feb 17 2011*)
-%o A106616 (Sage) [lcm(n,15)/15 for n in range(0, 79)] # _Zerinvary Lajos_, Jun 09 2009
+%o A106616 (SageMath) [lcm(n,15)/15 for n in range(0, 79)] # _Zerinvary Lajos_, Jun 09 2009
 %o A106616 (Magma) [Numerator(n/(n+15)): n in [0..100]]; // _Vincenzo Librandi_, Apr 18 2011
 %o A106616 (PARI) a(n) = numerator(n/(n+15)); \\ _Michel Marcus_, Feb 19 2017
 %o A106616 (GAP) List([0..80],n->NumeratorRat(n/(n+15))); # _Muniru A Asiru_, Feb 19 2019

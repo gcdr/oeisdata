@@ -1,4 +1,4 @@
-%I A157077 #42 Feb 16 2025 08:33:09
+%I A157077 #43 Sep 22 2025 16:00:57
 %S A157077 1,0,2,-2,0,6,0,-12,0,20,6,0,-60,0,70,0,60,0,-280,0,252,-20,0,420,0,
 %T A157077 -1260,0,924,0,-280,0,2520,0,-5544,0,3432,70,0,-2520,0,13860,0,-24024,
 %U A157077 0,12870,0,1260,0,-18480,0,72072,0,-102960,0,48620,-252,0,13860,0,-120120,0,360360,0,-437580,0,184756
@@ -50,7 +50,7 @@
 %p A157077 with(orthopoly):with(PolynomialTools): seq(print(CoefficientList (2^n*P(n, x), x,termorder=forward)),n=0..10); # _Peter Luschny_, Dec 18 2014
 %t A157077 Table[CoefficientList[2^n*LegendreP[n, x], x], {n, 0, 10}]; Flatten[%]
 %o A157077 (PARI) tabl(nn) = for (n=0, nn, print(Vecrev(2^n*pollegendre(n)))); \\ _Michel Marcus_, Dec 18 2014
-%o A157077 (Sage)
+%o A157077 (SageMath)
 %o A157077 def A157077_row(n):
 %o A157077     if n==0: return [1]
 %o A157077     T = [c[0] for c in (2^n*gen_legendre_P(n, 0, x)).coefficients()]

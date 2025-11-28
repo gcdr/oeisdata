@@ -1,4 +1,4 @@
-%I A014225 #23 Feb 16 2025 08:32:33
+%I A014225 #25 Jul 08 2025 02:55:36
 %S A014225 1,2,4,8,20
 %N A014225 Number of initial pieces needed to reach level n in the Solitaire Army game.
 %C A014225 Level 4 is the highest level that can be reached.
@@ -9,4 +9,4 @@
 %Y A014225 Cf. A000980.
 %K A014225 nonn,fini,full
 %O A014225 0,2
-%A A014225 _N. J. A. Sloane_.
+%A A014225 _N. J. A. Sloane_

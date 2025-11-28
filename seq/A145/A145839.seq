@@ -1,4 +1,4 @@
-%I A145839 #30 Mar 08 2021 02:56:02
+%I A145839 #35 Sep 22 2025 16:00:55
 %S A145839 1,3,15,73,354,1716,8318,40320,195444,947380,4592256,22260144,
 %T A145839 107902088,523036176,2535324816,12289536016,59571339552,288761470848,
 %U A145839 1399719859808,6784893012864,32888561860032,159421452802624,772767131681280,3745851196992000
@@ -9,8 +9,9 @@
 %C A145839 For n>1, a(n) is the number of generalized compositions of n-1 when there are i^2/2 +3i/2 +1 different types of i, (i=1,2,...). - _Milan Janjic_, Sep 24 2010
 %D A145839 G. Louchard, Matrix compositions: a probabilistic approach, Proceedings of GASCom and Bijective Combinatorics 2008, Bibbiena, Italy, pp. 159-170.
 %H A145839 Alois P. Heinz, <a href="/A145839/b145839.txt">Table of n, a(n) for n = 0..1000</a>
-%H A145839 M. Janjic, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL18/Janjic/janjic63.html">On Linear Recurrence Equations Arising from Compositions of Positive Integers</a>, Journal of Integer Sequences, Vol. 18 (2015), Article 15.4.7.
-%H A145839 E. Munarini, M. Poneti, and S. Rinaldi, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL12/Rinaldi/rinaldi.html">Matrix compositions</a>, JIS 12 (2009) 09.4.8.
+%H A145839 Sela Fried, <a href="https://arxiv.org/abs/2505.14196">Even-up words and their variants</a>, arXiv:2505.14196 [math.CO], 2025. See p. 8.
+%H A145839 Milan Janjic, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL18/Janjic/janjic63.html">On Linear Recurrence Equations Arising from Compositions of Positive Integers</a>, Journal of Integer Sequences, Vol. 18 (2015), Article 15.4.7.
+%H A145839 Emanuele Munarini, Maddalena Poneti, and Simone Rinaldi, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL12/Rinaldi/rinaldi.html">Matrix compositions</a>, JIS 12 (2009) 09.4.8.
 %H A145839 <a href="/index/Rec#order_03">Index entries for linear recurrences with constant coefficients</a>, signature (6,-6,2).
 %F A145839 a(n+3) = 6*a(n+2) - 6*a(n+1) + 2*a(n).
 %F A145839 G.f.: (1-x)^3/(2*(1-x)^3 - 1).
@@ -22,7 +23,7 @@
 %p A145839 seq(a(n), n=0..25);  # _Alois P. Heinz_, Sep 01 2015
 %t A145839 Table[Sum[Binomial[n+3*k-1,n]/2^(k+1),{k,0,Infinity}],{n,0,20}] (* _Vaclav Kotesovec_, Dec 31 2013 *)
 %t A145839 a[n_]:= a[n]= If[n==0, 1, Sum[Binomial[n-j+2, 2]*a[j], {j,0,n-1}]]; Table[a[n], {n, 0, 20}] (* _G. C. Greubel_, Mar 07 2021 *)
-%o A145839 (Sage)
+%o A145839 (SageMath)
 %o A145839 @CachedFunction
 %o A145839 def a(n):
 %o A145839     if n==0: return 1

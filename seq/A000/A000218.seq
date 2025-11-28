@@ -1,4 +1,4 @@
-%I A000218 #47 Sep 08 2022 08:44:27
+%I A000218 #48 Nov 05 2025 15:35:22
 %S A000218 3,9,81,65,61,37,58,89,145,42,20,4,16,37,58,89,145,42,20,4,16,37,58,
 %T A000218 89,145,42,20,4,16,37,58,89,145,42,20,4,16,37,58,89,145,42,20,4,16,37,
 %U A000218 58,89,145,42,20,4,16,37,58,89,145,42,20,4,16,37,58,89,145,42,20,4,16,37
@@ -6,7 +6,7 @@
 %C A000218 Could also have offset 0, considered as the orbit of 3 under A003132, i.e., n-fold application of A003132 on the initial value 3. - _M. F. Hasler_, Apr 27 2018
 %D A000218 R. Honsberger, Ingenuity in Math., Random House, 1970, p. 83.
 %H A000218 Vincenzo Librandi, <a href="/A000218/b000218.txt">Table of n, a(n) for n = 1..100</a>
-%H A000218 Arthur Porges, <a href="http://www.jstor.org/stable/2304639">A set of eight numbers</a>, Amer. Math. Monthly 52 (1945), 379-382.
+%H A000218 Arthur Porges, <a href="https://www.jstor.org/stable/2304639">A set of eight numbers</a>, Amer. Math. Monthly 52 (1945), 379-382.
 %H A000218 A. Porges, <a href="/A003621/a003621.pdf">A set of eight numbers</a>, Amer. Math. Monthly, 52 (1945), 379-382. [Annotated scanned copy]
 %H A000218 <a href="/index/Rec#order_08">Index entries for linear recurrences with constant coefficients</a>, signature (0, 0, 0, 0, 0, 0, 0, 1).
 %F A000218 Eventually periodic with period 8.

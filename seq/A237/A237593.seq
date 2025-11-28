@@ -1,8 +1,8 @@
-%I A237593 #310 Jan 06 2025 20:03:48
+%I A237593 #337 Jul 31 2025 09:38:56
 %S A237593 1,1,2,2,2,1,1,2,3,1,1,3,3,2,2,3,4,1,1,1,1,4,4,2,1,1,2,4,5,2,1,1,2,5,
 %T A237593 5,2,2,2,2,5,6,2,1,1,1,1,2,6,6,3,1,1,1,1,3,6,7,2,2,1,1,2,2,7,7,3,2,1,
 %U A237593 1,2,3,7,8,3,1,2,2,1,3,8,8,3,2,1,1,1,1,2,3,8
-%N A237593 Triangle read by rows in which row n lists the elements of the n-th row of A237591 and then the elements of the same row but in reverse order.
+%N A237593 Triangle read by rows in which row n lists the elements of the n-th row of A237591 followed by the same elements in reverse order.
 %C A237593 Row n is a palindromic composition of 2*n.
 %C A237593 T(n,k) is also the length of the k-th segment in a Dyck path on the first quadrant of the square grid, connecting the x-axis with the y-axis, from (n, 0) to (0, n), starting with a segment in vertical direction, see example.
 %C A237593 Conjecture 1: the area under the n-th Dyck path equals A024916(n), the sum of all divisors of all positive integers <= n.
@@ -30,28 +30,30 @@
 %H A237593 Omar E. Pol, <a href="/A001065/a001065.jpg">Illustration of initial terms of A001065 in the pyramid</a>
 %H A237593 Omar E. Pol, <a href="/A048050/a048050.jpg">Illustration of initial terms of A048050 in the pyramid</a>
 %H A237593 Omar E. Pol, <a href="/A067742/a067742.jpg">Illustration of initial terms of A067742 in the pyramid</a>
+%H A237593 Omar E. Pol, <a href="/A237593/a237593_3.png">Illustration of initial terms of A224613</a>, (black spiders)
 %H A237593 Omar E. Pol, <a href="http://www.polprimos.com/imagenespub/polpyr02.jpg">Illustration of initial terms as an isosceles triangle (rows: 1..28)</a>
+%H A237593 Omar E. Pol, <a href="/A237593/a237593_1.png">The symmetric representation of sigma(n), n = 1..64</a>, (version with six colors)
 %H A237593 <a href="/index/Si#SIGMAN">Index entries for sequences related to sigma(n)</a>
 %F A237593 Let j(n)= floor((sqrt(8n+1)-1)/2) then T(n,k) = A237591(n,k), if k <= j(n); otherwise T(n,k) = A237591(n,2*j(n)+1-k). - _Hartmut F. W. Hoft_, Apr 07 2014 (corrected by _Omar E. Pol_, May 31 2015)
 %e A237593 Triangle begins:
 %e A237593    n
-%e A237593    1 | 1, 1;
-%e A237593    2 | 2, 2;
-%e A237593    3 | 2, 1, 1, 2;
-%e A237593    4 | 3, 1, 1, 3;
-%e A237593    5 | 3, 2, 2, 3;
-%e A237593    6 | 4, 1, 1, 1, 1, 4;
-%e A237593    7 | 4, 2, 1, 1, 2, 4;
-%e A237593    8 | 5, 2, 1, 1, 2, 5;
-%e A237593    9 | 5, 2, 2, 2, 2, 5;
-%e A237593   10 | 6, 2, 1, 1, 1, 1, 2, 6;
-%e A237593   11 | 6, 3, 1, 1, 1, 1, 3, 6;
-%e A237593   12 | 7, 2, 2, 1, 1, 2, 2, 7;
-%e A237593   13 | 7, 3, 2, 1, 1, 2, 3, 7;
-%e A237593   14 | 8, 3, 1, 2, 2, 1, 3, 8;
-%e A237593   15 | 8, 3, 2, 1, 1, 1, 1, 2, 3, 8;
-%e A237593   16 | 9, 3, 2, 1, 1, 1, 1, 2, 3, 9;
-%e A237593   17 | 9, 4, 2, 1, 1, 1, 1, 2, 4, 9;
+%e A237593    1 |  1, 1;
+%e A237593    2 |  2, 2;
+%e A237593    3 |  2, 1, 1, 2;
+%e A237593    4 |  3, 1, 1, 3;
+%e A237593    5 |  3, 2, 2, 3;
+%e A237593    6 |  4, 1, 1, 1, 1, 4;
+%e A237593    7 |  4, 2, 1, 1, 2, 4;
+%e A237593    8 |  5, 2, 1, 1, 2, 5;
+%e A237593    9 |  5, 2, 2, 2, 2, 5;
+%e A237593   10 |  6, 2, 1, 1, 1, 1, 2, 6;
+%e A237593   11 |  6, 3, 1, 1, 1, 1, 3, 6;
+%e A237593   12 |  7, 2, 2, 1, 1, 2, 2, 7;
+%e A237593   13 |  7, 3, 2, 1, 1, 2, 3, 7;
+%e A237593   14 |  8, 3, 1, 2, 2, 1, 3, 8;
+%e A237593   15 |  8, 3, 2, 1, 1, 1, 1, 2, 3, 8;
+%e A237593   16 |  9, 3, 2, 1, 1, 1, 1, 2, 3, 9;
+%e A237593   17 |  9, 4, 2, 1, 1, 1, 1, 2, 4, 9;
 %e A237593   18 | 10, 3, 2, 2, 1, 1, 2, 2, 3, 10;
 %e A237593   19 | 10, 4, 2, 2, 1, 1, 2, 2, 4, 10;
 %e A237593   20 | 11, 4, 2, 1, 2, 2, 1, 2, 4, 11;
@@ -59,7 +61,7 @@
 %e A237593   22 | 12, 4, 2, 2, 1, 1, 1, 1, 2, 2, 4, 12;
 %e A237593   23 | 12, 5, 2, 2, 1, 1, 1, 1, 2, 2, 5, 12;
 %e A237593   24 | 13, 4, 3, 2, 1, 1, 1, 1, 2, 3, 4, 13;
-%e A237593 ...
+%e A237593   ...
 %e A237593 Illustration of rows 8 and 9 interpreted as Dyck paths in the first quadrant and the illustration of the symmetric representation of sigma(9) = 5 + 3 + 5 = 13, see below:
 %e A237593 .
 %e A237593 y                       y
@@ -70,7 +72,7 @@
 %e A237593 .         |_            .             |                    |_  |
 %e A237593 .           |_ _        .             |_ _                   |_|_ _ 5
 %e A237593 .               |       .                 |                      | |
-%e A237593 .   Area = 56   |       .    Area = 69    |                      | |
+%e A237593 .   Area = 56   |       .    Area = 69    |          Area = 13   | |
 %e A237593 .               |       .                 |                      | |
 %e A237593 .               |       .                 |                      | |
 %e A237593 . . . . . . . . | . x   . . . . . . . . . | . x                  |_|
@@ -167,7 +169,8 @@
 %Y A237593 Column 1 = right border = A008619, n >= 1.
 %Y A237593 Bisections are in A259176, A259177.
 %Y A237593 For further information see A262626.
-%Y A237593 Cf. A000203, A000217, A001065, A001227, A024916, A048050, A054844, A067742, A072691, A131507, A196020, A221529, A235791, A236104, A237048, A237270, A237271, A237590, A237591, A239660, A239931-A239934, A244050, A244580, A245092, A249351, A261350, A261699, A262611, A262612, A279387, A280850, A280851, A286000, A286001, A296508, A335616, A340035.
+%Y A237593 Cf. A000203, A000217, A001065, A001227, A024916, A048050, A054844, A067742, A072691, A131507, A196020, A221529, A224613, A235791, A236104, A237048, A237270, A237271, A237590, A237591, A239660, A239931-A239934, A244050, A244580, A245092, A249351, A261350, A261699, A262611, A262612, A279387, A280850, A280851, A286000, A286001, A296508, A335616, A340035.
 %K A237593 nonn,tabf,look
 %O A237593 1,3
 %A A237593 _Omar E. Pol_, Feb 22 2014
+%E A237593 A minor edit to the definition. - _N. J. A. Sloane_, Jul 31 2025

@@ -1,4 +1,4 @@
-%I A028421 #86 Feb 25 2024 15:03:36
+%I A028421 #87 Sep 22 2025 16:00:29
 %S A028421 1,1,2,2,6,3,6,22,18,4,24,100,105,40,5,120,548,675,340,75,6,720,3528,
 %T A028421 4872,2940,875,126,7,5040,26136,39396,27076,9800,1932,196,8,40320,
 %U A028421 219168,354372,269136,112245,27216,3822,288,9
@@ -42,7 +42,7 @@
 %p A028421 ser := series(egf, t, 16): coefft := n -> expand(coeff(ser,t,n)):
 %p A028421 seq(seq(n!*coeff(coefft(n), x, k), k = 0..n), n = 0..8); # _Peter Luschny_, Jun 12 2022
 %t A028421 f[n_, k_] = (k + 1) StirlingS1[n + 1, k + 1] // Abs; Flatten[Table[f[n, k], {n, 0, 9}, {k, 0, n}]][[1 ;; 47]] (* _Jean-François Alcover_, Jun 01 2011, after formula *)
-%o A028421 (Sage) # uses[riordan_square from A321620]
+%o A028421 (SageMath) # uses[riordan_square from A321620]
 %o A028421 riordan_square(-ln(1 - x), 10, True) # _Peter Luschny_, Jan 03 2019
 %Y A028421 Row sums give A000254(n+1), n >= 0.
 %Y A028421 Cf. A132393 (unsigned Stirling1), A061356, A139526, A321620.

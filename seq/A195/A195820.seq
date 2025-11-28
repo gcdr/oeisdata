@@ -1,4 +1,4 @@
-%I A195820 #53 Feb 20 2023 07:51:30
+%I A195820 #55 Nov 05 2025 15:22:21
 %S A195820 0,1,1,3,2,7,5,12,13,22,22,43,43,67,81,117,133,195,223,312,373,492,
 %T A195820 584,782,925,1190,1433,1820,2170,2748,3268,4075,4872,5997,7150,8781,
 %U A195820 10420,12669,15055,18198,21535,25925,30602,36624,43201,51428,60478,71802,84215
@@ -7,7 +7,7 @@
 %H A195820 Alois P. Heinz, <a href="/A195820/b195820.txt">Table of n, a(n) for n = 1..1000</a>
 %H A195820 G. E. Andrews, <a href="https://web.archive.org/web/20171111124217/http://www.math.psu.edu/vstein/alg/antheory/preprint/andrews/17.pdf">The number of smallest parts in the partitions of n</a>
 %H A195820 A. Folsom and K. Ono, <a href="https://web.archive.org/web/20130602180858/http://www.math.wisc.edu/~ono/reprints/111.pdf">The spt-function of Andrews</a>
-%H A195820 F. G. Garvan, <a href="http://arxiv.org/abs/1011.1957">Congruences for Andrews' spt-function modulo 32760 and extension of Atkin's Hecke-type partition congruences</a>, arXiv:1011.1957 [math.NT], 2020.
+%H A195820 F. G. Garvan, <a href="https://arxiv.org/abs/1011.1957">Congruences for Andrews' spt-function modulo 32760 and extension of Atkin's Hecke-type partition congruences</a>, arXiv:1011.1957 [math.NT], 2020.
 %H A195820 F. G. Garvan, <a href="https://arxiv.org/abs/1011.1955">Congruences for Andrews' spt-function modulo powers of 5, 7 and 13</a>, arXiv:1011.1955 [math.NT], 2010.
 %H A195820 K. Ono, <a href="https://web.archive.org/web/20190304031914/http://www.mathcs.emory.edu/~ono/publications-cv/pdfs/131.pdf">Congruences for the Andrews spt-function</a>
 %H A195820 Wikipedia, <a href="http://en.wikipedia.org/wiki/Spt_function">Spt function</a>
@@ -31,7 +31,7 @@
 %p A195820 seq(a(n), n=1..60); # _Alois P. Heinz_, Apr 09 2012
 %t A195820 Table[s = Select[IntegerPartitions[n], ! MemberQ[#, 1] &]; Plus @@ Table[Count[x, Min[x]], {x, s}], {n, 50}] (* _T. D. Noe_, Oct 19 2011 *)
 %t A195820 b[n_, i_] := b[n, i] = If[n==0 || i<2, 0, b[n, i-1] + Sum[If[n== i*j, j, b[n-i*j, i-1]], {j, 1, n/i}]]; a[n_] := b[n, n]; Table[a[n], {n, 1, 60}] (* _Jean-François Alcover_, Oct 12 2015, after _Alois P. Heinz_ *)
-%o A195820 (Sage)
+%o A195820 (SageMath)
 %o A195820 def A195820(n):
 %o A195820     return sum(list(p).count(min(p)) for p in Partitions(n,min_part=2))
 %o A195820 # _D. S. McNeil_, Oct 19 2011

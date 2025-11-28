@@ -1,15 +1,16 @@
-%I A302185 #24 Jan 28 2025 07:47:59
+%I A302185 #30 Oct 29 2025 11:22:25
 %S A302185 1,2,7,24,98,400,1785,7980,37674,178164,874146,4294752,21667932,
 %T A302185 109436184,563910633,2908233900,15235550330,79870553620,424021948350,
 %U A302185 2252356700880,12088746573540,64913104882080,351594254659830,1905139854213960,10399223643879420,56783986550235000
 %N A302185 Number of 3D n-step walks of type acc.
 %C A302185 See Dershowitz (2017) for precise definition.
-%H A302185 Nachum Dershowitz, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL20/Dershowitz/dersh3.html">Touchard’s Drunkard</a>, Journal of Integer Sequences, Vol. 20 (2017), #17.1.5.
+%H A302185 Nachum Dershowitz, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL20/Dershowitz/dersh3.html">Touchard's Drunkard</a>, Journal of Integer Sequences, Vol. 20 (2017), #17.1.5.
 %F A302185 From _Mélika Tebni_, Dec 06 2024: (Start)
 %F A302185 E.g.f.: (BesselI(0, 2*x) + BesselI(1, 2*x))^2*BesselI(1, 2*x) / x.
 %F A302185 a(n) = Sum_{k=0..n} binomial(n, k)*A005558(k)*A001405(n-k).
 %F A302185 a(2*n+1) = 2*A302182(2*n+1) = A135394(n) / (n+1).
 %F A302185 For n > 0, a(A000918(n)) is odd. (End)
+%F A302185 D-finite with recurrence (n+4)*(n+3)*(n+2)*a(n) +2*(-6*n^3-37*n^2-61*n-18)*a(n-1) -4*n*(n^2-30*n-40)*a(n-2) +24*(20*n^3-54*n^2-14*n+63)*a(n-3) -432*(n-3)*(3*n^2-6*n-1)*a(n-4) +864*-(2*n-7)*(n-3)*(n-4)*a(n-5) +5184*(n-5)*(n-3)*(n-4)*a(n-6)=0. - _R. J. Mathar_, Oct 29 2025
 %p A302185 b:= n-> binomial(n, floor(n/2))*binomial(n+1, floor((n+1)/2)):
 %p A302185 C:= n-> binomial(2*n, n)/(n+1):
 %p A302185 a:= n-> add(binomial(n, 2*k)*C(k)*b(n-2*k), k=0..n/2):

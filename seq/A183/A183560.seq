@@ -1,4 +1,4 @@
-%I A183560 #17 Apr 26 2019 17:42:03
+%I A183560 #19 Jun 12 2025 07:59:56
 %S A183560 1,0,1,2,3,3,6,8,13,15,24,30,44,54,77,98,134,165,222,279,367,454,588,
 %T A183560 731,936,1148,1454,1788,2241,2732,3400,4140,5106,6183,7579,9157,11156,
 %U A183560 13406,16249,19482,23489,28042,33666,40087,47914,56851
@@ -6,6 +6,7 @@
 %C A183560 All parts of a number partition with the same value form a clique. The size of a clique is the number of elements in the clique.
 %H A183560 Alois P. Heinz, <a href="/A183560/b183560.txt">Table of n, a(n) for n = 3..1000</a>
 %F A183560 G.f.: (1-Product_{j>0} (1-x^(3*j)+x^(4*j))) / (Product_{j>0} (1-x^j)).
+%F A183560 a(n) = A000041(n) - A118807(n). - _Vaclav Kotesovec_, Jun 12 2025
 %e A183560 a(9) = 6, because 6 partitions of 9 contain (at least) one clique of size 3: [1,1,1,2,2,2], [2,2,2,3], [1,1,1,3,3], [3,3,3], [1,1,1,2,4], [1,1,1,6].
 %p A183560 b:= proc(n, i) option remember; `if`(n=0, [1, 0], `if`(i<1, [0, 0],
 %p A183560       add((l->`if`(j=3, [l[1]$2], l))(b(n-i*j, i-1)), j=0..n/i)))

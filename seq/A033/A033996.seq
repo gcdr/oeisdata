@@ -1,4 +1,4 @@
-%I A033996 #215 Feb 16 2025 08:32:36
+%I A033996 #216 Nov 05 2025 15:21:54
 %S A033996 0,8,24,48,80,120,168,224,288,360,440,528,624,728,840,960,1088,1224,
 %T A033996 1368,1520,1680,1848,2024,2208,2400,2600,2808,3024,3248,3480,3720,
 %U A033996 3968,4224,4488,4760,5040,5328,5624,5928,6240,6560,6888,7224,7568,7920,8280
@@ -20,7 +20,7 @@
 %D A033996 Stephen Wolfram, A New Kind of Science, Wolfram Media, 2002; p. 170.
 %H A033996 Ivan Panchenko, <a href="/A033996/b033996.txt">Table of n, a(n) for n = 0..1000</a>
 %H A033996 M. K. Siddiqui, M. Naeem, N. A. Rahman, and M. Imran, <a href="https://joam.inoe.ro/articles/computing-topological-indices-of-certain-networks/">Computing topological indices of certain networks</a>, J. of Optoelectronics and Advanced Materials, 18, No. 9-10, 2016, 884-892.
-%H A033996 N. J. A. Sloane, <a href="http://arxiv.org/abs/1503.01168">On the Number of ON Cells in Cellular Automata</a>, arXiv:1503.01168 [math.CO], 2015.
+%H A033996 N. J. A. Sloane, <a href="https://arxiv.org/abs/1503.01168">On the Number of ON Cells in Cellular Automata</a>, arXiv:1503.01168 [math.CO], 2015.
 %H A033996 Leo Tavares, <a href="/A033996/a033996.jpg">Illustration: Centroid Diamonds</a>.
 %H A033996 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/ElementaryCellularAutomaton.html">Elementary Cellular Automaton</a>.
 %H A033996 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/HamiltonianPath.html">Hamiltonian Path</a>.

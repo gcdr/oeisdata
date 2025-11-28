@@ -1,4 +1,4 @@
-%I A014575 #80 Feb 16 2025 08:32:33
+%I A014575 #84 Mar 14 2025 19:01:11
 %S A014575 1260,1395,1435,1530,1827,2187,6880,102510,104260,105210,105264,
 %T A014575 105750,108135,110758,115672,116725,117067,118440,120600,123354,
 %U A014575 124483,125248,125433,125460,125500,126027,126846,129640
@@ -7,6 +7,7 @@
 %D A014575 C. A. Pickover, "Vampire Numbers." Ch. 30 in Keys to Infinity. New York: Wiley, pp. 227-231, 1995.
 %H A014575 Giovanni Resta, <a href="/A014575/b014575.txt">Table of n, a(n) for n = 1..10000</a> (terms a(1)-a(87) by R. J. Mathar and a(88)-a(1006) by Manfred Scheucher)
 %H A014575 Ely Golden, <a href="/A014575/a014575.py.txt">Sympy program for generating vampire numbers (definition 2)</a>
+%H A014575 Shyam Sunder Gupta, <a href="https://doi.org/10.1007/978-981-97-2465-9_20">Cab and Vampire Numbers</a>, Exploring the Beauty of Fascinating Numbers, Springer (2025) Ch. 20, 499-512.
 %H A014575 Manfred Scheucher, <a href="/A014575/a014575.sage.txt">Sage Script</a>
 %H A014575 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/VampireNumber.html">Vampire Number</a>
 %e A014575 1260 = 21*60, 1395 = 15*93, 1435 = 35*41, 1530 = 30*51, etc.

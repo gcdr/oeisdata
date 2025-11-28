@@ -1,4 +1,4 @@
-%I A018567 #12 Sep 04 2022 13:57:45
+%I A018567 #14 Jul 08 2025 07:16:23
 %S A018567 1,2,4,7,14,23,28,46,92,161,322,644
 %N A018567 Divisors of 644.
 %H A018567 <a href="/index/Di#divisors">Index entries for sequences related to divisors of numbers</a>
@@ -6,4 +6,4 @@
 %o A018567 (PARI) divisors(644) \\ _Charles R Greathouse IV_, Jun 23 2017
 %K A018567 nonn,fini,full,easy
 %O A018567 1,2
-%A A018567 _N. J. A. Sloane_.
+%A A018567 _N. J. A. Sloane_

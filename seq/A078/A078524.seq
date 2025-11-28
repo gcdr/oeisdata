@@ -1,11 +1,11 @@
-%I A078524 #17 Jun 25 2017 00:01:15
+%I A078524 #18 Nov 05 2025 15:22:02
 %S A078524 1,2,9,176,23590375,9700106723,77436678274508929033,
 %T A078524 5562533838576105333259507434329,
 %U A078524 559498129702796022246895686372766052475496691,727291284016786420977508457990121862548823260052557333386607889
 %N A078524 Numerator of volume of Birkhoff polytope of n X n doubly-stochastic square matrices.
 %H A078524 N. J. A. Sloane, <a href="/A078524/b078524.txt">Table of n, a(n) for n = 1..10</a>
-%H A078524 Beck, Matthias, <a href="http://arxiv.org/abs/1407.0255">Stanley's Major Contributions to Ehrhart Theory</a>, arXiv preprint arXiv:1407.0255 (2014).
-%H A078524 Matthias Beck and Dennis Pixton, <a href="http://arxiv.org/abs/math/0202267">The Ehrhart polynomial of the Birkhoff polytope</a>, Discrete Comput. Geom. 30 (2003), no. 4, 623-637, arXiv:math.CO/0202267
+%H A078524 Beck, Matthias, <a href="https://arxiv.org/abs/1407.0255">Stanley's Major Contributions to Ehrhart Theory</a>, arXiv preprint arXiv:1407.0255 (2014).
+%H A078524 Matthias Beck and Dennis Pixton, <a href="https://arxiv.org/abs/math/0202267">The Ehrhart polynomial of the Birkhoff polytope</a>, Discrete Comput. Geom. 30 (2003), no. 4, 623-637, arXiv:math.CO/0202267
 %e A078524 Volumes for n=1 to 10, from Beck-Pixton (2003):
 %e A078524 1 1
 %e A078524 2 2

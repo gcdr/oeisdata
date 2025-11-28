@@ -1,8 +1,8 @@
-%I A212240 #23 Jul 26 2024 12:33:11
+%I A212240 #26 May 20 2025 08:30:26
 %S A212240 0,1,16,80,251,612,1269,2354,4021,6449,9844,14427,20458,28203,37972,
 %T A212240 50073,64876,82725,104046,129222,158741,193024,232607,277956,329675,
 %U A212240 388248,454353,528508,611435,703712,806121,919242,1043953,1180865
-%N A212240 Number of 2 X 2 matrices M of with all terms in {1,...,n} and permanent(M) >= n.
+%N A212240 Number of 2 X 2 matrices M with all terms in {1,...,n} and permanent(M) >= n.
 %C A212240 For a guide to related sequences, see A211795.
 %F A212240 a(n) + A212151(n) = n^4.
 %t A212240 t = Compile[{{n, _Integer}}, Module[{s = 0},

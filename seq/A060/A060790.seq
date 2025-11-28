@@ -1,4 +1,4 @@
-%I A060790 #43 Sep 13 2018 03:09:07
+%I A060790 #44 Nov 05 2025 15:22:01
 %S A060790 -1,2,2,3,15,38,110,323,927,2682,7754,22403,64751,187134,540822,
 %T A060790 1563011,4517183,13054898,37729362,109039875,315131087,910745750,
 %U A060790 2632104062,7606921923,21984412383,63536130986,183622826522,530679817859,1533693138351,4432455434478
@@ -6,7 +6,7 @@
 %C A060790 The ratio of successive terms approaches the constant phi+sqrt(phi) ~= 2.89005363826396..., where phi is the golden ratio (sqrt(5)+1)/2. The ratio between the curvatures of two successively smaller circles approaches this constant in any apollonian packing as the curvatures increase.
 %C A060790 For more comments, references and links, see A189226.
 %H A060790 Harry J. Smith, <a href="/A060790/b060790.txt">Table of n, a(n) for n = 0..200</a>
-%H A060790 Jeffrey C. Lagarias, Colin L. Mallows and Allan Wilks, <a href="http://arxiv.org/abs/math/0101066">Beyond the Descartes Circle Theorem</a>, arXiv:math/0101066 [math.MG], 2001.
+%H A060790 Jeffrey C. Lagarias, Colin L. Mallows and Allan Wilks, <a href="https://arxiv.org/abs/math/0101066">Beyond the Descartes Circle Theorem</a>, arXiv:math/0101066 [math.MG], 2001.
 %H A060790 Jeffrey C. Lagarias, Colin L. Mallows and Allan Wilks, <a href="https://www.jstor.org/stable/2695498">Beyond the Descartes Circle Theorem</a>, Amer. Math Monthly, 109 (2002), 338-361.
 %H A060790 I. Peterson, <a href="http://www.sciencenews.org/20010421/bob18.asp">Circle Game</a>, Science News, 4/21/01.
 %H A060790 <a href="/index/Rec#order_04">Index entries for linear recurrences with constant coefficients</a>, signature (2, 2, 2, -1).

@@ -1,8 +1,8 @@
-%I A208863 #5 Mar 31 2012 12:37:25
+%I A208863 #9 Oct 03 2025 15:03:02
 %S A208863 715,4313071,28686344276,192108983085145,1287681340443915644,
 %T A208863 8632160191264007914496,57867813487534623493632032,
 %U A208863 387931894337100662003223085624,2600602689186684798782025006594196
-%N A208863 Number of nX7 0..3 arrays with new values 0..3 introduced in row major order and no element equal to more than one of its immediate leftward or upward or left-upward diagonal neighbors
+%N A208863 Number of nX7 0..3 arrays with new values 0..3 introduced in row major order and no element equal to more than one of its immediate leftward or upward or left-upward diagonal neighbors.
 %C A208863 Column 7 of A208864
 %H A208863 R. H. Hardin, <a href="/A208863/b208863.txt">Table of n, a(n) for n = 1..42</a>
 %e A208863 Some solutions for n=4
@@ -12,4 +12,4 @@
 %e A208863 ..2..0..3..0..0..2..1....2..0..2..0..1..0..3....3..0..1..0..0..3..2
 %K A208863 nonn
 %O A208863 1,1
-%A A208863 _R. H. Hardin_ Mar 02 2012
+%A A208863 _R. H. Hardin_, Mar 02 2012

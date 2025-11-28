@@ -1,4 +1,4 @@
-%I A007654 M3154 #74 Mar 16 2023 08:14:54
+%I A007654 M3154 #75 Nov 05 2025 15:35:27
 %S A007654 0,3,48,675,9408,131043,1825200,25421763,354079488,4931691075,
 %T A007654 68689595568,956722646883,13325427460800,185599261804323,
 %U A007654 2585064237799728,36005300067391875,501489136705686528,6984842613812219523,97286307456665386800,1355023461779503195683
@@ -13,7 +13,7 @@
 %D A007654 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
 %H A007654 T. D. Noe, <a href="/A007654/b007654.txt">Table of n, a(n) for n = 1..100</a>
 %H A007654 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
-%H A007654 E. Keith Lloyd, <a href="http://www.jstor.org/stable/3619201">The Standard Deviation of 1, 2,..., n: Pell's Equation and Rational Triangles</a>, Math. Gaz. vol 81 (1997), 231-243.
+%H A007654 E. Keith Lloyd, <a href="https://www.jstor.org/stable/3619201">The Standard Deviation of 1, 2,..., n: Pell's Equation and Rational Triangles</a>, Math. Gaz. vol 81 (1997), 231-243.
 %H A007654 <a href="/index/Rec#order_03">Index entries for linear recurrences with constant coefficients</a>, signature (15,-15,1).
 %F A007654 a(n) = 3*A098301(n-1).
 %F A007654 a(m) = 14*a(m-1) - a(m-2) + 6.

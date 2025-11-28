@@ -1,8 +1,8 @@
-%I A237173 #4 Feb 04 2014 06:05:54
+%I A237173 #6 Jul 23 2025 09:56:02
 %S A237173 571176,93633848,13627618416,2332744838828,385253068529754,
 %T A237173 66811807395192508,11495860816900333298,2013818362850421458630,
 %U A237173 352273712297718345835074,62063584149783479203631672
-%N A237173 Number of (n+1)X(5+1) 0..3 arrays with the maximum minus the lower median of every 2X2 subblock equal
+%N A237173 Number of (n+1)X(5+1) 0..3 arrays with the maximum minus the lower median of every 2X2 subblock equal.
 %C A237173 Column 5 of A237175
 %H A237173 R. H. Hardin, <a href="/A237173/b237173.txt">Table of n, a(n) for n = 1..70</a>
 %e A237173 Some solutions for n=1

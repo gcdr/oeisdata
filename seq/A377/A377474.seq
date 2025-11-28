@@ -1,5 +1,5 @@
-%I A377474 #10 Nov 05 2024 11:09:36
-%S A377474 1,5,103,984,9785,97786,977787,9777788
+%I A377474 #16 May 01 2025 16:47:47
+%S A377474 1,5,103,984,9785,97786,977787,9777788,97777789
 %N A377474 Indices where new terms arise among first differences of Colombian or self numbers (A377472).
 %C A377474 See A377473 for the distinct values of the first differences in the order they appear for the first time.
 %F A377474 a(n+1) = a(n) + 88*10^(n-1) + 1 for n = 3, 4, ..., 7 at least.
@@ -16,3 +16,4 @@
 %K A377474 nonn,more
 %O A377474 1,2
 %A A377474 _M. F. Hasler_, Oct 30 2024
+%E A377474 a(9) from _Daniel Mondot_, May 01 2025

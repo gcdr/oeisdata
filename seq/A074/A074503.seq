@@ -1,9 +1,9 @@
-%I A074503 #17 May 21 2019 14:33:42
+%I A074503 #21 Oct 25 2025 11:51:19
 %S A074503 3,10,54,352,2418,16840,117714,823672,5765058,40354120,282476274,
 %T A074503 1977328792,13841291298,96889018600,678223089234,4747561542712,
 %U A074503 33232930635138,232630514118280,1628413598172594,11398895185897432
 %N A074503 a(n) = 1^n + 2^n + 7^n.
-%H A074503 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (10,-23,14).
+%H A074503 <a href="/index/Rec#order_03">Index entries for linear recurrences with constant coefficients</a>, signature (10,-23,14).
 %F A074503 From _Mohammad K. Azarian_, Dec 26 2008: (Start)
 %F A074503 G.f.: 1/(1-x) + 1/(1-2*x) + 1/(1-7*x).
 %F A074503 E.g.f.: e^x + e^(2*x) + e^(7*x). (End)

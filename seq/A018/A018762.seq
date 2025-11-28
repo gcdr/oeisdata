@@ -1,4 +1,4 @@
-%I A018762 #12 Sep 04 2022 14:45:33
+%I A018762 #14 Jul 08 2025 07:29:26
 %S A018762 1,2,3,5,6,9,10,11,15,18,22,30,33,45,55,66,90,99,110,165,198,330,495,
 %T A018762 990
 %N A018762 Divisors of 990.
@@ -7,4 +7,4 @@
 %o A018762 (PARI) divisors(990) \\ _Charles R Greathouse IV_, Jun 23 2017
 %K A018762 nonn,fini,full,easy
 %O A018762 1,2
-%A A018762 _N. J. A. Sloane_.
+%A A018762 _N. J. A. Sloane_

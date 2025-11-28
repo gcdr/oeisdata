@@ -1,21 +1,28 @@
-%I A269796 #17 May 15 2022 07:31:27
+%I A269796 #35 Oct 30 2025 17:32:12
 %S A269796 1,8,80,896,10752,135168,1757184,23429120,318636032,4402970624,
 %T A269796 61641588736,872465563648,12463793766400,179478630236160,
 %U A269796 2602440138424320,37965009078190080,556820133146787840,8205770383215820800,121445401671594147840,1804331681977970196480,26900945076762464747520
 %N A269796 a(n) = 4^n * A000108(n+1).
 %H A269796 Vincenzo Librandi, <a href="/A269796/b269796.txt">Table of n, a(n) for n = 0..500</a>
-%H A269796 Samuele Giraudo, <a href="http://arxiv.org/abs/1603.01394">Pluriassociative algebras II: The polydendriform operad and related operads</a>, arXiv:1603.01394 [math.CO], 2016. Cf. 2.1.10.
+%H A269796 Samuele Giraudo, <a href="https://arxiv.org/abs/1603.01394">Pluriassociative algebras II: The polydendriform operad and related operads</a>, arXiv:1603.01394 [math.CO], 2016. Cf. 2.1.10.
 %F A269796 G.f.: (1 - sqrt(1 - 16*x) - 8*x)/(32*x^2). - _Bruno Berselli_, Mar 07 2016
 %F A269796 a(n) = -2^(4*n + 3)*binomial(n + 1/2, -3/2), after _Peter Luschny_ in A000108. - _Bruno Berselli_, Mar 07 2016
 %F A269796 From _Amiram Eldar_, May 15 2022: (Start)
 %F A269796 Sum_{n>=0} 1/a(n) = 52/75 + 512*arcsin(1/4)/(75*sqrt(15)).
 %F A269796 Sum_{n>=0} (-1)^n/a(n) = 164/289 + 1536*arcsinh(1/4)/(289*sqrt(17)). (End)
+%F A269796 From _Karol A. Penson_, Aug 26 2025: (Start)
+%F A269796 O.g.f.: exp(Sum_{n>=1} A098430(n)*x^n/n).
+%F A269796 O.g.f.: exp(Sum_{n>=1} 4^n*(2*n)!*x^n/(n*(n!)^2)).
+%F A269796 a(n) = 4^n*binomial(2*n + 2, n + 1)/(n + 2).
+%F A269796 a(n) = Integral_{x=0..16} (x^n*sqrt(x)*sqrt(1 - x/16)/(8*Pi)) dx. (End)
+%F A269796 a(n) ~ 4^(2*n+1) / (n^(3/2) * sqrt(Pi)). - _Amiram Eldar_, Oct 16 2025
+%F A269796 E.g.f.: exp(8*x)*BesselI(1, 8*x)/(4*x). - _Stefano Spezia_, Oct 30 2025
 %t A269796 Table[4^n CatalanNumber[n + 1], {n, 0, 20}] (* _Bruno Berselli_, Mar 07 2016 *)
 %o A269796 (PARI) cat(n) = binomial(2*n,n)/(n+1);
 %o A269796 a(n) = 4^n*cat(n+1);
-%o A269796 (Sage) [4^n*catalan_number(n+1) for n in (0..20)] # _Bruno Berselli_, Mar 07 2016
+%o A269796 (SageMath) [4^n*catalan_number(n+1) for n in (0..20)] # _Bruno Berselli_, Mar 07 2016
 %o A269796 (Magma) [4^n*Catalan(n+1): n in [0..25]]; // _Vincenzo Librandi_, Apr 25 2016
-%Y A269796 Cf. A000108, A003645, A101600.
-%K A269796 nonn
+%Y A269796 Cf. A000108, A003645, A101600, A098430.
+%K A269796 nonn,easy
 %O A269796 0,2
 %A A269796 _Michel Marcus_, Mar 07 2016

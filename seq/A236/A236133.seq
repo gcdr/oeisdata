@@ -1,8 +1,8 @@
-%I A236133 #4 Jan 19 2014 09:38:31
+%I A236133 #6 Jul 23 2025 09:08:01
 %S A236133 256,3184,3184,39626,100832,39626,494612,3197642,3197642,494612,
 %T A236133 6174310,101879560,258642018,101879560,6174310,77042610,3244327356,
 %U A236133 21040871248,21040871248,3244327356,77042610,961334649,103269513130,1710006902480
-%N A236133 T(n,k)=Number of (n+1)X(k+1) 0..3 arrays colored with the maximum plus the upper median plus the lower median minus the minimum of every 2X2 subblock
+%N A236133 T(n,k)=Number of (n+1)X(k+1) 0..3 arrays colored with the maximum plus the upper median plus the lower median minus the minimum of every 2X2 subblock.
 %C A236133 Table starts
 %C A236133 .......256.........3184.........39626........494612.......6174310
 %C A236133 ......3184.......100832.......3197642.....101879560....3244327356

@@ -1,8 +1,8 @@
-%I A165125 #7 Apr 13 2024 22:53:55
+%I A165125 #9 Jun 02 2025 02:03:57
 %S A165125 1,0,0,0,1,0,0,1,1,1,1,0,1,2,1,1,2,2,3,2,2,1,4,2,3,2,3,3,4,2,3,4,4,4,
 %T A165125 4,4,4,5,4,4,5,4,5,5,5,5,6,5,6,6,6,5,7,6,7,6,6,6,8,6,7,7,8,8,8,7,7,9,
 %U A165125 8,8
-%N A165125 Number of n-digit fixed points under the base-9 Kaprekar map A165110
+%N A165125 Number of n-digit fixed points under the base-9 Kaprekar map A165110.
 %H A165125 <a href="/index/K#Kaprekar_map">Index entries for the Kaprekar map</a>
 %F A165125 Conjectures from _Chai Wah Wu_, Apr 13 2024: (Start)
 %F A165125 a(n) = a(n-2) - a(n-3) + a(n-5) - a(n-6) + a(n-8) + a(n-15) - a(n-17) + a(n-18) - a(n-20) + a(n-21) - a(n-23) for n > 24.

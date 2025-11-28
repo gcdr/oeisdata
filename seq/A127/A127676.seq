@@ -1,4 +1,4 @@
-%I A127676 #18 Sep 08 2022 08:45:29
+%I A127676 #19 Nov 05 2025 15:35:32
 %S A127676 1,4,17,104,347,4132,50251,47248,848261,16882724,16189889,357817912,
 %T A127676 1856017421,5753962988,161845337077,4871637351712,5008383140437,
 %U A127676 5137314884092,185568039683479,181286844605704,7599727236867089
@@ -6,7 +6,7 @@
 %C A127676 Denominators coincide with A025547(n+1) for n=0..41, but then start to differ. See the W. Lang link. denominator(r(42))=7422822568422519986207785205976075 but the corresponding entry is A025547(43)=126187983663182839765532348501593275.
 %D A127676 E. Maor, Trigonometric Delights, Princeton University Press, 1998, p. 205.
 %H A127676 G. C. Greubel, <a href="/A127676/b127676.txt">Table of n, a(n) for n = 0..1000</a>
-%H A127676 R. Ayoub, <a href="http://www.jstor.org/stable/2319041">Euler and the Zeta Function</a>, Am. Math. Monthly 81 (1974) 1067-1086, p. 1070.
+%H A127676 R. Ayoub, <a href="https://www.jstor.org/stable/2319041">Euler and the Zeta Function</a>, Am. Math. Monthly 81 (1974) 1067-1086, p. 1070.
 %H A127676 W. Lang, <a href="/A127676/a127676.txt">Rationals and limit. </a>
 %F A127676 a(n) = numerator(r(n)) with the rationals (in lowest terms) r(n) = Sum_{k=0..n} (-1)^floor(k/2)/(2*k+1).
 %e A127676 Rationals r(n): [1, 4/3, 17/15, 104/105, 347/315, 4132/3465, ...].

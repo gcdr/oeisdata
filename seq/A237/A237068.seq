@@ -1,8 +1,8 @@
-%I A237068 #5 Feb 03 2014 05:24:52
+%I A237068 #7 Jul 23 2025 09:47:48
 %S A237068 256,51000,53940782,540145357880,39085052507056252,
 %T A237068 22189788076602239718380,91400599993738526926922639384,
 %U A237068 2729637406626551747794693403062699368
-%N A237068 Number of (n+1)X(n+1) 0..3 arrays with the upper median of every 2X2 subblock equal
+%N A237068 Number of (n+1)X(n+1) 0..3 arrays with the upper median of every 2X2 subblock equal.
 %C A237068 Diagonal of A237076
 %H A237068 R. H. Hardin, <a href="/A237068/b237068.txt">Table of n, a(n) for n = 1..9</a>
 %e A237068 Some solutions for n=2

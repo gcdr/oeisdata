@@ -1,12 +1,12 @@
-%I A066411 #72 Oct 20 2021 00:31:37
+%I A066411 #84 Oct 28 2025 16:23:11
 %S A066411 1,1,3,5,23,61,143,215,995,2481,5785,12907,29279,64963,144289,158049,
 %T A066411 683311,1471123,3166531,6759177,14404547,30548713
 %N A066411 Form a triangle with the numbers [0..n] on the base, where each number is the sum of the two below; a(n) is the number of different possible values for the apex.
 %C A066411 a(n) is the number of different possible sums of c_k * (n choose k) where the c_k are a permutation of 0 through n. - _Joshua Zucker_, May 08 2006
 %e A066411 For n = 2 we have three triangles:
-%e A066411 ..4.......5.......3
-%e A066411 .1,3.....2,3.....2,1
-%e A066411 0,1,2...0,2,1...2,0,1
+%e A066411     4       5       3
+%e A066411    1,3     2,3     2,1
+%e A066411   0,1,2   0,2,1   2,0,1
 %e A066411 with three different values for the apex, so a(2) = 3.
 %t A066411 g[s_List] := Plus @@@ Partition[s, 2, 1]; f[n_] := Block[{k = 1, lmt = 1 + (n + 1)!, lst = {}, p = Permutations[Range[0, n]]}, While[k < lmt, AppendTo[ lst, Nest[g, p[[k]], n][[1]]]; k++]; lst]; Table[ Length@ Union@ f@ n, {n, 0, 10}] (* _Robert G. Wilson v_, Jan 24 2012 *)
 %o A066411 (MATLAB)
@@ -46,7 +46,7 @@
 %o A066411     }
 %o A066411     return 0 ;
 %o A066411 } /* _R. J. Mathar_, Jan 24 2012 */
-%o A066411 (PARI) A066411(n)={my(u=0,o=A189391(n),v,b=vector(n++,i,binomial(n-1,i-1))~);sum(k=1,n!\2,!bittest(u,numtoperm(n,k)*b-o) & u+=1<<(numtoperm(n,k)*b-o))}  \\ _M. F. Hasler_, Jan 24 2012
+%o A066411 (PARI) apply( {A066411(n)=my(o=A189391(n), b=vector(n++, i, binomial(n-1,i-1)), u, t); sum(k=1, n!, !bittest(u, t=b*Col(numtoperm(n,k))-o) && u+=1<<t)}, [0..7]) \\ Removed incorrect calculation speed-up following feedback from _Bill McEachen_. - _M. F. Hasler_, Jan 24 2012, updated and edited on Oct 13 through Oct 28 2025
 %o A066411 (Haskell)
 %o A066411 import Data.List (permutations, nub)
 %o A066411 a066411 0 = 1

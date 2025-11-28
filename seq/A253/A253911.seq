@@ -1,4 +1,4 @@
-%I A253911 #12 Oct 17 2020 18:03:17
+%I A253911 #15 Sep 04 2025 21:25:13
 %S A253911 12,43,65,87,911,1013,1217,1419,1523,1629,1831,2037,2141,2243,2447,
 %T A253911 2553,2659,2761,2867,3071,3273,3379,3483,3589,3697,38101,39103,40107,
 %U A253911 42109,44113,45127,46131,48137,49139,50149,51151,52157,54163,55167,56173,57179,58181,60191,62193,63197,64199,65211,66223,68227,69229
@@ -8,7 +8,7 @@
 %e A253911 a(5) = 911 because the 5th nonprime is 9 and the 5th prime is 11.
 %t A253911 cncat[{a_,b_}]:=FromDigits[Flatten[IntegerDigits/@{a,b}]]; Module[ {nn=100,np,len},np = Select[Range[nn],!PrimeQ[#]&];len=Length[np];cncat/@Thread[{np,Prime[Range[len]]}]] (* _Harvey P. Dale_, Oct 17 2020 *)
 %o A253911 (PARI) nprime(n)=c=0; k=1; while(k, if(!isprime(k), c++); if(c==n, return(k)); k++)
-%o A253911 vector(50, n, eval(concat(Str(nprime(n)), Str(prime(n))))) \\ Derek Orr, Feb 06 2015
+%o A253911 vector(50, n, eval(concat(Str(nprime(n)), Str(prime(n))))) \\ _Derek Orr_, Feb 06 2015
 %o A253911 (Haskell)
 %o A253911 import Data.Function (on)
 %o A253911 a253911 n = a253911_list !! (n-1)

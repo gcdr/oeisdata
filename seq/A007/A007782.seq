@@ -1,4 +1,4 @@
-%I A007782 #17 Feb 04 2015 15:46:34
+%I A007782 #19 Jul 03 2025 17:43:41
 %S A007782 1,2,4,6,10,14,18,26,34,42,50,62,78,94,110,126,142,162,186,218,250,
 %T A007782 282,314,346,378,410,446,486,534,590,654,718,782,846,910,974,1038,
 %U A007782 1102,1166,1234,1302,1378,1458,1554,1658,1774,1898,2026,2154,2282,2410,2538,2666
@@ -12,4 +12,4 @@
 %K A007782 nonn,nice
 %O A007782 0,2
 %A A007782 Patricia Lamas (lamas(AT)math.uqam.ca)
-%E A007782 Additional comments from Michael Baake (mbaake(AT)pion09.tphys.physik.uni-tuebingen.de), Feb 19, 2001.
+%E A007782 Additional comments from Michael Baake (mbaake(AT)pion09.tphys.physik.uni-tuebingen.de), Feb 19 2001.

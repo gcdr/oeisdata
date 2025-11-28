@@ -1,10 +1,10 @@
-%I A294729 #21 Sep 08 2022 08:46:20
+%I A294729 #24 Oct 18 2025 03:41:26
 %S A294729 6,8,10,14,15,25,26,27,29,34,38,43,47,53,62,65,71,73,79,85,93,122,133,
 %T A294729 179,193,211,254,257,277,283,311,331,349,353,389,409,443,467,499,563,
 %U A294729 577,599,613,631,643,647,683,709,751,769,829,919,941,1039,1103,1117
-%N A294729 Numbers n such that 2^n - 1 is the product of three primes.
+%N A294729 Numbers k such that 2^k - 1 is the product of three primes.
 %C A294729 The eighteenth composite term is 3481. No other composite terms up to 10000.
-%H A294729 Dario Alejandro Alpern, <a href="https://www.alpertron.com.ar/ECM.HTM"> Integer factorization calculator</a>
+%H A294729 Dario Alejandro Alpern, <a href="https://www.alpertron.com.ar/ECM.HTM">Integer factorization calculator</a>
 %H A294729 John Brillhart et al., <a href="http://www.ams.org/books/conm/022/">Cunningham Project</a> [Factorizations of b^n +- 1, b = 2, 3, 5, 6, 7, 10, 11, 12 up to high powers]
 %H A294729 S. S. Wagstaff, Jr., <a href="http://www.cerias.purdue.edu/homes/ssw/cun/index.html">The Cunningham Project</a>
 %e A294729 a(1) = 6 because 2^6 - 1 = 63 = 3^2*7 is a 3-almost prime.

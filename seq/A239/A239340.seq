@@ -1,8 +1,8 @@
-%I A239340 #4 Mar 16 2014 12:50:23
+%I A239340 #6 Jun 02 2025 09:26:45
 %S A239340 2,5,5,12,31,12,28,172,172,28,66,926,2187,926,66,156,5078,27341,27341,
 %T A239340 5078,156,368,27861,346028,790681,346028,27861,368,868,152260,4360887,
 %U A239340 22952323,22952323,4360887,152260,868,2048,832207,54774178,663249556
-%N A239340 T(n,k)=Number of nXk 0..3 arrays with no element equal to one plus the sum of elements to its left or three plus the sum of the elements above it, modulo 4
+%N A239340 T(n,k)=Number of nXk 0..3 arrays with no element equal to one plus the sum of elements to its left or three plus the sum of the elements above it, modulo 4.
 %C A239340 Table starts
 %C A239340 ....2.......5.........12.............28................66..................156
 %C A239340 ....5......31........172............926..............5078................27861

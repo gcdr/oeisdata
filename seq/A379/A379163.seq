@@ -1,12 +1,12 @@
-%I A379163 #24 Dec 23 2024 22:19:34
+%I A379163 #35 Jul 16 2025 18:07:40
 %S A379163 2,6,26,121,597,3040,15876,84520,456584,2494906,13759902,76475067,
-%T A379163 427805198,2406492158,13602178244
+%T A379163 427805198,2406492158,13602178244,77206507977
 %N A379163 Number of fixed site animals with n nodes on the nodes of the tetrakis square tiling.
 %C A379163 Site animals on a lattice (regular graph) are connected induced subgraphs up to translation.
 %C A379163 Dual to the site animals on the nodes of the truncated square tiling, counted by A197467, insofar as the tilings are each others' duals.
 %C A379163 The Madras reference gives a good treatment of site animals on general lattices.
-%C A379163 It is a consequence of the Madras work that lim_{n\to\infty} a(n+1)/a(n) converges to some growth constant c.
-%C A379163 Terms a(1)-a(15) were found by running a generalization of Redelmeier's algorithm. The transfer matrix algorithm (TMA) is more efficient than Redelmeier's for calculating regular polyominoes, and may give more terms here too. See the Jensen reference for a treatment of the TMA. See the Vöge and Guttman reference for an implementation of the TMA on the triangular lattice to count polyhexes, A001207.
+%C A379163 It is a consequence of the Madras work that lim_{n->oo} a(n+1)/a(n) converges to some growth constant c.
+%C A379163 Terms a(1)-a(16) were found by running a generalization of Redelmeier's algorithm. The transfer matrix algorithm (TMA) is more efficient than Redelmeier's for calculating regular polyominoes, and may give more terms here too. See the Jensen reference for a treatment of the TMA. See the Vöge and Guttman reference for an implementation of the TMA on the triangular lattice to count polyhexes, A001207.
 %D A379163 Branko Grünbaum and G. C. Shephard, Tilings and Patterns. W. H. Freeman, New York, 1987, Sections 2.7, 6.2 and 9.4.
 %H A379163 Anthony J. Guttman (Ed.), <a href="https://doi.org/10.1007/978-1-4020-9927-4">Polygons, Polyominoes, and Polycubes</a>, Canopus Academic Publishing Limited, Bristol, 2009.
 %H A379163 Iwan Jensen, <a href="https://doi.org/10.1023/A:1004855020556">Enumerations of Lattice Animals and Trees</a>, Journal of Statistical Physics 102 (2001), 865-881.
@@ -20,3 +20,4 @@
 %K A379163 nonn,hard,more
 %O A379163 1,1
 %A A379163 _Johann Peters_, Dec 17 2024
+%E A379163 a(16) from _Michael Bartmann_, Jul 16 2025

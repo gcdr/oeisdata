@@ -1,4 +1,4 @@
-%I A070886 #24 Feb 16 2025 08:32:46
+%I A070886 #29 Oct 11 2025 13:14:37
 %S A070886 1,1,0,1,1,0,0,0,1,1,0,1,0,1,0,1,1,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,
 %T A070886 0,1,1,0,0,0,1,0,0,0,1,0,0,0,1,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,1,0,0,0,
 %U A070886 0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
@@ -6,10 +6,11 @@
 %C A070886 If either neighbor is 1 then new state is 1, otherwise new state is 0.
 %C A070886 Row n has length 2n+1.
 %C A070886 Rules #18, #26, #82, #90, #146, #154, #210, #218 all give rise to this sequence. - Hans Havermann
-%D A070886 S. Wolfram, A New Kind of Science, Wolfram Media, 2002; p. 25.
+%D A070886 Stephen Wolfram, A New Kind of Science, Wolfram Media, 2002; p. 25.
 %H A070886 Robert Price, <a href="/A070886/b070886.txt">Table of n, a(n) for n = 0..9999</a>
+%H A070886 Johan Nilsson, <a href="https://arxiv.org/abs/2510.06493">The Pattern Complexity of the Sierpiński Triangle</a>, arXiv:2510.06493 [math.CO], 2025. See p. 1.
 %H A070886 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/Rule90.html">Rule 90</a>
-%H A070886 S. Wolfram, <a href="http://wolframscience.com/">A New Kind of Science</a>
+%H A070886 Stephen Wolfram, <a href="http://wolframscience.com/">A New Kind of Science</a>
 %H A070886 <a href="https://oeis.org/wiki/Index_to_Elementary_Cellular_Automata">Index to Elementary Cellular Automata</a>
 %H A070886 <a href="/index/Ce#cell">Index entries for sequences related to cellular automata</a>
 %e A070886 1; 1,0,1; 1,0,0,0,1; 1,0,1,0,1,0,1; ...

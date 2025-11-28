@@ -1,4 +1,4 @@
-%I A210621 #47 Jan 12 2025 03:50:16
+%I A210621 #51 Nov 05 2025 15:35:34
 %S A210621 3,1,6,0,4,9,3,8,2,7,1,6,0,4,9,3,8,2,7,1,6,0,4,9,3,8,2,7,1,6,0,4,9,3,
 %T A210621 8,2,7,1,6,0,4,9,3,8,2,7,1,6,0,4,9,3,8,2,7,1,6,0,4,9,3,8,2,7,1,6,0,4,
 %U A210621 9,3,8,2,7,1,6,0,4,9,3,8,2,7,1,6,0,4,9,3,8,2,7,1,6,0,4,9,3,8,2
@@ -6,11 +6,12 @@
 %C A210621 According to Maor (1994), the Rhind Papyrus asserts that a circle has the same area as a square with a side that is 8/9 the diameter of the circle. From this we can determine that 256/81 is one of the ancient Egyptian approximations of Pi. - _Alonso del Arte_, Jun 12 2012
 %D A210621 Petr Beckmann, A History of Pi, 3rd Ed., Boulder, Colorado: The Golem Press (1974): p. 12.
 %D A210621 Calvin C. Clawson, Mathematical Mysteries, The Beauty and Magic of Numbers, Perseus Books, 1996, p. 88.
+%D A210621 John H. Conway and Richard K. Guy, The Book of Numbers, New York: Springer-Verlag, 1996. See p. 237.
 %D A210621 Jan Gullberg, Mathematics from the Birth of Numbers, W. W. Norton & Co., NY & London, 1997, §3.6 The Quest for Pi, p. 89.
 %D A210621 Carl Theodore Heisel, Behold! The grand problem no longer unsolved: The circle squared beyond refutation, c. 1935. (proposes Pi = 3 + 13/81)
 %D A210621 Eli Maor, e: The Story of a Number. Princeton, New Jersey: Princeton University Press (1994): 41, 47 note 1.
 %D A210621 David Wells, The Penguin Dictionary of Curious and Interesting Numbers. Penguin Books, NY, 1986, Revised edition 1987. See p. 48.
-%H A210621 Dario Castellanos, <a href="http://www.jstor.org/stable/2690037">The ubiquitous Pi</a>, Math. Mag., 61 (1988), 67-98 and 148-163.
+%H A210621 Dario Castellanos, <a href="https://www.jstor.org/stable/2690037">The ubiquitous Pi</a>, Math. Mag., 61 (1988), 67-98 and 148-163.
 %H A210621 <a href="/index/Rec#order_09">Index entries for linear recurrences with constant coefficients</a>, signature (0,0,0,0,0,0,0,0,1).
 %F A210621 256/81 = (4/3)^4.
 %F A210621 Equals 3*A229943 = A255910^2 = A268315/3. - _Hugo Pfoertner_, Jun 26 2024

@@ -1,8 +1,9 @@
-%I A061458 #14 Feb 04 2025 06:48:23
+%I A061458 #18 Nov 08 2025 05:38:26
 %S A061458 0,1,8,343,1000,1331,8000,343000,1000000,1030301,1331000,1367631,
 %T A061458 8000000,343000000,1000000000,1003003001,1030301000,1033364331,
 %U A061458 1331000000,1334633301,1367631000,8000000000,10662526601,343000000000,1000000000000,1000300030001,1003003001000
 %N A061458 Cubes whose digit reversal is also a cube.
+%D A061458 Elena Deza and Michel Marie Deza, Figurate numbers, World Scientific Publishing (2012), page 432.
 %H A061458 Harry J. Smith, <a href="/A061458/b061458.txt">Table of n, a(n) for n = 0..63</a>
 %e A061458 1000 and 0001 (= 1) are both cubes.
 %t A061458 Select[Range[0, 15000]^3, IntegerQ[CubeRoot[IntegerReverse[#]]] &] (* _Paolo Xausa_, Feb 04 2025 *)

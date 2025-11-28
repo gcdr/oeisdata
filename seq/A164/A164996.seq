@@ -1,8 +1,8 @@
-%I A164996 #4 Mar 30 2012 17:28:43
+%I A164996 #6 Jun 02 2025 01:54:32
 %S A164996 1,2,2,3,2,3,3,3,2,3,3,4,3,2,3,4,3,3,4,4,4,4,3,3,4,3,2,3,3,4,3,3,2,4,
 %T A164996 3,4,3,3,3,3,2,3,3,3,3,4,3,4,3,3,3,4,2,3,3,4,4,4,3,4,4,4,3,4,3,4,3,3,
 %U A164996 3,4,3,3,4,4,3,4,3,3,3,3,2,3,3,2,3,3,2,2,2,3,3,3,2,3,3,4,2,4,2,2,2,3,2,4,2
-%N A164996 (Length of preperiodic part) + (length of cycle) of trajectory of n under iteration of the base-3 Kaprekar map in A164993
+%N A164996 (Length of preperiodic part) + (length of cycle) of trajectory of n under iteration of the base-3 Kaprekar map in A164993.
 %H A164996 Joseph Myers, <a href="/A164996/b164996.txt">Table of n, a(n) for n=0..2187</a>
 %H A164996 <a href="/index/K#Kaprekar_map">Index entries for the Kaprekar map</a>
 %Y A164996 Cf. A164993, A164995.

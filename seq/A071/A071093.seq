@@ -1,11 +1,11 @@
-%I A071093 #39 Apr 29 2023 07:04:50
+%I A071093 #40 Nov 05 2025 15:22:01
 %S A071093 1,2,6,2196,37004,2317631400,216893681800,2326335506123418128,
 %T A071093 1208982377794384163088,2220650888749669503773432361504,
 %U A071093 6408743336016148761893699822360672,2015895925780490675949731718780144934779733312,32307672245407537492814937397129549558917000333504
 %N A071093 Number of perfect matchings in triangle graph with n nodes per side as n runs through numbers congruent to 0 or 3 mod 4.
 %D A071093 James Propp, Enumeration of matchings: problems and progress, pp. 255-291 in L. J. Billera et al., eds, New Perspectives in Algebraic Combinatorics, Cambridge, 1999 (see Problem 17).
 %H A071093 Alois P. Heinz, <a href="/A071093/b071093.txt">Table of n, a(n) for n = 0..44</a>
-%H A071093 James Propp, <a href="http://arxiv.org/abs/math.CO/9801061">Twenty open problems in enumeration of matchings</a>, arXiv:math/9801061 [math.CO], 1998-1999.
+%H A071093 James Propp, <a href="https://arxiv.org/abs/math.CO/9801061">Twenty open problems in enumeration of matchings</a>, arXiv:math/9801061 [math.CO], 1998-1999.
 %H A071093 James Propp, <a href="http://faculty.uml.edu/jpropp/update.pdf">Updated article</a>
 %H A071093 James Propp, Enumeration of matchings: problems and progress, in L. J. Billera et al. (eds.), <a href="http://www.msri.org/publications/books/Book38/contents.html">New Perspectives in Algebraic Combinatorics</a>
 %H A071093 James Propp, <a href="http://math.colgate.edu/~integers/x30/x30.pdf">Some 2-Adic Conjectures Concerning Polyomino Tilings of Aztec Diamonds</a>, Integers (2023) Vol. 23, Art. A30.

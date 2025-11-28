@@ -1,8 +1,8 @@
-%I A159951 #14 Nov 14 2021 03:30:16
+%I A159951 #16 Jun 02 2025 01:39:09
 %S A159951 12,856800,139890541190400,50664770469826998541056000,
 %T A159951 40527253814267058837705250384270510080000,
 %U A159951 71554565901386985191123530075861409411081105273676595200000
-%N A159951 Fibonacci integral quotients associated with the dividends in A159950 and the divisors in A003481
+%N A159951 Fibonacci integral quotients associated with the dividends in A159950 and the divisors in A003481.
 %C A159951 The first example of an integral quotient in the Fibonacci sequence is 12 because 240/20=12. 240 is the product of terms through 8, and 20 the sum. Thereafter, with every other additional pair of terms in the Fibonacci sequence, another integral quotient occurs.
 %C A159951 Let m be an even positive integer. Then the sequence defined by b_m(n) = Product_{k = 1..2*n+1} F(m*k) / Sum_{k = 1..2*n+1} F(m*k) appears to be integral. - _Peter Bala_, Nov 12 2021
 %F A159951 a(n) = (Product_{k = 1..4*n+2} Fibonacci(k))/(Sum_{k = 1..4*n+2} Fibonacci(k)) = (Product_{k = 1..4*n+2} Fibonacci(k))/(Fibonacci(4*n+4) - 1) =  Fibonacci(2*n+1)/Fibonacci(2*n+3) * Product_{k = 1..4*n+1} Fibonacci(k), which shows a(n) is integral. Cf. A175553. - _Peter Bala_, Nov 11 2021

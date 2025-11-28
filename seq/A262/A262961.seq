@@ -1,4 +1,4 @@
-%I A262961 #125 Jun 23 2021 09:06:13
+%I A262961 #126 Nov 05 2025 15:22:30
 %S A262961 0,1,2,15,302,12559,900288,98986140,15459635718,3251842717671,
 %T A262961 885987204390450,303482789415233775,127643176985672421000,
 %U A262961 64668997044706349592900,38844990446097247188562800,27296481783843922533011100000,22184577644604207037479874293750
@@ -17,7 +17,7 @@
 %H A262961 David Broadhurst, <a href="/A265079/a265079.pdf">Crandall memorial puzzle: solution and heuristics</a>. [Cached copy, with permission]
 %H A262961 David Broadhurst, <a href="/A262961/a262961.txt">Table of n, a(n) for n = 1..450</a>.
 %H A262961 David Broadhurst, <a href="/A262961/a262961_1.txt">The largest prime (or noncomposite) factor of A262961(n) for n = 1..94</a>.
-%H A262961 David Broadhurst, <a href="http://arxiv.org/abs/1604.03057">Feynman integrals, L-series and Kloosterman moments</a>, arXiv:1604.03057 [physics.gen-ph], 2016. See Eq. 147.
+%H A262961 David Broadhurst, <a href="https://arxiv.org/abs/1604.03057">Feynman integrals, L-series and Kloosterman moments</a>, arXiv:1604.03057 [physics.gen-ph], 2016. See Eq. 147.
 %H A262961 Hans Havermann and David Broadhurst, <a href="http://chesswanks.com/num/CrandallNumbersFactored.txt">Crandall Numbers Factored</a>.
 %H A262961 Yajun Zhou, <a href="https://arxiv.org/abs/1706.01068">Hilbert Transforms and Sum Rules of Bessel Moments</a>, arXiv:1706.01068 [math.CA], 2017.
 %H A262961 Yajun Zhou, <a href="https://arxiv.org/abs/1801.05555">Some algebraic and arithmetic properties of Feynman diagrams</a>, arXiv:1801.05555 [math.NT], 2018.

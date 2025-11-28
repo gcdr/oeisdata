@@ -1,8 +1,8 @@
-%I A208175 #5 Mar 31 2012 12:37:22
+%I A208175 #9 Oct 03 2025 14:42:21
 %S A208175 1,2,2,5,13,5,15,159,159,15,51,2277,8469,2277,51,187,33831,473928,
 %T A208175 473928,33831,187,715,506493,26625693,99752346,26625693,506493,715,
 %U A208175 2795,7594479,1496307201,21002874867,21002874867,1496307201,7594479,2795,11051
-%N A208175 T(n,k)=Number of nXk 0..3 arrays with new values 0..3 introduced in row major order and no element equal to more than one of its immediate leftward or upward neighbors
+%N A208175 T(n,k)=Number of nXk 0..3 arrays with new values 0..3 introduced in row major order and no element equal to more than one of its immediate leftward or upward neighbors.
 %C A208175 Table starts
 %C A208175 ....1.........2.............5.................15.....................51
 %C A208175 ....2........13...........159...............2277..................33831
@@ -22,4 +22,4 @@
 %Y A208175 Column 2 is A205163(n-1)
 %K A208175 nonn,tabl
 %O A208175 1,2
-%A A208175 _R. H. Hardin_ Feb 24 2012
+%A A208175 _R. H. Hardin_, Feb 24 2012

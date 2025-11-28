@@ -1,4 +1,4 @@
-%I A156608 #12 Jun 25 2021 03:35:33
+%I A156608 #13 Sep 22 2025 16:00:57
 %S A156608 1,1,1,1,-1,1,1,1,1,1,1,1,-1,1,1,1,-2,2,2,-2,1,1,1,2,2,2,1,1,1,1,-1,2,
 %T A156608 2,-1,1,1,1,-2,2,2,-4,2,2,-2,1,1,1,2,2,2,2,2,2,1,1,1,1,-1,2,2,-1,2,2,
 %U A156608 -1,1,1
@@ -31,7 +31,7 @@
 %t A156608 t[n_, k_]:= t[n,k]= If[k==0, n!, Product[f[j, x], {j, n-1}]]/.x -> (k+1);
 %t A156608 T[n_, k_, m_]:= T[n,k,m]= Round[t[n,m]/(t[k,m]*t[n-k,m])];
 %t A156608 Table[T[n, k, 2], {n,0,15}, {k,0,n}]//Flatten (* _G. C. Greubel_, Jun 23 2021 *)
-%o A156608 (Sage)
+%o A156608 (SageMath)
 %o A156608 @CachedFunction
 %o A156608 def f(n,x): return (2-x)^n if (n<2) else 2*(2-x)*sum( ((n-1)/(2*n-j-2))*binomial(2*n-j-2, j)*(-x)^(n-j-1) for j in (0..n-1) )
 %o A156608 def g(n,k): return factorial(n) if (k==0) else product( f(j, k+1) for j in (1..n-1) )

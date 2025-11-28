@@ -1,4 +1,4 @@
-%I A116456 #42 Jan 21 2023 09:16:07
+%I A116456 #43 Nov 05 2025 15:22:05
 %S A116456 1,2,8,40,228,1424,9520,67064,492292,3735112,29114128,232077344,
 %T A116456 1885195276,15562235264,130263211680,1103650297320,9450760284100,
 %U A116456 81696139565864,712188311673280,6255662512111248,55324571848957688,492328039660580784,4406003100524940624,39635193868649858744,358245485706959890508
@@ -7,7 +7,7 @@
 %C A116456 These objects were considered by Guitter et al., 1999.
 %H A116456 Olivier Golinelli, <a href="/A116456/b116456.txt">Table of n, a(n) for n = 0..34</a>
 %H A116456 Philippe Di Francesco, Bertrand Duplantier, Olivier Golinelli, and Emmanuel Guitter, <a href="https://arxiv.org/abs/2210.08887">Exponents for Hamiltonian paths on random bicubic maps and KPZ</a>, arXiv:2210.08887 [math-ph], 2022.
-%H A116456 E. Guitter, C. Kristjansen, and J. L. Nielsen, <a href="http://arxiv.org/abs/cond-mat/9811289">Hamiltonian Cycles on Random Eulerian Triangulations</a>, arXiv:cond-mat/9811289 [cond-mat.stat-mech], 1998; Nucl. Phys. B546 (1999), 731-750. doi:10.1016/S0550-3213(99)00058-9
+%H A116456 E. Guitter, C. Kristjansen, and J. L. Nielsen, <a href="https://arxiv.org/abs/cond-mat/9811289">Hamiltonian Cycles on Random Eulerian Triangulations</a>, arXiv:cond-mat/9811289 [cond-mat.stat-mech], 1998; Nucl. Phys. B546 (1999), 731-750. doi:10.1016/S0550-3213(99)00058-9
 %F A116456 a(n) = 2 * A028475(n) for n >= 1. - _Sean A. Irvine_, Feb 01 2020
 %e A116456 a(4)=228. Here are the 228 words of length 8:
 %e A116456 [cdccddcd, cccdcddd, cdcdcdcd, cdcdccdd, cccdddcd, cccddcdd, cdccdcdd, ccdcddcd, ccdcdcdd, ccdccddd, ccddcdcd, cdcccddd, ccddccdd, ccccdddd, ccddabcd, ccddacdb, ccddcdab, ccddcabd, ccdabdcd, ccabddcd, cabcddcd, cacdbdcd, abcccddd, acccdddb, abccdcdd, accdcddb, cdcdabcd, cdcdacdb, cdcdcdab, cdcdcabd, cdcabdcd, cdacdcdb, cdacdbcd, cdabcdcd, cabdcdcd, cabdccdd, cdabccdd, cdaccddb, ccabdcdd, ccdabcdd, ccdacdbd, ccdcabdd, ccdcddab, ccdcdabd, cabcdcdd, cacdbcdd, cacdcdbd, cdccabdd, cdccddab, cdccdabd, caccddbd, cabccddd, ccacdbdd, ccabcddd, cccabddd, cccdabdd,

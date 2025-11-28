@@ -1,4 +1,4 @@
-%I A078303 #46 Feb 16 2025 08:32:48
+%I A078303 #50 Nov 05 2025 15:35:30
 %S A078303 7,37,1297,1679617,2821109907457,7958661109946400884391937,
 %T A078303 63340286662973277706162286946811886609896461828097
 %N A078303 Generalized Fermat numbers: 6^(2^n) + 1, n >= 0.
@@ -8,11 +8,11 @@
 %C A078303 Since all powers of 6 are congruent to 6 (mod 10), all terms of this sequence are congruent to 7 (mod 10). - _Daniel Forgues_, Jun 22 2011
 %C A078303 There are only 5 known Fermat primes of the form 2^(2^n) + 1: {3, 5, 17, 257, 65537}. There are only 2 known base-10 generalized Fermat primes of the form 10^(2^n) + 1: {11, 101}. - _Alexander Adamchuk_, Mar 17 2007
 %H A078303 Vincenzo Librandi, <a href="/A078303/b078303.txt">Table of n, a(n) for n = 0..12</a>
-%H A078303 Anders Björn and Hans Riesel, <a href="http://www.jstor.org/stable/2584996">Factors of Generalized Fermat Numbers</a>, Mathematics of Computation, Vol. 67, No. 221, Jan., 1998, pp. 441-446.
+%H A078303 Anders Björn and Hans Riesel, <a href="https://www.jstor.org/stable/2584996">Factors of Generalized Fermat Numbers</a>, Mathematics of Computation, Vol. 67, No. 221, Jan., 1998, pp. 441-446.
 %H A078303 C. K. Caldwell, "Top Twenty" page, <a href="https://t5k.org/top20/page.php?id=9">Generalized Fermat Divisors (base=6)</a>.
 %H A078303 Wilfrid Keller, <a href="http://www.prothsearch.com/GFN06.html">GFN06 factoring status</a>.
-%H A078303 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/GeneralizedFermatNumber.html">Generalized Fermat Number</a>.
 %H A078303 OEIS Wiki, <a href="/wiki/Generalized_Fermat_numbers">Generalized Fermat numbers</a>.
+%H A078303 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/GeneralizedFermatNumber.html">Generalized Fermat Number</a>.
 %F A078303 a(0) = 7, a(n) = (a(n-1)-1)^2 + 1, n >= 1.
 %F A078303 a(n) = 5*a(n-1)*a(n-2)*...*a(1)*a(0) + 2, n >= 0, where for n = 0, we get 5*(empty product, i.e., 1)+ 2 = 7 = a(0). This implies that the terms are pairwise coprime. - _Daniel Forgues_, Jun 20 2011
 %F A078303 Sum_{n>=0} 2^n/a(n) = 1/5. - _Amiram Eldar_, Oct 03 2022

@@ -1,4 +1,4 @@
-%I A003991 #184 Jul 03 2024 14:33:45
+%I A003991 #195 Nov 05 2025 15:21:44
 %S A003991 1,2,2,3,4,3,4,6,6,4,5,8,9,8,5,6,10,12,12,10,6,7,12,15,16,15,12,7,8,
 %T A003991 14,18,20,20,18,14,8,9,16,21,24,25,24,21,16,9,10,18,24,28,30,30,28,24,
 %U A003991 18,10,11,20,27,32,35,36,35,32,27,20,11,12,22,30,36,40,42,42,40,36,30,22,12
@@ -15,17 +15,19 @@
 %C A003991 From _Eric Lengyel_, Jun 28 2023: (Start)
 %C A003991 X(n, m+1) is the number of degrees of freedom that an m-dimensional flat geometry (point, line, plane, etc.) has when embedded in an n-dimensional Euclidean space.
 %C A003991 X(n+1, m+1) is the number of degrees of freedom that an m-ball has when embedded in an n-dimensional Euclidean space. (End)
+%C A003991 T(n, k) is also the average number of steps it takes a person to fall off a board of length n+k, if the person starts a random walk at k. - _Ruediger Jehn_, May 12 2025
 %D A003991 J. H. Conway and R. K. Guy, The Book of Numbers, Copernicus Press, NY, 1996, p. 46.
+%D A003991 James J. Tattersall, Elementary Number Theory in Nine Chapters, Cambridge University Press, 1999, pages 5-6.
 %H A003991 T. D. Noe, <a href="/A003991/b003991.txt">Rows n = 1..100 of triangle, flattened</a>
 %H A003991 Iva Kodrnja and Helena Koncul, <a href="https://arxiv.org/abs/2405.10747">Number of Polynomials Vanishing on a Basis of S_m(Gamma_0(N))</a>, arXiv:2405.10747 [math.NT], 2024. See p. 10.
 %H A003991 G. W. Leibniz, <a href="/A003991/a003991.pdf">Dissertatio de arte combinatoria</a>, 1666, Leipzig. (in Latin. This triangle appears on p. 208, page 44 of the PDF file).
 %H A003991 Abdelkader Necer, <a href="http://dx.doi.org/10.5802/jtnb.205">Séries formelles et produit de Hadamard</a>, Journal de théorie des nombres de Bordeaux, 9 no. 2 (1997), p. 319-335.
-%H A003991 Boris Putievskiy, <a href="http://arxiv.org/abs/1212.2732">Transformations Integer Sequences And Pairing Functions</a> arXiv:1212.2732 [math.CO], 2012.
+%H A003991 Boris Putievskiy, <a href="https://arxiv.org/abs/1212.2732">Transformations Integer Sequences And Pairing Functions</a> arXiv:1212.2732 [math.CO], 2012.
 %H A003991 N. J. A. Sloane, <a href="https://arxiv.org/abs/2301.03149">"A Handbook of Integer Sequences" Fifty Years Later</a>, arXiv:2301.03149 [math.NT], 2023, p. 5.
 %F A003991 Rectangular array: T(n, m) = n*m, n>=1, m>= 1.
 %F A003991 Triangle X(n, m) = T(n-m+1, m) = (n-m+1)*m.
 %F A003991 Sum_{i=1..n} Sum_{j=1..n} a(n) = A000537(n) [Sum of first n cubes; or n-th triangular number squared.] Determinant of all n X n contiguous subarrays of A003991 is 0. - _Gerald McGarvey_, Sep 26 2004
-%F A003991 G.f. as rectangular array: x * y / [ (1-x)^2 * (1-y)^2 ].
+%F A003991 G.f. as rectangular array: x*y/((1 - x)^2*(1 - y)^2).
 %F A003991 a(n) = i*j, where i=floor((1+sqrt(8n-7))/2), j=n-i*(i-1)/2. - _Hieronymus Fischer_, Aug 08 2007
 %F A003991 As an infinite lower triangular matrix equals A000012 * A002260; where A000012 = (1; 1,1; 1,1,1; ...) and A002260 = (1; 1,2; 1,2,3; ...). - _Gary W. Adamson_, Oct 23 2007
 %F A003991 As a linear array, the sequence is a(n) = A002260(n)*A004736(n) or a(n) = ((t*t+3*t+4)/2-n)*(n-(t*(t+1)/2)), where t=floor((-1+sqrt(8*n-7))/2). - _Boris Putievskiy_, Dec 17 2012
@@ -35,6 +37,7 @@
 %F A003991 a(n) = A003989(n) * A003990(n) = A059895(n) * A059896(n) = A059895(n)^2 * A059897(n). - _Antti Karttunen_, Dec 13 2021
 %F A003991 T(n,k) = A002620(n+k) - A002620(n-k). - _Michel Marcus_, Jan 06 2023
 %F A003991 T(n,k) = number of sums |x-y|+|y-z| = k, where x,y,z are in {1,2,...,n} and x < y < z. - _Clark Kimberling_, Jan 22 2024
+%F A003991 E.g.f. as rectangular array: x*y*exp(x+y). - _Stefano Spezia_, Jun 27 2025
 %e A003991 The array T starts in row n=1 with columns m>=1 as:
 %e A003991    1   2   3   4   5   6   7   8   9  10  11  12  13  14  15
 %e A003991    2   4   6   8  10  12  14  16  18  20  22  24  26  28  30

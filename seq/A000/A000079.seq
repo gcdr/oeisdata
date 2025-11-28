@@ -1,7 +1,7 @@
-%I A000079 M1129 N0432 #850 Feb 16 2025 08:32:19
+%I A000079 M1129 N0432 #889 Nov 16 2025 10:18:41
 %S A000079 1,2,4,8,16,32,64,128,256,512,1024,2048,4096,8192,16384,32768,65536,
 %T A000079 131072,262144,524288,1048576,2097152,4194304,8388608,16777216,
-%U A000079 33554432,67108864,134217728,268435456,536870912,1073741824,2147483648,4294967296,8589934592
+%U A000079 33554432,67108864,134217728,268435456,536870912,1073741824,2147483648,4294967296,8589934592,17179869184
 %N A000079 Powers of 2: a(n) = 2^n.
 %C A000079 2^0 = 1 is the only odd power of 2.
 %C A000079 Number of subsets of an n-set.
@@ -24,7 +24,6 @@
 %C A000079 Beginning with a(1) = 0, numbers not equal to the sum of previous distinct natural numbers. - _Giovanni Teofilatto_, Aug 06 2006
 %C A000079 For n >= 1, a(n) is equal to the number of functions f:{1, 2, ..., n} -> {1, 2} such that for a fixed x in {1, 2, ..., n} and a fixed y in {1, 2} we have f(x) != y. - Aleksandar M. Janjic and _Milan Janjic_, Mar 27 2007
 %C A000079 Let P(A) be the power set of an n-element set A. Then a(n) is the number of pairs of elements {x,y} of P(A) for which x = y. - _Ross La Haye_, Jan 09 2008
-%C A000079 a(n) is the number of different ways to run up a staircase with n steps, taking steps of sizes 1, 2, 3, ... and r (r <= n), where the order IS important and there is no restriction on the number or the size of each step taken. - _Mohammad K. Azarian_, May 21 2008
 %C A000079 a(n) is the number of permutations on [n+1] such that every initial segment is an interval of integers. Example: a(3) counts 1234, 2134, 2314, 2341, 3214, 3241, 3421, 4321. The map "p -> ascents of p" is a bijection from these permutations to subsets of [n]. An ascent of a permutation p is a position i such that p(i) < p(i+1). The permutations shown map to 123, 23, 13, 12, 3, 2, 1 and the empty set respectively. - _David Callan_, Jul 25 2008
 %C A000079 2^(n-1) is the largest number having n divisors (in the sense of A077569); A005179(n) is the smallest. - _T. D. Noe_, Sep 02 2008
 %C A000079 a(n) appears to match the number of divisors of the modified primorials (excluding 2, 3 and 5). Very limited range examined, PARI example shown. - _Bill McEachen_, Oct 29 2008
@@ -89,12 +88,17 @@
 %C A000079 For any fixed k > 0, a(n) is the number of ways to tile a strip of length n+1 with tiles of length 1, 2, ... k, where the tile of length k can be black or white, with the restriction that the first tile cannot be black. - _Greg Dresden_ and Bora Bursalı, Aug 31 2023
 %D A000079 Milton Abramowitz and Irene A. Stegun, eds., Handbook of Mathematical Functions, National Bureau of Standards Applied Math. Series 55, 1964 (and various reprintings), p. 1016.
 %D A000079 Mohammad K. Azarian, A Generalization of the Climbing Stairs Problem, Mathematics and Computer Education Journal, Vol. 31, No. 1, pp. 24-28, Winter 1997.
+%D A000079 John H. Conway and Richard K. Guy, The Book of Numbers, New York: Springer-Verlag, 1996. See pp. 73, 84.
+%D A000079 Elena Deza and Michel Marie Deza, Figurate numbers, World Scientific Publishing (2012), pages 65, 267.
+%D A000079 Ralph P. Grimaldi, Fibonacci and Catalan Numbers: An Introduction, (2012). See Exercise 19 at p. 59.
 %D A000079 Jan Gullberg, Mathematics from the Birth of Numbers, W. W. Norton & Co., NY & London, 1997, §4.5 Logarithms and §8.1 Terminology, pp. 150, 264.
 %D A000079 Paul J. Nahin, An Imaginary Tale: The Story of sqrt(-1), Princeton University Press, Princeton, NJ. 1998, pp. 69-70.
+%D A000079 Alfred S. Posamentier, Math Charmers, Tantalizing Tidbits for the Mind, Prometheus Books, NY, 2003, page 273.
 %D A000079 J. Riordan, An Introduction to Combinatorial Analysis, Wiley, 1958, p. 124.
 %D A000079 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
 %D A000079 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
 %D A000079 V. E. Tarakanov, Combinatorial problems on binary matrices, Combin. Analysis, MSU, 5 (1980), 4-15. (Russian)
+%D A000079 James J. Tattersall, Elementary Number Theory in Nine Chapters, Cambridge University Press, 1999, page 141.
 %D A000079 S. Wolfram, A New Kind of Science, Wolfram Media, 2002; p. 55.
 %H A000079 N. J. A. Sloane, <a href="/A000079/b000079.txt">Table of n, 2^n for n = 0..1000</a>
 %H A000079 Milton Abramowitz and Irene A. Stegun, eds., <a href="http://www.convertit.com/Go/ConvertIt/Reference/AMS55.ASP">Handbook of Mathematical Functions</a>, National Bureau of Standards, Applied Math. Series 55, Tenth Printing, 1972 [alternative scanned copy].
@@ -112,32 +116,33 @@
 %H A000079 Giulio Cerbai, Anders Claesson, and Luca Ferrari, <a href="https://arxiv.org/abs/1907.08142">Stack sorting with restricted stacks</a>, arXiv:1907.08142 [cs.DS], 2019.
 %H A000079 V. Coll, M. Hyatt, C. Magnant, and H. Wang, <a href="http://dx.doi.org/10.4172/1736-4337.1000227">Meander graphs and Frobenius seaweed Lie algebras II</a>, Journal of Generalized Lie Theory and Applications 9 (1) (2015) 227.
 %H A000079 M. Coons and H. Winning, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL18/Coons/coons2.html">Powers of Two Modulo Powers of Three</a>, J. Int. Seq. 18 (2015) # 15.6.1.
-%H A000079 Keneth Adrian P. Dagal and Jose Arnaldo B. Dris, <a href="http://arxiv.org/abs/1308.6767">A Criterion for Almost Perfect Numbers in Terms of the Abundancy Index</a>, arXiv:1308.6767v1 [math.NT], Aug 14 2013.
-%H A000079 V. Dergachev and A. Kirillov, <a href="https://www.emis.de/journals/JLT/vol.10_no.2/6.html">Index of Lie algebras of seaweed type</a>, J. Lie Theory 10 (2) (2000) 331-343.
+%H A000079 Keneth Adrian P. Dagal and Jose Arnaldo B. Dris, <a href="https://arxiv.org/abs/1308.6767">A Criterion for Almost Perfect Numbers in Terms of the Abundancy Index</a>, arXiv:1308.6767v1 [math.NT], Aug 14 2013.
+%H A000079 V. Dergachev and A. Kirillov, <a href="https://www.heldermann-verlag.de/jlt/jlt10/DERGALAT2E.PDF">Index of Lie algebras of seaweed type</a>, J. Lie Theory 10 (2) (2000) 331-343.
 %H A000079 Persi Diaconis, <a href="https://doi.org/10.1214/aop/1176995891">The distribution of leading digits and uniform distribution mod 1</a>, Ann. Probability, 5, 1977, 72--81.
 %H A000079 Kenneth Edwards and Michael A. Allen, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL24/Allen/edwards2.html">New combinatorial interpretations of the Fibonacci numbers squared, golden rectangle numbers, and Jacobsthal numbers using two types of tile</a>, J. Int. Seq. 24 (2021) Article 21.3.8.
 %H A000079 David Eppstein, <a href="https://arxiv.org/abs/1804.07396">Making Change in 2048</a>, arXiv:1804.07396 [cs.DM], 2018.
 %H A000079 P. Flajolet and R. Sedgewick, <a href="http://algo.inria.fr/flajolet/Publications/books.html">Analytic Combinatorics</a>, 2009; see page 18
 %H A000079 Joël Gay and Vincent Pilaud, <a href="https://arxiv.org/abs/1804.06572">The weak order on Weyl posets</a>, arXiv:1804.06572 [math.CO], 2018.
 %H A000079 Daniele A. Gewurz and Francesca Merola, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL6/Gewurz/gewurz5.html">Sequences realized as Parker vectors of oligomorphic permutation groups</a>, J. Integer Seqs., Vol. 6, 2003.
-%H A000079 Hermann Gruber, Jonathan Lee and Jeffrey Shallit, <a href="http://arxiv.org/abs/1204.4982">Enumerating regular expressions and their languages</a>, arXiv:1204.4982v1 [cs.FL], 2012.
+%H A000079 Hermann Gruber, Jonathan Lee and Jeffrey Shallit, <a href="https://arxiv.org/abs/1204.4982">Enumerating regular expressions and their languages</a>, arXiv:1204.4982v1 [cs.FL], 2012.
 %H A000079 R. K. Guy, <a href="/A000346/a000346.pdf">Letter to N. J. A. Sloane</a>
 %H A000079 INRIA Algorithms Project, <a href="http://ecs.inria.fr/services/structure?nbr=6">Encyclopedia of Combinatorial Structures 6</a>
 %H A000079 INRIA Algorithms Project, <a href="http://ecs.inria.fr/services/structure?nbr=68">Encyclopedia of Combinatorial Structures 68</a>
 %H A000079 INRIA Algorithms Project, <a href="http://ecs.inria.fr/services/structure?nbr=72">Encyclopedia of Combinatorial Structures 72</a>
 %H A000079 INRIA Algorithms Project, <a href="http://ecs.inria.fr/services/structure?nbr=267">Encyclopedia of Combinatorial Structures 267</a>
 %H A000079 Marcus Jaiclin, et al. <a href="https://web.archive.org/web/20170823000349/http://pyrrho.wsc.ma.edu/math/faculty/jaiclin/writings/research/pascals_triangle/">Pascal's Triangle, Mod 2,3,5</a>
-%H A000079 Milan Janjic, <a href="http://www.pmfbl.org/janjic/">Enumerative Formulas for Some Functions on Finite Sets</a>
+%H A000079 Milan Janjic, <a href="https://old.pmf.unibl.org/wp-content/uploads/2017/10/enumfun.pdf">Enumerative Formulas for Some Functions on Finite Sets</a>
 %H A000079 J. W. Layman, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL4/LAYMAN/hankel.html">The Hankel Transform and Some of its Properties</a>, J. Integer Sequences, 4 (2001), #01.1.5.
-%H A000079 P. A. MacMahon, <a href="http://www.jstor.org/stable/90632">Memoir on the Theory of the Compositions of Numbers</a>, Phil. Trans. Royal Soc. London A, 184 (1893), 835-901.
+%H A000079 P. A. MacMahon, <a href="https://www.jstor.org/stable/90632">Memoir on the Theory of the Compositions of Numbers</a>, Phil. Trans. Royal Soc. London A, 184 (1893), 835-901.
 %H A000079 Victor Meally, <a href="/A002868/a002868.pdf">Comparison of several sequences given in Motzkin's paper "Sorting numbers for cylinders...", letter to N. J. A. Sloane, N. D.</a>
 %H A000079 Augustine O. Munagi, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL21/Munagi/munagi10.html">Integer Compositions and Higher-Order Conjugation</a>, J. Int. Seq., Vol. 21 (2018), Article 18.8.5.
-%H A000079 R. Ondrejka, <a href="http://www.jstor.org/stable/2004456">Exact values of 2^n, n=1(1)4000</a>, Math. Comp., 23 (1969), 456.
+%H A000079 R. Ondrejka, <a href="https://www.jstor.org/stable/2004456">Exact values of 2^n, n=1(1)4000</a>, Math. Comp., 23 (1969), 456.
+%H A000079 Permutation Pattern Avoidance Library (PermPAL), <a href="https://permpal.com/perms/basis/012_021/">Av(012_021)</a>
 %H A000079 G. Pfeiffer, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL7/Pfeiffer/pfeiffer6.html">Counting Transitive Relations</a>, Journal of Integer Sequences, Vol. 7 (2004), Article 04.3.2.
 %H A000079 Robert Price, <a href="/A000079/a000079.txt">Comments on A000079 concerning Elementary Cellular Automata</a>, Feb 26 2016.
 %H A000079 Shingo Saito, Tatsushi Tanaka, and Noriko Wakabayashi, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL14/Saito/saito22.html">Combinatorial Remarks on the Cyclic Sum Formula for Multiple Zeta Values</a>, J. Int. Seq. 14 (2011) # 11.2.4, Table 1.
 %H A000079 Michael Z. Spivey and Laura L. Steil, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL9/Spivey/spivey7.html">The k-Binomial Transforms and the Hankel Transform</a>, Journal of Integer Sequences, Vol. 9 (2006), Article 06.1.1.
-%H A000079 J. Tanton, <a href="http://www.jstor.org/stable/25678324">A Dozen Questions about the Powers of Two</a>, Math Horizons, Vol. 8, pp. 5-10, September 2001.
+%H A000079 J. Tanton, <a href="https://www.jstor.org/stable/25678324">A Dozen Questions about the Powers of Two</a>, Math Horizons, Vol. 8, pp. 5-10, September 2001.
 %H A000079 G. Villemin's Almanac of Numbers, <a href="http://villemin.gerard.free.fr/Wwwgvmm/Nombre/Puiss2.htm">Puissances de 2</a>
 %H A000079 Sage Weil, <a href="https://web.archive.org/web/20090206092940/http://newdream.net:80/~sage/old/numbers/pow2.htm">1058 powers of two</a>
 %H A000079 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/Abundance.html">Abundance</a>
@@ -213,6 +218,7 @@
 %F A000079 a(n) = 7*A077020(n)^2 + A077021(n)^2, n>=3. - _Ralf Steiner_, Aug 08 2021
 %F A000079 a(n)= n + 1 + Sum_{k=3..n+1} (2*k-5)*J(n+2-k), where Jacobsthal number J(n) = A001045(n). - _Michael A. Allen_, Jan 12 2022
 %F A000079 Integral_{x=0..Pi} cos(x)^n*cos(n*x) dx = Pi/a(n) (see Nahin, pp. 69-70). - _Stefano Spezia_, May 17 2023
+%F A000079 a(n) = Sum_{k=0..n} A001622^(3*k-2*n) [H. Freitag, 1975] (see Grimaldi). - _Stefano Spezia_, Nov 16 2025
 %e A000079 There are 2^3 = 8 subsets of a 3-element set {1,2,3}, namely { -, 1, 2, 3, 12, 13, 23, 123 }.
 %p A000079 A000079 := n->2^n; [ seq(2^n,n=0..50) ];
 %p A000079 isA000079 := proc(n)
@@ -247,7 +253,9 @@
 %o A000079 (Python)
 %o A000079 def a(n): return 1<<n
 %o A000079 print([a(n) for n in range(34)]) # _Michael S. Branicky_, Jul 28 2022
-%Y A000079 Cf. A000225, A038754, A133464, A140730, A037124, A001787, A001788, A001789, A003472, A054849, A002409, A054851, A140325, A140354, A000041, A152537, A001405, A007318, A000120, A000265, A000593, A001227, A077020, A077021.
+%o A000079 (Python)
+%o A000079 def is_powerof2(n) -> bool: return n and (n & (n - 1)) == 0  # _Peter Luschny_, Apr 10 2025
+%Y A000079 Cf. A000225, A038754, A133464, A140730, A037124, A001787, A001788, A001789, A003472, A054849, A002409, A054851, A140325, A140354, A000041, A152537, A001405, A007318, A000120, A000265, A000593, A001227, A077020, A077021, A001622.
 %Y A000079 This is the Hankel transform (see A001906 for the definition) of A000984, A002426, A026375, A026387, A026569, A026585, A026671 and A032351. - _John W. Layman_, Jul 31 2000
 %Y A000079 Euler transform of A001037, A209406 (multisets), inverse binomial transform of A000244, binomial transform of A000012.
 %Y A000079 Complement of A057716.
@@ -256,7 +264,7 @@
 %Y A000079 Cf. A018900, A014311, A014312, A014313, A023688, A023689, A023690, A023691 (sum of 2, ..., 9 distinct powers of 2).
 %Y A000079 Cf. A090129.
 %Y A000079 The following are parallel families: A000079 (2^n), A004094 (2^n reversed), A028909 (2^n sorted up), A028910 (2^n sorted down), A036447 (double and reverse), A057615 (double and sort up), A263451 (double and sort down); A000244 (3^n), A004167 (3^n reversed), A321540 (3^n sorted up), A321539 (3^n sorted down), A163632 (triple and reverse), A321542 (triple and sort up), A321541 (triple and sort down).
-%K A000079 nonn,core,easy,nice
+%K A000079 nonn,core,easy,nice,changed
 %O A000079 0,2
 %A A000079 _N. J. A. Sloane_
 %E A000079 Clarified a comment _T. D. Noe_, Aug 30 2009

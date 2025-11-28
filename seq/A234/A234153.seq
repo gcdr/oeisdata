@@ -1,8 +1,8 @@
-%I A234153 #5 Dec 20 2013 07:26:02
+%I A234153 #7 Jun 02 2025 09:13:40
 %S A234153 46,2210,411712,305867942,906740091154,10766110422202828,
 %T A234153 513096321262694789718,98329465854339796818641798,
 %U A234153 75883578239965077307319666003040
-%N A234153 Number of (n+1)X(n+1) 0..3 arrays with every 2X2 subblock having the absolute values of all six edge and diagonal differences no larger than 1
+%N A234153 Number of (n+1)X(n+1) 0..3 arrays with every 2X2 subblock having the absolute values of all six edge and diagonal differences no larger than 1.
 %C A234153 Diagonal of A234161
 %H A234153 R. H. Hardin, <a href="/A234153/b234153.txt">Table of n, a(n) for n = 1..11</a>
 %e A234153 Some solutions for n=2

@@ -1,11 +1,11 @@
-%I A208202 #28 Sep 08 2022 08:46:01
+%I A208202 #29 Nov 05 2025 15:22:21
 %S A208202 1,1,1,2,3,13,59,3324,890065,166683166499,39725939269090918399,
 %T A208202 1240040687243304530118746458657221560,
 %U A208202 11740660815927242416329935330676365456512664243108711550072429939
 %N A208202 a(n) = (a(n-1)*a(n-2)^2+1)/a(n-3) with a(0)=a(1)=a(2)=1.
 %C A208202 This is the case a=2, b=1, y(0)=y(1)=y(2)=1 of the recurrence shown in the Example 3.2 of "The Laurent phenomenon" (see Link lines, p. 10).
 %H A208202 Bruno Berselli, <a href="/A208202/b208202.txt">Table of n, a(n) for n = 0..16</a>
-%H A208202 Sergey Fomin and Andrei Zelevinsky, <a href="http://arxiv.org/abs/math/0104241">The Laurent phenomenon</a>, arXiv:math/0104241v1 [math.CO] (2001), Advances in Applied Mathematics 28 (2002), 119-144.
+%H A208202 Sergey Fomin and Andrei Zelevinsky, <a href="https://arxiv.org/abs/math/0104241">The Laurent phenomenon</a>, arXiv:math/0104241v1 [math.CO] (2001), Advances in Applied Mathematics 28 (2002), 119-144.
 %F A208202 From _Vaclav Kotesovec_, May 20 2015: (Start)
 %F A208202 a(n) ~ c1^(d1^n) * c2^(d2^n) * c3^(d3^n), where
 %F A208202 d1 = -1.24697960371746706105000976800847962126454946179280421073109887819...

@@ -1,9 +1,12 @@
-%I A088966 #34 May 05 2021 09:19:25
-%S A088966 3,8,24,80,288,1088,4224,4374,16640,66048,263168,1050624,4198400
-%N A088966 Numbers n such that A007947(n) = A007947(m+1) and A007947(m) = A007947(n+1), where n > m.
+%I A088966 #49 Jul 06 2025 23:54:16
+%S A088966 3,8,24,80,288,1088,4224,4374,16640,66048,263168,1050624,4198400,
+%T A088966 16785408,67125248,268468224,1073807360,4295098368,17180131328,
+%U A088966 68720001024,274878955520,1099513724928
+%N A088966 Numbers k such that A007947(k) = A007947(m+1) and A007947(m) = A007947(k+1), where k > m.
 %C A088966 For every k >= 0, the sequence includes 4^k + 2^(k+1), with m = 2^k + 1. - _David Wasserman_, Jan 29 2004
 %C A088966 So a(13) <= 4198400. - _Michel Marcus_, Aug 10 2014
 %C A088966 Are there other terms like 4374 that are not of this form? - _Michel Marcus_, Aug 10 2014
+%H A088966 Christian Hercher, <a href="https://arxiv.org/abs/2506.01099">On one of Erdős' Problems - An Efficient Search for Benelux Pairs</a>, arXiv:2506.01099 [math.NT], 2025. See pp. 2, 13.
 %F A088966 G.f.: Conjecture: Q(0)/x - 1/x where Q(k)= 1 + 2^k*x/(1 - 2*x/(2*x + 2^k*x/Q(k+1) )); (continued fraction ). - _Sergei N. Gladkovskii_, Apr 10 2013
 %e A088966 With n=3 and m=2, rad(3) = rad(3) and rad(2) = rad(4), so 3 is in the sequence.
 %p A088966 rad:= n -> convert(numtheory:-factorset(n),`*`):
@@ -21,10 +24,12 @@
 %t A088966 rad[n_] := rad[n] = Select[Divisors[n], SquareFreeQ][[-1]];
 %t A088966 okQ[n_] := Module[{r = rad[n], r1 = rad[n+1], k, m}, For[k = 0, k < Log[2, n-1], k++, m = 2^k+1; If[r == rad[m+1] && rad[m] == r1, Return[True]]]; False];
 %t A088966 Reap[For[n = 1, n <= 5*10^6, n++, If[okQ[n], Print[n]; Sow[n]]]][[2, 1]] (* _Jean-François Alcover_, Apr 11 2019 *)
-%o A088966 (PARI) lista(nn) = {v = vector(nn, i, rad(i)); for (n=1, nn-1, ok = 0; if (n % 2, ma = 2, ma = 1); forstep (m = ma, n-1, 2, if ((v[n] == v[m+1]) && (v[m] == v[n+1]), ok = 1; break);); if (ok, print1(n, ", ")););} \\ _Michel Marcus_, Aug 10 2014
+%o A088966 (PARI) rad(n) = factorback(factorint(n)[, 1]); \\ A007947
+%o A088966 lista(nn) = {v = vector(nn, i, rad(i)); for (n=1, nn-1, ok = 0; if (n % 2, ma = 2, ma = 1); forstep (m = ma, n-1, 2, if ((v[n] == v[m+1]) && (v[m] == v[n+1]), ok = 1; break);); if (ok, print1(n, ", ")););} \\ _Michel Marcus_, Aug 10 2014
 %Y A088966 Cf. A007947 (rad(n)), A087914 (similar sequence), A091697 (the values of m).
 %K A088966 nonn,more
 %O A088966 1,1
 %A A088966 _Naohiro Nomoto_, Oct 29 2003
 %E A088966 More terms from _David Wasserman_, Jan 29 2004
 %E A088966 a(13) confirmed by _Robert Israel_, Aug 10 2014
+%E A088966 a(14)-a(22) from _Bill McEachen_, Jul 02 2025

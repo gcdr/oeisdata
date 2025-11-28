@@ -1,4 +1,4 @@
-%I A235127 #31 Jul 26 2024 09:14:13
+%I A235127 #32 Sep 22 2025 16:01:15
 %S A235127 0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,2,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,2,0,0,
 %T A235127 0,1,0,0,0,1,0,0,0,1,0,0,0,2,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,3,0,0,0,1,
 %U A235127 0,0,0,1,0,0,0,1,0,0,0,2,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,2,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,2,0,0,0,1,0,0,0,1
@@ -11,7 +11,7 @@
 %e A235127 Since 4^2 divides 32 and 4^3 does not, we have a(32) = 2. Likewise, since no positive power of 4 divides 9, a(9) = 0.
 %t A235127 IntegerExponent[Range@ 105, 4] (* _Michael De Vlieger_, Nov 18 2017 *)
 %o A235127 (PARI) A235127(n) = valuation(n,4); \\ _Antti Karttunen_, Nov 18 2017
-%o A235127 (Sage)
+%o A235127 (SageMath)
 %o A235127 n=100 #change n for more terms
 %o A235127 [valuation(i,4) for i in [1..n]]
 %o A235127 (Python)

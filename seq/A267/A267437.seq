@@ -1,4 +1,4 @@
-%I A267437 #27 Sep 08 2022 08:46:15
+%I A267437 #28 Nov 05 2025 15:22:31
 %S A267437 11,23,67,151,275,487,963,2039,4211,8327,16291,32407,65363,131623,
 %T A267437 263043,524087,1046579,2095559,4196707,8394199,16778003,33544039,
 %U A267437 67096899,134226551,268468211,536886023,1073691427,2147403031,4294987475,8590116007,17180010243
@@ -6,7 +6,7 @@
 %C A267437 Abatzoglou, Silverberg, Sutherland, & Wong give a quasi-quadratic algorithm for finding primes in this sequence, which relies on a correspondence between the Frobenius endomorphism of one of the five elliptic curves given above and complex multiplication in Z[(1 + sqrt(-7))/2].
 %H A267437 Charles R Greathouse IV, <a href="/A267437/b267437.txt">Table of n, a(n) for n = 2..3319</a>
 %H A267437 Alexander Abatzoglou, Alice Silverberg, Andrew V. Sutherland, and Angela Wong, <a href="http://dx.doi.org/10.2140/obs.2013.1.1">Deterministic elliptic curve primality proving for a special sequence of numbers</a>, Tenth Algorithmic Number Theory Symposium (ANTS X, 2012), pp. 1-20.
-%H A267437 Alexander Abatzoglou, Alice Silverberg, Andrew V. Sutherland, Angela Wong, <a href="http://arxiv.org/abs/1202.3695">Deterministic elliptic curve primality proving for a special sequence of numbers</a>, arXiv:1202.3695 [math.NT], 2012.
+%H A267437 Alexander Abatzoglou, Alice Silverberg, Andrew V. Sutherland, Angela Wong, <a href="https://arxiv.org/abs/1202.3695">Deterministic elliptic curve primality proving for a special sequence of numbers</a>, arXiv:1202.3695 [math.NT], 2012.
 %H A267437 <a href="/index/Rec#order_04">Index entries for linear recurrences with constant coefficients</a>, signature (4,-7,8,-4).
 %F A267437 a(n) = 4*a(n-1) - 7*a(n-2) + 8*a(n-3) - 4*a(n-4).
 %F A267437 a(n) ~ 4*2^n.

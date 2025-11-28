@@ -1,4 +1,4 @@
-%I A018297 #19 Dec 18 2017 14:30:50
+%I A018297 #21 Jul 08 2025 06:36:33
 %S A018297 1,2,3,4,6,11,12,22,33,44,66,132
 %N A018297 Divisors of 132.
 %C A018297 There are sixteen ways to express 132 as a sum of its distinct divisors (see A033630), such as 1 + 2 + 3 + 4 + 11 + 12 + 22 + 33 + 44 = 132. - _Alonso del Arte_, Dec 11 2017
@@ -7,4 +7,4 @@
 %o A018297 (PARI) divisors(132) \\ _Charles R Greathouse IV_, Jun 21 2017
 %K A018297 nonn,fini,full,easy
 %O A018297 1,2
-%A A018297 _N. J. A. Sloane_.
+%A A018297 _N. J. A. Sloane_

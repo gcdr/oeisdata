@@ -1,8 +1,8 @@
-%I A236427 #4 Jan 25 2014 06:29:31
+%I A236427 #6 Jul 23 2025 09:15:42
 %S A236427 81,487,487,2581,5772,2581,12373,60193,60193,12373,55929,544380,
 %T A236427 1290539,544380,55929,241933,4505522,24143945,24143945,4505522,241933,
 %U A236427 1015889,34394854,414682711,987221751,414682711,34394854,1015889,4174941
-%N A236427 T(n,k)=Number of (n+1)X(k+1) 0..2 arrays with the sum of each 2X2 subblock two extreme terms minus its two median terms lexicographically nondecreasing columnwise and nonincreasing rowwise
+%N A236427 T(n,k)=Number of (n+1)X(k+1) 0..2 arrays with the sum of each 2X2 subblock two extreme terms minus its two median terms lexicographically nondecreasing columnwise and nonincreasing rowwise.
 %C A236427 Table starts
 %C A236427 .......81........487........2581.........12373.........55929..........241933
 %C A236427 ......487.......5772.......60193........544380.......4505522........34394854

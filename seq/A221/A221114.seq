@@ -1,8 +1,8 @@
-%I A221114 #4 Jan 02 2013 12:04:41
+%I A221114 #8 Oct 03 2025 19:19:56
 %S A221114 0,0,0,0,0,0,0,1,0,0,0,7,8,0,0,0,38,178,51,0,0,0,190,2952,3706,304,0,
 %T A221114 0,0,918,45842,189762,73267,1769,0,0,0,4367,693362,9107191,11678172,
 %U A221114 1424745,10200,0,0,0,20623,10369358,423897591,1734890879,709142453,27551817
-%N A221114 T(n,k)=Number of nXk arrays of occupancy after each element moves to some horizontal or antidiagonal neighbor, without 2-loops
+%N A221114 T(n,k)=Number of nXk arrays of occupancy after each element moves to some horizontal or antidiagonal neighbor, without 2-loops.
 %C A221114 Table starts
 %C A221114 .0.0........0............0...............0.................0.................0
 %C A221114 .0.0........1............7..............38...............190...............918
@@ -25,4 +25,4 @@
 %Y A221114 Row 2 is A217340(n-1)
 %K A221114 nonn,tabl
 %O A221114 1,12
-%A A221114 _R. H. Hardin_ Jan 02 2013
+%A A221114 _R. H. Hardin_, Jan 02 2013

@@ -1,8 +1,8 @@
-%I A229265 #12 Sep 18 2013 12:04:51
+%I A229265 #15 Jul 28 2025 20:19:34
 %S A229265 1,8,200,512,968,1458,3200,4232,5618,5832,6962,10368,16928,26912,
 %T A229265 36992,40328,53792,61952,84050,101250,110450,140450,147968,220448,
 %U A229265 247808,249218,253472,257762,279752,282752,320000,336200,344450,359552,361250,445568,472392,512072
-%N A229265 Numbers n such that sigma(n) + tau(n) + phi(n) is a prime, where sigma(n) = A000203(n), tau(n) = A000005(n) and phi(n) = A000010(n).
+%N A229265 Numbers k such that sigma(k) + tau(k) + phi(k) is a prime, where sigma(k) = A000203(k), tau(k) = A000005(k) and phi(k) = A000010(k).
 %e A229265 sigma(200) = 465, tau(200) = 12, phi(200) = 80 and 465 + 12 + 80 = 557 is prime.
 %p A229265 with(numtheory); P:=proc(q) local n; for n from 1 to q do
 %p A229265 if isprime(sigma(n)+tau(n)+phi(n)) then print(n); fi; od; end: P(10^6);

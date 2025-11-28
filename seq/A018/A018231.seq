@@ -1,4 +1,4 @@
-%I A018231 #9 Feb 05 2019 21:06:05
+%I A018231 #11 Jul 08 2025 06:32:45
 %S A018231 1,2,3,4,8,9,12,16,18,27,32,36,48,64,72,108,128,144,192,256,288,432,
 %T A018231 576,1152,1728,2304
 %N A018231 Numbers n such that normalizer of Gamma_0(n) is a triangle group.
@@ -6,5 +6,5 @@
 %Y A018231 Cf. A018229, A018228, A018230.
 %K A018231 nonn,fini,full
 %O A018231 1,2
-%A A018231 _N. J. A. Sloane_.
+%A A018231 _N. J. A. Sloane_
 %E A018231 Missing terms 256 and 2304 added, list sorted, and keywords added by _Sean A. Irvine_, Feb 05 2019

@@ -1,4 +1,4 @@
-%I A333485 #20 Feb 09 2021 18:34:45
+%I A333485 #31 Nov 10 2025 21:50:42
 %S A333485 1,2,4,3,8,6,5,16,12,9,10,7,32,24,18,20,15,14,11,64,48,36,40,27,30,28,
 %T A333485 25,21,22,13,128,96,72,80,54,60,56,45,50,42,44,35,33,26,17,256,192,
 %U A333485 144,160,108,120,112,81,90,100,84,88,75,63,70,66,52,49,55,39,34,19
@@ -6,10 +6,10 @@
 %C A333485 A permutation of the positive integers.
 %C A333485 The Heinz number of an integer partition (y_1,...,y_k) is prime(y_1)*...*prime(y_k), which gives a bijective correspondence between positive integers and integer partitions.
 %C A333485 As a triangle with row lengths A000041, the sequence starts {{1},{2},{4,3},{8,6,5},...}, so offset is 0.
-%H A333485 Michael De Vlieger, <a href="/A333485/b333485.txt">Table of n, a(n) for n = 0..9295</a> (rows 0 <= n <= 25, flattened)
-%H A333485 Michael De Vlieger, <a href="/A333485/a333485.png">log-log plot of rows 0 <= n <= 30 of this sequence</a>, highlighting 2^n in red and prime(n) in blue.
+%H A333485 Michael De Vlieger, <a href="/A333485/b333485.txt">Table of n, a(n) for n = 0..9295</a> (rows n = 0..25, flattened.)
+%H A333485 Michael De Vlieger, <a href="/A333485/a333485_1.png">Log log scatterplot of a(n)</a>, n = 0..9295.
 %H A333485 T. I. Fenner, G. Loizou: A binary tree representation and related algorithms for generating integer partitions. The Computer J. 23(4), 332-337 (1980)
-%H A333485 OEIS Wiki, <a href="http://oeis.org/wiki/Orderings of partitions">Orderings of partitions</a>
+%H A333485 OEIS Wiki, <a href="https://oeis.org/wiki/Orderings of partitions">Orderings of partitions</a>
 %H A333485 Wikiversity, <a href="https://en.wikiversity.org/wiki/Lexicographic_and_colexicographic_order">Lexicographic and colexicographic order</a>
 %F A333485 A001221(a(n)) = A115623(n).
 %F A333485 A001222(a(n - 1)) = A331581(n).
@@ -44,6 +44,11 @@
 %e A333485   128  96  72  80  54  60  56  45  50  42  44  35  33  26  17
 %t A333485 ralensort[f_,c_]:=If[Length[f]!=Length[c],Length[f]>Length[c],OrderedQ[{f,c}]];
 %t A333485 Join@@Table[Times@@Prime/@#&/@Sort[IntegerPartitions[n],ralensort],{n,0,8}]
+%o A333485 (PARI)
+%o A333485 C(sig)=prod(k=1,#sig,prime(sig[k]))
+%o A333485 cmpLenLexDesc(x,y)=my(d=cmp(#x,#y)); if(d, d, -lex(x,y))
+%o A333485 Row(n)={apply(C, vecsort([Vecrev(p) | p<-partitions(n)], cmpLenLexDesc, 4))}
+%o A333485 { for(n=0, 7, print(Row(n))) } \\ _Andrew Howroyd_, Oct 07 2025
 %Y A333485 Row lengths are A000041.
 %Y A333485 The constructive version is A228100.
 %Y A333485 Sorting by increasing length gives A334433.

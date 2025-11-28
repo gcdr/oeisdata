@@ -1,4 +1,4 @@
-%I A033951 #79 Sep 03 2024 15:09:33
+%I A033951 #84 Mar 15 2025 04:17:39
 %S A033951 1,8,23,46,77,116,163,218,281,352,431,518,613,716,827,946,1073,1208,
 %T A033951 1351,1502,1661,1828,2003,2186,2377,2576,2783,2998,3221,3452,3691,
 %U A033951 3938,4193,4456,4727,5006,5293,5588,5891,6202,6521,6848,7183,7526,7877,8236,8603,8978
@@ -35,6 +35,17 @@
 %e A033951   58  31--30--29--28--27--26  49
 %e A033951    |                           |
 %e A033951   57--56--55--54--53--52--51--50
+%e A033951 From _Aaron David Fairbanks_, Mar 06 2025: (Start)
+%e A033951 Illustration of initial terms:
+%e A033951                                             o o o o
+%e A033951                         o o o             o o o o o o
+%e A033951           o o         o o o o o         o o o o o o o o
+%e A033951   o     o o o o     o o o o o o o     o o o o o o o o o o
+%e A033951           o o         o o o o o         o o o o o o o o
+%e A033951                         o o o             o o o o o o
+%e A033951                                             o o o o
+%e A033951   1        8              23                   46
+%e A033951 (End)
 %p A033951 A033951:=n->4*n^2 + 3*n + 1: seq(A033951(n), n=0..100); # _Wesley Ivan Hurt_, Feb 11 2017
 %t A033951 lst={};Do[p=4*n^2+3*n+1;AppendTo[lst, p], {n, 1, 6!}];lst (* _Vladimir Joseph Stephan Orlovsky_, Sep 01 2008 *)
 %t A033951 LinearRecurrence[{3,-3,1},{1,8,23},60] (* _Harvey P. Dale_, Feb 07 2015 *)

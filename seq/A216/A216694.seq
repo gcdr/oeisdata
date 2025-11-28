@@ -1,8 +1,8 @@
-%I A216694 #4 Sep 14 2012 06:22:35
+%I A216694 #8 Oct 03 2025 17:17:07
 %S A216694 1,1,1,2,2,2,5,9,9,5,15,90,189,90,15,52,1451,11730,11730,1451,52,203,
 %T A216694 33694,1561834,6901440,1561834,33694,203,877,1047754,370625430,
 %U A216694 11239872497,11239872497,370625430,1047754,877,4140,41569451
-%N A216694 T(n,k)=Number of horizontal, vertical, diagonal or knight-move neighbor colorings of an nXk array with new integer colors introduced in row major order
+%N A216694 T(n,k)=Number of horizontal, vertical, diagonal or knight-move neighbor colorings of an nXk array with new integer colors introduced in row major order.
 %C A216694 Table starts
 %C A216694 ...1.......1.........2...........5..........15........52..........203......877
 %C A216694 ...1.......2.........9..........90........1451.....33694......1047754.41569451
@@ -19,4 +19,4 @@
 %Y A216694 Column 1 is A000110(n-1)
 %K A216694 nonn,tabl
 %O A216694 1,4
-%A A216694 _R. H. Hardin_ Sep 14 2012
+%A A216694 _R. H. Hardin_, Sep 14 2012

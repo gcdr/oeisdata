@@ -1,8 +1,8 @@
-%I A236970 #21 Jul 19 2018 03:07:00
+%I A236970 #23 Jul 23 2025 09:41:52
 %S A236970 0,0,1,2,2,3,5,6,7,13,16,19,29,38,49,72,84,108,155,195,234,331,410,
 %T A236970 501,672,824,1006,1341,1621,1981,2583,3111,3740,4846,5819,6957,8787,
 %U A236970 10582,12606,15840,18762,22386,27851,32934,38824,47961,56633,66577,81168,95612
-%N A236970 The number of partitions of n into at least 3 parts from which we can form every partition of n into 3 parts by summing elements
+%N A236970 The number of partitions of n into at least 3 parts from which we can form every partition of n into 3 parts by summing elements.
 %C A236970 The corresponding partitions with 2 in the definition instead of 3 are the complete partitions, which are counted by A126796.
 %C A236970 The qualifier 'into at least 3 parts' is only relevant for n = 1 or 2. It is included because otherwise the condition would be vacuously true for all partitions of 1 and 2. It seems neater to consider that there are no partitions of 1 and 2 of this form.
 %H A236970 Jack W Grahl, <a href="/A236970/a236970.hs.txt">Haskell code for generating this sequence</a>

@@ -1,10 +1,9 @@
-%I A000217 M2535 N1002 #1849 Feb 16 2025 08:32:20
+%I A000217 M2535 N1002 #1974 Nov 26 2025 02:48:49
 %S A000217 0,1,3,6,10,15,21,28,36,45,55,66,78,91,105,120,136,153,171,190,210,
 %T A000217 231,253,276,300,325,351,378,406,435,465,496,528,561,595,630,666,703,
 %U A000217 741,780,820,861,903,946,990,1035,1081,1128,1176,1225,1275,1326,1378,1431
 %N A000217 Triangular numbers: a(n) = binomial(n+1,2) = n*(n+1)/2 = 0 + 1 + 2 + ... + n.
 %C A000217 Also referred to as T(n) or C(n+1, 2) or binomial(n+1, 2) (preferred).
-%C A000217 Also generalized hexagonal numbers: n*(2*n-1), n=0, +-1, +-2, +-3, ... Generalized k-gonal numbers are second k-gonal numbers and positive terms of k-gonal numbers interleaved, k >= 5. In this case k = 6. - _Omar E. Pol_, Sep 13 2011 and Aug 04 2012
 %C A000217 Number of edges in complete graph of order n+1, K_{n+1}.
 %C A000217 Number of legal ways to insert a pair of parentheses in a string of n letters. E.g., there are 6 ways for three letters: (a)bc, (ab)c, (abc), a(b)c, a(bc), ab(c). Proof: there are C(n+2,2) ways to choose where the parentheses might go, but n + 1 of them are illegal because the parentheses are adjacent. Cf. A002415.
 %C A000217 For n >= 1, a(n) is also the genus of a nonsingular curve of degree n+2, such as the Fermat curve x^(n+2) + y^(n+2) = 1. - Ahmed Fares (ahmedfares(AT)my_deja.com), Feb 21 2001
@@ -35,7 +34,7 @@
 %C A000217 Numbers m >= 0 such that fract(sqrt(2m+1)) > 1/2 and fract(sqrt(2m)) < 1/2, where fract(x) is the fractional part of x (i.e., x - floor(x), x >= 0). (End)
 %C A000217 If Y and Z are 3-blocks of an n-set X, then, for n >= 6, a(n-1) is the number of (n-2)-subsets of X intersecting both Y and Z. - _Milan Janjic_, Nov 09 2007
 %C A000217 Equals row sums of triangle A143320, n > 0. - _Gary W. Adamson_, Aug 07 2008
-%C A000217 a(n) is also a perfect number A000396 if n is a Mersenne prime A000668, assuming there are no odd perfect numbers. - _Omar E. Pol_, Sep 05 2008
+%C A000217 a(n) is also an even perfect number in A000396 iff n is a Mersenne prime A000668. - _Omar E. Pol_, Sep 05 2008. Unnecessary assumption removed and clarified by _Rick L. Shepherd_, Apr 14 2025
 %C A000217 Equals row sums of triangle A152204. - _Gary W. Adamson_, Nov 29 2008
 %C A000217 The number of matches played in a round robin tournament: n*(n-1)/2 gives the number of matches needed for n players. Everyone plays against everyone else exactly once. - Georg Wrede (georg(AT)iki.fi), Dec 18 2008
 %C A000217 -a(n+1) = E(2)*binomial(n+2,2) (n >= 0) where E(n) are the Euler numbers in the enumeration A122045. Viewed this way, a(n) is the special case k=2 in the sequence of diagonals in the triangle A153641. - _Peter Luschny_, Jan 06 2009
@@ -48,15 +47,16 @@
 %C A000217 More generally, a(2k+1) == j*(2j-1) (mod 2k+2j+1) and
 %C A000217 a(2k) == [-k + 2j*(j-1)] (mod 2k+2j).
 %C A000217 Column sums of:
-%C A000217 1 3 5  7  9 ...
-%C A000217     1  3  5 ...
-%C A000217           1 ...
-%C A000217 ...............
-%C A000217 ---------------
-%C A000217 1 3 6 10 15 ...
+%C A000217   1 3 5  7  9 ...
+%C A000217       1  3  5 ...
+%C A000217             1 ...
+%C A000217   ...............
+%C A000217   ---------------
+%C A000217   1 3 6 10 15 ...
 %C A000217 Sum_{n>=1} 1/a(n)^2 = 4*Pi^2/3-12 = 12 less than the volume of a sphere with radius Pi^(1/3).
 %C A000217 (End)
 %C A000217 A004201(a(n)) = A000290(n); A004202(a(n)) = A002378(n). - _Reinhard Zumkeller_, Feb 12 2011
+%C A000217 Also generalized hexagonal numbers: n*(2*n-1), n=0, +-1, +-2, +-3, ... Generalized k-gonal numbers are second k-gonal numbers and positive terms of k-gonal numbers interleaved, k >= 5. In this case k = 6. - _Omar E. Pol_, Sep 13 2011 and Aug 04 2012
 %C A000217 1/a(n+1), n >= 0, has e.g.f. -2*(1+x-exp(x))/x^2, and o.g.f. 2*(x+(1-x)*log(1-x))/x^2 (see the _Stephen Crowley_ formula line). -1/(2*a(n+1)) is the z-sequence for the Sheffer triangle of the coefficients of the Bernoulli polynomials A196838/A196839. - _Wolfdieter Lang_, Oct 26 2011
 %C A000217 From _Charlie Marion_, Feb 23 2012: (Start)
 %C A000217 a(n) + a(A002315(k)*n + A001108(k+1)) = (A001653(k+1)*n + A001109(k+1))^2. For k=0 we obtain a(n) + a(n+1) = (n+1)^2 (identity added by _N. J. A. Sloane_ on Feb 19 2004).
@@ -128,6 +128,9 @@
 %C A000217 Suppose two rows, each consisting of n evenly spaced dots, are drawn in parallel. Suppose we bijectively draw lines between the dots of the two rows. For n >= 1, a(n - 1) is the maximal possible number of intersections between the lines. Equivalently, the maximal number of inversions in a permutation of [n]. - _Sela Fried_, Apr 18 2023
 %C A000217 The following equation complements the generalization in Bala's Comment (Jan 05 2015). (2k + 1)^2*a(n) + a(k) = a((2k + 1)*n + k). - _Charlie Marion_, Aug 28 2023
 %C A000217 a(n) + a(n+k) + a(k-1) + (k-1)*n = (n+k)^2.  For k = 1, we have a(n) + a(n+1) = (n+1)^2. - _Charlie Marion_, Nov 17 2023
+%C A000217 a(n+1)/3 is the expected number of steps to escape from a linear row of n positions starting at a random location and randomly performing steps -1 or +1 with equal probability. - _Hugo Pfoertner_, Jul 22 2025
+%C A000217 a(n+1) is the number of nonnegative integer solutions to p + q + r = n. By Sylvester's law of inertia, it is also the number of congruence classes of real symmetric n-by-n matrices or equivalently, the number of symmetric bilinear forms on a real n-dimensional vector space. - _Paawan Jethva_, Jul 24 2025
+%C A000217 a(n+1) is also the maximum number of pieces that can be obtained by cutting a crescent moon with n simultaneous straight cuts. See the two Martin Gardner books and my two Crescent Moon links. Some discussions of this problem have used the phrase "It's Only a Paper Moon".- _N. J. A. Sloane_, Nov 24 2025
 %D A000217 M. Abramowitz and I. A. Stegun, eds., Handbook of Mathematical Functions, National Bureau of Standards Applied Math. Series 55, 1964 (and various reprintings), p. 828.
 %D A000217 C. Alsina and R. B. Nelson, Charming Proofs: A Journey into Elegant Mathematics, MAA, 2010. See Chapter 1.
 %D A000217 T. M. Apostol, Introduction to Analytic Number Theory, Springer-Verlag, 1976, page 2.
@@ -135,42 +138,46 @@
 %D A000217 A. T. Benjamin and J. J. Quinn, Proofs that really count: the art of combinatorial proof, M.A.A. 2003, p. 109ff.
 %D A000217 Marc Chamberland, Single Digits: In Praise of Small Numbers, Chapter 3, The Number Three, p. 72, Princeton University Press, 2015.
 %D A000217 L. Comtet, Advanced Combinatorics, Reidel, 1974, p. 155.
+%D A000217 John H. Conway and Richard K. Guy, The Book of Numbers, New York: Springer-Verlag, 1996. See pp. 33, 38, 40, 70.
 %D A000217 J. M. De Koninck and A. Mercier, 1001 Problèmes en Théorie Classique des Nombres, Problème 309 pp 46-196, Ellipses, Paris, 2004
-%D A000217 E. Deza and M. M. Deza, Figurate numbers, World Scientific Publishing (2012), page 6.
+%D A000217 Elena Deza and Michel Marie Deza, Figurate numbers, World Scientific Publishing (2012), pages 1-2, 6, 78, 89.
 %D A000217 L. E. Dickson, History of the Theory of Numbers. Carnegie Institute Public. 256, Washington, DC, Vol. 1, 1919; Vol. 2, 1920; Vol. 3, 1923, see vol. 2, p. 1.
-%D A000217 Martin Gardner, Colossal Book of Mathematics, Chapter 34, Bulgarian Solitaire and Other Seemingly Endless Tasks, pp. 455-467, W. W. Norton & Company, 2001.
+%D A000217 Martin Gardner's New Mathematical Diversions from Scientific American, Simon and Schuster, 1966. See p. 246.
+%D A000217 Martin Gardner, Colossal Book of Mathematics, Chap. 1, The Calculus of Finite Differences, pp. 15, 21; and Chapter 34, Bulgarian Solitaire and Other Seemingly Endless Tasks, pp. 455-467, W. W. Norton & Company, 2001.
 %D A000217 James Gleick, The Information: A History, A Theory, A Flood, Pantheon, 2011. [On page 82 mentions a table of the first 19999 triangular numbers published by E. de Joncort in 1762.]
 %D A000217 Jan Gullberg, Mathematics from the Birth of Numbers, W. W. Norton & Co., NY & London, 1997, §4.6 Mathematical Proof and §8.6 Figurate Numbers, pp. 158-159, 289-290.
 %D A000217 Cay S. Horstmann, Scala for the Impatient. Upper Saddle River, New Jersey: Addison-Wesley (2012): 171.
-%D A000217 Labos E.: On the number of RGB-colors we can distinguish. Partition Spectra. Lecture at 7th Hungarian Conference on Biometry and Biomathematics. Budapest. Jul 06 2005.
+%D A000217 Elemer Labos, On the number of RGB-colors we can distinguish. Partition Spectra. Lecture at 7th Hungarian Conference on Biometry and Biomathematics. Budapest. Jul 06 2005.
 %D A000217 A. Messiah, Quantum Mechanics, Vol.1, North Holland, Amsterdam, 1965, p. 457.
 %D A000217 J. C. P. Miller, editor, Table of Binomial Coefficients. Royal Society Mathematical Tables, Vol. 3, Cambridge Univ. Press, 1954.
+%D A000217 Alfred S. Posamentier, Math Charmers, Tantalizing Tidbits for the Mind, Prometheus Books, NY, 2003, pages 52-53, 129-132, 274.
 %D A000217 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
 %D A000217 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A000217 James J. Tattersall, Elementary Number Theory in Nine Chapters, Cambridge University Press, 1999, pages 2-6, 13.
 %D A000217 T. Trotter, Some Identities for the Triangular Numbers, Journal of Recreational Mathematics, Spring 1973, 6(2).
 %D A000217 D. Wells, The Penguin Dictionary of Curious and Interesting Numbers, pp. 91-93 Penguin Books 1987.
 %H A000217 N. J. A. Sloane, <a href="/A000217/b000217.txt">Table of n, a(n) for n = 0..30000</a>
 %H A000217 M. Abramowitz and I. A. Stegun, eds., <a href="http://www.convertit.com/Go/ConvertIt/Reference/AMS55.ASP">Handbook of Mathematical Functions</a>, National Bureau of Standards Applied Math.Series 55, Tenth Printing, 1972.
 %H A000217 K. Adegoke, R. Frontzcak and T. Goy, <a href="http://dx.doi.org/10.15330/cmp.13.1.207-216">Special formulas involving polygonal numbers and Horadam numbers</a>, Carpathian Math. Publ., 13 (2021), no. 1, 207-216.
 %H A000217 Ayomikun Adeniran and Lara Pudwell, <a href="https://doi.org/10.54550/ECA2023V3S3R17">Pattern avoidance in parking functions</a>, Enumer. Comb. Appl. 3:3 (2023), Article S2R17.
-%H A000217 Joerg Arndt, <a href="http://www.jjj.de/fxt/#fxtbook">Matters Computational (The Fxtbook)</a>, section 39.7, pp. 776-778.
 %H A000217 Luciano Ancora, <a href="https://archive.org/details/FigurateN">The Square Pyramidal Number and other figurate numbers</a>, ch. 5.
-%H A000217 S. Barbero, U. Cerruti, and N. Murru, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL13/Barbero2/barbero7.html">A Generalization of the Binomial Interpolated Operator and its Action on Linear Recurrent Sequences </a>, J. Int. Seq. 13 (2010) # 10.9.7, proposition 18.
+%H A000217 Joerg Arndt, <a href="http://www.jjj.de/fxt/#fxtbook">Matters Computational (The Fxtbook)</a>, section 39.7, pp. 776-778.
+%H A000217 S. Barbero, U. Cerruti, and N. Murru, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL13/Barbero2/barbero7.html">A Generalization of the Binomial Interpolated Operator and its Action on Linear Recurrent Sequences</a>, J. Int. Seq. 13 (2010) # 10.9.7, proposition 18.
 %H A000217 Jean-Luc Baril, Sergey Kirgizov, and Vincent Vajnovszki, <a href="https://arxiv.org/abs/1803.06706">Descent distribution on Catalan words avoiding a pattern of length at most three</a>, arXiv:1803.06706 [math.CO], 2018.
 %H A000217 Paul Barry, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL8/Barry/barry84.html">A Catalan Transform and Related Transformations on Integer Sequences</a>, Journal of Integer Sequences, Vol. 8 (2005), Article 05.4.5.
-%H A000217 T. Beldon and T. Gardiner, <a href="http://www.jstor.org/stable/3621134">Triangular numbers and perfect squares</a>, The Mathematical Gazette 86 (2002), 423-431.
-%H A000217 Michael Boardman, <a href="http://www.jstor.org/stable/3219201">The Egg-Drop Numbers</a>, Mathematics Magazine, 77 (2004), 368-372. [From _Parthasarathy Nambi_, Sep 30 2009]
+%H A000217 T. Beldon and T. Gardiner, <a href="https://www.jstor.org/stable/3621134">Triangular numbers and perfect squares</a>, The Mathematical Gazette 86 (2002), 423-431.
+%H A000217 Michael Boardman, <a href="https://www.jstor.org/stable/3219201">The Egg-Drop Numbers</a>, Mathematics Magazine, 77 (2004), 368-372. [From _Parthasarathy Nambi_, Sep 30 2009]
 %H A000217 Anicius Manlius Severinus Boethius, <a href="https://archive.org/stream/aniciimanliitor01friegoog#page/n110/mode/2up">De institutione arithmetica, libri duo</a>, Sections 7-9.
 %H A000217 Henry Bottomley, <a href="/A002378/a002378.gif">Illustration of initial terms of A000217, A002378</a>
 %H A000217 Sadek Bouroubi and Ali Debbache, <a href="https://arxiv.org/abs/2001.11407">An unexpected meeting between the P^3_1-set and the cubic-triangular numbers</a>, arXiv:2001.11407 [math.NT], 2020.
 %H A000217 P. J. Cameron, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL3/groups.html">Sequences realized by oligomorphic permutation groups</a>, J. Integ. Seqs. Vol. 3 (2000), #00.1.5.
 %H A000217 Bikash Chakraborty, <a href="https://arxiv.org/abs/2012.11539">Proof Without Words: Sums of Powers of Natural numbers</a>, arXiv:2012.11539 [math.HO], 2020.
 %H A000217 Peter M. Chema, <a href="/A000217/a000217_3.pdf">Illustration of first 25 terms as corners of a double square spiral.</a>
-%H A000217 Robert Dawson, <a href="https://www.emis.de/journals/JIS/VOL21/Dawson/dawson6.html">On Some Sequences Related to Sums of Powers</a>, J. Int. Seq., Vol. 21 (2018), Article 18.7.6.
+%H A000217 Robert Dawson, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL21/Dawson/dawson6.html">On Some Sequences Related to Sums of Powers</a>, J. Int. Seq., Vol. 21 (2018), Article 18.7.6.
 %H A000217 Karl Dienger, <a href="/A000217/a000217.pdf">Beiträge zur Lehre von den arithmetischen und geometrischen Reihen höherer Ordnung</a>, Jahres-Bericht Ludwig-Wilhelm-Gymnasium Rastatt, Rastatt, 1910. [Annotated scanned copy]
 %H A000217 Alexandru Dimca and Takuro Abe, <a href="https://arxiv.org/abs/1907.12497">On complex supersolvable line arrangements</a>, arXiv:1907.12497 [math.AG], 2019.
 %H A000217 Tomislav Došlić, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL8/Doslic/doslic15.html">Maximum Product Over Partitions Into Distinct Parts</a>, Journal of Integer Sequences, Vol. 8 (2005), Article 05.5.8.
-%H A000217 Askar Dzhumadil'daev and Damir Yeliussizov, <a href="http://cs.uwaterloo.ca/journals/JIS/VOL16/Yeliussizov/dzhuma6.html">Power Sums of Binomial Coefficients</a>, Journal of Integer Sequences, Vol. 16 (2013), #13.1.1.
+%H A000217 Askar Dzhumadil'daev and Damir Yeliussizov, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL16/Yeliussizov/dzhuma6.html">Power Sums of Binomial Coefficients</a>, Journal of Integer Sequences, Vol. 16 (2013), #13.1.1.
 %H A000217 J. East, <a href="http://dx.doi.org/10.1142/S0218196710005509">Presentations for singular subsemigroups of the partial transformation semigroup</a>, Internat. J. Algebra Comput., 20 (2010), no. 1, 1-25.
 %H A000217 J. East, <a href="http://dx.doi.org/10.1142/S021819671100611X">On the singular part of the partition monoid</a>, Internat. J. Algebra Comput., 21 (2011), no. 1-2, 147-178.
 %H A000217 Gennady Eremin, <a href="https://arxiv.org/abs/2004.09866">Naturalized bracket row and Motzkin triangle</a>, arXiv:2004.09866 [math.CO], 2020.
@@ -185,7 +192,7 @@
 %H A000217 A. M. Hinz, S. Klavžar, U. Milutinović, and C. Petr, <a href="http://dx.doi.org/10.1007/978-3-0348-0237-6">The Tower of Hanoi - Myths and Maths</a>, Birkhäuser 2013. See page 35. <a href="http://tohbook.info">Book's website</a>
 %H A000217 J. M. Howie, <a href="http://dx.doi.org/10.1017/S0308210500010647">Idempotent generators in finite full transformation semigroups</a>, Proc. Roy. Soc. Edinburgh Sect. A, 81 (1978), no. 3-4, 317-323.
 %H A000217 INRIA Algorithms Project, <a href="http://ecs.inria.fr/services/structure?nbr=253">Encyclopedia of Combinatorial Structures 253</a> [Dead link]
-%H A000217 Milan Janjić, <a href="http://www.pmfbl.org/janjic/">Two Enumerative Functions</a>
+%H A000217 Milan Janjić, <a href="https://old.pmf.unibl.org/wp-content/uploads/2017/10/enumfor.pdf">Two Enumerative Functions</a>
 %H A000217 Xiangdong Ji, <a href="http://www.physics.umd.edu/courses/Phys741/xji/chap8_12.pdf">Chapter 8: Structure of Finite Nuclei</a>, Lecture notes for Phys 741 at Univ. of Maryland, pp. 139-140 [From _Tom Copeland_, Apr 07 2014].
 %H A000217 R. Jovanovic, <a href="https://web.archive.org/web/20140409103832/http://milan.milanovic.org/math/english/triangular/triangular.html">Triangular numbers</a> [Cached copy at Wayback Machine]
 %H A000217 Sameen Ahmed Khan, <a href="https://doi.org/10.12732/ijam.v33i2.6">Sums of the powers of reciprocals of polygonal numbers</a>, Int'l J. of Appl. Math. (2020) Vol. 33, No. 2, 265-282.
@@ -209,13 +216,16 @@
 %H A000217 David G. Radcliffe, <a href="https://arxiv.org/abs/1606.05398">A product rule for triangular numbers</a>, arXiv:1606.05398 [math.NT], 2016.
 %H A000217 F. Richman, <a href="http://math.fau.edu/Richman/mla/triangle.htm">Triangle numbers</a>
 %H A000217 J. Riordan, <a href="/A000217/a000217_2.pdf">Review of Frankel (1950)</a> [Annotated scanned copy]
-%H A000217 Luis Manuel Rivera, <a href="http://arxiv.org/abs/1406.3081">Integer sequences and k-commuting permutations</a>, arXiv preprint arXiv:1406.3081 [math.CO], 2014-2015.
+%H A000217 Luis Manuel Rivera, <a href="https://arxiv.org/abs/1406.3081">Integer sequences and k-commuting permutations</a>, arXiv preprint arXiv:1406.3081 [math.CO], 2014-2015.
 %H A000217 Kenneth A. Ross, <a href="https://www.jstor.org/stable/10.4169/math.mag.85.1.36">First Digits of Squares and Cubes</a>, Math. Mag. 85 (2012) 36-42. doi:10.4169/math.mag.85.1.36 .
 %H A000217 Frank Ruskey and Jennifer Woodcock, <a href="http://dx.doi.org/10.1007/978-3-642-25011-8_23">The Rand and block distances of pairs of set partitions</a>, in Combinatorial Algorithms, 287-299, Lecture Notes in Comput. Sci., 7056, Springer, Heidelberg, 2011.
 %H A000217 Sci.math Newsgroup, <a href="http://www.math.niu.edu/~rusin/known-math/98/sq_tri">Square numbers which are triangular</a> [Broken link: <a href="/A000217/a000217_1.txt">Cached copy</a>]
 %H A000217 James A. Sellers, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL7/Sellers/sellers58.html">Partitions Excluding Specific Polygonal Numbers As Parts</a>, Journal of Integer Sequences, Vol. 7 (2004), Article 04.2.4.
-%H A000217 Claude-Alexandre Simonetti, <a href="https://arxiv.org/abs/2005.00348">A new mathematical symbol : the termirial</a>, arXiv:2005.00348 [math.GM], 2020.
+%H A000217 J. S. Seneschal, <a href="/A000217/a000217_1.jpg">Iterated Triangular Numbers as Complete Graphs</a>
+%H A000217 Claude-Alexandre Simonetti, <a href="https://arxiv.org/abs/2005.00348">A new mathematical symbol: the termirial</a>, arXiv:2005.00348 [math.GM], 2020.
 %H A000217 N. J. A. Sloane, <a href="/A000217/a000217.gif">Illustration of initial terms of A000217, A000290, A000326</a>
+%H A000217 N. J. A. Sloane, <a href="/A000217/a000217_2.txt">Cutting Up a Crescent Moon</a>
+%H A000217 N. J. A. Sloane, <a href="/A000217/a000217_2.jpg">Dissecting a crescent moon: illustration of construction for n=3</a> (The centers of the two circles whose intersection forms the crescent are marked 1 and 2.)
 %H A000217 Amelia Carolina Sparavigna, <a href="https://doi.org/10.5281/zenodo.3471358">The groupoids of Mersenne, Fermat, Cullen, Woodall and other Numbers and their representations by means of integer sequences</a>, Politecnico di Torino, Italy (2019), [math.NT].
 %H A000217 Amelia Carolina Sparavigna, <a href="https://doi.org/10.5281/zenodo.3470205">The groupoid of the Triangular Numbers and the generation of related integer sequences</a>, Politecnico di Torino, Italy (2019).
 %H A000217 H. Stamm-Wilbrandt, <a href="https://web.archive.org/web/20171109040115/https://www.ibm.com/developerworks/community/blogs/HermannSW/entry/sum_of_pascal_s_triangle_reciprocals10?lang=en">Sum of Pascal's triangle reciprocals</a> [Cached copy from the Wayback Machine]
@@ -336,6 +346,10 @@
 %F A000217 2*a(n) = A000384(n) - n^2 + 2*n. In general, if P(k,n) = the n-th k-gonal number, then (j+1)*a(n) = P(5 + j, n) - n^2 + (j+1)*n. More generally, (j+1)*P(k,n) = P(2*k + (k-2)*(j-1),n) - n^2 + (j+1)*n. - _Charlie Marion_, Mar 14 2023
 %F A000217 a(n) = A109613(n) * A004526(n+1). - _Torlach Rush_, Nov 10 2023
 %F A000217 a(n) = (1/6)* Sum_{k = 0..3*n} (-1)^(n+k+1) * k*(k + 1) * binomial(3*n+k, 2*k). - _Peter Bala_, Nov 03 2024
+%F A000217 From _Peter Bala_, Jul 05 2025: (Start)
+%F A000217 The following series telescope: for k >= 0,
+%F A000217 Sum_{n >= 1} a(n)*a(n+2)*...*a(n+2*k)/(a(n+1)*a(n+3)*...*a(n+2*k+3)) = 1/(2*k + 3);
+%F A000217 Sum_{n >= 1} a(n+1)*a(n+3)*...*a(n+2*k+1)/(a(n)*a(n+2)*...*a(n+2*k+2)) = 2/(2*k + 3) * Sum_{i = 1..2*k+3} 1/i. (End)
 %e A000217 G.f.: x + 3*x^2 + 6*x^3 + 10*x^4 + 15*x^5 + 21*x^6 + 28*x^7 + 36*x^8 + 45*x^9 + ...
 %e A000217 When n=3, a(3) = 4*3/2 = 6.
 %e A000217 Example(a(4)=10): ABCD where A, B, C and D are different links in a chain or different amino acids in a peptide possible fragments: A, B, C, D, AB, ABC, ABCD, BC, BCD, CD = 10.
@@ -401,8 +415,7 @@
 %o A000217 (SageMath) [n*(n+1)/2 for n in (0..60)] # _Bruno Berselli_, Jul 11 2014
 %o A000217 (Scala) (1 to 53).scanLeft(0)(_ + _) // Horstmann (2012), p. 171
 %o A000217 (Scheme) (define (A000217 n) (/ (* n (+ n 1)) 2)) ;; _Antti Karttunen_, Jul 08 2017
-%o A000217 (J) a000217=: *-:@>: NB. _Stephen Makdisi_, May 02 2018
-%o A000217 (Python) for n in range(0,60): print(n*(n+1)/2, end=', ') # _Stefano Spezia_, Dec 06 2018
+%o A000217 (Python) for n in range(0,60): print(n*(n+1)//2, end=', ') # _Stefano Spezia_, Dec 06 2018
 %o A000217 (Python) # Intended to compute the initial segment of the sequence, not
 %o A000217 # isolated terms. If in the iteration the line "x, y = x + y + 1, y + 1"
 %o A000217 # is replaced by "x, y = x + y + k, y + k" then the figurate numbers are obtained,
@@ -433,7 +446,7 @@
 %Y A000217 A337461 counts pairwise coprime triples, with unordered version A307719.
 %Y A000217 Cf. A000212, A001840, A007304, A156040, A220377, A337483, A337604.
 %Y A000217 Cf. A099174, A130534, A132440, A238363.
-%K A000217 nonn,core,easy,nice
+%K A000217 nonn,core,easy,nice,changed
 %O A000217 0,3
 %A A000217 _N. J. A. Sloane_
 %E A000217 Edited by _Derek Orr_, May 05 2015

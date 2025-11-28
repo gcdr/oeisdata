@@ -1,8 +1,8 @@
-%I A164876 #9 Aug 29 2019 05:03:33
+%I A164876 #11 Jun 02 2025 01:53:14
 %S A164876 0,1,2,12,28,32,52,90,124,172,324,364,612,640,756,844,912,964,1476,
 %T A164876 2052,2484,3492,4356,4644,4804,6372,7620,8164,10116,11556,16452,20196,
 %U A164876 22212,26532,28980,33732,39780,41796,44676,55332,60516,63972,75204,82692
-%N A164876 Record differences for n^2 - phi(n)*sigma(n)
+%N A164876 Record differences for n^2 - phi(n)*sigma(n).
 %C A164876 These are the largest differences between n^2 and sigma(n)*phi(n).
 %C A164876 All of the differences are in A069249.
 %H A164876 Amiram Eldar, <a href="/A164876/b164876.txt">Table of n, a(n) for n = 1..10000</a>

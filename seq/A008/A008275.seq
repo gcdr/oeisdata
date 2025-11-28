@@ -1,4 +1,4 @@
-%I A008275 #386 Feb 16 2025 08:32:31
+%I A008275 #416 Nov 26 2025 15:59:33
 %S A008275 1,-1,1,2,-3,1,-6,11,-6,1,24,-50,35,-10,1,-120,274,-225,85,-15,1,720,
 %T A008275 -1764,1624,-735,175,-21,1,-5040,13068,-13132,6769,-1960,322,-28,1,
 %U A008275 40320,-109584,118124,-67284,22449,-4536,546,-36,1,-362880,1026576,-1172700,723680,-269325,63273,-9450,870,-45,1
@@ -13,10 +13,10 @@
 %C A008275 A refinement of the unsigned array is A036039. For an association to forests of "naturally grown" rooted non-planar trees, dispositions of flags on flagpoles, and colorings of the vertices of the complete graphs K_n, see A130534. - _Tom Copeland_, Mar 30 and Apr 05 2014
 %C A008275 The Stirling numbers of the first kind were related to the falling factorial and the convolved, or generalized, Bernoulli numbers B_n by Norlund in 1924 through Sum_{k=1..n+1} T(n+1,k) * x^(k-1) = (x-1)!/(x-1-n)! = (x + B.(0))^n = B_n(x), umbrally evaluated with (B.(0))^k = B_k(0) and the associated Appell polynomial B_n(x) defined by the e.g.f. (t/(exp(t) - 1))^(n+1) * exp(x*t) = exp(B.(x)t). - _Tom Copeland_, Sep 29 2015
 %C A008275 With x = e^z, D_x = d/dx, D_z = d/dz, and p_n(x) the row polynomials of this entry, x^n (D_x)^n = p_n(D_z) = (D_z)! / (D_z - n)! = (xD_x)! / (xD_x - n)!. - _Tom Copeland_, Nov 27 2015
-%C A008275 From the operator relation z + Psi(1) + sum_{n > 0} (-1)^n (-1/n) binomial(D,n) = z + Psi(1+D) with D = d/dz and Psi the digamma function, Zeta(n+1) = Sum_{k > n-1} (1/k) |S(k,n)| / k! for n > 0 and Zeta the Riemann zeta function. - _Tom Copeland_, Aug 12 2016
+%C A008275 From the operator relation z + Psi(1) + Sum_{n > 0} (-1)^n (-1/n) binomial(D,n) = z + Psi(1+D) with D = d/dz and Psi the digamma function, Zeta(n+1) = Sum_{k > n-1} (1/k) |S(k,n)| / k! for n > 0 and Zeta the Riemann zeta function. - _Tom Copeland_, Aug 12 2016
 %C A008275 Let X_1,...,X_n be i.i.d. random variables with exponential distribution having mean = 1.  Let Y = max{X_1,...,X_n}.  Then (-1)^n*n!/( Sum_{k=1..n+1} a(n+1,k) t^(k-1) ) is the moment generating function of Y.  The expectation of Y is the n-th harmonic number. - _Geoffrey Critzer_, Dec 25 2018
 %C A008275 In the Ewens sampling theory describing the multivariate probability distribution of the sizes of the allelic classes in a sample of size n under the Infinite Alleles Model, |s(n,k)| gives the coefficient in the formula for the probability that a sample of n alleles has exactly k distinct types. - _Noah A Rosenberg_, Feb 10 2019
-%C A008275 Named by Nielson (1906) after the Scottish mathematician James Stirling (1692-1770). - _Amiram Eldar_, Jun 11 2021 and Oct 02 2023
+%C A008275 Named by Nielsen (1906) after the Scottish mathematician James Stirling (1692-1770). - _Amiram Eldar_, Jun 11 2021 and Oct 02 2023
 %C A008275 The first few row polynomials along with a recursion formula are found in a manuscript by Newton written in 1664 or 1665 (p. 169 of Turnbull) giving a geometric presentation of the binomial theorem for rational powers. - _Tom Copeland_, Dec 10 2022
 %D A008275 M. Abramowitz and I. A. Stegun, eds., Handbook of Mathematical Functions, National Bureau of Standards Applied Math. Series 55, 1964 (and various reprintings), p. 833.
 %D A008275 Arthur T. Benjamin and Jennifer Quinn, Proofs that really count: the art of combinatorial proof, M.A.A. 2003, p. 93ff.
@@ -40,9 +40,9 @@
 %H A008275 J. Fernando Barbero G., Jesús Salas, and Eduardo J. S. Villaseñor, <a href="https://arxiv.org/abs/1307.2010">Bivariate Generating Functions for a Class of Linear Recurrences. I. General Structure</a>, arXiv:1307.2010 [math.CO], 2013.
 %H A008275 Elena Barcucci, Alberto Del Lungo and Renzo Pinzani, <a href="http://dx.doi.org/10.1016/0304-3975(95)00199-9">"Deco" polyominoes, permutations and random generation</a>, Theoretical Computer Science, Vol. 159 (1996), pp. 29-42.
 %H A008275 Nicolas Behr, Vincent Danos, and Ilias Garnier, <a href="https://arxiv.org/abs/1904.07313">Combinatorial Conversion and Moment Bisimulation for Stochastic Rewriting Systems</a>, arXiv:1904.07313 [cs.LO], 2019.
-%H A008275 Hacene Belbachir and Mourad Rahmani, <a href="http://www.emis.de/journals/JIS/VOL15/Sury/sury42.html">Alternating Sums of the Reciprocals of Binomial Coefficients</a>, Journal of Integer Sequences, Vol. 15 (2012), Article 12.2.8.
+%H A008275 Hacene Belbachir and Mourad Rahmani, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL15/Sury/sury42.html">Alternating Sums of the Reciprocals of Binomial Coefficients</a>, Journal of Integer Sequences, Vol. 15 (2012), Article 12.2.8.
 %H A008275 Edward A. Bender, <a href="https://doi.org/10.1016/0097-3165(73)90038-1">Central and local limit theorems applied to asymptotic enumeration</a> Journal of Combinatorial Theory, Series A, Vol. 15, No. 1 (1973), pp. 91-111. See Example 5.1.
-%H A008275 Boris A. Bondarenko, <a href="https://web.archive.org/web/2024*/https://www.fq.math.ca/pascal.html">Generalized Pascal Triangles and Pyramids</a>, English translation published by Fibonacci Association, Santa Clara Univ., Santa Clara, CA, 1993; see p. 32.
+%H A008275 Boris A. Bondarenko, <a href="https://www.fq.math.ca/pascal.html">Generalized Pascal Triangles and Pyramids</a>, English translation published by Fibonacci Association, Santa Clara Univ., Santa Clara, CA, 1993; see p. 32.
 %H A008275 Federico Castillo, Damian de la Fuente, Nicolas Libedinsky, and David Plaza, <a href="https://arxiv.org/abs/2309.08539">On the size of Bruhat intervals</a>, arXiv:2309.08539 [math.CO], 2023.
 %H A008275 José Luis Cereceda,, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL16/Cereceda/cereceda2.html">Generalized Akiyama-Tanigawa Algorithm for Hypersums of Powers of Integers</a>, J. Int. Seq., Vol. 16 (2013), Article 13.3.2.
 %H A008275 José Luis Cereceda, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL17/Cereceda/cereceda7.html">Iterative Procedure for Hypersums of Powers of Integers</a>, Journal of Integer Sequences, Vol. 17 (2014), Article 14.5.3.
@@ -52,15 +52,15 @@
 %H A008275 Thierry Dana-Picard and David G. Zeitoun, <a href="https://doi.org/10.1080/0020739X.2011.582172">Sequences of definite integrals, infinite series and Stirling numbers</a>, International Journal of Mathematical Education in Science and Technology, Vol. 43, No. 2 (2012), pp. 219-230.
 %H A008275 Sajal K. Das, Joydeep Ghosh and Narsingh Deo, <a href="http://dx.doi.org/10.1016/0166-218X(92)90128-W">Stirling networks: a versatile combinatorial topology for multiprocessor systems</a>, Discrete Applied Mathematics, Vol. 37 (1992), pp. 119-146.
 %H A008275 Robert M. Dickau, <a href="https://web.archive.org/web/20200105182741/http://mathforum.org:80/advanced/robertd/stirling1.html">Stirling numbers of the first kind</a>.
-%H A008275 Askar Dzhumadil’daev and Damir Yeliussizov, <a href="http://www.combinatorics.org/ojs/index.php/eljc/article/view/v22i4p10">Walks, partitions, and normal ordering</a>, Electronic Journal of Combinatorics, Vol. 22, No. 4 (2015), #P4.10.
+%H A008275 Askar Dzhumadil’daev and Damir Yeliussizov, <a href="https://doi.org/10.37236/5181">Walks, partitions, and normal ordering</a>, Electronic Journal of Combinatorics, Vol. 22, No. 4 (2015), #P4.10.
 %H A008275 B. S. El-Desouky, Nenad P. Cakić and Toufik Mansour, <a href="https://doi.org/10.1016/j.aml.2009.08.018">Modified approach to generalized Stirling numbers via differential operators</a>, Appl. Math. Lett., Vol. 23, No. 1 (2010), pp. 115-120.
 %H A008275 FindStat - Combinatorial Statistic Finder, <a href="http://www.findstat.org/StatisticsDatabase/St000007">The number of saliances of a permutation</a>, <a href="http://www.findstat.org/StatisticsDatabase/St000031">The number of cycles in the cycle decomposition of a permutation</a>.
 %H A008275 Bill Gosper, <a href="/A008275/a008275.png">Colored illustrations of triangle of Stirling numbers of first kind read mod 2, 3, 4, 5, 6, 7</a>.
 %H A008275 Daniel B. Grünberg, <a href="https://doi.org/10.1007/s00025-006-0211-7">On asymptotics, Stirling numbers, gamma function and polylogs</a>, Results in Mathematics, Vol. 49, No. 1 (2006), pp. 89-125; <a href="https://arxiv.org/abs/math/0607514">arXiv preprint</a>, arXiv:math/0607514 [math.CO], 2006.
-%H A008275 Jerome Hines, <a href="http://www.jstor.org/stable/3029630">A generalization of the S-Stirling numbers</a>, Math. Mag., Vol. 29, No. 4 (1956), pp. 200-203.
-%H A008275 Yoshinari Inaba, <a href="http://www.emis.de/journals/JIS/VOL8/Inaba/inaba301.html">Hyper-Sums of Powers of Integers and the Akiyama-Tanigawa Matrix</a>, Journal of Integer Sequences, 8 (2005), Article 05.2.7.
-%H A008275 Charles Knessl and Joseph B. Keller, <a href="http://dx.doi.org/10.1002/sapm199184143">Stirling number asymptotics from recursion equations using the ray method</a>, Stud. Appl. Math., Vol. 84, No. 1 (1991), pp. 43-56.
+%H A008275 Jerome Hines, <a href="https://www.jstor.org/stable/3029630">A generalization of the S-Stirling numbers</a>, Math. Mag., Vol. 29, No. 4 (1956), pp. 200-203.
+%H A008275 Yoshinari Inaba, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL8/Inaba/inaba301.html">Hyper-Sums of Powers of Integers and the Akiyama-Tanigawa Matrix</a>, Journal of Integer Sequences, 8 (2005), Article 05.2.7.
 %H A008275 Tanya Khovanova and Joel Brewster Lewis, <a href="http://blog.tanyakhovanova.com/?p=451">Skyscrapers</a>.
+%H A008275 Charles Knessl and Joseph B. Keller, <a href="http://dx.doi.org/10.1002/sapm199184143">Stirling number asymptotics from recursion equations using the ray method</a>, Stud. Appl. Math., Vol. 84, No. 1 (1991), pp. 43-56.
 %H A008275 Donald E. Knuth, <a href="https://arxiv.org/abs/math/9207221">Convolution polynomials</a>, arXiv:math/9207221 [math.CA], 1993; The Mathematica J., 2 (1992), 67-78.
 %H A008275 Wolfdieter Lang, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL3/LANG/lang.html">On generalizations of Stirling number triangles</a>, J. Integer Seqs., Vol. 3 (2000), Article 00.2.4.
 %H A008275 Elliott H. Lieb, <a href="https://doi.org/10.1016/S0021-9800(68)80057-2">Concavity properties and a generating function for Stirling numbers</a>, Journal of Combinatorial Theory, Vol. 5, No. 2 (1968), pp. 203-206.
@@ -75,15 +75,16 @@
 %H A008275 Dragoslav S. Mitrinović and Ružica S. Mitrinović, <a href="http://pefmath2.etf.rs/files/47/77.pdf">Tableaux d'une classe de nombres reliés aux nombres de Stirling</a>, Univ. Beograd. Publ. Elektrotehn. Fak. Ser. Mat. Fiz., No. 77 (1962), pp. 1-77.
 %H A008275 Dragoslav S. Mitrinović and Ružica S. Mitrinović, <a href="https://www.jstor.org/stable/43667130">Tableaux d'une classe de nombres reliés aux nombres de Stirling</a>, Univ. Beograd. Publ. Elektrotehn. Fak. Ser. Mat. Fiz., No. 77 (1962), pp. 1-77 [jstor stable version].
 %H A008275 Emanuele Munarini, <a href="https://doi.org/10.2298/AADM180226017M">Combinatorial identities involving the central coefficients of a Sheffer matrix</a>, Applicable Analysis and Discrete Mathematics, Vol. 13 (2019), pp. 495-517.
-%H A008275 Niels Nielson, <a href="https://archive.org/details/handbuchgamma00nielrich/page/n80">Handbuch der theorie der gammafunktion</a>, Teubner, Leipzig, 1906, see p. 67.
+%H A008275 Niels Nielsen, <a href="https://archive.org/details/handbuchgamma00nielrich/page/n80">Handbuch der theorie der gammafunktion</a>, Teubner, Leipzig, 1906, see p. 67.
 %H A008275 Niels Nörlund, <a href="https://eudml.org/doc/204170">Vorlesungen über Differenzenrechnung</a>, Springer, Berlin, 1924.
 %H A008275 Niels Nörlund, <a href="https://web.archive.org/web/20160324092911/http://tocs.ulb.tu-darmstadt.de/60059613.pdf">Vorlesungen über Differenzenrechnung</a>, Chelsea Pub. Co., New York, 1954. [archive.org]
+%H A008275 OEIS Wiki, <a href="/wiki/Factorial_polynomials">Factorial polynomials</a>.
 %H A008275 K. A. Penson, P. Blasiak, A. Horzela, G. H. E. Duchamp and A. I. Solomon, <a href="https://arxiv.org/abs/0904.0369">Laguerre-type derivatives: Dobinski relations and combinatorial identities</a>, J. Math. Phys. Vol. 50 (2009), 083512.
 %H A008275 Grzegorz Rządkowski, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL12/Rzadkowski/rzadkowski3.html">Two formulas for Successive Derivatives and Their Applications</a>, J. Int. Seq., Vol. 12 (2009), Article 09.8.2.
 %H A008275 Maxie D. Schmidt, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL13/Schmidt/multifact.html">Generalized j-Factorial Functions, Polynomials, and Applications</a>, J. Int. Seq., Vol. 13 (2010), Article 10.6.7.
 %H A008275 Benjamin Schreyer, <a href="https://arxiv.org/abs/2409.03799">Rigged Horse Numbers and their Modular Periodicity</a>, arXiv:2409.03799 [math.CO], 2024. See p. 12.
 %H A008275 Raymond Scurr and Gloria Olive, <a href="http://dx.doi.org/10.1016/S0012-365X(98)00011-9">Stirling numbers revisited</a>, Discrete Math., Vol. 189, No. 1-3 (1998), pp. 209-219. MR1637761 (99d:11019).
-%H A008275 Mark Shattuck, <a href="http://www.emis.de/journals/INTEGERS/papers/m59/m59.Abstract.html">Convolution identities for Stirling numbers of the first kind via involution</a>, INTEGERS, Vol. 12 (2012), #A59. - From _N. J. A. Sloane_, Feb 04 2013
+%H A008275 Mark Shattuck, <a href="http://www.integers-ejcnt.org/m59/m59.Abstract.html">Convolution identities for Stirling numbers of the first kind via involution</a>, INTEGERS, Vol. 12 (2012), #A59. - From _N. J. A. Sloane_, Feb 04 2013
 %H A008275 Mark Shattuck, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL25/Shattuck/sha27.html">Combinatorial Proofs of Some Stirling Number Convolution Formulas</a>, J. Int. Seq., Vol. 25 (2022), Article 22.2.2.
 %H A008275 Warren D. Smith, <a href="http://rangevoting.org/PuzzCountRecords.html">Puzzle: Counting new records</a>.
 %H A008275 Michael Z. Spivey, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL11/Spivey/spivey25.html">A generalized recurrence for Bell Numbers</a>, JIS, Vol. 11 (2008), Article 08.2.5.
@@ -95,15 +96,14 @@
 %H A008275 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/PermutationCycle.html">Permutation Cycle</a>.
 %H A008275 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/StirlingNumberoftheFirstKind.html">Stirling Number of the First Kind</a>.
 %H A008275 Thomas Wieder, <a href="/A008275/a008275.txt">Comments on A008275</a>.
-%H A008275 OEIS Wiki, <a href="/wiki/Factorial_polynomials">Factorial polynomials</a>.
 %H A008275 <a href="/index/Cor#core">Index entries for "core" sequences</a>
 %F A008275 s(n, k) = s(n-1, k-1) - (n-1)*s(n-1, k), n, k >= 1; s(n, 0) = s(0, k) = 0; s(0, 0) = 1.
 %F A008275 The unsigned numbers a(n, k)=|s(n, k)| satisfy a(n, k) = a(n-1, k-1) + (n-1)*a(n-1, k), n, k >= 1; a(n, 0) = a(0, k) = 0; a(0, 0) = 1.
 %F A008275 E.g.f.: for m-th column (unsigned): ((-log(1-x))^m)/m!.
 %F A008275 s(n, k) = T(n-1, k-1), n>1 and k>1, where T(n, k) is the triangle [ -1, -1, -2, -2, -3, -3, -4, -4, -5, -5, -6, -6, ...] DELTA [1, 0, 1, 0, 1, 0, 1, 0, 1, ...] and DELTA is Deléham's operator defined in A084938. The unsigned numbers are also |s(n, k)| = T(n-1, k-1), for n>0 and k>0, where T(n, k) = [1, 1, 2, 2, 3, 3, 4, 4, 5, 5, ...] DELTA [1, 0, 1, 0, 1, 0, 1, 0, ...].
 %F A008275 Sum_{i=0..n} (-1)^(n-i) * StirlingS1(n, i) * binomial(i, k) = (-1)^(n-k) *  StirlingS1(n+1, k+1). - Carlo Wood (carlo(AT)alinoe.com), Feb 13 2007
-%F A008275 G.f.: S(n) = Product_{j=1..n} (x-j) (i.e., (x-1)*(x-2)*(x-3) = x^3 - 6*x^2 + 11*x - 6). - _Jon Perry_, Nov 14 2005
-%F A008275 T(n,k) = A048993(n,k), for k=1..n. - _Reinhard Zumkeller_, Mar 18 2013
+%F A008275 G.f. for row n: Product_{j=1..n} (x-j) (e.g., (x-1)*(x-2)*(x-3) = x^3 - 6*x^2 + 11*x - 6). - _Jon Perry_, Nov 14 2005
+%F A008275 s(n,k) = A048994(n,k), for k=1..n. - _Reinhard Zumkeller_, Mar 18 2013 (Corrected by _N. J. A. Sloane_, May 07 2025 at the suggestion of _Manfred Boergens_, May 07 2025)
 %F A008275 As lower triangular matrices A008277*A008275 = I, the identity matrix. - _Tom Copeland_, Apr 25 2014
 %F A008275 a(n,k) = s(n,k) = lim_{y -> 0} Sum_{j=0..k} (-1)^j*binomial(k,j)*((-j*y)!/(-j*y-n)!)*y^(-k)/k! = Sum_{j=0..k} (-1)^(n-j)*binomial(k,j)*((j*y - 1 + n)!/(j*y-1)!)*y^(-k)/k!. - _Tom Copeland_, Aug 28 2015
 %F A008275 From _Daniel Forgues_ Jan 16 2016: (Start)
@@ -117,6 +117,7 @@
 %F A008275 Sum_{k=1..n} (-1)^k * k * T(n, k) = -T(n+1, 2).
 %F A008275 Sum_{k=1..n} k * T(n, k) = (-1)^n * (n-2)! = T(n-1, 1) for n>=2. (End)
 %F A008275 n-th row polynomial = n!*Sum_{k = 0..2*n} (-1)^(n+k)*binomial(x, k)*binomial(x-1, 2*n-k) = n!*Sum_{k = 0..2*n+1} (-1)^(n+k+1)*binomial(x, k)*binomial(x-1, 2*n+1-k). - _Peter Bala_, Mar 29 2024
+%F A008275 Dobinski-type formula for the n-th row polynomial R(n, x) = x*(x - 1)*...*(x - n): exp(-x) * Sum_{k >= 0} R(n, k)*x^k/k! = x^(n+1). - _Peter Bala_, Nov 08 2025
 %e A008275 |s(3,2)| = 3 for the three unordered 2-forest with 3 vertices and two increasing (nonplane) trees: ((1),(2,3)), ((2),(1,3)), ((3),(1,2)).
 %e A008275 Triangle begins:
 %e A008275                                       1
@@ -162,6 +163,6 @@
 %Y A008275 Diagonals: A000217, A000914, A001303, A000915, A053567, etc.
 %Y A008275 Cf. A048994, A008277 (Stirling numbers of second kind), A039814, A039815, A039816, A039817, A048993, A087748.
 %Y A008275 Cf. A084938, A094216, A008276 (row reversed), A008277, A008278, A094262, A121632, A130534 (unsigned version), A087755 (triangle mod 2), A000142 (row sums of absolute values).
-%K A008275 sign,tabl,nice,core
+%K A008275 sign,tabl,nice,core,changed
 %O A008275 1,4
 %A A008275 _N. J. A. Sloane_

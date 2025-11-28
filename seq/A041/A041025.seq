@@ -1,4 +1,4 @@
-%I A041025 #123 Jan 05 2025 19:51:35
+%I A041025 #129 Nov 26 2025 15:59:35
 %S A041025 1,8,65,528,4289,34840,283009,2298912,18674305,151693352,1232221121,
 %T A041025 10009462320,81307919681,660472819768,5365090477825,43581196642368,
 %U A041025 354014663616769,2875698505576520,23359602708228929,189752520171407952,1541379764079492545
@@ -13,9 +13,9 @@
 %C A041025 Also called the 8-metallonacci sequence; the g.f. 1/(1-k*x-x^2) gives the k-metallonacci sequence.
 %C A041025 a(n) is the number of tilings of an n-board (a board with dimensions n X 1) using unit squares and dominoes (with dimensions 2 X 1) if there are 8 kinds of squares available. (End)
 %H A041025 Vincenzo Librandi, <a href="/A041025/b041025.txt">Table of n, a(n) for n = 0..1000</a>
-%H A041025 Michael A. Allen and Kenneth Edwards, <a href="https://web.archive.org/web/2024*/https://www.fq.math.ca/Papers1/60-5/allen.pdf">Fence tiling derived identities involving the metallonacci numbers squared or cubed</a>, Fib. Q. 60:5 (2022) 5-17.
+%H A041025 Michael A. Allen and Kenneth Edwards, <a href="https://www.fq.math.ca/Papers1/60-5/allen.pdf">Fence tiling derived identities involving the metallonacci numbers squared or cubed</a>, Fib. Q. 60:5 (2022) 5-17.
 %H A041025 D. Birmajer, J. B. Gil, and M. D. Weiner, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL19/Gil/gil6.html">On the Enumeration of Restricted Words over a Finite Alphabet</a>, J. Int. Seq. 19 (2016) # 16.1.3, Example 8.
-%H A041025 E. I. Emerson, <a href="https://web.archive.org/web/2024*/https://www.fq.math.ca/Scanned/7-3/emerson.pdf">Recurrent Sequences in the Equation DQ^2=R^2+N</a>, Fib. Quart., 7 (1969), pp. 231-242, Thm. 1, p. 233.
+%H A041025 E. I. Emerson, <a href="https://www.fq.math.ca/Scanned/7-3/emerson.pdf">Recurrent Sequences in the Equation DQ^2=R^2+N</a>, Fib. Quart., 7 (1969), pp. 231-242, Thm. 1, p. 233.
 %H A041025 Sergio Falcón and Ángel Plaza, <a href="http://dx.doi.org/10.1016/j.chaos.2006.10.022">The k-Fibonacci sequence and the Pascal 2-triangle</a>, Chaos, Solitons & Fractals 2007; 33(1): 38-49.
 %H A041025 S. Falcón and Á. Plaza, <a href="http://dx.doi.org/10.1016/j.chaos.2007.03.007">On k-Fibonacci sequences and polynomials and their derivatives</a>, Chaos, Solitons & Fractals (2007).
 %H A041025 Milan Janjic, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL18/Janjic/janjic63.html">On Linear Recurrence Equations Arising from Compositions of Positive Integers</a>, Journal of Integer Sequences, Vol. 18 (2015), Article 15.4.7.
@@ -31,19 +31,19 @@
 %F A041025 a(n) = Sum_{i=0..floor((n-1)/2)} binomial(n-1-i,i)*8^(n-1-2i). (End)
 %F A041025 Let T be the 2 X 2 matrix [0, 1; 1, 8]. Then T^n * [1, 0] = [a(n-2), a(n-1)]. - _Gary W. Adamson_, Dec 26 2007
 %F A041025 a(n) = 8*a(n-1) + a(n-2), n > 1; a(0)=1, a(1)=8. - _Philippe Deléham_, Nov 20 2008
-%F A041025 a(p) == ((p-1)/2)) (mod p) for odd primes p. - _Gary W. Adamson_, Feb 22 2009
+%F A041025 a(p-1) == 68^((p-1)/2) (mod p) for odd primes p. - _Gary W. Adamson_, Feb 22 2009 [Corrected by _Jason Yuen_, Apr 05 2025. See A087475 for more info about this congruence.]
 %F A041025 Sum_{n>=0} (-1)^n/(a(n)*a(n+1)) = sqrt(17) - 4. - _Vladimir Shevelev_, Feb 23 2013
 %F A041025 G.f.: x/(1 - 8*x - x^2) = Sum_{n >= 0} x^n *( Product_{k = 1..n} (m*k + 8 - m + x)/(1 + m*k*x) ) for arbitrary m (a telescoping series). - _Peter Bala_, May 08 2024
 %t A041025 CoefficientList[Series[1/(-z^2 - 8 z + 1), {z, 0, 200}], z] (* _Vladimir Joseph Stephan Orlovsky_, Jun 23 2011 *)
 %t A041025 Denominator[Convergents[Sqrt[17],30]] (* _Harvey P. Dale_, Aug 15 2011 *)
 %t A041025 LinearRecurrence[{8,1}, {1,8}, 50] (* _Sture Sjöstedt_, Nov 11 2011 *)
-%o A041025 (Sage) [lucas_number1(n,8,-1) for n in range(1, 20)] # _Zerinvary Lajos_, Apr 25 2009
+%o A041025 (SageMath) [lucas_number1(n,8,-1) for n in range(1, 20)] # _Zerinvary Lajos_, Apr 25 2009
 %o A041025 (Magma) I:=[1, 8]; [n le 2 select I[n] else 8*Self(n-1)+Self(n-2): n in [1..25]]; // _Vincenzo Librandi_, Feb 23 2013
 %o A041025 (PARI) Vec(1/(1-8*x-x^2)+O(x^99)) \\ _Charles R Greathouse IV_, Dec 09 2014
 %Y A041025 Cf. A041024, A040012.
 %Y A041025 Cf. A000045, A000129, A006190, A001076, A052918, A005668, A054413, A243399.
 %Y A041025 Row n=8 of A073133, A172236 and A352361.
 %Y A041025 Cf. A099369 (squares).
-%K A041025 nonn,cofr,frac,easy
+%K A041025 nonn,cofr,frac,easy,changed
 %O A041025 0,2
 %A A041025 _N. J. A. Sloane_

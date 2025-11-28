@@ -1,4 +1,4 @@
-%I A008833 #76 Feb 16 2025 08:32:32
+%I A008833 #86 Nov 05 2025 15:21:46
 %S A008833 1,1,1,4,1,1,1,4,9,1,1,4,1,1,1,16,1,9,1,4,1,1,1,4,25,1,9,4,1,1,1,16,1,
 %T A008833 1,1,36,1,1,1,4,1,1,1,4,9,1,1,16,49,25,1,4,1,9,1,4,1,1,1,4,1,1,9,64,1,
 %U A008833 1,1,4,1,1,1,36,1,1,25,4,1,1,1,16,81,1,1,4,1,1,1,4,1,9,1,4,1,1,1,16,1
@@ -6,7 +6,7 @@
 %C A008833 The Dirichlet generating function of the arithmetic function of the largest t-th power dividing n is zeta(s)*zeta(t*s-t)/zeta(s*t), here with t=2 and in A008834 and A008835 with t=3 and t=4, respectively. - _R. J. Mathar_, Feb 19 2011
 %H A008833 Daniel Forgues, <a href="/A008833/b008833.txt">Table of n, a(n) for n = 1..100000</a>
 %H A008833 Henry Bottomley, <a href="http://fs.gallup.unm.edu/Bottomley-Sm-Mult-Functions.htm">Some Smarandache-type multiplicative sequences</a>
-%H A008833 R. J. Mathar, <a href="http://arxiv.org/abs/1106.4038">Survey of Dirichlet series of multiplicative arithmetic functions</a> arXiv:1106.4038 [math.NT], 2011-2012, Remark 16.
+%H A008833 R. J. Mathar, <a href="https://arxiv.org/abs/1106.4038">Survey of Dirichlet series of multiplicative arithmetic functions</a> arXiv:1106.4038 [math.NT], 2011-2012, Remark 16.
 %H A008833 Andrew Reiter, <a href="http://www.cw-complex.com/modNspirals/">On (mod n) spirals</a>, 2014, see also posting to Number Theory Mailing List, Mar 23 2014.
 %H A008833 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/SquarePart.html">Square part</a>
 %F A008833 a(n) = A000188(n)^2 = n/A007913(n). Cf. A019554.
@@ -15,6 +15,10 @@
 %F A008833 a(n) = A005563(n-1) / A068310(n) for n > 1. - _Reinhard Zumkeller_, Nov 26 2011
 %F A008833 Sum_{k=1..n} a(k) ~ Zeta(3/2) * n^(3/2) / (3*Zeta(3)). - _Vaclav Kotesovec_, Feb 01 2019
 %F A008833 a(A059897(n,k)) = A059897(a(n), a(k)). - _Peter Munn_, Nov 30 2019
+%F A008833 From _Ridouane Oudra_, May 11 2025: (Start)
+%F A008833 a(n) = Sum_{d|n} lambda(d)*d*psi(n/d), where lambda = A008836 and psi = A001615.
+%F A008833 a(n) = lambda(n) * Sum_{d|n} lambda(d)*d*phi(n/d).
+%F A008833 a(n) = A008836(n) * A358272(n). (End)
 %p A008833 A008833 := proc(n)
 %p A008833     expand(numtheory:-nthpow(n,2)) ;
 %p A008833 end proc:
@@ -30,6 +34,7 @@
 %o A008833 from sympy.ntheory.factor_ import core
 %o A008833 def A008833(n): return n//core(n) # _Chai Wah Wu_, Dec 30 2021
 %Y A008833 Cf. A000188, A005563, A007913, A019554, A059897, A068310.
+%Y A008833 Cf. A008836, A358272, A001615.
 %K A008833 nonn,easy,mult
 %O A008833 1,4
-%A A008833 _N. J. A. Sloane_.
+%A A008833 _N. J. A. Sloane_

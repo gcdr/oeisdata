@@ -1,4 +1,4 @@
-%I A081344 #60 Feb 16 2025 08:32:48
+%I A081344 #73 Nov 05 2025 15:22:02
 %S A081344 1,2,4,9,3,5,10,8,6,16,25,11,7,15,17,26,24,12,14,18,36,49,27,23,13,19,
 %T A081344 35,37,50,48,28,22,20,34,38,64,81,51,47,29,21,33,39,63,65,82,80,52,46,
 %U A081344 30,32,40,62,66,100,121,83,79,53,45,31,41,61,67,99,101,122,120,84,78,54
@@ -7,7 +7,7 @@
 %C A081344 a(n) is a pairing function: a function that reversibly maps Z^{+} x Z^{+} onto Z^{+}, where Z^{+} is the set of integer positive numbers. - _Boris Putievskiy_, Dec 16 2012
 %C A081344 For generalizations see A219159, A213928. - _Boris Putievskiy_, Mar 10 2013
 %H A081344 Boris Putievskiy, <a href="/A081344/b081344.txt">Rows n = 1..100 of triangle, flattened</a>
-%H A081344 Boris Putievskiy, <a href="http://arxiv.org/abs/1212.2732">Transformations Integer Sequences And Pairing Functions</a>, arXiv:1212.2732 [math.CO], 2012.
+%H A081344 Boris Putievskiy, <a href="https://arxiv.org/abs/1212.2732">Transformations Integer Sequences And Pairing Functions</a>, arXiv:1212.2732 [math.CO], 2012.
 %H A081344 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/PairingFunction.html">Pairing functions</a>
 %H A081344 <a href="/index/Per#IntegerPermutation">Index entries for sequences that are permutations of the natural numbers</a>
 %F A081344 From _Boris Putievskiy_, Dec 19 2012: (Start)
@@ -17,13 +17,14 @@
 %F A081344 i = n - t*(t+1)/2,
 %F A081344 j = (t*t + 3*t + 4)/2-n,
 %F A081344 t = floor((-1 + sqrt(8*n-7))/2). (End)
+%F A081344 Enumeration by boustrophedonic ("ox-plowing") method: If i >= j: T(i,j)=(i-1)^2+i + (i-j)*(-1)^(i-1), if i  < j: T(i,j)=(j-1)^2+j - (j-i)*(-1)^(j-1). - _Boris Putievskiy_, Dec 19 2012
+%F A081344 T(i,j) = m^2 - m + 1 - (i - j)*(-1)^m where m = max(i,j). - _Ziad Ahmed_, Jun 09 2025
 %e A081344 The start of the sequence as table T(i,j), i,j > 0:
-%e A081344 1 .. 4 .. 5 .. 16...
-%e A081344 2 .. 3 .. 6 .. 15...
-%e A081344 9 .. 8 .. 7 .. 14...
-%e A081344 10..11 ..12 .. 13...
-%e A081344 . . .
-%e A081344 Enumeration by boustrophedonic ("ox-plowing") method: If i >= j: T(i,i)=(i-1)^2+i + (i-j)*(-1)^(i-1), if i  < j: T(i,j)=(j-1)^2+j - (j-i)*(-1)^(j-1). - _Boris Putievskiy_, Dec 19 2012
+%e A081344    1   4    5    16 ...
+%e A081344    2   3    6    15 ...
+%e A081344    9   8    7    14 ...
+%e A081344   10  11   12    13 ...
+%e A081344   ....
 %t A081344 T[n_, k_] := T[n, k] = Which[OddQ[n] && k==1, n^2, EvenQ[k] && n==1, k^2, EvenQ[n] && k==1, T[n-1, 1]+1, OddQ[k] && n==1, T[1, k-1]+1, k <= n, T[n, k-1]+1 - 2 Mod[n, 2], True, T[n-1, k]-1 + 2 Mod[k, 2]]; Table[T[n-k+1, k], {n, 1, 12}, {k, 1, n}] // Flatten (* _Jean-François Alcover_, Feb 20 2019 *)
 %o A081344 (Python)
 %o A081344 t=int((math.sqrt(8*n-7) - 1)/ 2)

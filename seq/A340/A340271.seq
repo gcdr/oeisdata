@@ -1,14 +1,15 @@
-%I A340271 #28 Sep 26 2021 18:58:21
+%I A340271 #36 Oct 07 2025 18:14:54
 %S A340271 25,26,28,34,35,36,38,43,46,52,53,62,63,64,82,83,236,239,246,254,296,
 %T A340271 326,329,362,392,426,462,524,542,926,962
 %N A340271 Positive integers with no digit equal to 0 or 1 such that when one iterates x -> A340270(x) starting with n, one eventually enters a cycle containing an integer greater than 9.
-%C A340271 This was suggested by postings by Eric Angelini and Allan Wechsler to Math-Fun Mailing List, Dec. 29, 2020. It is an open question whether or not this sequence is complete. In fact, it is open whether or not the sequence of iterates of x -> A340270(x) starting with n always enters a cycle. There are no counterexamples up to 10^8.
+%C A340271 This was suggested by postings by Eric Angelini and Allan Wechsler to Math-Fun Mailing List, Dec 29 2020. It is an open question whether or not this sequence is complete. In fact, it is open whether or not the sequence of iterates of x -> A340270(x) starting with n always enters a cycle. There are no counterexamples up to 10^8.
 %C A340271 As Allan Wechsler pointed out, if x contains 0 then A340270(x) = 1 and if x contains a digit 1 then A340270(x) is x with the 1 deleted.
 %C A340271 From _M. F. Hasler_, Jan 03 2021: (Start)
 %C A340271 The trajectory of all these integers ends in one of 3 cycles:
 %C A340271   C(25) = (25) (also for n = 52, for n = 35 and 53 via 125, and for n = 38 and 83 via 512, and for n = 239, 329 and 392 via 1521 and 152);
 %C A340271   C(26) = (26, 36, 216) (also for n = 62 and 63, for n = 246 and 426 and 462 via 2116 and 216);
 %C A340271   C(926) = (926, 9216): also for 296 and 962, for 28, 34, 43 and 82 via 64 and 1296, also for 46, 236, 326 and 362 via 1296, and for 254, 524 and 54 via 2916. (End)
+%C A340271 No further terms < 2.782 * 10^11. - _Michael S. Branicky_, Oct 07 2025
 %e A340271 Iterating the function x->A340270(x) starting with 34 we get 34 --> 4^3 = 64 --> 6^4 = 1296 --> 296^1 = 296 --> 96^2 = 9216 --> 926^1 = 926 --> 96^2 = 9216. So 34 is in this sequence.
 %p A340271 leastdigit:=proc(n) min(convert(n,base,10)); end:
 %p A340271 locationdigit:=proc(n,d) local L,i;

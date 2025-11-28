@@ -1,8 +1,8 @@
-%I A181483 #6 Nov 06 2012 04:04:40
+%I A181483 #8 Jul 22 2025 08:41:32
 %S A181483 1,2,3,3,5,2,4,3,4,3,5,1,3,2,3,4,4,1,5,2,6,4,2,1,4,1,5,2,8,1,6,1,5,3,
 %T A181483 7,0,6,3,1,0,9,1,8,8,5,1,4,4,6,1,6,1,4,3,5,3,2,2,4,2,2,3,3,5,2,0,7,1,
 %U A181483 5,2,3,4,5,2,1,4,5,1,4,1,4,5,4,3,4,2,6,1,9,3,3,2,2,2,5,2,3,1,5,1,6,3,1,5,4
-%N A181483 Number of powers of 2 which can be subtracted from 3^n to form primes
+%N A181483 Number of powers of 2 which can be subtracted from 3^n to form primes.
 %C A181483 Note that if a 2^m is too large or too small, 3^n-2^m is either negative or fractional (respectively) and cannot ever be prime, thus 0 <= a(n) <= floor(n*log_2(3))
 %C A181483 Zeros in this sequence are in A181484, which correspond to -1s in A180303
 %e A181483 3^1-2^0 = 2 which is prime, so a(1)=1

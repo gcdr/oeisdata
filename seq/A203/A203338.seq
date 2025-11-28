@@ -1,8 +1,8 @@
-%I A203338 #5 Mar 31 2012 12:36:56
+%I A203338 #9 Oct 03 2025 10:20:29
 %S A203338 1,1,1,1,6,1,1,36,36,1,1,161,1311,161,1,1,846,27056,27056,846,1,1,
 %T A203338 5545,532547,2224079,532547,5545,1,1,35483,12872510,156011082,
 %U A203338 156011082,12872510,35483,1,1,216488,327579980,12492984999,40063085907,12492984999
-%N A203338 T(n,k)=Number of nXk 0..5 arrays with every nonzero element less than or equal to at least two horizontal and vertical neighbors
+%N A203338 T(n,k)=Number of nXk 0..5 arrays with every nonzero element less than or equal to at least two horizontal and vertical neighbors.
 %C A203338 Table starts
 %C A203338 .1......1..........1..............1..................1....................1
 %C A203338 .1......6.........36............161................846.................5545
@@ -20,4 +20,4 @@
 %e A203338 ..0..0..0....3..3..3....4..4..4....0..1..1....0..3..3....5..5..5....0..5..5
 %K A203338 nonn,tabl
 %O A203338 1,5
-%A A203338 _R. H. Hardin_ Dec 31 2011
+%A A203338 _R. H. Hardin_, Dec 31 2011

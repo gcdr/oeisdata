@@ -1,4 +1,4 @@
-%I A092287 #66 Feb 07 2024 02:53:44
+%I A092287 #71 Sep 22 2025 16:00:44
 %S A092287 1,1,2,6,96,480,414720,2903040,5945425920,4334215495680,
 %T A092287 277389791723520000,3051287708958720000,437332621360674939863040000,
 %U A092287 5685324077688774218219520000,15974941971638268369709427589120000,982608696336737613503095822614528000000000
@@ -8,6 +8,7 @@
 %C A092287 a(n)/a(n-1) = n, n >= 1, if and only if n is noncomposite, otherwise a(n)/a(n-1) = n * f^2, f > 1. - _Daniel Forgues_, Apr 07 2013
 %C A092287 Conjecture: For a product over a rectangle, f(n,m) = Product_{j=1..n} Product_{k=1..m} gcd(j,k), a factorization similar to the one given above for the square case takes place: ordp(f(n,m),p) = floor(n/p)*floor(m/p) + floor(n/p^2)*floor(m/p^2) + .... By way of directly computing the values of f(n,m), it can be verified that the conjecture holds at least for all 1 <= m <= n <= 200. - _Andrey Kaydalov_, Mar 11 2019
 %H A092287 T. D. Noe, <a href="/A092287/b092287.txt">Table of n, a(n) for n = 0..67</a>
+%H A092287 Wanli Ma, <a href="https://arxiv.org/abs/2509.13354">Generalized factorials characterized by Dirichlet convolution</a>, arXiv:2509.13354 [math.NT], 2025. See p. 6.
 %F A092287 Also a(n) = Product_{k=1..n} Product_{j=1..n} lcm(1..floor(min(n/k, n/j))).
 %F A092287 From _Daniel Forgues_, Apr 08 2013: (Start)
 %F A092287 Recurrence: a(0) := 1; for n > 0: a(n) := n * (Product_{j=1..n-1} gcd(n,j))^2 * a(n-1) = n * A051190(n)^2 * a(n-1).
@@ -18,7 +19,7 @@
 %t A092287 a[0] = 1; a[n_] := a[n] = n*Product[GCD[k, n], {k, 1, n-1}]^2*a[n-1]; Table[a[n], {n, 0, 15}] (* _Jean-François Alcover_, Apr 16 2013, after _Daniel Forgues_ *)
 %o A092287 (PARI) h(n,p)=if(n<p,0,n\=p;h(n,p)+n^2)
 %o A092287 a(n)=prod(i=1,primepi(n),my(p=prime(i));p^h(n,p)) \\ _Charles R Greathouse IV_, Apr 02 2013
-%o A092287 (Sage)
+%o A092287 (SageMath)
 %o A092287 def A092287(n):
 %o A092287     R = 1
 %o A092287     for p in primes(n+1) :

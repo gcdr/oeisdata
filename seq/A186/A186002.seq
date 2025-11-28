@@ -1,4 +1,4 @@
-%I A186002 #22 Nov 22 2023 21:33:05
+%I A186002 #25 Apr 27 2025 08:03:08
 %S A186002 1,1,2,16,768,294912,1132462080,52183852646400,33664847019245568000,
 %T A186002 347485857744891213250560000,64560982045934655213753964953600000,
 %U A186002 239901585047846581083822477336190648320000000
@@ -10,7 +10,7 @@
 %F A186002 From _Alexander R. Povolotsky_, Feb 10 2011: (Start)
 %F A186002 WolframAlpha shows that
 %F A186002 a(n) = (0^n*2^(1/2*(n-1)*n)*exp^(1/12-zeta^(1, 0)(-1, n+1)))/A
-%F A186002 where zeta(s, a)is the generalized Riemann zeta function and A is the Glaisher‐Kinkelin constant.
+%F A186002 where zeta(s, a) is the generalized Riemann zeta function and A is the Glaisher-Kinkelin constant.
 %F A186002 WolframAlpha suggests that for all terms given
 %F A186002 a(n) = 2^(1/2*(n-1)*n)*G(n+1)
 %F A186002 where G(n) is the Barnes G-function. (End)

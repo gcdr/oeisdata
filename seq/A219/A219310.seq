@@ -1,8 +1,8 @@
-%I A219310 #4 Nov 17 2012 13:10:01
+%I A219310 #8 Oct 03 2025 17:59:01
 %S A219310 1,2,2,4,6,4,7,18,18,7,12,51,90,51,12,21,142,423,423,142,21,37,405,
 %T A219310 1958,3334,1958,405,37,65,1157,9233,25647,25647,9233,1157,65,114,3289,
 %U A219310 43725,200376,326444,200376,43725,3289,114,200,9344,206269,1574278,4215579
-%N A219310 T(n,k)=Unchanging value maps: number of nXk binary arrays indicating the locations of corresponding elements unequal to no horizontal or vertical neighbor in a random 0..2 nXk array
+%N A219310 T(n,k)=Unchanging value maps: number of nXk binary arrays indicating the locations of corresponding elements unequal to no horizontal or vertical neighbor in a random 0..2 nXk array.
 %C A219310 Table starts
 %C A219310 ...1......2.........4...........7............12.............21.............37
 %C A219310 ...2......6........18..........51...........142............405...........1157
@@ -25,4 +25,4 @@
 %Y A219310 Column 2 is A219136
 %K A219310 nonn,tabl
 %O A219310 1,2
-%A A219310 _R. H. Hardin_ Nov 17 2012
+%A A219310 _R. H. Hardin_, Nov 17 2012

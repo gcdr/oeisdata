@@ -1,8 +1,8 @@
-%I A188002 #25 Sep 19 2023 08:20:59
+%I A188002 #27 Jul 22 2025 10:58:42
 %S A188002 1,1,2,1,3,3,1,4,4,12,1,5,5,17,25,1,6,8,25,45,106,1,7,9,34,64,176,376,
 %T A188002 1,8,10,46,88,286,644,1670,1,9,11,57,117,421,1055,2983,7315,1,10,12,
 %U A188002 75,159,636,1696,5191,13675,35808,1,11,15,88,216,862,2596,8373,24135,67487,176971
-%N A188002 T(n,k)=Number of nondecreasing arrangements of n numbers x(i) in -(n+k-2)..(n+k-2) with the sum of sign(x(i))*x(i)^2 zero
+%N A188002 T(n,k)=Number of nondecreasing arrangements of n numbers x(i) in -(n+k-2)..(n+k-2) with the sum of sign(x(i))*x(i)^2 zero.
 %H A188002 R. J. Mathar, <a href="/A188002/b188002.txt">Table of n, a(n) for n = 1..434</a> augmenting an earlier file of 188 elements by _R. H. Hardin_
 %e A188002 Table starts
 %e A188002 .....1.....1......1......1......1......1......1.......1.......1.......1......1

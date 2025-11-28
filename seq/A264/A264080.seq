@@ -1,4 +1,4 @@
-%I A264080 #48 Sep 08 2022 08:46:14
+%I A264080 #49 Sep 22 2025 16:01:23
 %S A264080 1,5,13,35,91,239,625,1637,4285,11219,29371,76895,201313,527045,
 %T A264080 1379821,3612419,9457435,24759887,64822225,169706789,444298141,
 %U A264080 1163187635,3045264763,7972606655,20872555201,54645058949,143062621645,374542805987,980565796315
@@ -19,7 +19,7 @@
 %p A264080 seq(a(n), n=0..30);  # _Alois P. Heinz_, Sep 28 2016
 %t A264080 Table[6 Fibonacci[n] Fibonacci[n + 1] + (-1)^n, {n, 0, 30}]
 %t A264080 LinearRecurrence[{2,2,-1},{1,5,13},30] (* _Harvey P. Dale_, Jul 12 2019 *)
-%o A264080 (Sage) [6*fibonacci(n)*fibonacci(n+1)+(-1)^n for n in (0..30)]
+%o A264080 (SageMath) [6*fibonacci(n)*fibonacci(n+1)+(-1)^n for n in (0..30)]
 %o A264080 (Maxima) makelist(6*fib(n)*fib(n+1)+(-1)^n, n, 0, 30);
 %o A264080 (Magma) [6*Fibonacci(n)*Fibonacci(n+1)+(-1)^n: n in [0..30]];
 %o A264080 (PARI) for(n=0, 30, print1(6*fibonacci(n)*fibonacci(n+1)+(-1)^n", "));

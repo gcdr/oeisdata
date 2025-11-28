@@ -1,4 +1,4 @@
-%I A005448 M3378 #258 Feb 16 2025 08:32:28
+%I A005448 M3378 #278 Nov 05 2025 15:21:44
 %S A005448 1,4,10,19,31,46,64,85,109,136,166,199,235,274,316,361,409,460,514,
 %T A005448 571,631,694,760,829,901,976,1054,1135,1219,1306,1396,1489,1585,1684,
 %U A005448 1786,1891,1999,2110,2224,2341,2461,2584,2710,2839,2971,3106,3244,3385,3529
@@ -25,11 +25,12 @@
 %C A005448 The first differences give A008486. a(n) seems to give the total number of triangles in the n-th generation of the six patterns of triangle expansion shown in the link. - _Kival Ngaokrajang_, Sep 12 2015
 %C A005448 Number of binary shuffle squares of length 2n which contains exactly two 1's. - _Bartlomiej Pawlik_, Sep 07 2023
 %C A005448 The digital root has period 3 (1, 4, 1) (A146325), the same digital root as the centered 12-gonal numbers, or centered dodecagonal numbers A003154(n). - _Peter M. Chema_, Dec 20 2023
+%D A005448 Elena Deza and Michel Marie Deza, Figurate numbers, World Scientific Publishing (2012), pages 48, 82, 139.
 %D A005448 R. Reed, The Lemming Simulation Problem, Mathematics in School, 3 (#6, Nov. 1974), front cover and pp. 5-6.
 %D A005448 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
 %H A005448 Seiichi Manyama, <a href="/A005448/b005448.txt">Table of n, a(n) for n = 1..10000</a> (terms 1..1000 from T. D. Noe)
 %H A005448 Paul Barry, <a href="https://arxiv.org/abs/2104.01644">Centered polygon numbers, heptagons and nonagons, and the Robbins numbers</a>, arXiv:2104.01644 [math.CO], 2021.
-%H A005448 D. Bevan, D. Levin, P. Nugent, J. Pantone, and L. Pudwell, <a href="http://arxiv.org/abs/1510.08036">Pattern avoidance in forests of binary shrubs</a>, arXiv:1510.08036 [math.CO], 2015.
+%H A005448 D. Bevan, D. Levin, P. Nugent, J. Pantone, and L. Pudwell, <a href="https://arxiv.org/abs/1510.08036">Pattern avoidance in forests of binary shrubs</a>, arXiv:1510.08036 [math.CO], 2015.
 %H A005448 Jarosław Grytczuk, Bartłomiej Pawlik, and Mariusz Pleszczyński, <a href="https://arxiv.org/abs/2308.13882">Variations on shuffle squares</a>, arXiv:2308.13882 [math.CO], 2023. See p. 11.
 %H A005448 F. Javier de Vega, <a href="https://doi.org/10.17654/0972555523015">On the parabolic partitions of a number</a>, J. Alg., Num. Theor., and Appl. (2023) Vol. 61, No. 2, 135-169.
 %H A005448 Guo-Niu Han, <a href="/A196265/a196265.pdf">Enumeration of Standard Puzzles</a> [Cached copy]
@@ -43,6 +44,7 @@
 %H A005448 Leo Tavares, <a href="/A005448/a005448.jpg">Illustration: Triple Triangles</a>
 %H A005448 B. K. Teo and N. J. A. Sloane, <a href="http://dx.doi.org/10.1021/ic00220a025">Magic numbers in polygonal and polyhedral clusters</a>, Inorgan. Chem. 24 (1985), 4545-4558.
 %H A005448 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/CenteredTriangularNumber.html">Centered Triangular Number</a>
+%H A005448 Julie Zhang, Noah A. Rosenberg, and Julia A. Palacios, <a href="https://arxiv.org/abs/2506.10856">The space of multifurcating ranked tree shapes: enumeration, lattice structure, and Markov chains</a>, arXiv:2506.10856 [math.PR], 2025. See p. 33.
 %H A005448 <a href="/index/Ce#CENTRALCUBE">Index entries for sequences related to centered polygonal numbers</a>
 %H A005448 <a href="/index/Rec#order_03">Index entries for linear recurrences with constant coefficients</a>, signature (3,-3,1).
 %F A005448 Expansion of x*(1-x^3)/(1-x)^4.

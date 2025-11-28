@@ -1,5 +1,5 @@
-%I A084750 #21 Jun 22 2023 06:06:08
-%S A084750 4,5,10,11,12,14,29,53,81,90,116,236,323,346,1172,2957,8400
+%I A084750 #25 Apr 29 2025 04:46:05
+%S A084750 4,5,10,11,12,14,29,53,81,90,116,236,323,346,1172,2957,8400,14906
 %N A084750 Numbers k such that k! - p is a prime, where p is the smallest prime > k.
 %C A084750 Numbers k such that k! - NextPrime(k) is prime.
 %C A084750 If k != 3, there does not exist a prime p and a number k such that k! - NextPrime(k) < p < k! - 1. - _Farideh Firoozbakht_, Feb 26 2004
@@ -13,3 +13,4 @@
 %E A084750 a(16) from _Ryan Propper_, Jul 09 2005
 %E A084750 Edited by _N. J. A. Sloane_ at the suggestion of _Ryan Propper_, Jan 26 2008
 %E A084750 a(17) from _Michael S. Branicky_, Jun 21 2023
+%E A084750 a(18) from _Michael S. Branicky_, Apr 28 2025

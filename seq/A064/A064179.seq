@@ -1,4 +1,4 @@
-%I A064179 #83 Oct 12 2024 16:37:36
+%I A064179 #88 Nov 03 2025 13:12:56
 %S A064179 1,-1,-1,-1,-1,1,-1,1,-1,1,-1,1,-1,1,1,-1,-1,1,-1,1,1,1,-1,-1,-1,1,1,
 %T A064179 1,-1,-1,-1,1,1,1,1,1,-1,1,1,-1,-1,-1,-1,1,1,1,-1,1,-1,1,1,1,-1,-1,1,
 %U A064179 -1,1,1,-1,-1,-1,1,1,1,1,-1,-1,1,1,-1,-1,-1,-1,1,1,1,1,-1,-1,1,-1,1,-1,-1,1,1,1,-1,-1,-1,1,1,1,1,1,-1,-1,1,1,1,-1,-1,-1
@@ -9,7 +9,7 @@
 %H A064179 Antti Karttunen, <a href="/A064179/b064179.txt">Table of n, a(n) for n = 1..65537</a>
 %H A064179 G. L. Cohen, <a href="http://dx.doi.org/10.1090/S0025-5718-1990-0993927-5">On an integers' infinitary divisors</a>, Math. Comp. 54 (1990), 395-411.
 %H A064179 G. L. Cohen and P. Hagis, Jr, <a href="http://dx.doi.org/10.1155/S0161171293000456">Arithmetic functions associated with the infinitary divisors of an integer</a>, Internat. J. Math. Math. Sci. 16 (2) (1993), 373-384.
-%H A064179 Simon Litsyn and Vladimir Shevelev, <a href="http://www.emis.de/journals/INTEGERS/papers/h33/h33.Abstract.html">On factorization of integers with restrictions on the exponent</a>, INTEGERS: Electronic Journal of Combinatorial Number Theory, 7 (2007), #A33, 1-36.
+%H A064179 Simon Litsyn and Vladimir Shevelev, <a href="http://www.integers-ejcnt.org/h33/h33.Abstract.html">On factorization of integers with restrictions on the exponent</a>, INTEGERS: Electronic Journal of Combinatorial Number Theory, 7 (2007), #A33, 1-36.
 %H A064179 Rasa Steuding, Jörn Steuding, and László Tóth, <a href="https://doi.org/10.1007/s12215-011-0022-x">A modified Möbius mu-function</a>, Rendiconti del Circolo Matematico di Palermo, Vol. 60 (2011), pp. 13-21; <a href="https://arxiv.org/abs/1109.4242">arXiv preprint</a>, arXiv:1109.4242 [math.NT], 2011.
 %H A064179 <a href="/index/Eu#epf">Index entries for sequences computed from exponents in factorization of n</a>.
 %H A064179 <a href="/index/Bi#binary">Index entries for sequences related to binary expansion of n</a>.
@@ -34,7 +34,7 @@
 %e A064179 mu[45]=0 but iMoebiusMu[45]=1 because 45 = 3^2 * 5^1 and the binary digits of 2 and 1 add up to 2, an even number.
 %e A064179 A unique representation of 48 over distinct terms of A050376 is 3*16. Since it contains even factors, then a(48)=1; for 54 such a representation is 2*3*9, thus a(54)=-1. - _Vladimir Shevelev_, Oct 28 2013
 %t A064179 iMoebiusMu[n_] := Switch[MoebiusMu[n], 1, 1, -1, -1, 0, If[OddQ[Plus@@(DigitCount[Last[Transpose[FactorInteger[n]]], 2, 1])], -1, 1]];
-%t A064179 (* The Moebius inversion formula seems to hold for iMoebiusMu and the infinitary_divisors of n: if g[ n_ ] := Plus@@(f/@iDivisors[ n ]) for all n, then f[ n_ ]===Plus@@(iMoebiusMu[ # ]g[ n/# ])/@iDivisors[ n ]) *)
+%t A064179 (* The Moebius inversion formula seems to hold for iMoebiusMu and the infinitary_divisors of n: if g[ n_ ] := Plus@@(f/@iDivisors[ n ]) for all n, then f[ n_ ]===Plus@@(iMoebiusMu[ # ]g[ n/# ]&/@iDivisors[ n ]) *)
 %t A064179 f[p_, e_] := (-1)^DigitCount[e, 2, 1]; a[1] = 1; a[n_] := Times @@ f @@@ FactorInteger[n]; Array[a, 100] (* _Amiram Eldar_, Dec 23 2023 *)
 %o A064179 (PARI) {a(n) = my(A, p, e); if( n<1, 0, A = factor(n); prod(k=1, matsize(A)[1], [p, e] = A[k, ]; (-1) ^ subst( Pol( binary(e)), x, 1)))}; /* _Michael Somos_, Jan 08 2008 */
 %o A064179 (PARI) a(n) = if (n==1, 1, (-1)^omega(core(n)) * a(core(n,1)[2])) \\ _Peter Munn_, Mar 16 2022

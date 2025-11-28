@@ -1,8 +1,8 @@
-%I A230530 #5 Aug 11 2014 22:45:54
+%I A230530 #7 Jul 23 2025 05:53:29
 %S A230530 0,0,0,0,52,1738,18106,197916,2076832,21111192,210584430,2084545432,
 %T A230530 20498628052,200742823012,1960821313548,19120799484034,
 %U A230530 186245617331536,1812799632396874,17636246250640738,171524349058534882
-%N A230530 Number of nX3 0..6 arrays x(i,j) with each element horizontally or vertically next to at least one element with value (x(i,j)+1) mod 7, and upper left element zero
+%N A230530 Number of nX3 0..6 arrays x(i,j) with each element horizontally or vertically next to at least one element with value (x(i,j)+1) mod 7, and upper left element zero.
 %C A230530 Column 3 of A230533
 %H A230530 R. H. Hardin, <a href="/A230530/b230530.txt">Table of n, a(n) for n = 1..210</a>
 %H A230530 R. H. Hardin, <a href="/A230530/a230530.txt">Empirical recurrence of order 64</a>

@@ -1,8 +1,8 @@
-%I A124225 #26 Sep 08 2022 08:45:28
+%I A124225 #29 Sep 18 2025 15:52:39
 %S A124225 2,158,192,216,356,426,548,680,1178,1196,1466,1500,1524,2324,2438,
 %T A124225 2904,2990,3060,3146,3618,3902,4110,4134,4346,4602,5790,5840,6186,
 %U A124225 6344,6710,6720,6836,6990,7592,7632,7716,7790,7838,8156,8420,8622,8658,8664,9092
-%N A124225 Numbers n such that the sum of the first n primes is prime and the sum of the squares of the first n primes is also prime.
+%N A124225 Numbers k such that the sum of the first k primes is prime and the sum of the squares of the first k primes is also prime.
 %H A124225 Charles R Greathouse IV, <a href="/A124225/b124225.txt">Table of n, a(n) for n = 1..10000</a>
 %H A124225 G. L. Honaker, Jr. and Chris Caldwell, <a href="https://primes.utm.edu/curios/page.php?short=3618">Prime Curios! 3618</a>
 %H A124225 Carlos Rivera, <a href="https://www.primepuzzles.net/puzzles/puzz_978.htm">Puzzle 978. Improve this curio</a>, Prime Puzzles and Problems Connection.

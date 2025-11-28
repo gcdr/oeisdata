@@ -1,4 +1,4 @@
-%I A001213 M2647 N1340 #36 Feb 16 2025 08:32:22
+%I A001213 M2647 N1340 #37 Nov 05 2025 15:35:23
 %S A001213 3,7,15,24,36,52,70,93,121,154,186,225,271,323,385,450,515,606,684,
 %T A001213 788,865,977,1091,1201,1361
 %N A001213 a(n) is the solution to the postage stamp problem with n denominations and 3 stamps.
@@ -6,7 +6,7 @@
 %D A001213 R. K. Guy, Unsolved Problems in Number Theory, C12.
 %D A001213 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
 %D A001213 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
-%H A001213 R. Alter and J. A. Barnett, <a href="http://www.jstor.org/stable/2321610">A postage stamp problem</a>, Amer. Math. Monthly, 87 (1980), 206-210.
+%H A001213 R. Alter and J. A. Barnett, <a href="https://www.jstor.org/stable/2321610">A postage stamp problem</a>, Amer. Math. Monthly, 87 (1980), 206-210.
 %H A001213 Erich Friedman, <a href="https://erich-friedman.github.io/mathmagic/0403.html">Postage stamp problem</a>
 %H A001213 R. L. Graham and N. J. A. Sloane, <a href="http://dx.doi.org/10.1137/0601045">On Additive Bases and Harmonious Graphs</a>, SIAM J. Algebraic and Discrete Methods, 1 (1980), 382-404.
 %H A001213 R. L. Graham and N. J. A. Sloane, <a href="http://neilsloane.com/doc/RLG/073.pdf">On Additive Bases and Harmonious Graphs</a>

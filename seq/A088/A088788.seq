@@ -1,4 +1,4 @@
-%I A088788 #7 Mar 28 2015 22:15:36
+%I A088788 #8 Jun 08 2025 16:15:42
 %S A088788 227,449,8669,8849,66449,86627,8886649,8888449,8888669,8888849,
 %T A088788 86664427,888886447,888888449
 %N A088788 Numbers that are primes and remain prime for four successive applications of incrementing each digit by 2 with carries ignored.
@@ -9,5 +9,5 @@
 %Y A088788 Cf. A088785, A088786, A088787.
 %K A088788 base,nonn
 %O A088788 1,1
-%A A088788 Chuck Seggelin (barkeep(AT)plastereddragon.com), Oct 16 2003
+%A A088788 _Chuck Seggelin_, Oct 16 2003
 %E A088788 More terms from _Robert G. Wilson v_, Nov 01 2003

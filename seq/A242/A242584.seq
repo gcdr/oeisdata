@@ -1,8 +1,8 @@
-%I A242584 #4 May 17 2014 19:22:13
+%I A242584 #6 Jul 23 2025 11:18:23
 %S A242584 7,13,12,14,35,21,14,45,97,37,14,46,159,271,65,14,46,174,587,757,114,
 %T A242584 14,46,175,723,2209,2115,200,14,46,175,744,3192,8391,5913,351,14,46,
 %U A242584 175,745,3453,14648,32020,16535,616,14,46,175,745,3481,17178,68819,122439,46237
-%N A242584 T(n,k)=Number of length n+3 0..k arrays with no four elements in a row with pattern aabb (with a!=b) and new values 0..k introduced in 0..k order
+%N A242584 T(n,k)=Number of length n+3 0..k arrays with no four elements in a row with pattern aabb (with a!=b) and new values 0..k introduced in 0..k order.
 %C A242584 Table starts
 %C A242584 ....7.....13......14......14.......14.......14.......14.......14.......14
 %C A242584 ...12.....35......45......46.......46.......46.......46.......46.......46

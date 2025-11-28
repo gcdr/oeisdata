@@ -1,4 +1,4 @@
-%I A064413 #172 Feb 16 2025 08:32:45
+%I A064413 #191 Nov 05 2025 15:22:01
 %S A064413 1,2,4,6,3,9,12,8,10,5,15,18,14,7,21,24,16,20,22,11,33,27,30,25,35,28,
 %T A064413 26,13,39,36,32,34,17,51,42,38,19,57,45,40,44,46,23,69,48,50,52,54,56,
 %U A064413 49,63,60,55,65,70,58,29,87,66,62,31,93,72,64,68,74,37,111,75,78,76,80,82
@@ -30,17 +30,19 @@
 %C A064413 (End)
 %D A064413 N. J. A. Sloane, Seven Staggering Sequences, in Homage to a Pied Puzzler, E. Pegg Jr., A. H. Schoen and T. Rodgers (editors), A. K. Peters, Wellesley, MA, 2009, pp. 93-110.
 %H A064413 Zak Seidov, <a href="/A064413/b064413.txt">Table of n, a(n) for n = 1..10000</a>
-%H A064413 David L. Applegate, Hans Havermann, Bob Selcoe, Vladimir Shevelev, N. J. A. Sloane, and Reinhard Zumkeller, <a href="http://arxiv.org/abs/1501.01669">The Yellowstone Permutation</a>, arXiv preprint arXiv:1501.01669 [math.NT], 2015 and <a href="https://cs.uwaterloo.ca/journals/JIS/VOL18/Sloane/sloane9.html">J. Int. Seq. 18 (2015) 15.6.7</a>.
+%H A064413 Michael De Vlieger, <a href="/A064413/a064413.txt">Table of n, a(n)</a> for n = 1..262144.
+%H A064413 David L. Applegate, Hans Havermann, Bob Selcoe, Vladimir Shevelev, N. J. A. Sloane, and Reinhard Zumkeller, <a href="https://arxiv.org/abs/1501.01669">The Yellowstone Permutation</a>, arXiv preprint arXiv:1501.01669 [math.NT], 2015 and <a href="https://cs.uwaterloo.ca/journals/JIS/VOL18/Sloane/sloane9.html">J. Int. Seq. 18 (2015) 15.6.7</a>.
+%H A064413 Jeffrey K. Aronson, <a href="https://doi.org/10.1136/bmj.r2072">When I use a word... On becoming a doctor</a>, BMJ (2025) Vol. 391, r2072. Mentions this sequence.
 %H A064413 Michael De Vlieger, <a href="/A064413/a064413.png">Annotated plot of a(n)</a> for n=1..120, showing prime p in red, 2p in blue, 3p in green, and other terms in gray.
 %H A064413 Michael De Vlieger, <a href="/A064413/a064413_1.png">Partially annotated log-log scatterplot of a(n)</a> for n=1..1024, showing prime p in red, 2p in blue, 3p in green, and other terms in gray. This plot exhibits three quasi-linear striations, the densest contains both 2p and all "gray" terms outside of the first dozen or so terms in the sequence.
-%H A064413 Michael De Vlieger, <a href="/A064413/a064413.txt">Table of n, a(n)</a> for n = 1..262144.
+%H A064413 Michael De Vlieger, <a href="/A064413/a064413_1.txt">Mathematica version of Eric Rains' C Code</a>, 2021.
 %H A064413 Diophante.fr, <a href="http://www.diophante.fr/problemes-par-themes/logique/e1-suites-logiques/2254-e121-une-sequence-cordiale"> Les Récreations Mathématiques: E121. Une séquence cordiale</a>.
 %H A064413 Gordon Hamilton, <a href="http://www.youtube.com/watch?v=yd2jr30K2R4">The EKG Sequence and the Tree of Numbers</a>
 %H A064413 Gordon Hamilton, <a href="http://m.youtube.com/watch?v=Y2KhEW9CSOA">Untitled video related to previous video</a>
 %H A064413 Piotr Hofman and Marcin Pilipczuk, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL11/Hofman/hofman1.html">A few new facts about the EKG sequence</a>, J. Integer Seqs., 11 (2008), Article 08.4.2.
 %H A064413 James Keener, <a href="http://www.math.utah.edu/~keener/lectures/maw/index.html">Mathematics of EKG</a> [Refers to EKGs found in hospitals, included for comparison.]
 %H A064413 J. C. Lagarias, E. M. Rains and N. J. A. Sloane, <a href="http://arXiv.org/abs/math.NT/0204011">The EKG sequence</a>, arXiv:math/0204011 [math.NT], 2002.
-%H A064413 J. C. Lagarias, E. M. Rains and N. J. A. Sloane, <a href="http://www.emis.de/journals/EM/expmath/volumes/11/11.3/Lagarias437_446.pdf">The EKG Sequence</a>, Exper. Math. 11 (2002), 437-446.
+%H A064413 J. C. Lagarias, E. M. Rains and N. J. A. Sloane, <a href="https://doi.org/10.1080/10586458.2002.10504486">The EKG Sequence</a>, Exper. Math. 11 (2002), 437-446.
 %H A064413 J. C. Lagarias, E. M. Rains and N. J. A. Sloane, <a href="/A064413/a064413_1.pdf">Plot of a(1) to a(100), with successive points joined by lines.</a>
 %H A064413 J. C. Lagarias, E. M. Rains and N. J. A. Sloane, <a href="/A064413/a064413_2.pdf">Terms 800 to 1000, with successive points joined by lines.</a>
 %H A064413 J. C. Lagarias, E. M. Rains and N. J. A. Sloane, <a href="/A064413/a064413_3.pdf">The first 1000 terms (represented by dots), successive points not joined.</a>
@@ -91,19 +93,19 @@
 %o A064413 a(n)=v[n];
 %o A064413 /* _Benoit Cloitre_, Sep 23 2012 */
 %o A064413 (Python)
-%o A064413 from fractions import gcd
+%o A064413 from math import gcd
 %o A064413 A064413_list, l, s, b = [1,2], 2, 3, {}
 %o A064413 for _ in range(10**5):
-%o A064413 ....i = s
-%o A064413 ....while True:
-%o A064413 ........if not i in b and gcd(i,l) > 1:
-%o A064413 ............A064413_list.append(i)
-%o A064413 ............l, b[i] = i, True
-%o A064413 ............while s in b:
-%o A064413 ................b.pop(s)
-%o A064413 ................s += 1
-%o A064413 ............break
-%o A064413 ........i += 1 # _Chai Wah Wu_, Dec 08 2014
+%o A064413     i = s
+%o A064413     while True:
+%o A064413         if not i in b and gcd(i, l) > 1:
+%o A064413             A064413_list.append(i)
+%o A064413             l, b[i] = i, True
+%o A064413             while s in b:
+%o A064413                 b.pop(s)
+%o A064413                 s += 1
+%o A064413             break
+%o A064413         i += 1 # _Chai Wah Wu_, Dec 08 2014
 %Y A064413 A073734 gives GCD's of successive terms.
 %Y A064413 See A064664 for the inverse permutation. See A064665-A064668 for the first two infinite cycles of this permutation. A064669 gives cycle representatives.
 %Y A064413 See A064421 for sequence giving term at which n appears.

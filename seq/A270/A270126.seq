@@ -1,18 +1,18 @@
-%I A270126 #22 Feb 16 2025 08:33:31
+%I A270126 #25 Nov 05 2025 15:22:31
 %S A270126 1,5,24,96,384,1536,6144,24576,98304,393216,1572864,6291456,25165824,
 %T A270126 100663296,402653184,1610612736
 %N A270126 Number of active (ON, black) cells at stage 2^n-1 of the two-dimensional cellular automaton defined by "Rule 86", based on the 5-celled von Neumann neighborhood.
 %C A270126 Initialized with a single black (ON) cell at stage zero.
 %C A270126 _Lars Blomberg_ conjectured that Rule 342 also produces this sequence.  It would be nice to have a proof.
 %D A270126 S. Wolfram, A New Kind of Science, Wolfram Media, 2002; p. 170.
-%H A270126 N. J. A. Sloane, <a href="http://arxiv.org/abs/1503.01168">On the Number of ON Cells in Cellular Automata</a>, arXiv:1503.01168 [math.CO], 2015
+%H A270126 N. J. A. Sloane, <a href="https://arxiv.org/abs/1503.01168">On the Number of ON Cells in Cellular Automata</a>, arXiv:1503.01168 [math.CO], 2015
 %H A270126 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/ElementaryCellularAutomaton.html">Elementary Cellular Automaton</a>
 %H A270126 S. Wolfram, <a href="http://wolframscience.com/">A New Kind of Science</a>
 %H A270126 <a href="/index/Ce#cell">Index entries for sequences related to cellular automata</a>
 %H A270126 <a href="https://oeis.org/wiki/Index_to_2D_5-Neighbor_Cellular_Automata">Index to 2D 5-Neighbor Cellular Automata</a>
 %H A270126 <a href="https://oeis.org/wiki/Index_to_Elementary_Cellular_Automata">Index to Elementary Cellular Automata</a>
 %F A270126 Conjectures from _Colin Barker_, Mar 21 2016: (Start)
-%F A270126 a(n) = 4*a(n-1) for n>2.
+%F A270126 a(n) = 4*a(n-1) =A164908(n) for n>2.
 %F A270126 a(n) = 3*2^(2*n-1) for n>1.
 %F A270126 G.f.: (1+x+4*x^2) / (1-4*x).
 %F A270126 (End)

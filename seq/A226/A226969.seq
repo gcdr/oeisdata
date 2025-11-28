@@ -1,4 +1,4 @@
-%I A226969 #22 Jul 10 2022 10:47:41
+%I A226969 #23 Sep 22 2025 16:01:13
 %S A226969 7,10,13,19,22,25,28,34,37,40,49,52,67,70,73,76,82,85,88,97,100,112,
 %T A226969 130,133,136,145,148,160,193,196,208,259,262,265,268,274,277,280,289,
 %U A226969 292,304,322,325,328,337,340,352,385,388,400,448,514,517,520,529,532
@@ -10,7 +10,7 @@
 %e A226969 The quaternary expansion of 40 is (2,2,0), which has sum of digits 4.
 %e A226969 17 is not on the list since the quaternary expansion of 17 is (1,0,1), which has sum of digits 2 not 4.
 %t A226969 Select[Range@ 540, Total@ IntegerDigits[#, 4] == 4 &] (* _Michael De Vlieger_, Dec 23 2016 *)
-%o A226969 (Sage) [i for i in [0..1000] if sum(Integer(i).digits(base=4))==4]
+%o A226969 (SageMath) [i for i in [0..1000] if sum(Integer(i).digits(base=4))==4]
 %o A226969 (PARI) select( is(n)=sumdigits(n,4)==4, [1..999]) \\ _M. F. Hasler_, Dec 23 2016
 %o A226969 (Python)
 %o A226969 agen = A226636gen(sod=4, base=4) # generator of terms using code in A226636

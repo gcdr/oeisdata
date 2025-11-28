@@ -1,4 +1,4 @@
-%I A296910 #42 Aug 30 2023 17:05:53
+%I A296910 #43 Nov 05 2025 15:22:41
 %S A296910 1,4,6,14,14,22,22,30,30,38,38,46,46,54,54,62,62,70,70,78,78,86,86,94,
 %T A296910 94,102,102,110,110,118,118,126,126,134,134,142,142,150,150,158,158,
 %U A296910 166,166,174,174,182,182,190,190,198,198,206,206,214,214,222,222,230,230,238,238
@@ -8,7 +8,7 @@
 %C A296910 Then a(n) = 2*(number on positive x-axis + number on positive y-axis) + 4*(number in interior of first quadrant).
 %H A296910 Colin Barker, <a href="/A296910/b296910.txt">Table of n, a(n) for n = 0..1000</a>
 %H A296910 Brian Galebach, <a href="/A250120/a250120.html">k-uniform tilings (k <= 6) and their A-numbers</a>
-%H A296910 Chaim Goodman-Strauss and N. J. A. Sloane, <a href="https://doi.org/10.1107/S2053273318014481">A Coloring Book Approach to Finding Coordination Sequences</a>, Acta Cryst. A75 (2019), 121-134, also <a href="http://NeilSloane.com/doc/Cairo_final.pdf">on NJAS's home page</a>. Also <a href="http://arxiv.org/abs/1803.08530">arXiv:1803.08530</a>.
+%H A296910 Chaim Goodman-Strauss and N. J. A. Sloane, <a href="https://doi.org/10.1107/S2053273318014481">A Coloring Book Approach to Finding Coordination Sequences</a>, Acta Cryst. A75 (2019), 121-134, also <a href="http://NeilSloane.com/doc/Cairo_final.pdf">on NJAS's home page</a>. Also <a href="https://arxiv.org/abs/1803.08530">arXiv:1803.08530</a>.
 %H A296910 Reticular Chemistry Structure Resource (RCSR), <a href="http://rcsr.net/layers/bew">The bew tiling (or net)</a>
 %H A296910 Anton Shutov and Andrey Maleev, <a href="https://doi.org/10.1515/zkri-2020-0002">Coordination sequences of 2-uniform graphs</a>, Z. Kristallogr., 235 (2020), 157-166. See supplementary material, krb, vertex u_1.
 %H A296910 N. J. A. Sloane, <a href="/A296910/a296910.jpg">Illustration of initial terms.</a> Points in the first quadrant are marked with their edge-distance from the origin (the heavy black circle). (Ignore the black rectangles, which show some fundamental cells for this tiling.)

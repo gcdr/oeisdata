@@ -1,4 +1,4 @@
-%I A074459 #12 Jul 20 2020 01:58:52
+%I A074459 #16 Aug 16 2025 03:18:43
 %S A074459 4,5,2,3,3,1,4,3,2,5,4,5,2,3,3,1,4,3,2,8,4,5,2,3,3,1,4,3,2,5,4,5,2,3,
 %T A074459 3,1,4,3,2,6,4,5,2,3,3,1,4,3,2,6,4,5,2,3,3,1,4,3,2,4,4,5,2,3,3,1,4,3,
 %U A074459 2,7,4,5,2,3,3,1,4,3,2,6,4,5,2,3,3,1,4,3,2,5
@@ -7,7 +7,7 @@
 %F A074459 For n % 10 < 9, a(n) = a(n % 9), where % is the modulo (remainder) operator. - _M. F. Hasler_, Jun 23 2020
 %e A074459 Consider the representations of digits '0', '1' and '2' given below.
 %e A074459 To change from 0 to 1, we need to delete 4 segments, from 1 to 2, we need to delete 1 segment and add 4 segments, so 5 segments in total are needed to be changed.
-%e A074459 From _M. F. Hasler_, Jun 23 2020:
+%e A074459 From _M. F. Hasler_, Jun 23 2020: (Start)
 %e A074459 We consider the following 7-segment representations of the digits 0 - 9:
 %e A074459    _       _   _       _   _   _   _   _
 %e A074459   | |   |  _|  _| |_| |_  |_  | | |_| |_|

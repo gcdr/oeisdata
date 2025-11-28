@@ -1,4 +1,4 @@
-%I A056993 #69 May 25 2023 11:01:13
+%I A056993 #71 Oct 29 2025 13:10:56
 %S A056993 2,2,2,2,2,30,102,120,278,46,824,150,1534,30406,67234,70906,48594,
 %T A056993 62722,24518,75898,919444
 %N A056993 a(n) is the smallest k >= 2 such that k^(2^n)+1 is prime, or -1 if no such k exists.
@@ -13,6 +13,7 @@
 %H A056993 Lucile and Yves Gallot, <a href="http://yves.gallot.pagesperso-orange.fr/primes/results.html">Generalized Fermat Prime Search</a>
 %H A056993 Michael Goetz, <a href="https://t5k.org/primes/page.php?id=103235">id=103235 of Top 5000 Primes</a>
 %H A056993 Luke Harmon, Gaetan Delavignette, Arnab Roy, and David Silva, <a href="https://eprint.iacr.org/2023/700">PIE: p-adic Encoding for High-Precision Arithmetic in Homomorphic Encryption</a>, Cryptology ePrint Archive 2023/700.
+%H A056993 I. Lunev, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL20/Lunev/lunev3.html">A tribonacci-like sequence of composite numbers</a>, J. Int. Seq. 20 (2017) # 17.3.2
 %H A056993 Stephen Scott, <a href="https://t5k.org/primes/page.php?id=84401">id=84401 of Top 5000 Primes</a>
 %H A056993 Sylvanus A. Zimmerman, <a href="http://www.primegrid.com/download/GFN-919444_1048576.pdf">PrimeGrid’s Generalized Fermat Prime Search</a>
 %F A056993 a(n) = A085398(2^(n+1)). - _Jianing Song_, Jun 13 2022

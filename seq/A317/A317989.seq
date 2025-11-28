@@ -1,4 +1,4 @@
-%I A317989 #25 Mar 16 2020 13:06:43
+%I A317989 #26 Sep 22 2025 16:01:30
 %S A317989 1,1,2,1,1,2,2,2,1,2,1,2,1,2,1,2,2,4,1,2,2,1,2,2,2,2,1,2,2,1,1,2,4,1,
 %T A317989 1,4,2,2,2,2,1,4,2,2,1,2,4,1,2,4,4,2,1,2,1,2,2,2,1,1,2,4,2,2,2,2,4,2,
 %U A317989 1,2,1,2,2,1,2,2,2,1,4,2,2,1,4,1,4,1,2
@@ -10,7 +10,7 @@
 %t A317989 2^(PrimeNu[Select[Range[2, 300], NumberFieldDiscriminant[Sqrt[#]]==#&]] - 1) (* _Jean-François Alcover_, Jul 25 2019 *)
 %o A317989 (PARI) for(n=2, 1000, if(isfundamental(n), print1(2^(omega(n) - 1), ", ")))
 %o A317989 (PARI) for(n=2, 1000, if(isfundamental(n), print1(2^#select(t->t%2==0, quadclassunit(n).cyc), ", ")))
-%o A317989 (Sage)
+%o A317989 (SageMath)
 %o A317989 def A317989_list(len):
 %o A317989     L = (sloane.A001221(n) for n in (1..len) if is_fundamental_discriminant(n))
 %o A317989     return [2^(l-1) for l in L]

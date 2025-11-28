@@ -1,4 +1,4 @@
-%I A005478 M0741 #87 Feb 16 2025 08:32:28
+%I A005478 M0741 #99 Oct 02 2025 22:19:19
 %S A005478 2,3,5,13,89,233,1597,28657,514229,433494437,2971215073,
 %T A005478 99194853094755497,1066340417491710595814572169,
 %U A005478 19134702400093278081449423917,475420437734698220747368027166749382927701417016557193662268716376935476241
@@ -8,19 +8,21 @@
 %C A005478 With the exception of 3, every term of this sequence has a prime index in the sequence of Fibonacci numbers (A000045); e.g., 5 is the fifth Fibonacci number, 13 is the seventh Fibonacci number, 89 the eleventh, etc. - _Alonso del Arte_, Aug 16 2013
 %C A005478 Note: A001605 gives those indices. - _Antti Karttunen_, Aug 16 2013
 %C A005478 The six known safe primes 2p + 1 such that p is a Fibonacci prime are in A263880; the values of p are in A155011. There are only two known Fibonacci primes p for which 2p - 1 is also prime, namely, p = 2 and 3. Is there a reason for this bias toward prime 2p + 1 over 2p - 1 among Fibonacci primes p? - _Jonathan Sondow_, Nov 04 2015
+%C A005478 a(1)=2, a(2)=3 and a(3)=5; i.e., integers 2, 3 and 5 constitute the unique triple (and the unique pair 2, 3 and 3, 5) that is simultaneously consecutive in the Fibonacci sequence (A000045) and consecutive in the sequence of prime numbers (A000040). - _Gergely Földvári_, Sep 27 2025
 %D A005478 J.-M. De Koninck, Ces nombres qui nous fascinent, Entry 89, p. 32, Ellipses, Paris 2008.
 %D A005478 R. K. Guy, Unsolved Problems in Number Theory, Section A3.
 %D A005478 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
 %H A005478 N. J. A. Sloane, <a href="/A005478/b005478.txt">Table of n, a(n) for n = 1..23</a>
-%H A005478 J. Brillhart, P. L. Montgomery and R. D. Silverman, <a href="http://dx.doi.org/10.1090/S0025-5718-1988-0917832-6">Tables of Fibonacci and Lucas factorizations</a>, Math. Comp. 50 (1988), 251-260.
-%H A005478 C. Caldwell's The Top Twenty, <a href="https://t5k.org/top20/page.php?id=39">Fibonacci Number</a>.
+%H A005478 John Brillhart, Peter L. Montgomery and Robert D. Silverman, <a href="http://dx.doi.org/10.1090/S0025-5718-1988-0917832-6">Tables of Fibonacci and Lucas factorizations</a>, Math. Comp. 50 (1988), 251-260.
+%H A005478 Chris Caldwell's The Top Twenty, <a href="https://t5k.org/top20/page.php?id=39">Fibonacci Number</a>.
+%H A005478 Shyam Sunder Gupta, <a href="https://doi.org/10.1007/978-981-97-2465-9_8">Fabulous Fibonacci Numbers, Lucas Numbers, and Golden Ratio</a>, Exploring the Beauty of Fascinating Numbers, Springer (2025) Ch. 8, 223-274.
 %H A005478 Ron Knott, <a href="http://www.maths.surrey.ac.uk/hosted-sites/R.Knott/Fibonacci/fibmaths.html">Mathematics of the Fibonacci Series</a>
 %H A005478 Tony D. Noe and Jonathan Vos Post, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL8/Noe/noe5.html">Primes in Fibonacci n-step and Lucas n-step Sequences</a>, J. of Integer Sequences, Vol. 8 (2005), Article 05.4.4.
 %H A005478 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/FibonacciPrime.html">Fibonacci Prime</a>
 %F A005478 a(n) = A000045(A001605(n)). A000040 INTERSECT A000045. - _R. J. Mathar_, Nov 01 2007
 %t A005478 Select[Fibonacci[Range[400]], PrimeQ] (* _Alonso del Arte_, Oct 13 2011 *)
 %o A005478 (PARI) je=[]; for(n=0,400, if(isprime(fibonacci(n)),je=concat(je,fibonacci(n)))); je
-%o A005478 (Sage) [i for i in fibonacci_xrange(0,10^80) if is_prime(i)] # _Bruno Berselli_, Jun 26 2014
+%o A005478 (SageMath) [i for i in fibonacci_xrange(0,10^80) if is_prime(i)] # _Bruno Berselli_, Jun 26 2014
 %o A005478 (Python)
 %o A005478 from itertools import islice
 %o A005478 from sympy import isprime

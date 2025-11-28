@@ -1,4 +1,4 @@
-%I A003761 #39 Aug 23 2023 09:37:24
+%I A003761 #40 Nov 05 2025 15:21:44
 %S A003761 3,270,20160,1477980,108097935,7903526400,577834413429,42245731959480,
 %T A003761 3088601154192960,225808743709815750,16508958287605688193,
 %U A003761 1206975861055570636800,88242438021480689844999,6451436286916714206370530,471666820375043557337304000
@@ -8,7 +8,7 @@
 %H A003761 F. Faase, <a href="http://www.iwriteiam.nl/Cpaper.zip">On the number of specific spanning subgraphs of the graphs G X P_n</a>, Preliminary version of paper that appeared in Ars Combin. 49 (1998), 129-154.
 %H A003761 F. Faase, <a href="http://www.iwriteiam.nl/counting.html">Counting Hamiltonian cycles in product graphs</a>
 %H A003761 F. Faase, <a href="http://www.iwriteiam.nl/Cresults.html">Results from the counting program</a>
-%H A003761 P. Raff, <a href="http://arxiv.org/abs/0809.2551">Spanning Trees in Grid Graphs</a>, arXiv:0809.2551 [math.CO], 2008. [From _Paul Raff_, Mar 06 2009]
+%H A003761 P. Raff, <a href="https://arxiv.org/abs/0809.2551">Spanning Trees in Grid Graphs</a>, arXiv:0809.2551 [math.CO], 2008. [From _Paul Raff_, Mar 06 2009]
 %H A003761 P. Raff, <a href="http://www.math.rutgers.edu/~praff/span/4/12-13-14-23/index.xml">Analysis of the Number of Spanning Trees of D_4 x P_n</a>. Contains sequence, recurrence, generating function, and more. [From _Paul Raff_, Mar 06 2009]
 %H A003761 <a href="/index/Tra#trees">Index entries for sequences related to trees</a>
 %H A003761 <a href="/index/Rec#order_08">Index entries for linear recurrences with constant coefficients</a>, signature (90,-1313,5850,-9828,5850,-1313,90,-1).

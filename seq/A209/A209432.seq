@@ -1,4 +1,4 @@
-%I A209432 #25 Feb 16 2025 08:33:16
+%I A209432 #26 Nov 05 2025 15:35:34
 %S A209432 24,96,216,294,300,324,384,600,810,864,1176,1200,1296,1452,1536,1920,
 %T A209432 1944,2400,2520,2646,2700,2904,2916,3240,3456,4056,4320,4704,4800,
 %U A209432 4950,5184,5400,5808,6144,6300,6936,7260,7290,7350,7500,7680,7776,8064,8100,8214
@@ -7,7 +7,7 @@
 %C A209432 Property of this sequence: the numbers of the form 24*k^2 are in the sequence.
 %C A209432 Theorem: Consider a triangle whose area A and sides (a, b, c) are integers such that there exists at least one square inscribed in this triangle whose sides x are also integers. Then, if the smallest side a = min {a, b, c} of this triangle is of the form a = 4k, k integer, then x = 3k and A = 24k^2.
 %C A209432 Proof: Let k be an integer, and let the sides of a triangle be a = 4k, b = 13k, c = 15k. Then s = (a+b+c)/2 = 16k and A = sqrt(s(s-a)(s-b)(s-c)) = 24k^2. With x = 2Aa/(a^2+2A), we find x = 3k.
-%H A209432 Herbert Bailey and Duane Detemple, <a href="http://www.jstor.org/stable/2690699">Squares inscribed in angles and triangles</a>, Mathematics Magazine 71(4), 1998, 278-284.
+%H A209432 Herbert Bailey and Duane Detemple, <a href="https://www.jstor.org/stable/2690699">Squares inscribed in angles and triangles</a>, Mathematics Magazine 71(4), 1998, 278-284.
 %H A209432 Eric W. Weisstein, <a href="https://mathworld.wolfram.com/ TriangleSquareInscribing.html">MathWorld: Triangle Square Inscribing</a>
 %F A209432 A = sqrt(p*(p-a)*(p-b)*(p-c)) with p = (a+b+c)/2 (Heron's formula);
 %F A209432 Sides of the three squares: x1 = 2*A*a/(a^2+2*A); x2 = 2*A*b/(b^2+2*A); x3 = 2*A*c/(c^2+2*A).

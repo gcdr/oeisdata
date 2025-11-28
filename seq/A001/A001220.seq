@@ -1,4 +1,4 @@
-%I A001220 #363 Feb 16 2025 08:32:22
+%I A001220 #374 Nov 05 2025 15:21:40
 %S A001220 1093,3511
 %N A001220 Wieferich primes: primes p such that p^2 divides 2^(p-1) - 1.
 %C A001220 Sequence is believed to be infinite.
@@ -32,21 +32,28 @@
 %C A001220 Conjecture: an integer n > 1 such that n^2 divides 2^(n-1)-1 must be a Wieferich prime. - _Thomas Ordowski_, Dec 21 2016
 %C A001220 The above conjecture is equivalent to the statement that no "Wieferich pseudoprimes" (WPSPs) exist. While base-b WPSPs are known to exist for several bases b > 1 other than 2 (see for example A244752), no base-2 WPSPs are known. Since two necessary conditions for a composite to be a base-2 WPSP are that, both, it is a base-2 Fermat pseudoprime (A001567) and all its prime factors are Wieferich primes (cf. A270833), as shown in the comments in A240719, it seems that the first base-2 WPSP, if it exists, is probably very large. This appears to be supported by the guess that the properties of a composite to be a term of A001567 and of A270833 are "independent" of each other and by the observation that the scatterplot of A256517 seems to become "less dense" at the x-axis parallel line y = 2 for increasing n. It has been suggested in the literature that there could be asymptotically about log(log(x)) Wieferich primes below some number x, which is a function that grows to infinity, but does so very slowly. Considering the above constraints, the number of WPSPs may grow even more slowly, suggesting any such number, should it exist, probably lies far beyond any bound a brute-force search could reach in the forseeable future. Therefore I guess that the conjecture may be false, but a disproof or the discovery of a counterexample are probably extraordinarily difficult problems. - _Felix Fröhlich_, Jan 18 2019
 %C A001220 Named after the German mathematician Arthur Josef Alwin Wieferich (1884-1954). a(1) = 1093 was found by Waldemar Meissner in 1913. a(2) = 3511 was found by N. G. W. H. Beeger in 1922. - _Amiram Eldar_, Jun 05 2021
+%C A001220 From _Jianing Song_, Jun 21 2025: (Start)
+%C A001220 The ring of integers of Q(2^(1/k)) is Z[2^(1/k)] if and only if k does not have a prime factor in this sequence (k is in A342390). See Theorem 5.3 of the paper of Keith Conrad. For example, we have:
+%C A001220   (1 + 2^(364/1093) + 2^(2*364/1093) + ... + 2^(1092*364/1093))/1093 is an algebraic integer, but it is not in Z[2^(1/1093)];
+%C A001220   (1 + 2^(1755/3511) + 2^(2*1755/3511) + ... + 2^(3510*1755/3511))/3511 is an algebraic integer, but it is not in Z[2^(1/3511)]. (End)
 %D A001220 Richard Crandall and Carl Pomerance, Prime Numbers: A Computational Perspective, Springer, NY, 2001; see p. 28.
 %D A001220 Richard K. Guy, Unsolved Problems in Number Theory, A3.
 %D A001220 G. H. Hardy and E. M. Wright, An Introduction to the Theory of Numbers, 5th ed., Oxford Univ. Press, 1979, th. 91.
 %D A001220 Yves Hellegouarch, "Invitation aux mathématiques de Fermat Wiles", Dunod, 2eme Edition, pp. 340-341.
 %D A001220 Pace Nielsen, Wieferich primes, heuristics, computations, Abstracts Amer. Math. Soc., 33 (#1, 20912), #1077-11-48.
 %D A001220 Paulo Ribenboim, The Book of Prime Number Records. Springer-Verlag, NY, 2nd ed., 1989, p. 263.
+%D A001220 Paulo Ribenboim, The Little Book of Bigger Primes, Springer-Verlag NY 2004. See pp. 230-234.
 %D A001220 David Wells, The Penguin Dictionary of Curious and Interesting Numbers, Penguin Books, NY, 1986, p. 163.
 %H A001220 Takashi Agoh, Karl Dilcher and Ladislav Skula, <a href="http://dx.doi.org/10.1006/jnth.1997.2162">Fermat Quotients for Composite Moduli</a>, Journal of Number Theory 66(1), 1997, 29-50.
 %H A001220 Joerg Arndt, <a href="http://www.jjj.de/fxt/#fxtbook">Matters Computational (The Fxtbook)</a>, p. 780.
 %H A001220 Alex Samuel Bamunoba, <a href="http://dx.doi.org/10.1016/j.jnt.2016.09.036">A note on Carlitz Wieferich primes</a>, Journal of Number Theory, Vol. 174 (2017), pp. 343-357;
 %H A001220 N. G. W. H. Beeger, <a href="https://archive.org/details/messengerofmathe5051cambuoft/page/148/mode/2up?view=theater">On a New Case of the Congruence 2^(p-1) == 1 (mod p^2)</a>, Messenger of Mathematics, Vol 51 (1922), pp. 149-150.
+%H A001220 Thomas Bloom, <a href="https://www.erdosproblems.com/11">Problem 11</a>, Erdős Problems.
 %H A001220 Dongho Byeon, <a href="https://citeseerx.ist.psu.edu/pdf/c2a375b9f8041c15c0de1833e6dcb48b2558c3af">Class numbers, Iwasawa invariants and modular forms</a>, Trends in Mathematics, Vol. 9, No. 1, (2006), pp. 25-29.
 %H A001220 Chris K. Caldwell, The Prime Glossary, <a href="http://www.utm.edu/research/primes/glossary/WieferichPrime.html">Wieferich prime</a>.
 %H A001220 Chris K. Caldwell, <a href="https://t5k.org/notes/proofs/SquareMerDiv.html">Prime-square Mersenne divisors are Wieferich</a>.
 %H A001220 Denis Xavier Charles, <a href="http://www.cs.wisc.edu/~cdx/Criterion.pdf">On Wieferich Primes</a>.
+%H A001220 Keith Conrad, <a href="https://kconrad.math.uconn.edu/blurbs/gradnumthy/integersradical.pdf">The ring of integers in a radical extension</a>.
 %H A001220 Richard Crandall, Karl Dilcher and Carl Pomerance, <a href="https://doi.org/10.1090/S0025-5718-97-00791-6">A search for Wieferich and Wilson primes</a>, Mathematics of Computation, Vol. 66, No. 217 (1997), pp. 433-449; <a href="http://www.math.dartmouth.edu/~carlp/PDF/paper111.pdf">alternative link</a>.
 %H A001220 Joe K. Crump, Joe's Number Theory Web, <a href="http://web.archive.org/web/20110728092734/http://www.immortaltheory.com/NumberTheory/Wieferich.htm">Weiferich Primes</a>. (sic)
 %H A001220 John Blythe Dobson, <a href="https://johnblythedobson.org/mathematics/Wieferich_primes.html">A note on the two known Wieferich Primes</a>, 2007-2015.
@@ -56,6 +63,7 @@
 %H A001220 François G. Dorais and Dominic W. Klyve, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL14/Klyve/klyve3.html">A Wieferich Prime Search up to 6.7*10^15</a>, Journal of Integer Sequences, Vol. 14 (2011), Article 11.9.2.
 %H A001220 Bruno Dular, <a href="https://arxiv.org/abs/1905.01765">Cycles of Sums of Integers</a>, arXiv:1905.01765 [math.NT], 2019.
 %H A001220 Will Edgington, <a href="https://web.archive.org/web/20060630100606/http://www.garlic.com:80/~wedgingt/mersenne.html">Mersenne Page</a> [from Internet Archive Wayback Machine].
+%H A001220 Erdős problems database contributors, <a href="https://github.com/teorth/erdosproblems/blob/main/README.md#table">Erdős problem database</a>, see entry no. 11.
 %H A001220 M. Goetz, <a href="http://www.primegrid.com/forum_thread.php?id=7436&amp;nowrap=true#107809">WSS and WFS are suspended</a>, PrimeGrid forum, Message 107809, May 11, 2017.
 %H A001220 Andrew Granville and K. Soundararajan, <a href="http://dx.doi.org/10.1023/A:1009786614584">A binary additive problem of Erdős and the order of 2 mod p^2</a>, Raman. J., Vol. 2 (1998) pp. 283-298
 %H A001220 Hester Graves and M. Ram Murty, <a href="http://www.mast.queensu.ca/~murty/Wieferich.pdf">The abc conjecture and non-Wieferich primes in arithmetic progressions</a>, Journal of Number Theory, Vol. 133 (2013), pp. 1809-1813.
@@ -74,13 +82,13 @@
 %H A001220 Waldemar Meissner, <a href="/A001917/a001917.pdf">Über die Teilbarkeit von 2^p-2 durch das Quadrat der Primzahl p = 1093</a>, Sitzungsberichte der Königlich Preussischen Akademie der Wissenschaften Berlin, Vol. 35 (1913), pp. 663-667. [Annotated scanned copy]
 %H A001220 Sihem Mesnager and Jean-Pierre Flori, <a href="https://ia.cr/2012/033">A note on hyper-bent functions via Dillon-like exponents</a>, IACR, Report 2012/033, 2012.
 %H A001220 Mishima Miwako and Koji Momihara, <a href="https://doi.org/10.1016/j.disc.2016.12.003">A new series of optimal tight conflict-avoiding codes of weight 3</a>, Discrete Mathematics, Vol. 340, No. 4 (2017), pp. 617-629. See page 618.
-%H A001220 Alina Ostafe and Igor E. Shparlinski, <a href="http://arxiv.org/abs/1001.1504"> Pseudorandomness and Dynamics of Fermat Quotients</a>, arXiv:1001.1504 [math.NT], 2010.
+%H A001220 Alina Ostafe and Igor E. Shparlinski, <a href="https://arxiv.org/abs/1001.1504"> Pseudorandomness and Dynamics of Fermat Quotients</a>, arXiv:1001.1504 [math.NT], 2010.
 %H A001220 Christian Perfect, <a href="http://aperiodical.com/2013/07/integer-sequence-reviews-on-numberphile-or-vice-versa/">Integer sequence reviews on Numberphile (or vice versa)</a>, 2013.
 %H A001220 Reggie, <a href="http://www.primegrid.com/forum_thread.php?id=9436">Welcome to the Wieferich and Wall-Sun-Sun Prime Search</a>, PrimeGrid forum, 2020.
 %H A001220 Reese Scott and Robert Styer, <a href="http://dx.doi.org/10.1016/j.jnt.2003.11.008">On p^x - q^y = c and related three term exponential Diophantine equations with prime bases</a>, Journal of Number Theory, Vol. 105, No. 2 (2004), pp. 212-234.
-%H A001220 Vladimir Shevelev, <a href="http://arxiv.org/abs/0806.3412">Overpseudoprimes, Mersenne Numbers and Wieferich Primes</a>, arXiv:0806.3412 [math.NT], 2008.
+%H A001220 Vladimir Shevelev, <a href="https://arxiv.org/abs/0806.3412">Overpseudoprimes, Mersenne Numbers and Wieferich Primes</a>, arXiv:0806.3412 [math.NT], 2008.
 %H A001220 Joseph Silverman, <a href="http://dx.doi.org/10.1016/0022-314X(88)90019-4">Wieferich's Criterion and the abc Conjecture</a>, J. Number Th. 30 (1988) 226-237.
-%H A001220 Jonathan Sondow, <a href="http://arxiv.org/abs/1110.3113">Lerch quotients, Lerch primes, Fermat-Wilson quotients, and the Wieferich-non-Wilson primes 2, 3, 14771</a>, arXiv:1110.3113 [math.NT], 2012.
+%H A001220 Jonathan Sondow, <a href="https://arxiv.org/abs/1110.3113">Lerch quotients, Lerch primes, Fermat-Wilson quotients, and the Wieferich-non-Wilson primes 2, 3, 14771</a>, arXiv:1110.3113 [math.NT], 2012.
 %H A001220 Jonathan Sondow, <a href="https://doi.org/10.1007/978-1-4939-1601-6_17">Lerch Quotients, Lerch Primes, Fermat-Wilson Quotients, and the Wieferich-non-Wilson Primes 2, 3, 14771</a>, Combinatorial and Additive Number Theory, CANT 2011 and 2012, Springer Proc. in Math. & Stat., Vol. 101 (2014), pp. 243-255.
 %H A001220 Michel Waldschmidt, <a href="https://webusers.imj-prg.fr/~michel.waldschmidt/articles/pdf/abcLahoreProceedings.pdf">Lecture on the abc conjecture and some of its consequences</a>, Abdus Salam School of Mathematical Sciences (ASSMS), Lahore, 6th World Conference on 21st Century Mathematics 2013.
 %H A001220 Michel Waldschmidt, <a href="http://www.math.jussieu.fr/~miw/articles/pdf/abcLahore2013VI.pdf">Lecture on the abc conjecture and some of its consequences</a>, Abdus Salam School of Mathematical Sciences (ASSMS), Lahore, 6th World Conference on 21st Century Mathematics 2013.

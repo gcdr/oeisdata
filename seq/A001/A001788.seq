@@ -1,4 +1,4 @@
-%I A001788 M4161 N1729 #223 Feb 16 2025 08:32:24
+%I A001788 M4161 N1729 #228 Nov 05 2025 15:21:40
 %S A001788 0,1,6,24,80,240,672,1792,4608,11520,28160,67584,159744,372736,860160,
 %T A001788 1966080,4456448,10027008,22413312,49807360,110100480,242221056,
 %U A001788 530579456,1157627904,2516582400,5452595200,11777605632,25367150592,54492397568,116769423360,249644974080,532575944704
@@ -15,6 +15,7 @@
 %C A001788 For n>0 where [0]={}, the empty set, and [n]={1,2,...n} a(n) is the number of ways to separate [n-1] into three non-overlapping intervals (allowed to be empty) and then choose a subset from each interval. - _Geoffrey Critzer_, Feb 07 2009
 %C A001788 Form an array with m(n,0) = m(0,n) = n^2 and m(i,j) = m(i-1,j-1) + m(i-1,j). Then m(1,n) = A001844(n) and m(n,n) = a(n). - _J. M. Bergot_, Nov 07 2012
 %C A001788 The sum of the number of inversions of all sequences of zeros and ones with length n+1. - _Evan M. Bailey_, Dec 09 2020
+%C A001788 a(n) is the number of strings of length n defined on {0,1,2,3} that contain at most one 2, exactly one 3, and have no restriction on the number of 0s and 1s. For example, a(3)=24 since the strings are 321 (6 of this type), 320 (6 of this type), 310 (6 of this type), 300 (3 of this type) and 311 (3 of this type). - _Enrique Navarrete_, May 04 2025
 %D A001788 M. Abramowitz and I. A. Stegun, eds., Handbook of Mathematical Functions, National Bureau of Standards Applied Math. Series 55, 1964 (and various reprintings), p. 796.
 %D A001788 Clifford A. Pickover, The Math Book, From Pythagoras to the 57th Dimension, 250 Milestones in the History of Mathematics, Sterling Publ., NY, 2009, page 282.
 %D A001788 A. P. Prudnikov, Yu. A. Brychkov and O.I. Marichev, "Integrals and Series", Volume 1: "Elementary Functions", Chapter 4: "Finite Sums", New York, Gordon and Breach Science Publishers, 1986-1992.
@@ -27,7 +28,7 @@
 %H A001788 Robert Davis and Greg Simay, <a href="https://arxiv.org/abs/2001.11089">Further Combinatorics and Applications of Two-Toned Tilings</a>, arXiv:2001.11089 [math.CO], 2020.
 %H A001788 Herbert Izbicki, <a href="http://gdz.sub.uni-goettingen.de/dms/load/img/?PID=GDZPPN00247686X">Über Unterbäume eines Baumes</a>, Monatshefte fur Mathematik, Vol. 74 (1970), pp. 56-62.
 %H A001788 Milan Janjic, <a href="https://pmf.unibl.org/wp-content/uploads/2017/10/enumfor.pdf">Two Enumerative Functions</a>.
-%H A001788 Milan Janjic and Boris Petkovic, <a href="http://arxiv.org/abs/1301.4550">A Counting Function</a>, arXiv 1301.4550 [math.CO], 2013.
+%H A001788 Milan Janjic and Boris Petkovic, <a href="https://arxiv.org/abs/1301.4550">A Counting Function</a>, arXiv 1301.4550 [math.CO], 2013.
 %H A001788 C. W. Jones, J. C. P. Miller, J. F. C. Conn, and R. C. Pankhurst, <a href="https://doi.org/10.1017/S0080454100006579">Tables of Chebyshev polynomials</a>, Proc. Roy. Soc. Edinburgh. Sect. A., Vol. 62, No. 2 (1946), pp. 187-203.
 %H A001788 Han Mao Kiah, Alexander Vardy, and Hanwen Yao, <a href="https://arxiv.org/abs/2212.09952">Efficient Algorithms for the Bee-Identification Problem</a>, arXiv:2212.09952 [cs.IT], 2022.
 %H A001788 Duško Letić, Nenad Cakić, Branko Davidović, Ivana Berković and Eleonora Desnica, <a href="http://dx.doi.org/10.1186/1687-1847-2011-60">Some certain properties of the generalized hypercubical functions</a>, Advances in Difference Equations, Vol. 2011 (2011), Article 60.
@@ -67,7 +68,7 @@
 %t A001788 LinearRecurrence[{6, -12, 8}, {0, 1, 6}, 30] (* _Harvey P. Dale_, Jul 16 2013 *)
 %o A001788 (PARI) a(n)=if(n<0,0,2^n*n*(n+1)/4)
 %o A001788 (PARI) A001788_upto(n)=Vec(x/(1-2*x)^3+O(x^n),-n) \\ for illustration. - _M. F. Hasler_, Oct 05 2024
-%o A001788 (Sage) [n if n < 2 else n * (n + 1) * 2**(n - 2) for n in range(28)] # _Zerinvary Lajos_, Mar 10 2009
+%o A001788 (SageMath) [n if n < 2 else n * (n + 1) * 2**(n - 2) for n in range(28)] # _Zerinvary Lajos_, Mar 10 2009
 %o A001788 (Haskell)
 %o A001788 a001788 n = if n < 2 then n else n * (n + 1) * 2 ^ (n - 2)
 %o A001788 a001788_list = zipWith (*) a000217_list $ 1 : a000079_list

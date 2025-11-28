@@ -1,4 +1,4 @@
-%I A002409 M4939 N1668 #64 Sep 08 2022 08:44:30
+%I A002409 M4939 N1668 #68 Nov 05 2025 15:21:41
 %S A002409 1,14,112,672,3360,14784,59136,219648,768768,2562560,8200192,25346048,
 %T A002409 76038144,222265344,635043840,1778122752,4889837568,13231325184,
 %U A002409 35283533824,92851404800,241413652480,620777963520,1580162088960
@@ -10,7 +10,7 @@
 %H A002409 Herbert Izbicki, <a href="http://resolver.sub.uni-goettingen.de/purl?GDZPPN00247686X">Über Unterbaeume eines Baumes</a>, Monatshefte für Mathematik, Vol. 74 (1970), pp. 56-62.
 %H A002409 Herbert Izbicki, <a href="http://dx.doi.org/10.1007/BF01298302">Über Unterbaeume eines Baumes</a>, Monatshefte für Mathematik, Vol. 74 (1970), pp. 56-62.
 %H A002409 Milan Janjic, <a href="https://pmf.unibl.org/wp-content/uploads/2017/10/enumfor.pdf">Two Enumerative Functions</a>.
-%H A002409 Milan Janjic and Boris Petkovic, <a href="http://arxiv.org/abs/1301.4550">A Counting Function</a>, arXiv:1301.4550 [math.CO], 2013.
+%H A002409 Milan Janjic and Boris Petkovic, <a href="https://arxiv.org/abs/1301.4550">A Counting Function</a>, arXiv:1301.4550 [math.CO], 2013.
 %H A002409 Simon Plouffe, <a href="https://arxiv.org/abs/0911.4975">Approximations de séries génératrices et quelques conjectures</a>, Dissertation, Université du Québec à Montréal, 1992, arXiv:0911.4975 [math.NT], 2009.
 %H A002409 Simon Plouffe, <a href="/A000051/a000051_2.pdf">1031 Generating Functions</a>, Appendix to Thesis, Montreal, 1992.
 %H A002409 <a href="/index/Rec#order_07">Index entries for linear recurrences with constant coefficients</a>, signature (14,-84,280,-560,672,-448,128).
@@ -21,6 +21,7 @@
 %F A002409 From _Amiram Eldar_, Jan 06 2022: (Start)
 %F A002409 Sum_{n>=0} 1/a(n) = 47/5 - 12*log(2).
 %F A002409 Sum_{n>=0} (-1)^n/a(n) = 2916*log(3/2) - 5907/5. (End)
+%F A002409 n*a(n) +2*(-n-6)*a(n-1)=0. - _R. J. Mathar_, Jul 22 2025
 %p A002409 A002409:=-1/(2*z-1)**7; # _Simon Plouffe_ in his 1992 dissertation
 %p A002409 seq(binomial(n+6,6)*2^n,n=0..22); # _Zerinvary Lajos_, Jun 16 2008
 %t A002409 CoefficientList[Series[1/(1-2x)^7,{x,0,40}],x] (* or *) LinearRecurrence[ {14,-84,280,-560,672,-448,128},{1,14,112,672,3360,14784,59136},40] (* _Harvey P. Dale_, Jan 24 2022 *)
@@ -31,5 +32,5 @@
 %K A002409 nonn,easy
 %O A002409 0,2
 %A A002409 _N. J. A. Sloane_
-%E A002409 More terms from _Henry Bottomley_ and _James A. Sellers_, Apr 15 2000
+%E A002409 More terms from _Henry Bottomley_ and _James Sellers_, Apr 15 2000
 %E A002409 Typo in definition corrected by _Zerinvary Lajos_, Jun 16 2008

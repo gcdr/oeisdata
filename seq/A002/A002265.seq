@@ -1,4 +1,4 @@
-%I A002265 #142 Dec 30 2023 10:56:11
+%I A002265 #146 Sep 22 2025 16:00:16
 %S A002265 0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,
 %T A002265 8,8,9,9,9,9,10,10,10,10,11,11,11,11,12,12,12,12,13,13,13,13,14,14,14,
 %U A002265 14,15,15,15,15,16,16,16,16,17,17,17,17,18,18,18,18,19,19,19,19
@@ -9,6 +9,7 @@
 %C A002265 a(n-4) counts number of partitions of (n) into parts 1 and 4. For example a(11) = 3 with partitions (44111), (41111111), (11111111111). - _David Neil McGrath_, Dec 04 2014
 %C A002265 a(n-4) counts walks (closed) on the graph G(1-vertex; 1-loop, 4-loop) where order of loops is unimportant. - _David Neil McGrath_, Dec 04 2014
 %C A002265 Number of partitions of n into 4 parts whose smallest 3 parts are equal. - _Wesley Ivan Hurt_, Jan 17 2021
+%C A002265 a(n) is superadditive, that is a(m+n) >= a(m)+a(n), proved by considering indices mod 4. - _Branko Curgus_, Sep 09 2025
 %D A002265 V. Cizek, Discrete Fourier Transforms and their Applications, Adam Hilger, Bristol 1986, p. 61.
 %H A002265 Todd Silvestri, <a href="/A002265/b002265.txt">Table of n, a(n) for n = 0..999</a>
 %H A002265 J. H. McClellan and T. W. Parks, <a href="http://dx.doi.org/10.1109/TAU.1972.1162342">Eigenvalue and Eigenvector Decomposition of the Discrete Fourier Transform</a>, IEEE Trans. Audio and Electroacoust., Vol. AU-20, No. 1, March 1972, pp. 66-74.
@@ -33,7 +34,7 @@
 %p A002265 A002265:=n->floor(n/4); seq(A002265(n), n=0..100); # _Wesley Ivan Hurt_, Dec 10 2013
 %t A002265 Table[Floor[n/4], {n, 0, 100}] (* _Wesley Ivan Hurt_, Dec 10 2013 *)
 %t A002265 Table[{n,n,n,n},{n,0,20}]//Flatten (* _Harvey P. Dale_, Aug 08 2020 *)
-%o A002265 (Sage) [floor(n/4) for n in range(0,84)] # _Zerinvary Lajos_, Dec 02 2009
+%o A002265 (SageMath) [floor(n/4) for n in range(0,84)] # _Zerinvary Lajos_, Dec 02 2009
 %o A002265 (PARI) a(n)=n\4 \\ _Charles R Greathouse IV_, Dec 10 2013
 %o A002265 (Magma) [Floor(n/4): n in [0..80]]; // _Vincenzo Librandi_, Oct 28 2014
 %o A002265 (Python)

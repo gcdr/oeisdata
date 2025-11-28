@@ -1,32 +1,35 @@
-%I A013662 #150 Aug 25 2024 18:48:32
+%I A013662 #192 Nov 05 2025 15:21:47
 %S A013662 1,0,8,2,3,2,3,2,3,3,7,1,1,1,3,8,1,9,1,5,1,6,0,0,3,6,9,6,5,4,1,1,6,7,
 %T A013662 9,0,2,7,7,4,7,5,0,9,5,1,9,1,8,7,2,6,9,0,7,6,8,2,9,7,6,2,1,5,4,4,4,1,
 %U A013662 2,0,6,1,6,1,8,6,9,6,8,8,4,6,5,5,6,9,0,9,6,3,5,9,4,1,6,9,9,9,1
 %N A013662 Decimal expansion of zeta(4).
 %D A013662 M. Abramowitz and I. A. Stegun, eds., Handbook of Mathematical Functions, National Bureau of Standards Applied Math. Series 55, 1964 (and various reprintings), p. 811.
-%D A013662 L. Comtet, Advanced Combinatorics, Reidel, 1974, p. 89, Exercise.
+%D A013662 Louis Comtet, Advanced Combinatorics, Reidel, 1974, p. 89, Exercise.
+%D A013662 John H. Conway and Richard K. Guy, The Book of Numbers, New York: Springer-Verlag, 1996. See p. 262.
 %D A013662 Richard K. Guy, Unsolved Problems in Number Theory, 3rd Edition, Springer, 2004, Section F17, Series associated with the zeta-function, p. 391.
 %D A013662 L. D. Landau and E. M. Lifschitz, Band V, Statistische Physik, Akademie Verlag, 1966, pp. 172 and 180-181.
+%D A013662 Paulo Ribenboim, The Little Book of Bigger Primes, Springer-Verlag NY 2004. See p. 162.
 %D A013662 David Wells, The Penguin Dictionary of Curious and Interesting Numbers. Penguin Books, NY, 1986, Revised edition 1987, p. 33.
 %H A013662 Harry J. Smith, <a href="/A013662/b013662.txt">Table of n, a(n) for n = 1..20000</a>
 %H A013662 M. Abramowitz and I. A. Stegun, eds., <a href="http://www.convertit.com/Go/ConvertIt/Reference/AMS55.ASP?Res=150&amp;Page=807&amp;Submit=Go">Handbook of Mathematical Functions</a>, National Bureau of Standards, Applied Math. Series 55, Tenth Printing, 1972 [alternative scanned copy].
 %H A013662 Peter Bala, <a href="/A013662/a013662.pdf">New series for old functions</a>.
 %H A013662 D. H. Bailey, J. M. Borwein, and D. M. Bradley, <a href="https://arxiv.org/abs/math/0505270">Experimental determination of Apéry-like identities for zeta(4n+2)</a>, arXiv:math/0505270 [math.NT], 2005-2006.
 %H A013662 D. Borwein and J. M. Borwein, <a href="http://dx.doi.org/10.1090/S0002-9939-1995-1231029-X">On an intriguing integral and some series related to zeta(4)</a> Proc. Amer. Math. Soc., Vol. 123, No.4, April 1995.
-%H A013662 J. M. Borwein, D. J. Broadhurst, and J. Kamnitzer, <a href="http://arxiv.org/abs/hep-th/0004153">Central binomial sums, multiple Clausen values and zeta values</a> arXiv:hep-th/0004153, 2000.
+%H A013662 J. M. Borwein, D. J. Broadhurst, and J. Kamnitzer, <a href="https://arxiv.org/abs/hep-th/0004153">Central binomial sums, multiple Clausen values and zeta values</a> arXiv:hep-th/0004153, 2000.
 %H A013662 Leonhard Euler, <a href="https://arxiv.org/abs/math/0506415">On the sums of series of reciprocals</a>, arXiv:math/0506415 [math.HO], 2005-2008.
 %H A013662 Leonhard Euler, <a href="http://eulerarchive.maa.org/backup/E041.html">De summis serierum reciprocarum</a>, E41.
 %H A013662 Raffaele Marcovecchio and Wadim Zudilin, <a href="https://arxiv.org/abs/1905.12579">Hypergeometric rational approximations to zeta(4)</a>, arXiv:1905.12579 [math.NT], 2019.
-%H A013662 R. Mestrovic, <a href="http://arxiv.org/abs/1202.3670">Euclid's theorem on the infinitude of primes: a historical survey of its proofs (300 BC--2012) and another new proof</a>, arXiv:1202.3670 [math.HO], 2012. - From _N. J. A. Sloane_, Jun 13 2012
+%H A013662 Romeo Meštrović, <a href="https://arxiv.org/abs/1202.3670">Euclid's theorem on the infinitude of primes: a historical survey of its proofs (300 BC--2012) and another new proof</a>, arXiv:1202.3670 [math.HO], 2012. - From _N. J. A. Sloane_, Jun 13 2012
 %H A013662 Jean-Christophe Pain, <a href="https://arxiv.org/abs/2309.00539">An integral representation for zeta(4)</a>, arXiv:2309.00539 [math.NT], 2023.
 %H A013662 Michael Penn, <a href="https://www.youtube.com/watch?v=AxOZ1iqnIUY">Finding a closed form for zeta(4)</a>, YouTube video, 2022.
 %H A013662 Simon Plouffe, <a href="http://www.plouffe.fr/simon/constants/zeta4.txt">Pi^4/90 to 100000 digits</a>.
 %H A013662 Simon Plouffe, <a href="https://web.archive.org/web/20150912022617/www.worldwideschool.org/library/books/sci/math/MiscellaneousMathematicalConstants/chap98.html">Zeta(4) or Pi^4/90 to 10000 places</a>.
 %H A013662 Simon Plouffe, <a href="/A293904/a293904_4096.gz">Zeta(2) to Zeta(4096) to 2048 digits each</a> (gzipped file).
+%H A013662 K. Ramachandra, <a href="https://doi.org/10.46298/hrj.1981.93">On series integrals and continued fractions I</a>, Hardy-Ramanujan Journal, Vol. 4 (1981), pp. 1-11.
 %H A013662 Carsten Schneider and Wadim Zudilin, <a href="https://arxiv.org/abs/2004.08158">A case study for zeta(4)</a>, arXiv:2004.08158 [math.NT], 2020.
 %H A013662 Chuanan Wei, <a href="https://arxiv.org/abs/2303.07887">Some fast convergent series for the mathematical constants zeta(4) and zeta(5)</a>, arXiv:2303.07887 [math.CO], 2023.
 %H A013662 <a href="/index/Tra#transcendental">Index entries for transcendental numbers</a>.
-%F A013662 zeta(4) = Pi^4/90. - _Harry J. Smith_, Apr 29 2009
+%F A013662 zeta(4) = Pi^4/90 = A092425/90. - _Harry J. Smith_, Apr 29 2009
 %F A013662 From _Peter Bala_, Dec 03 2013: (Start)
 %F A013662 Definition: zeta(4) := Sum_{n >= 1} 1/n^4.
 %F A013662 zeta(4) = (4/17)*Sum_{n >= 1} ( (1 + 1/2 + ... + 1/n)/n )^2 and
@@ -47,14 +50,22 @@
 %F A013662 From _Peter Bala_, Nov 12 2023: (Start)
 %F A013662 zeta(4) = 1 + (4/3)*Sum_{k >= 1} (1 - 2*(-1)^k)/(k*(k + 1)^4*(k + 2)) = 35053/32400 + 48*Sum_{k >= 1} (1 - 2*(-1)^k)/(k*(k + 1)*(k + 2)*(k + 3)^4*(k + 4)*(k + 5)*(k + 6)).
 %F A013662 More generally, it appears that for n >= 0, zeta(4) = c(n) + (4/3)*(2*n + 1)!^2 * Sum_{k >= 1} (1 - 2*(-1)^k)/( (k + 2*n + 1)^3*Product_{i = 0..4*n+2} (k + i) ), where {c(n) : n >= 0} is a sequence of rational approximations to zeta(4) beginning [1, 35053/32400, 2061943067/ 1905120000, 18594731931460103/ 17180389306080000, 257946156103293544441/ 238326360453941760000, ...]. (End)
+%F A013662 From _Peter Bala_, Apr 27 2025: (Start)
+%F A013662 zeta(4) = 1/4! * Integral_{x >= 0} x^4 * exp(x)/(exp(x) - 1)^2 dx = 8/7 * 1/4! * Integral_{x >= 0} x^4 * exp(x)/(exp(x) + 1)^2 dx.
+%F A013662 zeta(4) = 1/5! * Integral_{x >= 0} x^5 * exp(x)*(exp(x) + 1)/(exp(x) - 1)^3 dx = 1/(3*5*7) * Integral_{x >= 0} x^5 * exp(x)*(exp(x) - 1)/(exp(x) + 1)^3 dx. (End)
+%F A013662 10*zeta(4) = Sum_{k>=1} H(k)^3/(k*(k+1)), where H(k) = A001008(k)/A002805(k) is the k-th harmonic number (Ramachandra, 1981). - _Amiram Eldar_, May 30 2025
+%F A013662 zeta(4) = Integral_{x=0..1} Li(3,x)/x dx, where Li(n,x) is the polylogarithm function. - _Kritsada Moomuang_, Jun 14 2025
+%F A013662 zeta(4) = Sum_{i, j >= 1} 1/(i^3*j*binomial(i+j, i)) = 4/3 * Sum_{i, j >= 1} 1/(i^2*j^2*binomial(i+j, i)). - _Peter Bala_, Aug 03 2025
 %e A013662 1.082323233711138191516003696541167...
 %p A013662 evalf(Pi^4/90,120); # _Muniru A Asiru_, Sep 19 2018
 %t A013662 RealDigits[Zeta[4],10,120][[1]] (* _Harvey P. Dale_, Dec 18 2012 *)
 %o A013662 (PARI) default(realprecision, 20080); x=Pi^4/90; for (n=1, 20000, d=floor(x); x=(x-d)*10; write("b013662.txt", n, " ", d)); \\ _Harry J. Smith_, Apr 29 2009
 %o A013662 (Maxima) ev(zeta(4),numer) ; /* _R. J. Mathar_, Feb 27 2012 */
-%o A013662 (Magma) SetDefaultRealField(RealField(110)); L:=RiemannZeta();  Evaluate(L,4); // _G. C. Greubel_, May 30 2019
-%o A013662 (Sage) numerical_approx(zeta(4), digits=100) # _G. C. Greubel_, May 30 2019
-%Y A013662 Cf. A002117, A013661, A013664, A013666, A013668, A013670, A231535, A337711.
+%o A013662 (Magma) SetDefaultRealField(RealField(110)); L:=RiemannZeta(); Evaluate(L,4); // _G. C. Greubel_, May 30 2019
+%o A013662 (SageMath) numerical_approx(zeta(4), digits=100) # _G. C. Greubel_, May 30 2019
+%Y A013662 Cf. A013661, A002117, A013663, A013664, A013665, A013666, A013667, A013668, A013669, A013670, A013671, A013672, A013673, A013674, A013675, A013676, A013677, A013678, A293904.
+%Y A013662 Cf. A231535, A337711.
+%Y A013662 Cf. A001008, A002805.
 %Y A013662 See also the extensive crossref table in A308637.
 %K A013662 nonn,cons
 %O A013662 1,3

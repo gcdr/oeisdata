@@ -1,8 +1,8 @@
-%I A234774 #4 Dec 30 2013 16:45:23
+%I A234774 #6 Jul 23 2025 08:25:55
 %S A234774 46804,1912554,49077768,2206072560,66213980208,2946351948550,
 %T A234774 92618616941276,4021006772274008,129993575205738872,
 %U A234774 5514507861007613210,182257737788679122956,7579018493964989335502,255146078225163133015552
-%N A234774 Number of (n+1)X(5+1) 0..4 arrays with 2X2 edge jumps all no more than +1 in one of the clockwise or counterclockwise directions but not both
+%N A234774 Number of (n+1)X(5+1) 0..4 arrays with 2X2 edge jumps all no more than +1 in one of the clockwise or counterclockwise directions but not both.
 %C A234774 Column 5 of A234777
 %H A234774 R. H. Hardin, <a href="/A234774/b234774.txt">Table of n, a(n) for n = 1..210</a>
 %e A234774 Some solutions for n=1

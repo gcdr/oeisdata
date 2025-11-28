@@ -1,4 +1,4 @@
-%I A159125 #4 Feb 16 2025 08:33:10
+%I A159125 #6 Oct 02 2025 22:40:02
 %S A159125 1,37,895,18252,343859,6249828,112207082,2018062151,36686671476
 %N A159125 Number of permutations of 1..n containing the relative rank sequence { 153624 } at any spacing.
 %C A159125 Same series for 426351 351426 624153
@@ -6,4 +6,4 @@
 %Y A159125 A056986 A158005 A158423
 %K A159125 nonn
 %O A159125 6,2
-%A A159125 _R. H. Hardin_ Apr 05 2009
+%A A159125 _R. H. Hardin_, Apr 05 2009

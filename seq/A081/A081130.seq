@@ -1,4 +1,4 @@
-%I A081130 #18 Sep 08 2022 08:45:09
+%I A081130 #19 Sep 22 2025 16:00:41
 %S A081130 0,0,0,0,0,0,0,0,1,0,0,0,1,3,0,0,0,1,6,6,0,0,0,1,9,24,10,0,0,0,1,12,
 %T A081130 54,80,15,0,0,0,1,15,96,270,240,21,0,0,0,1,18,150,640,1215,672,28,0,0,
 %U A081130 0,1,21,216,1250,3840,5103,1792,36,0,0,0,1,24,294,2160,9375,21504,20412,4608,45,0
@@ -28,7 +28,7 @@
 %e A081130   0, 0, 1, 9, 24, 10, 0;
 %t A081130 Table[If[k==n, 0, (n-k)^(k-2)*Binomial[k, 2]], {n,0,12}, {k,0,n}]//Flatten (* _G. C. Greubel_, May 14 2021 *)
 %o A081130 (Magma) [k eq n select 0 else (n-k)^(k-2)*Binomial(k,2): k in [0..n], n in [0..12]]; // _G. C. Greubel_, May 14 2021
-%o A081130 (Sage) flatten([[0 if (k==n) else (n-k)^(k-2)*binomial(k,2) for k in (0..n)] for n in (0..12)]) # _G. C. Greubel_, May 14 2021
+%o A081130 (SageMath) flatten([[0 if (k==n) else (n-k)^(k-2)*binomial(k,2) for k in (0..n)] for n in (0..12)]) # _G. C. Greubel_, May 14 2021
 %o A081130 (PARI)
 %o A081130 T(n, k)=if (k==0, 0, k^(n-2)*binomial(n, 2));
 %o A081130 seq(nn) = for (n=0, nn, for (k=0, n, print1(T(k, n-k), ", ")); );

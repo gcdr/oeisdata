@@ -1,4 +1,4 @@
-%I A266882 #19 Aug 31 2017 14:24:26
+%I A266882 #26 Jun 19 2025 11:34:52
 %S A266882 13,37,223,1087,1423,1483,2683,4783,6079,7331,7547,11057,12269,12401,
 %T A266882 12641,17333,19471,20743,21799,23027,27733,28097,29017,29389,30631,
 %U A266882 30859,33191,33343,33587,33613,35527,36551,42457,44263,45817,48857,49459,54499,55813,57329,58151,59207
@@ -11,9 +11,9 @@
 %o A266882 from sympy import primerange
 %o A266882 b, c, d, e = 2, 3, 5, 7
 %o A266882 for p in primerange(11, 10**9):
-%o A266882 ... a, b, c, d, e = b, c, d, e, p
-%o A266882 ... if a + d == b + c and a + e == c + d:
-%o A266882 ....... print a
+%o A266882     a, b, c, d, e = b, c, d, e, p
+%o A266882     if a + d == b + c and a + e == c + d:
+%o A266882         print(a, end=', ')
 %o A266882 (PARI) lista(nn) = {for (n=1, nn, if ((prime(n) + prime(n+3) == prime(n+1) + prime(n+2)) && (prime(n) + prime(n+4) == prime(n+2) + prime(n+3)), print1(prime(n), ", ")););} \\ _Michel Marcus_, Jan 05 2016
 %o A266882 (GAP)
 %o A266882 K:=10^7+1;; # to get all terms <= K.

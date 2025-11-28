@@ -1,4 +1,4 @@
-%I A036280 #87 Feb 23 2025 04:31:34
+%I A036280 #90 Nov 05 2025 15:35:28
 %S A036280 1,1,7,31,127,73,1414477,8191,16931177,5749691557,91546277357,
 %T A036280 3324754717,1982765468311237,22076500342261,65053034220152267,
 %U A036280 925118910976041358111,16555640865486520478399,8089941578146657681,29167285342563717499865628061
@@ -7,9 +7,9 @@
 %D A036280 G. W. Caunt, Infinitesimal Calculus, Oxford Univ. Press, 1914, p. 477.
 %H A036280 Seiichi Manyama, <a href="/A036280/b036280.txt">Table of n, a(n) for n = 0..275</a> (terms 0..100 from T. D. Noe)
 %H A036280 M. Abramowitz and I. A. Stegun, eds., <a href="http://www.convertit.com/Go/ConvertIt/Reference/AMS55.ASP">Handbook of Mathematical Functions</a>, National Bureau of Standards Applied Math. Series 55, Tenth Printing, 1972, p. 75 (4.3.68).
-%H A036280 H. W. Gould and W. Squire, <a href="http://www.jstor.org/stable/2312783">Maclaurin's second formula and its generalization</a>, Amer. Math. Monthly, 70 (1963), pp. 44-52.
+%H A036280 H. W. Gould and W. Squire, <a href="https://www.jstor.org/stable/2312783">Maclaurin's second formula and its generalization</a>, Amer. Math. Monthly, 70 (1963), pp. 44-52.
 %H A036280 M. Kauers and P. Paule, <a href="http://dx.doi.org/10.1007/978-3-7091-0445-3">The Concrete Tetrahedron</a>, Springer 2011, p. 30.
-%H A036280 J. Malenfant, <a href="http://arxiv.org/abs/1104.4332">Factorization of and Determinant Expressions for the Hypersums of Powers of Integers</a>, arXiv preprint arXiv:1104.4332 [math.NT], 2011.
+%H A036280 J. Malenfant, <a href="https://arxiv.org/abs/1104.4332">Factorization of and Determinant Expressions for the Hypersums of Powers of Integers</a>, arXiv preprint arXiv:1104.4332 [math.NT], 2011.
 %H A036280 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/HyperbolicCosecant.html">Hyperbolic Cosecant</a>.
 %H A036280 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/Cosecant.html">Cosecant</a>.
 %H A036280 Herbert S. Wilf, <a href="https://www2.math.upenn.edu/~wilf/DownldGF.html">Generatingfunctionology</a>, Academic Press, NY, 1994. See p. 54.
@@ -26,7 +26,7 @@
 %t A036280 nn = 34; t = Numerator[CoefficientList[Series[x*Csc[x], {x, 0, nn}], x]*Range[0, nn]!]; Take[t, {1, nn-1, 2}] (* _T. D. Noe_, Oct 28 2013 *)
 %o A036280 (Maxima)
 %o A036280 a(n):=num(sum(sum((2^(1-j)*(-1)^(n+j-1)*binomial(k,j)*sum((j-2*i)^(2*n+j-2)*binomial(j,i)*(-1)^(i),i,0,floor(j/2)))/(2*n+j-2)!,j,1,k),k,1,2*n-2)); /* n>1. a(1)=1. */ /* _Vladimir Kruchinin_, Apr 12 2011 */
-%o A036280 (Sage)
+%o A036280 (SageMath)
 %o A036280 def A036280_list(len):
 %o A036280     R, C = [1], [1]+[0]*(len-1)
 %o A036280     for n in (1..len-1):
@@ -43,6 +43,6 @@
 %o A036280 (PARI) my(x='x+O('x^40), v=apply(numerator, Vec(x/sin(x)))); vector(#v\2, k, v[2*k-1]) \\ _Michel Marcus_, Feb 23 2025
 %Y A036280 Cf. A036281, A036282, A036283.
 %Y A036280 Cf. A230265.
-%K A036280 nonn,frac,easy,changed
+%K A036280 nonn,frac,easy
 %O A036280 0,3
 %A A036280 _N. J. A. Sloane_

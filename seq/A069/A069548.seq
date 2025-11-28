@@ -1,4 +1,4 @@
-%I A069548 #19 Sep 26 2015 17:20:46
+%I A069548 #21 Jul 03 2025 18:52:17
 %S A069548 2,47,107,191,281,431,587,593,661,971,1097,1213,1217,2357,2549,2699,
 %T A069548 5807,5869,6469,6911,7039,7873,8423,8747,10799,11261,11821,11981,
 %U A069548 14867,15551,16411,16427,18223,19937,22877,22961,25153,28573,29531,30467
@@ -14,4 +14,4 @@
 %o A069548 list(lim)=my(v=List(),t); for(n=1,sqrtint(lim\3), if(isprime(t=f(n^2)) && t<=lim, listput(v,t))); for(n=1,sqrtint(lim\8), if(isprime(t=f(2*n^2)) && t<=lim, listput(v,t))); Set(v) \\ _Charles R Greathouse IV_, Feb 18 2011; revised Sep 26 2015
 %K A069548 nonn
 %O A069548 1,1
-%A A069548 _Benoit Cloitre_, Apr 18, 2002
+%A A069548 _Benoit Cloitre_, Apr 18 2002

@@ -1,4 +1,4 @@
-%I A303637 #30 Jul 22 2022 01:26:49
+%I A303637 #31 Nov 05 2025 15:22:41
 %S A303637 0,0,0,0,0,1,2,2,2,2,4,3,4,5,5,5,4,4,5,4,5,9,8,6,6,9,7,6,8,8,10,8,4,8,
 %T A303637 5,7,9,12,9,6,10,9,11,10,8,16,12,8,9,12,9,11,12,11,9,10,12,14,10,10
 %N A303637 Number of ways to write n as x^2 + y^2 + 2^z + 5*2^w, where x,y,z,w are nonnegative integers with x <= y.
@@ -11,7 +11,7 @@
 %H A303637 Zhi-Wei Sun, <a href="/A303637/b303637.txt">Table of n, a(n) for n = 1..10000</a>
 %H A303637 Zhi-Wei Sun, <a href="http://dx.doi.org/10.1016/j.jnt.2016.11.008">Refining Lagrange's four-square theorem</a>, J. Number Theory 175(2017), 167-190.
 %H A303637 Zhi-Wei Sun, <a href="http://maths.nju.edu.cn/~zwsun/179b.pdf">New conjectures on representations of integers (I)</a>, Nanjing Univ. J. Math. Biquarterly 34(2017), no. 2, 97-120.
-%H A303637 Zhi-Wei Sun, <a href="http://arxiv.org/abs/1701.05868">Restricted sums of four squares</a>, arXiv:1701.05868 [math.NT], 2017-2018.
+%H A303637 Zhi-Wei Sun, <a href="https://arxiv.org/abs/1701.05868">Restricted sums of four squares</a>, arXiv:1701.05868 [math.NT], 2017-2018.
 %e A303637 a(6) = 1 with 6 = 0^2 + 0^2 + 2^0 + 5*2^0.
 %e A303637 a(8) = 2 with 8 = 1^2 + 1^2 + 2^0 + 5*2^0 = 0^2 + 1^2 + 2^1 + 5*2^0.
 %e A303637 a(9) = 2 with 9 = 1^2 + 1^2 + 2^1 + 5*2^0 = 0^2 + 0^2 + 2^2 + 5*2^0.

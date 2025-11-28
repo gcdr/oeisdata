@@ -1,4 +1,4 @@
-%I A040090 #30 Feb 12 2024 20:23:11
+%I A040090 #32 Aug 25 2025 11:14:06
 %S A040090 10,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,
 %T A040090 20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,
 %U A040090 20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20
@@ -6,7 +6,7 @@
 %H A040090 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
 %H A040090 <a href="/index/Rec#order_01">Index entries for linear recurrences with constant coefficients</a>, signature (1).
 %F A040090 From _Elmo R. Oliveira_, Feb 11 2024: (Start)
-%F A040090 a(n) = 20 for n >= 1.
+%F A040090 a(n) = 20 = A010859(n) for n >= 1.
 %F A040090 G.f.: 10*(1+x)/(1-x).
 %F A040090 E.g.f.: 20*exp(x) - 10.
 %F A040090 a(n) = 10*A040000(n) = 5*A040002(n) = 2*A040020(n). (End)

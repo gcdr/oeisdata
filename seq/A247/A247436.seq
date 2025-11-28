@@ -1,8 +1,8 @@
-%I A247436 #11 Sep 08 2022 08:46:09
+%I A247436 #13 Jul 23 2025 11:34:46
 %S A247436 43,84,43,84,29,15,15,42,85,42,85,28,15,14,43,84,43,84,29,15,15,42,85,
 %T A247436 42,85,28,15,14,43,84,43,84,29,15,15,42,85,42,85,28,15,14,43,84,43,84,
 %U A247436 29,15,15,42,85,42,85,28,15,14,43,84,43,84,29,15,15,42
-%N A247436 Base-n state complexity of partitioned deterministic finite automaton (PDFA) for the periodic sequence (123...14)*
+%N A247436 Base-n state complexity of partitioned deterministic finite automaton (PDFA) for the periodic sequence (123...14)*.
 %C A247436 Period 14, repeat [43, 84, 43, 84, 29, 15, 15, 42, 85, 42, 85, 28, 15, 14].
 %H A247436 Klaus Sutner and Sam Tetruashvili, <a href="http://www.cs.cmu.edu/~sutner/papers/auto-seq.pdf">Inferring automatic sequences</a>  (see table on the p. 5).
 %H A247436 <a href="/index/Rec#order_14">Index entries for linear recurrences with constant coefficients</a>, signature (0,0,0,0,0,0,0,0,0,0,0,0,0,1).

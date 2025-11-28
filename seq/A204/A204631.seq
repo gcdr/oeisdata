@@ -1,10 +1,11 @@
-%I A204631 #41 Sep 08 2022 08:46:01
+%I A204631 #44 Apr 29 2025 14:35:52
 %S A204631 1,1,2,3,5,7,11,17,26,40,62,96,148,229,354,547,845,1306,2018,3118,
 %T A204631 4818,7445,11504,17776,27468,42444,65585,101343,156597,241976,373905,
 %U A204631 577764,892770,1379522,2131659,3293873,5089744,7864752,12152738,18778601,29016988
 %N A204631 Expansion of 1/(1 - x - x^2 + x^5 - x^7).
 %C A204631 Limiting ratio is 1.5452156..., the real root of x^7 - x^6 - x^5 + x^2 - 1.
 %H A204631 G. C. Greubel, <a href="/A204631/b204631.txt">Table of n, a(n) for n = 0..1000</a>
+%H A204631 Mohammed L. Nadji, Moussa Ahmia, Daniel F. Checa, and José L. Ramírez, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL28/Ramirez/ramirez19.html">Arndt Compositions with Restricted Parts, Palindromes, and Colored Variants</a>, J. Int. Seq. (2025) Vol. 28, Issue 3, Article 25.3.6. See p. 8.
 %H A204631 <a href="/index/Rec#order_07">Index entries for linear recurrences with constant coefficients</a>, signature (1,1,0,0,-1,0,1).
 %F A204631 a(n) = a(n-1) + a(n-2) - a(n-5) + a(n-7). - _Franck Maminirina Ramaharo_, Nov 02 2018
 %p A204631 seq(coeff(series(1/(1-x-x^2+x^5-x^7), x, n+1), x, n), n = 0..50); # _G. C. Greubel_, Mar 16 2020

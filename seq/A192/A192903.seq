@@ -1,6 +1,6 @@
-%I A192903 #4 Mar 31 2012 12:36:20
+%I A192903 #8 Oct 03 2025 05:51:13
 %S A192903 0,1,1,10,93,6350,776655,424648389
-%N A192903 Number of nXnXn triangular 0..7 arrays with each element equal to at least two neighbors and with new values 0..7 introduced in row major order
+%N A192903 Number of nXnXn triangular 0..7 arrays with each element equal to at least two neighbors and with new values 0..7 introduced in row major order.
 %e A192903 Some solutions for 7X7X7
 %e A192903 ........0..............0..............0..............0..............0
 %e A192903 .......0.0............0.0............0.0............0.0............0.0
@@ -11,4 +11,4 @@
 %e A192903 ..4.4.5.5.6.7.7..4.4.5.6.6.7.7..5.5.3.3.6.7.7..6.6.5.5.7.7.7..4.4.5.5.6.7.7
 %K A192903 nonn
 %O A192903 1,4
-%A A192903 _R. H. Hardin_ Jul 12 2011
+%A A192903 _R. H. Hardin_, Jul 12 2011

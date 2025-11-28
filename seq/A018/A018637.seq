@@ -1,4 +1,4 @@
-%I A018637 #12 Sep 04 2022 14:11:29
+%I A018637 #14 Jul 08 2025 07:22:33
 %S A018637 1,2,4,193,386,772
 %N A018637 Divisors of 772.
 %H A018637 <a href="/index/Di#divisors">Index entries for sequences related to divisors of numbers</a>
@@ -6,4 +6,4 @@
 %o A018637 (PARI) divisors(772) \\ _Charles R Greathouse IV_, Jun 23 2017
 %K A018637 nonn,fini,full,easy
 %O A018637 1,2
-%A A018637 _N. J. A. Sloane_.
+%A A018637 _N. J. A. Sloane_

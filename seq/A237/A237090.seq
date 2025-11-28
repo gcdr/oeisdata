@@ -1,8 +1,8 @@
-%I A237090 #4 Feb 03 2014 05:48:22
+%I A237090 #6 Jul 23 2025 09:50:10
 %S A237090 256,912,912,3274,3968,3274,12590,17636,17636,12590,48864,84918,96104,
 %T A237090 84918,48864,194812,412158,578486,578486,412158,194812,782024,2074898,
 %U A237090 3497586,4428988,3497586,2074898,782024,3181960,10501584,22239606
-%N A237090 T(n,k)=Number of (n+1)X(k+1) 0..3 arrays with the maximum plus the upper median plus the lower median minus the minimum of every 2X2 subblock equal
+%N A237090 T(n,k)=Number of (n+1)X(k+1) 0..3 arrays with the maximum plus the upper median plus the lower median minus the minimum of every 2X2 subblock equal.
 %C A237090 Table starts
 %C A237090 ......256........912........3274.........12590..........48864..........194812
 %C A237090 ......912.......3968.......17636.........84918.........412158.........2074898

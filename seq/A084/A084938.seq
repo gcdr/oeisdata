@@ -1,4 +1,4 @@
-%I A084938 #138 Jan 18 2024 05:57:18
+%I A084938 #141 Nov 10 2025 21:50:38
 %S A084938 1,0,1,0,1,1,0,2,2,1,0,6,5,3,1,0,24,16,9,4,1,0,120,64,31,14,5,1,0,720,
 %T A084938 312,126,52,20,6,1,0,5040,1812,606,217,80,27,7,1,0,40320,12288,3428,
 %U A084938 1040,345,116,35,8,1,0,362880,95616,22572,5768,1661,519,161,44,9,1
@@ -16,11 +16,11 @@
 %H A084938 Paul Barry, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL12/Barry3/barry93.html">Continued fractions and transformations of integer sequences</a>, JIS 12 (2009), Article 09.7.6.
 %H A084938 Paul Barry, <a href="https://arxiv.org/abs/2101.06713">On the inversion of Riordan arrays</a>, arXiv:2101.06713 [math.CO], 2021.
 %H A084938 Paul Barry and A. Hennessy, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL14/Barry2/barry126.html">A Note on Narayana Triangles and Related Polynomials, Riordan Arrays, and MIMO Capacity Calculations</a>, J. Int. Seq. 14 (2011), Article 11.3.8.
-%H A084938 David Callan, <a href="http://arxiv.org/abs/math/0507169">A combinatorial interpretation of the eigensequence for composition</a>, arXiv:math/0507169 [math.CO], 2005.
+%H A084938 David Callan, <a href="https://arxiv.org/abs/math/0507169">A combinatorial interpretation of the eigensequence for composition</a>, arXiv:math/0507169 [math.CO], 2005.
 %H A084938 David Callan, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL9/Callan/callan96.html">A Combinatorial Interpretation of the Eigensequence for Composition</a>, Journal of Integer Sequences, Vol. 9 (2006), Article 06.1.4.
-%H A084938 H. Fuks and J. M. G. Soto, <a href="http://arxiv.org/abs/1306.1189">Exponential convergence to equilibrium in cellular automata asymptotically emulating identity</a>, arXiv preprint arXiv:1306.1189 [nlin.CG], 2013.
+%H A084938 H. Fuks and J. M. G. Soto, <a href="https://arxiv.org/abs/1306.1189">Exponential convergence to equilibrium in cellular automata asymptotically emulating identity</a>, arXiv preprint arXiv:1306.1189 [nlin.CG], 2013.
 %H A084938 Sergey Kitaev and Philip B. Zhang, <a href="https://arxiv.org/abs/1811.07679">Distributions of mesh patterns of short lengths</a>, arXiv:1811.07679 [math.CO], 2018.
-%H A084938 Peter Luschny, <a href="http://oeis.org/wiki/User:Peter_Luschny/SequenceTransformations">Transformations of integer sequences</a>.
+%H A084938 Peter Luschny, <a href="https://oeis.org/wiki/User:Peter_Luschny/SequenceTransformations">Transformations of integer sequences</a>.
 %H A084938 R. J. Mathar, <a href="/A084938/a084938.pdf">Properties of Deleham's Delta Transformation: OEIS A084938</a>
 %F A084938 The operator DELTA takes two sequences r = (r_0, r_1, ...), s = (s_0, s_1, ...) and produces a triangle T(n, k), 0 <= k <= n, as follows:
 %F A084938 Let q(k) = x*r_k + y*s_k for k >= 0; let P(n, k) (n >= 0, k >= -1) be defined recursively by P(0, k) = 1 for k >= 0; P(n, -1) = 0 for n >= 1; P(n, k) = P(n, k-1) + q(k)*P(n-1, k+1) for n >= 1, k >= 0. Then P(n, k) is a homogeneous polynomial in x and y of degree n and T(n, k) = coefficient of x^(n-k)*y^k in P(n, 0).
@@ -71,7 +71,7 @@
 %p A084938 PMatrix(10, n -> factorial(n - 1)); # _Peter Luschny_, Oct 09 2022
 %t A084938 a[0, 0] = 1; a[n_, k_] := a[n, k] = Sum[j! a[n - j - 1, k - 1], {j, 0, n - 1}]; Flatten[Table[a[i, j], {i, 0, 10}, {j, 0, i}]] (* _T. D. Noe_, Feb 22 2012 *)
 %t A084938 DELTA[r_, s_, m_] := Module[{p, q, t, x, y}, q[k_] := x*r[[k+1]] + y*s[[k+1]]; p[0, _] = 1; p[_, -1] = 0; p[n_ /; n >= 1, k_ /; k >= 0] := p[n, k] = p[n, k-1] + q[k]*p[n-1, k+1] // Expand; t[n_, k_] := Coefficient[p[n, 0], x^(n-k)*y^k]; t[0, 0] = p[0, 0]; Table[t[n, k], {n, 0, m}, {k, 0, n}]]; DELTA[Floor[Range[10]/2], Prepend[Table[0, {10}], 1], 10] (* _Jean-François Alcover_, Sep 12 2013, after _Philippe Deléham_ *)
-%o A084938 (Sage)
+%o A084938 (SageMath)
 %o A084938 def delehamdelta(R, S) :
 %o A084938     L = min(len(R), len(S)) + 1
 %o A084938     ring = PolynomialRing(ZZ, 'x')

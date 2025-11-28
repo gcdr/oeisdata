@@ -1,7 +1,7 @@
-%I A001845 M4384 N1844 #182 Feb 16 2025 08:32:24
+%I A001845 M4384 N1844 #196 Oct 25 2025 05:11:46
 %S A001845 1,7,25,63,129,231,377,575,833,1159,1561,2047,2625,3303,4089,4991,
 %T A001845 6017,7175,8473,9919,11521,13287,15225,17343,19649,22151,24857,27775,
-%U A001845 30913,34279,37881,41727,45825,50183,54809,59711,64897,70375,76153,82239
+%U A001845 30913,34279,37881,41727,45825,50183,54809,59711,64897,70375,76153,82239,88641,95367,102425
 %N A001845 Centered octahedral numbers (crystal ball sequence for cubic lattice).
 %C A001845 Number of points in simple cubic lattice at most n steps from origin.
 %C A001845 If X is an n-set and Y_i (i=1,2,3) mutually disjoint 2-subsets of X then a(n-6) is equal to the number of 6-subsets of X intersecting each Y_i (i=1,2,3). - _Milan Janjic_, Aug 26 2007
@@ -11,6 +11,7 @@
 %C A001845 a(n) = D(3,n) where D are the Delannoy numbers (A008288). As such, a(n) gives the number of grid paths from (0,0) to (3,n) using steps that move one unit north, east, or northeast. - _David Eppstein_, Sep 07 2014
 %C A001845 The first comment above can be re-expressed and generalized as follows: a(n) is the number of points in Z^3 that are L1 (Manhattan) distance <= n from any given point. Equivalently, due to a symmetry that is easier to see in the Delannoy numbers array (A008288), as a special case of _Dmitry Zaitsev_'s Dec 10 2015 comment on A008288, a(n) is the number of points in Z^n that are L1 (Manhattan) distance <= 3 from any given point. - _Shel Kaphan_, Jan 02 2023
 %D A001845 L. Comtet, Advanced Combinatorics, Reidel, 1974, p. 81.
+%D A001845 Elena Deza and Michel Marie Deza, Figurate numbers, World Scientific Publishing (2012), pages 107, 132.
 %D A001845 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
 %D A001845 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
 %H A001845 T. D. Noe, <a href="/A001845/b001845.txt">Table of n, a(n) for n = 0..1000</a>
@@ -18,8 +19,8 @@
 %H A001845 Bela Bajnok, <a href="https://arxiv.org/abs/1705.07444">Additive Combinatorics: A Menu of Research Problems</a>, arXiv:1705.07444 [math.NT], May 2017. See Section 2.3.
 %H A001845 D. Bump, K. Choi, P. Kurlberg, and J. Vaaler, <a href="http://www.cecm.sfu.ca/~choi/paper/lrh.pdf">A local Riemann hypothesis, I</a> pages 16 and 17
 %H A001845 J. H. Conway and N. J. A. Sloane, <a href="https://doi.org/10.1098/rspa.1997.0126">Low-Dimensional Lattices VII: Coordination Sequences</a>, Proc. Royal Soc. London, A453 (1997), 2369-2389 (<a href="http://neilsloane.com/doc/Me220.pdf">pdf</a>).
-%H A001845 Milan Janjic, <a href="http://www.pmfbl.org/janjic/">Two Enumerative Functions</a>
-%H A001845 Milan Janjic, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL13/Janjic/janjic33.html">Hessenberg Matrices and Integer Sequences </a>, J. Int. Seq. 13 (2010) # 10.7.8.
+%H A001845 Milan Janjić, <a href="https://old.pmf.unibl.org/wp-content/uploads/2017/10/enumfor.pdf">Two Enumerative Functions</a>
+%H A001845 Milan Janjić, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL13/Janjic/janjic33.html">Hessenberg Matrices and Integer Sequences</a>, J. Int. Seq. 13 (2010) # 10.7.8.
 %H A001845 Milan Janjić, <a href="https://arxiv.org/abs/1905.04465">On Restricted Ternary Words and Insets</a>, arXiv:1905.04465 [math.CO], 2019.
 %H A001845 G. Kreweras, <a href="http://www.numdam.org/item?id=BURO_1973__20__3_0">Sur les hiérarchies de segments</a>, Cahiers Bureau Universitaire Recherche Opérationnelle, Cahier 20, Inst. Statistiques, Univ. Paris, 1973.
 %H A001845 G. Kreweras, <a href="/A001844/a001844.pdf">Sur les hiérarchies de segments</a>, Cahiers du Bureau Universitaire de Recherche Opérationnelle, Institut de Statistique, Université de Paris, #20 (1973). (Annotated scanned copy)

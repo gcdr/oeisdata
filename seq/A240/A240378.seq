@@ -1,8 +1,8 @@
-%I A240378 #4 Apr 04 2014 12:24:01
+%I A240378 #6 Jun 02 2025 09:52:38
 %S A240378 4,38,330,2066,16994,116030,884792,6273952,46648918,335571098,
 %T A240378 2468592214,17883911418,130889355348,951392168734,6947056359884,
 %U A240378 50571064277718,368890128041664,2687133002363550,19592211767424272,142760104420636614
-%N A240378 Number of nX3 0..3 arrays with no element equal to zero plus the sum of elements to its left or two plus the sum of elements above it or zero plus the sum of the elements diagonally to its northwest, modulo 4
+%N A240378 Number of nX3 0..3 arrays with no element equal to zero plus the sum of elements to its left or two plus the sum of elements above it or zero plus the sum of the elements diagonally to its northwest, modulo 4.
 %C A240378 Column 3 of A240381
 %H A240378 R. H. Hardin, <a href="/A240378/b240378.txt">Table of n, a(n) for n = 1..210</a>
 %e A240378 Some solutions for n=4

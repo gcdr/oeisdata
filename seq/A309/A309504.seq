@@ -1,9 +1,10 @@
-%I A309504 #28 Nov 20 2024 16:12:17
+%I A309504 #35 Nov 05 2025 15:22:42
 %S A309504 1,1,1,2,4,10,24,68,188,586,1722,5492,16924,55582,177278,594460,
 %T A309504 1944980,6628384,22132112,76421498,259359036,905416294,3114033930,
 %U A309504 10971347070,38157201530
 %N A309504 Number of cyclic permutations of length n avoiding the pattern 123.
-%H A309504 Miklos Bona, Michael Cory, <a href="http://arxiv.org/abs/1805.05196">Cyclic Permutations Avoiding Pairs of Patterns of Length Three</a>, arXiv:1805.05196 [math.CO], 2018.
+%H A309504 Kassie Archer, Christina Graves, and Robert Laudone, <a href="https://arxiv.org/abs/2505.04456">Binary operations on pattern-avoiding cycles</a>, arXiv:2505.04456 [math.CO], 2025. See p. 23.
+%H A309504 Miklos Bona and Michael Cory, <a href="https://arxiv.org/abs/1805.05196">Cyclic Permutations Avoiding Pairs of Patterns of Length Three</a>, arXiv:1805.05196 [math.CO], 2018.
 %H A309504 Andrew Howroyd, <a href="/A309504/a309504.txt">PARI Program</a>, Nov 2024.
 %e A309504 For n=3, there are two such permutations, 231 and 312.
 %e A309504 The a(4) = 4 permutations are: 2413, 3142, 3421, 4312.

@@ -1,8 +1,8 @@
-%I A254202 #3 Jan 26 2015 20:41:54
+%I A254202 #5 Jul 23 2025 14:32:17
 %S A254202 4,11,47,195,898,4353,22189,112015,542397,2658643,13811570,74759723,
 %T A254202 402860778,2116039998,11034558825,58963729401,324783927568,
 %U A254202 1798939119729,9744887456018,51258432916302,268071351841619,1461410535224478
-%N A254202 Number of length n 1..(6+2) arrays with no leading or trailing partial sum equal to a prime
+%N A254202 Number of length n 1..(6+2) arrays with no leading or trailing partial sum equal to a prime.
 %C A254202 Column 6 of A254204
 %e A254202 Some solutions for n=4
 %e A254202 ..8....4....8....4....8....6....6....6....1....8....4....4....8....1....8....4

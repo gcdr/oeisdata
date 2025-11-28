@@ -1,4 +1,4 @@
-%I A001855 M2433 N0963 #124 Feb 16 2025 08:32:24
+%I A001855 M2433 N0963 #126 Nov 05 2025 15:21:40
 %S A001855 0,1,3,5,8,11,14,17,21,25,29,33,37,41,45,49,54,59,64,69,74,79,84,89,
 %T A001855 94,99,104,109,114,119,124,129,135,141,147,153,159,165,171,177,183,
 %U A001855 189,195,201,207,213,219,225,231,237,243,249,255,261,267,273,279,285
@@ -18,10 +18,10 @@
 %H A001855 J.-P. Allouche and J. Shallit, <a href="https://doi.org/10.1016/0304-3975(92)90001-V">The ring of k-regular sequences</a>, Theoretical Computer Sci., 98 (1992), 163-197.
 %H A001855 Sung-Hyuk Cha, <a href="http://www.wseas.us/e-library/conferences/2012/CambridgeUSA/MATHCC/MATHCC-60.pdf">On Integer Sequences Derived from Balanced k-ary Trees</a>, Applied Mathematics in Electrical and Computer Engineering, 2012.
 %H A001855 Sung-Hyuk Cha, <a href="http://naun.org/multimedia/UPress/ami/16-125.pdf">On Complete and Size Balanced k-ary Tree Integer Sequences</a>, International Journal of Applied Mathematics and Informatics, Issue 2, Volume 6, 2012, pp. 67-75. - From _N. J. A. Sloane_, Dec 24 2012
-%H A001855 Hsien-Kuei Hwang, S. Janson, and T.-H. Tsai, <a href="http://140.109.74.92/hk/wp-content/files/2016/12/aat-hhrr-1.pdf">Exact and asymptotic solutions of the recurrence f(n) = f(floor(n/2)) + f(ceiling(n/2)) + g(n): theory and applications</a>, Preprint 2016.
+%H A001855 Hsien-Kuei Hwang, S. Janson, and T.-H. Tsai, <a href="https://algo.stat.sinica.edu.tw/hk/files/2016/12/aat-hhrr-1.pdf">Exact and asymptotic solutions of the recurrence f(n) = f(floor(n/2)) + f(ceiling(n/2)) + g(n): theory and applications</a>, Preprint 2016.
 %H A001855 Hsien-Kuei Hwang, S. Janson, and T.-H. Tsai, <a href="https://doi.org/10.1145/3127585">Exact and Asymptotic Solutions of a Divide-and-Conquer Recurrence Dividing at Half: Theory and Applications</a>, ACM Transactions on Algorithms, 13:4 (2017), #47; DOI: 10.1145/3127585.
 %H A001855 Hsien-Kuei Hwang, Svante Janson, and Tsung-Hsi Tsai, <a href="https://arxiv.org/abs/2210.10968">Identities and periodic oscillations of divide-and-conquer recurrences splitting at half</a>, arXiv:2210.10968 [cs.DS], 2022, p. 36.
-%H A001855 Tanya Khovanova, <a href="http://arxiv.org/abs/1410.2193">There are no coincidences</a>, arXiv preprint 1410.2193 [math.CO], 2014.
+%H A001855 Tanya Khovanova, <a href="https://arxiv.org/abs/1410.2193">There are no coincidences</a>, arXiv preprint 1410.2193 [math.CO], 2014.
 %H A001855 D. Knuth, <a href="/A003063/a003063.pdf">Letter to N. J. A. Sloane, date unknown</a>
 %H A001855 N. J. A. Sloane, <a href="https://arxiv.org/abs/2301.03149">"A Handbook of Integer Sequences" Fifty Years Later</a>, arXiv:2301.03149 [math.NT], 2023, p. 5.
 %H A001855 R. Stephan, <a href="/somedcgf.html">Some divide-and-conquer sequences ...</a>

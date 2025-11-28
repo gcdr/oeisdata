@@ -1,7 +1,7 @@
-%I A191299 #7 Mar 31 2012 10:26:21
+%I A191299 #9 Jul 22 2025 12:08:23
 %S A191299 20,200,200,69,1935,1939,1942,1944,10,300,200,1766,1812,1933,1931,
 %T A191299 1931,15,200,1944,1936,33,33
-%N A191299 List of integers in Pynchon's "Gravity's Rainbow"
+%N A191299 List of integers in Pynchon's "Gravity's Rainbow".
 %C A191299 Integers, in order (up to and including p. 36) appearing in the 1973 novel "Gravity's Rainbow".
 %C A191299 Rules: In order to avoid confusion with rational numbers, numbers in strings less representative of entire isolated integers (e.g. "6:43:16 BDST", p. 29), single-quotation-mark-truncated integers (e.g. " '37 ", p. 20, as opposed to "1937"), etc., we begin by establishing the following rules:
 %C A191299 (i) The integers cannot be connected to non-space-characters except if: the integer is immediately followed by a period then a space, or a comma then a space, or a question mark then a space, or an exclamation point then a space, or a colon then a space, or a semicolon then a space, or a closing bracket, or a double quotation mark (but not a single quotation mark, e.g. "86'd" p. 22); or except if an opening bracket immediately precedes the integer, or if a double quotation mark (but not a single quotation mark, given the truncation concern indicated above) immediately precedes the integer; integers may be concatenated using "-".

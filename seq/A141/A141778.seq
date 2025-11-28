@@ -1,10 +1,9 @@
-%I A141778 #33 Feb 19 2022 01:35:23
+%I A141778 #35 Mar 17 2025 14:53:44
 %S A141778 2,5,11,17,47,53,67,71,73,79,89,97,107,109,131,139,157,167,173,179,
 %T A141778 199,223,227,233,251,257,263,269,271,277,283,307,311,317,331,347,367,
 %U A141778 373,401,409,443,449,461,463,467,479,487,509,523,587,601,607,613,619,631
 %N A141778 Primes of the form 4*x^2 + 3*x*y - 5*y^2 (as well as of the form 8*x^2 + 11*x*y + y^2).
 %C A141778 Discriminant = 89. Class = 1. Binary quadratic forms a*x^2+b*x*y+c*y^2 have discriminant d=b^2-4ac and gcd(a,b,c)=1.
-%C A141778 Is this the same as A038977? - _R. J. Mathar_, Jul 04 2008
 %C A141778 A subsequence of (and may possibly coincide with) A038977. - _R. J. Mathar_, Jul 22 2008
 %D A141778 Z. I. Borevich and I. R. Shafarevich, Number Theory.
 %H A141778 N. J. A. Sloane et al., <a href="/wiki/Binary_Quadratic_Forms_and_OEIS">Binary Quadratic Forms and OEIS</a>: Index to related sequences, programs, references. OEIS wiki, June 2014.

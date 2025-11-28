@@ -1,4 +1,4 @@
-%I A303363 #17 Apr 23 2018 04:04:28
+%I A303363 #18 Nov 05 2025 15:22:41
 %S A303363 0,1,2,2,3,3,2,4,6,3,5,6,4,6,7,4,4,9,6,6,8,4,9,9,5,7,7,5,7,9,4,8,13,7,
 %T A303363 6,11,7,10,13,8,9,10,7,9,11,7,9,15,8,8,14,6,9,16,6,8,11,11,10,12,8,7,
 %U A303363 15,10,8,11,9,14,15,9
@@ -10,7 +10,7 @@
 %H A303363 R. C. Crocker, <a href="https://www.impan.pl/en/publishing-house/journals-and-series/colloquium-mathematicum/all/112/2/87281/on-the-sum-of-two-squares-and-two-powers-of-k">On the sum of two squares and two powers of k</a>, Colloq. Math. 112(2008), 235-267.
 %H A303363 Zhi-Wei Sun, <a href="http://dx.doi.org/10.1016/j.jnt.2016.11.008">Refining Lagrange's four-square theorem</a>, J. Number Theory 175(2017), 167-190.
 %H A303363 Zhi-Wei Sun, <a href="http://maths.nju.edu.cn/~zwsun/179b.pdf">New conjectures on representations of integers (I)</a>, Nanjing Univ. J. Math. Biquarterly 34(2017), no. 2, 97-120.
-%H A303363 Zhi-Wei Sun, <a href="http://arxiv.org/abs/1701.05868">Restricted sums of four squares</a>, arXiv:1701.05868 [math.NT], 2017-2018.
+%H A303363 Zhi-Wei Sun, <a href="https://arxiv.org/abs/1701.05868">Restricted sums of four squares</a>, arXiv:1701.05868 [math.NT], 2017-2018.
 %e A303363 a(2) = 1 with 2 = 0*(0+1)/2 + 0*(0+1)/2 + 2^0 + 2^0.
 %e A303363 a(3) = 2 with 3 = 0*(0+1)/2 + 1*(1+1)/2 + 2^0 + 2^0 = 0*(0+1)/2 + 0*(0+1)/2 + 2^0 + 2^1.
 %t A303363 SQ[n_]:=SQ[n]=IntegerQ[Sqrt[n]];

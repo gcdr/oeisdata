@@ -1,11 +1,11 @@
-%I A196668 #33 Sep 08 2022 08:45:59
+%I A196668 #35 Nov 05 2025 15:22:21
 %S A196668 17,29,41,53,61,71,83,89,101,103,113,127,137,149,151,157,193,211,239,
 %T A196668 241,251,257,269,293,307,311,313,317,331,353,359,373,379,389,397,401,
 %U A196668 433,439,443,457,461,463,479,499,503,509,521,523,569,571,577,587,593,599
 %N A196668 The Chebyshev primes of index 2.
 %C A196668 The sequence consists of such odd prime numbers p that satisfy li[psi(p^2)]-li[psi(p^2-1)]<1/2, where li(x) is the logarithmic integral and psi(x) is the Chebyshev's psi function.
 %H A196668 Dana Jacobsen, <a href="/A196668/b196668.txt">Table of n, a(n) for n = 1..4035</a>
-%H A196668 M. Planat and P. Solé, <a href="http://arxiv.org/abs/1109.6489">Efficient prime counting and the Chebyshev primes</a> arXiv:1109.6489 [math.NT], 2011.
+%H A196668 M. Planat and P. Solé, <a href="https://arxiv.org/abs/1109.6489">Efficient prime counting and the Chebyshev primes</a> arXiv:1109.6489 [math.NT], 2011.
 %p A196668 # The function PlanatSole(n,r) is in A196667.
 %p A196668 A196668 := n -> PlanatSole(n,2); # _Peter Luschny_, Oct 23 2011
 %t A196668 ChebyshevPsi[n_] := Log[LCM @@ Range[n]];
@@ -29,7 +29,7 @@
 %o A196668 if jump2(i)-1/2 lt 0 then Set2:=Append(Set2,NthPrime(i)); NthPrime(i); end if;
 %o A196668 end for;
 %o A196668 Set2;
-%o A196668 (Sage)
+%o A196668 (SageMath)
 %o A196668 def A196668(n) : return PlanatSole(n,2)
 %o A196668 # The function PlanatSole(n,r) is in A196667.
 %o A196668 # _Peter Luschny_, Oct 23 2011

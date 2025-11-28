@@ -1,8 +1,8 @@
-%I A244898 #5 Nov 16 2016 12:30:07
+%I A244898 #7 Jul 23 2025 11:25:28
 %S A244898 4,14,52,198,764,2740,10484,40696,159332,627156,2382476,9325816,
 %T A244898 36745928,140449732,551401060,2177363676,8627713732,33486205428,
 %U A244898 132260864136,524379503740,2041541080656,8075260485044,32050426949496,125201330295448
-%N A244898 Number of length n 0..3 arrays with each partial sum starting from the beginning no more than sqrt(2) standard deviations from its mean
+%N A244898 Number of length n 0..3 arrays with each partial sum starting from the beginning no more than sqrt(2) standard deviations from its mean.
 %C A244898 Column 3 of A244903
 %H A244898 R. H. Hardin, <a href="/A244898/b244898.txt">Table of n, a(n) for n = 1..210</a>
 %e A244898 Some solutions for n=9

@@ -1,8 +1,8 @@
-%I A233954 #4 Dec 18 2013 06:56:07
+%I A233954 #6 Jul 23 2025 08:17:00
 %S A233954 8336,152216,2805732,52918992,998464148,18908052288,357835576968,
 %T A233954 6778283795436,128347877009696,2431104574304708,46039609583181020,
 %U A233954 872023610385806616,16514948277805293972,312797883844524105416
-%N A233954 Number of (n+1)X(4+1) 0..5 arrays with every 2X2 subblock having the sum of the squares of the edge differences equal to 10, and no two adjacent values equal
+%N A233954 Number of (n+1)X(4+1) 0..5 arrays with every 2X2 subblock having the sum of the squares of the edge differences equal to 10, and no two adjacent values equal.
 %C A233954 Column 4 of A233958
 %H A233954 R. H. Hardin, <a href="/A233954/b233954.txt">Table of n, a(n) for n = 1..210</a>
 %e A233954 Some solutions for n=2

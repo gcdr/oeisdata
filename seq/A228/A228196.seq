@@ -1,4 +1,4 @@
-%I A228196 #73 Aug 07 2022 16:00:36
+%I A228196 #77 Sep 22 2025 16:01:14
 %S A228196 0,1,2,4,3,4,9,7,7,8,16,16,14,15,16,25,32,30,29,31,32,36,57,62,59,60,
 %T A228196 63,64,49,93,119,121,119,123,127,128,64,142,212,240,240,242,250,255,
 %U A228196 256,81,206,354,452,480,482,492,505,511,512,100,287,560,806,932,962,974,997,1016,1023,1024
@@ -8,14 +8,14 @@
 %H A228196 Boris Putievskiy, <a href="/A228196/b228196.txt">Rows n = 1..140 of triangle, flattened</a>
 %H A228196 Rely Pellicer and David Alvo, <a href="http://www.academia.edu/956605/Modi_ed_Pascal_Triangle_and_Pascal_Surfaces">Modified Pascal Triangle and Pascal Surfaces</a> p.4
 %H A228196 <a href="/index/Pas#Pascal">Index entries for triangles and arrays related to Pascal's triangle</a>
-%F A228196 T(n,0) = n^2, n>0; T(0,k) = 2^k; T(n, k) = T(n-1, k-1) + T(n-1, k) for n,k >0. [corrected by G. C. Greubel, Nov 12 2019]
+%F A228196 T(n,0) = n^2, n>0; T(0,k) = 2^k; T(n, k) = T(n-1, k-1) + T(n-1, k) for n,k > 0. [corrected by _G. C. Greubel_, Nov 12 2019]
 %F A228196 Closed-form formula for general case. Let L(m) and R(m) be the left border and the right border of Pascal like triangle, respectively. We denote binomial(n,k) by C(n,k).
 %F A228196 As table read by antidiagonals T(n,k) = Sum_{m1=1..n} R(m1)*C(n+k-m1-1, n-m1) + Sum_{m2=1..k} L(m2)*C(n+k-m2-1, k-m2); n,k >=0.
-%F A228196 As linear sequence a(n) = Sum_{m1=1..i} R(m1)*C(i+j-m1-1, i-m1) + Sum_{m2=1..j} L(m2)*C(i+j-m2-1, j-m2), where  i=n-t*(t+1)/2-1, j=(t*t+3*t+4)/2-n-1, t=floor((-1+sqrt(8*n-7))/2); n>0.
-%F A228196 Some special cases. If  L(m)={b,b,b...} b*A000012, then the second sum takes form b*C(n+k-1,j). If  L(m) is {0,b,2b,...} b*A001477, then the second sum takes form b*C(n+k,n-1). Similarly for R(m) and the first sum.
-%F A228196 For this sequence  L(m)=m^2 and R(m)=2^m.
+%F A228196 As linear sequence a(n) = Sum_{m1=1..i} R(m1)*C(i+j-m1-1, i-m1) + Sum_{m2=1..j} L(m2)*C(i+j-m2-1, j-m2), where i=n-t*(t+1)/2-1, j=(t*t+3*t+4)/2-n-1, t=floor((-1+sqrt(8*n-7))/2); n>0.
+%F A228196 Some special cases. If L(m)={b,b,b...} b*A000012, then the second sum takes form b*C(n+k-1,j). If L(m) is {0,b,2b,...} b*A001477, then the second sum takes form b*C(n+k,n-1). Similarly for R(m) and the first sum.
+%F A228196 For this sequence L(m)=m^2 and R(m)=2^m.
 %F A228196 As table read by antidiagonals T(n,k) = Sum_{m1=1..n} (2^m1)*C(n+k-m1-1, n-m1) + Sum_{m2=1..k} (m2^2)*C(n+k-m2-1, k-m2); n,k >=0.
-%F A228196 As linear sequence a(n) = Sum_{m1=1..i} (2^m1)*C(i+j-m1-1, i-m1) + Sum_{m2=1..j} (m2^2)*C(i+j-m2-1, j-m2), where  i=n-t*(t+1)/2-1, j=(t*t+3*t+4)/2-n-1, t=floor((-1+sqrt(8*n-7))/2).
+%F A228196 As linear sequence a(n) = Sum_{m1=1..i} (2^m1)*C(i+j-m1-1, i-m1) + Sum_{m2=1..j} (m2^2)*C(i+j-m2-1, j-m2), where i=n-t*(t+1)/2-1, j=(t*t+3*t+4)/2-n-1, t=floor((-1+sqrt(8*n-7))/2).
 %F A228196 As a triangular array read by rows, T(n,k) = Sum_{i=1..n-k} i^2*C(n-1-i, n-k-i) + Sum_{i=1..k} 2^i*C(n-1-i, k-i); n,k >=0. - _Greg Dresden_, Aug 06 2022
 %e A228196 The start of the sequence as a triangular array read by rows:
 %e A228196    0;
@@ -53,7 +53,7 @@
 %o A228196       sum2=sum2+funcL(m2)*binomial(i+j-m2-1,j-m2)
 %o A228196    sum=sum1+sum2
 %o A228196 (PARI) T(n,k) = if(k==0, n^2, if(k==n, 2^k, T(n-1, k-1) + T(n-1, k) )); \\ _G. C. Greubel_, Nov 12 2019
-%o A228196 (Sage)
+%o A228196 (SageMath)
 %o A228196 @CachedFunction
 %o A228196 def T(n, k):
 %o A228196     if (k==0): return n^2

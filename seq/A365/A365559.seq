@@ -1,5 +1,5 @@
-%I A365559 #14 Dec 21 2023 15:36:51
-%S A365559 1,2,7,28,160,1085,8403,69824,607988,5448444,49846437
+%I A365559 #17 Mar 09 2025 13:04:07
+%S A365559 1,2,7,28,160,1085,8403,69824,607988,5448444,49846437,462977928
 %N A365559 Number of free n-polysticks (or polyedges) in 3 dimensions.
 %C A365559 a(1)-a(8) verified and a(9)-a(10) computed by _John Mason_.
 %H A365559 Ishino Keiichiro, <a href="https://puzzlewillbeplayed.com/Polyedges/">Polyedge</a>, Puzzle will be played, 2009.
@@ -12,3 +12,4 @@
 %O A365559 1,2
 %A A365559 _Pontus von Brömssen_, Sep 09 2023
 %E A365559 a(11) derived from Ishino Keiichiro's website (sum of 2-sided 2D-edges and 3D-edges), added by _Pontus von Brömssen_, Dec 21 2023
+%E A365559 a(12) from _John Mason_, Mar 07 2025

@@ -1,4 +1,4 @@
-%I A060081 #62 Feb 12 2022 09:36:25
+%I A060081 #67 Sep 22 2025 16:00:36
 %S A060081 1,0,1,-1,0,1,0,-5,0,1,5,0,-14,0,1,0,61,0,-30,0,1,-61,0,331,0,-55,0,1,
 %T A060081 0,-1385,0,1211,0,-91,0,1,1385,0,-12284,0,3486,0,-140,0,1,0,50521,0,
 %U A060081 -68060,0,8526,0,-204,0,1,-50521,0,663061
@@ -17,7 +17,7 @@
 %H A060081 Th. Spernat, <a href="/A060081/a060081.pdf">Diplomarbeit 2004 (in German)</a> (with permission)
 %F A060081 E.g.f. for column m: (((tanh(x))^m)/m!)/cosh(x), m >= 0. Use trigonometric functions for unsigned case.
 %F A060081 a(n, m) = a(n-1, m-1)-((m+1)^2)*a(n-1, m+1); a(0, 0)=1; a(n, -1) := 0, a(n, m)=0 if n < m. Use sum of the two recursion terms for unsigned case.
-%F A060081 a(n,k) = (Sum_{q=0..n} (C(n,q)*(((-1)^(n-q)+1)*((-1)^(q-k)+1)*Sum_{j=0..q-k}(C(j+k,k)*(j+k+1)!*2^(q-j-k-2)*(-1)^(j)*Stirling2(q+1,j+k+1))/(k+1)! - _Vladimir Kruchinin_, Feb 12 2019
+%F A060081 a(n, k) = (1/(k+1)!)*Sum_{q=0..n} C(n,q)*((-1)^(n-q)+1)*((-1)^(q-k)+1)*Sum_{j=0..q-k} C(j+k,k)*(j+k+1)!*2^(q-j-k-2)*(-1)^j*Stirling2(q+1,j+k+1). - _Vladimir Kruchinin_, Feb 12 2019
 %e A060081 p(3,x) = -5*x + x^3.
 %e A060081 Exponential convolution together with A111593 for row polynomials q(n,x), case n=2: -1+(x+y)^2 = p(2,x+y) = 1*p(0,x)*q(2,y) + 2*p(1,x)*q(1,y) + 1*p(2,x)*q(0,y) = 1*1*y^2 + 2*x*y + 1*(-1+x^2)*1.
 %e A060081 Triangle begins:
@@ -61,7 +61,7 @@
 %p A060081 A060081 := (n,k) -> riordan(sech(x),tanh(x),n,k):
 %p A060081 seq(print(seq(A060081(n,k),k=0..n)),n=0..5); # _Peter Luschny_, Apr 15 2015
 %t A060081 max = 12; t = Transpose[ Table[ PadRight[ CoefficientList[ Series[ Tanh[x]^m/m!/Cosh[x], {x, 0, max}], x], max + 1, 0]*Table[k!, {k, 0, max}], {m, 0, max}]]; Flatten[ Table[t[[n, k]], {n, 1, max}, {k, 1, n}]] (* _Jean-François Alcover_, Sep 29 2011 *)
-%o A060081 (Sage)
+%o A060081 (SageMath)
 %o A060081 def A060081_triangle(dim): # computes unsigned T(n, k).
 %o A060081     M = matrix(ZZ,dim,dim)
 %o A060081     for n in (0..dim-1): M[n,n] = 1

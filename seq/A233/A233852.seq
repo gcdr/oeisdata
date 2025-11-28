@@ -1,8 +1,8 @@
-%I A233852 #4 Dec 16 2013 17:57:18
+%I A233852 #6 Jul 23 2025 08:13:40
 %S A233852 6250547858112512,524806929418457507809,46055875906826738439045120,
 %T A233852 4047676685721201279507422679040,355538673014592310495082456817911552,
 %U A233852 31231702526811449810929827386225614540889
-%N A233852 Number of (7+2)X(n+2) 0..3 arrays with no increasing sequence of length 3 horizontally or antidiagonally downwards
+%N A233852 Number of (7+2)X(n+2) 0..3 arrays with no increasing sequence of length 3 horizontally or antidiagonally downwards.
 %C A233852 Row 7 of A233845
 %H A233852 R. H. Hardin, <a href="/A233852/b233852.txt">Table of n, a(n) for n = 1..12</a>
 %e A233852 Some solutions for n=1

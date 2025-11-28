@@ -1,6 +1,6 @@
-%I A071997 #17 Jun 30 2021 09:09:09
+%I A071997 #27 Nov 06 2025 20:04:36
 %S A071997 1,3,5,7,11,19,27,43,75,115,171,307,555,691,1383,2467,3627,7243,10995,
-%T A071997 17587,28973,57943,87963,136627,267573,465293,807629,1407093,2390667,
+%T A071997 17587,28973,57943,87963,151133,267573,465293,807629,1407093,2390667,
 %U A071997 4216531,7122293,11245133,21756267,39652589
 %N A071997 a(n) is the smallest positive integer that cannot be obtained by using the number 2 at most n times and the operators +, -, *, /.
 %H A071997 G. Bannay, <a href="https://web.archive.org/web/20061201125224/http://gilles.bannay.free.fr/jeux_us.html">Countdown Problem</a>
@@ -11,3 +11,4 @@
 %O A071997 1,2
 %A A071997 Koksal Karakus (karakusk(AT)hotmail.com), Jun 17 2002
 %E A071997 a(18)-a(34) from _Austin T. Mohr_, May 17 2021
+%E A071997 Corrected a(24) = 136627 to a(24) = 151133, since 136627 = 317*431 = (2/2+2*(2*2*2*2*(2+2*2*2)-2))*(2*2*(2+2*2)*(2+2*2*2*2)-2/2) from _Andrej Jakobcic_, Nov 02 2025

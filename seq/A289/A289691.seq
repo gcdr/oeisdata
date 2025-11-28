@@ -1,6 +1,7 @@
-%I A289691 #30 Apr 15 2018 14:26:50
+%I A289691 #33 Nov 10 2025 10:38:48
 %S A289691 12,30,40,45,56,63,70,105,154,165,175,176,182,195,198,208,220,231,234,
-%T A289691 260,273,275,286,297,306,325,340,351,357,374,380,385,399,418,425
+%T A289691 260,273,275,286,297,306,325,340,351,357,374,380,385,399,418,425,429,
+%U A289691 442,455,459,475,476,494,513,532,539,544,561,575,595,598,608,621,627,637
 %N A289691 List of composite numbers n such that the prime decomposition of n contains an initial product of prime powers greater than a later prime, but in which no proper divisor of n is in the sequence.
 %C A289691 From _Richard Locke Peterson_, Aug 29 2017: (Start)
 %C A289691 Definition: Let the prime factorization of n be n = p1^e1*...*pj^ej*p(j+1)^e(j+1)*...*pm^em, with the primes in ascending order and the ej > 0. If in n there exists a partial product p1^e1*...*pk^ek > p(k+1) for some p(k+1) in the factorization, and also such that no proper divisor of n is also in the sequence, then n is in the sequence.

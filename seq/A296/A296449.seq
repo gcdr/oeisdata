@@ -1,10 +1,10 @@
-%I A296449 #23 Sep 07 2021 04:28:15
+%I A296449 #26 Mar 15 2025 05:28:42
 %S A296449 1,2,4,3,7,17,4,10,26,68,5,13,35,95,259,6,16,44,122,340,950,7,19,53,
 %T A296449 149,421,1193,3387,8,22,62,176,502,1436,4116,11814,9,25,71,203,583,
 %U A296449 1679,4845,14001,40503,10,28,80,230,664,1922,5574,16188,47064,136946,11,31,89,257,745,2165,6303,18375,53625,156629,457795
 %N A296449 Triangle I(m,n) read by rows: number of perfect lattice paths on the m*n board.
 %H A296449 D. Yaqubi, M. Farrokhi D. G., and H. Ghasemian Zoeram, <a href="https://arxiv.org/abs/1612.08697">Lattice paths inside a table, I</a>, arXiv:1612.08697 [math.CO], 2016-2017, array I(m,n).
-%F A296449 I(m,n) = (n+2)*3^(n-2) + (m-n)*Sum_{i=0..n-1} A005773(i)*A005773(n-i) + 2*Sum_{k=0..n-3) (n-k-2)*3^(n-k-3)*A001006(k). [Yaqubi Corr. 2.10]
+%F A296449 I(m,n) = (n+2)*3^(n-2) + (m-n)*Sum_{i=0..n-1} A005773(i)*A005773(n-i) + 2*Sum_{k=0..n-3} (n-k-2)*3^(n-k-3)*A001006(k). [Yaqubi Corr. 2.10]
 %F A296449 I(m,n) = A188866(m-1,n) for m > 1. - _Pontus von Brömssen_, Sep 06 2021
 %e A296449 Triangle begins:
 %e A296449    1;

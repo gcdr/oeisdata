@@ -1,0 +1,35 @@
+%I A387730 #32 Nov 13 2025 09:27:20
+%S A387730 0,2,5,8,84118,84121,84124,84125,84473,84476,84479,84480,84828,84831,
+%T A387730 84834,84835,85183,85186,85189,85190,85538,85541,85544,85545,85893,
+%U A387730 85896,85899,85900,86248,86251,86254,86255,86603,86606,86609,86610,86958,86961,86964,86965
+%N A387730 Indices where the cumulative sum of sin(2k+1)^(2k+1) reaches a record low value.
+%C A387730 The sequence has consecutive differences of 3, 3, 1, 348 after the 4th term for as long as the sequence exists. The differences add up to 355 which is the numerator of a significant convergent to Pi.
+%C A387730 It appears that the sequence has only 232 terms with the last term being 104005.
+%C A387730 Sum_{k=0..104005} sin(2k+1)^(2k+1) = -27.592119...
+%H A387730 Jwalin Bhatt, <a href="/A387730/b387730.txt">Table of n, a(n) for n = 0..231</a>
+%e A387730 -----------------------------------------
+%e A387730 |   k   | Sum_{n=0..k} sin(2k+1)^(2k+1) |
+%e A387730 -----------------------------------------
+%e A387730 |   0   |           0.8414...           |
+%e A387730 |   1   |           0.8442...           |
+%e A387730 |   2   |           0.0334...           |
+%e A387730 |   3   |           0.0862...           |
+%e A387730 |   4   |           0.0866...           |
+%e A387730 |   5   |          -0.9132...           |
+%e A387730 -----------------------------------------
+%o A387730 (Python)
+%o A387730 from mpmath import iv
+%o A387730 def a_upto(limit):
+%o A387730     sum_, lows = iv.mpf('0'), [0]
+%o A387730     for i in range(1, 1+limit):
+%o A387730         t = 2*i + 1
+%o A387730         sum_ += iv.sin(t)**t
+%o A387730         if sum_ < 0:
+%o A387730             lows.append(i)
+%o A387730             sum_ = 0
+%o A387730     return lows
+%o A387730 print(a_upto(85000)) # _Jwalin Bhatt_, Nov 09 2025
+%Y A387730 Cf. A387706, A389560.
+%K A387730 nonn,changed
+%O A387730 0,2
+%A A387730 _Jwalin Bhatt_, Sep 06 2025

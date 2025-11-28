@@ -1,4 +1,4 @@
-%I A002203 M0360 N0136 #369 Feb 28 2025 09:40:01
+%I A002203 M0360 N0136 #393 Nov 26 2025 15:59:32
 %S A002203 2,2,6,14,34,82,198,478,1154,2786,6726,16238,39202,94642,228486,
 %T A002203 551614,1331714,3215042,7761798,18738638,45239074,109216786,263672646,
 %U A002203 636562078,1536796802,3710155682,8957108166,21624372014,52205852194,126036076402,304278004998
@@ -10,24 +10,27 @@
 %D A002203 Paul Bachmann, Niedere Zahlentheorie (1902, 1910), reprinted Chelsea, NY, 1968, vol. 2, p. 76.
 %D A002203 M. R. Bacon and C. K. Cook, Some properties of Oresme numbers and convolutions ..., Fib. Q., 62:3 (2024), 233-240.
 %D A002203 Paulo Ribenboim, The Book of Prime Number Records. Springer-Verlag, NY, 2nd ed., 1989, p. 43.
+%D A002203 Paulo Ribenboim, My Numbers, My Friends: Popular Lectures on Number Theory, Springer-Verlag, NY, 2000, p. 3.
+%D A002203 Paulo Ribenboim, The Little Book of Bigger Primes, Springer-Verlag NY 2004. See pp. 46, 61.
 %D A002203 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
 %D A002203 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
 %H A002203 Reinhard Zumkeller, <a href="/A002203/b002203.txt">Table of n, a(n) for n = 0..1000</a>
-%H A002203 Gerald L. Alexanderson, <a href="https://web.archive.org/web/2024*/https://www.fq.math.ca/Scanned/4-4/elementary4-4.pdf">Problem B-102</a>, Fib. Quart., 4 (1966), 373.
+%H A002203 Gerald L. Alexanderson, <a href="https://www.fq.math.ca/Scanned/4-4/elementary4-4.pdf">Problem B-102</a>, Fib. Quart., 4 (1966), 373.
 %H A002203 Dorin Andrica and Ovidiu Bagdasar, <a href="https://doi.org/10.1007/978-3-030-51502-7">Recurrent Sequences: Key Results, Applications, and Problems</a>, Springer (2020), p. 39.
 %H A002203 Jeremiah Bartz, Bruce Dearden, and Joel Iiams, <a href="https://ajc.maths.uq.edu.au/pdf/77/ajc_v77_p318.pdf">Counting families of generalized balancing numbers</a>, The Australasian Journal of Combinatorics (2020) Vol. 77, Part 3, 318-325.
 %H A002203 Hacène Belbachir, Amine Belkhir, and Ihab-Eddin Djellas, <a href="https://digitalcommons.pvamu.edu/aam/vol17/iss2/15/">Permanent of Toeplitz-Hessenberg Matrices with Generalized Fibonacci and Lucas entries</a>, Applications and Applied Mathematics: An International Journal (AAM 2022), Vol. 17, Iss. 2, Art. 15, 558-570.
 %H A002203 Pooja Bhadouria, Deepika Jhala, and Bijendra Singh, <a href="http://dx.doi.org/10.22436/jmcs.08.01.07">Binomial Transforms of the k-Lucas Sequences and its Properties</a>, The Journal of Mathematics and Computer Science (JMCS), Volume 8, Issue 1, Pages 81-92; sequence L_{2,n}.
-%H A002203 M. Bicknell, <a href="https://web.archive.org/web/2024*/https://www.fq.math.ca/Scanned/13-4/bicknell.pdf">A Primer on the Pell Sequence and related sequences</a>, Fibonacci Quarterly, Vol. 13, No. 4, 1975, pp. 345-349.
+%H A002203 M. Bicknell, <a href="https://www.fq.math.ca/Scanned/13-4/bicknell.pdf">A Primer on the Pell Sequence and related sequences</a>, Fibonacci Quarterly, Vol. 13, No. 4, 1975, pp. 345-349.
 %H A002203 Abdullah Çağman, <a href="https://doi.org/10.18514/MMN.2023.4143">Repdigits as sums of three Half-companion Pell numbers</a>, Miskolc Mathematical Notes (Hungary, 2023) Vol. 24, No. 2, 687-697, MMN-4143.
 %H A002203 Kwang-Wu Chen and Yu-Ren Pan, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL23/Pan/pan32.html">Greatest Common Divisors of Shifted Horadam Sequences</a>, J. Int. Seq., Vol. 23 (2020), Article 20.5.8.
 %H A002203 Robert Dougherty-Bliss, <a href="https://sites.math.rutgers.edu/~zeilberg/Theses/RobertDoughertyBlissThesis.pdf">Experimental Methods in Number Theory and Combinatorics</a>, Ph. D. Dissertation, Rutgers Univ. (2024). See p. 38.
 %H A002203 Sergio Falcon, <a href="https://web.archive.org/web/20220701035124/http://saspublisher.com/wp-content/uploads/2014/06/SJET24C669-675.pdf">On The Generating Functions of the Powers of the K-Fibonacci Numbers</a>, Scholars Journal of Engineering and Technology (SJET), 2014; 2 (4C):669-675. [Wayback Machine link]
-%H A002203 Bakir Farhi, <a href="https://www.emis.de/journals/JIS/VOL22/Farhi/farhi19.html">Summation of Certain Infinite Lucas-Related Series</a>, J. Int. Seq., Vol. 22 (2019), Article 19.1.6.
-%H A002203 Bernadette Faye, and Florian Luca, <a href="http://arxiv.org/abs/1508.05714">Pell Numbers whose Euler Function is a Pell Number</a>, arXiv:1508.05714 [math.NT], 2015.
+%H A002203 Bakir Farhi, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL22/Farhi/farhi19.html">Summation of Certain Infinite Lucas-Related Series</a>, J. Int. Seq., Vol. 22 (2019), Article 19.1.6.
+%H A002203 Bernadette Faye, and Florian Luca, <a href="https://arxiv.org/abs/1508.05714">Pell Numbers whose Euler Function is a Pell Number</a>, arXiv:1508.05714 [math.NT], 2015.
 %H A002203 M. Cetin Firengiz and A. Dil, <a href="http://www.nntdm.net/papers/nntdm-20/NNTDM-20-4-21-32.pdf">Generalized Euler-Seidel method for second order recurrence relations</a>, Notes on Number Theory and Discrete Mathematics, Vol. 20, 2014, No. 4, 21-32.
+%H A002203 Sela Fried, <a href="https://arxiv.org/abs/2505.14196">Even-up words and their variants</a>, arXiv:2505.14196 [math.CO], 2025. See p. 6.
 %H A002203 Taras Goy and Mark Shattuck, <a href="https://doi.org/10.2478/amsil-2023-0027">Determinants of Toeplitz-Hessenberg Matrices with Generalized Leonardo Number Entries</a>, Ann. Math. Silesianae (2023). See p. 3.
-%H A002203 Verner E. Hoggatt, Jr., and Gerald L. Alexanderson, <a href="https://web.archive.org/web/2024*/https://www.fq.math.ca/Scanned/14-2/hoggatt1.pdf">Sums of Partition Sets in Generalized Pascal Triangles I</a>, The Fibonacci Quarterly, Vol. 14, No. 2 (1976), pp. 117-125.
+%H A002203 Verner E. Hoggatt, Jr., and Gerald L. Alexanderson, <a href="https://www.fq.math.ca/Scanned/14-2/hoggatt1.pdf">Sums of Partition Sets in Generalized Pascal Triangles I</a>, The Fibonacci Quarterly, Vol. 14, No. 2 (1976), pp. 117-125.
 %H A002203 Refik Keskin and Olcay Karaatli, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL15/Karaatli/karaatli5.html">Some New Properties of Balancing Numbers and Square Triangular Numbers</a>, Journal of Integer Sequences, Vol. 15 (2012), Article 12.1.4.
 %H A002203 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>.
 %H A002203 Edouard Lucas, <a href="https://doi.org/10.2307/2369308">Théorie des Fonctions Numériques Simplement Périodiques</a>, Amer. J. Math., 1 (1878), 184-240.
@@ -44,7 +47,7 @@
 %H A002203 Mihai Prunescu, <a href="https://arxiv.org/abs/2406.06436">On other two representations of the C-recursive integer sequences by terms in modular arithmetic</a>, arXiv:2406.06436 [math.NT], 2024. See p. 16.
 %H A002203 Mihai Prunescu and Lorenzo Sauras-Altuzarra, <a href="https://arxiv.org/abs/2405.04083">On the representation of C-recursive integer sequences by arithmetic terms</a>, arXiv:2405.04083 [math.LO], 2024. See p. 15.
 %H A002203 Mihai Prunescu and Joseph M. Shunia, <a href="https://arxiv.org/abs/2502.16928">On modular representations of C-recursive integer sequences</a>, arXiv:2502.16928 [math.NT], 2025. See p. 5.
-%H A002203 Mario Raso, <a href="https://hdl.handle.net/11573/1732819">Integer Sequences in Cryptography: A New Generalized Family and its Application</a>, Ph. D. Thesis, Univ. Bari (Italy 2025). See p. 41.
+%H A002203 Mario Raso, <a href="https://hdl.handle.net/11573/1732819">Integer Sequences in Cryptography: A New Generalized Family and its Application</a>, Ph. D. Thesis, Sapienza University of Rome (Italy 2025). See p. 41.
 %H A002203 Salah Eddine Rihane and Alain Togbé, <a href="https://doi.org/10.33039/ami.2021.03.014">On the intersection of Padovan, Perrin sequences and Pell, Pell-Lucas sequences</a>, Annales Mathematicae et Informaticae (2021).
 %H A002203 Yüksel Soykan, <a href="https://doi.org/10.9734/AIR/2019/v20i230154">On Summing Formulas For Generalized Fibonacci and Gaussian Generalized Fibonacci Numbers</a>, Advances in Research (2019) Vol. 20, No. 2, 1-15, Article AIR.51824.
 %H A002203 Yüksal Soykan, <a href="https://doi.org/10.9734/AJARR/2020/v8i130192">On Summing Formulas for Horadam Numbers</a>, Asian Journal of Advanced Research and Reports (2020) Vol. 8, Issue 1, 45-61.
@@ -64,7 +67,7 @@
 %H A002203 Wikipedia, <a href="http://en.wikipedia.org/wiki/Lucas_sequence#Specific_names">Lucas sequence</a>.
 %H A002203 Zongzhen Xie, Hanpeng Gao, and Zhaoyong Huang, <a href="http://maths.nju.edu.cn/~huangzy/tiltausl.pdf">Tilting modules over Auslander algebras of Nakayama algebras with radical cube zero</a>, Nanjing University (China, 2020).
 %H A002203 Fatih Yılmaz and Mustafa Özkan, <a href="https://doi.org/10.3390/axioms11060255">On the Generalized Gaussian Fibonacci Numbers and Horadam Hybrid Numbers: A Unified Approach</a>, Axioms (2022) Vol. 11, No. 6, 255.
-%H A002203 Abdelmoumène Zekiri, Farid Bencherif, and Rachid Boumahdi, <a href="https://www.emis.de/journals/JIS/VOL21/Zekiri/zekiri4.html">Generalization of an Identity of Apostol</a>, J. Int. Seq., Vol. 21 (2018), Article 18.5.1.
+%H A002203 Abdelmoumène Zekiri, Farid Bencherif, and Rachid Boumahdi, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL21/Zekiri/zekiri4.html">Generalization of an Identity of Apostol</a>, J. Int. Seq., Vol. 21 (2018), Article 18.5.1.
 %H A002203 <a href="/index/Rec#order_02">Index entries for linear recurrences with constant coefficients</a>, signature (2,1).
 %H A002203 <a href="/index/Lu#Lucas">Index entries for Lucas sequences</a>.
 %H A002203 <a href="/index/Rea#recur1">Index entries for recurrences a(n) = k*a(n - 1) +/- a(n - 2)</a>.
@@ -86,8 +89,8 @@
 %F A002203 G.f.: G(0), where G(k) = 1 + 1/(1 - x*(2*k - 1)/(x*(2*k + 1) - 1/G(k + 1))); (continued fraction). - _Sergei N. Gladkovskii_, Jun 19 2013
 %F A002203 a(n) = [x^n] ( (1 + 2*x + sqrt(1 + 4*x + 8*x^2))/2 )^n for n >= 1. - _Peter Bala_, Jun 23 2015
 %F A002203 From _Kai Wang_, Jan 14 2020: (Start)
-%F A002203 A000129(m - n) = ((-1)^n * (A000129(m) * a((n) - a((m) * A000129(n))/2.
-%F A002203 A000129(m + n) = (A000129(m) * a((n) + a((m)*A000129(n))/2.
+%F A002203 A000129(m - n) = (-1)^n * (A000129(m) * a(n) - a(m) * A000129(n))/2.
+%F A002203 A000129(m + n) = (A000129(m) * a(n) + a(m)*A000129(n))/2.
 %F A002203 a(n)^2 - a(n + 1) * a(n - 1) = (-1)^(n) * 8.
 %F A002203 a(n)^2 - a(n + r) * a(n - r) = (-1)^(n - r - 1) * 8 * A000129(r)^2.
 %F A002203 a(m) * a(n + 1) - a(m + 1) * a(n) = (-1)^(n - 1) * 8 * A000129(m - n).
@@ -107,6 +110,13 @@
 %F A002203 The Gauss congruences hold: a(n*p^k) == a(n*p^(k-1)) (mod p^k) for all positive integers n and k and all primes p.
 %F A002203 a(3^n) == A271222(n) (mod 3^n). (End)
 %F A002203 Sum_{n>=1} arctan(2/a(n))*arctan(2/a(n+1)) = Pi^2/32 (A244854) (Ohtsuka, 2019). - _Amiram Eldar_, Feb 11 2024
+%F A002203 From _Peter Bala_, Jul 09 2025: (Start)
+%F A002203 The following series telescope (Cf. A000032):
+%F A002203 For k >= 1, Sum_{n >= 1} (-1)^((k+1)*(n+1)) * a(2*n*k)/(a((2*n-1)*k)*a((2*n+1)*k)) = 1/a(k)^2.
+%F A002203 For positive even k, Sum_{n >= 1} 1/(a(k*n) - (a(k) + 2)/a(k*n)) = 1/(a(k) - 2) and
+%F A002203 Sum_{n >= 1} (-1)^(n+1)/(a(k*n) + (a(k) - 2)/a(k*n)) = 1/(a(k) + 2).
+%F A002203 For positive odd k, Sum_{n >= 1} 1/(a(k*n) - (-1)^n*(a(2*k) + 2)/a(k*n)) = (a(k) + 2)/(2*(a(2*k) - 2)) and
+%F A002203 Sum_{n >= 1} (-1)^(n+1)/(a(k*n) - (-1)^n*(a(2*k) + 2)/a(k*n)) = (a(k) - 2)/(2*(a(2*k) - 2)). (End)
 %p A002203 A002203 := proc(n)
 %p A002203     option remember;
 %p A002203     if n <= 1 then
@@ -125,7 +135,7 @@
 %t A002203 Table[(1 - Sqrt[2])^n + (1 + Sqrt[2])^n, {n, 0, 20}] // Expand (* _Eric W. Weisstein_, Oct 03 2017 *)
 %t A002203 LucasL[Range[0, 20], 2] (* _Eric W. Weisstein_, Oct 03 2017 *)
 %t A002203 CoefficientList[Series[(2 (1 - x))/(1 - 2 x - x^2), {x, 0, 20}], x] (* _Eric W. Weisstein_, Oct 03 2017 *)
-%o A002203 (Sage) [lucas_number2(n,2,-1) for n in range(0, 29)] # _Zerinvary Lajos_, Apr 30 2009
+%o A002203 (SageMath) [lucas_number2(n,2,-1) for n in range(0, 29)] # _Zerinvary Lajos_, Apr 30 2009
 %o A002203 (Haskell)
 %o A002203 a002203 n = a002203_list !! n
 %o A002203 a002203_list =

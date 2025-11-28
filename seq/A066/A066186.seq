@@ -1,4 +1,4 @@
-%I A066186 #214 Aug 04 2024 11:44:56
+%I A066186 #216 Nov 05 2025 15:22:01
 %S A066186 0,1,4,9,20,35,66,105,176,270,420,616,924,1313,1890,2640,3696,5049,
 %T A066186 6930,9310,12540,16632,22044,28865,37800,48950,63336,81270,104104,
 %U A066186 132385,168120,212102,267168,334719,418540,520905,647172,800569,988570,1216215,1493520
@@ -16,7 +16,7 @@
 %C A066186 Apart from initial zero this is also the convolution of A340793 and A000070. (End)
 %H A066186 Vincenzo Librandi, <a href="/A066186/b066186.txt">Table of n, a(n) for n = 0..1000</a>
 %H A066186 F. G. Garvan, <a href="http://dx.doi.org/10.1016/j.aim.2011.05.013">Higher-order spt functions</a>, Adv. Math. 228 (2011), no. 1, 241-265, <a href="http://qseries.org/fgarvan/papers/hspt.pdf">alternate copy</a>. - From _N. J. A. Sloane_, Jan 02 2013
-%H A066186 F. G. Garvan, <a href="http://arxiv.org/abs/1008.1207">Higher-order spt functions</a>, arXiv:1008.1207 [math.NT], 2010.
+%H A066186 F. G. Garvan, <a href="https://arxiv.org/abs/1008.1207">Higher-order spt functions</a>, arXiv:1008.1207 [math.NT], 2010.
 %H A066186 T. J. Osler, A. Hassen and T. R. Chandrupatia, <a href="http://citeseerx.ist.psu.edu/pdf/dfffc5ff66635132eee8d9d3cc77e50e1689ec45">Surprising connections between partitions and divisors</a>, The College Mathematics Journal, Vol. 38. No. 4, Sep. 2007, 278-287 (see p. 287).
 %H A066186 Omar E. Pol, <a href="/A066186/a066186_1.jpg">Illustration of a(10), prism and tower</a>, each polycube contains 420 cubes.
 %H A066186 Omar E. Pol, <a href="http://www.polprimos.com/imagenespub/polpa404.jpg">Illustration of initial terms of A066186 and of A139582 (n>=1)</a>
@@ -42,7 +42,7 @@
 %o A066186    ps _ 0 = [[]]
 %o A066186    ps i j = [t:ts | t <- [i..j], ts <- ps t (j - t)]
 %o A066186 -- _Reinhard Zumkeller_, Jul 13 2013
-%o A066186 (Sage)
+%o A066186 (SageMath)
 %o A066186 [n*Partitions(n).cardinality() for n in range(41)] # _Peter Luschny_, Jul 29 2014
 %o A066186 (Python)
 %o A066186 from sympy import npartitions

@@ -1,10 +1,10 @@
-%I A187240 #17 Feb 16 2025 08:33:14
+%I A187240 #18 Nov 05 2025 15:22:20
 %S A187240 0,0,0,0,32,12944,867328,22522960,328097824,3209594096,23460698496,
 %T A187240 137045115696,670158151296,2835083100640,10634260782464,
 %U A187240 36033282628832,111923478184128,322412415716896,869530617762304,2212626780591008,5346773160475488,12336574243905648,27303885052866048
 %N A187240 Number of ways to place 8 nonattacking bishops on an n X n board.
 %H A187240 Vincenzo Librandi, <a href="/A187240/b187240.txt">Table of n, a(n) for n = 1..1000</a>
-%H A187240 Christopher R. H. Hanusa, T Zaslavsky, S Chaiken, <a href="http://arxiv.org/abs/1609.00853">A q-Queens Problem. IV. Queens, Bishops, Nightriders (and Rooks)</a>, arXiv preprint arXiv:1609.00853, a12016
+%H A187240 Christopher R. H. Hanusa, T Zaslavsky, S Chaiken, <a href="https://arxiv.org/abs/1609.00853">A q-Queens Problem. IV. Queens, Bishops, Nightriders (and Rooks)</a>, arXiv preprint arXiv:1609.00853, a12016
 %H A187240 V. Kotesovec, <a href="https://oeis.org/wiki/User:Vaclav_Kotesovec">Number of ways of placing non-attacking queens, kings, bishops and knights</a> (in English and Czech)
 %H A187240 E. Weisstein, <a href="https://mathworld.wolfram.com/BishopsProblem.html">Bishops Problem</a>, MathWorld
 %H A187240 <a href="/index/Rec#order_28">Index entries for linear recurrences with constant coefficients</a>, signature (6, -4, -46, 95, 116, -496, 44, 1331, -990, -2068, 2838, 1683, -4488, 0, 4488, -1683, -2838, 2068, 990, -1331, -44, 496, -116, -95, 46, 4, -6, 1).

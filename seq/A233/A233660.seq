@@ -1,8 +1,8 @@
-%I A233660 #5 Aug 11 2014 22:45:56
+%I A233660 #7 Jun 02 2025 08:56:04
 %S A233660 1220,8324,56212,411848,3007000,22597004,168812492,1277805668,
 %T A233660 9619090052,72923111912,550545635664,4173813523988,31551152184268,
 %U A233660 239127142655612,1808804180109732,13705085820170408,103705720260565068
-%N A233660 Number of (n+1)X(2+1) 0..6 arrays with every 2X2 subblock having the sum of the squares of the edge differences equal to 26
+%N A233660 Number of (n+1)X(2+1) 0..6 arrays with every 2X2 subblock having the sum of the squares of the edge differences equal to 26.
 %C A233660 Column 2 of A233665
 %H A233660 R. H. Hardin, <a href="/A233660/b233660.txt">Table of n, a(n) for n = 1..210</a>
 %H A233660 R. H. Hardin, <a href="/A233660/a233660.txt">Empirical recurrence of order 74</a>

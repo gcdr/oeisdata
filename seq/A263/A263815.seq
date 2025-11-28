@@ -1,8 +1,8 @@
-%I A263815 #6 Nov 10 2015 10:11:05
+%I A263815 #8 Jun 02 2025 12:14:48
 %S A263815 25001,6425985,1746531193,469723808009,126619013196417,
 %T A263815 34115669220776257,9192934463267451648,2477107286160692307665,
 %U A263815 667479079896424692364561,179858109547460186078311121,48464361871154130857566821761
-%N A263815 Number of (n+1)X(5+1) arrays of permutations of 0..n*6+5 with each element having index change (+-,+-) 0,0 0,1 0,2 or 1,0
+%N A263815 Number of (n+1)X(5+1) arrays of permutations of 0..n*6+5 with each element having index change (+-,+-) 0,0 0,1 0,2 or 1,0.
 %C A263815 Column 5 of A263816
 %H A263815 R. H. Hardin, <a href="/A263815/b263815.txt">Table of n, a(n) for n = 1..210</a>
 %e A263815 Some solutions for n=1

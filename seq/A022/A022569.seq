@@ -1,11 +1,11 @@
-%I A022569 #43 Feb 16 2025 08:32:34
+%I A022569 #46 Nov 05 2025 15:21:49
 %S A022569 1,4,10,24,51,100,190,344,601,1024,1702,2768,4422,6948,10752,16424,
 %T A022569 24782,36972,54602,79872,115805,166540,237664,336720,473856,662596,
 %U A022569 920934,1272728,1749407,2392268,3255410,4409344,5945730,7983388,10675712,14220240,18870672,24951740,32878114
 %N A022569 Expansion of Product_{m>=1} (1+x^m)^4.
 %C A022569 Ramanujan theta functions: f(q) (see A121373), phi(q) (A000122), psi(q) (A010054), chi(q) (A000700).
 %H A022569 Seiichi Manyama, <a href="/A022569/b022569.txt">Table of n, a(n) for n = 0..1000</a>
-%H A022569 Vaclav Kotesovec, <a href="http://arxiv.org/abs/1509.08708">A method of finding the asymptotics of q-series based on the convolution of generating functions</a>, arXiv:1509.08708 [math.CO], Sep 30 2015, p. 8.
+%H A022569 Vaclav Kotesovec, <a href="https://arxiv.org/abs/1509.08708">A method of finding the asymptotics of q-series based on the convolution of generating functions</a>, arXiv:1509.08708 [math.CO], Sep 30 2015, p. 8.
 %H A022569 Michael Somos, <a href="/A010815/a010815.txt">Introduction to Ramanujan theta functions</a>
 %H A022569 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/RamanujanThetaFunctions.html">Ramanujan Theta Functions</a>
 %F A022569 Expansion of q^(-1/6) * (eta(q^2) / eta(q))^4 in powers of q.
@@ -20,6 +20,7 @@
 %F A022569 a(n) ~ exp(2 * Pi * sqrt(n/3)) / (8 * 3^(1/4) * n^(3/4)) * (1 + (Pi/(6*sqrt(3)) - 3*sqrt(3)/(16*Pi)) / sqrt(n)). - _Vaclav Kotesovec_, Mar 05 2015, extended Jan 16 2017
 %F A022569 a(0) = 1, a(n) = (4/n)*Sum_{k=1..n} A000593(k)*a(n-k) for n > 0. - _Seiichi Manyama_, Apr 03 2017
 %F A022569 G.f.: exp(4*Sum_{k>=1} (-1)^(k+1)*x^k/(k*(1 - x^k))). - _Ilya Gutkovskiy_, Feb 06 2018
+%F A022569 Empirical: Sum_{n>=0} a(n) / exp(n*Pi) = (1/2) * exp(Pi/6) * sqrt(2) = A388246. - _Simon Plouffe_, Sep 15 2025
 %e A022569 G.f. = 1 + 4*x + 10*x^2 + 24*x^3 + 51*x^4 + 100*x^5 + 190*x^6 + 344*x^7 + ...
 %e A022569 G.f. = q + 4*q^7 + 10*q^13 + 24*q^19 + 51*q^25 + 100*q^31 + 190*q^37 + 344*q^43 + ...
 %t A022569 a[ n_] := SeriesCoefficient[ QPochhammer[ q, q^2]^-4, {q, 0, n}]; (* _Michael Somos_, Jul 11 2011 *)

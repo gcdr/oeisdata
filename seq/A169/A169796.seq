@@ -1,4 +1,4 @@
-%I A169796 #32 Oct 02 2023 11:43:00
+%I A169796 #33 Nov 05 2025 15:22:18
 %S A169796 1,9,54,264,1134,4446,16272,56412,187137,598417,1854882,5597172,
 %T A169796 16498632,47638512,135048672,376592064,1034663040,2804590080,
 %U A169796 7509232640,19880294400,52088352768,135173578752,347680161792,886900948992,2245014454272,5641949085696
@@ -6,7 +6,7 @@
 %C A169796 a(n) is the number of weak compositions of n with exactly 8 parts equal to 0. - _Milan Janjic_, Jun 27 2010
 %H A169796 Vincenzo Librandi, <a href="/A169796/b169796.txt">Table of n, a(n) for n = 0..1000</a>
 %H A169796 Nickolas Hein, Jia Huang, <a href="https://arxiv.org/abs/1807.04623">Variations of the Catalan numbers from some nonassociative binary operations</a>, arXiv:1807.04623 [math.CO], 2018.
-%H A169796 M. Janjic and B. Petkovic, <a href="http://arxiv.org/abs/1301.4550">A Counting Function</a>, arXiv 1301.4550 [math.CO], 2013.
+%H A169796 M. Janjic and B. Petkovic, <a href="https://arxiv.org/abs/1301.4550">A Counting Function</a>, arXiv 1301.4550 [math.CO], 2013.
 %H A169796 M. Janjic, B. Petkovic, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL17/Janjic/janjic45.html">A Counting Function Generalizing Binomial Coefficients and Some Other Classes of Integers</a>, J. Int. Seq. 17 (2014) # 14.3.5.
 %H A169796 <a href="/index/Rec#order_09">Index entries for linear recurrences with constant coefficients</a>, signature (18, -144, 672, -2016, 4032, -5376, 4608, -2304, 512).
 %F A169796 G.f.: ((1-x)/(1-2*x))^9.

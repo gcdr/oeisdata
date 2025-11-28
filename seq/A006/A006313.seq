@@ -1,8 +1,8 @@
-%I A006313 M2164 #51 Sep 08 2022 08:44:34
+%I A006313 M2164 #54 Jun 20 2025 16:45:15
 %S A006313 1,2,44,74,76,94,156,158,176,188,198,248,288,306,318,330,348,370,382,
 %T A006313 396,452,456,470,474,476,478,560,568,598,642,686,688,690,736,774,776,
 %U A006313 778,790,830,832,834,846,900,916,946,956,972,982,984,1018,1044,1078
-%N A006313 Numbers n such that n^16 + 1 is prime.
+%N A006313 Numbers k such that k^16 + 1 is prime.
 %D A006313 Dubner, Harvey. "Generalized Fermat primes." J. Recreational Math., 18 (1985): 279-280.
 %D A006313 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
 %H A006313 Ray Chandler, <a href="/A006313/b006313.txt">Table of n, a(n) for n = 1..10000</a> (first 1000 terms from T. D. Noe)

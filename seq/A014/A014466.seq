@@ -1,4 +1,4 @@
-%I A014466 #105 Feb 16 2025 08:32:33
+%I A014466 #115 Nov 05 2025 15:21:47
 %S A014466 1,2,5,19,167,7580,7828353,2414682040997,56130437228687557907787,
 %T A014466 286386577668298411128469151667598498812365
 %N A014466 Dedekind numbers: monotone Boolean functions, or nonempty antichains of subsets of an n-set.
@@ -28,7 +28,7 @@
 %H A014466 Donald E. Campbell, Jack Graver, and Jerry S. Kelly, <a href="https://doi.org/10.1016/j.mathsocsci.2012.05.001">There are more strategy-proof procedures than you think</a>, Mathematical Social Sciences 64 (2012) 263-265. - _N. J. A. Sloane_, Oct 23 2012
 %H A014466 David Carey and Mordechai Katzman, <a href="https://arxiv.org/abs/2409.05481">Stanley-Reisner Ideals with Pure Resolutions</a>, arXiv:2409.05481 [math.AC], 2024. See p. 52.
 %H A014466 Fan Cheng, <a href="https://doi.org/10.1109/ISIT.2014.6874940">Optimality of routing on the wiretap network with simple network topology</a>, Information Theory (ISIT), 2014 IEEE International Symposium on, June 29 2014-July 4 2014 Page(s): 786 - 790 INSPEC Accession Number: 14524545 Honolulu, HI.
-%H A014466 Fan Cheng and Vincent Y. F. Tan, <a href="http://arxiv.org/abs/1505.02862">A Numerical Study on the Wiretap Network with a Simple Network Topology</a>, arXiv preprint arXiv:1505.02862 [cs.IT], 2015.
+%H A014466 Fan Cheng and Vincent Y. F. Tan, <a href="https://arxiv.org/abs/1505.02862">A Numerical Study on the Wiretap Network with a Simple Network Topology</a>, arXiv preprint arXiv:1505.02862 [cs.IT], 2015.
 %H A014466 Jean Dezert, <a href="http://www.gallup.unm.edu/~smarandache/IS2002Sept24.pdf">Foundations for a new theory for plausible and paradoxical reasoning</a>, Tech. Rep. DTIM/IED, ONERA, Paris, pp. 14-15, 2002.
 %H A014466 Jean Dezert, Combination of paradoxical sources of information within the neutrosophic framework, <a href="http://www.gallup.unm.edu/~smarandache/NeutrosophicProceedings.pdf">Proceedings of the First International Conference on Neutrosophics</a> (2001).
 %H A014466 J. L. King, <a href="http://www.math.ufl.edu/~squash/">Brick tiling and monotone Boolean functions</a>.
@@ -42,6 +42,7 @@
 %H A014466 Wikipedia, <a href="https://en.wikipedia.org/wiki/Abstract_simplicial_complex">Abstract simplicial complex</a>.
 %H A014466 Gus Wiseman, <a href="/A048143/a048143_4.txt">Sequences enumerating clutters, antichains, hypertrees, and hyperforests, organized by labeling, spanning, and allowance of singletons</a>.
 %H A014466 <a href="/index/Bo#Boolean">Index entries for sequences related to Boolean functions</a>
+%F A014466 a(n) = A000372(n) - 1 = A007153(n) + 1.
 %F A014466 Binomial transform of A307249 (or A006126 if its zeroth term is 1). - _Gus Wiseman_, Feb 20 2019
 %F A014466 a(n) >= A005465(n) (because the hierarchical log-linear models on n factors always include all the conditional independence models considered by I. J. Good in A005465). - _Petros Hadjicostas_, Apr 24 2020
 %e A014466 a(2)=5 from the antichains {{}}, {{1}}, {{2}}, {{1,2}}, {{1},{2}}.

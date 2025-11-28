@@ -1,8 +1,8 @@
-%I A161196 #3 Mar 31 2012 20:08:03
+%I A161196 #5 Jun 02 2025 01:43:25
 %S A161196 1,-12,-12,66,144,66,-232,-792,-792,-232,639,2784,4356,2784,639,-1596,
 %T A161196 -7668,-15312,-15312,-7668,-1596,3774,19152,42174,53824,42174,19152,
 %U A161196 3774,-8328,-45288,-105336,-146248,-146248,-105336,-45288,-8328,17283
-%N A161196 Triangle read by rows generated from A007249, the convolution square root of A007191
+%N A161196 Triangle read by rows generated from A007249, the convolution square root of A007191.
 %C A161196 Row sums = A007191: (1, -24, 276, -2048, 11202,...)
 %F A161196 Triangle read by rows, self-convolution of A007249. Begin with M = an infinite lower triangular Toeplitz matrix with A007249 as every column. Let Q = a matrix with A007249: (1, -12, 66, -232,..) as the right border and the rest zeros. Triangle A161196 = M * Q.
 %e A161196 First few rows of the triangle =

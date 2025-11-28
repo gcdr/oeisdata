@@ -1,5 +1,5 @@
-%I A028444 #101 Feb 16 2025 08:32:35
-%S A028444 0,1,4,6,13
+%I A028444 #129 Nov 05 2025 15:21:52
+%S A028444 0,1,4,6,13,4098
 %N A028444 Busy Beaver sequence, or Rado's sigma function: maximal number of 1's that an n-state Turing machine can print on an initially blank tape before halting.
 %C A028444 Expanded definition from Daniel Forgues: Busy Beaver sequence, or Rado's Sigma function: maximum number of 1s that an n-state, 2-symbol, d+ in {LEFT, RIGHT}, 5-tuple (q, s, q+, s+, d+) halting Turing machine can print on an initially blank tape (all 0's) before halting.
 %C A028444 States q and q+ in set Q_n of n distinct states (plus the Halt state), tape symbols s and s+ in set S = {0, 1}, shift direction d+ in {LEFT, RIGHT} (NONE is excluded here), + suffix meaning next and q+ = f(q, s), s+ = g(q, s), d+ = h(q, s).
@@ -21,8 +21,10 @@
 %C A028444 From _Jianing Song_, Nov 12 2023: (Start)
 %C A028444 We have a(2*n) > H_n(3,3) = 3 "up-arrow"(n-2) 3, where H_n is the n-th hyperoperator, and "up-arrow" is Knuth up-arrow notation (see the Wikipedia link). This means that a(12) > 3^^^^3 = g(1), where g(1) is the starting value in the sequence that defines Graham's number = g(64).
 %C A028444 Note that there is an (n_0)-state binary Turing machine (and hence an n-state one for every n >= n_0) which halts if and only if ZFC is inconsistent, so a(n_0) (and hence a(n) for every n >= n_0) is independent of ZFC, which means that a(n_0) evaluates differently in different models of ZFC; see the section "Non-computability" of the Wikipedia link and the Math Stack Exchange. The minimum such n_0 is not exceeding 745. (End)
+%C A028444 a(6) >= 2^^(2^^(2^^10)). - _Brian Galebach_, Jul 10 2025
 %D A028444 John Hopcroft, Turing Machines, Sci. Amer. vol. 250, #5, 86-98, May 1984, table on page 92 gives old lower bounds.
-%D A028444 Shallit, Jeffrey. A second course in formal languages and automata theory. Cambridge University Press, 2008. See Fig. 6.2, p. 185.
+%D A028444 Jeffrey Shallit, A second course in formal languages and automata theory, Cambridge University Press, 2008. See Fig. 6.2, p. 185.
+%H A028444 S. Aaronson, <a href="https://scottaaronson.blog/?p=8972">BusyBeaver(6) is really quite large</a>, 28 June 2025.
 %H A028444 Bob Boonstra, <a href="http://preserve.mactech.com/articles/mactech/Vol.16/16.09/Sep00Challenge/index.html">Busy Beavers</a>, Programmer's Challenge, MacTech Journal, Volume 16 (2000), Issue 9 - reports that in December 1984 George Uhing found a 5-state machine that produced 1915 1's before halting.
 %H A028444 Computerphile, <a href="https://www.youtube.com/watch?v=CE8UhcyJS0I">Busy Beaver Turing Machines</a>, YouTube video, 2014.
 %H A028444 J. P. Jones, <a href="https://www.jstor.org/stable/2319560">Recursive undecidability - an exposition</a>, Amer. Math. Monthly, 81 (1974), 724-738.
@@ -30,10 +32,11 @@
 %H A028444 H. Marxen, <a href="http://turbotm.de/~heiner/BB/">Busy Beaver</a>
 %H A028444 H. Marxen and J. Buntrock, <a href="https://pdfs.semanticscholar.org/6fa1/3c10697ee4f2815089f0c5f71bab7caf650a.pdf">Attacking the Busy Beaver 5</a>, Bulletin of the EATCS, 40, pages 247-251, 1990.
 %H A028444 Math Stack Exchange, <a href="https://math.stackexchange.com/q/3854667">What does it mean to say BB(7918) is not computable from ZFC?</a>
+%H A028444 mxdys, <a href="https://wiki.bbchallenge.org/wiki/1RB1RA_1RC1RZ_1LD0RF_1RA0LE_0LD1RC_1RA0RE">Current BB(6) Champion Discovered by mxdys on 25 June 2025.</a>
 %H A028444 Pascal Michel, <a href="https://bbchallenge.org/~pascal.michel/ha.html">Historical survey of Busy Beavers</a>, 2011.
 %H A028444 Pascal Michel, <a href="https://bbchallenge.org/~pascal.michel/beh.html">Behavior of busy beavers</a>, 2010.
 %H A028444 Pascal Michel, <a href="https://bbchallenge.org/~pascal.michel/bbc.html">The Busy Beaver Competitions</a>, 2010.
-%H A028444 Pascal Michel, <a href="http://arxiv.org/abs/0906.3749">The Busy Beaver Competition: a historical survey</a>, arXiv:0906.3749 [math.LO], 2009-2017.
+%H A028444 Pascal Michel, <a href="https://arxiv.org/abs/0906.3749">The Busy Beaver Competition: a historical survey</a>, arXiv:0906.3749 [math.LO], 2009-2017.
 %H A028444 Tibor Rado, <a href="https://archive.org/details/bstj41-3-877">On Noncomputable Functions</a>, Bell System Technical Journal, vol. 41, # 3, 877-884, May 1963.
 %H A028444 Michael Somos, <a href="https://grail.eecs.csuohio.edu/~somos/bb.html">Busy Beaver Turing Machine</a>.
 %H A028444 Michael Somos, <a href="https://grail.eecs.csuohio.edu/~somos/busy.html">Busy Beaver</a>.
@@ -44,6 +47,6 @@
 %K A028444 nonn,hard,nice
 %O A028444 0,3
 %A A028444 Scott Aaronson (sja8(AT)cornell.edu)
-%E A028444 The next two terms are at least 4098 and 10^^15.
 %E A028444 Edited by _Daniel Forgues_, Mar 25 2010, Jun 05 2011
 %E A028444 Edited by _N. J. A. Sloane_, Aug 30 2011
+%E A028444 a(5) added by _Brian Galebach_, Jun 10 2025

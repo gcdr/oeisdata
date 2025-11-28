@@ -1,4 +1,4 @@
-%I A013353 #11 Feb 06 2015 12:29:15
+%I A013353 #12 Sep 30 2025 20:34:18
 %S A013353 0,3,15,273,23055,1601193,155341095,24206437713,4645592799135,
 %T A013353 1094690215087833,324803673636221175,116133164181717551553,
 %U A013353 48989776965837082135215,24245825813770391843700873
@@ -8,6 +8,6 @@
 %t A013353 nn = 20; Table[(CoefficientList[Series[-Tan[Sin[x] - Tan[x]], {x, 0, 2*nn+1}], x] * Range[0, 2*nn+1]!)[[n]], {n, 2, 2*nn, 2}] (* _Vaclav Kotesovec_, Feb 06 2015 *)
 %K A013353 nonn
 %O A013353 0,2
-%A A013353 Patrick Demichel (patrick.demichel(AT)hp.com)
+%A A013353 _Patrick Demichel_
 %E A013353 a(0)=0 prepended by _Vaclav Kotesovec_, Feb 06 2015
 %E A013353 Definition modified by _Vaclav Kotesovec_, Feb 06 2015

@@ -1,9 +1,9 @@
-%I A221170 #14 Dec 01 2017 09:39:00
+%I A221170 #15 Nov 05 2025 15:22:24
 %S A221170 0,1,0,1,0,1,0,3,0,3,0,3,0,3,2,3,2,3,2,3,0,3,0,3,0,3,0,1,0,1,0,1,0,1,
 %T A221170 2,1,2,1,2,1,0,1,0,1,0,1,0,3,0,3,0,3,0,1,0,1,0,1,0,1,2,1,2,1,2,1,2,3,
 %U A221170 2,3,2,3,2,1,2,1,2,1,2,1,0,1,0,1,0,1,0,3,0
 %N A221170 The infinite generalized Fibonacci word p^[6].
-%H A221170 José L. Ramírez, Gustavo N. Rubiano, and Rodrigo de Castro, <a href="http://arxiv.org/abs/1212.1368">A Generalization of the Fibonacci Word Fractal and the Fibonacci Snowflake</a>, arXiv preprint arXiv:1212.1368 [cs.DM], 2012.
+%H A221170 José L. Ramírez, Gustavo N. Rubiano, and Rodrigo de Castro, <a href="https://arxiv.org/abs/1212.1368">A Generalization of the Fibonacci Word Fractal and the Fibonacci Snowflake</a>, arXiv preprint arXiv:1212.1368 [cs.DM], 2012.
 %p A221170 # sigma01f implemented in A221166
 %p A221170 A221170 := proc(n)
 %p A221170     sigma01f(n,6) ;

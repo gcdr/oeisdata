@@ -1,4 +1,4 @@
-%I A003406 M0206 #59 Jun 29 2020 09:50:43
+%I A003406 M0206 #60 Nov 05 2025 15:35:24
 %S A003406 1,1,-1,2,-2,1,0,1,-2,0,2,0,-1,-2,2,1,0,-2,2,-2,0,0,3,0,-2,-2,1,0,2,0,
 %T A003406 0,0,-2,0,0,1,0,0,0,2,-1,0,-2,-2,0,4,0,2,-2,0,-2,-1,2,0,-2,2,0,1,0,0,
 %U A003406 0,0,-2,0,0,0,0,-2,4,2,-1,0,0,-2,-2,-2,2,1,2,0,0,0,0,-2,2,0,0,-2,2,-2,-2,0,3,0,0,2,0,0,0,-2,1,-2,0,-2,0
@@ -11,7 +11,7 @@
 %D A003406 B. Gordon and D. Sinor, Multiplicative properties of eta-products, Number theory, Madras 1987, pp. 173-200, Lecture Notes in Math., 1395, Springer, Berlin, 1989. see page 182. MR1019331 (90k:11050)
 %D A003406 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
 %H A003406 Seiichi Manyama, <a href="/A003406/b003406.txt">Table of n, a(n) for n = 0..10000</a> (terms 0..2000 from T. D. Noe)
-%H A003406 G. E. Andrews, <a href="http://www.jstor.org/stable/2322284">Questions and conjectures in partition theory</a>, Amer. Math. Monthly, 93 (1986), 708-711.
+%H A003406 G. E. Andrews, <a href="https://www.jstor.org/stable/2322284">Questions and conjectures in partition theory</a>, Amer. Math. Monthly, 93 (1986), 708-711.
 %H A003406 G. E. Andrews, <a href="http://www.mat.univie.ac.at/~slc/s/s42andrews.html">Some debts I owe</a>, Séminaire Lotharingien de Combinatoire, Paper B42a, Issue 42, 2000.
 %H A003406 G. E. Andrews, F. J. Dyson and D. Hickerson, <a href="http://dx.doi.org/10.1007/BF01388778">Partitions and indefinite quadratic forms</a>, Invent. Math. 91 (1988) 391-407.
 %H A003406 S.-Y. Kang, <a href="http://jlms.oxfordjournals.org/content/75/1/18.abstract">Generalizations of Ramanujan's reciprocity theorem and their applications</a>, J. London Math. Soc., 75 (2007), 18-34.

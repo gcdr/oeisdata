@@ -1,4 +1,4 @@
-%I A102067 #23 Feb 16 2025 08:32:55
+%I A102067 #24 Nov 05 2025 15:35:31
 %S A102067 12,24,45,48,80,90,96,135,160,175,180,189,192,224,240,270,320,350,360,
 %T A102067 378,384,405,448,480,525,539,540,567,637,640,672,700,720,756,768,810,
 %U A102067 875,896,945,960,1050,1078,1080,1120,1134,1215,1274,1280,1344,1375,1400,1440
@@ -6,8 +6,8 @@
 %C A102067 Clearly, if P(k)^2 is a factor of k, then k does not divide P(k)!. Each member shows that the converse is false.
 %C A102067 k is a member if and only if k is in A057109 but not in A070003.
 %H A102067 Amiram Eldar, <a href="/A102067/b102067.txt">Table of n, a(n) for n = 1..10000</a>
-%H A102067 Paul Erdős and Ilias Kastanas, <a href="http://www.jstor.org/stable/2324376">Solution 6674: The smallest factorial that is a multiple of n</a>, Amer. Math. Monthly, Vol. 101, No. 2 (1994), p. 179.
-%H A102067 Aubrey J. Kempner, <a href="http://www.jstor.org/stable/2972639">Miscellanea</a>, Amer. Math. Monthly, Vol. 25, No. 5 (1918), pp. 201-210. See Section II, "Concerning the smallest integer m! divisible by a given integer n."
+%H A102067 Paul Erdős and Ilias Kastanas, <a href="https://www.jstor.org/stable/2324376">Solution 6674: The smallest factorial that is a multiple of n</a>, Amer. Math. Monthly, Vol. 101, No. 2 (1994), p. 179.
+%H A102067 Aubrey J. Kempner, <a href="https://www.jstor.org/stable/2972639">Miscellanea</a>, Amer. Math. Monthly, Vol. 25, No. 5 (1918), pp. 201-210. See Section II, "Concerning the smallest integer m! divisible by a given integer n."
 %H A102067 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/GreatestPrimeFactor.html">Greatest Prime Factor</a>.
 %H A102067 <a href="/index/Fa#factorial">Index entries for sequences related to factorial numbers</a>.
 %e A102067 12 does not divide P(12)! = 3! and 3^2 is not a factor of 12.

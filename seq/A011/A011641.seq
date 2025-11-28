@@ -1,4 +1,4 @@
-%I A011641 #11 Jan 12 2024 08:05:21
+%I A011641 #13 Jul 08 2025 02:32:27
 %S A011641 1,1,0,0,0,-1,-1,-1,-1,0,1,1,1,1,1,0,-1,-1,-1,-1,0,0,0,1,1
 %N A011641 70th cyclotomic polynomial.
 %H A011641 <a href="/index/Pol#poly_cyclo">Index to sequences related to cyclotomic polynomials</a>
@@ -6,4 +6,4 @@
 %Y A011641 Cf. A014079 (inverse)
 %K A011641 sign,fini,full
 %O A011641 0,1
-%A A011641 _N. J. A. Sloane_.
+%A A011641 _N. J. A. Sloane_

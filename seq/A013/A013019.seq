@@ -1,4 +1,4 @@
-%I A013019 #11 Jul 30 2018 03:36:16
+%I A013019 #12 Sep 30 2025 20:34:17
 %S A013019 0,2,-1,11,-30,207,-1095,8304,-64372,589941,-5860125,64691794,
 %T A013019 -775311174,10085421751,-141164863203,2117691780304,-33881891414760,
 %U A013019 576001188753673,-10367968207899897,196991835391515262
@@ -9,5 +9,5 @@
 %o A013019 (PARI) x = 'x + O('x^30); concat([0], Vec(serlaplace(sinh(sinh(x) + log(x+1))))) \\ _Michel Marcus_, Jul 30 2018
 %K A013019 sign
 %O A013019 0,2
-%A A013019 Patrick Demichel (patrick.demichel(AT)hp.com)
+%A A013019 _Patrick Demichel_
 %E A013019 a(0)=0 inserted and title improved by _Sean A. Irvine_, Jul 30 2018

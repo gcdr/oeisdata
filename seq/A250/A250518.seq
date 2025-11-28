@@ -1,8 +1,8 @@
-%I A250518 #4 Nov 24 2014 18:34:31
+%I A250518 #6 Jul 23 2025 12:29:40
 %S A250518 9605300,6146257386,3049397341176,1507593926459193,703840057362860071,
 %T A250518 323113599535682557884,144418186435193611803491,
 %U A250518 64043487101955794420789576,28093673932744357990318851616
-%N A250518 Number of (n+1)X(7+1) 0..3 arrays with nondecreasing min(x(i,j),x(i,j-1)) in the i direction and nondecreasing min(x(i,j),x(i-1,j)) in the j direction
+%N A250518 Number of (n+1)X(7+1) 0..3 arrays with nondecreasing min(x(i,j),x(i,j-1)) in the i direction and nondecreasing min(x(i,j),x(i-1,j)) in the j direction.
 %C A250518 Column 7 of A250519
 %H A250518 R. H. Hardin, <a href="/A250518/b250518.txt">Table of n, a(n) for n = 1..210</a>
 %e A250518 Some solutions for n=1

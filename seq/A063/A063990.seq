@@ -1,4 +1,4 @@
-%I A063990 #167 Feb 16 2025 08:32:45
+%I A063990 #180 Sep 16 2025 09:04:41
 %S A063990 220,284,1184,1210,2620,2924,5020,5564,6232,6368,10744,10856,12285,
 %T A063990 14595,17296,18416,63020,66928,66992,67095,69615,71145,76084,79750,
 %U A063990 87633,88730,100485,122265,122368,123152,124155,139815,141664,142310
@@ -13,6 +13,7 @@
 %D A063990 Scott T. Cohen, Mathematical Buds, Ed. Harry D. Ruderman, Vol. 1, Chap. VIII, pp. 103-126, Mu Alpha Theta, 1984.
 %D A063990 Clifford A. Pickover, The Math Book, Sterling, NY, 2009; see p. 90.
 %D A063990 Wacław Sierpiński, Elementary Theory of Numbers, Panst. Wyd. Nauk, Warsaw, 1964.
+%D A063990 James J. Tattersall, Elementary Number Theory in Nine Chapters, Cambridge University Press, 1999, pages 137-141.
 %D A063990 David Wells, The Penguin Dictionary of Curious and Interesting Numbers, Penguin Books, 1987, pp. 145-147.
 %H A063990 T. D. Noe, <a href="/A063990/b063990.txt">Table of n, a(n) for n = 1..77977</a> (terms < 10^14 from Pedersen's tables)
 %H A063990 Titu Andreescu, <a href="http://staff.imsa.edu/math/journal/volume3/articles/NumberTrivia.pdf">Number Theory Trivia: Amicable Numbers</a>.
@@ -56,12 +57,12 @@
 %t A063990 s[n_] := DivisorSigma[1, n] - n; AmicableNumberQ[n_] := If[Nest[s, n, 2] == n && ! s[n] == n, True, False]; Select[Range[10^6], AmicableNumberQ[ # ] &] (* _Ant King_, Jan 02 2007 *)
 %t A063990 Select[Tally[Sort/@Table[{n,DivisorSigma[1,n]-n},{n,200000}]],#[[2]]==2&][[;;,1]]//Flatten//Sort (* _Harvey P. Dale_, Jan 13 2025 *)
 %o A063990 (PARI) aliquot(n)=sigma(n)-n
-%o A063990 isA063990(n)={local(a);a=aliquot(n);a<>n && aliquot(a)==n} \\ _Michael B. Porter_, Apr 13 2010
+%o A063990 isA063990(n)={if (n>1, local(a);a=aliquot(n);a<>n && aliquot(a)==n)} \\ _Michael B. Porter_, Apr 13 2010
 %o A063990 (Python)
 %o A063990 from sympy import divisors
 %o A063990 A063990 = [n for n in range(1,10**5) if sum(divisors(n))-2*n and not sum(divisors(sum(divisors(n))-n))-sum(divisors(n))] # _Chai Wah Wu_, Aug 14 2014
 %Y A063990 Union of A002025 and A002046.
-%Y A063990 A180164 (gives for each pair (x, y) the value x+y = sigma(x)+sigma(y)).
+%Y A063990 A180164 (gives for each pair (x, y) the value x+y = sigma(x) = sigma(y)).
 %Y A063990 Cf. A259180.
 %K A063990 nonn
 %O A063990 1,1

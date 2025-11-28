@@ -1,7 +1,8 @@
-%I A228033 #30 Sep 08 2022 08:46:05
+%I A228033 #38 Jul 24 2025 03:26:56
 %S A228033 13,2787593149816327892691964784081045188247557,
 %T A228033 15177100720513508366558296147058741458143803430094840009779784451085189728165691397
-%N A228033 Primes of the form 8^n + 5.
+%N A228033 Primes of the form 8^k + 5.
+%C A228033 a(4) = 8^64655 + 5 = 1.919...*10^58389 is too large to include. - _Amiram Eldar_, Jul 23 2025
 %t A228033 Select[Table[8^n + 5, {n, 4000}], PrimeQ]
 %o A228033 (Magma) [a: n in [1..300] | IsPrime(a) where a is 8^n+5];
 %Y A228033 Cf. A217355 (associated n).
@@ -9,4 +10,3 @@
 %K A228033 nonn,hard,bref
 %O A228033 1,1
 %A A228033 _Vincenzo Librandi_, Aug 11 2013
-%E A228033 Corrected cross-references - _Robert Price_, Aug 01 2017

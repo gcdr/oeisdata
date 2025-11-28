@@ -1,4 +1,4 @@
-%I A006261 M1126 #107 May 20 2024 10:30:26
+%I A006261 M1126 #108 Sep 22 2025 16:00:20
 %S A006261 1,2,4,8,16,32,63,120,219,382,638,1024,1586,2380,3473,4944,6885,9402,
 %T A006261 12616,16664,21700,27896,35443,44552,55455,68406,83682,101584,122438,
 %U A006261 146596,174437,206368,242825,284274,331212,384168,443704,510416,584935,667928,760099,862190
@@ -30,7 +30,7 @@
 %t A006261 CoefficientList[
 %t A006261   Series[(1 + x + x^2/2 + x^3/6 + x^4/24 + x^5/120) Exp[x], {x, 0,
 %t A006261     52}], x]*Table[n!, {n, 0, 52}]
-%o A006261 (Sage) [binomial(n,1)+binomial(n,3)+binomial(n,5) for n in range(1, 38)] # _Zerinvary Lajos_, May 17 2009
+%o A006261 (SageMath) [binomial(n,1)+binomial(n,3)+binomial(n,5) for n in range(1, 38)] # _Zerinvary Lajos_, May 17 2009
 %o A006261 (Magma) [(n^5 - 5*n^4 + 25*n^3 + 5*n^2 + 94*n + 120)/120: n in [0..40]]; // _Vincenzo Librandi_, Jul 17 2011
 %o A006261 (Haskell)
 %o A006261 a006261 = sum . take 6 . a007318_row  -- _Reinhard Zumkeller_, Nov 24 2012

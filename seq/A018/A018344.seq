@@ -1,4 +1,4 @@
-%I A018344 #16 Jun 22 2017 02:23:34
+%I A018344 #18 Jul 08 2025 06:40:29
 %S A018344 1,2,5,10,23,46,115,230
 %N A018344 Divisors of 230.
 %H A018344 <a href="/index/Di#divisors">Index entries for sequences related to divisors of numbers</a>
@@ -6,4 +6,4 @@
 %o A018344 (PARI) divisors(230) \\ _Charles R Greathouse IV_, Jun 22 2017
 %K A018344 nonn,fini,full,easy
 %O A018344 1,2
-%A A018344 _N. J. A. Sloane_.
+%A A018344 _N. J. A. Sloane_

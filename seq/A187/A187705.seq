@@ -1,8 +1,8 @@
-%I A187705 #4 Mar 31 2012 12:36:09
+%I A187705 #8 Oct 03 2025 04:07:04
 %S A187705 10,31,128,64,1489,2,113,8272,72,34,170,31461,322,5030,0,255,93476,
 %T A187705 1718,81456,36,2,336,235773,2904,875696,530,7410,0,449,524284,9834,
 %U A187705 4225652,4612,230446,474,0,570,1062857,13324,22532156,12898
-%N A187705 T(n,k)=Number of (n+1)X(n+1) 0..k arrays with each 2X2 subblock off diagonal and antidiagonal nonsingular and the array of 2X2 subblock determinants antisymmetric about the diagonal and antidiagonal
+%N A187705 T(n,k)=Number of (n+1)X(n+1) 0..k arrays with each 2X2 subblock off diagonal and antidiagonal nonsingular and the array of 2X2 subblock determinants antisymmetric about the diagonal and antidiagonal.
 %C A187705 Table starts
 %C A187705 ..10...31.....64....113.....170......255....336.....449.570
 %C A187705 .128.1489...8272..31461...93476...235773.524284.1062857
@@ -21,4 +21,4 @@
 %Y A187705 Row 1 is A059306
 %K A187705 nonn,tabl
 %O A187705 1,1
-%A A187705 _R. H. Hardin_ Mar 12 2011
+%A A187705 _R. H. Hardin_, Mar 12 2011

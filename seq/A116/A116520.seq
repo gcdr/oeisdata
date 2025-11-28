@@ -1,4 +1,4 @@
-%I A116520 #81 Feb 16 2025 08:33:00
+%I A116520 #82 Nov 05 2025 15:35:32
 %S A116520 0,1,5,9,25,29,45,61,125,129,145,161,225,241,305,369,625,629,645,661,
 %T A116520 725,741,805,869,1125,1141,1205,1269,1525,1589,1845,2101,3125,3129,
 %U A116520 3145,3161,3225,3241,3305,3369,3625,3641,3705,3769,4025,4089,4345,4601,5625
@@ -23,7 +23,7 @@
 %H A116520 K.-N. Chang and S.-C. Tsai, <a href="http://dx.doi.org/10.1016/S0020-0190(00)00076-4">Exact solution of a minimal recurrence</a>, Inform. Process. Lett. 75 (2000), 61-64.
 %H A116520 H. Harborth, <a href="http://dx.doi.org/10.1090/S0002-9939-1977-0429714-1">Number of Odd Binomial Coefficients</a>, Proc. Amer. Math. Soc. 62, 19-22, 1977.
 %H A116520 Hsien-Kuei Hwang, Svante Janson, and Tsung-Hsi Tsai, <a href="https://arxiv.org/abs/2210.10968">Identities and periodic oscillations of divide-and-conquer recurrences splitting at half</a>, arXiv:2210.10968 [cs.DS], 2022, pp. 27, 32.
-%H A116520 D. E. Knuth, <a href="http://www.jstor.org/stable/27642339">Problem 11320</a>, The American Mathematical Monthly, Vol. 114, No. 9 (Nov., 2007), p. 835.
+%H A116520 D. E. Knuth, <a href="https://www.jstor.org/stable/27642339">Problem 11320</a>, The American Mathematical Monthly, Vol. 114, No. 9 (Nov., 2007), p. 835.
 %H A116520 N. J. A. Sloane, <a href="/wiki/Catalog_of_Toothpick_and_CA_Sequences_in_OEIS">Catalog of Toothpick and Cellular Automata Sequences in the OEIS</a>
 %H A116520 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/Stolarsky-HarborthConstant.html">Stolarsky-Harborth Constant</a>
 %H A116520 <a href="/index/Ce#cell">Index entries for sequences related to cellular automata</a>

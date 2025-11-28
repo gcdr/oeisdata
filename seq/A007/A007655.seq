@@ -1,4 +1,4 @@
-%I A007655 M4948 #143 Feb 28 2024 06:33:03
+%I A007655 M4948 #145 Nov 05 2025 15:35:27
 %S A007655 0,1,14,195,2716,37829,526890,7338631,102213944,1423656585,
 %T A007655 19828978246,276182038859,3846719565780,53577891882061,
 %U A007655 746243766783074,10393834843080975,144767444036350576,2016350381665827089,28084137899285228670,391161580208327374291,5448177985017298011404
@@ -16,7 +16,7 @@
 %H A007655 Milan Janjic, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL18/Janjic/janjic63.html">On Linear Recurrence Equations Arising from Compositions of Positive Integers</a>, Journal of Integer Sequences, Vol. 18 (2015), Article 15.4.7.
 %H A007655 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
 %H A007655 Murray S. Klamkin, <a href="https://www.jstor.org/stable/2689119">Perfect Squares of the Form (m^2 - 1)a_n^2 + t</a>, Math. Mag., 1969, page 111.
-%H A007655 E. K. Lloyd, <a href="http://www.jstor.org/stable/3619201">The standard deviation of 1, 2, ..., n, Pell's equation and rational triangles</a>, The Mathematical Gazette, Vol. 81, No. 491 (Jul., 1997), pp. 231-243.
+%H A007655 E. K. Lloyd, <a href="https://www.jstor.org/stable/3619201">The standard deviation of 1, 2, ..., n, Pell's equation and rational triangles</a>, The Mathematical Gazette, Vol. 81, No. 491 (Jul., 1997), pp. 231-243.
 %H A007655 Dino Lorenzini and Z. Xiang, <a href="http://alpha.math.uga.edu/~lorenz/IntegralPoints.pdf">Integral points on variable separated curves</a>, Preprint 2016.
 %H A007655 <a href="/index/Ch#Cheby">Index entries for sequences related to Chebyshev polynomials</a>.
 %H A007655 <a href="/index/Rec#order_02">Index entries for linear recurrences with constant coefficients</a>, signature (14,-1).
@@ -45,8 +45,8 @@
 %t A007655 LinearRecurrence[{14,-1}, {0,1}, 20] (* _Vincenzo Librandi_, Feb 02 2016 *)
 %t A007655 ChebyshevU[Range[21] -2, 7] (* _G. C. Greubel_, Dec 23 2019 *)
 %t A007655 Table[Sum[Binomial[n, 2 k - 1]*7^(n - 2 k + 1)*48^(k - 1), {k, 1, n}], {n, 0, 15}] (* _Horst H. Manninger_, Jan 16 2022 *)
-%o A007655 (Sage) [lucas_number1(n,14,1) for n in range(0,20)] # _Zerinvary Lajos_, Jun 25 2008
-%o A007655 (Sage) [chebyshev_U(n,7) for n in (-1..20)] # _G. C. Greubel_, Dec 23 2019
+%o A007655 (SageMath) [lucas_number1(n,14,1) for n in range(0,20)] # _Zerinvary Lajos_, Jun 25 2008
+%o A007655 (SageMath) [chebyshev_U(n,7) for n in (-1..20)] # _G. C. Greubel_, Dec 23 2019
 %o A007655 (Magma) [n le 2 select n-1 else 14*Self(n-1)-Self(n-2): n in [1..70]]; // _Vincenzo Librandi_, Feb 02 2016
 %o A007655 (PARI) concat(0, Vec((x^2/(1-14*x+x^2) + O(x^30)))) \\ _Michel Marcus_, Feb 02 2016
 %o A007655 (PARI) vector(21, n, polchebyshev(n-2, 2, 7) ) \\ _G. C. Greubel_, Dec 23 2019

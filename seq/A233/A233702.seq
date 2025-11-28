@@ -1,8 +1,8 @@
-%I A233702 #4 Dec 15 2013 05:11:28
+%I A233702 #6 Jul 23 2025 08:09:29
 %S A233702 7442986,1062275284,144297443044,19467107789537,2609997970924906,
 %T A233702 349509905164819640,46766203338147707533,6256380820427911740163,
 %U A233702 836891438568071386347572,111944533657293884018452690
-%N A233702 Number of (n+2)X(2+2) 0..3 arrays with no increasing sequence of length 3 horizontally, vertically, diagonally downwards or antidiagonally downwards
+%N A233702 Number of (n+2)X(2+2) 0..3 arrays with no increasing sequence of length 3 horizontally, vertically, diagonally downwards or antidiagonally downwards.
 %C A233702 Column 2 of A233705
 %H A233702 R. H. Hardin, <a href="/A233702/b233702.txt">Table of n, a(n) for n = 1..210</a>
 %e A233702 Some solutions for n=1

@@ -1,4 +1,4 @@
-%I A080247 #75 Sep 18 2024 05:38:41
+%I A080247 #82 Nov 05 2025 15:22:02
 %S A080247 1,2,1,6,4,1,22,16,6,1,90,68,30,8,1,394,304,146,48,10,1,1806,1412,714,
 %T A080247 264,70,12,1,8558,6752,3534,1408,430,96,14,1,41586,33028,17718,7432,
 %U A080247 2490,652,126,16,1,206098
@@ -7,8 +7,9 @@
 %C A080247 T(n,k) is the number of dissections of a convex (n+3)-gon by nonintersecting diagonals with exactly k diagonals emanating from a fixed vertex. Example: T(2,1)=4 because the dissections of the convex pentagon ABCDE having exactly one diagonal emanating from the vertex A are: {AC}, {AD}, {AC,EC} and {AD,BD}. - _Emeric Deutsch_, May 31 2004
 %C A080247 For more triangle sums, see A180662, see the Schroeder triangle A033877 which is the mirror of this triangle. - _Johannes W. Meijer_, Jul 15 2013
 %H A080247 Michael De Vlieger, <a href="/A080247/b080247.txt">Table of n, a(n) for n = 0..11475</a> (rows 0 <= n <= 150, flattened)
-%H A080247 Paul Barry, <a href="http://arxiv.org/abs/1311.2292">Laurent Biorthogonal Polynomials and Riordan Arrays</a>, arXiv preprint arXiv:1311.2292 [math.CA], 2013.
-%H A080247 Paul Barry, <a href="https://www.emis.de/journals/JIS/VOL22/Barry3/barry422.html">Generalized Catalan Numbers Associated with a Family of Pascal-like Triangles</a>, J. Int. Seq., Vol. 22 (2019), Article 19.5.8.
+%H A080247 Paul Barry, <a href="https://arxiv.org/abs/1311.2292">Laurent Biorthogonal Polynomials and Riordan Arrays</a>, arXiv preprint arXiv:1311.2292 [math.CA], 2013.
+%H A080247 Paul Barry, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL22/Barry3/barry422.html">Generalized Catalan Numbers Associated with a Family of Pascal-like Triangles</a>, J. Int. Seq., Vol. 22 (2019), Article 19.5.8.
+%H A080247 Paul Barry, <a href="https://arxiv.org/abs/2504.09719">Notes on Riordan arrays and lattice paths</a>, arXiv:2504.09719 [math.CO], 2025. See pp. 21, 29.
 %H A080247 James East and Nicholas Ham, <a href="https://arxiv.org/abs/1811.05735">Lattice paths and submonoids of Z^2</a>, arXiv:1811.05735 [math.CO], 2018.
 %H A080247 P. Flajolet and M. Noy, <a href="http://dx.doi.org/10.1016/S0012-365X(98)00372-0">Analytic combinatorics of noncrossing configurations</a>, Discrete Math. 204 (1999), 203-229.
 %H A080247 Shishuo Fu and Yaling Wang, <a href="https://arxiv.org/abs/1908.03912">Bijective recurrences concerning two Schröder triangles</a>, arXiv:1908.03912 [math.CO], 2019.
@@ -44,7 +45,7 @@
 %t A080247 Clear[w] w[n_, k_] /; k < 0 || k > n := 0 w[0,0]=1 ; w[n_, k_] /; 0 <= k <= n && !n == k == 0 := w[n, k] = w[n-1,k-1] + w[n-1,k] + w[n,k+1] Table[w[n,k],{n,0,10},{k,0,n}] (* _David Callan_, Jul 03 2006 *)
 %t A080247 T[n_, k_] := Binomial[n, k] Hypergeometric2F1[k - n, n + 1, k + 2, -1];
 %t A080247 Table[T[n, k], {n, 0, 8}, {k, 0, n}] // Flatten (* _Peter Luschny_, Jan 08 2018 *)
-%o A080247 (Sage)
+%o A080247 (SageMath)
 %o A080247 def A080247_row(n):
 %o A080247     @cached_function
 %o A080247     def prec(n, k):

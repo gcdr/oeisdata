@@ -1,4 +1,4 @@
-%I A032170 #87 Feb 16 2025 08:32:36
+%I A032170 #90 Aug 18 2025 23:36:58
 %S A032170 1,2,5,10,24,50,120,270,640,1500,3600,8610,20880,50700,124024,304290,
 %T A032170 750120,1854400,4600200,11440548,28527320,71289000,178526880,
 %U A032170 447910470,1125750120,2833885800,7144449920,18036373140,45591631800,115381697740,292329067800
@@ -27,7 +27,7 @@
 %H A032170 C. G. Bower, <a href="/transforms2.html">Transforms (2)</a>.
 %H A032170 Y. Puri and T. Ward, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL4/WARD/short.html">Arithmetic and growth of periodic orbits</a>, J. Integer Seqs., Vol. 4 (2001), #01.2.1.
 %H A032170 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/ArnoldsCatMap.html">Arnold's cat map</a>.
-%H A032170 Wikipedia, <a href="http://en.wikipedia.org/wiki/Arnold&#39;s_cat_map">Arnold's cat map</a>. [From Bruce Boghosian, Apr 26 2009]
+%H A032170 Wikipedia, <a href="http://en.wikipedia.org/wiki/Arnold&#39;s_cat_map">Arnold's cat map</a>.
 %H A032170 <a href="/index/Lu#Lyndon">Index entries for sequences related to Lyndon words</a>
 %F A032170 a(n) = (1/n)*Sum_{d | n} mu(n/d)*A004146(d). - _Vladeta Jovovic_, Feb 15 2003
 %F A032170 Inverse EULER transform of Fibonacci(2*n). - _Vladeta Jovovic_, May 04 2006

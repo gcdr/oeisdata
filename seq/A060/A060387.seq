@@ -1,10 +1,10 @@
-%I A060387 #29 Feb 16 2025 08:32:44
+%I A060387 #31 Aug 11 2025 08:47:22
 %S A060387 2,17,32,82,97,162,257,272,337,512,626,641,706,881,1250,1297,1312,
 %T A060387 1377,1552,1921,2402,2417,2482,2592,2657,3026,3697,4097,4112,4177,
 %U A060387 4352,4721,4802,5392,5906
 %N A060387 Numbers k such that x^4 + y^4 = k * z^4 is solvable in nonzero integers x,y,z.
 %C A060387 Numbers k such that k = x^4 + y^4 has a solution in positive rationals x, y.
-%H A060387 A. Bremner and P. Morton, <a href="http://www.digizeitschriften.de/dms/img/?PID=GDZPPN002225409">A new characterization of the integer 5906</a>, Manuscripta Math. 44 (1983) 187-229; Math. Rev. 84i:10016.
+%H A060387 A. Bremner and P. Morton, <a href="https://gdz.sub.uni-goettingen.de/id/PPN365956996_0044">A new characterization of the integer 5906</a>, Manuscripta Math. 44 (1983) 187-229; Math. Rev. 84i:10016.
 %H A060387 Steven R. Finch, <a href="http://www.people.fas.harvard.edu/~sfinch/csolve/fermat.pdf">On a generalized Fermat-Wiles equation</a> [broken link]
 %H A060387 Steven R. Finch, <a href="http://web.archive.org/web/20010602030546/http://www.mathsoft.com/asolve/fermat/fermat.html">On a Generalized Fermat-Wiles Equation</a> [From the Wayback Machine]
 %H A060387 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/BiquadraticNumber.html">Biquadratic Number</a>

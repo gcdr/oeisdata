@@ -1,4 +1,4 @@
-%I A140207 #35 Jul 26 2023 03:16:28
+%I A140207 #36 Nov 05 2025 15:22:06
 %S A140207 1,1,1,1,1,2,1,1,2,3,1,1,2,3,5,1,1,2,3,5,7,1,1,2,3,5,7,11,1,1,2,3,5,7,
 %T A140207 11,15,1,1,2,3,5,7,11,15,22,1,1,2,3,5,7,11,15,22,30,1,1,2,3,5,7,11,15,
 %U A140207 22,30,42,1,1,2,3,5,7,11,15,22,30,42,56,1,1,2,3,5,7,11,15,22,30,42,56,77
@@ -6,7 +6,7 @@
 %C A140207 Number of partitions of n into distinct parts with maximal size, see A000009. - _Reinhard Zumkeller_, Jun 13 2009
 %C A140207 Equals A092080 when first column is removed.  _Georg Fischer_, Jul 26 2023
 %H A140207 Robert Price, <a href="/A140207/b140207.txt">Table of n, a(n) for n = 0..1325</a> (first 50 rows)
-%H A140207 Francesca Aicardi, <a href="http://arxiv.org/abs/0806.1273">Matricial formulas for partitions</a>, arXiv:0806.1273 [math.NT], 2008. [Note that there is an error in the triangle given there.]
+%H A140207 Francesca Aicardi, <a href="https://arxiv.org/abs/0806.1273">Matricial formulas for partitions</a>, arXiv:0806.1273 [math.NT], 2008. [Note that there is an error in the triangle given there.]
 %e A140207 Triangle begins:
 %e A140207 1
 %e A140207 1,1

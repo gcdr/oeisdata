@@ -1,8 +1,8 @@
-%I A252097 #5 Dec 14 2014 07:11:17
+%I A252097 #7 Jun 02 2025 10:47:05
 %S A252097 2458,4866,10878,86575,1704334,41913367,1113772174,116789064529,
 %T A252097 10681007815392,910992764352996,511227354741819354,
 %U A252097 159266179111795253990,40440676759528810785390,126229089092571690095740538
-%N A252097 Number of (n+2)X(n+2) 0..3 arrays with every 3X3 subblock row and column sum equal to 0 3 4 6 or 7 and every 3X3 diagonal and antidiagonal sum not equal to 0 3 4 6 or 7
+%N A252097 Number of (n+2)X(n+2) 0..3 arrays with every 3X3 subblock row and column sum equal to 0 3 4 6 or 7 and every 3X3 diagonal and antidiagonal sum not equal to 0 3 4 6 or 7.
 %C A252097 Diagonal of A252105
 %H A252097 R. H. Hardin, <a href="/A252097/b252097.txt">Table of n, a(n) for n = 1..15</a>
 %e A252097 Some solutions for n=4

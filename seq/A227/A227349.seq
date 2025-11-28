@@ -1,4 +1,4 @@
-%I A227349 #95 Mar 23 2020 06:53:33
+%I A227349 #105 Nov 05 2025 15:22:24
 %S A227349 1,1,1,2,1,1,2,3,1,1,1,2,2,2,3,4,1,1,1,2,1,1,2,3,2,2,2,4,3,3,4,5,1,1,
 %T A227349 1,2,1,1,2,3,1,1,1,2,2,2,3,4,2,2,2,4,2,2,4,6,3,3,3,6,4,4,5,6,1,1,1,2,
 %U A227349 1,1,2,3,1,1,1,2,2,2,3,4,1,1,1,2,1,1,2,3,2,2,2,4,3,3,4,5,2,2,2,4,2,2,4,6,2,2,2,4,4,4,6,8,3,3,3,6,3,3,6,9,4
@@ -6,7 +6,7 @@
 %C A227349 This is the Run Length Transform of S(n) = {0, 1, 2, 3, 4, 5, 6, ...}. The Run Length Transform of a sequence {S(n), n >= 0} is defined to be the sequence {T(n), n >= 0} given by T(n) = Product_i S(i), where i runs through the lengths of runs of 1's in the binary expansion of n. E.g., 19 is 10011 in binary, which has two runs of 1's, of lengths 1 and 2. So T(19) = S(1)*S(2). T(0) = 1 (the empty product). - _N. J. A. Sloane_, Sep 05 2014
 %C A227349 Like all run length transforms also this sequence satisfies for all i, j: A278222(i) = A278222(j) => a(i) = a(j). - _Antti Karttunen_, Apr 14 2017
 %H A227349 Antti Karttunen, <a href="/A227349/b227349.txt">Table of n, a(n) for n = 0..8192</a>
-%H A227349 N. J. A. Sloane, <a href="http://arxiv.org/abs/1503.01168">On the Number of ON Cells in Cellular Automata</a>, arXiv:1503.01168 [math.CO], 2015.
+%H A227349 N. J. A. Sloane, <a href="https://arxiv.org/abs/1503.01168">On the Number of ON Cells in Cellular Automata</a>, arXiv:1503.01168 [math.CO], 2015.
 %H A227349 <a href="/index/Ru#rlt">Index entries for sequences computed with run length transform</a>
 %F A227349 A167489(n) = a(n) * A227350(n).
 %F A227349 A227193(n) = a(n) - A227350(n).
@@ -16,6 +16,7 @@
 %F A227349 a(n) = A284562(n) * A284569(n).
 %F A227349 A283972(n) = n - a(n).
 %F A227349 (End)
+%F A227349 a(4n+1) = a(2n) = a(n). If n is odd, then a(4n+3) = 2*a(2n+1)-a(n). If n is even, then a(4n+3) = 2*a(2n+1) = 2*a(n/2). - _Chai Wah Wu_, Jul 17 2025
 %e A227349 a(0) = 1, as zero has no runs of 1's, and an empty product is 1.
 %e A227349 a(1) = 1, as 1 is "1" in binary, and the length of that only 1-run is 1.
 %e A227349 a(2) = 1, as 2 is "10" in binary, and again there is only one run of 1-bits, of length 1.
@@ -24,49 +25,47 @@
 %e A227349 a(119) = 9, as 119 is "1110111" in binary, and 3 * 3 = 9.
 %e A227349 From _Omar E. Pol_, Feb 10 2015: (Start)
 %e A227349 Written as an irregular triangle in which row lengths is A011782:
-%e A227349 1;
-%e A227349 1;
-%e A227349 1,2;
-%e A227349 1,1,2,3;
-%e A227349 1,1,1,2,2,2,3,4;
-%e A227349 1,1,1,2,1,1,2,3,2,2,2,4,3,3,4,5;
-%e A227349 1,1,1,2,1,1,2,3,1,1,1,2,2,2,3,4,2,2,2,4,2,2,4,6,3,3,3,6,4,4,5,6;
-%e A227349 ...
-%e A227349 Right border gives A028310: 1 together with the positive integers.
-%e A227349 (End)
+%e A227349   1;
+%e A227349   1;
+%e A227349   1,2;
+%e A227349   1,1,2,3;
+%e A227349   1,1,1,2,2,2,3,4;
+%e A227349   1,1,1,2,1,1,2,3,2,2,2,4,3,3,4,5;
+%e A227349   1,1,1,2,1,1,2,3,1,1,1,2,2,2,3,4,2,2,2,4,2,2,4,6,3,3,3,6,4,4,5,6;
+%e A227349   ...
+%e A227349 Right border gives A028310: 1 together with the positive integers. (End)
 %e A227349 From _Omar E. Pol_, Mar 19 2015: (Start)
 %e A227349 Also, the sequence can be written as an irregular tetrahedron T(s, r, k) as shown below:
-%e A227349 1;
-%e A227349 ..
-%e A227349 1;
-%e A227349 ..
-%e A227349 1;
-%e A227349 2;
-%e A227349 ....
-%e A227349 1,1;
-%e A227349 2;
-%e A227349 3;
-%e A227349 ........
-%e A227349 1,1,1,2;
-%e A227349 2,2;
-%e A227349 3;
-%e A227349 4;
-%e A227349 ................
-%e A227349 1,1,1,2,1,1,2,3;
-%e A227349 2,2,2,4;
-%e A227349 3,3;
-%e A227349 4;
-%e A227349 5;
-%e A227349 ................................
-%e A227349 1,1,1,2,1,1,2,3,1,1,1,2,2,2,3,4;
-%e A227349 2,2,2,4,2,2,4,6;
-%e A227349 3,3,3,6;
-%e A227349 4,4;
-%e A227349 5;
-%e A227349 6;
-%e A227349 ...
-%e A227349 Apart from the initial 1, we have that T(s, r, k) = T(s+1, r, k).
-%e A227349 (End)
+%e A227349   1;
+%e A227349   ..
+%e A227349   1;
+%e A227349   ..
+%e A227349   1;
+%e A227349   2;
+%e A227349   ....
+%e A227349   1,1;
+%e A227349   2;
+%e A227349   3;
+%e A227349   ........
+%e A227349   1,1,1,2;
+%e A227349   2,2;
+%e A227349   3;
+%e A227349   4;
+%e A227349   ................
+%e A227349   1,1,1,2,1,1,2,3;
+%e A227349   2,2,2,4;
+%e A227349   3,3;
+%e A227349   4;
+%e A227349   5;
+%e A227349   ................................
+%e A227349   1,1,1,2,1,1,2,3,1,1,1,2,2,2,3,4;
+%e A227349   2,2,2,4,2,2,4,6;
+%e A227349   3,3,3,6;
+%e A227349   4,4;
+%e A227349   5;
+%e A227349   6;
+%e A227349   ...
+%e A227349 Apart from the initial 1, we have that T(s, r, k) = T(s+1, r, k). (End)
 %p A227349 a:= proc(n) local i, m, r; m, r:= n, 1;
 %p A227349       while m>0 do
 %p A227349         while irem(m, 2, 'h')=0 do m:=h od;
@@ -96,7 +95,7 @@
 %o A227349 from re import split
 %o A227349 def A227349(n):
 %o A227349     return reduce(mul, (len(d) for d in split('0+',bin(n)[2:]) if d)) if n > 0 else 1 # _Chai Wah Wu_, Sep 07 2014
-%o A227349 (Sage) # uses[RLT from A246660]
+%o A227349 (SageMath) # uses[RLT from A246660]
 %o A227349 A227349_list = lambda len: RLT(lambda n: n, len)
 %o A227349 A227349_list(88) # _Peter Luschny_, Sep 07 2014
 %o A227349 (Scheme)

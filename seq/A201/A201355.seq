@@ -1,11 +1,11 @@
-%I A201355 #46 Aug 06 2022 07:24:06
+%I A201355 #50 Sep 22 2025 16:01:09
 %S A201355 1,4,20,132,1140,12324,160020,2424132,41967540,817374564,17688328020,
 %T A201355 421061260932,10934334077940,307610736087204,9319558144624020,
 %U A201355 302518807147502532,10474617188712332340,385347795973248950244,15010362565222418008020,617178205591321673884932
 %N A201355 Expansion of e.g.f.: 3*exp(3*x) / (4 - exp(3*x)).
 %H A201355 G. C. Greubel, <a href="/A201355/b201355.txt">Table of n, a(n) for n = 0..390</a>
 %F A201355 O.g.f.: A(x) = Sum_{n>=0} n! * 4^n*x^n / Product_{k=0..n} (1+3*k*x).
-%F A201355 O.g.f.: A(x) = 1/(1 - 4*x/(1-x/(1 - 8*x/(1-2*x/(1 - 12*x/(1-3*x/(1 - 16*x/(1-4*x/(1 - 20*x/(1-5*x/(1 - ...)))))))))), a continued fraction.
+%F A201355 O.g.f.: A(x) = 1/(1 - 4*x/(1-x/(1 - 8*x/(1-2*x/(1 - 12*x/(1-3*x/(1 - 16*x/(1-4*x/(1 - 20*x/(1-5*x/(1 - ...))))))))))), a continued fraction.
 %F A201355 a(n) = Sum_{k=0..n} (-3)^(n-k) * 4^k * Stirling2(n,k) * k!.
 %F A201355 a(n) = Sum_{k=0..n} A123125(n,k)*4^k. - _Philippe Deléham_, Nov 30 2011
 %F A201355 G.f.: 2/G(0), where G(k) = 1 + 1/(1 - 8*x*(k+1)/(8*x*(k+1) - 1 + 2*x*(k+1)/G(k+1))); (continued fraction). - _Sergei N. Gladkovskii_, May 30 2013
@@ -21,7 +21,7 @@
 %o A201355 (PARI) {a(n)=polcoeff(sum(m=0, n, 4^m*m!*x^m/prod(k=1, m, 1+3*k*x+x*O(x^n))), n)}
 %o A201355 (PARI) a(n)=sum(k=0, n, (-3)^(n-k)*4^k*stirling(n,k,2)*k!);
 %o A201355 (PARI) my(x='x+O('x^66)); Vec(serlaplace(3*exp(3*x)/(4-exp(3*x)))) \\ _Joerg Arndt_, May 06 2013
-%o A201355 (Sage)
+%o A201355 (SageMath)
 %o A201355 @CachedFunction
 %o A201355 def BB(n, k, x):  # modified cardinal B-splines
 %o A201355     if n == 1: return 0 if (x < 0) or (x >= k) else 1

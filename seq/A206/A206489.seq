@@ -1,4 +1,4 @@
-%I A206489 #12 Mar 07 2017 11:26:05
+%I A206489 #13 Nov 05 2025 15:22:21
 %S A206489 0,1,4,4,64,64,36,36,1152,1152,1152,656,656,656,34372,352,656,15236,
 %T A206489 352,19856,19856,34372,15236,8272,1335008,15236,413904,11028,19856,
 %U A206489 573408,34372,4240,1335008,19856,809280,226528,8272,8272,573408,322624,15236,328512,11028,809280,18489168,413904,573408,118720,479936,26095936
@@ -8,7 +8,7 @@
 %D A206489 I. Gutman and A. Ivic, On Matula numbers, Discrete Math., 150, 1996, 131-142.
 %D A206489 I. Gutman and Y-N. Yeh, Deducing properties of trees from their Matula numbers, Publ. Inst. Math., 53 (67), 1993, 17-22.
 %D A206489 D. W. Matula, A natural rooted tree enumeration by prime factorization, SIAM Review, 10, 1968, 273.
-%H A206489 E. Deutsch, <a href="http://arxiv.org/abs/1111.4288"> Rooted tree statistics from Matula numbers</a>, arXiv:1111.4288.
+%H A206489 E. Deutsch, <a href="https://arxiv.org/abs/1111.4288"> Rooted tree statistics from Matula numbers</a>, arXiv:1111.4288.
 %H A206489 <a href="/index/Mat#matula">Index entries for sequences related to Matula-Goebel numbers</a>
 %F A206489 The Maple program d finds recursively the distance matrix (time consuming).
 %e A206489 a(2)=-1 because the rooted tree with Matula number 2 is the one-edge tree with distance matrix [(0,1), (1,0)].

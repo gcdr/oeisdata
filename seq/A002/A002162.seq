@@ -1,4 +1,4 @@
-%I A002162 M4074 N1689 #311 Feb 16 2025 08:32:25
+%I A002162 M4074 N1689 #333 Nov 05 2025 15:35:24
 %S A002162 6,9,3,1,4,7,1,8,0,5,5,9,9,4,5,3,0,9,4,1,7,2,3,2,1,2,1,4,5,8,1,7,6,5,
 %T A002162 6,8,0,7,5,5,0,0,1,3,4,3,6,0,2,5,5,2,5,4,1,2,0,6,8,0,0,0,9,4,9,3,3,9,
 %U A002162 3,6,2,1,9,6,9,6,9,4,7,1,5,6,0,5,8,6,3,3,2,6,9,9,6,4,1,8,6,8,7
@@ -9,6 +9,7 @@
 %C A002162 Define the trihyperboloid to be the intersection of the three solid hyperboloids x^2+y^2-z^2<1, x^2-y^2+z^2<1, and -x^2+y^2+z^2<1. This fits perfectly within the cube [-1,1]^3. Then this is the ratio of the volume of the trihyperboloid to its bounding cube. - _Akiva Weinberger_, Dec 02 2024
 %D A002162 G. Boros and V. H. Moll, Irresistible Integrals: Symbolics, Analysis and Experiments in the Evaluation of Integrals, Cambridge University Press, 2004.
 %D A002162 Calvin C. Clawson, Mathematical Mysteries: The Beauty and Magic of Numbers, Springer, 2013. See p. 227.
+%D A002162 John H. Conway and Richard K. Guy, The Book of Numbers, New York: Springer-Verlag, 1996. See pp. 24, 250.
 %D A002162 Steven R. Finch, Mathematical Constants, Cambridge, 2003, Sections 1.3.3, 2.21, 6.2, and 7.2.
 %D A002162 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
 %D A002162 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
@@ -17,7 +18,7 @@
 %H A002162 Harry J. Smith, <a href="/A002162/b002162.txt">Table of n, a(n) for n = 0..20000</a>
 %H A002162 D. H. Bailey and J. M. Borwein, <a href="http://www.ams.org/notices/200505/fea-borwein.pdf">Experimental Mathematics: Examples, Methods and Implications</a>, Notices of the AMS, May 2005, Volume 52, Issue 5.
 %H A002162 Peter Bala, <a href="/A002117/a002117.pdf">New series for old functions</a>
-%H A002162 J. M. Borwein, P. B. Borwein, and K. Dilcher, <a href="http://www.jstor.org/stable/2324715">Pi, Euler numbers and asymptotic expansions</a>, Amer. Math. Monthly, 96 (1989), 681-687.
+%H A002162 J. M. Borwein, P. B. Borwein, and K. Dilcher, <a href="https://www.jstor.org/stable/2324715">Pi, Euler numbers and asymptotic expansions</a>, Amer. Math. Monthly, 96 (1989), 681-687.
 %H A002162 Paul Cooijmans, <a href="http://web.archive.org/web/20050302174449/http://members.chello.nl/p.cooijmans/gliaweb/tests/odds.html">Odds</a>.
 %H A002162 X. Gourdon and P. Sebah, <a href="http://numbers.computation.free.fr/Constants/Log2/log2.html">The logarithm constant:log(2)</a>, 2001.
 %H A002162 X. Gourdon and P. Sebah, <a href="http://plouffe.fr/simon/articles/log2.pdf">The logarithm constant:log(2)</a>, 2004. (Revised and extended version of above article.)
@@ -51,8 +52,8 @@
 %F A002162 log(2) = (Sum_{n>=1} 1/(n^2*(n+1)^2*(2*n+1)) + 11)/16. - _Alexander R. Povolotsky_, Jan 13 2011
 %F A002162 log(2) = ((Sum_{n>=1} (2*n+1)/(Sum_{k=1..n} k^2)^2)+396)/576. - _Alexander R. Povolotsky_, Jan 14 2011
 %F A002162 From _Alexander R. Povolotsky_, Dec 16 2008: (Start)
-%F A002162 log(2) = 105*(Sum_{n>=1} 1/(2*n*(2*n+1)*(2*n+3)*(2*n+5)*(2*n+7)))-319/44100).
-%F A002162 log(2) = 319/420 - (3/2)*Sum_{n>=1} 1/(6*n^2+39*n+63)). (End)
+%F A002162 log(2) = 105*(319/44100 - Sum_{n>=1} 1/(2*n*(2*n+1)*(2*n+3)*(2*n+5)*(2*n+7))).
+%F A002162 log(2) = 319/420 - (3/2)*Sum_{n>=1} 1/(6*n^2+39*n+63). (End)
 %F A002162 log(2) = Sum_{k>=1} A191907(2,k)/k. - _Mats Granvik_, Jun 19 2011
 %F A002162 log(2) = Integral_{x=0..oo} 1/(1 + e^x) dx. - _Jean-François Alcover_, Mar 21 2013
 %F A002162 log(2) = lim_{s->1} zeta(s)*(1-1/2^(s-1)). - _Mats Granvik_, Jun 18 2013
@@ -62,7 +63,7 @@
 %F A002162 log(2) = (3/16)*Sum_{n >= 0} (14*n+11)/( (4*n+1)*(4*n+3)*C(4*n,2*n) )*(1/4)^n = (1/12)*Sum_{n >= 0} (34*n+25)/( (4*n+1)*(4*n+3)*C(4*n,2*n) )*(-1/18)^n. For more series of this type see the Bala link.
 %F A002162 See A142979 for series acceleration formulas for log(2) obtained from the Mercator series log(2) = Sum_{n >= 1} (-1)^(n+1)/n. See A142992 for series for log(2) related to the root lattice C_n. (End)
 %F A002162 log(2) = lim_{n->oo} Sum_{k=2^n..2^(n+1)-1} 1/k. - _Richard R. Forberg_, Aug 16 2014
-%F A002162 From _Peter Bala_, Feb 03: (Start)
+%F A002162 From _Peter Bala_, Feb 03 2015: (Start)
 %F A002162 log(2) = (2/3)*Sum_{k >= 0} 1/((2*k + 1)*9^k).
 %F A002162 Define a pair of integer sequences A(n) = 9^n*(2*n + 1)!/n! and B(n) = A(n)*Sum_{k = 0..n} 1/((2*k + 1)*9^k). Both satisfy the same second-order recurrence equation u(n) = (40*n + 16)*u(n-1) - 36*(2*n - 1)^2*u(n-2). From this observation we obtain the continued fraction expansion log(2) = (2/3)*(1 + 2/(54 - 36*3^2/(96 - 36*5^2/(136 - ... - 36*(2*n - 1)^2/((40*n + 16) - ... ))))). Cf. A002391, A073000 and A105531 for similar expansions. (End)
 %F A002162 log(2) = Sum_{n>=1} (Zeta(2*n)-1)/n. - _Vaclav Kotesovec_, Dec 11 2015
@@ -85,7 +86,7 @@
 %F A002162 log(2) = 2*arcsinh(sqrt(2)/4) = 2*sqrt(2)*Sum_{n >= 0} (-1)^n*C(2*n,n)/ ((8*n+4)*32^n) = 3*Sum_{n >= 0} (-1)^n/((8*n+4)*(2^n)*C(2*n,n)). - _Peter Bala_, Jan 14 2022
 %F A002162 log(2) = Integral_{x=0..oo} ( e^(-x) * (1-e^(-2x)) * (1-e^(-4x)) * (1-e^(-6x)) ) / ( x * (1-e^(-14x)) ) dx (see Crux Mathematicorum link). - _Bernard Schott_, Jul 11 2022
 %F A002162 From _Peter Bala_, Oct 22 2023: (Start)
-%F A002162 log(2) = 23/32 + 2!^3/16 * Sum_{n >= 1} (-1)^n * (n + 1)/(n*(n + 1)*(n + 2))^2 = 707/1024 -  4!^3/(16^2 * 2!^2) * Sum_{n >= 1} (-1)^n * (n + 2)/(n*(n + 1)*(n + 2)*(n + 3)*(n + 4))^2 = 42611/61440 + 6!^3/(16^3 * 3!^2) * Sum_{n >= 1} (-1)^n * (n + 3)/(n*(n + 1)*(n + 2)*(n + 3)*(n + 4)*(n + 5)*(n + 6))^2.
+%F A002162 log(2) = 23/32 + 2!^3/16 * Sum_{n >= 1} (-1)^n * (n + 1)/(n*(n + 1)*(n + 2))^2 = 707/1024 - 4!^3/(16^2 * 2!^2) * Sum_{n >= 1} (-1)^n * (n + 2)/(n*(n + 1)*(n + 2)*(n + 3)*(n + 4))^2 = 42611/61440 + 6!^3/(16^3 * 3!^2) * Sum_{n >= 1} (-1)^n * (n + 3)/(n*(n + 1)*(n + 2)*(n + 3)*(n + 4)*(n + 5)*(n + 6))^2.
 %F A002162 More generally, it appears that for k >= 0, log(2) = c(k) + (2*k)!^3/(16^k * k!^2) * Sum_{n >= 1} (-1)^(n+k+1) * (n + k)/(n*(n + 1)*...*(n + 2*k))^2 , where c(k) is a rational approximation to log(2). The first few values of c(k) are [0, 23/32, 707/1024, 42611/61440, 38154331/55050240, 76317139/110100480, 26863086823/38755368960, ...].
 %F A002162 Let P(n,k) = n*(n + 1)*...*(n + k).
 %F A002162 Conjecture: for k >= 0 and r even with r - 1 <= k, the series Sum_{n >= 1} (-1)^n * (d/dn)^r (P(n,k)) / (P(n,k)^2  = A(r,k)*log(2) + B(r,k), where A(r,k) and B(r,k) are both rational numbers. (End)
@@ -102,6 +103,7 @@
 %F A002162 log(2) = Integral_{t=0...1} arctanh(t) dt.
 %F A002162 log(2) = (1/2) * Integral_{t=-1...1} |arctanh(t)| dt. (End)
 %F A002162 log(2) = 1 + Sum_{n >= 1} (-1)^n/(n*(4*n^2 - 1)) = 1/2 + (1/2)*Sum_{n >= 1} 1/(n*(4*n^2 - 1)). - _Peter Bala_, Jan 07 2025
+%F A002162 log(2) = Integral_{x=0..1} Integral_{y=0..1} 1/((1 - x*y)*(1 + x)*(1 + y)) dy dx. - _Kritsada Moomuang_, May 22 2025
 %e A002162 0.693147180559945309417232121458176568075500134360255254120680009493393...
 %t A002162 RealDigits[N[Log[2],200]][[1]] (* _Vladimir Joseph Stephan Orlovsky_, Feb 21 2011 *)
 %t A002162 RealDigits[Log[2],10,120][[1]] (* _Harvey P. Dale_, Jan 25 2024 *)

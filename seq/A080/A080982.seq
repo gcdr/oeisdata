@@ -1,4 +1,4 @@
-%I A080982 #21 Jun 13 2021 22:15:22
+%I A080982 #22 Sep 29 2025 23:24:04
 %S A080982 1,7,8,31,24,8,48,127,80,24,120,63,168,48,99,511,288,80,360,224,98,
 %T A080982 120,528,512,624,168,728,735,840,224,960,2047,242,288,49,1215,1368,
 %U A080982 360,675,1024,1680,440,1848,1088,324,528,2208,512,2400,624,288,1183,2808,728
@@ -13,7 +13,7 @@
 %o A080982 a080982 n = (+ 1) $ fromJust $
 %o A080982    findIndex ((== 0) . (`mod` (n ^ 2))) $ tail a000217_list
 %o A080982 -- _Reinhard Zumkeller_, Mar 23 2013
-%o A080982 (Python 3.8+)
+%o A080982 (Python)
 %o A080982 from itertools import combinations
 %o A080982 from sympy import factorint
 %o A080982 from sympy.ntheory.modular import crt

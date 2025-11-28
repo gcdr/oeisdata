@@ -1,4 +1,4 @@
-%I A008804 #125 Sep 03 2024 01:29:54
+%I A008804 #130 Sep 22 2025 16:00:22
 %S A008804 1,2,4,6,10,14,20,26,35,44,56,68,84,100,120,140,165,190,220,250,286,
 %T A008804 322,364,406,455,504,560,616,680,744,816,888,969,1050,1140,1230,1330,
 %U A008804 1430,1540,1650,1771,1892,2024,2156,2300,2444,2600,2756,2925,3094,3276,3458
@@ -25,6 +25,7 @@
 %F A008804 gf(k): x^k/2 * ( (1/k)*Sum_{n|k} phi(n)/(1 - x^n)^(k/n) - (1 + x)/(1 -x^2)^floor(k/2 + 1) ). The g.f. here is gf(4)/x^7 because of the different offset. (End)
 %F A008804 E.g.f.: ((48 + 54*x + 15*x^2 + x^3)*cosh(x) + 6*sin(x) + (36 + 57*x + 15*x^2 + x^3)*sinh(x))/48. - _Stefano Spezia_, May 15 2023
 %F A008804 a(n) = A001400(n) + A001400(n-1) + A001400(n-2). - _David García Herrero_, Aug 26 2024
+%F A008804 a(n) = floor((2*n^3 + 24*n^2 + n*(85+3*(-1)^n) + 96) / 96). - _Hoang Xuan Thanh_, May 24 2025
 %e A008804 G.f. = 1 + 2*x + 4*x^2 + 6*x^3 + 10*x^4 + 14*x^5 + 20*x^6 + 26*x^7 + 35*x^8 + ...
 %e A008804 There are 10 asymmetric nonnegative integer 2 X 2 matrices with sum of elements equal to 7 under action of D_4:
 %e A008804 [0 0] [0 0] [0 0] [0 1] [0 1] [0 1] [0 1] [0 2] [0 2] [1 1]
@@ -37,7 +38,7 @@
 %o A008804 (PARI) a(n)=(84+12*(-1)^n+6*I*((-I)^n-I^n)+(85+3*(-1)^n)*n+24*n^2 +2*n^3)/96 \\ _Jaume Oliver Lafont_, Sep 20 2009
 %o A008804 (PARI) {a(n) = my(s = 1); if( n<-7, n = -8 - n; s = -1); if( n<0, 0, s * polcoeff( 1 / ((1 - x)^2 * (1 - x^2) * (1 - x^4)) + x * O(x^n), n))}; /* _Michael Somos_, Feb 02 2011 */
 %o A008804 (Magma) R<x>:=PowerSeriesRing(Integers(), 60); Coefficients(R!( 1/((1-x)^2*(1-x^2)*(1-x^4)) )); // _G. C. Greubel_, Sep 12 2019
-%o A008804 (Sage)
+%o A008804 (SageMath)
 %o A008804 def A008804_list(prec):
 %o A008804     P.<x> = PowerSeriesRing(ZZ, prec)
 %o A008804     return P(1/((1-x)^2*(1-x^2)*(1-x^4))).list()

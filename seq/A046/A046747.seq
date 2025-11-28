@@ -1,9 +1,9 @@
-%I A046747 #54 Feb 16 2025 08:32:39
+%I A046747 #55 Nov 05 2025 15:21:58
 %S A046747 1,10,338,42976,21040112,39882864736,292604283435872,
 %T A046747 8286284310367538176
 %N A046747 Number of n X n rational {0,1}-matrices of determinant 0.
 %H A046747 J. Bourgain, V. Vu and P. M. Wood, <a href="https://doi.org/10.1016/j.jfa.2009.04.016">On the Singularity Probability of Discrete Random Matrices</a>, Journal of Functional Analysis, 258 (2010), 559-603.
-%H A046747 R. P. Brent and J. H. Osborn, <a href="http://arxiv.org/abs/1208.3330">Bounds on minors of binary matrices</a>, arXiv preprint arXiv:1208.3330 [math.CO], 2012.
+%H A046747 R. P. Brent and J. H. Osborn, <a href="https://arxiv.org/abs/1208.3330">Bounds on minors of binary matrices</a>, arXiv preprint arXiv:1208.3330 [math.CO], 2012.
 %H A046747 J. Kahn, J. Komlos and E. Szemeredi, <a href="https://doi.org/10.1090/S0894-0347-1995-1260107-2">On the probability that a random ±1-matrix is singular</a>, J. AMS 8 (1995), 223-240.
 %H A046747 J. Komlos, <a href="http://real-j.mtak.hu/5453/">On the determinant of (0,1)-matrices</a>, Studia Math. Hungarica 2 (1967), 7-21.
 %H A046747 N. Metropolis and P. R. Stein, <a href="https://doi.org/10.1016/S0021-9800(67)80006-1">On a class of (0,1) matrices with vanishing determinants</a>, J. Combin. Theory, 3 (1967), 191-198.

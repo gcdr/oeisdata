@@ -1,8 +1,8 @@
-%I A254543 #4 Feb 01 2015 09:43:35
+%I A254543 #6 Jul 23 2025 14:47:31
 %S A254543 4,50,135,670,1087,3383,6814,13843,20012,37643,50271,84258,124243,
 %T A254543 185263,233753,347471,423430,594001,776949,1021618,1205883,1612046,
 %U A254543 2004761,2549617,3112664,3856074,4411319,5541449,6253712,7547845,8918038
-%N A254543 Number of length 5 1..(n+2) arrays with no leading partial sum equal to a prime
+%N A254543 Number of length 5 1..(n+2) arrays with no leading partial sum equal to a prime.
 %C A254543 Row 5 of A254539
 %H A254543 R. H. Hardin, <a href="/A254543/b254543.txt">Table of n, a(n) for n = 1..210</a>
 %e A254543 Some solutions for n=4

@@ -1,4 +1,4 @@
-%I A306606 #14 Mar 11 2019 17:21:12
+%I A306606 #15 Nov 05 2025 15:22:41
 %S A306606 1,2,2,3,4,3,3,3,3,6,5,4,7,5,2,5,5,6,6,3,4,5,1,2,5,6,5,5,6,3,3,2,2,6,
 %T A306606 5,3,9,7,3,6,4,5,8,3,6,7,2,4,7,6,8,9,9,6,6,5,3,9,9,6,11,7,4,10,5,6,13,
 %U A306606 5,5,9,2,5,7,7,7,10,7,3,5,3,3,6,6,5,11,6,6,9,4,6,11,3,5,9,2,5,4,4,7,11
@@ -8,7 +8,7 @@
 %C A306606 It is well known that any positive odd integer can be written as x^2 + y^2 + 2*z^2 with x,y,z integers.
 %C A306606 See also A306614 for similar conjectures.
 %H A306606 Zhi-Wei Sun, <a href="/A306606/b306606.txt">Table of n, a(n) for n = 1..10000</a>
-%H A306606 Zhi-Wei Sun, <a href="http://arxiv.org/abs/1701.05868">Restricted sums of four squares</a>, arXiv:1701.05868 [math.NT], 2017.
+%H A306606 Zhi-Wei Sun, <a href="https://arxiv.org/abs/1701.05868">Restricted sums of four squares</a>, arXiv:1701.05868 [math.NT], 2017.
 %e A306606 a(1) = 1 with 1 = 1^2 + T(0)^2 + Pen(0)^2 + 2*Pen(0)^2.
 %e A306606 a(23) = 1 with 23 = 4^2 + T(1)^2 + Pen(-1)^2 + 2*Pen(1)^2.
 %e A306606 a(335) = 1 with 335 = 18^2 + T(2)^2 + Pen(0)^2 + 2*Pen(1)^2.

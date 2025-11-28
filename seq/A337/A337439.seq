@@ -1,8 +1,9 @@
-%I A337439 #7 Aug 30 2020 07:13:19
+%I A337439 #12 Aug 01 2025 07:48:04
 %S A337439 5,7,19,47,97,109,113,199,887,1151,1277,1327,9551,11777,14143,15727,
 %T A337439 19609,25471,31397,156007,360653,370261,492113,1357201,1357333,
 %U A337439 1562051,2010733,4652507,17051887,20831323,47326693,47326913,122164747,189695893,428045741,436273291,1453168433
-%N A337439 a(n) is the k-th prime, such that abs(prime(k) - Sum_{j=k-2..k+2} prime(j)) sets a new record. A337438 are the corresponding values of k.
+%N A337439 a(n) is the k-th prime, such that abs(prime(k) - Sum_{j=k-2..k+2} prime(j)/5) sets a new record.
+%C A337439 A337438 are the corresponding values of k.
 %e A337439 List of first terms:
 %e A337439    a(n)  pi(a(n))  average-median
 %e A337439      5,      3,     3/5  = (2 + 3 + 5 + 7 + 11)/5 - 5
@@ -24,3 +25,4 @@
 %K A337439 nonn
 %O A337439 1,1
 %A A337439 _Hugo Pfoertner_, Aug 29 2020
+%E A337439 Name edited by _Peter Munn_, Aug 01 2025

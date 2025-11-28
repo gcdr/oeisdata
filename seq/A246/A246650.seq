@@ -1,8 +1,8 @@
-%I A246650 #9 Feb 16 2025 08:33:23
+%I A246650 #11 Jul 23 2025 11:31:52
 %S A246650 1,1,-2,0,2,-3,-2,0,1,2,-2,0,2,0,-2,0,3,2,0,0,2,-3,-2,0,2,2,-2,0,0,0,
 %T A246650 -4,0,2,1,-2,0,2,-6,0,0,1,2,-2,0,4,0,-2,0,0,2,-2,0,2,0,-2,0,3,2,-2,0,
 %U A246650 2,0,0,0,2,3,-2,0,0,-6,-2,0,4,0,-2,0,2,0,0,0
-%N A246650 Expansion of phi(x) * chi(-x) * psi(x^3) in powers of x where phi(), psi(), chi() are Ramanujan theta functions
+%N A246650 Expansion of phi(x) * chi(-x) * psi(x^3) in powers of x where phi(), psi(), chi() are Ramanujan theta functions.
 %C A246650 Ramanujan theta functions: f(q) (see A121373), phi(q) (A000122), psi(q) (A010054), chi(q) (A000700).
 %H A246650 G. C. Greubel, <a href="/A246650/b246650.txt">Table of n, a(n) for n = 0..1000</a>
 %H A246650 Michael Somos, <a href="/A010815/a010815.txt">Introduction to Ramanujan theta functions</a>

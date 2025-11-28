@@ -1,4 +1,4 @@
-%I A080287 #67 Mar 28 2018 22:02:51
+%I A080287 #72 Sep 06 2025 23:15:42
 %S A080287 1,4,8,18,38,87,114,155,282,751,949,1257,1553,1858,2178,4800,5384,
 %T A080287 18796,37562,64420,252719,933709,289738117,332250401,667752899,
 %U A080287 699497052,966290117,224582902442,319654121875,418843012121,802386465583
@@ -15,5 +15,5 @@
 %E A080287 a(24) on Feb 29 2012; a(25) on Jul 20 2012; and a(26) on Jul 24 2012 by _Jud McCranie_
 %E A080287 a(27) found by Philip Gibbs, Sep 02 2015
 %E A080287 a(28) found by Philip Gibbs and _Jud McCranie_, Sep 09 2015
-%E A080287 a(29)-a(31) found by Philip Gibbs, Oct 2017
-%E A080287 Missing term a(23) added by Jud McCranie, Oct 27 2017
+%E A080287 a(29)-a(31) found by Philip Gibbs, Oct 27 2017
+%E A080287 Missing term a(23) added by _Jud McCranie_, Oct 27 2017

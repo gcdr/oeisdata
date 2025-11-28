@@ -1,4 +1,4 @@
-%I A225371 #55 Jan 28 2021 20:58:09
+%I A225371 #56 Nov 05 2025 15:22:24
 %S A225371 1,2,10,260,31096,13711952,28275659056,224402782202048,
 %T A225371 7293836994286696576,952002419516769475035392,
 %U A225371 497678654312172407869125822976,1044660329769242614113093804053562368,8745525723307044762290950664928498588583936
@@ -6,7 +6,7 @@
 %C A225371 a(0)-a(4) computed by _W. Edwin Clark_, May 07 2013.
 %C A225371 A226321 is a similar sequence which counts the real {0,1} matrices which are the square of a {0,1} matrix. - _Giovanni Resta_, Jun 03 2013
 %H A225371 Victor S. Miller, <a href="/A225371/b225371.txt">Table of n, a(n) for n = 0..30</a>
-%H A225371 Victor S. Miller, <a href="http://arxiv.org/abs/1606.09299">Counting Matrices that are Squares</a>, arXiv:1606.09299 [math.GR], 2016.
+%H A225371 Victor S. Miller, <a href="https://arxiv.org/abs/1606.09299">Counting Matrices that are Squares</a>, arXiv:1606.09299 [math.GR], 2016.
 %H A225371 Giovanni Resta, <a href="/A225371/a225371.c.txt">C program for a(k), with k <= 6.</a>
 %H A225371 <a href="/index/Mat#binmat">Index entries for matrices, binary, which are squares</a>
 %o A225371 (PARI) a(n)=#vecsort(lift(vector(2^n^2,k,matrix(n,n,i,j,bittest(k,(i-1)*n+j-1))^2*Mod(1,2))),,8) \\ _Charles R Greathouse IV_, May 07 2013

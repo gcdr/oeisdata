@@ -1,9 +1,9 @@
-%I A231604 #21 Feb 16 2025 08:33:20
+%I A231604 #26 Nov 06 2025 20:19:37
 %S A231604 3,709,1637,17911,127609,172663
-%N A231604 Numbers n such that (42^n + 1)/43 is prime.
+%N A231604 Numbers k such that (42^k + 1)/43 is prime.
 %C A231604 The first 5 terms are primes.
-%H A231604 J. Brillhart et al., <a href="http://dx.doi.org/10.1090/conm/022">Factorizations of b^n +- 1</a>, Contemporary Mathematics, Vol. 22, Amer. Math. Soc., Providence, RI, 3rd edition, 2002.
 %H A231604 P. Bourdelais, <a href="https://listserv.nodak.edu/cgi-bin/wa.exe?A2=NMBRTHRY;417ab0d6.0906">A Generalized Repunit Conjecture</a>
+%H A231604 J. Brillhart et al., <a href="http://dx.doi.org/10.1090/conm/022">Factorizations of b^n +- 1</a>, Contemporary Mathematics, Vol. 22, Amer. Math. Soc., Providence, RI, 3rd edition, 2002.
 %H A231604 H. Dubner and T. Granlund, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL3/DUBNER/dubner.html">Primes of the Form (b^n+1)/(b+1)</a>, J. Integer Sequences, 3 (2000), #P00.2.7.
 %H A231604 H. Lifchitz, <a href="http://www.primenumbers.net/Henri/us/MersFermus.htm">Mersenne and Fermat primes field</a>
 %H A231604 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/Repunit.html">Repunit</a>.

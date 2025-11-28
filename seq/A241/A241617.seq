@@ -1,8 +1,8 @@
-%I A241617 #5 Aug 11 2014 22:46:12
+%I A241617 #7 Jun 02 2025 10:11:02
 %S A241617 364,2366,15379,93457,583089,3672032,22925695,143212290,896486942,
 %T A241617 5607651699,35066570585,219346221757,1372020569832,8581465964097,
 %U A241617 53675165117172,335729445819781,2099913330669171,13134499972175218
-%N A241617 Number of length n+2 0..11 arrays with no consecutive three elements summing to more than 11
+%N A241617 Number of length n+2 0..11 arrays with no consecutive three elements summing to more than 11.
 %C A241617 Column 11 of A241619
 %H A241617 R. H. Hardin, <a href="/A241617/b241617.txt">Table of n, a(n) for n = 1..210</a>
 %H A241617 R. H. Hardin, <a href="/A241617/a241617.txt">Empirical recurrence of order 78</a>

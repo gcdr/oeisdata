@@ -1,4 +1,4 @@
-%I A002457 M4198 N1752 #355 Feb 16 2025 08:32:25
+%I A002457 M4198 N1752 #369 Nov 05 2025 15:21:41
 %S A002457 1,6,30,140,630,2772,12012,51480,218790,923780,3879876,16224936,
 %T A002457 67603900,280816200,1163381400,4808643120,19835652870,81676217700,
 %U A002457 335780006100,1378465288200,5651707681620,23145088600920,94684453367400,386971244197200,1580132580471900
@@ -19,6 +19,7 @@
 %C A002457 a(n) is the result of processing the n+1 row of Pascal's triangle A007318 with the method of A067056. Example: Let n=3. Given the 4th row of Pascal's triangle 1,4,6,4,1, we get 1*(4+6+4+1) + (1+4)*(6+4+1) + (1+4+6)*(4+1) + (1+4+6+4)*1 = 15+55+55+15 = 140 = a(3). - _J. M. Bergot_, May 26 2017
 %C A002457 a(n) is the number of (n+1) X 2 Young tableaux with a two horizontal walls between the first and second column. If there is a wall between two cells, the entries may be decreasing; see [Banderier, Wallner 2021] and A000984 for one horizontal wall. - _Michael Wallner_, Jan 31 2022
 %C A002457 a(n) is the number of facets of the symmetric edge polytope of the cycle graph on 2n+1 vertices. - _Mariel Supina_, May 12 2022
+%C A002457 Diagonal of the rational function 1 / (1 - x - y)^2. - _Ilya Gutkovskiy_, Apr 23 2025
 %D A002457 A. T. Benjamin and J. J. Quinn, Proofs that really count: the art of combinatorial proof, M.A.A. 2003, id. 159.
 %D A002457 L. Comtet, Advanced Combinatorics, Reidel, 1974, p. 83, Problem 25; p. 168, #30.
 %D A002457 W. Feller, An Introduction to Probability Theory and Its Applications, Vol. I.
@@ -37,12 +38,13 @@
 %H A002457 Sara C. Billey, Matjaž Konvalinka, and Joshua P. Swanson, <a href="https://arxiv.org/abs/1905.00975">Asymptotic normality of the major index on standard tableaux</a>, arXiv:1905.00975 [math.CO], 2019.See p. 15, Remark 4.2
 %H A002457 R. Chapman, <a href="http://dx.doi.org/10.1016/S0012-365X(98)00367-7">Moments of Dyck paths</a>, Discrete Math., 204 (1999), 113-117.
 %H A002457 Ömür Deveci and Anthony G. Shannon, <a href="https://doi.org/10.20948/mathmontis-2021-50-4">Some aspects of Neyman triangles and Delannoy arrays</a>, Mathematica Montisnigri (2021) Vol. L, 36-43.
-%H A002457 F. Disanto, A. Frosini, R. Pinzani and S. Rinaldi, <a href="http://arxiv.org/abs/math/0702550">A closed formula for the number of convex permutominoes</a>, arXiv:math/0702550 [math.CO], 2007.
-%H A002457 Luca Ferrari and Emanuele Munarini, <a href="http://arxiv.org/abs/1203.6792">Enumeration of edges in some lattices of paths</a>, arXiv preprint arXiv:1203.6792 [math.CO], 2012 and <a href="https://cs.uwaterloo.ca/journals/JIS/VOL17/Ferrari/ferrari.html">J. Int. Seq. 17 (2014) #14.1.5</a>.
+%H A002457 F. Disanto, A. Frosini, R. Pinzani and S. Rinaldi, <a href="https://arxiv.org/abs/math/0702550">A closed formula for the number of convex permutominoes</a>, arXiv:math/0702550 [math.CO], 2007.
+%H A002457 Luca Ferrari and Emanuele Munarini, <a href="https://arxiv.org/abs/1203.6792">Enumeration of edges in some lattices of paths</a>, arXiv preprint arXiv:1203.6792 [math.CO], 2012 and <a href="https://cs.uwaterloo.ca/journals/JIS/VOL17/Ferrari/ferrari.html">J. Int. Seq. 17 (2014) #14.1.5</a>.
 %H A002457 Nikita Gogin and Mika Hirvensalo, <a href="https://pca-pdmi.ru/2020/files/10/GoHi2020ExtAbstract.pdf">On the Moments of Squared Binomial Coefficients</a>, (2020).
 %H A002457 P.-Y. Huang, S.-C. Liu, and Y.-N. Yeh, <a href="http://www.combinatorics.org/ojs/index.php/eljc/article/view/v21i2p45">Congruences of Finite Summations of the Coefficients in certain Generating Functions</a>, The Electronic Journal of Combinatorics, 21 (2014), #P2.45.
-%H A002457 Milan Janjić, <a href="https://www.emis.de/journals/JIS/VOL21/Janjic2/janjic103.html">Pascal Matrices and Restricted Words</a>, J. Int. Seq., Vol. 21 (2018), Article 18.5.2.
+%H A002457 Milan Janjić, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL21/Janjic2/janjic103.html">Pascal Matrices and Restricted Words</a>, J. Int. Seq., Vol. 21 (2018), Article 18.5.2.
 %H A002457 C. Jordan, <a href="/A002457/a002457_1.pdf">Calculus of Finite Differences</a>, Budapest, 1939. [Annotated scans of pages 448-450 only]
+%H A002457 Cemil Karaçam and Alper Vural, <a href="https://doi.org/10.21136/MB.2025.0084-24">Enumerating 2D and 3D lattice paths with arbitrary steps</a>, Mathematica Bohemica, pp. 1-13 (2025). See p. 4.
 %H A002457 Bahar Kuloğlu, Engin Özkan, and Marin Marin, <a href="https://doi.org/10.2478/auom-2023-0023">Fibonacci and Lucas Polynomials in n-gon</a>, An. Şt. Univ. Ovidius Constanţa (Romania 2023) Vol. 31, No 2, 127-140.
 %H A002457 C. Lanczos, <a href="/A002457/a002457.pdf">Applied Analysis</a> (Annotated scans of selected pages)
 %H A002457 A. Petojevic and N. Dapic, <a href="http://www.mi.sanu.ac.rs/~gvm/radovi/AP-Budva.pdf">The vAm(a,b,c;z) function</a>, Preprint 2013.
@@ -102,6 +104,7 @@
 %F A002457 G.f. for {1/a(n)}: 4*arctan(sqrt(x/(4-x))) / sqrt(x*(4-x)). - _Michael Somos_, Jun 17 2023
 %F A002457 a(n) = Sum_{k = 0..n} (-1)^(n+k) * (n + 2*k + 1)*binomial(n+k, k).  This is the particular case m = 1 of the identity Sum_{k = 0..m*n} (-1)^k * (n + 2*k + 1) * binomial(n+k, k) = (-1)^(m*n) * (m*n + 1) * binomial((m+1)*n+1, n). Cf. A090816 and A306290. - _Peter Bala_, Nov 02 2024
 %F A002457 a(n) = (1/Pi)*(2*n + 1)*(2^(2*n + 1))*Integral_{x=0..oo} 1/(x^2 + 1)^(n + 1) dx. - _Velin Yanev_, Jan 28 2025
+%F A002457 Conjecture: a(n) = floor(sqrt((16^n + 1)^(2*n+1))) mod 16^n, for n > 0. - _Joseph M. Shunia_, Sep 11 2025
 %e A002457 G.f. = 1 + 6*x + 30*x^2 + 140*x^3 + 630*x^4 + 2772*x^5 + 12012*x^6 + 51480*x^7 + ...
 %p A002457 A002457:=n->(n+1) * binomial(2*(n+1),(n+1)) / 2; seq(A002457(n), n=0..50);
 %p A002457 seq((2*n)!*coeff(series(HeunC(0,0,-2,-1/4,7/4,4*x^2),x,2*n+1),x,2*n),n=0..22); # _Peter Luschny_, Nov 22 2013
@@ -111,7 +114,7 @@
 %o A002457 (Haskell)
 %o A002457 a002457 n = a116666 (2 * n + 1) (n + 1)
 %o A002457 -- _Reinhard Zumkeller_, Nov 02 2013
-%o A002457 (Sage)
+%o A002457 (SageMath)
 %o A002457 A002457 = lambda n: binomial(n+1/2,1/2)<<2*n
 %o A002457 [A002457(n) for n in range(23)] # _Peter Luschny_, Sep 22 2014
 %o A002457 (Magma) [Factorial(2*n+1)/Factorial(n)^2: n in [0..25]]; // _Vincenzo Librandi_, Oct 12 2015

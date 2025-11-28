@@ -1,8 +1,8 @@
-%I A229266 #18 Oct 03 2023 17:52:10
+%I A229266 #21 Jul 28 2025 20:53:31
 %S A229266 3,23,557,1289,2447,3779,9209,10331,11351,18367,14051,34351,42953,
 %T A229266 67883,95717,96587,134807,164249,193057,310553,253159,321397,383723,
 %U A229266 548213,657311,499151,630023,516251,732181,713927,927013,932431,784627,906473,855331,1121987
-%N A229266 Primes of the form sigma(n) + tau(n) + phi(n), where sigma(n) = A000203(n), tau(n) = A000005(n) and phi(n) = A000010(n).
+%N A229266 Primes of the form sigma(k) + tau(k) + phi(k), where sigma(k) = A000203(k), tau(k) = A000005(k) and phi(k) = A000010(k).
 %e A229266 The third term of A229265 is 200 and sigma(200) +  tau(200) + phi(200) = 465 + 12 + 80 = 557 is prime.
 %p A229266 with(numtheory); P:=proc(q) local a, n; for n from 1 to q do a:=sigma(n)+tau(n)+phi(n);
 %p A229266 if isprime(a) then print(a); fi; od; end: P(10^6);

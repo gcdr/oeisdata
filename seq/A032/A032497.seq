@@ -1,6 +1,6 @@
-%I A032497 #20 Dec 20 2018 10:33:53
+%I A032497 #26 Sep 26 2025 18:54:30
 %S A032497 36,72,288,5528,8904,9876,130992
-%N A032497 Numbers n such that 241*2^n+1 is prime.
+%N A032497 Numbers k such that 241*2^k+1 is prime.
 %H A032497 Ray Ballinger, <a href="http://www.prothsearch.com/index.html">Proth Search Page</a>
 %H A032497 Ray Ballinger & Wilfrid Keller, <a href="http://www.prothsearch.com/riesel1.html">List of primes k.2^n + 1 for k < 300</a>.
 %H A032497 <a href="/index/Pri#riesel">Index entries for sequences of n such that k*2^n-1 (or k*2^n+1) is prime</a>
@@ -8,5 +8,5 @@
 %Y A032497 Cf. A032373, A032419, A032460.
 %K A032497 nonn,hard
 %O A032497 1,1
-%A A032497 _N. J. A. Sloane_.
+%A A032497 _N. J. A. Sloane_
 %E A032497 One more term (from the Ballinger-Keller web page) from _M. F. Hasler_, Apr 18 2007

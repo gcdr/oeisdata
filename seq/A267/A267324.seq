@@ -1,11 +1,11 @@
-%I A267324 #57 Aug 12 2020 11:42:14
+%I A267324 #58 Nov 05 2025 15:22:31
 %S A267324 0,0,0,0,0,32,288,2448,22080,216000,2298240,26530560,330946560,
 %T A267324 4441651200,63866880000,980037273600,15990989414400,276529539686400,
 %U A267324 5052853757952000,97290972979200000,1969085601939456000,41794695550992384000,928395406320205824000
 %N A267324 Number of elements of S_n with strategic pile of size 4.
 %C A267324 Strategic pile is defined in A267323.
 %C A267324 The formula given below is a specific instance of the formula that will appear in "Quantifying CDS Sortability of Permutations Using Strategic Piles", see link. - _Marisa Gaetz_, Jan 18 2017
-%H A267324 K. L. M. Adamyk, E. Holmes, G. R. Mayfield, D. J. Moritz, M. Scheepers, B. E. Tenner, H. C. Wauck, <a href="http://arxiv.org/abs/1410.2353">Sorting Permutations: Games, Genomes, and Cycles</a>, arXiv:1410.2353 [math.CO], 2014-2017.
+%H A267324 K. L. M. Adamyk, E. Holmes, G. R. Mayfield, D. J. Moritz, M. Scheepers, B. E. Tenner, H. C. Wauck, <a href="https://arxiv.org/abs/1410.2353">Sorting Permutations: Games, Genomes, and Cycles</a>, arXiv:1410.2353 [math.CO], 2014-2017.
 %H A267324 Marisa Gaetz, Bethany Flanagan, Marion Scheepers, Meghan Shanks, <a href="https://arxiv.org/abs/1811.11937">Quantifying CDS Sortability of Permutations by Strategic Pile Size</a>, arXiv:1811.11937 [math.CO], 2018.
 %H A267324 M. Gaetz, B. Molokach, M. Scheepers, and M. Shanks, <a href="https://math.boisestate.edu/reu/publications/quantifying-cds-sortability.pdf">Quantifying CDS Sortability of Permutations Using Strategic Piles</a>
 %F A267324 a(n) = (n-4)!*(6*binomial(n-5,3) + 16*binomial(n-5,2) + 16*binomial(n-5,1)) for n>5. - _Marisa Gaetz_, Jan 18 2017

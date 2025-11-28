@@ -1,4 +1,4 @@
-%I A282411 #10 Feb 16 2025 08:33:41
+%I A282411 #13 Nov 05 2025 15:22:37
 %S A282411 1,1,111,0,11111,0,1111111,0,111111111,0,11111111111,0,1111111111111,
 %T A282411 0,111111111111111,0,11111111111111111,0,1111111111111111111,0,
 %U A282411 111111111111111111111,0,11111111111111111111111,0,1111111111111111111111111,0
@@ -7,7 +7,7 @@
 %D A282411 S. Wolfram, A New Kind of Science, Wolfram Media, 2002; p. 170.
 %H A282411 Robert Price, <a href="/A282411/b282411.txt">Table of n, a(n) for n = 0..126</a>
 %H A282411 Robert Price, <a href="/A282411/a282411.tmp.txt">Diagrams of first 20 stages</a>
-%H A282411 N. J. A. Sloane, <a href="http://arxiv.org/abs/1503.01168">On the Number of ON Cells in Cellular Automata</a>, arXiv:1503.01168 [math.CO], 2015
+%H A282411 N. J. A. Sloane, <a href="https://arxiv.org/abs/1503.01168">On the Number of ON Cells in Cellular Automata</a>, arXiv:1503.01168 [math.CO], 2015
 %H A282411 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/ElementaryCellularAutomaton.html">Elementary Cellular Automaton</a>
 %H A282411 S. Wolfram, <a href="http://wolframscience.com/">A New Kind of Science</a>
 %H A282411 Wolfram Research, <a href="http://atlas.wolfram.com/">Wolfram Atlas of Simple Programs</a>
@@ -19,6 +19,7 @@
 %F A282411 a(n) = 101*a(n-2) - 100*a(n-4) for n>3.
 %F A282411 G.f.: (1 + x + 10*x^2 - 101*x^3 + 100*x^5) / ((1 - x)*(1 + x)*(1 - 10*x)*(1 + 10*x)).
 %F A282411 (End)
+%F A282411 Equivalent conjecture: a(n) = A279118(n) for n>=2. - _R. J. Mathar_, Jun 21 2025
 %t A282411 CAStep[rule_, a_] := Map[rule[[10 - #]] &, ListConvolve[{{0, 2, 0},{2, 1, 2}, {0, 2, 0}}, a, 2],{2}];
 %t A282411 code = 467; stages = 128;
 %t A282411 rule = IntegerDigits[code, 2, 10];

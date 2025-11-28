@@ -1,4 +1,4 @@
-%I A282120 #8 Feb 16 2025 08:33:40
+%I A282120 #9 Nov 05 2025 15:22:37
 %S A282120 1,1,6,7,24,23,88,127,416,479,1760,1919,7040,5503,21888,30719,113152,
 %T A282120 89599,355840,522239,1587200,2086911,6346752,6160383,23994368,
 %U A282120 30892031,115040256,134217727,411074560,494764031,1837989888,2147483647,7015104512,7874150399
@@ -7,7 +7,7 @@
 %D A282120 S. Wolfram, A New Kind of Science, Wolfram Media, 2002; p. 170.
 %H A282120 Robert Price, <a href="/A282120/b282120.txt">Table of n, a(n) for n = 0..126</a>
 %H A282120 Robert Price, <a href="/A282120/a282120.tmp.txt">Diagrams of first 20 stages</a>
-%H A282120 N. J. A. Sloane, <a href="http://arxiv.org/abs/1503.01168">On the Number of ON Cells in Cellular Automata</a>, arXiv:1503.01168 [math.CO], 2015
+%H A282120 N. J. A. Sloane, <a href="https://arxiv.org/abs/1503.01168">On the Number of ON Cells in Cellular Automata</a>, arXiv:1503.01168 [math.CO], 2015
 %H A282120 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/ElementaryCellularAutomaton.html">Elementary Cellular Automaton</a>
 %H A282120 S. Wolfram, <a href="http://wolframscience.com/">A New Kind of Science</a>
 %H A282120 Wolfram Research, <a href="http://atlas.wolfram.com/">Wolfram Atlas of Simple Programs</a>

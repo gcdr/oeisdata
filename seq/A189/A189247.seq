@@ -1,8 +1,8 @@
-%I A189247 #8 Mar 01 2018 04:44:18
+%I A189247 #10 Jul 22 2025 11:37:35
 %S A189247 2,24,152,1168,8448,62272,456320,3350016,24579584,180376576,
 %T A189247 1323614208,9712930816,71274930176,523026923520,3838053810176,
 %U A189247 28164247060480,206673697308672,1516604287614976,11129082140426240,81666965136998400
-%N A189247 Number of n X 2 array permutations with each element making zero or one king moves
+%N A189247 Number of n X 2 array permutations with each element making zero or one king moves.
 %C A189247 Column 2 of A189254.
 %H A189247 R. H. Hardin, <a href="/A189247/b189247.txt">Table of n, a(n) for n = 1..200</a>
 %F A189247 Empirical: a(n) = 6*a(n-1) + 12*a(n-2) - 16*a(n-3).

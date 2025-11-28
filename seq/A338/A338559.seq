@@ -1,4 +1,4 @@
-%I A338559 #15 Dec 09 2020 01:14:06
+%I A338559 #19 May 30 2025 01:10:51
 %S A338559 1,0,1,1,1,17,5,17,61,559,269,5851,5279,954913,1693849,6394159,
 %T A338559 1430687,33257690117,393069739,330504317141,146861034421,
 %U A338559 3447587278559,13150098373,17185160160637123,68404253084009,219367146802450039,527431007100952693,2089195405327981487
@@ -8,7 +8,7 @@
 %H A338559 Krishnaswami Alladi and Paul Erdős, <a href="https://projecteuclid.org/euclid.pjm/1102811427">On an additive arithmetic function</a>, Pacific Journal of Mathematics, Vol. 71, No. 2 (1977), pp. 275-294, <a href="https://msp.org/pjm/1977/71-2/pjm-v71-n2-p01-s.pdf">alternative link</a>. See Theorem 1.7, pp. 286-287.
 %H A338559 Aleksandar Ivić, <a href="https://arxiv.org/abs/math/0311505">On certain large additive functions</a>, arXiv:math/0311505 [math.NT], 2003.
 %F A338559 Sum_{k>=0} a(k)/A338560(k) = zeta(2) = Pi^2/6 (A013661).
-%F A338559 Let {P_j} be the set of partitions of n into prime parts, with j = 1..A000607(n). For a partition P_j = {p_i, b_i} of n = Sum_i b_i * p_i, where p_i are distinct primes, and b_i >= 1 are their multiplicities in the partition, let S(P_j) = Product_i p_i^(b_i + 1)) be a powerful number associated with the partition. f(n) = a(n)/A338560(n) = Sum_{j=1..r(n)} 1/psi(S(P_j)), where psi is the Dedekind psi function (A001615).
+%F A338559 Let {P_j} be the set of partitions of n into prime parts, with j = 1..A000607(n). For a partition P_j = {p_i, b_i} of n = Sum_i b_i * p_i, where p_i are distinct primes, and b_i >= 1 are their multiplicities in the partition, let S(P_j) = Product_i p_i^(b_i + 1) be a powerful number associated with the partition. f(n) = a(n)/A338560(n) = Sum_{j=1..r(n)} 1/psi(S(P_j)), where psi is the Dedekind psi function (A001615).
 %F A338559 For any r>0, Sum_{n<=x, n nonsquarefree} 1/A280292(n)^r ~ c(r)*x + O(x^(1-r/2)*log(x)) + O(x^(1/2)*log(x)), where c(r) = (6/Pi^2) * Sum_{k>=2} (a(k)/A338560(k)) * (1/k^r) (Ivić, 2003).
 %e A338559 1/1, 0/1, 1/6, 1/12, 1/12, 17/360, 5/72, 17/560, 61/2160, 559/30240, 269/12600, 5851/399168, ...
 %e A338559 For n=0, the sequence of numbers k such that A280292(k) = 0 are the squarefree numbers (A005117), whose density is 6/Pi^2. Thus f(0) = a(0)/A338560(0) = 1 and a(0) = 1.

@@ -1,4 +1,4 @@
-%I A371054 #16 Mar 20 2024 11:49:11
+%I A371054 #18 Mar 29 2025 17:00:47
 %S A371054 11,29,35,38,83,89,107,110,116,119,245,251,269,323,326,332,350,353,
 %T A371054 359,362,731,737,755,809,971,974,980,998,1052,1055,1061,1079,1082,
 %U A371054 1088,1091,2189,2195,2213,2267,2429,2915,2918,2924,2942,2996,3158,3161,3167,3185
@@ -8,6 +8,7 @@
 %t A371054 Range[2, 4000, 3]], #[[2]] &]]  (* this sequence *)
 %t A371054 ToExpression[Map[IntegerString[#, 3] &, %]]  (* A371055 *)
 %t A371054 (* _Peter J. C. Moses_, Mar 06 2024 *)
+%t A371054 Take[With[{nn=6},Flatten[Table[FromDigits[Join[PadRight[{},z,1],PadRight[{},o,0],PadRight[{},t,2]],3],{z,nn},{o,nn},{t,nn}]]]//Sort,50] (* _Harvey P. Dale_, Mar 29 2025 *)
 %o A371054 (Python)
 %o A371054 from itertools import count, islice
 %o A371054 def A371054_gen(): # generator of terms

@@ -1,8 +1,8 @@
-%I A221571 #6 Jun 06 2013 14:20:06
+%I A221571 #10 Oct 03 2025 19:46:47
 %S A221571 0,37,197,1369,8991,59705,395641,2622817,17385993,115249117,763966685,
 %T A221571 5064207645,33569783613,222528473325,1475103973253,9778217146445,
 %U A221571 64818163521317,429668748357261,2848202159470085,18880255015594493
-%N A221571 Number of 0..6 arrays of length n with each element differing from at least one neighbor by something other than 1
+%N A221571 Number of 0..6 arrays of length n with each element differing from at least one neighbor by something other than 1.
 %C A221571 Column 6 of A221573
 %H A221571 R. H. Hardin, <a href="/A221571/b221571.txt">Table of n, a(n) for n = 1..210</a>
 %F A221571 Empirical: a(n) = 7*a(n-1) -4*a(n-2) +6*a(n-3) +26*a(n-4) +10*a(n-5) +16*a(n-6) +12*a(n-8).
@@ -16,4 +16,4 @@
 %e A221571 ..6....4....2....5....1....5....6....4....4....4....4....0....2....3....3....2
 %K A221571 nonn
 %O A221571 1,2
-%A A221571 _R. H. Hardin_ Jan 20 2013
+%A A221571 _R. H. Hardin_, Jan 20 2013

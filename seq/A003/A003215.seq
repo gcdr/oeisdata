@@ -1,4 +1,4 @@
-%I A003215 M4362 #430 Feb 16 2025 08:32:27
+%I A003215 M4362 #471 Nov 05 2025 15:35:24
 %S A003215 1,7,19,37,61,91,127,169,217,271,331,397,469,547,631,721,817,919,1027,
 %T A003215 1141,1261,1387,1519,1657,1801,1951,2107,2269,2437,2611,2791,2977,
 %U A003215 3169,3367,3571,3781,3997,4219,4447,4681,4921,5167,5419,5677,5941,6211,6487,6769
@@ -44,6 +44,8 @@
 %C A003215 Area enclosed by the segment of Archimedean spiral between n*Pi/2 and (n+1)*Pi/2 in Pi^3/48 units. - _Carmine Suriano_, Apr 10 2018
 %C A003215 This sequence contains all numbers k such that 12*k - 3 is a square. - _Klaus Purath_, Oct 19 2021
 %C A003215 The continued fraction expansion of sqrt(3*a(n)) is [3n+1; {1, 1, 2n, 1, 1, 6n+2}]. For n = 0, this collapses to [1; {1, 2}]. - _Magus K. Chu_, Sep 12 2022
+%D A003215 John H. Conway and Richard K. Guy, The Book of Numbers, New York: Springer-Verlag, 1996. See p.41 and p. 81.
+%D A003215 Elena Deza and Michel Marie Deza, Figurate numbers, World Scientific Publishing (2012), pages 49, 68, 83, 139-140, 205-206.
 %D A003215 M. Gardner, Time Travel and Other Mathematical Bewilderments. Freeman, NY, 1988, p. 18.
 %D A003215 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
 %H A003215 T. D. Noe, <a href="/A003215/b003215.txt">Table of n, a(n) for n = 0..1000</a>
@@ -51,11 +53,12 @@
 %H A003215 B. T. Bennett and R. B. Potts, <a href="http://dx.doi.org/10.1017/S144678870000505X">Arrays and brooks</a>, J. Austral. Math. Soc., 7 (1967), 23-31 (see p. 30).
 %H A003215 B. T. Bennett and R. B. Potts, <a href="/A002047/a002047_1.pdf">Arrays and brooks</a>, J. Austral. Math. Soc., 7 (1967), 23-31. [Annotated scanned copy]
 %H A003215 Aran Bingham, <a href="https://scholarworks.uno.edu/td/1959">Commutative n-ary Arithmetic</a>, University of New Orleans Theses and Dissertations, Paper 1959, 2015.
-%H A003215 Henry Bottomley, <a href="/A003215/a003215.gif">Illustration of initial terms</a>
+%H A003215 Henry Bottomley, <a href="/A003215/a003215.gif">Illustration of initial terms</a>.
 %H A003215 J. H. Conway and N. J. A. Sloane, Low-Dimensional Lattices VII: Coordination Sequences, Proc. Royal Soc. London, A453 (1997), 2369-2389 (<a href="http://neilsloane.com/doc/Me220.pdf">pdf</a>).
+%H A003215 Dominique Désérable, <a href="https://doi.org/10.1007/978-3-031-78757-7_6">Versatile Topology for Two-Dimensional Cellular Automata</a>, Advances in Cellular Automata, Emergence, Complexity and Computation (ECC Vol 52) Springer, Cham (2025), Ch. 6, pp. 151-186.
 %H A003215 M. Gardner & N. J. A. Sloane, <a href="/A003154/a003154.pdf">Correspondence, 1973-74</a>
 %H A003215 R. K. Guy, <a href="/A005728/a005728.pdf">Letter to N. J. A. Sloane, 1987</a>
-%H A003215 R. K. Guy, <a href="http://www.jstor.org/stable/2322249">The strong law of small numbers</a>. Amer. Math. Monthly 95 (1988), no. 8, 697-712.
+%H A003215 R. K. Guy, <a href="https://www.jstor.org/stable/2322249">The strong law of small numbers</a>. Amer. Math. Monthly 95 (1988), no. 8, 697-712.
 %H A003215 R. K. Guy, <a href="/A005165/a005165.pdf">The strong law of small numbers</a>. Amer. Math. Monthly 95 (1988), no. 8, 697-712. [Annotated scanned copy]
 %H A003215 Md. Towhidul Islam, <a href="/A003215/a003215.png">Extending triangle</a>
 %H A003215 G. S. Kazandzidis, <a href="http://www.hms.gr/apothema/?s=sa&amp;i=20">On a Conjecture of Moessner and a General Problem</a>, Bull. Soc. Math. Grèce, Nouvelle Série - vol. 2, fasc. 1-2, pp. 23-30 (1961).
@@ -113,8 +116,8 @@
 %F A003215 a(n) = A000290(n) + A000384(n+1);
 %F A003215 a(n) = A060544(n-1) + 3*A000217(n);
 %F A003215 a(n) = A060544(n-1) + A045943(n).
-%F A003215 a(2*n+1) = A154105(n).
-%F A003215 (End)
+%F A003215 a(2*n+1) = A154105(n). (End)
+%F A003215 a(n) = A045944(n) + n + 1. - _Miquel Cerda_, Sep 23 2025
 %e A003215 G.f. = 1 + 7*x + 19*x^2 + 37*x^3 + 61*x^4 + 91*x^5 + 127*x^6 + 169*x^7 + 217*x^8 + ...
 %e A003215 From _Omar E. Pol_, Aug 21 2011: (Start)
 %e A003215 Illustration of initial terms:

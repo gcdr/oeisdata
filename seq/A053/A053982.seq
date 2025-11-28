@@ -1,6 +1,6 @@
-%I A053982 #33 Aug 12 2024 13:08:12
+%I A053982 #43 Sep 29 2025 13:13:08
 %S A053982 1,3,7,11,16,22,39,76,116,139,149,169,179,220,372,429,1216,2146,3176,
-%T A053982 5382,5969,12271,15271,43903
+%T A053982 5382,5969,12271,15271,43903,75362,87511,228162
 %N A053982 Numbers k such that 1 + product of first k composite numbers is prime.
 %t A053982 Composite[n_Integer] := (k = n + PrimePi[n] + 1; While[k - PrimePi[k] - 1 != n, k++ ]; k); Do[ If[ PrimeQ[ Product[ Composite[k], {k, 1, n} ] + 1], Print[ n ] ], {n, 1, 430} ]
 %t A053982 Position[FoldList[Times,Select[Range[1500],CompositeQ]],_?(PrimeQ[#+1]&)]//Flatten (* _Harvey P. Dale_, Dec 20 2022 *)
@@ -14,4 +14,6 @@
 %E A053982 Edited by _T. D. Noe_, Oct 30 2008
 %E A053982 a(18)-a(19) from _Amiram Eldar_, Jun 03 2024
 %E A053982 a(20)-a(21) from _Michael S. Branicky_, Jun 04 2024
-%E A053982 More terms via A049420 from _Jeppe Stig Nielsen_, Aug 12 2024
+%E A053982 a(22)-a(24) via A049420 from _Jeppe Stig Nielsen_, Aug 12 2024
+%E A053982 a(25)-a(26) via A049420 from _Jeppe Stig Nielsen_, Sep 13 2025
+%E A053982 a(27) from _Jeppe Stig Nielsen_, Sep 29 2025

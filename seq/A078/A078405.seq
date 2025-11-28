@@ -1,4 +1,4 @@
-%I A078405 #12 Aug 14 2020 13:12:53
+%I A078405 #14 Jun 29 2025 01:55:11
 %S A078405 2,2,5,11,18,50,131,226,438
 %N A078405 Smallest positive integer than cannot be obtained from exactly n copies of n using parentheses and the operations +, -, /, *, ^ and concatenation.
 %C A078405 Only the original numbers may be concatenated, not the results of arithmetic operations (but see A078413).
@@ -12,3 +12,4 @@
 %O A078405 1,1
 %A A078405 Kit Vongmahadlek (kit119(AT)yahoo.com), Dec 27 2002
 %E A078405 a(7), a(8) and a(9) computed by Joseph DeVincentis (devjoe(AT)yahoo.com), Dec 27 2002
+%E A078405 a(1)-a(9) verified by _Sean A. Irvine_, Jun 29 2025

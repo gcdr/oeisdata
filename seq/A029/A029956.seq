@@ -1,11 +1,11 @@
-%I A029956 #39 Jun 14 2024 11:55:30
+%I A029956 #41 Nov 05 2025 15:21:53
 %S A029956 0,1,2,3,4,5,6,7,8,9,10,12,24,36,48,60,72,84,96,108,120,122,133,144,
 %T A029956 155,166,177,188,199,210,221,232,244,255,266,277,288,299,310,321,332,
 %U A029956 343,354,366,377,388,399,410,421,432,443,454,465,476,488,499
 %N A029956 Numbers that are palindromic in base 11.
 %C A029956 Cilleruelo, Luca, & Baxter prove that this sequence is an additive basis of order (exactly) 3. - _Charles R Greathouse IV_, May 04 2020
 %H A029956 John Cerkan, <a href="/A029956/b029956.txt">Table of n, a(n) for n = 1..10000</a>
-%H A029956 Javier Cilleruelo, Florian Luca and Lewis Baxter, <a href="https://doi.org/10.1090/mcom/3221">Every positive integer is a sum of three palindromes</a>, Mathematics of Computation, Vol. 87, No. 314 (2018), pp. 3023-3055, <a href="http://arxiv.org/abs/1602.06208">arXiv preprint</a>, arXiv:1602.06208 [math.NT], 2017.
+%H A029956 Javier Cilleruelo, Florian Luca and Lewis Baxter, <a href="https://doi.org/10.1090/mcom/3221">Every positive integer is a sum of three palindromes</a>, Mathematics of Computation, Vol. 87, No. 314 (2018), pp. 3023-3055, <a href="https://arxiv.org/abs/1602.06208">arXiv preprint</a>, arXiv:1602.06208 [math.NT], 2017.
 %H A029956 Patrick De Geest, <a href="http://www.worldofnumbers.com/nobase10.htm">Palindromic numbers beyond base 10</a>.
 %H A029956 Phakhinkon Phunphayap and Prapanpong Pongsriiam, <a href="https://doi.org/10.13140/RG.2.2.23202.79047">Estimates for the Reciprocal Sum of b-adic Palindromes</a>, 2019.
 %H A029956 <a href="/index/Ab#basis_03">Index entries for sequences that are an additive basis</a>, order 3.
@@ -16,7 +16,7 @@
 %o A029956 (PARI) ispal(n,b)=my(tmp,d=log(n+.5)\log(b)-1);while(d,tmp=n%b;n\=b;if(n\b^d!=tmp,return(0));n=n%(b^d);d-=2;);d<0||n%(b+1)==0
 %o A029956 is(n)=ispal(n,11) \\ _Charles R Greathouse IV_, Aug 21 2012
 %o A029956 (PARI) ispal(n,b=11)=my(d=digits(n,b)); d==Vecrev(d) \\ _Charles R Greathouse IV_, May 04 2020
-%o A029956 (Sage)
+%o A029956 (SageMath)
 %o A029956 [n for n in (0..499) if Word(n.digits(11)).is_palindrome()] # _Peter Luschny_, Sep 13 2018
 %o A029956 (Python)
 %o A029956 from gmpy2 import digits

@@ -1,4 +1,4 @@
-%I A250123 #39 Jun 21 2018 10:15:36
+%I A250123 #40 Nov 05 2025 15:22:28
 %S A250123 1,5,8,8,11,17,25,27,24,30,38,46,47,44,46,50,64,68,65,66,70,80,80,83,
 %T A250123 87,91,100,100,99,99,109,121,121,119,119,125,133,139,140,140,145,153,
 %U A250123 155,152,158,166,174,175,172,174,178,192,196,193,194,198,208,208,211
@@ -7,7 +7,7 @@
 %C A250123 For the definition of k-uniform tiling see Section 2.2 of Chapter 2 of Grünbaum and Shephard (1987).
 %D A250123 Branko Grünbaum and G. C. Shephard, Tilings and Patterns. W. H. Freeman, New York, 1987.
 %H A250123 Joseph Myers, <a href="/A250123/b250123.txt">Table of n, a(n) for n = 0..1000</a>
-%H A250123 Robert Connelly, Jeffrey D. Shen, Alexander D. Smith, <a href="http://arxiv.org/abs/1301.0664">Ball Packings with Periodic Constraints</a>, arXiv:1301.0664 [math.MG], 2013.
+%H A250123 Robert Connelly, Jeffrey D. Shen, Alexander D. Smith, <a href="https://arxiv.org/abs/1301.0664">Ball Packings with Periodic Constraints</a>, arXiv:1301.0664 [math.MG], 2013.
 %H A250123 Robert Connelly, Jeffrey D. Shen, Alexander D. Smith, <a href="http://dx.doi.org/10.1007/s00454-014-9636-z">Ball Packings with Periodic Constraints</a>, Discrete Comput. Geom. 52 (2014), no. 4, 754--779. MR3279548.
 %H A250123 Brian Galebach, <a href="http://probabilitysports.com/tilings.html?u=0&amp;n=4&amp;t=132">Tiling 132</a> (in list of 4-uniform tilings).
 %H A250123 Brian Galebach, <a href="/A250120/a250120.html">k-uniform tilings (k <= 6) and their A-numbers</a>

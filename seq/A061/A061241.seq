@@ -1,10 +1,11 @@
-%I A061241 #27 Sep 08 2022 08:45:03
+%I A061241 #29 May 14 2025 14:54:48
 %S A061241 7,43,61,79,97,151,223,241,277,313,331,349,367,421,439,457,547,601,
 %T A061241 619,673,691,709,727,853,907,997,1033,1051,1069,1087,1123,1213,1231,
 %U A061241 1249,1303,1321,1429,1447,1483,1609,1627,1663,1699,1753,1789,1861,1879,1933
 %N A061241 Prime numbers == 7 (mod 9).
 %C A061241 A010888(a(n)) = 7. - _Reinhard Zumkeller_, Feb 25 2005
 %H A061241 Robert Israel, <a href="/A061241/b061241.txt">Table of n, a(n) for n = 1..10000</a>
+%F A061241 a(n) ~ 6n log n. - _Charles R Greathouse IV_, May 14 2025
 %p A061241 select(isprime,[seq(9*i+7,i=0..10^5)]); # _Robert Israel_, Apr 20 2014
 %t A061241 Select[Range[2500], PrimeQ[#] && Mod[#, 9] == 7 &]
 %t A061241 Select[Prime[Range[300]], Mod[#, 9] == 7 & ] (* _Harvey P. Dale_, Apr 30 2011 *)

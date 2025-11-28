@@ -1,9 +1,9 @@
-%I A038705 #34 Feb 16 2025 08:32:38
+%I A038705 #35 Nov 05 2025 15:21:57
 %S A038705 1,2,3,5,19,41,163,527,1709,4839,13523,34063
 %N A038705 Position of the incrementally largest term in continued fraction for Champernowne constant (A030167).
 %H A038705 H. Havermann, <a href="http://chesswanks.com/pxp/cfcd.html">Number of Digits in Some Champernowne-Continued-Fraction Terms</a>
 %H A038705 J. K. Sikora, <a href="https://docs.google.com/file/d/0B_ZIuCD9HzQtVDFYNWQ5WFRHajg/edit">Number of Digits in the CFE of Champernowne's Constant to the Coefficient Before HWM #12</a>
-%H A038705 J. K. Sikora, <a href="http://arxiv.org/abs/1210.1263">On the High Water Mark Convergents of Champernowne's Constant in Base Ten</a>, arXiv:1210.1263 [math.NT]
+%H A038705 J. K. Sikora, <a href="https://arxiv.org/abs/1210.1263">On the High Water Mark Convergents of Champernowne's Constant in Base Ten</a>, arXiv:1210.1263 [math.NT]
 %H A038705 J. K. Sikora, <a href="https://docs.google.com/file/d/0B_ZIuCD9HzQtNnlLQUdIYTRXY2M/edit">Champernowne's Constant CFE Coefficients to HWM #12 (789 MB unzipped)</a>
 %H A038705 J. K. Sikora, <a href="http://code.google.com/p/champernowne-constant-cfe-coefficient-calculation-hwm/downloads/list">Champernowne's Constant CFE Calculation Program Source</a>
 %H A038705 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/ChampernowneConstantContinuedFraction.html">Champernowne Constant Continued Fraction</a>

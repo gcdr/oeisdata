@@ -1,4 +1,4 @@
-%I A080709 #41 Feb 16 2024 10:21:33
+%I A080709 #42 Nov 05 2025 15:35:30
 %S A080709 4,16,37,58,89,145,42,20,4,16,37,58,89,145,42,20,4,16,37,58,89,145,42,
 %T A080709 20,4,16,37,58,89,145,42,20,4,16,37,58,89,145,42,20,4,16,37,58,89,145,
 %U A080709 42,20,4,16,37,58,89,145,42,20,4,16,37,58,89,145,42,20,4,16,37
@@ -9,7 +9,7 @@
 %C A080709 Porges gave his "set of eight numbers" as a(1)..a(8) in this order, rather than that of the set A039943. (End)
 %D A080709 R. Honsberger, Ingenuity in Math., Random House, 1970, p. 83.
 %H A080709 Vincenzo Librandi, <a href="/A080709/b080709.txt">Table of n, a(n) for n = 1..100</a>
-%H A080709 Arthur Porges, <a href="http://www.jstor.org/stable/2304639">A set of eight numbers</a>, Amer. Math. Monthly 52 (1945), 379-382.
+%H A080709 Arthur Porges, <a href="https://www.jstor.org/stable/2304639">A set of eight numbers</a>, Amer. Math. Monthly 52 (1945), 379-382.
 %H A080709 <a href="/index/Rec#order_08">Index entries for linear recurrences with constant coefficients</a>, signature (0, 0, 0, 0, 0, 0, 0, 1).
 %F A080709 Periodic with period 8.
 %F A080709 a(n) = A000216(n+1). - _R. J. Mathar_, Sep 19 2008

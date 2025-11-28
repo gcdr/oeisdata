@@ -1,8 +1,8 @@
-%I A061944 #19 Dec 05 2020 10:41:08
+%I A061944 #23 Nov 07 2025 22:44:40
 %S A061944 1,3,5,7,28,48,143,148,224,392,2079,2716,2999,12537,14392,16384,32124,
 %T A061944 52073,56747,138203,238847,527989,4580376,5147667,5276712,6982808,
 %U A061944 8947484
-%N A061944 Numbers n such that n divides the (right) concatenation of all numbers <= n written in base 15 (most significant digit on right).
+%N A061944 Numbers k such that k divides the (right) concatenation of all numbers <= k written in base 15 (most significant digit on right).
 %C A061944 This sequence differs from A029508 in that all least significant zeros are removed before concatenation.
 %C A061944 No more terms < 10^7. - _Lars Blomberg_, Oct 22 2011
 %H A061944 <a href="/index/N#concat">Index entries for related sequences</a>

@@ -1,10 +1,10 @@
-%I A151667 #17 Feb 24 2021 02:48:18
+%I A151667 #19 Sep 23 2025 18:13:31
 %S A151667 1,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,1,0,0,
 %T A151667 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 %U A151667 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 %N A151667 Number of partitions of n into distinct powers of 5.
 %H A151667 Alois P. Heinz, <a href="/A151667/b151667.txt">Table of n, a(n) for n = 0..15625</a>
-%H A151667 David Applegate, Omar E. Pol and N. J. A. Sloane, <a href="/A000695/a000695_1.pdf">The Toothpick Sequence and Other Sequences from Cellular Automata</a>, Congressus Numerantium, Vol. 206 (2010), 157-191. [There is a typo in Theorem 6: (13) should read u(n) = 4.3^(wt(n-1)-1) for n >= 2.]
+%H A151667 David Applegate, Omar E. Pol and N. J. A. Sloane, <a href="/A000695/a000695_2.pdf">The Toothpick Sequence and Other Sequences from Cellular Automata</a>, Congressus Numerantium, Vol. 206 (2010), 157-191
 %H A151667 N. J. A. Sloane, <a href="/wiki/Catalog_of_Toothpick_and_CA_Sequences_in_OEIS">Catalog of Toothpick and Cellular Automata Sequences in the OEIS</a>
 %F A151667 G.f.: Prod_{k >= 0 } (1+x^(5^k)). Exponents give A033042.
 %F A151667 G.f. A(x) satisfies: A(x) = (1 + x) * A(x^5). - _Ilya Gutkovskiy_, Aug 12 2019

@@ -1,11 +1,11 @@
-%I A196670 #30 Sep 08 2022 08:45:59
+%I A196670 #32 Nov 05 2025 15:22:21
 %S A196670 5,7,17,19,31,37,41,43,53,59,67,73,79,83,101,103,107,127,131,149,157,
 %T A196670 163,179,181,197,199,211,223,227,257,269,277,281,317,331,337,347,353,
 %U A196670 379,389,419,421,439,461,463,467,479,491,499,509,541,563,569,577,617
 %N A196670 The Chebyshev primes of index 4.
 %C A196670 The sequence consists of such odd prime numbers p that satisfy li(psi(p^4)) - li(psi(p^4-1)) < 1/4, where li(x) is the logarithmic integral and psi(x) is the Chebyshev psi function.
 %H A196670 Dana Jacobsen, <a href="/A196670/b196670.txt">Table of n, a(n) for n = 1..75</a>
-%H A196670 M. Planat and P. Solé, <a href="http://arxiv.org/abs/1109.6489">Efficient prime counting and the Chebyshev primes</a> arXiv:1109.6489 [math.NT], 2011.
+%H A196670 M. Planat and P. Solé, <a href="https://arxiv.org/abs/1109.6489">Efficient prime counting and the Chebyshev primes</a> arXiv:1109.6489 [math.NT], 2011.
 %p A196670 # The function PlanatSole(n,r) is in A196667.
 %p A196670 A196670 := n -> PlanatSole(n,4); # _Peter Luschny_, Oct 23 2011
 %t A196670 ChebyshevPsi[n_] := Log[LCM @@ Range[n]];
@@ -30,7 +30,7 @@
 %o A196670 if jump4(i)-1/4 lt 0 then Set4:=Append(Set4,NthPrime(i)); NthPrime(i); end if;
 %o A196670 end for;
 %o A196670 Set4;
-%o A196670 (Sage)
+%o A196670 (SageMath)
 %o A196670 def A196670(n) : return PlanatSole(n,4)
 %o A196670 # The function PlanatSole(n,r) is in A196667.
 %o A196670 # _Peter Luschny_, Oct 23 2011

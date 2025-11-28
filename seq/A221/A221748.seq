@@ -1,6 +1,6 @@
-%I A221748 #3 Jan 24 2013 07:29:34
+%I A221748 #7 Oct 03 2025 19:55:07
 %S A221748 1,817,32129,3389575,241376639,19762890960,1529699796514
-%N A221748 Number of nX4 arrays of occupancy after each element moves to some king-move neighbor, without move-in move-out straight through or left turns
+%N A221748 Number of nX4 arrays of occupancy after each element moves to some king-move neighbor, without move-in move-out straight through or left turns.
 %C A221748 Column 4 of A221749
 %e A221748 Some solutions for n=3
 %e A221748 ..0..0..1..1....0..1..1..1....0..0..1..1....2..0..1..1....1..0..1..0
@@ -8,4 +8,4 @@
 %e A221748 ..0..2..0..0....1..0..2..1....0..2..0..0....1..1..2..0....1..0..1..0
 %K A221748 nonn
 %O A221748 1,2
-%A A221748 _R. H. Hardin_ Jan 24 2013
+%A A221748 _R. H. Hardin_, Jan 24 2013

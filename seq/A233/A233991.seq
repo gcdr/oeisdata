@@ -1,8 +1,8 @@
-%I A233991 #4 Dec 18 2013 08:40:07
+%I A233991 #6 Jun 02 2025 09:07:50
 %S A233991 774,3040,11622,51026,218602,1058618,4923910,25667010,126489782,
 %T A233991 690800294,3533497602,19797058950,103613461346,587718236894,
 %U A233991 3119919914130,17784977065082,95276354415258,543743313418490
-%N A233991 Number of (n+1)X(2+1) 0..6 arrays with every 2X2 subblock having the sum of the absolute values of all six edge and diagonal differences equal to 18
+%N A233991 Number of (n+1)X(2+1) 0..6 arrays with every 2X2 subblock having the sum of the absolute values of all six edge and diagonal differences equal to 18.
 %C A233991 Column 2 of A233997
 %H A233991 R. H. Hardin, <a href="/A233991/b233991.txt">Table of n, a(n) for n = 1..210</a>
 %e A233991 Some solutions for n=4

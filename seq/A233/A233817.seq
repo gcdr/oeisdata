@@ -1,8 +1,8 @@
-%I A233817 #4 Dec 16 2013 10:30:36
+%I A233817 #6 Jun 02 2025 09:01:17
 %S A233817 667200,8669484,100402408,1586833704,20442834720,376273555864,
 %T A233817 5136685499560,109861005202268,1552605841631744,38143729537606948,
 %U A233817 548802964953591032,15068815959103418508,218410350957390297296
-%N A233817 Number of (n+1)X(7+1) 0..5 arrays with every 2X2 subblock having the sum of the squares of all six edge and diagonal differences equal to 11
+%N A233817 Number of (n+1)X(7+1) 0..5 arrays with every 2X2 subblock having the sum of the squares of all six edge and diagonal differences equal to 11.
 %C A233817 Column 7 of A233818
 %H A233817 R. H. Hardin, <a href="/A233817/b233817.txt">Table of n, a(n) for n = 1..24</a>
 %e A233817 Some solutions for n=1

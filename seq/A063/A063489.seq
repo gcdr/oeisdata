@@ -1,8 +1,9 @@
-%I A063489 #31 Dec 20 2024 12:39:07
+%I A063489 #35 Oct 24 2025 19:53:09
 %S A063489 1,8,30,77,159,286,468,715,1037,1444,1946,2553,3275,4122,5104,6231,
 %T A063489 7513,8960,10582,12389,14391,16598,19020,21667,24549,27676,31058,
 %U A063489 34705,38627,42834,47336,52143,57265,62712,68494,74621,81103,87950,95172,102779,110781,119188
 %N A063489 a(n) = (2*n-1)*(5*n^2-5*n+6)/6.
+%D A063489 Elena Deza and Michel Marie Deza, Figurate numbers, World Scientific Publishing (2012), page 132.
 %H A063489 Harry J. Smith, <a href="/A063489/b063489.txt">Table of n, a(n) for n = 1..1000</a>
 %H A063489 T. P. Martin, <a href="http://dx.doi.org/10.1016/0370-1573(95)00083-6">Shells of atoms</a>, Phys. Rep., 273 (1996), 199-241, eq. (10).
 %H A063489 <a href="/index/Rec#order_04">Index entries for linear recurrences with constant coefficients</a>, signature (4,-6,4,-1).

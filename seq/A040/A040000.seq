@@ -1,4 +1,4 @@
-%I A040000 #166 Feb 16 2025 08:32:38
+%I A040000 #184 Sep 16 2025 10:30:30
 %S A040000 1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
 %T A040000 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
 %U A040000 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2
@@ -22,7 +22,10 @@
 %C A040000 a(n) is the period of the continued fractions for sqrt((n+2)/(n+1)) and sqrt((n+1)/(n+2)). - _A.H.M. Smeets_, Dec 05 2017
 %C A040000 Also, number of self-avoiding walks and coordination sequence for the one-dimensional lattice Z. - _Sean A. Irvine_, Jul 27 2020
 %D A040000 A. Beiser, Concepts of Modern Physics, 2nd Ed., McGraw-Hill, 1973.
+%D A040000 John H. Conway and Richard K. Guy, The Book of Numbers, New York: Springer-Verlag, 1996. See p. 186.
+%D A040000 Elena Deza and Michel Marie Deza, Figurate numbers, World Scientific Publishing (2012), page 24.
 %D A040000 Jan Gullberg, Mathematics from the Birth of Numbers, W. W. Norton & Co., NY & London, 1997, §4.4 Powers and Roots, p. 144.
+%D A040000 James J. Tattersall, Elementary Number Theory in Nine Chapters, Cambridge University Press, 1999, pages 276-278.
 %H A040000 Harry J. Smith, <a href="/A040000/b040000.txt">Table of n, a(n) for n = 0..20000</a>
 %H A040000 Paul Barry, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL8/Barry/barry84.html">A Catalan Transform and Related Transformations on Integer Sequences</a>, Journal of Integer Sequences, Vol. 8 (2005), Article 05.4.5.
 %H A040000 Bruce Fang, Pamela E. Harris, Brian M. Kamau, and David Wang, <a href="https://arxiv.org/abs/2402.02538">Vacillating parking functions</a>, arXiv:2402.02538 [math.CO], 2024.
@@ -58,6 +61,7 @@
 %p A040000 Digits := 100: convert(evalf(sqrt(2)),confrac,90,'cvgts'):
 %t A040000 ContinuedFraction[Sqrt[2],300] (* _Vladimir Joseph Stephan Orlovsky_, Mar 04 2011 *)
 %t A040000 a[ n_] := 2 - Boole[n == 0]; (* _Michael Somos_, Dec 28 2014 *)
+%t A040000 PadRight[{1},120,2] (* or *) RealDigits[11/90, 10, 120][[1]] (* _Harvey P. Dale_, Jul 12 2025 *)
 %o A040000 (PARI) {a(n) = 2-!n}; /* _Michael Somos_, Apr 16 2007 */
 %o A040000 (PARI) a(n)=1+sign(n)  \\ _Jaume Oliver Lafont_, Mar 26 2009
 %o A040000 (PARI)  allocatemem(932245000); default(realprecision, 21000); x=contfrac(sqrt(2)); for (n=0, 20000, write("b040000.txt", n, " ", x[n+1]));  \\ _Harry J. Smith_, Apr 21 2009

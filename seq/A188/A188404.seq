@@ -1,11 +1,11 @@
-%I A188404 #31 Oct 18 2014 10:02:43
+%I A188404 #32 Nov 05 2025 15:22:20
 %S A188404 1,4,23,214,2698,44288,902962,22262244,648446612,21940389584,
 %T A188404 849992734124,37273085398456,1831837147680872,100066601315825216,
 %U A188404 6031974947471801512,398733149802770699792,28744536471179273843088,2248840133521868856571456,190105368229118222009348848
 %N A188404 Number of (3*n) X n binary arrays with rows in nonincreasing order, 3 ones in every column and no more than 3 ones in any row.
 %C A188404 Also, number of labeled graphs on n nodes with degree set {2,3}, with multiple edges and loops allowed. - _N. J. A. Sloane_, Sep 02 2013
 %H A188404 Vaclav Kotesovec, <a href="/A188404/b188404.txt">Table of n, a(n) for n = 1..320</a>
-%H A188404 Frédéric Chyzak, Marni Mishna, Bruno Salvy, <a href="http://arxiv.org/abs/math/0310132">Effective Scalar Products for D-finite Symmetric Functions</a>, arXiv:math/0310132v3 (version 2012)
+%H A188404 Frédéric Chyzak, Marni Mishna, Bruno Salvy, <a href="https://arxiv.org/abs/math/0310132">Effective Scalar Products for D-finite Symmetric Functions</a>, arXiv:math/0310132v3 (version 2012)
 %H A188404 P. Flajolet and R. Sedgewick, <a href="http://algo.inria.fr/flajolet/Publications/books.html">Analytic Combinatorics</a>, 2009, pp. 584-585.
 %H A188404 Goulden, I. P. and Jackson, D. M., <a href="https://math.uwaterloo.ca/math/sites/ca.math/files/uploads/files/GJSIAD1986.pdf">Labelled graphs with small vertex degrees and $P$-recursiveness</a>, SIAM J. Algebraic Discrete Methods 7(1986), no. 1, 60-66. MR0819706 (87k:05093).
 %F A188404 See Goulden and Jackson for the e.g.f. - _N. J. A. Sloane_, Sep 02 2013

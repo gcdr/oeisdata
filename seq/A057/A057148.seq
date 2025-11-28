@@ -1,4 +1,4 @@
-%I A057148 #42 Jun 11 2024 01:41:19
+%I A057148 #43 Sep 22 2025 16:00:35
 %S A057148 0,1,11,101,111,1001,1111,10001,10101,11011,11111,100001,101101,
 %T A057148 110011,111111,1000001,1001001,1010101,1011101,1100011,1101011,
 %U A057148 1110111,1111111,10000001,10011001,10100101,10111101,11000011,11011011,11100111,11111111,100000001
@@ -8,7 +8,7 @@
 %t A057148 (* get NextPalindrome from A029965 *)
 %t A057148 Select[ NestList[ NextPalindrome, 0, 11110], Max(AT) IntegerDigits(AT)# < 2 &] (* _Robert G. Wilson v_ *)
 %t A057148 Select[FromDigits/@Tuples[{0,1},8],IntegerDigits[#]==Reverse[ IntegerDigits[ #]]&] (* _Harvey P. Dale_, Apr 20 2015 *)
-%o A057148 (Sage)
+%o A057148 (SageMath)
 %o A057148 [int(n.binary()) for n in (0..220) if Word(n.digits(2)).is_palindrome()] # _Peter Luschny_, Sep 13 2018
 %o A057148 (Python)
 %o A057148 from itertools import count, islice, product

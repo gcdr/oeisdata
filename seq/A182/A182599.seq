@@ -1,8 +1,8 @@
-%I A182599 #10 Mar 13 2020 20:38:25
+%I A182599 #12 Jun 02 2025 03:14:51
 %S A182599 2,1,1,2,2,2,2,1,2,2,4,2,1,1,2,1,2,2,3,3,3,1,1,1,2,1,4,1,4,3,3,2,3,5,
 %T A182599 4,2,1,3,3,4,2,7,3,4,4,1,3,7,4,4,3,4,3,6,5,5,4,4,3,1,3,8,3,2,5,3,3,4,
 %U A182599 4,2,5,3,1,5,5,5,4,4,3,4,3,2,5,3,3,4,2,5,4,5,4,5,3,6,6,3,5,3,3
-%N A182599 Number of prime factors of form cn+1 for numbers 7^n+1
+%N A182599 Number of prime factors of form cn+1 for numbers 7^n+1.
 %C A182599 Repeated prime factors are counted.
 %H A182599 S. Mustonen, <a href="http://www.survo.fi/papers/MustonenPrimes.pdf">On prime factors of numbers m^n+-1</a>
 %H A182599 Seppo Mustonen, <a href="/A182590/a182590.pdf">On prime factors of numbers m^n+-1</a> [Local copy]

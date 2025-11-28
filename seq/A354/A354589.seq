@@ -1,8 +1,8 @@
-%I A354589 #18 Aug 23 2022 18:16:20
+%I A354589 #20 Jun 02 2025 15:25:31
 %S A354589 11,23,47,53,67,83,89,101,109,149,167,191,193,197,199,211,251,257,263,
 %T A354589 383,443,449,461,487,557,563,587,593,599,613,647,659,739,757,761,821,
 %U A354589 859,983,991,1061,1063,1069,1117,1217,1223,1283,1301,1303,1367,1433,1439,1447,1481,1553,1567,1571,1579
-%N A354589 Primes p starting a sequence of 4 consecutive primes whose final digits are 1,3,7,9 (in any order)
+%N A354589 Primes p starting a sequence of 4 consecutive primes whose final digits are 1,3,7,9 (in any order).
 %H A354589 Robert Israel, <a href="/A354589/b354589.txt">Table of n, a(n) for n = 1..10000</a>
 %e A354589 a(3) = 47 is in the sequence because the 4 consecutive primes starting with 47 are 47, 53, 59, 61, and their final digits 7,3,9,1 are a permutation of 1,3,7,9.
 %p A354589 P:= select(isprime, [seq(i,i=3..2000,2)]):

@@ -1,15 +1,15 @@
-%I A380542 #6 Jan 27 2025 09:57:33
-%S A380542 -1,-1,-1,-2,-1,0,-1,-2,-3,-1,-1,-1,-1,-1,-1,-2,-1,-2,-1,-1,-3,-1,-1,
-%T A380542 0,-1,-1,-3,0,-1,-2,-1,-2,-1,-4,-4,-5,-1,-4,-3,-1,-1,-2,-1,-1,-1,-4,
-%U A380542 -1,-2,-1,-2,-1,-1,-1,-1,-4,-1,-7,-3,-1,-1,-1,-3,-5,-2,-4,-1,-1,-1,-1,-1,-1,-1,-1,-3,-5,-1,-5,-1,-1,-7,-3,-3,-1,0
-%N A380542 Second coefficient of the lindep transform of A017665, numerator of sigma(n)/n.
-%C A380542 See A339791 for a definition of lindep-transform.
-%H A380542 Antti Karttunen, <a href="/A380542/b380542.txt">Table of n, a(n) for n = 1..20000</a>
-%o A380542 (PARI)
-%o A380542 A017665(n) = { my(s=sigma(n)); (s/gcd(n, s)); };
-%o A380542 A380542(n) = { my(v=lindep([A017665(n), n, 1])); (v*sign(v[1]))[2]; };
-%Y A380542 Cf. A017665, A380541, A380543.
-%Y A380542 Cf. also A339791, A380545.
-%K A380542 sign
+%I A380542 #30 Jul 07 2025 10:44:03
+%S A380542 1,0,1,6,10,6,8,18,22,7,30,18,4,42,46,13,58,10,22,70,3,78,82,44,24,25,
+%T A380542 34,106,54,56,126,130,68,138,37,50,78,162,166,43,178,90,190,8,49,198,
+%U A380542 210,222,226,114,116,238,60,250,128,262,67,30,138,140
+%N A380542 a(n) is the multiplicative order of -9 modulo prime(n); a(2) = 0 for completion.
+%H A380542 Jianing Song, <a href="/A380542/b380542.txt">Table of n, a(n) for n = 1..10000</a>
+%t A380542 A380542[n_] := If[n == 2, 0, MultiplicativeOrder[-9, Prime[n]]];
+%t A380542 Array[A380542, 100] (* _Paolo Xausa_, Jun 29 2025 *)
+%o A380542 (PARI) a(n,{k=-9}) = my(p = prime(n)); if(k%p==0, 0, znorder(Mod(k,p)))
+%Y A380542 Cf. A105881 (primes having primitive root -9).
+%Y A380542 Cf. bases 2..10: A014664, A062117, A082654, A211241, A211242, A211243, A211244, A211245, A002371.
+%Y A380542 Cf. bases -2..-10: A337878 (if first term 1), A380482, A380531, A380532, A380533, A380540, A380541, this sequence, A385222.
+%K A380542 nonn,easy
 %O A380542 1,4
-%A A380542 _Antti Karttunen_, Jan 27 2025
+%A A380542 _Jianing Song_, Jun 27 2025

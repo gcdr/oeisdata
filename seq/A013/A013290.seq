@@ -1,4 +1,4 @@
-%I A013290 #13 Sep 08 2022 08:44:38
+%I A013290 #14 Sep 30 2025 20:34:18
 %S A013290 0,0,-1,4,-6,8,-150,1832,-16520,134752,-1214640,15556352,-248089248,
 %T A013290 3892532096,-58976309392,950047701696,-17523231473280,360338416640512,
 %U A013290 -7742581556059008,169950515543962112,-3892670273719159040,95372338941501045760
@@ -9,5 +9,5 @@
 %o A013290 (Magma) m:=30; R<x>:=PowerSeriesRing(Rationals(), m); b:=Coefficients(R!(1+Argtanh(Log(x+1) - Tanh(x)))); [0] cat [Factorial(n-1)*b[n]: n in [2..m]]; // _Vincenzo Librandi_, Aug 03 2018
 %K A013290 sign
 %O A013290 0,4
-%A A013290 Patrick Demichel (patrick.demichel(AT)hp.com)
+%A A013290 _Patrick Demichel_
 %E A013290 a(0)=a(1)=0 inserted and title improved by _Sean A. Irvine_, Aug 03 2018

@@ -1,8 +1,8 @@
-%I A237238 #4 Feb 05 2014 06:07:55
+%I A237238 #6 Jul 23 2025 10:00:39
 %S A237238 40064,853152,19274172,459119016,11137777044,278128391716,
 %T A237238 6990394415904,179301038336988,4594600424879136,119752730611783572,
 %U A237238 3105297614948039160,81825606349267966684,2139714241242339347104,56865117527802306088364
-%N A237238 Number of (n+1)X(4+1) 0..3 arrays with the maximum plus the lower median minus the upper median minus the minimum of every 2X2 subblock equal
+%N A237238 Number of (n+1)X(4+1) 0..3 arrays with the maximum plus the lower median minus the upper median minus the minimum of every 2X2 subblock equal.
 %C A237238 Column 4 of A237241
 %H A237238 R. H. Hardin, <a href="/A237238/b237238.txt">Table of n, a(n) for n = 1..210</a>
 %e A237238 Some solutions for n=1

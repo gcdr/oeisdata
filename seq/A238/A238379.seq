@@ -1,4 +1,4 @@
-%I A238379 #58 Dec 18 2022 04:37:24
+%I A238379 #67 Sep 22 2025 16:01:15
 %S A238379 1,35,1259,45289,1629145,58603931,2108112371,75833441425,
 %T A238379 2727895778929,98128414600019,3529895029821755,126978092658983161,
 %U A238379 4567681440693572041,164309553772309610315,5910576254362452399299,212616435603275976764449
@@ -26,7 +26,7 @@
 %t A238379 CoefficientList[Series[(1 - x)/(1 - 36 x + x^2), {x, 0, 20}], x] (* or *) LinearRecurrence[{36, -1}, {1, 35}, 20]
 %o A238379 (Magma) [n le 2 select 35^(n-1) else 36*Self(n-1)-Self(n-2): n in [1..20]];
 %o A238379 (Magma) R<x>:=PowerSeriesRing(Integers(), 20); Coefficients(R!( (1 - x)/(1 - 36*x + x^2))); // _Marius A. Burtea_, Jan 14 2020
-%o A238379 (Sage)
+%o A238379 (SageMath)
 %o A238379 m = 20; L.<x> = PowerSeriesRing(ZZ, m); f = (1-x)/(1-36*x+x^2)
 %o A238379 print(f.coefficients())
 %o A238379 (PARI) a(n)=([0,1; -1,36]^n*[1;35])[1,1] \\ _Charles R Greathouse IV_, May 10 2016

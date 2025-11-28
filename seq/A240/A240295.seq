@@ -1,8 +1,8 @@
-%I A240295 #4 Apr 03 2014 16:06:08
+%I A240295 #6 Jun 02 2025 09:47:39
 %S A240295 2,4,2,8,6,4,16,26,24,4,32,90,206,56,8,64,340,1322,974,230,8,128,1194,
 %T A240295 9970,12164,8064,552,16,256,4424,63892,180886,200864,38252,2270,16,
 %U A240295 512,15766,459420,2228098,5967512,1867678,316962,5456,32,1024,57754,2983714
-%N A240295 T(n,k)=Number of nXk 0..3 arrays with no element equal to zero plus the sum of elements to its left or two plus the sum of the elements above it or two plus the sum of the elements diagonally to its northwest, modulo 4
+%N A240295 T(n,k)=Number of nXk 0..3 arrays with no element equal to zero plus the sum of elements to its left or two plus the sum of the elements above it or two plus the sum of the elements diagonally to its northwest, modulo 4.
 %C A240295 Table starts
 %C A240295 ..2.....4........8..........16............32.............64............128
 %C A240295 ..2.....6.......26..........90...........340...........1194...........4424

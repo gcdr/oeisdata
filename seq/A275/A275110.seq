@@ -1,4 +1,4 @@
-%I A275110 #34 Feb 26 2020 08:14:03
+%I A275110 #35 Sep 22 2025 16:01:25
 %S A275110 1,1,6,5,9,1,0,2,4,8,4
 %N A275110 Decimal expansion of the sum of the alternating series of reciprocals of composite numbers with distinct prime factors.
 %C A275110 The denominators in the terms used to generate the sequence exclude the powers of primes (A000961).
@@ -36,7 +36,7 @@
 %e A275110   23   0.116591024840980341...   0.116591024840980345...
 %e A275110   24   0.116591024840976791...   0.116591024840976792...
 %e A275110 (End)
-%o A275110 (Sage)
+%o A275110 (SageMath)
 %o A275110 composites = (i for i in NN if i>3 and not i.is_prime() and not i.is_prime_power())
 %o A275110 s = RLF(0); s
 %o A275110 RealField(110)(s)

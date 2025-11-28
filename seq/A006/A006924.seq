@@ -1,4 +1,4 @@
-%I A006924 M1526 #32 May 01 2014 02:40:01
+%I A006924 M1526 #36 Jul 08 2025 16:57:49
 %S A006924 0,0,0,1,2,5,20,101,743,7350,91763,1344782,22160335,401278984,
 %T A006924 7885687604,166870266608,3781101495300
 %N A006924 Number of connected trivalent graphs with 2n nodes and girth exactly 4.
@@ -13,5 +13,5 @@
 %Y A006924 Connected 3-regular simple graphs with girth at least g: A002851 (g=3), A014371 (g=4), A014372 (g=5), A014374 (g=6), A014375 (g=7), A014376 (g=8).
 %K A006924 nonn,hard,more
 %O A006924 0,5
-%A A006924 _N. J. A. Sloane_.
+%A A006924 _N. J. A. Sloane_
 %E A006924 Definition corrected to include "connected", and "girth at least 4" minus "girth at least 5" formula provided by _Jason Kimberley_, Dec 12 2009

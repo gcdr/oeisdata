@@ -1,4 +1,4 @@
-%I A002084 M3667 N1493 #50 Oct 15 2023 01:42:57
+%I A002084 M3667 N1493 #52 Nov 10 2025 21:50:37
 %S A002084 1,4,36,624,18256,814144,51475776,4381112064,482962852096,
 %T A002084 66942218896384,11394877025289216,2336793875186479104,
 %U A002084 568240131312188379136,161669933656307658932224,53204153193639888357113856,20053432927718528320240287744
@@ -8,13 +8,13 @@
 %D A002084 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
 %H A002084 T. D. Noe, <a href="/A002084/b002084.txt">Table of n, a(n) for n = 0..50</a>
 %H A002084 J. M. Gandhi, <a href="http://dx.doi.org/10.4153/CMB-1970-059-9">The coefficients of sinh x/ cos x</a>. Canad. Math. Bull. 13 1970 305-310.
-%H A002084 Peter Luschny, <a href="http://oeis.org/wiki/User:Peter_Luschny/SeidelTransform">An old operation on sequences: the Seidel transform</a>.
+%H A002084 Peter Luschny, <a href="https://oeis.org/wiki/User:Peter_Luschny/SeidelTransform">An old operation on sequences: the Seidel transform</a>.
 %F A002084 E.g.f.: sinh(x)/cos(x) = Sum_{n>=0} a(n)*x^(2n+1)/(2n+1)!.
 %F A002084 a(n) = Sum_{k=0..n} binomial(2n+1, 2k+1)*A000364(n-k) = Sum_{k=0..n} A103327(n, k)*A000324(n-k) = Sum_{k=0..n} (-1)^(n-k)*A104033(n, k). - _Philippe Deléham_, Aug 27 2005
 %F A002084 a(n) ~ sinh(Pi/2) * 2^(2*n + 3) * (2*n + 1)! / Pi^(2*n+2). - _Vaclav Kotesovec_, Jul 05 2020
 %e A002084 x + 2/3*x^3 + 3/10*x^5 + 13/105*x^7 + 163/3240*x^9 + ...
 %t A002084 With[{nn=30},Take[CoefficientList[Series[Sinh[x]/Cos[x],{x,0,nn}],x] Range[0,nn-1]!,{2,-1,2}]] (* _Harvey P. Dale_, Jul 17 2012 *)
-%o A002084 (Sage) # Generalized algorithm of L. Seidel (1877)
+%o A002084 (SageMath) # Generalized algorithm of L. Seidel (1877)
 %o A002084 def A002084_list(n) :
 %o A002084     R = []; A = {-1:0, 0:0}
 %o A002084     k = 0; e = 1

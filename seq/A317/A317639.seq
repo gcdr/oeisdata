@@ -1,4 +1,4 @@
-%I A317639 #27 Aug 20 2018 16:19:58
+%I A317639 #28 Nov 05 2025 15:22:42
 %S A317639 1,1,1,2,4,6,10,19,32,54,98,170,292,520,909,1577,2787,4883,8515,14998,
 %T A317639 26299,45984,80863,141844,248381,436406,765649,1341844,2356500,
 %U A317639 4134749,7249981,12728630,22335110,39174776,68766785,120670190,211689586,371558266,652014636
@@ -7,7 +7,7 @@
 %H A317639 Alois P. Heinz, <a href="/A317639/b317639.txt">Table of n, a(n) for n = 0..4096</a>
 %H A317639 J.-L. Baril, A. Petrossian, <a href="http://jl.baril.u-bourgogne.fr/equivdyck.pdf">Equivalence classes of Dyck paths modulo some statistics</a>, 2014.
 %H A317639 J.-L. Baril, A. Petrossian, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL18/Baril/baril3.html">Equivalence Classes of Motzkin Paths Modulo a Pattern of Length at Most Two</a>, J. Int. Seq. 18 (2015) 15.7.1
-%H A317639 K. Manes, A. Sapounakis, I. Tasoulas, P. Tsikouras, <a href="http://arxiv.org/abs/1510.01952">Equivalence classes of ballot paths modulo strings of length 2 and 3</a>, arXiv:1510.01952 [math.CO], 2015.
+%H A317639 K. Manes, A. Sapounakis, I. Tasoulas, P. Tsikouras, <a href="https://arxiv.org/abs/1510.01952">Equivalence classes of ballot paths modulo strings of length 2 and 3</a>, arXiv:1510.01952 [math.CO], 2015.
 %H A317639 Wikipedia, <a href="https://en.wikipedia.org/wiki/Lattice_path#Counting_lattice_paths">Counting lattice paths</a>
 %p A317639 b:= proc(x, y) option remember; `if`(y<0 or y>x, 0, `if`(x=0, 1,
 %p A317639      `if`(y=0, b(x-2, y)+b(x-6, y+2), b(x-1, y-1))+b(x-5, y+1)))

@@ -1,10 +1,10 @@
-%I A306255 #10 Aug 23 2024 17:23:50
+%I A306255 #11 Nov 05 2025 15:35:36
 %S A306255 3,5,71,486999673,6695256707
 %N A306255 Wieferich primes to base 26.
 %C A306255 Prime numbers p such that p^2 divides 26^(p-1) - 1.
 %C A306255 No more terms up to 9.8*10^13.
 %H A306255 Richard Fischer, <a href="http://www.fermatquotient.com/FermatQuotienten/">Fermatquotient B^(P-1) == 1 (mod P^2)</a>
-%H A306255 P. L. Montgomery, <a href="http://www.jstor.org/stable/2152960">New Solutions of a^p-1 == 1 (mod p^2)</a>, Mathematics of Computation, Vol. 61, No. 203 (1993), 361-363.
+%H A306255 P. L. Montgomery, <a href="https://www.jstor.org/stable/2152960">New Solutions of a^p-1 == 1 (mod p^2)</a>, Mathematics of Computation, Vol. 61, No. 203 (1993), 361-363.
 %H A306255 Wikipedia, <a href="https://en.wikipedia.org/wiki/Wieferich_prime">Wieferich prime</a>
 %t A306255 Select[Prime[Range[26*10^6]],PowerMod[26,#-1,#^2]==1&] (* The program generates the first 4 terms of the sequence. *) (* _Harvey P. Dale_, Aug 23 2024 *)
 %o A306255 (PARI) forprime(p=2, , if(Mod(26, p^2)^(p-1)==1, print1(p, ", ")))

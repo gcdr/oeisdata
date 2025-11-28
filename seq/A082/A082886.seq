@@ -1,10 +1,10 @@
-%I A082886 #6 Sep 04 2015 10:44:23
+%I A082886 #7 Nov 05 2025 15:22:02
 %S A082886 1,1,1,2,0,1,0,1,1,0,1,1,0,1,1,1,0,1,0,0,1,0,1,1,0,0,0,0,0,2,0,1,0,2,
 %T A082886 0,1,1,0,1,1,0,1,0,0,0,2,2,0,0,0,1,0,1,1,1,1,0,1,0,0,1,2,0,0,0,2,1,1,
 %U A082886 0,0,1,1,1,1,0,1,1,0,1,1,0,1,0,0,0,0,1,0,0,0,1,1,0,1,0,0,1,0,2,0,1,0,0,0,0
 %N A082886 floor((prime(n+1)-prime(n))/log(prime(n))).
 %C A082886 a(n) is unbounded by a theorem of Westzynthius. - _Charles R Greathouse IV_, Sep 04 2015
-%H A082886 Kevin Ford, Ben Green, Sergei Konyagin, James Maynard, and Terence Tao, <a href="http://arxiv.org/abs/1412.5029">Long gaps between primes</a> (2014).
+%H A082886 Kevin Ford, Ben Green, Sergei Konyagin, James Maynard, and Terence Tao, <a href="https://arxiv.org/abs/1412.5029">Long gaps between primes</a> (2014).
 %F A082886 a(n)=floor((prime(n+1)-prime(n))/log(prime(n))).
 %F A082886 a(n)=Floor(A001223(n)/log(A000040(n))).
 %F A082886 Infinitely often a(n) >> log log n log log log log n/log log log n, see Ford-Green-Konyagin-Maynard-Tao. - _Charles R Greathouse IV_, Sep 04 2015

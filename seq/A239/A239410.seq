@@ -1,8 +1,8 @@
-%I A239410 #4 Mar 17 2014 17:51:07
+%I A239410 #6 Jun 02 2025 09:28:15
 %S A239410 156,20818,2590704,326882784,40566958960,5072216819342,
 %T A239410 630657074443394,78666433617260802,9791612259389470778,
 %U A239410 1220385596630190836830,151973853622892194440357,18935435888110044394225594
-%N A239410 Number of 6Xn 0..3 arrays with no element equal to one plus the sum of elements to its left or two plus the sum of the elements above it, modulo 4
+%N A239410 Number of 6Xn 0..3 arrays with no element equal to one plus the sum of elements to its left or two plus the sum of the elements above it, modulo 4.
 %C A239410 Row 6 of A239405
 %H A239410 R. H. Hardin, <a href="/A239410/b239410.txt">Table of n, a(n) for n = 1..210</a>
 %e A239410 Some solutions for n=2

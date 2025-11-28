@@ -1,4 +1,4 @@
-%I A279563 #14 Oct 07 2021 04:10:29
+%I A279563 #18 Jun 08 2025 22:11:54
 %S A279563 1,1,2,6,22,85,328,1253,4754,17994,68158,258808,985906,3768466,
 %T A279563 14451386,55585014,214377618,828795169,3211030684,12464308997,
 %U A279563 48465092366,188733879657,735977084412,2873525548315,11231884145434,43947466923095,172115939825516
@@ -7,6 +7,7 @@
 %H A279563 Alois P. Heinz, <a href="/A279563/b279563.txt">Table of n, a(n) for n = 0..1664</a>
 %H A279563 Megan A. Martinez, Carla D. Savage, <a href="https://arxiv.org/abs/1609.08106">Patterns in Inversion Sequences II: Inversion Sequences Avoiding Triples of Relations</a>, arXiv:1609.08106 [math.CO], 2016.
 %F A279563 a(n) ~ 4^n / (3*sqrt(Pi*n)). - _Vaclav Kotesovec_, Oct 07 2021
+%F A279563 G.f.: (2 - 15*x + 32*x^2 - 16*x^3 + x * (1 - 2*x) * (1 + 2*x) * (1 - 4*x)^(1/2)) / (2 * (1 - x)^2 * (1 - 2*x) * (1 - 4*x)). - _Nathan J. Britt_, Jun 08 2025
 %e A279563 The length 4 inversion sequences avoiding (102, 201, 210) are 0000, 0001, 0002, 0003, 0010, 0011, 0012, 0013, 0020, 0021, 0022, 0023, 0100, 0101, 0110, 0111, 0112, 0113, 0120, 0121, 0122, 0123.
 %p A279563 a:= proc(n) option remember; `if`(n<4, n!,
 %p A279563       ((2*(12*n^3-91*n^2+213*n-149))*a(n-1)

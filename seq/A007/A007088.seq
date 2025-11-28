@@ -1,4 +1,4 @@
-%I A007088 M4679 #172 Jan 11 2025 02:40:12
+%I A007088 M4679 #176 Mar 07 2025 07:50:11
 %S A007088 0,1,10,11,100,101,110,111,1000,1001,1010,1011,1100,1101,1110,1111,
 %T A007088 10000,10001,10010,10011,10100,10101,10110,10111,11000,11001,11010,
 %U A007088 11011,11100,11101,11110,11111,100000,100001,100010,100011,100100,100101,100110,100111
@@ -14,6 +14,7 @@
 %C A007088 For any integer n>=0, find the binary representation and then interpret as decimal representation giving a(n). - _Michael Somos_, Nov 15 2015
 %C A007088 N is in this sequence iff A007953(N) = A101337(N). A028897 is a left inverse. - _M. F. Hasler_, Nov 18 2019
 %C A007088 For n > 0, numbers whose largest decimal digit is 1. - _Stefano Spezia_, Nov 15 2023
+%D A007088 John H. Conway and Richard K. Guy, The Book of Numbers, New York: Springer-Verlag, 1996. See p. 21.
 %D A007088 Jan Gullberg, Mathematics from the Birth of Numbers, W. W. Norton & Co., NY & London, 1997, §2.8 Binary, Octal, Hexadecimal, p. 64.
 %D A007088 Manfred R. Schroeder, "Fractals, Chaos, Power Laws", W. H. Freeman, 1991, p. 383.
 %D A007088 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).

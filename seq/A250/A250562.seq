@@ -1,8 +1,8 @@
-%I A250562 #9 Dec 12 2014 21:02:36
+%I A250562 #11 Jul 23 2025 12:32:20
 %S A250562 14,83,302,761,1648,3125,5446,8843,13662,20173,28836,39973,54102,
 %T A250562 71647,93210,119221,150416,187305,230650,281051,339378,406245,482652,
 %U A250562 569257,667098,776983,900018,1036969,1189124,1357341,1542894,1746747,1970290
-%N A250562 Number of length 3+2 0..n arrays with the sum of second differences multiplied by some arrangement of +-1 equal to zero
+%N A250562 Number of length 3+2 0..n arrays with the sum of second differences multiplied by some arrangement of +-1 equal to zero.
 %C A250562 Row 3 of A250561
 %H A250562 R. H. Hardin, <a href="/A250562/b250562.txt">Table of n, a(n) for n = 1..210</a>
 %F A250562 Empirical: a(n) = a(n-1) -a(n-2) +2*a(n-3) +a(n-5) -2*a(n-7) -3*a(n-9) +a(n-10) -a(n-11) +3*a(n-12) +2*a(n-14) -a(n-16) -2*a(n-18) +a(n-19) -a(n-20) +a(n-21)

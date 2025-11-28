@@ -1,4 +1,4 @@
-%I A025242 #73 Feb 03 2025 09:35:59
+%I A025242 #78 Nov 06 2025 13:34:02
 %S A025242 2,1,1,2,5,13,35,97,275,794,2327,6905,20705,62642,190987,586219,
 %T A025242 1810011,5617914,17518463,54857506,172431935,543861219,1720737981,
 %U A025242 5459867166,17369553427,55391735455,177040109419,567019562429,1819536774089
@@ -7,12 +7,13 @@
 %C A025242 a(n) is the number of Dyck (n-2)-paths with no DDUU (n>2). Example: a(6)=13 counts all 14 Dyck 4-paths except UUDDUUDD which contains a DDUU. There is a simple bijective proof: given a Dyck path that avoids DDUU, for every occurrence of UUDD except the first, the ascent containing this UU must be immediately preceded by a UD (else a DDUU would be present). Transfer the latter UD to the middle of the DD in the UUDD. Then insert a new UD in the middle of the first DD if any; if not, the path is a sawtooth UDUD...UD, in which case insert a UD at the end. This is a bijection from DDUU-avoiding Dyck n-paths to UUDD-avoiding Dyck (n+1)-paths. - _David Callan_, Sep 25 2006
 %C A025242 For n>1, a(n) is the number of cyclic permutations of [n-1] that avoid the vincular pattern 13-4-2, i.e., the pattern 1342 where the 1 and 3 must be adjacent. By the trivial Wilf equivalence, the same applies for 24-3-1, 31-2-4, and 42-1-3. - _Rupert Li_, Jul 27 2021
 %H A025242 Vincenzo Librandi, <a href="/A025242/b025242.txt">Table of n, a(n) for n = 1..1000</a>
+%H A025242 Sela Fried, <a href="https://arxiv.org/abs/2505.14196">Even-up words and their variants</a>, arXiv:2505.14196 [math.CO], 2025. See p. 10.
 %H A025242 Petr Gregor, Torsten Mütze, and Namrata, <a href="https://arxiv.org/abs/2306.08420">Combinatorial generation via permutation languages. VI. Binary trees</a>, arXiv:2306.08420 [cs.DM], 2023.
 %H A025242 Petr Gregor, Torsten Mütze, and Namrata, <a href="https://doi.org/10.4230/LIPIcs.ISAAC.2023.33">Pattern-Avoiding Binary Trees-Generation, Counting, and Bijections</a>, Leibniz Int'l Proc. Informatics (LIPIcs), 34th Int'l Symp. Algor. Comp. (ISAAC 2023). See p. 33.13.
 %H A025242 Nancy S. S. Gu, Nelson Y. Li, and Toufik Mansour, <a href="http://dx.doi.org/10.1016/j.disc.2007.04.007">2-Binary trees: bijections and related issues</a>, Discr. Math., 308 (2008), 1209-1221.
 %H A025242 Jia Huang and Erkko Lehtonen, <a href="https://arxiv.org/abs/2401.15786">Associative-commutative spectra for some varieties of groupoids</a>, arXiv:2401.15786 [math.CO], 2024. See p. 18.
 %H A025242 Vít Jelínek, Toufik Mansour and Mark Shattuck, <a href="http://dx.doi.org/10.1016/j.aam.2012.09.002">On multiple pattern avoiding set partitions</a>, Adv. Appl. Math. 50 (2) (2013) 292-326, Theorem 4.1, without the leading 2.
-%H A025242 Yvan Le Borgne, <a href="http://www.emis.de/journals/SLC/wpapers/s54leborgne.html">Counting Upper Interactions in Dyck Paths</a>, Séminaire Lotharingien de Combinatoire, Vol. 54, B54f (2006), 16 pp.
+%H A025242 Yvan Le Borgne, <a href="https://www.mat.univie.ac.at/~slc/wpapers/s54leborgne.html">Counting Upper Interactions in Dyck Paths</a>, Séminaire Lotharingien de Combinatoire, Vol. 54, B54f (2006), 16 pp.
 %H A025242 Rupert Li, <a href="https://arxiv.org/abs/2107.12353">Vincular Pattern Avoidance on Cyclic Permutations</a>, arXiv:2107.12353 [math.CO], 2021.
 %H A025242 Toufik Mansour, <a href="https://arxiv.org/abs/math/0110039">Restricted 1-3-2 permutations and generalized patterns</a>, arXiv:math/0110039 [math.CO], 2001.
 %H A025242 Toufik Mansour, <a href="http://dx.doi.org/10.1007/s00026-002-8031-2">Restricted 1-3-2 permutations and generalized patterns</a>, Annals of Combin., 6 (2002), 65-76. (Example 2.10.)

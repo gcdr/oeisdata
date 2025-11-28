@@ -1,4 +1,4 @@
-%I A002522 #417 Mar 05 2025 09:03:18
+%I A002522 #437 Oct 13 2025 23:12:22
 %S A002522 1,2,5,10,17,26,37,50,65,82,101,122,145,170,197,226,257,290,325,362,
 %T A002522 401,442,485,530,577,626,677,730,785,842,901,962,1025,1090,1157,1226,
 %U A002522 1297,1370,1445,1522,1601,1682,1765,1850,1937,2026,2117,2210,2305,2402,2501
@@ -32,28 +32,34 @@
 %C A002522 Also the limit as q->1^- of the unimodal polynomial (1-q^(n*k+1))/(1-q) after making the simplification k=n. The unimodal polynomial is from O'Hara's proof of unimodality of q-binomials after making the restriction to partitions of size <= 1. See G_1(n,k) from arXiv:1711.11252. As the size restriction s increases, G_s->G_infinity=G: the q-binomials. Then substituting k=n and q=1 yields the central binomial coefficients: A000984. - _Bryan T. Ek_, Apr 11 2018
 %C A002522 a(n) is the smallest number congruent to both 1 (mod n) and 2 (mod n+1). - _David James Sycamore_, Apr 04 2019
 %C A002522 a(n) is the number of permutations of 1,2,...,n+1 with exactly one reduced decomposition. - _Richard Stanley_, Dec 22 2022
+%C A002522 From _Klaus Purath_, Apr 03 2025: (Start)
+%C A002522 The odd prime factors of these terms are always of the form 4*k + 1.
+%C A002522 All a(n) = D satisfy the Pell equation (k*x)^2 - D*y^2 = -1. The values for k and the solutions x, y can be calculated using the following algorithm: k = n, x(0) = 1, x(1) = 4*D - 1, y(0) = 1, y(1) = 4*D - 3. The two recurrences are of the form (4*D - 2, -1). The solutions x, y of the Pell equations for n = {1 ... 14} are in OEIS.
+%C A002522 It follows from the above that this sequence is a subsequence of A031396. (End)
 %D A002522 S. J. Cyvin and I. Gutman, Kekulé structures in benzenoid hydrocarbons, Lecture Notes in Chemistry, No. 46, Springer, New York, 1988 (see p. 120).
 %D A002522 E. Gura and M. Maschler, Insights into Game Theory: An Alternative Mathematical Experience, Cambridge, 2008; p. 26.
 %D A002522 Thomas Koshy, Fibonacci and Lucas Numbers with Applications, John Wiley and Sons, New York, 2001.
 %H A002522 Vincenzo Librandi, <a href="/A002522/b002522.txt">Table of n, a(n) for n = 0..1000</a>. Format corrected by _Peter Kagey_, Jan 25 2016
 %H A002522 Wawrzyniec Bieniawski, Piotr Masierak, Andrzej Tomski, and Szymon Łukaszyk, <a href="https://doi.org/10.20944/preprints202409.1581.v5">On the Salient Regularities of Strings of Assembly Theory</a>, Preprints (2024). See p. 19.
 %H A002522 Wawrzyniec Bieniawski, Piotr Masierak, Andrzej Tomski, and Szymon Łukaszyk, <a href="https://doi.org/10.20944/preprints202409.1581.v8">Assembly Theory - Formalizing Assembly Spaces and Discovering Patterns and Bounds</a>, Preprints.org (2025). See p. 28.
-%H A002522 R. P. Boas & N. J. A. Sloane, <a href="/A005381/a005381.pdf">Correspondence, 1974</a>
+%H A002522 Ralph P. Boas and N. J. A. Sloane, <a href="/A005381/a005381.pdf">Correspondence, 1974</a>
+%H A002522 Yurii S. Bystryk, Vitalii L. Denysenko, and Volodymyr I. Ostryk, <a href="http://dx.doi.org/10.13140/RG.2.2.16511.73129">Lune and Lens Sequences</a>, ResearchGate preprint, 2024. See pp. 44, 56.
 %H A002522 Giulio Cerbai and Luca Ferrari, <a href="https://arxiv.org/abs/1903.08774">Permutation patterns in genome rearrangement problems: the reversal model</a>, arXiv:1903.08774 [math.CO], 2019. See p. 19.
-%H A002522 S. Chaiken et al., <a href="https://arxiv.org/abs/1105.5087">Nonattacking Queens in a Rectangular Strip</a>, arXiv:1105.5087 [math.CO], 2011.
+%H A002522 Seth Chaiken, Christopher R. H. Hanusa, and Thomas Zaslavsky, <a href="https://arxiv.org/abs/1105.5087">Nonattacking Queens in a Rectangular Strip</a>, arXiv:1105.5087 [math.CO], 2011.
 %H A002522 Bryan Ek, <a href="https://arxiv.org/abs/1804.05933">Unimodal Polynomials and Lattice Walk Enumeration with Experimental Mathematics</a>, arXiv:1804.05933 [math.CO], 2018.
 %H A002522 R. M. Green and Tianyuan Xu, <a href="https://arxiv.org/abs/2204.09765">2-roots for simply laced Weyl groups</a>, arXiv:2204.09765 [math.RT], 2022.
 %H A002522 Guo-Niu Han, <a href="http://www-irma.u-strasbg.fr/~guoniu/papers/p77puzzle.pdf">Enumeration of Standard Puzzles</a>
 %H A002522 Guo-Niu Han, <a href="/A196265/a196265.pdf">Enumeration of Standard Puzzles</a> [Cached copy]
 %H A002522 Cheyne Homberger, <a href="https://arxiv.org/abs/1410.2657">Patterns in Permutations and Involutions: A Structural and Enumerative Approach</a>, arXiv:1410.2657 [math.CO], 2014.
-%H A002522 C. Homberger and V. Vatter, <a href="https://arxiv.org/abs/1308.4946">On the effective and automatic enumeration of polynomial permutation classes</a>, arXiv:1308.4946 [math.CO], 2013.
-%H A002522 L. B. W. Jolley, <a href="https://archive.org/details/summationofserie00joll">Summation of Series</a>, Dover, 1961, p. 176.
+%H A002522 Cheyne Homberger and Vince Vatter, <a href="https://arxiv.org/abs/1308.4946">On the effective and automatic enumeration of polynomial permutation classes</a>, arXiv:1308.4946 [math.CO], 2013.
+%H A002522 Leonard B. W. Jolley, <a href="https://archive.org/details/summationofserie00joll">Summation of Series</a>, Dover, 1961, p. 176.
 %H A002522 S. J. Leon, <a href="https://web.archive.org/web/20171109083901/http://www.prenhall.com/divisions/esm/app/ph-linear/leon/html/perron.html">Linear Algebra with Applications: the Perron-Frobenius Theorem</a> [Cached copy at the Wayback Machine]
-%H A002522 T. Mansour and J. West, <a href="https://arxiv.org/abs/math/0207204">Avoiding 2-letter signed patterns</a>, arXiv:math/0207204 [math.CO], 2002.
+%H A002522 Shuzhen Lv and Sergey Kitaev, <a href="https://arxiv.org/abs/2509.12726">Stoimenow matchings avoiding multiple Catalan patterns simultaneously</a>, arXiv:2509.12726 [math.CO], 2025. See pp. 3, 18.
+%H A002522 Toufik Mansour and J. West, <a href="https://arxiv.org/abs/math/0207204">Avoiding 2-letter signed patterns</a>, arXiv:math/0207204 [math.CO], 2002.
 %H A002522 Michelle Rudolph-Lilith, <a href="https://arxiv.org/abs/1508.07894">On the Product Representation of Number Sequences, with Application to the Fibonacci Family</a>, arXiv:1508.07894 [math.NT], 2015.
 %H A002522 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/NumberPicking.html">Number Picking</a>
 %H A002522 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/Near-SquarePrime.html">Near-Square Prime</a>
-%H A002522 Helmut Wielandt, <a href="http://www.digizeitschriften.de/dms/img/?PID=GDZPPN002381516">Unzerlegbare, nicht negative Matrizen</a>, Math. Z. 52 (1950), 642-648.
+%H A002522 Helmut Wielandt, <a href="https://doi.org/10.1007/BF02230720">Unzerlegbare, nicht negative Matrizen</a>, Math. Z. 52 (1950), 642-648. <a href="https://gdz.sub.uni-goettingen.de/id/PPN266833020_0052">volume 52</a>
 %H A002522 Reinhard Zumkeller, <a href="/A161700/a161700.txt">Enumerations of Divisors</a>
 %H A002522 <a href="/index/Cy#CyclotomicPolynomialsValuesAtX">Index to values of cyclotomic polynomials of integer argument</a>
 %H A002522 <a href="/index/Rec#order_03">Index entries for linear recurrences with constant coefficients</a>, signature (3,-3,1).
@@ -105,7 +111,8 @@
 %Y A002522 Cf. A002496 (primes).
 %Y A002522 Cf. A254858.
 %Y A002522 Cf. A302612, A302644, A302645, A302646.
-%K A002522 nonn,easy,changed
+%Y A002522 Subsequence of A031396.
+%K A002522 nonn,easy
 %O A002522 0,2
 %A A002522 _N. J. A. Sloane_
 %E A002522 Partially edited by _Joerg Arndt_, Mar 11 2010

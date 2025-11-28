@@ -1,4 +1,4 @@
-%I A182632 #53 Feb 21 2023 17:46:29
+%I A182632 #55 Sep 23 2025 18:13:32
 %S A182632 0,3,9,21,33,45,69,105,129,141,165,213,273,321,381,465,513,525,549,
 %T A182632 597,657,717,801,933,1065,1137,1197,1317,1485,1629,1785,1977,2073,
 %U A182632 2085,2109,2157,2217,2277,2361,2493,2625,2709,2793,2949,3177,3405,3633
@@ -23,7 +23,7 @@
 %C A182632 For another version starting with a simple toothpick see A182840.
 %C A182632 For a version of the structure in the first quadrant but on the square grid see A182838. (End)
 %H A182632 David Applegate, <a href="/A139250/a139250.anim.html">The movie version</a>
-%H A182632 David Applegate, Omar E. Pol and N. J. A. Sloane, <a href="/A000695/a000695_1.pdf">The Toothpick Sequence and Other Sequences from Cellular Automata</a>, Congressus Numerantium, Vol. 206 (2010), 157-191. [There is a typo in Theorem 6: (13) should read u(n) = 4.3^(wt(n-1)-1) for n >= 2.]
+%H A182632 David Applegate, Omar E. Pol and N. J. A. Sloane, <a href="/A000695/a000695_2.pdf">The Toothpick Sequence and Other Sequences from Cellular Automata</a>, Congressus Numerantium, Vol. 206 (2010), 157-191
 %H A182632 N. J. A. Sloane, <a href="/wiki/Catalog_of_Toothpick_and_CA_Sequences_in_OEIS">Catalog of Toothpick and Cellular Automata Sequences in the OEIS</a>
 %H A182632 <a href="/index/To#toothpick">Index entries for sequences related to toothpick sequences</a>
 %H A182632 <a href="/index/Ce#cell">Index entries for sequences related to cellular automata</a>

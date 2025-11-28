@@ -1,8 +1,8 @@
-%I A250080 #4 Nov 11 2014 12:34:10
+%I A250080 #6 Jul 23 2025 12:12:06
 %S A250080 80284,352192,1572320,6978064,30011560,121263104,446774000,1834111512,
 %T A250080 7701187928,32463331040,136011056960,563229803248,2292798259376,
 %U A250080 9485676333072,39709503113592,166580802178112,697854772322004
-%N A250080 Number of length n+5 0..7 arrays with every six consecutive terms having the maximum of some two terms equal to the minimum of the remaining four terms
+%N A250080 Number of length n+5 0..7 arrays with every six consecutive terms having the maximum of some two terms equal to the minimum of the remaining four terms.
 %C A250080 Column 7 of A250081
 %H A250080 R. H. Hardin, <a href="/A250080/b250080.txt">Table of n, a(n) for n = 1..210</a>
 %e A250080 Some solutions for n=1

@@ -1,16 +1,15 @@
-%I A380464 #6 Jan 27 2025 11:33:51
-%S A380464 1,1,1,2,1,1,1,1,3,1,1,2,1,1,1,1,1,3,1,2,1,1,1,4,5,1,1,2,1,1,1,1,1,1,
-%T A380464 1,6,1,1,1,4,1,1,1,2,3,1,1,1,7,5,1,2,1,1,1,4,1,1,1,2,1,1,3,1,1,1,1,2,
-%U A380464 1,1,1,1,1,1,5,2,1,1,1,8,1,1,1,2,1,1,1,4,1,3,1,2,1,1,1,1,1,7,3,10,1,1,1,4,1
-%N A380464 First coefficient of the lindep transform of A007947, squarefree kernel of n.
-%C A380464 See A339790 for a definition of lindep-transform.
-%C A380464 See also comments in A380465 and A380466.
-%H A380464 Antti Karttunen, <a href="/A380464/b380464.txt">Table of n, a(n) for n = 1..20000</a>
-%o A380464 (PARI)
-%o A380464 A007947(n) = factorback(factorint(n)[, 1]); \\ From A007947
-%o A380464 A380464(n) = { my(v=lindep([A007947(n), n, 1])); (v*sign(v[1]))[1]; };
-%Y A380464 Cf. A007947, A380465, A380466.
-%Y A380464 Cf. also A339790, A380544.
-%K A380464 nonn
-%O A380464 1,4
-%A A380464 _Antti Karttunen_, Jan 27 2025
+%I A380464 #28 Jul 03 2025 01:01:30
+%S A380464 1499,1823,3767,5468,5469,13163,13487,16403,16407,20507,25799,28607,
+%T A380464 30713,30983,32828,36383
+%N A380464 Integers k such that A005245(m*k) < A005245(k) for some m.
+%C A380464 A005245(n) is the integer complexity of n, which is the least number of copies of 1 needed to express n with addition and multiplication (and legal nestings of brackets). Although there are logarithmic upper and lower bounds for A005245(n), there are known instances such that it is not the case that A005245(n) <= A005245(m*n) for each of m = 2 and m = 3 (see the Examples below).
+%C A380464 Is this integer sequence infinite? This is an open problem.
+%H A380464 Harry Altman, <a href="https://math.colgate.edu/~integers/s45/s45.pdf">Integer Complexity: Algorithms and Computational Results</a>, Integers, 18 (2018), A45.
+%H A380464 Harry Altman, <a href="https://arxiv.org/abs/1804.07446">Integer Complexity: The Integer Defect</a>, arXiv:1804.07446 [math.NT], 2018; Mosc. J. Comb. Number Theory, 8 (2019), 193-217.
+%F A380464 Integers k such that A005245(k) > min{A005245(k), A005245(2*k), ..., A005245((k-1)*k)}.
+%e A380464 We find that A005245(1499) = 25 and that A005245(2*1499) = 24, and 1499 is the smallest number k such that A005245(m*k) < A005245(k), so that a(1) = 1499.
+%e A380464 In the given Altman references, it is noted that the integer k = 4721323 is such that A005245(3*k) < A005245(k), so 4721323 is included in this sequence.
+%Y A380464 Cf. A005245, A195101, A350723, A351467.
+%K A380464 nonn,more
+%O A380464 1,1
+%A A380464 _John M. Campbell_, Jun 22 2025

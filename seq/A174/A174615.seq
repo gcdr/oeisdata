@@ -1,7 +1,8 @@
-%I A174615 #21 Apr 20 2024 04:17:14
+%I A174615 #24 Apr 22 2025 10:48:59
 %S A174615 0,0,0,0,0,0,0,0,0,0,2,41,262,1340,5359,19210,60150,172234,460553,
 %T A174615 1159167,2774702,6363475,14056367
 %N A174615 Number of seven-prime Carmichael numbers less than 10^n.
+%D A174615 Paulo Ribenboim, The Little Book of Bigger Primes, Springer-Verlag NY 2004. See p. 220.
 %H A174615 Claude Goutier, <a href="http://www-labs.iro.umontreal.ca/~goutier/OEIS/A055553/">Text file readme.text summarizing enumeration of Carmichael numbers up to 10^22</a>.
 %H A174615 Claude Goutier, <a href="/A055553/a055553.txt">Text file readme.text summarizing enumeration of Carmichael numbers up to 10^22</a>. [Local copy, with permission]
 %H A174615 R. G. E. Pinch, <a href="http://s369624816.websitehome.co.uk/rgep/p82p.pdf">The Carmichael numbers up to 10^21</a>, Proceedings of Conference on Algorithmic Number Theory 2007.

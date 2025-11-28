@@ -1,8 +1,8 @@
-%I A231322 #4 Nov 07 2013 07:28:47
+%I A231322 #6 Jul 23 2025 06:24:40
 %S A231322 86400,79306752,93216760416,101255199764448,112717970818679904,
 %T A231322 124848872383160454816,138493610465688295961184,
 %U A231322 153600875343463960773850752,170368502364235084980055819776
-%N A231322 Number of (n+1)X(6+1) 0..2 arrays with no element equal to a strict majority of its diagonal and antidiagonal neighbors, with values 0..2 introduced in row major order
+%N A231322 Number of (n+1)X(6+1) 0..2 arrays with no element equal to a strict majority of its diagonal and antidiagonal neighbors, with values 0..2 introduced in row major order.
 %C A231322 Column 6 of A231324
 %H A231322 R. H. Hardin, <a href="/A231322/b231322.txt">Table of n, a(n) for n = 1..21</a>
 %e A231322 Some solutions for n=1

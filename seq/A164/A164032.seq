@@ -1,10 +1,10 @@
-%I A164032 #36 Jan 14 2024 14:35:15
+%I A164032 #39 Nov 05 2025 15:22:17
 %S A164032 1,9,4,36,4,36,16,144,4,36,16,144,16,144,64,576,4,36,16,144,16,144,64,
 %T A164032 576,16,144,64,576,64,576,256,2304,4,36,16,144,16,144,64,576,16,144,
 %U A164032 64,576,64,576,256,2304,16,144,64,576,64,576,256,2304,64,576,256,2304,256
 %N A164032 Number of "ON" cells in a certain 2-dimensional cellular automaton.
 %C A164032 This automaton starts with one ON cell and evolves according to the rule that a cell is ON in a given generation if and only if the number of ON cells, among the cell itself and its eight nearest neighbors, was exactly one in the preceding generation.
-%H A164032 David Applegate, Omar E. Pol and N. J. A. Sloane, <a href="/A000695/a000695_1.pdf">The Toothpick Sequence and Other Sequences from Cellular Automata</a>, Congressus Numerantium, Vol. 206 (2010), 157-191. [There is a typo in Theorem 6: (13) should read u(n) = 4.3^(wt(n-1)-1) for n >= 2.], which is also available at <a href="http://arxiv.org/abs/1004.3036">arXiv:1004.3036v2</a>
+%H A164032 David Applegate, Omar E. Pol and N. J. A. Sloane, <a href="/A000695/a000695_2.pdf">The Toothpick Sequence and Other Sequences from Cellular Automata</a>, Congressus Numerantium, Vol. 206 (2010), 157-191, which is also available at <a href="https://arxiv.org/abs/1004.3036">arXiv:1004.3036v2</a>
 %H A164032 N. J. A. Sloane, <a href="/wiki/Catalog_of_Toothpick_and_CA_Sequences_in_OEIS">Catalog of Toothpick and Cellular Automata Sequences in the OEIS</a>
 %H A164032 <a href="/index/Ce#cell">Index entries for sequences related to cellular automata</a>
 %F A164032 It appears that this is the self-generating sequence defined by the following process: start with s={1,9} and repeatedly extend by concatenating s with 4*s, thus obtaining {1,9} -> {1,9,4,36} -> {1,9,4,36,4,36,16,144},... , etc.

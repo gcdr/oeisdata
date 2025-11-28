@@ -1,7 +1,7 @@
-%I A229772 #4 Dec 18 2015 18:18:42
+%I A229772 #6 Jul 23 2025 05:46:38
 %S A229772 5,135,21331,35452250,843211336888,322942973130396495,
 %T A229772 2131384087795458774515411
-%N A229772 Number of n X n 0..4 arrays with rows in lexicographically nondecreasing order and columns in nonincreasing order
+%N A229772 Number of n X n 0..4 arrays with rows in lexicographically nondecreasing order and columns in nonincreasing order.
 %C A229772 Column 4 of A229774
 %e A229772 Some solutions for n=3
 %e A229772 ..3..3..1....1..1..0....3..2..0....0..0..0....3..1..1....2..1..1....2..1..1

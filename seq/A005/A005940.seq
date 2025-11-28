@@ -1,4 +1,4 @@
-%I A005940 M0509 #200 Mar 10 2023 16:34:28
+%I A005940 M0509 #203 Nov 05 2025 15:35:27
 %S A005940 1,2,3,4,5,6,9,8,7,10,15,12,25,18,27,16,11,14,21,20,35,30,45,24,49,50,
 %T A005940 75,36,125,54,81,32,13,22,33,28,55,42,63,40,77,70,105,60,175,90,135,
 %U A005940 48,121,98,147,100,245,150,225,72,343,250,375,108,625,162,243,64,17,26,39
@@ -39,7 +39,7 @@
 %H A005940 Antti Karttunen, <a href="/A005940/b005940.txt">Table of n, a(n) for n = 1..8192</a> (terms 1..1024 from Reinhard Zumkeller)
 %H A005940 Michael De Vlieger, 6 row <a href="/A005940/a005940.png">Doudna Tree diagram</a> as mentioned in Comments.
 %H A005940 Michael De Vlieger, <a href="/A005940/a005940_2.png">Annotated fan-style binary tree showing 10 levels</a>, with a color function where 2^m is shown in medium blue in row m, k < 2^m is darker blue, and k > 2^m is brighter green, with records in each row shown in red.
-%H A005940 Ronald E. Kutz, <a href="http://www.jstor.org/stable/3027304">Two unusual sequences</a>, Two-Year College Mathematics Journal, Vol. 12, No. 5 (1981), pp. 316-319.
+%H A005940 Ronald E. Kutz, <a href="https://www.jstor.org/stable/3027304">Two unusual sequences</a>, Two-Year College Mathematics Journal, Vol. 12, No. 5 (1981), pp. 316-319.
 %H A005940 <a href="/index/Per#IntegerPermutation">Index entries for sequences that are permutations of the natural numbers</a>
 %F A005940 From _Reinhard Zumkeller_, Aug 23 2006, _R. J. Mathar_, Mar 06 2010: (Start)
 %F A005940 a(n) = f(n-1, 1, 1)
@@ -96,7 +96,7 @@
 %o A005940            | m == 1 = f x' (y * a000040 i) i
 %o A005940            where (x',m) = divMod x 2
 %o A005940 -- _Reinhard Zumkeller_, Oct 03 2012
-%o A005940 (Scheme, with memoization-macro definec from Antti Karttunen's IntSeq-library)
+%o A005940 (Scheme) ;; With memoization-macro definec from Antti Karttunen's IntSeq-library.
 %o A005940 (define (A005940 n) (A005940off0 (- n 1))) ;; The off=1 version, utilizing any one of three different offset-0 implementations:
 %o A005940 (definec (A005940off0 n) (cond ((< n 2) (+ 1 n)) (else (* (A000040 (- (A070939 n) (- (A000120 n) 1))) (A005940off0 (A053645 n))))))
 %o A005940 (definec (A005940off0 n) (cond ((<= n 2) (+ 1 n)) ((even? n) (A003961 (A005940off0 (/ n 2)))) (else (* 2 (A005940off0 (/ (- n 1) 2))))))

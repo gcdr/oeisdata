@@ -1,4 +1,4 @@
-%I A012315 #12 Sep 08 2022 08:44:38
+%I A012315 #13 Sep 30 2025 20:34:15
 %S A012315 1,0,0,0,-12,60,-450,2940,-16688,58464,506520,-18245040,332343528,
 %T A012315 -5206192992,71271712512,-855046876320,7211743218432,15834692767104,
 %U A012315 -2957850381938112,99133043643679104,-2542788978368967552
@@ -11,4 +11,4 @@
 %o A012315 (Magma) m:=30; R<x>:=PowerSeriesRing(Rationals(), m); b:=Coefficients(R!( 1/Cosh(Arcsin(x)*Log(x+1)) )); [Factorial(n-1)*b[n]: n in [1..m-1]]; // _G. C. Greubel_, Oct 25 2018
 %K A012315 sign
 %O A012315 0,5
-%A A012315 Patrick Demichel (patrick.demichel(AT)hp.com)
+%A A012315 _Patrick Demichel_

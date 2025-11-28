@@ -1,4 +1,4 @@
-%I A064383 #24 Jul 02 2023 22:31:23
+%I A064383 #25 Nov 05 2025 15:22:01
 %S A064383 1,2,4,5,10,13,20,26,37,52,65,74,130,148,185,260,370,463,481,740,926,
 %T A064383 962,1852,1924,2315,2405,4630,4810,6019,9260,9620,12038,17131,24076,
 %U A064383 30095,34262,60190,68524,85655,120380,171310,222703,342620,445406,890812,1113515
@@ -10,7 +10,7 @@
 %C A064383 Michael Mossinghoff has calculated that 2, 5, 13, 37, 463 are the only primes in the sequence up to 150 million. - _Jonathan Sondow_, Jun 12 2007
 %D A064383 R. K. Guy, Unsolved Problems in Number Theory, 3rd ed., Springer-Verlag, 2004, B43.
 %H A064383 J. Sondow, <a href="http://home.earthlink.net/~jsondow/PrimesAndE.pdf">The Taylor series for e and the primes 2, 5, 13, 37, 463: a surprising connection</a>
-%H A064383 J. Sondow and K. Schalm, <a href="http://arxiv.org/abs/0709.0671">Which partial sums of the Taylor series for e are convergents to e? (and a link to the primes 2, 5, 13, 37, 463), II</a>, Gems in Experimental Mathematics (T. Amdeberhan, L. A. Medina, and V. H. Moll, eds.), Contemporary Mathematics, vol. 517, Amer. Math. Soc., Providence, RI, 2010.
+%H A064383 J. Sondow and K. Schalm, <a href="https://arxiv.org/abs/0709.0671">Which partial sums of the Taylor series for e are convergents to e? (and a link to the primes 2, 5, 13, 37, 463), II</a>, Gems in Experimental Mathematics (T. Amdeberhan, L. A. Medina, and V. H. Moll, eds.), Contemporary Mathematics, vol. 517, Amer. Math. Soc., Providence, RI, 2010.
 %H A064383 <a href="/index/Fa#factorial">Index entries for sequences related to factorial numbers</a>
 %F A064383 Up to n=600000, these are just the divisors of 4*5*13*37*463.
 %e A064383 4 is in the sequence because 4 divides 0!-1!+2!-3!=1-1+2-6=-4.

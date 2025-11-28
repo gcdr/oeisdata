@@ -1,9 +1,9 @@
-%I A129847 #68 Jul 04 2024 21:03:32
+%I A129847 #77 Nov 05 2025 15:22:06
 %S A129847 1,1,2,5,10,20,42,87,179,370,765,1580,3264,6744,13933,28785,59470,
 %T A129847 122865,253838,524428,1083466,2238435,4624595,9554390,19739321,
 %U A129847 40781336,84254032,174068400,359624425,742982225,1534997482,3171296957,6551883314,13536157460
 %N A129847 a(n) = number of set partitions of {1, 2, ..., n} whose blocks consist only of elements that differ by two or less (that is, have only the forms {i}, {i,i+1}, {i,i+2}, or {i,i+1,i+2}).
-%C A129847 (1) Bryce Duncan and I found this sequence while studying a graph invariant we call the Bell number. For a simple graph G = (V,E), we define B(G) to be the number of partitions P of V in which each block of P is an independent set of G. The sequence considered here results from choosing V = {1, 2, ..., n} and E = {(i,j) : |i - j| > 2. (The classical Bell numbers B(n) come from the edgeless graph on n vertices.)
+%C A129847 (1) Bryce Duncan and I found this sequence while studying a graph invariant we call the Bell number. For a simple graph G = (V,E), we define B(G) to be the number of partitions P of V in which each block of P is an independent set of G. The sequence considered here results from choosing V = {1, 2, ..., n} and E = {(i,j) : |i - j| > 2}. (The classical Bell numbers B(n) come from the edgeless graph on n vertices.)
 %C A129847 (2) The constant r in the formula is the dominant root of the characteristic equation of a linear homogeneous recurrence relation that also defines {a(n)}. (This recurrence relation, along with initial conditions, appears in the Mathematica program given below. The formula for a(n) is analogous to one version of the Binet formula for the Fibonacci numbers, namely F(n) = the integer nearest to (1/sqrt(5)) p^n where p is the golden mean. The shifted Fibonacci numbers F(n+1) are also graphical Bell numbers: replace the condition |i - j| > 2 with |i - j| > 1 to obtain them.
 %C A129847 (3) Bell numbers for simple graphs satisfy the deletion-contraction identity B(G) = B(G\e) - B(G/e), but not the product identity B(G union H) = B(G)B(H) for disjoint graphs G and H. However, we do have B(B join H) = B(G)B(H) for the join of graphs G and H. The join graph G join H results from adding to their disjoint union, all possible edges that join a vertex of G to a vertex of H.
 %C A129847 Diagonal sums of triangle A158687. - _Paul Barry_, Mar 24 2009
@@ -31,8 +31,9 @@
 %H A129847 Alois P. Heinz, <a href="/A129847/b129847.txt">Table of n, a(n) for n = 0..1000</a>
 %H A129847 Kassie Archer, Ethan Borsh, Jensen Bridges, Christina Graves, and Millie Jeske, <a href="https://arxiv.org/abs/2312.05145">Cyclic permutations avoiding patterns in both one-line and cycle forms</a>, arXiv:2312.05145 [math.CO], 2023. See p. 2.
 %H A129847 B. Duncan and R. Peele, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL12/Peele/peele5.html">Bell and Stirling numbers for graphs</a>, JIS 12 (2009), Article 09.7.1.
-%H A129847 W. Kuszmaul, <a href="http://arxiv.org/abs/1509.08216">Fast Algorithms for Finding Pattern Avoiders and Counting Pattern Occurrences in Permutations</a>, arXiv preprint arXiv:1509.08216 [cs.DM], 2015.
+%H A129847 W. Kuszmaul, <a href="https://arxiv.org/abs/1509.08216">Fast Algorithms for Finding Pattern Avoiders and Counting Pattern Occurrences in Permutations</a>, arXiv preprint arXiv:1509.08216 [cs.DM], 2015.
 %H A129847 W. Kuszmaul, <a href="http://dx.doi.org/10.1090/mcom/3216">Fast Algorithms for Finding Pattern Avoiders and Counting Pattern Occurrences in Permutations</a>, Mathematics of Computation 87 (2018), 987-1011.
+%H A129847 <a href="/index/Rec#order_04">Index entries for linear recurrences with constant coefficients</a>, signature (1,1,2,1).
 %F A129847 a(n) = the integer nearest to s r^n, where r = 2.0659948920 ... and s = 0.53979687305... . (More information in comment (2).)
 %F A129847 a(n) = Sum_{k=0..floor(n/2)} Sum_{j=0..n-2k} C(n-j-k,k)*C(2k,j). - _Paul Barry_, Mar 24 2009
 %F A129847 G.f.: 1/(1 - x - x^2 - 2*x^3 - x^4). - _Colin Barker_, May 02 2012

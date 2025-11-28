@@ -1,8 +1,8 @@
-%I A239648 #4 Mar 23 2014 07:02:24
+%I A239648 #6 Jun 02 2025 09:30:46
 %S A239648 128,38888,13703468,4304123072,1393740949524,449878848794094,
 %T A239648 144633234041629586,46605631116410605602,15009686604114403319918,
 %U A239648 4833298966552939324386658,1556693436923279970529451138
-%N A239648 Number of nX7 0..3 arrays with no element equal to zero plus the sum of elements to its left or two plus the sum of elements above it, modulo 4
+%N A239648 Number of nX7 0..3 arrays with no element equal to zero plus the sum of elements to its left or two plus the sum of elements above it, modulo 4.
 %C A239648 Column 7 of A239649
 %H A239648 R. H. Hardin, <a href="/A239648/b239648.txt">Table of n, a(n) for n = 1..210</a>
 %e A239648 Some solutions for n=2

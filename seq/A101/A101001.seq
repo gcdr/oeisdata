@@ -1,11 +1,11 @@
-%I A101001 #18 Jan 17 2019 13:44:06
+%I A101001 #21 Oct 19 2025 20:50:43
 %S A101001 2,3,23,38,62,75,107,165,519,1809,2348,2561,5783,6447,11691,16035,
 %T A101001 17553
 %N A101001 Indices of primes in sequence defined by A(0) = 91, A(n) = 10*A(n-1) + 11 for n > 0.
-%C A101001 Numbers n such that (830*10^n - 11)/9 is prime.
-%C A101001 Numbers n such that digit 9 followed by n >= 0 occurrences of digit 2 followed by digit 1 is prime.
+%C A101001 Numbers k such that (830*10^k - 11)/9 is prime.
+%C A101001 Numbers k such that digit 9 followed by k >= 0 occurrences of digit 2 followed by digit 1 is prime.
 %C A101001 Numbers corresponding to terms <= 519 are certified primes.
-%C A101001 a(18) > 10^5. - Robert Price, Nov 03 2015
+%C A101001 a(18) > 10^5. - _Robert Price_, Nov 03 2015
 %D A101001 Klaus Brockhaus and Walter Oberschelp, Zahlenfolgen mit homogenem Ziffernkern, MNU 59/8 (2006), pp. 462-467.
 %H A101001 Makoto Kamada, <a href="https://stdkmd.net/nrr/9/92221.htm#prime">Prime numbers of the form 922...221</a>.
 %H A101001 <a href="/index/Pri#Pri_rep">Index entries for primes involving repunits</a>.

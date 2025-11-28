@@ -1,8 +1,8 @@
-%I A203189 #5 Mar 31 2012 12:36:55
+%I A203189 #9 Oct 03 2025 10:11:15
 %S A203189 1121,15703631,117061422325,754868206701309,5067952959051283059,
 %T A203189 34353493702738177260748,232103745979086439437076471,
 %U A203189 1567267224439734346152398392389,10585441536020941283010401910808799
-%N A203189 Number of nX6 0..4 arrays with every nonzero element less than or equal to some horizontal or vertical neighbor
+%N A203189 Number of nX6 0..4 arrays with every nonzero element less than or equal to some horizontal or vertical neighbor.
 %C A203189 Column 6 of A203191
 %H A203189 R. H. Hardin, <a href="/A203189/b203189.txt">Table of n, a(n) for n = 1..65</a>
 %e A203189 Some solutions for n=4
@@ -12,4 +12,4 @@
 %e A203189 ..3..3..2..3..3..0....4..4..2..3..3..2....1..0..0..4..4..4....1..0..2..2..4..3
 %K A203189 nonn
 %O A203189 1,1
-%A A203189 _R. H. Hardin_ Dec 30 2011
+%A A203189 _R. H. Hardin_, Dec 30 2011

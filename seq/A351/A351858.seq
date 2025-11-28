@@ -1,4 +1,4 @@
-%I A351858 #27 Apr 30 2024 18:42:23
+%I A351858 #31 Oct 28 2025 17:21:29
 %S A351858 1,1,7,19,103,376,1825,7547,35175,153838,708132,3181091,14616481,
 %T A351858 66582283,306501377,1407473269,6497464679,29991098982,138844558150,
 %U A351858 643215119214,2985368996228,13868212710623,64508509024241,300324344452479,1399598738196897,6527698842078501
@@ -9,6 +9,7 @@
 %C A351858 Conjecture: for k >= 2, each sequence u_k satisfies the same supercongruences as the central binomial coefficients.
 %C A351858 More generally, if r is a positive integer and s an integer then the sequence defined by  u_k(r,s;n) = [x^(r*n)] G_k(x)^(s*n) may satisfy the same supercongruences.
 %D A351858 R. P. Stanley, Enumerative Combinatorics Volume 2, Cambridge Univ. Press, 1999, Theorem 6.33, p. 197.
+%H A351858 Robert Israel, <a href="/A351858/b351858.txt">Table of n, a(n) for n = 0..1000</a>
 %H A351858 R. Meštrović, <a href="https://arxiv.org/abs/1111.3057">Wolstenholme's theorem: Its Generalizations and Extensions in the last hundred and fifty years (1862--2012)</a>, arXiv:1111.3057 [math.NT], 2011.
 %F A351858 a(n) = Sum_{k = 0..n} Sum_{j = 0..n-k} (-1)^(n-k-j)*C(n,k)*C(3*n,j)*C(4*n-2*j-k-1,n-k-j).
 %F A351858 Conjecture: a(n) = Sum_{k = 0..floor(n/2)} C(3*n,k)*C(n-k,k).

@@ -1,9 +1,10 @@
-%I A056557 #23 Nov 05 2024 05:24:53
+%I A056557 #27 Nov 09 2025 22:08:52
 %S A056557 0,0,1,1,0,1,1,2,2,2,0,1,1,2,2,2,3,3,3,3,0,1,1,2,2,2,3,3,3,3,4,4,4,4,
 %T A056557 4,0,1,1,2,2,2,3,3,3,3,4,4,4,4,4,5,5,5,5,5,5,0,1,1,2,2,2,3,3,3,3,4,4,
 %U A056557 4,4,4,5,5,5,5,5,5,6,6,6,6,6,6,6,0,1,1,2,2,2,3,3,3,3,4,4,4,4,4,5,5,5,5,5,5
 %N A056557 Second tetrahedral coordinate.
 %C A056557 If {(X,Y,Z)} are triples of nonnegative integers with X >= Y >= Z ordered by X, Y and Z, then X=A056556(n), Y=A056557(n) and Z=A056558(n).
+%H A056557 Chai Wah Wu, <a href="https://math.colgate.edu/~integers/z95/z95.pdf">Algorithms for Complementary Sequences</a>, Integers (2025) Vol. 25, Art. No. A95. See p. 22.
 %F A056557 a(n) = floor((sqrt(8*(n-A056556(n)*(A056556(n)+1)*(A056556(n)+2)/6)+1)-1)/2) = A003056(n-A000292(A056556(n)-1)).
 %F A056557 a(n+1) = 0 if A056556(n) = A056558(n); a(n+1) = a(n)+1 if a(n) = A056558(n); otherwise a(n+1) = a(n).  - _Graeme McRae_, Jan 09 2007
 %o A056557 (Python)

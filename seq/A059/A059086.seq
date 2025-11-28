@@ -1,4 +1,4 @@
-%I A059086 #7 May 10 2013 12:44:33
+%I A059086 #8 Jul 02 2025 16:02:00
 %S A059086 2,5,30,18236,2369751620679,5960531437867327674541054610203768,
 %T A059086 479047836152505670895481842190009123676957243077039693903470634823732317120870101036348
 %N A059086 Number of labeled T_0-hypergraphs with n distinct hyperedges (empty hyperedge included).
@@ -12,4 +12,4 @@
 %K A059086 easy,nonn
 %O A059086 0,1
 %A A059086 Goran Kilibarda, _Vladeta Jovovic_, Dec 27 2000
-%E A059086 More terms from _James A. Sellers_, Jan 24 2001
+%E A059086 More terms from _James Sellers_, Jan 24 2001

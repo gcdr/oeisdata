@@ -1,17 +1,17 @@
-%I A270935 #16 Feb 16 2025 08:33:32
+%I A270935 #19 Nov 05 2025 15:22:32
 %S A270935 1,8,44,220,956,3964,16124,65020,261116,1046524,4190204,16769020,
 %T A270935 67092476,268402684,1073676284,4294836220
 %N A270935 Number of active (ON, black) cells at stage 2^n-1 of the two-dimensional cellular automaton defined by "Rule 221", based on the 5-celled von Neumann neighborhood.
 %C A270935 Initialized with a single black (ON) cell at stage zero.
 %C A270935 Conjecture: Rule 253 also generates this sequence. - _Lars Blomberg_, Jun 06 2016
 %D A270935 S. Wolfram, A New Kind of Science, Wolfram Media, 2002; p. 170.
-%H A270935 N. J. A. Sloane, <a href="http://arxiv.org/abs/1503.01168">On the Number of ON Cells in Cellular Automata</a>, arXiv:1503.01168 [math.CO], 2015
+%H A270935 N. J. A. Sloane, <a href="https://arxiv.org/abs/1503.01168">On the Number of ON Cells in Cellular Automata</a>, arXiv:1503.01168 [math.CO], 2015
 %H A270935 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/ElementaryCellularAutomaton.html">Elementary Cellular Automaton</a>
 %H A270935 S. Wolfram, <a href="http://wolframscience.com/">A New Kind of Science</a>
 %H A270935 <a href="/index/Ce#cell">Index entries for sequences related to cellular automata</a>
 %H A270935 <a href="https://oeis.org/wiki/Index_to_2D_5-Neighbor_Cellular_Automata">Index to 2D 5-Neighbor Cellular Automata</a>
 %H A270935 <a href="https://oeis.org/wiki/Index_to_Elementary_Cellular_Automata">Index to Elementary Cellular Automata</a>
-%F A270935 Conjecture: a(n) = 4*4^n - 4*2^n - 4, n>1. - _Lars Blomberg_, Jun 06 2016
+%F A270935 Conjecture: a(n) = 4*4^n - 4*2^n - 4 = A269907(n), n>1. - _Lars Blomberg_, Jun 06 2016
 %F A270935 Conjectures from _Colin Barker_, Jun 07 2016: (Start)
 %F A270935 a(n) = 7*a(n-1)-14*a(n-2)+8*a(n-3) for n>4.
 %F A270935 G.f.: (1+x+2*x^2+16*x^3-32*x^4) / ((1-x)*(1-2*x)*(1-4*x)).

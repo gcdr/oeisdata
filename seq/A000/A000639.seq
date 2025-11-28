@@ -1,4 +1,4 @@
-%I A000639 M3341 N1344 #42 Jun 16 2022 23:26:39
+%I A000639 M3341 N1344 #43 Nov 05 2025 15:21:39
 %S A000639 0,0,0,0,0,1,1,4,8,22,51,136,335,871,2217,5749,14837,38636,100622,
 %T A000639 263381,690709,1817544,4793449,12675741,33592349,89223734,237455566,
 %U A000639 633176939,1691377956,4525792533,12129365576,32556355947,87508275471,235529797422
@@ -8,7 +8,7 @@
 %D A000639 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
 %D A000639 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
 %H A000639 Vincenzo Librandi, <a href="/A000639/b000639.txt">Table of n, a(n) for n = 1..100</a>
-%H A000639 I. Dolinka, J. East, A. Evangelou, D. FitzGerald, N. Ham, et al., <a href="http://arxiv.org/abs/1408.2021">Enumeration of idempotents in diagram semigroups and algebras</a>, arXiv preprint arXiv:1408.2021 [math.GR], 2014.
+%H A000639 I. Dolinka, J. East, A. Evangelou, D. FitzGerald, N. Ham, et al., <a href="https://arxiv.org/abs/1408.2021">Enumeration of idempotents in diagram semigroups and algebras</a>, arXiv preprint arXiv:1408.2021 [math.GR], 2014.
 %H A000639 G. Polya, <a href="https://doi.org/10.1524/zkri.1936.93.1.415">Algebraische Berechnung der Anzahl der Isomeren einiger organischer Verbindungen</a>, Zeit. f. Kristall., 93 (1936), 415-443 (p. 422).
 %H A000639 G. Polya, <a href="/A000598/a000598_3.pdf">Algebraische Berechnung der Anzahl der Isomeren einiger organischer Verbindungen</a>,  Zeit. f. Kristall., 93 (1936), 415-443 (p. 422). (Annotated scanned copy)
 %F A000639 G.f.: (x^6/12)*(B(x)^6+4*B(x^2)^3+2*B(x^3)^2+3*B(x)^2*B(x^2)^2+2*B(x^6)), where B = g.f. of A000598.

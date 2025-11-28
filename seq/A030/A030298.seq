@@ -1,4 +1,4 @@
-%I A030298 #43 Jan 14 2025 14:45:56
+%I A030298 #46 Nov 10 2025 21:50:37
 %S A030298 1,1,2,2,1,1,2,3,1,3,2,2,1,3,2,3,1,3,1,2,3,2,1,1,2,3,4,1,2,4,3,1,3,2,
 %T A030298 4,1,3,4,2,1,4,2,3,1,4,3,2,2,1,3,4,2,1,4,3,2,3,1,4,2,3,4,1,2,4,1,3,2,
 %U A030298 4,3,1,3,1,2,4,3,1,4,2,3,2,1,4,3,2,4,1,3,4,1,2,3,4,2,1,4,1,2,3,4,1,3,2,4,2
@@ -6,7 +6,7 @@
 %C A030298 Contains every finite sequence of distinct numbers, infinitely many times.
 %H A030298 Reinhard Zumkeller, <a href="/A030298/b030298.txt">Rows n=1..7 of triangle, flattened</a>
 %H A030298 Daniel Forgues, Tilman Piesk, et al., <a href="https://oeis.org/wiki/Orderings">Orderings</a>, OEIS Wiki.
-%H A030298 Antti Karttunen, <a href="http://oeis.org/wiki/Ranking_and_unranking_functions">Ranking and unranking functions</a>, OEIS Wiki.
+%H A030298 Antti Karttunen, <a href="https://oeis.org/wiki/Ranking_and_unranking_functions">Ranking and unranking functions</a>, OEIS Wiki.
 %H A030298 <a href="/index/Per#perm">Index entries for sequences related to permutations</a>
 %F A030298 Start with 1, then 12 and 21, then the 6 permutations of 123 in lexical order: 123, 132, 213, 231, 312, 321 and so on.
 %e A030298 The permutations can be written as
@@ -21,7 +21,8 @@
 %o A030298 a030298_row = concat . sort . permutations . enumFromTo 1
 %o A030298 a030298_tabf = map a030298_row [1..]
 %o A030298 -- _Reinhard Zumkeller_, Mar 29 2012
-%o A030298 (MIT/GNU Scheme, with _Antti Karttunen_'s intseq-library):
+%o A030298 (Scheme)
+%o A030298 ;; With _Antti Karttunen_'s intseq-library.
 %o A030298 ;; Note that in Scheme, vector indexing is zero-based.
 %o A030298 ;; Requires also A055089permvec from A055089.
 %o A030298 (define (A030298 n) (vector-ref (A030298permvec (A084556 (A084557 n)) (A220660 (A084557 n))) (A220663 n)))

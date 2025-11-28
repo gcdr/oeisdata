@@ -1,4 +1,4 @@
-%I A018389 #14 Sep 04 2022 12:49:52
+%I A018389 #16 Jul 08 2025 06:44:34
 %S A018389 1,2,4,79,158,316
 %N A018389 Divisors of 316.
 %H A018389 <a href="/index/Di#divisors">Index entries for sequences related to divisors of numbers</a>
@@ -6,4 +6,4 @@
 %o A018389 (PARI) divisors(316) \\ _Charles R Greathouse IV_, Jun 22 2017
 %K A018389 nonn,fini,full,easy
 %O A018389 1,2
-%A A018389 _N. J. A. Sloane_.
+%A A018389 _N. J. A. Sloane_

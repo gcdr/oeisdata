@@ -1,8 +1,8 @@
-%I A199769 #13 May 05 2023 08:19:16
+%I A199769 #15 Jul 22 2025 13:23:25
 %S A199769 1,2,3,4,4,5,5,5,6,6,6,6,6,6,7,7,7,7,7,7,7,7,7,7,7,7,8,8,8,8,8,8,8,8,
 %T A199769 8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,
 %U A199769 9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,10
-%N A199769 Number of brackets in distinct sets with fewest possible elements
+%N A199769 Number of brackets in distinct sets with fewest possible elements.
 %H A199769 Alois P. Heinz, <a href="/A199769/b199769.txt">Table of n, a(n) for n = 1..11306</a>
 %F A199769 a(n) = A198759(n+1) - A198759(n).
 %e A199769 There are three repetitions of 5 because of the sets {{{{{}}}}}, {{{}, {{}}}}, and {{{{}}}, {}}.

@@ -1,11 +1,11 @@
-%I A052881 #49 Aug 13 2024 01:52:13
+%I A052881 #52 Nov 05 2025 15:21:59
 %S A052881 0,0,2,9,44,250,1644,12348,104544,986256,10265760,116915040,
 %T A052881 1446526080,19323757440,277238626560,4251984710400,69426608025600,
 %U A052881 1202482800691200,22021300630425600,425162773111910400
 %N A052881 Expansion of e.g.f. log(1/(1-x))*x/(1-x).
 %C A052881 Previous name was: A simple grammar.
 %H A052881 Vincenzo Librandi, <a href="/A052881/b052881.txt">Table of n, a(n) for n = 0..200</a>
-%H A052881 Matt Davis, <a href="http://arxiv.org/abs/1412.0345">Quadrant Marked Mesh Patterns and the r-Stirling Numbers</a>, arXiv preprint arXiv:1412.0345 [math.CO], 2014  and <a href="https://cs.uwaterloo.ca/journals/JIS/VOL18/Davis/davis3.html">J. Int. Seq. 18 (2015) 15.10.1</a>.
+%H A052881 Matt Davis, <a href="https://arxiv.org/abs/1412.0345">Quadrant Marked Mesh Patterns and the r-Stirling Numbers</a>, arXiv preprint arXiv:1412.0345 [math.CO], 2014  and <a href="https://cs.uwaterloo.ca/journals/JIS/VOL18/Davis/davis3.html">J. Int. Seq. 18 (2015) 15.10.1</a>.
 %H A052881 INRIA Algorithms Project, <a href="http://ecs.inria.fr/services/structure?nbr=853">Encyclopedia of Combinatorial Structures 853</a>
 %F A052881 E.g.f.: -log(-1/(-1+x))*x/(-1+x).
 %F A052881 Recurrence: a(1)=0, a(2)=2, (n^3+3*n^2+2*n)*a(n)+(-5*n-2*n^2-2)*a(n+1)+(n+1)*a(n+2) =0.
@@ -18,9 +18,9 @@
 %p A052881 seq(simplify(A052881(n)),n=0..19); # _Peter Luschny_, Jun 11 2016
 %t A052881 Table[n!*SeriesCoefficient[-Log[-1/(-1+x)]*x/(-1+x),{x,0,n}],{n,0,20}] (* _Vaclav Kotesovec_, Oct 09 2012 *)
 %t A052881 With[{nn=20},CoefficientList[Series[Log[1/(1-x)] x/(1-x),{x,0,nn}],x] Range[0,nn]!] (* _Harvey P. Dale_, Aug 19 2022 *)
-%o A052881 (Sage) [stirling_number1(i,2)*i for i in range(0,32)] # _Zerinvary Lajos_, Jun 27 2008
+%o A052881 (SageMath) [stirling_number1(i,2)*i for i in range(0,32)] # _Zerinvary Lajos_, Jun 27 2008
 %o A052881 (PARI) x='x+O('x^66); concat([0,0],Vec(serlaplace(-log(-1/(-1+x))*x/(-1+x)))) \\ _Joerg Arndt_, May 06 2013
 %K A052881 easy,nonn
 %O A052881 0,3
-%A A052881 encyclopedia(AT)pommard.inria.fr, Jan 25 2000
+%A A052881 _INRIA Encyclopedia of Combinatorial Structures_, Jan 25 2000
 %E A052881 New name using e.g.f., _Vaclav Kotesovec_, Feb 25 2014

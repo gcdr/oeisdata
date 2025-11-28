@@ -1,10 +1,10 @@
-%I A198683 #68 Nov 28 2017 23:14:57
+%I A198683 #69 Nov 05 2025 15:35:34
 %S A198683 1,1,2,3,7,15,34,77,187,462,1152
 %N A198683 Number of distinct values taken by i^i^...^i (with n i's and parentheses inserted in all possible ways) where i = sqrt(-1) and ^ denotes the principal value of the exponential function.
 %C A198683 There are C(n-1) ways of inserting the parentheses (where C is a Catalan number, A000108), but not all arrangements produce different values.
 %C A198683 At n=10, the expression i^(i^(((i^i)^i)^(i^((i^i)^(i^i))))) evaluates to a large complex number, C = -6.795047376...*10^34 - i*6.044219499...*10^34; as a result, i^C, which arises at n=11, is very large, having a magnitude of e^((-Pi/2)*(-6.044219499...*10^34)) = 4.1007...*10^41232950809707420597749203381002924. - _Jon E. Schoenfield_, Nov 21 2015
 %C A198683 Note that if a is a REAL positive number, the number of different values of a^a^...^a with n a's is at most A000081(n). But this relies on the identity (x^y)^z = (x^z)^y = x^(yz), which is not always true for complex numbers with the principal value of the power function. Thus if Y = ((i^i)^i)^i, we have (i^i)^Y / (i^Y)^i = exp(-2 Pi). - _Robert Israel_, Nov 27 2015 [So for the present sequence, we know a(n) <= A000108(n-1), but we do not know that a(n) <= A000081(n). - _N. J. A. Sloane_, Nov 28 2015]
-%H A198683 R. K. Guy and J. L. Selfridge, <a href="http://www.jstor.org/stable/2319392">The nesting and roosting habits of the laddered parenthesis</a>, Amer. Math. Monthly 80 (8) (1973), 868-876.
+%H A198683 R. K. Guy and J. L. Selfridge, <a href="https://www.jstor.org/stable/2319392">The nesting and roosting habits of the laddered parenthesis</a>, Amer. Math. Monthly 80 (8) (1973), 868-876.
 %H A198683 R. K. Guy and J. L. Selfridge, <a href="/A003018/a003018.pdf">The nesting and roosting habits of the laddered parenthesis</a> (annotated cached copy)
 %H A198683 MathOverflow, <a href="http://mathoverflow.net/questions/79442/number-of-distinct-values-taken-by-xx-x-with-parentheses-inserted-in-all-pos">Discussion of related questions</a>
 %H A198683 Jon E. Schoenfield, <a href="/A198683/a198683.txt">Tables for n = 1..11 listing all A000108(n-1) ways of inserting the parentheses and identifying the ways that do not yield duplicated values</a>

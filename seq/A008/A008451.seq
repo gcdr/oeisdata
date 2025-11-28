@@ -1,4 +1,4 @@
-%I A008451 #59 Jun 23 2024 02:21:56
+%I A008451 #62 Sep 22 2025 16:00:21
 %S A008451 1,14,84,280,574,840,1288,2368,3444,3542,4424,7560,9240,8456,11088,
 %T A008451 16576,18494,17808,19740,27720,34440,29456,31304,49728,52808,43414,
 %U A008451 52248,68320,74048,68376,71120,99456,110964,89936,94864,136080,145222
@@ -13,6 +13,7 @@
 %H A008451 <a href="/index/Su#ssq">Index entries for sequences related to sums of squares</a>
 %F A008451 G.f.: theta_3(0,x)^7, where theta_3 is the third Jacobi theta function. - _Robert Israel_, Jul 16 2014
 %F A008451 a(n) = (14/n)*Sum_{k=1..n} A186690(k)*a(n-k), a(0) = 1. - _Seiichi Manyama_, May 27 2017
+%F A008451 Empirical: Sum_{n>=0} a(n) / exp(n*Pi) = Pi^(7/4) / Gamma(3/4)^7 = A388194. - _Simon Plouffe_, Sep 15 2025
 %p A008451 series((sum(x^(m^2),m=-10..10))^7, x, 101);
 %p A008451 # Alternative
 %p A008451 #(requires at least Maple 17, and only works as long as a(n) <= 10^16 or so):
@@ -29,7 +30,7 @@
 %p A008451 seq(coeff(%,x,j), j=0..len-1) end: A008451list(37); # _Peter Luschny_, Oct 02 2018
 %t A008451 Table[SquaresR[7, n], {n, 0, 36}] (* _Ray Chandler_, Nov 28 2006 *)
 %t A008451 SquaresR[7,Range[0,50]] (* _Harvey P. Dale_, Aug 26 2011 *)
-%o A008451 (Sage)
+%o A008451 (SageMath)
 %o A008451 Q = DiagonalQuadraticForm(ZZ, [1]*7)
 %o A008451 Q.representation_number_list(37) # _Peter Luschny_, Jun 20 2014
 %o A008451 (Python)

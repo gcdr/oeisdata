@@ -1,4 +1,4 @@
-%I A081611 #40 Dec 05 2024 10:19:53
+%I A081611 #41 Sep 22 2025 16:00:42
 %S A081611 1,2,2,3,4,4,4,4,4,5,6,6,7,8,8,8,8,8,8,8,8,8,8,8,8,8,8,9,10,10,11,12,
 %T A081611 12,12,12,12,13,14,14,15,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,
 %U A081611 16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16
@@ -19,7 +19,7 @@
 %o A081611 a081611_list = scanl1 (+) a039966_list
 %o A081611 -- _Reinhard Zumkeller_, Jan 28 2012
 %o A081611 (Magma) R<x>:=PowerSeriesRing(Integers(), 100); Coefficients(R!( (&*[1+x^(3^k): k in [0..5]])/(1-x) )); // _G. C. Greubel_, Mar 29 2019
-%o A081611 (Sage) (product(1+x^(3^k) for k in (0..5))/(1-x)).series(x, 100).coefficients(x, sparse=False) # _G. C. Greubel_, Mar 29 2019
+%o A081611 (SageMath) (product(1+x^(3^k) for k in (0..5))/(1-x)).series(x, 100).coefficients(x, sparse=False) # _G. C. Greubel_, Mar 29 2019
 %o A081611 (Python)
 %o A081611 from gmpy2 import digits
 %o A081611 def A081611(n):

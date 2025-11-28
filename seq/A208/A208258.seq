@@ -1,8 +1,8 @@
-%I A208258 #5 Mar 31 2012 12:37:22
+%I A208258 #9 Oct 03 2025 14:43:44
 %S A208258 1,2,2,5,12,5,14,96,96,14,41,768,2040,768,41,122,6144,43344,43344,
 %T A208258 6144,122,365,49152,920928,2445264,920928,49152,365,1094,393216,
 %U A208258 19566912,137947632,137947632,19566912,393216,1094,3281,3145728,415737216
-%N A208258 T(n,k)=Number of nXk 0..2 arrays with new values 0..2 introduced in row major order and no element equal to more than one of its immediate leftward or upward neighbors
+%N A208258 T(n,k)=Number of nXk 0..2 arrays with new values 0..2 introduced in row major order and no element equal to more than one of its immediate leftward or upward neighbors.
 %C A208258 Table starts
 %C A208258 ....1.......2..........5.............14................41...................122
 %C A208258 ....2......12.........96............768..............6144.................49152
@@ -22,4 +22,4 @@
 %Y A208258 Column 2 is A204623(n-1)
 %K A208258 nonn,tabl
 %O A208258 1,2
-%A A208258 _R. H. Hardin_ Feb 24 2012
+%A A208258 _R. H. Hardin_, Feb 24 2012

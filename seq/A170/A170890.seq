@@ -1,10 +1,10 @@
-%I A170890 #34 Feb 24 2021 02:48:19
+%I A170890 #36 Sep 23 2025 18:13:32
 %S A170890 0,1,2,4,7,10,14,21,29,37,43,53,61,71,83,103,123,139,151,165,173,183,
 %T A170890 195,215,235,253,271,295,317,345,385,441,493,531,559,581,589,599,611,
 %U A170890 631,651,669,687,711,733,761,801,857,909,949,983,1015,1037,1065,1105,1161
 %N A170890 Toothpick sequence similar to A160406, but always staying outside the wedge, starting with a horizontal half-toothpick which protrudes from the vertex of the wedge.
 %C A170890 The initial half-tookpick makes an angle of 90 degrees w.r.t. the wedge's direction. This breaks the symmetry and explains the changing parity of the terms. - _M. F. Hasler_, Jan 29 2013
-%H A170890 David Applegate, Omar E. Pol and N. J. A. Sloane, <a href="/A000695/a000695_1.pdf">The Toothpick Sequence and Other Sequences from Cellular Automata</a>, Congressus Numerantium, Vol. 206 (2010), 157-191. [There is a typo in Theorem 6: (13) should read u(n) = 4.3^(wt(n-1)-1) for n >= 2.]
+%H A170890 David Applegate, Omar E. Pol and N. J. A. Sloane, <a href="/A000695/a000695_2.pdf">The Toothpick Sequence and Other Sequences from Cellular Automata</a>, Congressus Numerantium, Vol. 206 (2010), 157-191
 %H A170890 N. J. A. Sloane, <a href="/wiki/Catalog_of_Toothpick_and_CA_Sequences_in_OEIS">Catalog of Toothpick and Cellular Automata Sequences in the OEIS</a>
 %e A170890 From _M. F. Hasler_, Jan 29 2013: (Start)
 %e A170890 The first steps are illustrated as follows, where two vertical "|" or three horizontal "_" correspond to one single full toothpick:

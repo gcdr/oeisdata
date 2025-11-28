@@ -1,4 +1,4 @@
-%I A005013 M3214 #119 Feb 16 2025 08:32:28
+%I A005013 M3214 #121 Nov 05 2025 15:35:24
 %S A005013 0,1,1,4,3,11,8,29,21,76,55,199,144,521,377,1364,987,3571,2584,9349,
 %T A005013 6765,24476,17711,64079,46368,167761,121393,439204,317811,1149851,
 %U A005013 832040,3010349,2178309,7881196,5702887,20633239,14930352,54018521,39088169,141422324
@@ -13,12 +13,12 @@
 %H A005013 G. C. Greubel, <a href="/A005013/b005013.txt">Table of n, a(n) for n = 0..2000</a> (terms 0..500 from T. D. Noe)
 %H A005013 A. F. Horadam, R. P. Loh and A. G. Shannon, <a href="/A005013/a005013.pdf">Divisibility properties of some Fibonacci-type sequences</a>, pp. 55-64 of Combinatorial Mathematics VI (Armidale 1978), Lect. Notes Math. 748, 1979. [Annotated scanned copy]
 %H A005013 Seong Ju Kim, R. Stees and L. Taalman, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL19/Stees/stees4.html">Sequences of Spiral Knot Determinants</a>, Journal of Integer Sequences, Vol. 19 (2016), #16.1.4.
-%H A005013 D. H. Lehmer, <a href="http://www.jstor.org/stable/1968235">An extended theory of Lucas' functions</a>, Annals of Mathematics, Second Series, Vol. 31, No. 3 (Jul., 1930), pp. 419-448.
+%H A005013 D. H. Lehmer, <a href="https://www.jstor.org/stable/1968235">An extended theory of Lucas' functions</a>, Annals of Mathematics, Second Series, Vol. 31, No. 3 (Jul., 1930), pp. 419-448.
 %H A005013 Simon Plouffe, <a href="https://arxiv.org/abs/0911.4975">Approximations de séries génératrices et quelques conjectures</a>, Dissertation, Université du Québec à Montréal, 1992; arXiv:0911.4975 [math.NT], 2009.
 %H A005013 Simon Plouffe, <a href="/A000051/a000051_2.pdf">1031 Generating Functions</a>, Appendix to Thesis, Montreal, 1992.
 %H A005013 E. L. Roettger and H. C. Williams, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL24/Roettger/roettger12.html">Appearance of Primes in Fourth-Order Odd Divisibility Sequences</a>, J. Int. Seq., Vol. 24 (2021), Article 21.7.5.
 %H A005013 E. W. Weisstein, <a href="https://mathworld.wolfram.com/LehmerNumber.html">MathWorld: Lehmer Number</a>
-%H A005013 H. C. Williams and R. K. Guy, <a href="https://www.emis.de/journals/INTEGERS/papers/p33/p33.Abstract.html">Odd and even linear divisibility sequences of order 4</a>, INTEGERS, 2015, #A33.
+%H A005013 H. C. Williams and R. K. Guy, <a href="http://www.integers-ejcnt.org/p33/p33.Abstract.html">Odd and even linear divisibility sequences of order 4</a>, INTEGERS, 2015, #A33.
 %H A005013 <a href="/index/Di#divseq">Index to divisibility sequences</a>
 %H A005013 <a href="/index/Rec#order_04">Index entries for linear recurrences with constant coefficients</a>, signature (0,3,0,-1).
 %F A005013 a(1) = a(2) = 1, a(3) = 4, a(n) = (a(n-1) * a(n-2) - 1) / a(n-3), unless n=3. a(-n) = -a(n).

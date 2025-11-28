@@ -1,4 +1,4 @@
-%I A018418 #14 Sep 04 2022 12:42:27
+%I A018418 #16 Jul 08 2025 06:47:27
 %S A018418 1,2,5,10,37,74,185,370
 %N A018418 Divisors of 370.
 %H A018418 <a href="/index/Di#divisors">Index entries for sequences related to divisors of numbers</a>
@@ -6,4 +6,4 @@
 %o A018418 (PARI) divisors(370) \\ _Charles R Greathouse IV_, Jun 22 2017
 %K A018418 nonn,fini,full,easy
 %O A018418 1,2
-%A A018418 _N. J. A. Sloane_.
+%A A018418 _N. J. A. Sloane_

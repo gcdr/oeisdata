@@ -1,4 +1,4 @@
-%I A155020 #90 Feb 03 2025 01:53:48
+%I A155020 #96 Nov 05 2025 15:22:17
 %S A155020 1,1,3,8,22,60,164,448,1224,3344,9136,24960,68192,186304,508992,
 %T A155020 1390592,3799168,10379520,28357376,77473792,211662336,578272256,
 %U A155020 1579869184,4316282880,11792304128,32217174016,88018956288,240472260608,656982433792,1794909388800,4903783645184,13397386067968
@@ -15,7 +15,8 @@
 %C A155020 G(x) = x*(1+x) + 2*(x*(1+x))^2 + 2^2*(x*(1+x))^3 - ..., and so this array contains the row sums of A030528 * Diag(1, 2^1, 2^2, 2^3, ...). (End)
 %C A155020 INVERT transform of Fibonacci(n+1). - _Alois P. Heinz_, Feb 11 2021
 %H A155020 Indranil Ghosh, <a href="/A155020/b155020.txt">Table of n, a(n) for n = 0..2287</a>
-%H A155020 I. Amburg, K. Dasaratha, L. Flapan, T. Garrity, C. Lee, C. Mihailak, N. Neumann-Chun, S. Peluse, and M. Stoffregen, <a href="http://arxiv.org/abs/1509.05239">Stern Sequences for a Family of Multidimensional Continued Fractions: TRIP-Stern Sequences</a>, arXiv:1509.05239v1 [math.CO] 17 Sep 2015.
+%H A155020 Jean-Paul Allouche, Jeffrey Shallit, and Manon Stipulanti, <a href="https://arxiv.org/abs/2401.13524">Combinatorics on words and generating Dirichlet series of automatic sequences</a>, arXiv:2401.13524 [math.CO], 2025. See p. 14.
+%H A155020 I. Amburg, K. Dasaratha, L. Flapan, T. Garrity, C. Lee, C. Mihailak, N. Neumann-Chun, S. Peluse, and M. Stoffregen, <a href="https://arxiv.org/abs/1509.05239">Stern Sequences for a Family of Multidimensional Continued Fractions: TRIP-Stern Sequences</a>, arXiv:1509.05239v1 [math.CO] 17 Sep 2015.
 %H A155020 Juan B. Gil and Jessica A. Tomasko, <a href="https://arxiv.org/abs/2108.06462">Fibonacci colored compositions and applications</a>, arXiv:2108.06462 [math.CO], 2021.
 %H A155020 Jeffrey Shallit, <a href="https://arxiv.org/abs/2310.14252">Proof of Irvine's conjecture via mechanized guessing</a>, arXiv preprint arXiv:2310.14252 [math.CO], October 22 2023.
 %H A155020 <a href="/index/Rec#order_02">Index entries for linear recurrences with constant coefficients</a>, signature (2,2).
@@ -37,7 +38,7 @@
 %o A155020 (PARI) Vec( (1-x-x^2)/(1-2*x-2*x^2) + O(x^66) )  /* _Joerg Arndt_, Sep 30 2012 */
 %o A155020 (Maxima) makelist(sum(binomial(n-k,k)*2^(n-k-1),k,0,floor(n/2)),n,1,12); /* _Emanuele Munarini_, Feb 04 2014 */
 %o A155020 (Magma) I:=[1,1,3,8]; [n le 4 select I[n] else 2*Self(n-1)+2*Self(n-2): n in [1..40]]; // _Vincenzo Librandi_, Nov 10 2014
-%o A155020 (Sage) [1]+[(-1)*(sqrt(2)*i)^(n-2)*chebyshev_U(n, -sqrt(2)*i/2) for n in (1..30)] # _G. C. Greubel_, Mar 25 2021
+%o A155020 (SageMath) [1]+[(-1)*(sqrt(2)*i)^(n-2)*chebyshev_U(n, -sqrt(2)*i/2) for n in (1..30)] # _G. C. Greubel_, Mar 25 2021
 %Y A155020 Sequences of the form a(n) = m*(a(n-1) + a(n-2)) with a(0)=1, a(1) = m-1, a(2) = m^2 -1: this sequence (m=2), A155116 (m=3), A155117 (m=4), A155119 (m=5), A155127 (m=6), A155130 (m=7), A155132 (m=8), A155144 (m=9), A155157 (m=10).
 %Y A155020 Cf. A028859 (essentially the same sequence). - _Klaus Brockhaus_, Jul 18 2009
 %Y A155020 Cf. A000045, A000108, A030528, A064613, A091867, A154929.

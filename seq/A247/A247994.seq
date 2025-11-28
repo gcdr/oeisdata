@@ -1,8 +1,8 @@
-%I A247994 #4 Sep 28 2014 22:41:48
+%I A247994 #6 Jul 23 2025 11:39:45
 %S A247994 167576,884032,4733944,25559480,138568024,752268668,4083208500,
 %T A247994 22177936206,120522456308,655151391416,3561783434344,19363718256826,
 %U A247994 105267309471938,572298528742634,3111534766315620,16917483604752580
-%N A247994 Number of length n+5 0..7 arrays with no disjoint triples in any consecutive six terms having the same sum
+%N A247994 Number of length n+5 0..7 arrays with no disjoint triples in any consecutive six terms having the same sum.
 %C A247994 Column 7 of A247995
 %H A247994 R. H. Hardin, <a href="/A247994/b247994.txt">Table of n, a(n) for n = 1..84</a>
 %e A247994 Some solutions for n=1

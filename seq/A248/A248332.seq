@@ -1,10 +1,10 @@
-%I A248332 #23 Nov 11 2024 03:56:39
+%I A248332 #24 Nov 05 2025 15:22:28
 %S A248332 1,8,56,288,224,3360,13056,5376,8960,206080,652800,182784,161280,
 %T A248332 412160,12776960,34467840,7311360,4386816,5935104,20443136,797282304,
 %U A248332 1884241920,321699840,146227200,134529024,245317632,1063043072,49963024384,105517547520,15073935360,5514854400,3843686400
 %N A248332 Square array read by antidiagonals downwards: super Patalan numbers of order 8.
 %C A248332 Generalization of super Catalan numbers, A068555, based on Patalan numbers of order 8, A025753.
-%H A248332 Thomas M. Richardson, <a href="http://arxiv.org/abs/1410.5880">The Super Patalan Numbers</a>, arXiv:1410.5880 [math.CO], 2014.
+%H A248332 Thomas M. Richardson, <a href="https://arxiv.org/abs/1410.5880">The Super Patalan Numbers</a>, arXiv:1410.5880 [math.CO], 2014.
 %H A248332 Thomas M. Richardson, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL18/Richardson/rich2.html">The Super Patalan Numbers</a>, Journal of Integer Sequences, Vol. 18 (2015), Article 15.3.3.
 %F A248332 T(0,0)=1, T(n,k) = T(n-1,k)*(64*n-8)/(n+k), T(n,k) = T(n,k-1)*(64*k-56)/(n+k).
 %F A248332 G.f.: (x/(1-64*x)^(7/8)+y/(1-64*y)^(1/8))/(x+y-64*x*y).

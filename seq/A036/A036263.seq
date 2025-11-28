@@ -1,10 +1,10 @@
-%I A036263 #102 Sep 28 2024 16:06:11
+%I A036263 #107 Nov 05 2025 15:21:57
 %S A036263 1,0,2,-2,2,-2,2,2,-4,4,-2,-2,2,2,0,-4,4,-2,-2,4,-2,2,2,-4,-2,2,-2,2,
 %T A036263 10,-10,2,-4,8,-8,4,0,-2,2,0,-4,8,-8,2,-2,10,0,-8,-2,2,2,-4,8,-4,0,0,
 %U A036263 -4,4,-2,-2,8,4,-10,-2,2,10,-8,4,-8,2,2,2,-2,0,-2,2,2,-4,4,2,-8,8,-8,4,-2,2,2,-4,-2,2,8,-4
 %N A036263 Second differences of primes.
 %H A036263 Edward Bernstein, <a href="/A036263/b036263.txt">Table of n, a(n) for n = 1..100000</a> (Terms 1 to 10000 from T. D. Noe)
-%H A036263 R. G. Batchko, <a href="http://arxiv.org/abs/1405.2900">A prime fractal and global quasi-self-similar structure in the distribution of prime-indexed primes</a>, arXiv preprint arXiv:1405.2900 [math.GM], 2014. See Table 2.
+%H A036263 R. G. Batchko, <a href="https://arxiv.org/abs/1405.2900">A prime fractal and global quasi-self-similar structure in the distribution of prime-indexed primes</a>, arXiv preprint arXiv:1405.2900 [math.GM], 2014. See Table 2.
 %F A036263 a(A064113(n)) = 0. - _Reinhard Zumkeller_, Jan 20 2012
 %F A036263 a(n) = prime(n) + prime(n+2) - 2*prime(n+1). - _Thomas Ordowski_, Jul 21 2012
 %F A036263 Conjecture: |a(1)| + |a(2)| + ... + |a(n)| ~ prime(n). - _Thomas Ordowski_, Jul 21 2012

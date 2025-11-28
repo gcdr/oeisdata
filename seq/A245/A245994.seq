@@ -1,8 +1,8 @@
-%I A245994 #6 Aug 10 2014 12:05:16
+%I A245994 #8 Jun 02 2025 10:13:44
 %S A245994 344,2120,13064,80504,496088,3057032,18838280,116086712,715358552,
 %T A245994 4408238024,27164786696,167396958200,1031546535896,6356676173576,
 %U A245994 39171603577352,241386297637688,1487489389403480,9166322634058568
-%N A245994 Number of length n+2 0..7 arrays with no pair in any consecutive three terms totalling exactly 7
+%N A245994 Number of length n+2 0..7 arrays with no pair in any consecutive three terms totalling exactly 7.
 %C A245994 Column 7 of A245995
 %H A245994 R. H. Hardin, <a href="/A245994/b245994.txt">Table of n, a(n) for n = 1..210</a>
 %F A245994 Empirical: a(n) = 6*a(n-1) +a(n-2).

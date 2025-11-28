@@ -1,4 +1,4 @@
-%I A280521 #29 Dec 18 2020 15:00:51
+%I A280521 #35 Apr 06 2025 14:56:22
 %S A280521 1,1,2,1,2,2,1,2,2,3,2,1,2,2,3,2,3,3,2,1,2,2,3,2,3,3,2,3,3,4,3,2,1,2,
 %T A280521 2,3,2,3,3,2,3,3,4,3,2,3,3,4,3,4,4,3,2,1,2,2,3,2,3,3,2,3,3,4,3,2,3,3,
 %U A280521 4,3,4,4,3,2,3,3,4,3,4,4,3,4,4,5,4,3,2
@@ -7,6 +7,7 @@
 %C A280521 Ones appear at indices in A000071.
 %C A280521 Also the number of iterations of A066628(n + 1) required to reach 0.
 %H A280521 Charles R Greathouse IV, <a href="/A280521/b280521.txt">Table of n, a(n) for n = 1..10000</a>
+%H A280521 N. J. A. Sloane, <a href="https://vimeo.com/201218446">Winter Fruits: New Problems from OEIS</a>. (Sequence mentioned from 12:50-19:50.)
 %H A280521 Reddit user Teblefer, <a href="https://www.reddit.com/r/math/comments/5lxh3c">Fibonachos</a>
 %e A280521 a(1) = 1 via [[1]];
 %e A280521 a(2) = 1 via [[1, 1]];

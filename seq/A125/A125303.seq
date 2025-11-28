@@ -1,7 +1,7 @@
-%I A125303 #13 Apr 03 2022 01:29:28
+%I A125303 #17 Nov 02 2025 22:44:51
 %S A125303 891,941,2931,5401,78281,861761,67304951,77171861,757603751,
 %T A125303 6346449411,6517798231
-%N A125303 Each number in this sequence is the reversal of the sum of its proper substrings.
+%N A125303 Numbers not ending with 0 equal the reversal of the sum of their distinct proper substrings (without leading zeros).
 %e A125303 For example, the sum of the proper substrings of 891 is 8 + 9 + 1 + 89 + 91 = 198 and 198 reversed is the number itself.
 %e A125303 5401 is included because 540 + 401 + 54 + 40 + 5 + 4 + 0 + 1 = 1045, which is 5401 backwards.
 %o A125303 (Python)
@@ -15,3 +15,4 @@
 %A A125303 _Tanya Khovanova_, Dec 09 2006
 %E A125303 More terms from _Paul Richards_, Sep 25 2007
 %E A125303 a(7)-a(11) from _Donovan Johnson_, Nov 30 2008
+%E A125303 Definition corrected by _Max Alekseyev_, Sep 13 2025

@@ -1,10 +1,10 @@
-%I A276999 #22 Mar 14 2020 07:13:21
+%I A276999 #24 Nov 05 2025 15:22:35
 %S A276999 0,0,0,0,0,1,0,0,1,9,0,0,1,12,93,0,0,1,15,147,1175,0,0,1,18,213,2070,
 %T A276999 17835,0,0,1,21,291,3325,33825,317667,0,0,1,24,381,5000,58575,635208,
 %U A276999 6506647,0,0,1,27,483,7155,94785,1164429,13536453,150776397
 %N A276999 Triangle read by rows, T(n,k) = n^k - 2^(k/2)*KummerU(-k/2,1/2,n^2/2) for 0<=k<=n.
 %C A276999 East and Gray (p. 24) give a combinatorial interpretation of the numbers: A function f: Y -> X with Y <= X (<= inclusion) has a 2-cycle if there exists x, y in Y with x != y, f(x) = y and f(y) = x. Then T(n,k) = card({f: [k] -> [n]: f has 2-cycles}).
-%H A276999 J. East, R. D. Gray, <a href="http://arxiv.org/abs/1404.2359">Idempotent generators in finite partition monoids and related semigroups</a>, arXiv preprint arXiv:1404.2359 [math.GR], 2014.
+%H A276999 J. East, R. D. Gray, <a href="https://arxiv.org/abs/1404.2359">Idempotent generators in finite partition monoids and related semigroups</a>, arXiv preprint arXiv:1404.2359 [math.GR], 2014.
 %F A276999 T(n,k) = n^k - 2^(-k/2)*HermiteH(k, n/sqrt(2)).
 %F A276999 T(n,k) = n^k - Sum_{i=0..k/2} k!/((-2)^i*i!*(k-2*i)!)*n^(k-2*i).
 %F A276999 T(n,k) = n^k*(1-hypergeom([-k/2, (1-k)/2], [], -2/n^2)) for n>=1.
@@ -28,7 +28,7 @@
 %p A276999 T := (n,k) -> n^k - 2^(k/2)*KummerU(-k/2, 1/2, n^2/2):
 %p A276999 seq(seq(simplify(T(n,k)), k=0..n), n=0..9);
 %t A276999 Table[Simplify[n^k - 2^(-k/2) HermiteH[k, n/Sqrt[2]]], {n, 0, 10}, {k, 0, n}] // Flatten
-%o A276999 (Sage)
+%o A276999 (SageMath)
 %o A276999 def T(n, k):
 %o A276999     @cached_function
 %o A276999     def h(n, x):

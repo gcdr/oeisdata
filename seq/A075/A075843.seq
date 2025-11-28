@@ -1,4 +1,4 @@
-%I A075843 #64 Feb 16 2025 08:32:47
+%I A075843 #66 Sep 22 2025 16:00:40
 %S A075843 0,1,20,399,7960,158801,3168060,63202399,1260879920,25154396001,
 %T A075843 501827040100,10011386405999,199725901079880,3984506635191601,
 %U A075843 79490406802752140,1585823629419851199,31636982181594271840
@@ -13,7 +13,7 @@
 %D A075843 Peter G. L. Dirichlet, Lectures on Number Theory (History of Mathematics Source Series, V. 16); American Mathematical Society, Providence, Rhode Island, 1999, pp. 139-147.
 %H A075843 Vincenzo Librandi, <a href="/A075843/b075843.txt">Table of n, a(n) for n = 0..700</a>
 %H A075843 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
-%H A075843 J. J. O'Connor and E. F. Robertson, <a href="http://www-gap.dcs.st-and.ac.uk/~history/HistTopics/Pell.html">Pell's Equation</a>
+%H A075843 J. J. O'Connor and E. F. Robertson, <a href="https://mathshistory.st-andrews.ac.uk/HistTopics/Pell/">Pell's Equation</a>
 %H A075843 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/PellEquation.html">Pell Equation.</a>
 %H A075843 <a href="/index/Ch#Cheby">Index entries for sequences related to Chebyshev polynomials.</a>
 %H A075843 <a href="/index/Rec#order_02">Index entries for linear recurrences with constant coefficients</a>, signature (20,-1).
@@ -31,8 +31,8 @@
 %t A075843 CoefficientList[Series[x/(1-20x+x^2), {x,0,20}], x] (* _Vincenzo Librandi_, Dec 24 2012 *)
 %t A075843 ChebyshevU[Range[22] -2, 10] (* _G. C. Greubel_, Dec 22 2019 *)
 %t A075843 LinearRecurrence[{20,-1},{0,1},20] (* _Harvey P. Dale_, Dec 03 2023 *)
-%o A075843 (Sage) [lucas_number1(n,20,1) for n in range(0,20)] # _Zerinvary Lajos_, Jun 25 2008
-%o A075843 (Sage) [chebyshev_U(n-1,10) for n in (0..20)] # _G. C. Greubel_, Dec 22 2019
+%o A075843 (SageMath) [lucas_number1(n,20,1) for n in range(0,20)] # _Zerinvary Lajos_, Jun 25 2008
+%o A075843 (SageMath) [chebyshev_U(n-1,10) for n in (0..20)] # _G. C. Greubel_, Dec 22 2019
 %o A075843 (Magma) I:=[0,1]; [n le 2 select I[n] else 20*Self(n-1)-Self(n-2): n in [1..20]]; // _Vincenzo Librandi_, Dec 24 2012
 %o A075843 (PARI) vector( 22, n, polchebyshev(n-2, 2, 10) ) \\ _G. C. Greubel_, Dec 22 2019
 %o A075843 (GAP) m:=10;; a:=[0,1];; for n in [3..20] do a[n]:=2*m*a[n-1]-a[n-2]; od; a; # _G. C. Greubel_, Dec 22 2019

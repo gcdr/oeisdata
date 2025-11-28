@@ -1,11 +1,11 @@
-%I A104602 #27 Nov 15 2018 08:39:50
+%I A104602 #28 Nov 05 2025 15:22:04
 %S A104602 1,1,2,10,70,642,7246,97052,1503700,26448872,520556146,11333475922,
 %T A104602 270422904986,7016943483450,196717253145470,5925211960335162,
 %U A104602 190825629733950454,6543503207678564364,238019066600097607402,9153956822981328930170,371126108428565106918404
 %N A104602 Number of square (0,1)-matrices with exactly n entries equal to 1 and no zero row or columns.
 %C A104602 Number of square (0,1)-matrices with exactly n entries equal to 1 and no zero row or columns, up to row and column permutation, is A057151(n). - _Vladeta Jovovic_, Mar 25 2006
 %H A104602 Alois P. Heinz, <a href="/A104602/b104602.txt">Table of n, a(n) for n = 0..400</a>
-%H A104602 H. Cheballah, S. Giraudo, R. Maurice, <a href="http://arxiv.org/abs/1306.6605">Combinatorial Hopf algebra structure on packed square matrices</a>, arXiv preprint arXiv:1306.6605 [math.CO], 2013-2015.
+%H A104602 H. Cheballah, S. Giraudo, R. Maurice, <a href="https://arxiv.org/abs/1306.6605">Combinatorial Hopf algebra structure on packed square matrices</a>, arXiv preprint arXiv:1306.6605 [math.CO], 2013-2015.
 %H A104602 M. Maia and M. Mendez, <a href="https://arxiv.org/abs/math/0503436">On the arithmetic product of combinatorial species</a>, arXiv:math/0503436 [math.CO], 2005.
 %F A104602 a(n) = (1/n!)*Sum_{k=0..n} Stirling1(n,k)*A048144(k). - _Vladeta Jovovic_, Mar 25 2006
 %F A104602 G.f.: Sum_{n>=0} Sum_{j=0..n} (-1)^(n-j)*binomial(n,j)*((1+x)^j-1)^n. - _Vladeta Jovovic_, Mar 25 2006

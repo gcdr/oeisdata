@@ -1,4 +1,4 @@
-%I A018526 #12 Sep 04 2022 13:46:06
+%I A018526 #14 Jul 08 2025 06:57:34
 %S A018526 1,2,7,14,41,82,287,574
 %N A018526 Divisors of 574.
 %H A018526 <a href="/index/Di#divisors">Index entries for sequences related to divisors of numbers</a>
@@ -6,4 +6,4 @@
 %o A018526 (PARI) divisors(574) \\ _Charles R Greathouse IV_, Jun 23 2017
 %K A018526 nonn,fini,full,easy
 %O A018526 1,2
-%A A018526 _N. J. A. Sloane_.
+%A A018526 _N. J. A. Sloane_

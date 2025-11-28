@@ -1,4 +1,4 @@
-%I A085056 #23 Aug 23 2014 13:44:36
+%I A085056 #24 Sep 22 2025 16:00:42
 %S A085056 1,1,1,2,2,2,2,8,24,24,24,48,48,48,48,384,384,1152,1152,2304,2304,
 %T A085056 2304,2304,9216,46080,46080,414720,829440,829440,829440,829440,
 %U A085056 13271040,13271040,13271040,13271040,79626240,79626240,79626240,79626240
@@ -12,7 +12,7 @@
 %p A085056 S := A003557(n); for i from 2 to n do
 %p A085056 S[i] := S[i] * S[i-1]; od; S end: # _Peter Luschny_, Jun 29 2009
 %t A085056 PrimeFactors[ n_Integer ] := Flatten[ Table[ # [ [ 1 ] ], {1} ] & /@ FactorInteger[ n ] ]; a[ 1 ] := 1; a[ n_ ] := a[ n ] = a[ n - 1 ]*n/Times @@ PrimeFactors[ n ]; Table[ a[ n ], {n, 1, 40} ]
-%o A085056 (Sage)
+%o A085056 (SageMath)
 %o A085056 q=50 # change q for more terms
 %o A085056 R=[n/prod([x for x in prime_divisors(n)]) for n in [1..q]]
 %o A085056 [prod(R[0:i+1]) for i in [0..q-1]] # _Tom Edgar_, Mar 24 2014

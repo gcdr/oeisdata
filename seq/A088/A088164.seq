@@ -1,4 +1,4 @@
-%I A088164 #159 Feb 16 2025 08:32:51
+%I A088164 #166 Nov 05 2025 15:22:03
 %S A088164 16843,2124679
 %N A088164 Wolstenholme primes: primes p such that binomial(2p-1,p-1) == 1 (mod p^4).
 %C A088164 McIntosh and Roettger showed that the next term, if it exists, must be larger than 10^9. - _Felix Fröhlich_, Aug 23 2014
@@ -12,8 +12,10 @@
 %C A088164 These are primes p such that p^2 divides A007406(p-1) (Mestrovic, 2015, p. 241, Lemma 2.3). - _Amiram Eldar_ and _Thomas Ordowski_, Jul 29 2019
 %C A088164 If a third Wolstenholme prime exists it is larger than 6*10^10 (cf. Hathi, Mossinghoff, Trudgian, 2021). - _Felix Fröhlich_, Apr 27 2021
 %C A088164 Named after the English mathematician Joseph Wolstenholme (1829-1891). - _Amiram Eldar_, Jun 10 2021
+%C A088164 Primes p such that tanh(Sum_{k=1..p-1} artanh(k/p)) == 0 (mod p^4). - _Thomas Ordowski_, Apr 17 2025
 %D A088164 Richard K. Guy, Unsolved Problems in Number Theory, Sect. B31.
 %D A088164 Paulo Ribenboim, 13 Lectures on Fermat's Last Theorem (Springer, 1979).
+%D A088164 Paulo Ribenboim, The Little Book of Bigger Primes, Springer-Verlag NY 2004. See p. 23.
 %H A088164 Ronald Bruck, <a href="http://imperator.usc.edu/~bruck/research/stirling/">Wolstenholme's Theorem, Stirling Numbers, and Binomial Coefficients</a>.
 %H A088164 Joe Buhler, Richard Crandall, Reijo Ernvall and Tauno Metsänkylä, <a href="http://dx.doi.org/10.1090/S0025-5718-1993-1197511-5">Irregular primes and cyclotomic invariants to four million</a>, Math. Comp., Vol. 61, No. 203 (1993), pp. 151-153.
 %H A088164 Chris Caldwell, The Prime Glossary, <a href="https://t5k.org/glossary/page.php?sort=Wolstenholme">Wolstenholme prime</a>.
@@ -22,13 +24,13 @@
 %H A088164 Shehzad Hathi, Michael J. Mossinghoff, and Timothy S. Trudgian, <a href="https://doi.org/10.1007/s11139-021-00438-3">Wolstenholme and Vandiver primes</a>, The Ramanujan Journal, (2021); <a href="https://arxiv.org/abs/2101.11157">arXiv version</a>, 2101.11157 [math.NT], 2021.
 %H A088164 Richard J. McIntosh, <a href="http://matwbn.icm.edu.pl/ksiazki/aa/aa71/aa7144.pdf">On the converse of Wolstenholme's theorem</a>, Acta Arithmetica, Vol. 71, No. 4 (1995), pp. 381-389.
 %H A088164 Richard J. McIntosh and Eric L. Roettger, <a href="http://dx.doi.org/10.1090/S0025-5718-07-01955-2">A search for Fibonacci-Wieferich and Wolstenholme primes</a>, Math. Comp. Vol 76, No. 260 (2007), pp. 2087-2094.
-%H A088164 R. Mestrovic, <a href="http://arxiv.org/abs/1111.3057">Wolstenholme's theorem: Its Generalizations and Extensions in the last hundred and fifty years (1862-2011)</a>, arXiv:1111.3057 [math.NT], 2011.
+%H A088164 R. Mestrovic, <a href="https://arxiv.org/abs/1111.3057">Wolstenholme's theorem: Its Generalizations and Extensions in the last hundred and fifty years (1862-2011)</a>, arXiv:1111.3057 [math.NT], 2011.
 %H A088164 Romeo Meštrović, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL17/Mestrovic/mes4.html">On a Congruence Modulo n^3 Involving Two Consecutive Sums of Powers</a>, Journal of Integer Sequences, Vol. 17 (2014), Article 14.8.4.
-%H A088164 Romeo Meštrović, <a href="http://arxiv.org/abs/1108.4178">Congruences for Wolstenholme Primes</a>, arXiv:1108.4178 [math.NT], 2011.
+%H A088164 Romeo Meštrović, <a href="https://arxiv.org/abs/1108.4178">Congruences for Wolstenholme Primes</a>, arXiv:1108.4178 [math.NT], 2011.
 %H A088164 Romeo Meštrović, <a href="http://dx.doi.org/10.1007/s10587-015-0171-8">Congruences for Wolstenholme Primes</a>, Czechoslovak Mathematical Journal, Vol. 65 (2015), pp. 237-253.
-%H A088164 Romeo Meštrović, <a href="http://arxiv.org/abs/1211.4570">A congruence modulo n^3 involving two consecutive sums of powers and its applications</a>, arXiv:1211.4570 [math.NT], 2012.
+%H A088164 Romeo Meštrović, <a href="https://arxiv.org/abs/1211.4570">A congruence modulo n^3 involving two consecutive sums of powers and its applications</a>, arXiv:1211.4570 [math.NT], 2012.
 %H A088164 Romeo Meštrović, <a href="https://arxiv.org/abs/1807.10604">Several generalizations and variations of Chu-Vandermonde identity</a>, arXiv:1807.10604 [math.CO], 2018.
-%H A088164 Jonathan Sondow, Extending Babbage's (non-)primality tests, in <a href="https://doi.org/10.1007/978-3-319-68032-3_19">Combinatorial and Additive Number Theory II</a>, Springer Proc. in Math. & Stat., Vol. 220, CANT 2015 and 2016, New York, 2017, pp. 269-277; <a href="http://arxiv.org/abs/1812.07650">arXiv:1812.07650 [math.NT]</a>, 2018.
+%H A088164 Jonathan Sondow, Extending Babbage's (non-)primality tests, in <a href="https://doi.org/10.1007/978-3-319-68032-3_19">Combinatorial and Additive Number Theory II</a>, Springer Proc. in Math. & Stat., Vol. 220, CANT 2015 and 2016, New York, 2017, pp. 269-277; <a href="https://arxiv.org/abs/1812.07650">arXiv:1812.07650 [math.NT]</a>, 2018.
 %H A088164 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/WolstenholmePrime.html">Wolstenholme Prime</a>.
 %H A088164 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/IntegerSequencePrimes.html">Integer Sequence Primes</a>.
 %H A088164 Wikipedia, <a href="http://www.wikipedia.org/wiki/Wolstenholme_prime">Wolstenholme prime</a>.

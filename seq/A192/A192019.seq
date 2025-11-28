@@ -1,4 +1,4 @@
-%I A192019 #15 Dec 10 2016 03:00:11
+%I A192019 #16 Nov 05 2025 15:22:20
 %S A192019 1,10,50,214,802,2802,9275,29580,91668,277924,828092,2433140,7067885,
 %T A192019 20337318,58054534,164602410,463990190,1301338150,3633753815,
 %U A192019 10107239160,28016346216,77419909800,213349801560,586471432104,1608485221177,4402406713762
@@ -6,7 +6,7 @@
 %C A192019 The binary Fibonacci trees f(k) of order k are rooted binary trees defined as follows: 1. f(0) has no nodes and f(1) consists of a single node. 2. For k>=2, f(k) is constructed from a root with f(k-1) as its left subtree and f(k-2) as its right subtree. See the Iyer & Reddy references.
 %D A192019 K. Viswanathan Iyer and K. R. Udaya Kumar Reddy, Wiener index of Binomial trees and Fibonacci trees, Int'l. J. Math. Engin. with Comp., Accepted for publication, Sept. 2009.
 %H A192019 B. E. Sagan, Y-N. Yeh and P. Zhang, <a href="http://dx.doi.org/10.1002/(SICI)1097-461X(1996)60:5&lt;959::AID-QUA2&gt;3.0.CO;2-W">The Wiener Polynomial of a Graph</a>, Internat. J. of Quantum Chem., 60, 1996, 959-969.
-%H A192019 K. Viswanathan Iyer and K. R. Udaya Kumar Reddy, <a href="http://arxiv.org/abs/0910.4432">Wiener index of binomial trees and Fibonacci trees</a>, arXiv:0910.4432 [cs.DM], 2009.
+%H A192019 K. Viswanathan Iyer and K. R. Udaya Kumar Reddy, <a href="https://arxiv.org/abs/0910.4432">Wiener index of binomial trees and Fibonacci trees</a>, arXiv:0910.4432 [cs.DM], 2009.
 %F A192019 a(n) = Sum_{k>=1} k*A192018(n,k).
 %F A192019 The Wiener index of a connected graph is the derivative of the Wiener polynomial W(t) of the graph, evaluated at t=1. The Wiener polynomial w(n,t) of the binary Fibonacci tree of order n satisfies the recurrence relation w(n,t) = w(n-1,t) + w(n-2,t) + t*r(n-1,t) + t*r(n-2) + t^2*r(n-1,t)*r(n-2,t), w(1,t)=0, w(2,t)=t, where r(n,t) is the generating polynomial of the nodes of the binary Fibonacci tree f(n) with respect to the level of the nodes (for example, r(2,t) = 1 + t for the tree / ; see A004070 and the Maple program).
 %F A192019 Empirical G.f.: x^2*(x^4-3*x^2+4*x+1)/((x+1)^2*(x^2-3*x+1)^2*(x^2+x-1)^2). [_Colin Barker_, Nov 17 2012]

@@ -1,8 +1,9 @@
-%I A061210 #17 Sep 22 2019 17:11:59
+%I A061210 #21 May 23 2025 11:07:23
 %S A061210 0,1,2401,234256,390625,614656,1679616
 %N A061210 Numbers which are the fourth powers of their digit sum.
 %C A061210 It can be shown that 1679616 = 36^4 is the largest such number.
 %D A061210 Amarnath Murthy, The largest and the smallest m-th power whose digit sum is the m-th root. (To be published)
+%D A061210 Alfred S. Posamentier, Math Charmers, Tantalizing Tidbits for the Mind, Prometheus Books, NY, 2003, page 36.
 %e A061210 614656 = ( 6+1+4+6+5+6)^4 =28^4.
 %t A061210 Select[Range[0,17*10^5],#==Total[IntegerDigits[#]]^4&] (* _Harvey P. Dale_, Sep 22 2019 *)
 %o A061210 (PARI) isok(n) = n == sumdigits(n)^4; \\ _Michel Marcus_, Jan 22 2015

@@ -1,4 +1,4 @@
-%I A013287 #13 Aug 03 2018 04:24:16
+%I A013287 #14 Sep 30 2025 20:34:18
 %S A013287 0,0,-1,4,-6,8,-135,1412,-10780,83568,-778365,9007172,-116179074,
 %T A013287 1502030840,-20018889891,298432864004,-4913874359160,84111227898208,
 %U A013287 -1492133395973049,28208790397251716,-568110070842919230
@@ -8,5 +8,5 @@
 %o A013287 (PARI) x = 'x + O('x^30); concat([0, 0], Vec(serlaplace(sinh(log(x+1) - tanh(x))))) \\ _Michel Marcus_, Aug 03 2018
 %K A013287 sign
 %O A013287 0,4
-%A A013287 Patrick Demichel (patrick.demichel(AT)hp.com)
+%A A013287 _Patrick Demichel_
 %E A013287 a(0)=a(1)=0 inserted and title improved by _Sean A. Irvine_, Aug 03 2018

@@ -1,8 +1,8 @@
-%I A250010 #4 Nov 10 2014 15:43:10
+%I A250010 #6 Jul 23 2025 12:09:49
 %S A250010 8840,30360,106352,375756,1332504,4732480,16813550,59817840,212915478,
 %T A250010 758003332,2698865532,9609878582,34219609768,121858453182,
 %U A250010 433960960558,1545451040312,5503832271270,19601024153832,69806391180594
-%N A250010 Number of length n+5 0..4 arrays with no six consecutive terms having the maximum of any three terms equal to the minimum of the remaining three terms
+%N A250010 Number of length n+5 0..4 arrays with no six consecutive terms having the maximum of any three terms equal to the minimum of the remaining three terms.
 %C A250010 Column 4 of A250014
 %H A250010 R. H. Hardin, <a href="/A250010/b250010.txt">Table of n, a(n) for n = 1..210</a>
 %e A250010 Some solutions for n=3

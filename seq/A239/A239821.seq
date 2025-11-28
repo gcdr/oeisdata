@@ -1,8 +1,8 @@
-%I A239821 #5 Aug 11 2014 22:46:11
+%I A239821 #7 Jun 02 2025 09:32:42
 %S A239821 11,113,1480,18728,232272,2912793,36627126,459870638,5774508494,
 %T A239821 72538478424,911227478673,11446501405086,143789611879946,
 %U A239821 1806288798172920,22690641341877163,285040443527806965
-%N A239821 Number of 3Xn 0..3 arrays with no element equal to zero plus the sum of elements to its left or one plus the sum of the elements above it, modulo 4
+%N A239821 Number of 3Xn 0..3 arrays with no element equal to zero plus the sum of elements to its left or one plus the sum of the elements above it, modulo 4.
 %C A239821 Row 3 of A239819
 %H A239821 R. H. Hardin, <a href="/A239821/b239821.txt">Table of n, a(n) for n = 1..210</a>
 %H A239821 R. H. Hardin, <a href="/A239821/a239821.txt">Empirical recurrence of order 64</a>

@@ -1,8 +1,8 @@
-%I A253662 #6 Jan 07 2015 15:20:03
+%I A253662 #8 Jul 23 2025 14:09:14
 %S A253662 81,518,518,3550,3318,3550,23524,25062,25062,23524,157476,181308,
 %T A253662 241548,181308,157476,1051870,1284808,2113406,2113406,1284808,1051870,
 %U A253662 7027770,9172142,17719343,21509980,17719343,9172142,7027770,46953514,65613880
-%N A253662 T(n,k)=Number of (n+1)X(k+1) 0..2 arrays with every 2X2 subblock diagonal maximum minus antidiagonal maximum unequal to its neighbors horizontally, vertically and nw-se diagonally
+%N A253662 T(n,k)=Number of (n+1)X(k+1) 0..2 arrays with every 2X2 subblock diagonal maximum minus antidiagonal maximum unequal to its neighbors horizontally, vertically and nw-se diagonally.
 %C A253662 Table starts
 %C A253662 .........81.........518.........3550..........23524..........157476
 %C A253662 ........518........3318........25062.........181308.........1284808

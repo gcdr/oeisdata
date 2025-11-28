@@ -1,4 +1,4 @@
-%I A018447 #14 Sep 04 2022 12:30:20
+%I A018447 #16 Jul 08 2025 06:50:21
 %S A018447 1,5,17,25,85,425
 %N A018447 Divisors of 425.
 %H A018447 <a href="/index/Di#divisors">Index entries for sequences related to divisors of numbers</a>
@@ -6,4 +6,4 @@
 %o A018447 (PARI) divisors(425) \\ _Charles R Greathouse IV_, Jun 22 2017
 %K A018447 nonn,fini,full,easy
 %O A018447 1,2
-%A A018447 _N. J. A. Sloane_.
+%A A018447 _N. J. A. Sloane_

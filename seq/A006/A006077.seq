@@ -1,4 +1,4 @@
-%I A006077 M2775 #140 Jun 15 2023 06:30:31
+%I A006077 M2775 #141 Nov 05 2025 15:21:44
 %S A006077 1,3,9,21,9,-297,-2421,-12933,-52407,-145293,-35091,2954097,25228971,
 %T A006077 142080669,602217261,1724917221,283305033,-38852066421,-337425235479,
 %U A006077 -1938308236731,-8364863310291,-24286959061533,-3011589296289,574023003011199,5028616107443691
@@ -13,7 +13,7 @@
 %D A006077 D. Zagier, Integral solutions of Apery-like recurrence equations, in: Groups and Symmetries: from Neolithic Scots to John McKay, CRM Proc. Lecture Notes 47, Amer. Math. Soc., Providence, RI, 2009, pp. 349-366.
 %H A006077 Seiichi Manyama, <a href="/A006077/b006077.txt">Table of n, a(n) for n = 0..1400</a> (terms 0..200 from T. D. Noe)
 %H A006077 Arnaud Beauville, <a href="http://gallica.bnf.fr/ark:/12148/bpt6k5543443c/f31.item">Les familles stables de courbes sur P_1 admettant quatre fibres singulières</a>, Comptes Rendus, Académie Sciences Paris, no. 294, May 24 1982.
-%H A006077 A. Bostan, S. Boukraa, J.-M. Maillard, and J.-A. Weil, <a href="http://arxiv.org/abs/1507.03227">Diagonals of rational functions and selected differential Galois groups</a>, arXiv preprint arXiv:1507.03227 [math-ph], 2015.
+%H A006077 A. Bostan, S. Boukraa, J.-M. Maillard, and J.-A. Weil, <a href="https://arxiv.org/abs/1507.03227">Diagonals of rational functions and selected differential Galois groups</a>, arXiv preprint arXiv:1507.03227 [math-ph], 2015.
 %H A006077 M. Coster, <a href="/A001850/a001850_1.pdf">Email, Nov 1990</a>
 %H A006077 Ofir Gorodetsky, <a href="https://arxiv.org/abs/2102.11839">New representations for all sporadic Apéry-like sequences, with applications to congruences</a>, arXiv:2102.11839 [math.NT], 2021. See B p. 2.
 %H A006077 S. Herfurtner, <a href="https://doi.org/10.1007/BF01445211">Elliptic surfaces with four singular fibres</a>, Mathematische Annalen, 1991. <a href="https://archive.mpim-bonn.mpg.de/id/eprint/860/">Preprint</a>.

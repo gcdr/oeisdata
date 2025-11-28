@@ -1,8 +1,8 @@
-%I A250197 #73 Feb 16 2025 08:33:24
+%I A250197 #79 Jun 30 2025 14:38:28
 %S A250197 10,14,18,22,26,30,42,54,58,66,70,86,94,98,106,110,126,130,138,146,
 %T A250197 158,174,186,210,222,226,258,302,334,434,462,478,482,522,566,602,638,
 %U A250197 706,734,750,770,782,914,1062,1086,1114,1126,1226,1266,1358,1382,1434,1742,1926
-%N A250197 Numbers n such that the left Aurifeuillian primitive part of 2^n+1 is prime.
+%N A250197 Numbers k such that the left Aurifeuillian primitive part of 2^k+1 is prime.
 %C A250197 All terms are congruent to 2 modulo 4.
 %C A250197 Phi_n(x) is the n-th cyclotomic polynomial.
 %C A250197 Numbers n such that Phi_{2nL(n)}(2) is prime.
@@ -15,7 +15,7 @@
 %H A250197 Eric W. Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/AurifeuilleanFactorization.html">Aurifeuillean Factorization</a>.
 %e A250197 14 is in this sequence because the left Aurifeuillian primitive part of 2^14+1 is 113, which is prime.
 %e A250197 34 is not in this sequence because the left Aurifeuillian primitive part of 2^34+1 is 130561, which equals 137 * 953 and is not prime.
-%t A250197 Select[Range[2000], Mod[n, 4] == 2 && PrimeQ[GCD[2^(n/2) - 2^((n+2)/4) + 1, Cyclotomic[2*n, 2]]]
+%t A250197 Select[Range[2000], Mod[#, 4] == 2 && PrimeQ[GCD[2^(#/2) - 2^((#+2)/4) + 1, Cyclotomic[2*#, 2]]] &]
 %o A250197 (PARI) isok(n) = isprime(gcd(2^(n/2) - 2^((n+2)/4) + 1, polcyclo(2*n, 2))); \\ _Michel Marcus_, Jan 27 2015
 %Y A250197 Cf. A250198, A153443, A019320, A072226, A161508, A092440, A229767, A061442.
 %K A250197 nonn

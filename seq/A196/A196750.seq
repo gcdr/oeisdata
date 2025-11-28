@@ -1,8 +1,8 @@
-%I A196750 #10 Feb 03 2016 11:40:04
+%I A196750 #11 Nov 10 2025 21:50:39
 %S A196750 0,1,2,6320
 %N A196750 Numbers n such that 3, 5, 7 and 11 do not divide swing(n) = A056040(n).
 %C A196750 It is conjectured that there are no other terms.
-%H A196750 Peter Luschny, <a href="http://oeis.org/wiki/User:Peter_Luschny/PrimeFactorsSwingingFactorial">On the prime factors of the swinging factorial</a>.
+%H A196750 Peter Luschny, <a href="https://oeis.org/wiki/User:Peter_Luschny/PrimeFactorsSwingingFactorial">On the prime factors of the swinging factorial</a>.
 %p A196750 # The function Search is defined in A196747.
 %p A196750 A196750_list := n -> Search(n,[3,5,7,11]):  # n is a search limit
 %o A196750 (PARI) valp(n,p)=my(s); while(n\=p, s+=n); s

@@ -1,5 +1,5 @@
-%I A317635 #5 Aug 03 2018 08:16:37
-%S A317635 1,0,1,14,486,71428
+%I A317635 #9 Nov 11 2025 02:25:10
+%S A317635 1,0,1,14,486,71428,185050087
 %N A317635 Number of connected vertex sets of clutters (connected antichains) spanning n vertices.
 %C A317635 A connected vertex set in a clutter is any union of a connected subset of the edges.
 %H A317635 Gus Wiseman, <a href="http://www.mathematica-journal.com/2017/12/every-clutter-is-a-tree-of-blobs/">Every Clutter Is a Tree of Blobs</a>, The Mathematica Journal, Vol. 19, 2017.
@@ -14,3 +14,4 @@
 %K A317635 nonn,more
 %O A317635 0,4
 %A A317635 _Gus Wiseman_, Aug 02 2018
+%E A317635 a(6) from _Christian Sievers_, Nov 10 2025

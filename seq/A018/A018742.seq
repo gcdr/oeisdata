@@ -1,4 +1,4 @@
-%I A018742 #12 Sep 04 2022 14:40:49
+%I A018742 #14 Jul 08 2025 07:27:38
 %S A018742 1,2,4,239,478,956
 %N A018742 Divisors of 956.
 %H A018742 <a href="/index/Di#divisors">Index entries for sequences related to divisors of numbers</a>
@@ -6,4 +6,4 @@
 %o A018742 (PARI) divisors(956) \\ _Charles R Greathouse IV_, Jun 23 2017
 %K A018742 nonn,fini,full,easy
 %O A018742 1,2
-%A A018742 _N. J. A. Sloane_.
+%A A018742 _N. J. A. Sloane_

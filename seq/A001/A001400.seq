@@ -1,4 +1,4 @@
-%I A001400 M0627 N0229 #244 Jun 02 2024 14:40:06
+%I A001400 M0627 N0229 #257 Mar 30 2025 15:52:25
 %S A001400 1,1,2,3,5,6,9,11,15,18,23,27,34,39,47,54,64,72,84,94,108,120,136,150,
 %T A001400 169,185,206,225,249,270,297,321,351,378,411,441,478,511,551,588,632,
 %U A001400 672,720,764,816,864,920,972,1033,1089,1154,1215,1285,1350,1425,1495
@@ -32,6 +32,7 @@
 %H A001400 Simon Plouffe, <a href="https://arxiv.org/abs/0911.4975">Approximations de séries génératrices et quelques conjectures</a>, Dissertation, Université du Québec à Montréal, 1992; arXiv:0911.4975 [math.NT], 2009.
 %H A001400 Simon Plouffe, <a href="/A000051/a000051_2.pdf">1031 Generating Functions</a>, Appendix to Thesis, Montreal, 1992
 %H A001400 <a href="/index/Rec#order_10">Index entries for linear recurrences with constant coefficients</a>, signature (1,1,0,0,-2,0,0,1,1,-1).
+%H A001400 <a href="/index/Tu#2wis">Index entries for two-way infinite sequences</a>
 %F A001400 G.f.: 1/((1-x)*(1-x^2)*(1-x^3)*(1-x^4)).
 %F A001400 a(n) = 1 + (a(n-2) + a(n-3) + a(n-4)) - (a(n-5) + a(n-6) + a(n-7)) + a(n-9). - Norman J. Meluch (norm(AT)iss.gm.com), Mar 09 2000
 %F A001400 P(n, 4) = (1/288)*(2*n^3 + 6*n^2 - 9*n - 13 + (9*n+9)*pcr{1, -1}(2, n) - 32*pcr{1, -1, 0}(3, n) - 36*pcr{1, 0, -1, 0}(4, n)) (see Comtet).
@@ -55,6 +56,7 @@
 %F A001400 From _Vladimír Modrák_, Jul 13 2022: (Start)
 %F A001400 a(n) = Sum_{j=0..floor(n/4)} Sum_{i=0..floor(n/3)} ceiling((max(0,n + 1 - 3*i - 4*j))/2).
 %F A001400 a(n) = Sum_{i=0..floor(n/4)} floor(((n + 3 - 4*i)^2 + 4)/12). (End)
+%F A001400 a(n) = floor(((n+4)^2*(n+7) - 9*(n+4)*(n mod 2) + 32)/144). - _Vladimír Modrák_, Mar 23 2025
 %e A001400 (4 choose 4)_q = 1, (5 choose 4)_q = q^4 + q^3 + q^2 + q + 1, (6 choose 4)_q = q^8 + q^7 + 2*q^6 + 2*q^5 + 3*q^4 + 2*q^3 + 2*q^2 + q + 1, (7 choose 4) = q^12 + q^11 + 2*q^10 + 3*q^9 + 4*q^8 + 4*q^7 + 5*q^6 + 4*q^5 + 4*q^4 + 3*q^3 + 2*q^2 + q + 1 so the coefficient of q^0 converges to 1, q^1 to 1, q^2 to 2 and so on.
 %e A001400 G.f. = 1 + x + 2*x^2 + 3*x^3 + 5*x^4 + 6*x^5 + 9*x^6 + 11*x^7 + ...
 %e A001400 a(4) = 5, i.e., {1,2,3,8}, {1,2,4,7}, {1,2,5,6}, {2,3,4,5}, {1,3,4,6}. Number of different distributions of 14 identical balls in 4 boxes as x,y,z,p where 0 < x < y < z < p. - _Ece Uslu_, Esin Becenen, Jan 11 2016

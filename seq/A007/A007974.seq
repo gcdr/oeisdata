@@ -1,5 +1,6 @@
-%I A007974 #20 Jan 26 2023 16:14:12
-%S A007974 1,6,52,389,2539,16604,105365,654030,3900116
+%I A007974 #31 Apr 12 2025 16:52:07
+%S A007974 1,6,52,389,2539,16604,105365,654030,3900116,22073230,116855950,
+%T A007974 567965207
 %N A007974 Number of permutations that are n-3 "block reversals" away from 12...n.
 %F A007974 a(n) = A300003(n,n-3).
 %o A007974 (Python)
@@ -25,3 +26,5 @@
 %O A007974 3,2
 %A A007974 _J. H. Conway_
 %E A007974 a(9)-a(11) from _Sean A. Irvine_, Feb 22 2018
+%E A007974 a(12) from _Thomas Baruchel_, Mar 26 2025
+%E A007974 a(13)-a(14) from _Bert Dobbelaere_, Apr 12 2025

@@ -1,4 +1,4 @@
-%I A161381 #31 Sep 08 2022 08:45:45
+%I A161381 #39 Nov 05 2025 15:22:17
 %S A161381 1,1,2,1,4,8,1,6,24,48,1,8,48,192,384,1,10,80,480,1920,3840,1,12,120,
 %T A161381 960,5760,23040,46080,1,14,168,1680,13440,80640,322560,645120,1,16,
 %U A161381 224,2688,26880,215040,1290240,5160960,10321920,1,18,288,4032,48384,483840,3870720,23224320,92897280,185794560
@@ -7,18 +7,18 @@
 %C A161381 T(n,k) is the number of functions f:[k]->[2n] such that, if f(x)=f(y) or f(x)=2n+1-f(y), then x=y.
 %C A161381 We call such functions injective-plus.
 %C A161381 Equivalently, T(n,k) gives the number of ways to select k couples from n couples, then choose one person from each of the k selected couples, and then arrange those k individuals in a line. For example, T(50,10) is the number of ways to select 10 U.S. senators, one from each of ten different states, and arrange the senators in a reception line for a visiting dignitary. (End)
-%H A161381 Mathieu Guay-Paquet and Jeffrey Shallit, <a href="http://arxiv.org/abs/0901.1397">Avoiding Squares and Overlaps Over the Natural Numbers</a>, arXiv:0901.1397 [math.CO], 2009.
+%H A161381 Mathieu Guay-Paquet and Jeffrey Shallit, <a href="https://arxiv.org/abs/0901.1397">Avoiding Squares and Overlaps Over the Natural Numbers</a>, arXiv:0901.1397 [math.CO], 2009.
 %H A161381 Mathieu Guay-Paquet and Jeffrey Shallit, <a href="http://dx.doi.org/10.1016/j.disc.2009.06.004">Avoiding Squares and Overlaps Over the Natural Numbers</a>, Discrete Math., 309 (2009), 6245-6254.
 %H A161381 Dennis Walsh, <a href="http://frank.mtsu.edu/~dwalsh/INJECTM3.pdf">Notes on injective-plus functions</a>
 %F A161381 From _Dennis P. Walsh_, Nov 20 2012: (Start)
-%F A161381 E.g.f. for column k : exp(x)*(2*x)^k.
-%F A161381 G.f.  for column k : (2*x)^k*k!/(1 - x)^(k+1).
+%F A161381 E.g.f. for column k: exp(x)*(2*x)^k.
+%F A161381 G.f. for column k: (2*x)^k*k!/(1 - x)^(k+1).
 %F A161381 T(n,k) = 2^(k-n)*Sum_{j = 0..n} (binomial(n,j)T(j,i)T(n-j,k-i). (End)
 %F A161381 From _Peter Bala_, Feb 20 2016: (Start)
 %F A161381 T(n, k) = 2*n*T(n-1, k-1) = 2*k*T(n-1, k-1) + T(n-1, k) = n*T(n-1, k)/(n - k) = 2*(n - k + 1)*T(n, k-1).
 %F A161381 G.f. Sum_{n >= 1} (2*n*x*t)^(n-1)/(1 - (2*n*t - 1)*x)^n = 1 + (1 + 2*t)*x + (1 + 4*t + 8*t^2)*x^2 + ....
-%F A161381 E.g.f. exp(x)/(1 - 2*x*t) =  1 + (1 + 2*t)*x + (1 + 4*t + 8*t^2)*x^2/2! + ....
-%F A161381 E.g.f. for row n: (1 + 2*x)^n
+%F A161381 E.g.f. exp(x)/(1 - 2*x*t) = 1 + (1 + 2*t)*x + (1 + 4*t + 8*t^2)*x^2/2! + ....
+%F A161381 E.g.f. for row n: (1 + 2*x)^n.
 %F A161381 Row reversed triangle is the exponential Riordan array [1/(1 - 2*x), x]. (End)
 %e A161381 Triangle begins:
 %e A161381   1

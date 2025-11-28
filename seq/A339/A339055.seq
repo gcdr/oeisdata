@@ -1,4 +1,4 @@
-%I A339055 #35 Nov 25 2020 03:37:05
+%I A339055 #40 Sep 08 2025 21:19:33
 %S A339055 1,3,3,3,3,3,3,3,3,5,3,3,3,3,5,5,3,3,3,3,3,3,5,5,5,3,3,5,3,5,3,3,3,3,
 %T A339055 3,5,5,3,3,5,5,5,3,3,3,3,5,3,3,3,5,3,3,3,5,5,5,5,3,3,3,3,3,5,5,5,5,3,
 %U A339055 3,5,3,5,5,3,3,3,3,5,3,3,3,3,5,3,5,3,5,3,5
@@ -10,6 +10,7 @@
 %C A339055 a(n) = 5 for numbers k whose prime signature is (4, 2, 2) and the smallest such integer is 3600 = 2^4 * 3^2 * 5^2 corresponding to a(10) = 5.
 %C A339055 a(n) = 9 for numbers k whose prime signature is (4, 4, 2, 2) and the smallest such integer is 1587600 = 2^4 * 3^4 * 5^2 * 7^2 corresponding to a(235) = 9.
 %D A339055 Marcin E. Kuczma, International Mathematical Olympiads, 1986-1999, The Mathematical Association of America, 2003, pages 134-135.
+%H A339055 Robert Israel, <a href="/A339055/b339055.txt">Table of n, a(n) for n = 1..10000</a> (using b-file for A217584)
 %H A339055 The IMO Compendium, <a href="https://imomath.com/othercomp/I/Imo1998.pdf">Problem 3</a>, 39th IMO 1998.
 %H A339055 <a href="/index/O#Olympiads">Index to sequences related to Olympiads</a>.
 %F A339055 a(n) = A000005(A217584(n)^2)/A000005(A217584(n)).

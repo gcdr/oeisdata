@@ -1,10 +1,10 @@
-%I A225117 #50 Aug 25 2023 12:03:33
+%I A225117 #52 Nov 10 2025 21:50:40
 %S A225117 1,2,1,4,13,1,8,93,60,1,16,545,1131,251,1,32,2933,14498,10678,1018,1,
 %T A225117 64,15177,154113,262438,88998,4089,1,128,77101,1475736,4890287,
 %U A225117 3870352,692499,16376,1,256,388321,13270807,77404933,117758659,50476003,5175013,65527,1
 %N A225117 Triangle read by rows, coefficients of the generalized Eulerian polynomials A_{n, 3}(x) in descending order.
 %C A225117 The row sums equal the triple factorial numbers A032031 and the alternating row sums, i.e., Sum_{k=0..n}(-1)^k*T(n,k), are up to a sign A000810. - _Johannes W. Meijer_, May 04 2013
-%H A225117 Peter Luschny, <a href="http://oeis.org/wiki/User:Peter_Luschny/EulerianPolynomialsGeneralized">Generalized Eulerian polynomials</a>.
+%H A225117 Peter Luschny, <a href="https://oeis.org/wiki/User:Peter_Luschny/EulerianPolynomialsGeneralized">Generalized Eulerian polynomials</a>.
 %H A225117 Zhe Wang and Zhi-Yong Zhu, <a href="https://ajc.maths.uq.edu.au/pdf/87/ajc_v87_p198.pdf">The spiral property of q-Eulerian numbers of type B</a>, The Australasian Journal of Combinatorics, Volume 87(1) (2023), Pages 198-202. See p. 199.
 %F A225117 Generating function of the polynomials is gf(n, k) = k^n*n!*(1/x-1)^(n+1)[t^n](x*e^(t*x/k)*(1-x*e(t*x))^(-1)) for k = 3; here [t^n]f(t,x) is the coefficient of t^n in f(t,x).
 %F A225117 From _Wolfdieter Lang_, Apr 10 2017: (Start)
@@ -44,7 +44,7 @@
 %p A225117 A225117 := (n,k) -> 3^n*coeff(P(n,x),x,n-k):
 %p A225117 seq(print(seq(A225117(n,k), k=0..n)), n=0..5);  # _Peter Luschny_, Mar 08 2014
 %t A225117 gf[n_, k_] := Module[{f, s}, f[x_, t_] := x*Exp[t*x/k]/(1-x*Exp[t*x]); s = Series[f[x, t], {t, 0, n+2}]; ((1-x)/x)^(n+1)*k^n*n!*SeriesCoefficient[s, {t, 0, n}]]; Table[Table[SeriesCoefficient[gf[n, 3], {x, 0, n-k}], {k, 0, n}], {n, 0, 8}] // Flatten (* _Jean-François Alcover_, Jan 27 2014, after Maple *)
-%o A225117 (Sage)
+%o A225117 (SageMath)
 %o A225117 @CachedFunction
 %o A225117 def EB(n, k, x):  # Modified cardinal B-splines
 %o A225117     if n == 1: return 0 if (x < 0) or (x >= 1) else 1

@@ -1,4 +1,4 @@
-%I A018590 #12 Aug 26 2022 15:35:52
+%I A018590 #14 Jul 08 2025 07:18:27
 %S A018590 1,2,11,22,31,62,341,682
 %N A018590 Divisors of 682.
 %H A018590 <a href="/index/Di#divisors">Index entries for sequences related to divisors of numbers</a>
@@ -6,4 +6,4 @@
 %o A018590 (PARI) divisors(682) \\ _Charles R Greathouse IV_, Jun 23 2017
 %K A018590 nonn,fini,full,easy
 %O A018590 1,2
-%A A018590 _N. J. A. Sloane_.
+%A A018590 _N. J. A. Sloane_

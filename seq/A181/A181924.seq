@@ -1,4 +1,4 @@
-%I A181924 #21 Feb 16 2025 08:33:13
+%I A181924 #22 Nov 05 2025 15:35:33
 %S A181924 12,24,48,60,96,108,120,168,192,216,240,300,336,360,384,420,432,480,
 %T A181924 540,588,600,660,672,720,768,840,864,960,972,1008,1080,1092,1176,1200,
 %U A181924 1260,1320,1344,1440,1452,1500,1512,1536,1680,1728,1848,1920,1944,1980
@@ -20,7 +20,7 @@
 %D A181924 Ralph H. Buchholz and Randall L. Rathbun, An infinite set of Heron triangles with two rational medians, Newcastle University, Newcastle, Jan 1997.
 %D A181924 Ralph H. Buchholz, On triangles with rational altitudes, angles bisectors or medians, PHD Thesis, University of Newcastle, Nov 1989.
 %H A181924 Ray Chandler, <a href="/A181924/b181924.txt">Table of n, a(n) for n = 1..144</a>
-%H A181924 Andrew Bremner and Richard K. Guy, <a href="http://www.jstor.org/stable/2323442">A Dozen Difficult Diophantine Dilemmas</a>, American Mathematical Monthly 95(1988) 31-36.
+%H A181924 Andrew Bremner and Richard K. Guy, <a href="https://www.jstor.org/stable/2323442">A Dozen Difficult Diophantine Dilemmas</a>, American Mathematical Monthly 95(1988) 31-36.
 %H A181924 Ralph H. Buchholz, <a href="https://doi.org/10.1017/S0004972700030446">On triangles with rational altitudes, angles bisectors or medians</a>, Bulletin of the Australian Mathematical Society , Volume 45 , Issue 3 , June 1992 , pp. 525-526.
 %H A181924 Ralph H. Buchholz and Randall L. Rathbun, <a href="https://www.jstor.org/stable/2974977">An infinite set of Heron triangles with two rational medians</a>, The American Mathematical Monthly, Vol. 104, No. 2 (Feb., 1997), pp. 107-115.
 %H A181924 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/HeronianTriangle.html">Heronian Triangle</a>

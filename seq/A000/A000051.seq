@@ -1,4 +1,4 @@
-%I A000051 M0717 N0266 #246 Feb 16 2025 08:32:19
+%I A000051 M0717 N0266 #262 Nov 02 2025 03:34:23
 %S A000051 2,3,5,9,17,33,65,129,257,513,1025,2049,4097,8193,16385,32769,65537,
 %T A000051 131073,262145,524289,1048577,2097153,4194305,8388609,16777217,
 %U A000051 33554433,67108865,134217729,268435457,536870913,1073741825,2147483649,4294967297,8589934593
@@ -21,11 +21,13 @@
 %C A000051 Also the number of maximum matchings in the 2(n-1)-crossed prism graph. - _Eric W. Weisstein_, Dec 31 2017
 %C A000051 Conjecture: For any integer n >= 0, a(n) is the permanent of the (n+1) X (n+1) matrix with M(j, k) = -floor((j - k - 1)/(n + 1)). This conjecture is inspired by the conjecture of _Zhi-Wei Sun_ in A036968. - _Peter Luschny_, Sep 07 2021
 %D A000051 Paul Bachmann, Niedere Zahlentheorie (1902, 1910), reprinted Chelsea, NY, 1968, vol. 2, p. 75.
+%D A000051 Paulo Ribenboim, The Little Book of Bigger Primes, Springer-Verlag NY 2004. See pp. 46, 60, 244.
 %D A000051 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
 %D A000051 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A000051 James J. Tattersall, Elementary Number Theory in Nine Chapters, Cambridge University Press, 1999, page 141.
 %H A000051 Ivan Panchenko, <a href="/A000051/b000051.txt">Table of n, a(n) for n = 0..100</a>
 %H A000051 E. R. Berlekamp, <a href="/A257113/a257113.pdf">A contribution to mathematical psychometrics</a>, Unpublished Bell Labs Memorandum, Feb 08 1968 [Annotated scanned copy]
-%H A000051 Bakir Farhi, <a href="https://www.emis.de/journals/JIS/VOL22/Farhi/farhi19.html">Summation of Certain Infinite Lucas-Related Series</a>, J. Int. Seq., Vol. 22 (2019), Article 19.1.6.
+%H A000051 Bakir Farhi, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL22/Farhi/farhi19.html">Summation of Certain Infinite Lucas-Related Series</a>, J. Int. Seq., Vol. 22 (2019), Article 19.1.6.
 %H A000051 Massimiliano Fasi and Gian Maria Negri Porzio, <a href="http://eprints.maths.manchester.ac.uk/2709/">Determinants of Normalized Bohemian Upper Hessemberg Matrices</a>, University of Manchester (England, 2019).
 %H A000051 Bartomeu Fiol, Jairo Martínez-Montoya, and Alan Rios Fukelman, <a href="https://arxiv.org/abs/2003.02879">The planar limit of N=2 superconformal field theories</a>, arXiv:2003.02879 [hep-th], 2020.
 %H A000051 Bernard Frénicle de Bessy, <a href="https://gallica.bnf.fr/ark:/12148/bpt6k3187867/f7.item">Solutio duorum problematum circa numeros cubos et quadratos</a>, (1657). Bibliothèque Nationale de Paris.
@@ -34,7 +36,8 @@
 %H A000051 Edouard Lucas, <a href="http://www.mathstat.dal.ca/FQ/Books/Complete/simply-periodic.pdf">The Theory of Simply Periodic Numerical Functions</a>, Fibonacci Association, 1969. English translation of article "Théorie des Fonctions Numériques Simplement Périodiques, I", Amer. J. Math., 1 (1878), 184-240.
 %H A000051 Kival Ngaokrajang, <a href="/A000051/a000051_1.pdf">Illustration of Hilbert curve for n = 1..5</a>
 %H A000051 Simon Plouffe, <a href="https://arxiv.org/abs/0911.4975">Approximations de séries génératrices et quelques conjectures</a>, Dissertation, Université du Québec à Montréal, 1992; arXiv:0911.4975 [math.NT], 2009.
-%H A000051 Simon Plouffe, <a href="/A000051/a000051_2.pdf">1031 Generating Functions</a>, Appendix to Thesis, Montreal, 1992
+%H A000051 Simon Plouffe, <a href="/A000051/a000051_2.pdf">1031 Generating Functions</a>, Appendix to Thesis, Montreal, 1992.
+%H A000051 D. C. Santos, E. A. Costa, and P. M. M. C. Catarino, <a href="https://doi.org/10.3390/axioms14030203">On Gersenne Sequence: A Study of One Family in the Horadam-Type Sequence</a>, Axioms 14, 203, (2025). See p. 1.
 %H A000051 Amelia Carolina Sparavigna, <a href="https://doi.org/10.5281/zenodo.2634312">On the generalized sums of Mersenne, Fermat, Cullen and Woodall Numbers</a>, Politecnico di Torino (Italy, 2019).
 %H A000051 Amelia Carolina Sparavigna, <a href="https://doi.org/10.18483/ijSci.2044">Composition Operations of Generalized Entropies Applied to the Study of Numbers</a>, International Journal of Sciences (2019) Vol. 8, No. 4, 87-92.
 %H A000051 Amelia Carolina Sparavigna, <a href="https://doi.org/10.5281/zenodo.3471358">The groupoids of Mersenne, Fermat, Cullen, Woodall and other Numbers and their representations by means of integer sequences</a>, Politecnico di Torino, Italy (2019), [math.NT].

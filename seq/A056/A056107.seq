@@ -1,4 +1,4 @@
-%I A056107 #122 Feb 16 2025 08:32:43
+%I A056107 #124 Nov 05 2025 15:35:29
 %S A056107 1,4,13,28,49,76,109,148,193,244,301,364,433,508,589,676,769,868,973,
 %T A056107 1084,1201,1324,1453,1588,1729,1876,2029,2188,2353,2524,2701,2884,
 %U A056107 3073,3268,3469,3676,3889,4108,4333,4564,4801,5044,5293,5548,5809,6076,6349
@@ -17,7 +17,7 @@
 %H A056107 Henry Bottomley, <a href="/A003215/a003215.gif">Illustration of initial terms</a>
 %H A056107 A. J. C. Cunningham, <a href="/A056107/a056107.pdf">Factorisation of N and N' = (x^n -+ y^n) / (x -+ y) [when x-y=n]</a>, Messenger Math., 54 (1924), 17-21 [Incomplete annotated scanned copy]
 %H A056107 Gabriele Nebe and N. J. A. Sloane, <a href="http://www.math.rwth-aachen.de/~Gabriele.Nebe/LATTICES/A2.html">Home page for hexagonal (or triangular) lattice A2</a>.
-%H A056107 A. L. Rubinoff and Leo Moser, <a href="http://www.jstor.org/stable/2305750">Solution to Problem E773</a>, The American Mathematical Monthly, Vol. 55, No. 2 (Feb., 1948), p. 99.
+%H A056107 A. L. Rubinoff and Leo Moser, <a href="https://www.jstor.org/stable/2305750">Solution to Problem E773</a>, The American Mathematical Monthly, Vol. 55, No. 2 (Feb., 1948), p. 99.
 %H A056107 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/Clique.html">Clique</a>.
 %H A056107 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/TorusGridGraph.html">Torus Grid Graph</a>.
 %H A056107 <a href="/index/Rec#order_03">Index entries for linear recurrences with constant coefficients</a>, signature (3,-3,1).
@@ -45,7 +45,7 @@
 %o A056107 (PARI) for(n=0,1000,if(issquare(n+(n-1)+(n-2)),print1(n", "))); \\ _César Aguilera_, May 26 2015
 %o A056107 (PARI) a(n) = 3*n^2 + 1; \\ _Altug Alkan_, Feb 08 2017
 %o A056107 (Magma) [3*n^2 + 1: n in [0..40]]; // _G. C. Greubel_, Dec 02 2018
-%o A056107 (Sage) [3*n^2 + 1 for n in range(40)] # _G. C. Greubel_, Dec 02 2018
+%o A056107 (SageMath) [3*n^2 + 1 for n in range(40)] # _G. C. Greubel_, Dec 02 2018
 %o A056107 (GAP) List([0..40], n -> 3*n^2 + 1); # _G. C. Greubel_, Dec 02 2018
 %Y A056107 Cf. A002648 (prime terms), A201053.
 %Y A056107 Cf. A000578, A003136, A132111, A181123.

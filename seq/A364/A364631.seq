@@ -1,4 +1,4 @@
-%I A364631 #49 Aug 14 2023 14:17:34
+%I A364631 #54 Oct 26 2025 11:19:07
 %S A364631 1,1,2,2,2,3,3,3,3,4,3,4,4,4,4,4,4,5,4,5,5,5,4,5,4,5,5,5,4,6,5,5,5,6,
 %T A364631 5,6,6,5,6,6,5,6,6,6,6,6,5,6,6,6,6,6,6,7,6,6,6,6,5,7,7,6,6,6,6,7,6,7,
 %U A364631 6,7,6,7,7,7,6,6,6,7,6,7,7,7,6,7,7,7,6,7
@@ -9,6 +9,7 @@
 %C A364631 If n = 2^k then a(n) = k. Hence for any x, should x = 2^k then the process terminates.
 %C A364631 The process will fail to terminate only if the number of iterations where phi(psi(x)) > x continues to be greater than the number of iterations where phi(psi(x)) <= x.
 %C A364631 Question: Is -1 a term of this sequence?
+%H A364631 Chris R. Rehmann, <a href="/A364631/b364631.txt">Table of n, a(n) for n = 1..10000</a>
 %F A364631 a(2^k) = A003434(2^k) = k since phi(psi(2^k)) = phi(2^k) = 2^(k-1).
 %e A364631 a(1) = 1 because phi(psi(1)) = 1.
 %e A364631 a(2) = 1 because phi(psi(2)) = 2.

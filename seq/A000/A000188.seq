@@ -1,11 +1,11 @@
-%I A000188 #167 Feb 12 2025 10:43:57
+%I A000188 #170 Nov 05 2025 15:21:38
 %S A000188 1,1,1,2,1,1,1,2,3,1,1,2,1,1,1,4,1,3,1,2,1,1,1,2,5,1,3,2,1,1,1,4,1,1,
 %T A000188 1,6,1,1,1,2,1,1,1,2,3,1,1,4,7,5,1,2,1,3,1,2,1,1,1,2,1,1,3,8,1,1,1,2,
 %U A000188 1,1,1,6,1,1,5,2,1,1,1,4,9,1,1,2,1,1,1,2,1,3
 %N A000188 (1) Number of solutions to x^2 == 0 (mod n). (2) Also square root of largest square dividing n. (3) Also max_{ d divides n } gcd(d, n/d).
 %C A000188 Shadow transform of the squares A000290. - _Vladeta Jovovic_, Aug 02 2002
 %C A000188 _Labos Elemer_ and _Henry Bottomley_ independently proved that (2) and (3) define the same sequence. Bottomley also showed that (1) and (2) define the same sequence.
-%C A000188 Proof that (2) = (3): Let max{gcd(d, n/d)} = K, then d = Kx, n/d = Ky so n = KKxy where xy is the squarefree part of n, otherwise K is not maximal. Observe also that g = gcd(K, xy) is not necessarily 1. Thus K is also the "maximal square-root factor" of n. - _Labos Elemer_, July 2000
+%C A000188 Proof that (2) = (3): Let max{gcd(d, n/d)} = K, then d = Kx, n/d = Ky so n = KKxy where xy is the squarefree part of n, otherwise K is not maximal. Observe also that g = gcd(K, xy) is not necessarily 1. Thus K is also the "maximal square-root factor" of n. - _Labos Elemer_, Jul 2000
 %C A000188 We can write sqrt(n) = b*sqrt(c) where c is squarefree. Then b = A000188(n) is the "inner square root" of n, c = A007913(n) and b*c = A019554(n) = "outer square root" of n.
 %H A000188 T. D. Noe, <a href="/A000188/b000188.txt">Table of n, a(n) for n = 1..10000</a>
 %H A000188 Henry Bottomley, <a href="http://fs.gallup.unm.edu/Bottomley-Sm-Mult-Functions.htm">Some Smarandache-type multiplicative sequences</a>.
@@ -13,14 +13,14 @@
 %H A000188 Kevin A. Broughan, <a href="https://doi.org/10.4064/aa101-2-2">Restricted divisor sums</a>, Acta Arithmetica, 101(2) (2002), 105-114.
 %H A000188 Kevin A. Broughan, <a href="http://ijpam.eu/contents/2003-5-3/2/2.pdf">Relationship between the integer conductor and k-th root functions</a>, Int. J. Pure Appl. Math. 5(3) (2003), 253-275.
 %H A000188 Kevin A. Broughan, <a href="http://nzjm.math.auckland.ac.nz/images/d/d6/Relaxations_of_the_ABC_Conjecture_using_integer_k%27th_roots.pdf">Relaxations of the ABC Conjecture using integer k'th roots</a>, New Zealand J. Math. 35(2) (2006), 121-136.
-%H A000188 John M. Campbell, <a href="http://arxiv.org/abs/1105.3399">An Integral Representation of Kekulé Numbers, and Double Integrals Related to Smarandache Sequences</a>, arXiv preprint arXiv:1105.3399 [math.GM], 2011.
+%H A000188 John M. Campbell, <a href="https://arxiv.org/abs/1105.3399">An Integral Representation of Kekulé Numbers, and Double Integrals Related to Smarandache Sequences</a>, arXiv preprint arXiv:1105.3399 [math.GM], 2011.
 %H A000188 Steven R. Finch and Pascal Sebah, <a href="https://arxiv.org/abs/math/0604465">Squares and Cubes Modulo n</a>, arXiv:math/0604465 [math.NT], 2006-2016.
 %H A000188 Vaclav Kotesovec, <a href="/A000188/a000188.jpg">Graph - the asymptotic ratio (100000 terms)</a>
 %H A000188 Gerry Myerson, <a href="http://www.austms.org.au/Publ/Gazette/2008/Jul08/TechPaperMyerson.pdf">Trifectas in Geometric Progression</a>, Australian Mathematical Society Gazette 35(3) (2008), 189-194
 %H A000188 Andrew Reiter, <a href="http://www.cw-complex.com/modNspirals/modNspirals.pdf">On (mod n) spirals</a> (2014), and posting to Number Theory Mailing List, Mar 23 2014.
 %H A000188 N. J. A. Sloane, <a href="/transforms.txt">Transforms</a>.
 %H A000188 Florentin Smarandache, <a href="http://www.gallup.unm.edu/~smarandache/CP2.pdf">Collected Papers, Vol. II</a>, Tempus Publ. Hse, Bucharest, 1996.
-%H A000188 László Tóth, <a href="http://arxiv.org/abs/1404.4214">Counting solutions of quadratic congruences in several variables revisited</a>, arXiv preprint arXiv:1404.4214 [math.NT], 2014.
+%H A000188 László Tóth, <a href="https://arxiv.org/abs/1404.4214">Counting solutions of quadratic congruences in several variables revisited</a>, arXiv preprint arXiv:1404.4214 [math.NT], 2014.
 %H A000188 László Tóth, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL17/Toth/toth12.html">Counting Solutions of Quadratic Congruences in Several Variables Revisited</a>, J. Int. Seq. 17 (2014), # 14.11.6.
 %F A000188 a(n) = n/A019554(n) = sqrt(A008833(n)).
 %F A000188 a(n) = Sum_{d^2|n} phi(d), where phi is the Euler totient function A000010.

@@ -1,4 +1,4 @@
-%I A003056 #201 Apr 24 2024 12:57:04
+%I A003056 #202 Nov 05 2025 15:21:43
 %S A003056 0,1,1,2,2,2,3,3,3,3,4,4,4,4,4,5,5,5,5,5,5,6,6,6,6,6,6,6,7,7,7,7,7,7,
 %T A003056 7,7,8,8,8,8,8,8,8,8,8,9,9,9,9,9,9,9,9,9,9,10,10,10,10,10,10,10,10,10,
 %U A003056 10,10,11,11,11,11,11,11,11,11,11,11,11,11,12,12,12,12,12,12,12,12,12,12,12,12,12
@@ -18,7 +18,7 @@
 %C A003056 Where records occur gives A000217. - _Omar E. Pol_, Nov 05 2015
 %C A003056 Also number of peaks in the largest Dyck path of the symmetric representation of sigma(n), n >= 1. Cf. A237593. - _Omar E. Pol_, Dec 19 2016
 %H A003056 Vincenzo Librandi, <a href="/A003056/b003056.txt">Table of n, a(n) for n = 0..10000</a>
-%H A003056 Anna R. B. Fan, Harold R. L. Yang, and Rebecca T. Yu, <a href="http://arxiv.org/abs/1212.3505">On the Maximum Number of k-Hooks of Partitions of n</a>, arXiv:1212.3505 [math.CO], 2012.
+%H A003056 Anna R. B. Fan, Harold R. L. Yang, and Rebecca T. Yu, <a href="https://arxiv.org/abs/1212.3505">On the Maximum Number of k-Hooks of Partitions of n</a>, arXiv:1212.3505 [math.CO], 2012.
 %H A003056 Michael Somos, <a href="/A073189/a073189.txt">Sequences used for indexing triangular or square arrays</a>.
 %F A003056 a(n) = floor((sqrt(1+8*n)-1)/2). - _Antti Karttunen_
 %F A003056 a(n) = floor(-1/2 + sqrt(2*n+b)) with 1/4 <= b < 9/4 or a(n) = floor((sqrt(8*n+b)-1)/2) with 1 <= b < 9. - Michael A. Childers (childers_moof(AT)yahoo.com), Nov 11 2001

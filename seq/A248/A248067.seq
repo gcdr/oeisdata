@@ -1,8 +1,8 @@
-%I A248067 #4 Sep 30 2014 21:51:44
+%I A248067 #6 Jul 23 2025 11:41:02
 %S A248067 94568,299968,983784,3273988,10950616,36646756,122502768,409950004,
 %T A248067 1372989004,4600574912,15418152552,51669138670,173125828256,
 %U A248067 580162209338,1944360329376,6516502657038,21839173227884,73185964436176
-%N A248067 Number of length n+5 0..7 arrays with some disjoint triples in each consecutive six terms having the same sum
+%N A248067 Number of length n+5 0..7 arrays with some disjoint triples in each consecutive six terms having the same sum.
 %C A248067 Column 7 of A248068
 %H A248067 R. H. Hardin, <a href="/A248067/b248067.txt">Table of n, a(n) for n = 1..210</a>
 %e A248067 Some solutions for n=1

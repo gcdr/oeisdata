@@ -1,4 +1,4 @@
-%I A078987 #69 Jan 02 2023 21:56:50
+%I A078987 #70 Sep 22 2025 16:00:41
 %S A078987 1,38,1443,54796,2080805,79015794,3000519367,113940720152,
 %T A078987 4326746846409,164302439443390,6239165952002411,236924003736648228,
 %U A078987 8996872976040630253,341644249085807301386,12973484592284636822415,492650770257730391950384,18707755785201470257292177
@@ -25,8 +25,8 @@
 %p A078987 seq( simplify(ChebyshevU(n, 19)), n=0..20); # _G. C. Greubel_, Dec 22 2019
 %t A078987 lst={};Do[AppendTo[lst, GegenbauerC[n, 1, 19]], {n, 0, 8^2}];lst (* _Vladimir Joseph Stephan Orlovsky_, Sep 11 2008 *)
 %t A078987 ChebyshevU[Range[21] -1, 19] (* _G. C. Greubel_, Dec 22 2019 *)
-%o A078987 (Sage) [lucas_number1(n,38,1) for n in range(1, 16)] # _Zerinvary Lajos_, Nov 07 2009
-%o A078987 (Sage) [chebyshev_U(n,19) for n in (0..20)] # _G. C. Greubel_, Dec 22 2019
+%o A078987 (SageMath) [lucas_number1(n,38,1) for n in range(1, 16)] # _Zerinvary Lajos_, Nov 07 2009
+%o A078987 (SageMath) [chebyshev_U(n,19) for n in (0..20)] # _G. C. Greubel_, Dec 22 2019
 %o A078987 (PARI) a(n)=subst(polchebyshev(n,2),x,19) \\ _Charles R Greathouse IV_, Feb 10 2012
 %o A078987 (PARI) Vec(1/(1-38*x+x^2) + O(x^50)) \\ _Colin Barker_, Jun 15 2015
 %o A078987 (Magma) m:=19; I:=[1, 2*m]; [n le 2 select I[n] else 2*m*Self(n-1) -Self(n-2): n in [1..20]]; // _G. C. Greubel_, Dec 22 2019

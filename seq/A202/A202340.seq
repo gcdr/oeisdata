@@ -1,10 +1,11 @@
-%I A202340 #19 Feb 16 2025 08:33:16
+%I A202340 #23 Mar 09 2025 13:05:52
 %S A202340 1,2,1,1,2,2,1,2,1,1,2,1,1,2,2,1,1,2,2,1,2,1,1,2,2,1,2,1,1,2,1,1,2,2,
 %T A202340 1,2,1,1,2,1,1,2,2,1,1,2,2,1,2,1,1,2,1,1,2,2,1,1,2,2,1,2,1,1,2,2,1,2,
 %U A202340 1,1,2,1,1,2,2,1,1,2,2,1,2,1,1,2,2,1
 %N A202340 Number of times n occurs in Hofstadter H-sequence A005374.
 %C A202340 a(A202341(n)) = 1; a(A202342(n)) = 2.
 %H A202340 Reinhard Zumkeller, <a href="/A202340/b202340.txt">Table of n, a(n) for n = 0..10000</a>
+%H A202340 Jeffrey Shallit, <a href="https://arxiv.org/abs/2503.01026">The Narayana Morphism and Related Words</a>, arXiv:2503.01026 [math.CO], 2025.
 %H A202340 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/HofstadterH-Sequence.html">Hofstadter H-Sequence</a>.
 %H A202340 Wikipedia, <a href="http://en.wikipedia.org/wiki/Hofstadter_sequence">Hofstadter sequence</a>.
 %H A202340 <a href="/index/Ho#Hofstadter">Index entries for Hofstadter-type sequences</a>.

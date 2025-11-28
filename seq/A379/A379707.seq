@@ -1,8 +1,8 @@
-%I A379707 #18 Jan 06 2025 07:32:00
+%I A379707 #20 May 06 2025 11:30:47
 %S A379707 1,2,5,19,133,2605,1128365,68731541392,1180735736455875189405,
 %T A379707 170141183460507927984536600089529165335,
 %U A379707 7237005577335553223087828975127304180898559033209149835788539833222132944557
-%N A379707 Number of nonemtpy labeled antichains of subsets of [n] such that all subsets except possibly those of the largest size are disjoint.
+%N A379707 Number of nonempty labeled antichains of subsets of [n] such that all subsets except possibly those of the largest size are disjoint.
 %F A379707 a(n) = 1 + Sum_{s=1..n} (Sum_{i=0..n-s} binomial(n,i) * (2^binomial(n-i,s) - 1) * A229223(i,s-1)).
 %e A379707 For n < 4 all nonempty labeled antichains are counted. When n=6 antichains such as {{1,2,6},{1,4},{1,5}} are not counted, while {{1,2,4},{1,2,6},{3},{5}} is counted.
 %o A379707 (Python)

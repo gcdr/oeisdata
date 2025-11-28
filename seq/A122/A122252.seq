@@ -1,13 +1,13 @@
-%I A122252 #32 Sep 22 2021 10:29:04
+%I A122252 #35 Nov 05 2025 15:22:05
 %S A122252 1,1,59,29,533,1577,280361,69311,36226519,7178335,64766889203,
 %T A122252 32128227179,459253205417,325788932161,2311165698322609,
 %U A122252 287144996287039,1215091897184850539,402833263943353393,476099430416027805187,236881416523193720213,650730651653461090091101
 %N A122252 Binet's factorial series. Numerators of the coefficients of a convergent series for the logarithm of the Gamma function.
 %H A122252 Robert G. Wilson v, <a href="/A122252/b122252.txt">Table of n, a(n) for n = 1..100</a>
 %H A122252 J. P. M. Binet, <a href="https://gallica.bnf.fr/ark:/12148/bpt6k65355594.texteImage">Mémoire sur les intégrales définites Eulériennes et sur leur application à la théorie des suites ainsi qu'à l`évaluation des functions des grands nombres</a>, Journal de l`École Polytechnique, XVI:123-343, July 1839.
-%H A122252 Ch. Hermite, <a href="http://www.digizeitschriften.de/dms/img/?PID=GDZPPN002163330">Sur la function log Gamma(a)</a> Journal für die reine und angewandte Mathematik, 115:201-208, 1895.
+%H A122252 Ch. Hermite, <a href="https://gdz.sub.uni-goettingen.de/id/PPN243919689_0115">Sur la function log Gamma(a)</a> Journal für die reine und angewandte Mathematik, 115:201-208, 1895.
 %H A122252 G. Nemes, <a href="https://doi.org/10.1080/10652469.2012.725168">Generalization of Binet's Gamma function formulas</a>, Integral Transforms and Special Functions, 24(8):595-606, 2013.
-%H A122252 Raphael Schumacher, <a href="http://arxiv.org/abs/1602.00336">Rapidly Convergent Summation Formulas involving Stirling Series</a>, arXiv:1602.00336 [math.NT], 2016.
+%H A122252 Raphael Schumacher, <a href="https://arxiv.org/abs/1602.00336">Rapidly Convergent Summation Formulas involving Stirling Series</a>, arXiv:1602.00336 [math.NT], 2016.
 %H A122252 P. Van Mieghem, <a href="https://arxiv.org/abs/2102.04891">Binet's factorial series and extensions to Laplace transforms</a>, arXiv:2102.04891 [math.FA], 2021.
 %H A122252 Wikipedia, <a href="http://en.wikipedia.org/wiki/Stirling%27s_approximation">Stirling's Approximation</a>
 %F A122252 a(n) = numerator(c(n)), where c(n) are given by Binet's formulas:

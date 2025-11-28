@@ -1,9 +1,9 @@
-%I A289504 #23 Dec 13 2024 10:13:04
+%I A289504 #24 Nov 05 2025 15:22:40
 %S A289504 3,6,5,3,9,8,6,6,8,6,2,6,5,3,7,6,1,4,8,5,3,3,9,7,9,4,9,4,9,3,8,9,0,8,
 %T A289504 3,2,4,1,9,2,1,5,9,4,4,1,0,9,9,9,2,1,9,5,8,3,9,8,0,9,8,0,6,0,8,7,3,0,
 %U A289504 9,0,9,1,0,4,0,7,8,0,9,3,8,4,5,2,1,1
 %N A289504 Decimal expansion of 2*(1+3^(3/2)/(2*Pi)).
-%H A289504 Steven R. Finch, <a href="http://arxiv.org/abs/1111.4976">Mean width of a regular simplex</a>, arxiv:1111.4976 [math.MG], (2016), nu_2.
+%H A289504 Steven R. Finch, <a href="https://arxiv.org/abs/1111.4976">Mean width of a regular simplex</a>, arxiv:1111.4976 [math.MG], (2016), nu_2.
 %H A289504 <a href="/index/Tra#transcendental">Index entries for transcendental numbers</a>
 %F A289504 Equals 2*(1+A086089).
 %e A289504 3.6539866862653761485339794949389083241921...

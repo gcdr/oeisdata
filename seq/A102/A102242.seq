@@ -1,10 +1,10 @@
-%I A102242 #15 Feb 16 2025 08:32:55
+%I A102242 #19 Oct 30 2025 16:30:02
 %S A102242 1,0,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,1,0,0,1,0,1,0,1,0,1,0,
 %T A102242 0,1,0,0,1,0,1,0,1,0,0,1,0,0,0,0,1,0,1,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0,
 %U A102242 1,0,1,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1,0,1,0,0,1,0,1,0,1,0,0,1,0,0,0
 %N A102242 Expansion of Pi^2 in golden base (i.e., in irrational base phi = (1 + sqrt(5))/2).
-%H A102242 J. Borwein and M. Chamberland, <a href="https://archive.siam.org/journals/categories/06-003.php">A golden example</a>.
 %H A102242 D. H. Bailey, <a href="https://www.davidhbailey.com/dhbpapers/bbp-formulas.pdf">A compendium of BBP-type formulas for mathematical constants</a>.
+%H A102242 J. Borwein and M. Chamberland, <a href="https://archive.siam.org/journals/categories/06-003.php">A golden example</a>.
 %H A102242 E. Weisstein, <a href="https://mathworld.wolfram.com/BBP-TypeFormula.html">BBP type formula (formula 16)</a>.
 %e A102242 Pi^2 = 10100.01000000100010001010010101010010... in golden base
 %t A102242 RealDigits[Pi^2,GoldenRatio,120][[1]] (* _Harvey P. Dale_, Sep 19 2016 *)

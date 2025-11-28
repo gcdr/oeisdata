@@ -1,4 +1,4 @@
-%I A005717 M1612 #201 Feb 16 2025 08:32:29
+%I A005717 M1612 #215 Nov 05 2025 15:21:44
 %S A005717 1,2,6,16,45,126,357,1016,2907,8350,24068,69576,201643,585690,1704510,
 %T A005717 4969152,14508939,42422022,124191258,363985680,1067892399,3136046298,
 %U A005717 9217554129,27114249960,79818194925,235128465026,693085098852,2044217638456,6032675068061
@@ -14,6 +14,7 @@
 %C A005717 a(n) is the number of lattice paths avoiding N^(>=3) from (0,0) to (n,n). - _Shanzhen Gao_, Apr 20 2010
 %C A005717 a(n+1) is the number of binary strings having n 0's and n 1's and no appearance of 000.  For example, for n = 1, there 2 strings: 01 and 10.  For n = 2, there are 6: 0011, 0101, 0110, 1001, 1010, 1100. - _Toby Gottfried_, Sep 12 2011
 %C A005717 a(n) is the number of paths in the half-plane x>=0, from (0,0) to (n,1), and consisting of steps U=(1,1), D=(1,-1) and H=(1,0). For example, for n=3, we have the 6 paths HHU, HUH, UDU, UUD, UHH, DUU. - _José Luis Ramírez Ramírez_, Apr 19 2015
+%C A005717 a(n) is the number of ways to tile a strip of length 2*n+1 with squares, dominos, and trominos, where the number of trominos is always one more than the number of squares. - _Greg Dresden_ and Anna Kalynchuk, Jul 30 2025
 %D A005717 Louis Comtet, Advanced Combinatorics, Reidel, 1974, p. 78.
 %D A005717 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
 %H A005717 G. C. Greubel, <a href="/A005717/b005717.txt">Table of n, a(n) for n = 1..1000</a> (Terms 1 to 200 computed by T. D. Noe; terms 201 to 1000 by G. C. Greubel, Jan 15 2017)
@@ -24,7 +25,7 @@
 %H A005717 Richard K. Guy, <a href="/A005712/a005712.pdf">Letter to N. J. A. Sloane, 1987</a>.
 %H A005717 Stanislav Krymski and Alexander Okhotin, <a href="https://doi.org/10.1007/978-3-030-62536-8_9">Longer Shortest Strings in Two-Way Finite Automata</a>, in: Jirásková G., Pighizzini G. (eds) Descriptional Complexity of Formal Systems. DCFS 2020. Lecture Notes in Computer Science, vol 12442. Springer, Cham.
 %H A005717 Simon Plouffe, <a href="https://arxiv.org/abs/0911.4975">Approximations de séries génératrices et quelques conjectures</a>, Dissertation, Université du Québec à Montréal, 1992; arXiv:0911.4975 [math.NT], 2009.
-%H A005717 Simon Plouffe, <a href="http://arxiv.org/abs/0912.0072">Une méthode pour obtenir la fonction génératrice d'une série</a>, arXiv:0912.0072 [math.NT], 2009; FPSAC 1993, Florence. Formal Power Series and Algebraic Combinatorics.
+%H A005717 Simon Plouffe, <a href="https://arxiv.org/abs/0912.0072">Une méthode pour obtenir la fonction génératrice d'une série</a>, arXiv:0912.0072 [math.NT], 2009; FPSAC 1993, Florence. Formal Power Series and Algebraic Combinatorics.
 %H A005717 Mark Shattuck, <a href="https://doi.org/10.54550/ECA2024V4S4R32">Subword Patterns in Smooth Words</a>, Enum. Comb. Appl. (2024) Vol. 4, No. 4, Art. No. S2R32. See p. 6.
 %H A005717 Chenying Wang, Piotr Miska, and István Mező, <a href="https://doi.org/10.1016/j.disc.2016.10.012">The r-derangement numbers</a>, Discrete Mathematics 340(7) (2017), 1681-1692.
 %H A005717 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/TrinomialCoefficient.html">Trinomial Coefficient</a>.
@@ -66,7 +67,7 @@
 %o A005717 gf = 2*x/(1-2*x-3*x^2+(1-x)*sqrt(1-2*x-3*x^2));
 %o A005717 v005717 = Vec(gf);
 %o A005717 /* _Joerg Arndt_, Aug 16 2012 */
-%o A005717 (Sage, Python)
+%o A005717 (Python)
 %o A005717 def A():
 %o A005717     a, b, n = 0, 1, 1
 %o A005717     while True:

@@ -1,10 +1,11 @@
-%I A210949 #34 Sep 30 2019 08:51:30
+%I A210949 #38 May 13 2025 12:02:00
 %S A210949 1,1,4,29,309,4383,78121,1684706,42801222,1255919755,41918624013,
 %T A210949 1572257236114,65619165625383,3022617826829288,152615633802149416,
 %U A210949 8397224009015443509,500957609480739613321,32261529179806961067634,2234133327582388824135291
 %N A210949 E.g.f. A(x) satisfies: A'(x) = 1/(1 - A(A(x))).
 %C A210949 An unsigned version of A067146.
 %C A210949 Equals row sums of triangle A277410.
+%C A210949 Is this a duplicate of A014622, which is related to f(f(x))f'(x)=-1 ? - _R. J. Mathar_, May 13 2025
 %H A210949 Vaclav Kotesovec, <a href="/A210949/b210949.txt">Table of n, a(n) for n = 1..180</a>
 %F A210949 E.g.f. A(x) satisfies:
 %F A210949 (1) A(x) = Series_Reversion( Integral 1 - A(x) dx ).

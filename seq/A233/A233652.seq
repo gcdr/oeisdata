@@ -1,8 +1,8 @@
-%I A233652 #4 Dec 14 2013 08:38:47
+%I A233652 #6 Jun 02 2025 08:55:43
 %S A233652 2971200,112180004,5291663768,311919115144,19199171263648,
 %T A233652 1271744289096092,83444652183591008,5670260135408298196,
 %U A233652 378339393027734872256,25827744210072683694256,1732787916307077369391608
-%N A233652 Number of (n+1)X(7+1) 0..5 arrays with every 2X2 subblock having the sum of the squares of the edge differences equal to 14
+%N A233652 Number of (n+1)X(7+1) 0..5 arrays with every 2X2 subblock having the sum of the squares of the edge differences equal to 14.
 %C A233652 Column 7 of A233653
 %H A233652 R. H. Hardin, <a href="/A233652/b233652.txt">Table of n, a(n) for n = 1..12</a>
 %e A233652 Some solutions for n=1

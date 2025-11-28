@@ -1,8 +1,10 @@
-%I A137744 #18 Jun 11 2024 12:04:11
+%I A137744 #27 Jun 07 2025 11:57:51
 %S A137744 0,0,0,0,1,4,13,40,119,348,1014,2966,8726,25820,76823,229814,691186,
-%T A137744 2089850,6351448,19398726,59525641,183462778,567794458,1764118964
+%T A137744 2089850,6351448,19398726,59525641,183462778,567794458,1764118964,
+%U A137744 5501252365,17214902088,54047671324,170218070930,537678825668,1703200355646,5409721322664,17226400794280
 %N A137744 Number of different strings of length n obtained from "abcd" by iteratively duplicating any substring.
 %C A137744 See A137743 for more comments.
+%H A137744 Martin Fuller, <a href="/A137744/b137744.txt">Table of n, a(n) for n = 0..34</a>
 %H A137744 <a href="/index/Do#repeat">Index entries for doubling substrings</a>
 %e A137744 a(4) = # { abcd },
 %e A137744 a(5) = # { aabcd, abbcd, abccd, abcdd },
@@ -10,26 +12,27 @@
 %o A137744 (PARI) A135473(12,4)
 %o A137744 (Python)
 %o A137744 def process(s,n,catalog,cache):
-%o A137744 ....l=len(s)
-%o A137744 ....if l==n:
-%o A137744 ........catalog.add(s)
-%o A137744 ........return
-%o A137744 ....if s in cache:
-%o A137744 ........return
-%o A137744 ....cache.add(s)
-%o A137744 ....for x in range(l):
-%o A137744 ........for y in range(x+1,min(x+n-l,l)+1):
-%o A137744 ............process(s[:y]+s[x:],n,catalog,cache)
+%o A137744     l=len(s)
+%o A137744     if l==n:
+%o A137744         catalog.add(s)
+%o A137744         return
+%o A137744     if s in cache:
+%o A137744         return
+%o A137744     cache.add(s)
+%o A137744     for x in range(l):
+%o A137744         for y in range(x+1,min(x+n-l,l)+1):
+%o A137744             process(s[:y]+s[x:],n,catalog,cache)
 %o A137744 def A137744(n):
-%o A137744 ....catalog=set()
-%o A137744 ....cache=set()
-%o A137744 ....process("abcd",n,catalog,cache)
-%o A137744 ....return len(catalog)
+%o A137744     catalog=set()
+%o A137744     cache=set()
+%o A137744     process("abcd",n,catalog,cache)
+%o A137744     return len(catalog)
 %o A137744 # _Bert Dobbelaere_, Nov 01 2018
 %Y A137744 Cf. A137740-A137743, A135473, A137745-A137748.
-%K A137744 more,nonn
+%K A137744 nonn
 %O A137744 0,6
 %A A137744 _M. F. Hasler_, Feb 10 2008
 %E A137744 a(13)-a(19) from _Lars Blomberg_, Jan 12 2013
 %E A137744 a(20)-a(21) from _Bert Dobbelaere_, Nov 01 2018
 %E A137744 a(22)-a(23) from _Bert Dobbelaere_, Jun 10 2024
+%E A137744 a(24) onwards from _Martin Fuller_, Jun 07 2025

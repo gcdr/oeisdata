@@ -1,8 +1,8 @@
-%I A218056 #4 Oct 19 2012 20:47:48
+%I A218056 #8 Oct 03 2025 17:32:20
 %S A218056 4,4,4,16,4,16,36,16,16,36,94,36,256,36,94,236,94,1296,1296,94,236,
 %T A218056 602,236,8836,9792,8836,236,602,1528,602,55696,114886,114886,55696,
 %U A218056 602,1528,3882,1528,362404,1171452,2585920,1171452,362404,1528,3882,9858,3882
-%N A218056 T(n,k)=Number of nXk arrays of the minimum value of corresponding elements and their horizontal, vertical, diagonal or antidiagonal neighbors in a random 0..3 nXk array
+%N A218056 T(n,k)=Number of nXk arrays of the minimum value of corresponding elements and their horizontal, vertical, diagonal or antidiagonal neighbors in a random 0..3 nXk array.
 %C A218056 Table starts
 %C A218056 .....4.....4.........16............36..............94..............236
 %C A218056 .....4.....4.........16............36..............94..............236
@@ -24,4 +24,4 @@
 %Y A218056 Column 3 is A207947(n-1)
 %K A218056 nonn,tabl
 %O A218056 1,1
-%A A218056 _R. H. Hardin_ Oct 19 2012
+%A A218056 _R. H. Hardin_, Oct 19 2012

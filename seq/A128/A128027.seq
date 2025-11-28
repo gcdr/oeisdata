@@ -1,6 +1,6 @@
-%I A128027 #22 Sep 08 2022 08:45:30
+%I A128027 #25 Oct 09 2025 18:37:27
 %S A128027 3,5,19,31,367,389,431,2179,10667,13103,90397
-%N A128027 Numbers n such that (11^n - 3^n)/8 is prime.
+%N A128027 Numbers k such that (11^k - 3^k)/8 is prime.
 %C A128027 All terms are primes.
 %C A128027 No other terms < 10^5.
 %p A128027 A128027:=n->`if`(isprime((11^n-3^n)/8),n,NULL): seq(A128027(n),n=1..1000); # _Wesley Ivan Hurt_, Nov 19 2014

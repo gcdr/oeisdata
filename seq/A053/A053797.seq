@@ -1,4 +1,4 @@
-%I A053797 #43 Jun 13 2024 14:57:35
+%I A053797 #44 Nov 05 2025 15:22:00
 %S A053797 1,2,1,1,1,1,2,2,1,1,1,2,3,1,1,1,1,2,1,1,2,2,1,1,1,1,1,3,1,1,1,2,2,3,
 %T A053797 1,1,2,1,1,2,1,2,1,1,1,1,2,2,2,1,1,2,1,1,1,1,1,2,1,1,1,2,1,1,1,1,1,4,
 %U A053797 1,1,1,1,2,1,1,1,1,2,2,1,2,1,1,2,1,1,1,1,1,2,1,2,1,2,1,1,1,3,1,3,1,2,2,2,1
@@ -23,7 +23,7 @@
 %H A053797 M. Filaseta and O. Trifonov, <a href="http://dx.doi.org/10.1007/978-1-4612-3464-7_15">On Gaps between Squarefree Numbers</a>. In Analytic Number Theory, Vol 85, 1990, Birkhäuser, Basel, pp. 235-253.
 %H A053797 E. Fogels, <a href="http://dx.doi.org/10.1017/S0305004100017990">On the average values of arithmetic functions</a>, Proc. Cambridge Philos. Soc. 1941, 37: 358-372.
 %H A053797 L. Marmet, <a href="http://www.marmet.org/louis/sqfgap/">First occurrences of squarefree gaps...</a>
-%H A053797 L. Marmet, <a href="http://arxiv.org/abs/1210.3829">First occurrences of square-free gaps and an algorithm for their computation</a>, arXiv preprint arXiv:1210.3829 [math.NT], 2012. - From _N. J. A. Sloane_, Jan 01 2013
+%H A053797 L. Marmet, <a href="https://arxiv.org/abs/1210.3829">First occurrences of square-free gaps and an algorithm for their computation</a>, arXiv preprint arXiv:1210.3829 [math.NT], 2012. - From _N. J. A. Sloane_, Jan 01 2013
 %H A053797 K. F. Roth, <a href="https://doi.org/10.1112/jlms/s1-26.4.263">On the gaps between squarefree numbers</a>, J. London Math. Soc. 1951 (2) 26:263-268.
 %H A053797 Gus Wiseman, <a href="/A373403/a373403.txt">Four statistics for runs and antiruns of prime, nonprime, squarefree, and nonsquarefree numbers</a>
 %e A053797 The first gap is at 4 and has length 1; the next starts at 8 and has length 2 (since neither 8 nor 9 are squarefree).

@@ -1,9 +1,10 @@
-%I A268440 #18 Mar 28 2020 05:28:51
+%I A268440 #24 Nov 10 2025 21:50:42
 %S A268440 1,0,1,0,8,3,0,90,120,15,0,1344,3640,1680,105,0,25200,110880,107100,
 %T A268440 25200,945,0,570240,3617460,5815040,2910600,415800,10395,0,15135120,
 %U A268440 128576448,303963660,256736480,78828750,7567560,135135
 %N A268440 Triangle read by rows, T(n,k) = C(2*n,n+k)*Sum_{m=0..k} (-1)^(m+k)*C(n+k,n+m)* Stirling1(n+m,m), for n>=0 and 0<=k<=n.
-%H A268440 Peter Luschny, <a href="http://oeis.org/wiki/User:Peter_Luschny/P-Transform">The P-transform</a>.
+%H A268440 Peter Luschny, <a href="https://oeis.org/wiki/User:Peter_Luschny/P-Transform">The P-transform</a>.
+%H A268440 Aleks Žigon Tankosič, <a href="https://arxiv.org/abs/2508.04754">Recurrence Relations for Some Integer Sequences Related to Ward Numbers</a>, arXiv:2508.04754 [math.CO], 2025. See p. 3.
 %F A268440 T(n,k) = ((-1)^k*(2*n)!/(k!*(n-k)!))*P[n,k](n/(n+1)) where P is the P-transform. The P-transform is defined in the link.
 %F A268440 T(n,k) = A269940*binomial(2*n,n+k).
 %F A268440 T(n,k) = A268438(n,k)/(k!*(n-k)!).
@@ -19,10 +20,10 @@
 %p A268440 # The function PTrans is defined in A269941.
 %p A268440 A268440_row := n -> PTrans(n, n->n/(n+1), (n,k) -> (-1)^k*(2*n)!/(k!*(n-k)!)):
 %p A268440 seq(print(A268440_row(n)), n=0..8);
-%o A268440 (Sage)
+%o A268440 (SageMath)
 %o A268440 A268440 = lambda n, k: binomial(2*n,n+k)*sum((-1)^(m+k)*binomial(n+k,n+m)* stirling_number1(n+m, m) for m in (0..k))
 %o A268440 for n in (0..7): print([A268440(n, m) for m in (0..n)])
-%o A268440 (Sage) # uses[PtransMatrix from A269941]
+%o A268440 (SageMath) # uses[PtransMatrix from A269941]
 %o A268440 # Alternatively
 %o A268440 PtransMatrix(7, lambda n: n/(n+1), lambda n,k: (-1)^k*factorial(2*n)/ (factorial(k)*factorial(n-k)))
 %Y A268440 Cf. A001147, A092956, A268438, A268439, A269940, A269941.

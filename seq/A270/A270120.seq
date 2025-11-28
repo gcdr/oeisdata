@@ -1,8 +1,8 @@
-%I A270120 #28 May 18 2019 16:54:27
+%I A270120 #31 Nov 10 2025 21:50:42
 %S A270120 0,1,1,2,1,2,1,4,3,2,1,4,1,2,1,6,1,4,1,6,3,2,1,8,5,2,3,4,1,4,1,6,1,2,
 %T A270120 1,8,1,2,3,12,1,8,1,4,3,2,1,12,7,6,1,6,1,4,5,8,3,2,1,12,1,2,9,10,1,4,
 %U A270120 1,6,1,4,1,16,1,2,5,4,1,8,1,20,9,2,1,16,1,2,1,8,1,8,1,4,3,2,1,12,1,8,3,14
-%N A270120 Number of k with k^n=1 (mod n) and k^k=k (mod n); related to some groups of order n
+%N A270120 Number of k with k^n=1 (mod n) and k^k=k (mod n); related to some groups of order n.
 %C A270120 Given integers n and k, consider the operation
 %C A270120 o_k: Z_n x Z_n -> Z_n, (a, b) -> a + k^a * b (mod n).
 %C A270120 (Z_n, o_k) is a group if k^n == 1 (mod n) and k^k == k (mod n).
@@ -15,7 +15,7 @@
 %C A270120 The inverse element to a is always -a*k^(-a) (mod n).
 %H A270120 Antti Karttunen, <a href="/A270120/b270120.txt">Table of n, a(n) for n = 1..65537</a>
 %H A270120 Alfred Heiligenbrunner, <a href="/A270120/a270120_1.txt">A270120 Further examples and how the small groups were named</a>
-%H A270120 OEIS Wiki, <a href="http://oeis.org/wiki/Number_of_groups_of_order_n">OEIS Wiki Groups of order n</a>
+%H A270120 OEIS Wiki, <a href="https://oeis.org/wiki/Number_of_groups_of_order_n">OEIS Wiki Groups of order n</a>
 %e A270120 a(4) = 2, because in Z_4, k == 1 and k == 3 are the only number out of {0, 1, 2, 3} with conditions k^k==k mod n and k^n==1 mod n.
 %e A270120 a(8) = 4, because k can be out of {1, 3, 5, 7}.
 %e A270120 a(18) = 4, because k can be out of {1, 7, 13, 17}.

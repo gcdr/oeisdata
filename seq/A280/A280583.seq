@@ -1,4 +1,4 @@
-%I A280583 #19 Jun 25 2022 21:54:28
+%I A280583 #21 Sep 10 2025 16:58:32
 %S A280583 1,2,2,3,2,8,2,8,3,8,2,36,2,8,8,5,2,36,2,36,8,8,2,64,3,8,8,36,2,64,2,
 %T A280583 36,8,8,8,27,2,8,8,64,2,64,2,36,36,8,2,100,3,36,8,36,2,64,8,64,8,8,2,
 %U A280583 1728,2,8,36,7,8,64,2,36,8,64,2,1728,2,8,36,36,8
@@ -9,7 +9,7 @@
 %F A280583 a(n) = 3 for squares of primes (A001248).
 %e A280583 For n = 6; a(n) = product of divisors (tau(6)) = 1*2*4 = 8.
 %t A280583 Table[Times@@Divisors[DivisorSigma[0,n]],{n,80}] (* _Harvey P. Dale_, Dec 04 2021 *)
-%o A280583 (Magma) [&*[d: d in Divisors(#[d: d in Divisors(n)])]: n in [1..100]]
+%o A280583 (Magma) [&*[d: d in Divisors(#[d: d in Divisors(n)])]: n in [1..100]];
 %o A280583 (Python)
 %o A280583 from math import isqrt
 %o A280583 from sympy import divisor_count

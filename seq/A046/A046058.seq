@@ -1,4 +1,4 @@
-%I A046058 #31 Feb 16 2025 08:32:38
+%I A046058 #34 Aug 17 2025 17:43:16
 %S A046058 1,2,5,14,15,51,52,267,2328,56092,10494213,49487367289
 %N A046058 Incrementally largest numbers of nonisomorphic finite groups of order n.
 %H A046058 H. U. Besche, <a href="http://www.math.rwth-aachen.de/~Hans-Ulrich.Besche/small.html">The Small Groups library</a>
@@ -14,5 +14,5 @@
 %K A046058 nonn,more,hard,nice
 %O A046058 1,2
 %A A046058 _Eric W. Weisstein_
-%E A046058 a(11) and a(12) from Eamonn O'Brien, Apr 15 2002
+%E A046058 a(11) and a(12) from _Eamonn O'Brien_, Apr 15 2002
 %E A046058 a(12) corrected by _David Burrell_, Jun 06 2022

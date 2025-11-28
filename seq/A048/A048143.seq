@@ -1,8 +1,8 @@
-%I A048143 #41 May 24 2018 02:36:13
+%I A048143 #42 Nov 05 2025 15:21:59
 %S A048143 1,1,1,5,84,6348,7743728,2414572893530,56130437190053299918162
 %N A048143 Number of labeled connected simplicial complexes with n nodes.
 %C A048143 Also number of connected antichains on a labeled n-set.
-%H A048143 Patrick De Causmaecker, Stefan De Wannemacker, <a href="http://arxiv.org/abs/1407.4288">On the number of antichains of sets in a finite universe</a>, arXiv:1407.4288 [math.CO], 2014.
+%H A048143 Patrick De Causmaecker, Stefan De Wannemacker, <a href="https://arxiv.org/abs/1407.4288">On the number of antichains of sets in a finite universe</a>, arXiv:1407.4288 [math.CO], 2014.
 %H A048143 Greg Huber, <a href="/A048143/a048143.pdf">Letters to N. J. A. Sloane, May 1983</a> [Annotated, corrected, scanned copy]
 %H A048143 Gus Wiseman, <a href="http://www.mathematica-journal.com/2017/12/every-clutter-is-a-tree-of-blobs/">Every Clutter Is a Tree of Blobs</a>, The Mathematica Journal, Vol. 19, 2017.
 %H A048143 Gus Wiseman, <a href="/A048143/a048143_4.txt">Sequences enumerating clutters, antichains, hypertrees, and hyperforests, organized by labeling, spanning, and allowance of singletons</a>.

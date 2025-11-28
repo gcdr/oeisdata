@@ -1,7 +1,8 @@
-%I A034822 #28 Feb 16 2025 08:32:37
+%I A034822 #31 Nov 01 2025 09:16:27
 %S A034822 2,4,8,10,14,18,20,24,30,38,40
 %N A034822 Numbers k such that there are no palindromic squares of length k.
 %C A034822 All terms are even since (10^k+1)^2 is a palindrome of length 2*k+1. a(12) >= 46 if it exists (see A263618). - _Chai Wah Wu_, Jun 14 2024
+%D A034822 Elena Deza and Michel Marie Deza, Figurate numbers, World Scientific Publishing (2012), page 279.
 %H A034822 Patrick De Geest, <a href="https://www.worldofnumbers.com/nobase10pg2.htm">Palindromic Squares in bases 2 to 17</a>
 %H A034822 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/PalindromicNumber.html">Palindromic Number</a>
 %t A034822 A034822[n_] := Select[Range[Ceiling[Sqrt[10^(n - 1)]], Floor[Sqrt[10^n]]], #^2 == IntegerReverse[#^2] &];

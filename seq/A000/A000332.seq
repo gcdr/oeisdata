@@ -1,10 +1,10 @@
-%I A000332 M3853 N1578 #453 Feb 16 2025 08:32:20
+%I A000332 M3853 N1578 #486 Nov 05 2025 15:35:22
 %S A000332 0,0,0,0,1,5,15,35,70,126,210,330,495,715,1001,1365,1820,2380,3060,
 %T A000332 3876,4845,5985,7315,8855,10626,12650,14950,17550,20475,23751,27405,
 %U A000332 31465,35960,40920,46376,52360,58905,66045,73815,82251,91390,101270,111930,123410
 %N A000332 Binomial coefficient binomial(n,4) = n*(n-1)*(n-2)*(n-3)/24.
 %C A000332 Number of intersection points of diagonals of convex n-gon where no more than two diagonals intersect at any point in the interior.
-%C A000332 Also the number of equilateral triangles with vertices in an equilateral triangular array of points with n rows (offset 1), with any orientation. - _Ignacio Larrosa Cañestro_, Apr 09 2002. [See Les Reid link for proof. - _N. J. A. Sloane_, Apr 02 2016]
+%C A000332 Also the number of equilateral triangles with vertices in an equilateral triangular array of points with n rows (offset 1), with any orientation. - _Ignacio Larrosa Cañestro_, Apr 09 2002. [See Les Reid link for proof. - _N. J. A. Sloane_, Apr 02 2016] [See Peter Kagey link for alternate proof. - _Sameer Gauria_, Jul 29 2025]
 %C A000332 Start from cubane and attach amino acids according to the reaction scheme that describes the reaction between the active sites. See the hyperlink on chemistry. - _Robert G. Wilson v_, Aug 02 2002
 %C A000332 For n>0, a(n) = (-1/8)*(coefficient of x in Zagier's polynomial P_(2n,n)). (Zagier's polynomials are used by PARI/GP for acceleration of alternating or positive series.)
 %C A000332 Figurate numbers based on the 4-dimensional regular convex polytope called the regular 4-simplex, pentachoron, 5-cell, pentatope or 4-hypertetrahedron with Schlaefli symbol {3,3,3}. a(n)=((n*(n-1)*(n-2)*(n-3))/4!). - Michael J. Welch (mjw1(AT)ntlworld.com), Apr 01 2004, _R. J. Mathar_, Jul 07 2009
@@ -40,15 +40,18 @@
 %C A000332 M = e^{IM} is the matrix of coefficients of the Appell sequence p_n(x) = e^{D^4/4!} x^n = e^{b. D} x^n = (b. + x)^n = Sum_{k=0..n} binomial(n,k) b_n x^{n-k}, where the (b.)^n = b_n have the e.g.f. e^{b.t} = e^{t^4/4!}, which is that for A025036 aerated with triple zeros, the first column of M.
 %C A000332 See A099174 and A000292 for analogous relationships for the third and fourth diagonals of the Pascal matrix. (End)
 %C A000332 For integer m and positive integer r >= 3, the polynomial a(n) + a(n + m) + a(n + 2*m) + ... + a(n + r*m) in n has its zeros on the vertical line Re(n) = (3 - r*m)/2 in the complex plane. - _Peter Bala_, Jun 02 2024
+%C A000332 For n>=1, a(n+2) is the number of all isosceles trapezoids with horizontal bases, with the smaller base placed above the larger one, in a triangular grid of side length n (or in a matchstick arrangement with a triangle of length n surrounding it). For details, see A389363. - _Valentin Bakoev_, Oct 14 2025
 %D A000332 M. Abramowitz and I. A. Stegun, eds., Handbook of Mathematical Functions, National Bureau of Standards Applied Math. Series 55, 1964 (and various reprintings), p. 828.
 %D A000332 A. H. Beiler, Recreations in the Theory of Numbers, Dover, NY, 1964, p. 196.
 %D A000332 L. Comtet, Advanced Combinatorics, Reidel, 1974, p. 74, Problem 8.
+%D A000332 John H. Conway and Richard K. Guy, The Book of Numbers, New York: Springer-Verlag, 1996. See p. 70.
+%D A000332 Elena Deza and Michel Marie Deza, Figurate numbers, World Scientific Publishing (2012), pages 162, 167.
 %D A000332 L. E. Dickson, History of the Theory of Numbers. Carnegie Institute Public. 256, Washington, DC, Vol. 1, 1919; Vol. 2, 1920; Vol. 3, 1923, see vol. 2, p. 7.
 %D A000332 Jan Gullberg, Mathematics from the Birth of Numbers, W. W. Norton & Co., NY & London, 1997, §8.6 Figurate Numbers, p. 294.
 %D A000332 J. C. P. Miller, editor, Table of Binomial Coefficients. Royal Society Mathematical Tables, Vol. 3, Cambridge Univ. Press, 1954.
 %D A000332 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
 %D A000332 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
-%D A000332 Charles W. Trigg: Mathematical Quickies. New York: Dover Publications, Inc., 1985, p. 53, #191.
+%D A000332 Charles W. Trigg, Mathematical Quickies, New York: Dover Publications, Inc., 1985, p. 53, #191.
 %D A000332 David Wells, The Penguin Dictionary of Curious and Interesting Numbers. Penguin Books, NY, 1986, Revised edition 1987. See p. 127.
 %H A000332 Franklin T. Adams-Watters, <a href="/A000332/b000332.txt">Table of n, a(n) for n = 0..1002</a>
 %H A000332 M. Abramowitz and I. A. Stegun, eds., <a href="http://www.convertit.com/Go/ConvertIt/Reference/AMS55.ASP">Handbook of Mathematical Functions</a>, National Bureau of Standards, Applied Math. Series 55, Tenth Printing, 1972 [alternative scanned copy].
@@ -56,11 +59,12 @@
 %H A000332 Gaston A. Brouwer, Jonathan Joe, Abby A. Noble, and Matt Noble, <a href="https://arxiv.org/abs/2405.12321">Problems on the Triangular Lattice</a>, arXiv:2405.12321 [math.CO], 2024. Mentions this sequence.
 %H A000332 Peter J. Cameron, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL3/groups.html">Sequences realized by oligomorphic permutation groups</a>, J. Integ. Seqs. Vol. 3 (2000), #00.1.5.
 %H A000332 Ömür Deveci and Anthony G. Shannon, <a href="https://doi.org/10.20948/mathmontis-2021-50-4">Some aspects of Neyman triangles and Delannoy arrays</a>, Mathematica Montisnigri (2021) Vol. L, 36-43.
-%H A000332 Paul Erdős, Norbert Kaufman, R. H. Koch, and Arthur Rosenthal, <a href="http://www.jstor.org/stable/2305216">E750 (Interior diagonal points)</a>, Amer. Math. Monthly, 54 (Jun, 1947), p. 344.
-%H A000332 Th. Grüner, A. Kerber, R. Laue, and M. Meringer, <a href="ftp://ftp.mathe2.uni-bayreuth.de/meringer/pdf/MathCombChemSCCE.pdf">Mathematics for Combinatorial Chemistry</a>.
+%H A000332 Paul Erdős, Norbert Kaufman, R. H. Koch, and Arthur Rosenthal, <a href="https://www.jstor.org/stable/2305216">E750 (Interior diagonal points)</a>, Amer. Math. Monthly, 54 (Jun, 1947), p. 344.
+%H A000332 Th. Grüner, A. Kerber, R. Laue, and M. Meringer, <a href="https://www.mathe2.uni-bayreuth.de/markus/pdf/pub/MathCombChemSCCE.pdf">Mathematics for Combinatorial Chemistry</a>.
 %H A000332 Jia Huang, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL26/Huang/huang8.html">Partially Palindromic Compositions</a>, J. Int. Seq. (2023) Vol. 26, Art. 23.4.1. See p. 4.
 %H A000332 INRIA Algorithms Project, <a href="http://ecs.inria.fr/services/structure?nbr=254">Encyclopedia of Combinatorial Structures 254</a>.
 %H A000332 Milan Janjic, <a href="https://old.pmf.unibl.org/wp-content/uploads/2017/10/enumfor.pdf">Two Enumerative Functions</a>.
+%H A000332 Peter Kagey, <a href="https://arxiv.org/abs/2211.00186">A Proof Without Words: Triangles in the Triangular Grid</a>, arXiv:2211.00186 [math.HO], 2022.
 %H A000332 Hyun Kwang Kim, <a href="http://dx.doi.org/10.1090/S0002-9939-02-06710-2">On Regular Polytope Numbers</a>, Proc. Amer. Math. Soc., 131 (2002), 65-75.
 %H A000332 Iva Kodrnja and Helena Koncul, <a href="https://hrcak.srce.hr/file/470068">Polynomials vanishing on a basis of S_m(Gamma_0(N))</a>, Glasnik Matematički (2024) Vol. 59, No. 79, 313-325. See p. 324.
 %H A000332 Feihu Liu, Guoce Xin, and Chen Zhang, <a href="https://arxiv.org/abs/2412.18744">Ehrhart Polynomials of Order Polytopes: Interpreting Combinatorial Sequences on the OEIS</a>, arXiv:2412.18744 [math.CO], 2024. See pp. 13, 15.
@@ -69,15 +73,15 @@
 %H A000332 Alexsandar Petojevic, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL5/Petojevic/petojevic5.html">The Function vM_m(s; a; z) and Some Well-Known Sequences</a>, Journal of Integer Sequences, Vol. 5 (2002), Article 02.1.7.
 %H A000332 Simon Plouffe, <a href="https://arxiv.org/abs/0911.4975">Approximations de séries génératrices et quelques conjectures</a>, Dissertation, Université du Québec à Montréal, 1992; arXiv:0911.4975 [math.NT], 2009.
 %H A000332 Simon Plouffe, <a href="/A000051/a000051_2.pdf">1031 Generating Functions</a>, Appendix to Thesis, Montreal, 1992.
-%H A000332 Les Reid, <a href="http://people.missouristate.edu/lesreid/POW03_01.html">Counting Triangles in an Array</a>.
+%H A000332 Les Reid, <a href="https://problemcorner.missouristate.edu/Sol03_01.html">Counting Triangles in an Array</a>.
 %H A000332 Les Reid, <a href="/A000332/a000332.pdf">Counting Triangles in an Array</a>. [Cached copy]
-%H A000332 Luis Manuel Rivera, <a href="http://arxiv.org/abs/1406.3081">Integer sequences and k-commuting permutations</a>, arXiv preprint arXiv:1406.3081 [math.CO], 2014.
+%H A000332 Luis Manuel Rivera, <a href="https://arxiv.org/abs/1406.3081">Integer sequences and k-commuting permutations</a>, arXiv preprint arXiv:1406.3081 [math.CO], 2014.
 %H A000332 Kenneth A. Ross, <a href="https://doi.org/10.4169/math.mag.85.1.36">First Digits of Squares and Cubes</a>, Math. Mag. 85 (2012) 36-42.
 %H A000332 Kirill S. Shardakov and Vladimir P. Bubnov, <a href="http://ceur-ws.org/Vol-2556/paper5.pdf">Stochastic Model of a High-Loaded Monitoring System of Data Transmission Network</a>, Selected Papers of the Models and Methods of Information Systems Research Workshop, CEUR Workshop Proceedings, (St. Petersburg, Russia, 2019), 29-34.
 %H A000332 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/Composition.html">Composition</a>.
 %H A000332 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/PentatopeNumber.html">Pentatope Number</a>.
 %H A000332 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/Pentatope.html">Pentatope</a>.
-%H A000332 A. F. Y. Zhao, <a href="http://www.emis.de/journals/JIS/VOL17/Zhao/zhao3.html">Pattern Popularity in Multiply Restricted Permutations</a>, Journal of Integer Sequences, 17 (2014), #14.10.3.
+%H A000332 A. F. Y. Zhao, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL17/Zhao/zhao3.html">Pattern Popularity in Multiply Restricted Permutations</a>, Journal of Integer Sequences, 17 (2014), #14.10.3.
 %H A000332 <a href="/index/Ps#pyramidal_numbers">Index to sequences related to pyramidal numbers</a>.
 %H A000332 <a href="/index/Rec#order_05">Index entries for linear recurrences with constant coefficients</a>, signature (5,-10,10,-5,1).
 %H A000332 <a href="/index/Be#Benford">Index entries for sequences related to Benford's law</a>.

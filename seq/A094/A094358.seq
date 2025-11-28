@@ -1,4 +1,4 @@
-%I A094358 #65 Nov 11 2023 13:55:05
+%I A094358 #66 Nov 05 2025 15:22:03
 %S A094358 1,3,5,15,17,51,85,255,257,641,771,1285,1923,3205,3855,4369,9615,
 %T A094358 10897,13107,21845,32691,54485,65535,65537,114689,163455,164737,
 %U A094358 196611,274177,319489,327685,344067,494211,573445,822531,823685,958467,974849,983055
@@ -12,7 +12,7 @@
 %C A094358 Note that 2^^(i-1) divides 2^^i implies that 2^^i - 1 divides 2^^(i+1) - 1, so this sequence is also squarefree numbers k such that k divides 2^^i - 1 for all sufficiently large i. (End)
 %H A094358 Robert G. Wilson v, T. D. Noe and Ray Chandler, <a href="/A094358/b094358.txt">Table of n, a(n) for n = 1..3393</a> (Original 55 terms from Robert G. Wilson, extended to 1314 terms from T. D. Noe)
 %H A094358 Sourangshu Ghosh and Pranjal Jain, <a href="https://www.researchgate.net/publication/350605122_On_Fermat_Numbers_and_Munafo%27s_Conjecture">On Fermat Numbers and Munafo's Conjecture</a>, (2021).
-%H A094358 R. Mestrovic, <a href="http://arxiv.org/abs/1202.3670">Euclid's theorem on the infinitude of primes: a historical survey of its proofs (300 BC--2012) and another new proof</a>, arXiv preprint arXiv:1202.3670 [math.HO], 2012-2018. - From _N. J. A. Sloane_, Jun 13 2012
+%H A094358 R. Mestrovic, <a href="https://arxiv.org/abs/1202.3670">Euclid's theorem on the infinitude of primes: a historical survey of its proofs (300 BC--2012) and another new proof</a>, arXiv preprint arXiv:1202.3670 [math.HO], 2012-2018. - From _N. J. A. Sloane_, Jun 13 2012
 %H A094358 Robert Munafo, <a href="http://mrob.com/pub/seq/a094358.html">Sequence A094358, 2^^A(N) = 1 mod N</a>
 %e A094358 3 is a term because it is in A023394.
 %e A094358 51 is a term because it is 3*17 and 17 is also in A023394.

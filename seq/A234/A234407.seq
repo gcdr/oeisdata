@@ -1,8 +1,8 @@
-%I A234407 #5 Aug 11 2014 22:46:07
+%I A234407 #7 Jul 23 2025 08:22:48
 %S A234407 2540,38236,578080,9552088,160156724,2732474648,46838063500,
 %T A234407 805631496848,13873456358988,239079417935660,4121153439939600,
 %U A234407 71049641967894584,1224988034617402112,21121099804239729456,364172469147540913848
-%N A234407 Number of (n+1)X(2+1) 0..6 arrays with every 2X2 subblock having the sum of the absolute values of the edge differences equal to 12 and no adjacent elements equal
+%N A234407 Number of (n+1)X(2+1) 0..6 arrays with every 2X2 subblock having the sum of the absolute values of the edge differences equal to 12 and no adjacent elements equal.
 %C A234407 Column 2 of A234412
 %H A234407 R. H. Hardin, <a href="/A234407/b234407.txt">Table of n, a(n) for n = 1..210</a>
 %H A234407 R. H. Hardin, <a href="/A234407/a234407.txt">Empirical recurrence of order 52</a>

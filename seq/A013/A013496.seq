@@ -1,4 +1,4 @@
-%I A013496 #7 Apr 17 2022 14:40:52
+%I A013496 #8 Sep 30 2025 20:34:18
 %S A013496 1,0,0,-4,0,-8,160,-992,1792,-50304,484224,-4573952,38725632,
 %T A013496 -738222080,8292976640,-127954033664,1743232565248,-34953731964928,
 %U A013496 521161362997248,-10769261343309824,188842450602393600
@@ -6,5 +6,5 @@
 %t A013496 With[{nn=20},CoefficientList[Series[Exp[Tanh[x]-ArcTanh[x]],{x,0,nn}],x] Range[ 0,nn]!] (* _Harvey P. Dale_, Apr 17 2022 *)
 %K A013496 sign
 %O A013496 0,4
-%A A013496 Patrick Demichel (patrick.demichel(AT)hp.com)
+%A A013496 _Patrick Demichel_
 %E A013496 Definition clarified by _Harvey P. Dale_, Apr 17 2022

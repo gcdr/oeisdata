@@ -1,4 +1,4 @@
-%I A000078 M1108 N0423 #393 Feb 16 2025 08:32:19
+%I A000078 M1108 N0423 #422 Nov 26 2025 15:59:30
 %S A000078 0,0,0,1,1,2,4,8,15,29,56,108,208,401,773,1490,2872,5536,10671,20569,
 %T A000078 39648,76424,147312,283953,547337,1055026,2033628,3919944,7555935,
 %U A000078 14564533,28074040,54114452,104308960,201061985,387559437,747044834,1439975216,2775641472
@@ -38,42 +38,45 @@
 %H A000078 Abdullah Açikel, Amrouche Said, Hacene Belbachir, and Nurettin Irmak, <a href="https://doi.org/10.55730/1300-0098.3416">On k-generalized Lucas sequence with its triangle</a>, Turkish J. Math. (2023) Vol. 47, No. 4, Art. 6, 1129-1143. See p. 1130.
 %H A000078 Isha Agarwal, Matvey Borodin, Aidan Duncan, Kaylee Ji, Tanya Khovanova, Shane Lee, Boyan Litchev, Anshul Rastogi, Garima Rastogi, and Andrew Zhao, <a href="https://arxiv.org/abs/2006.13002">From Unequal Chance to a Coin Game Dance: Variants of Penney's Game</a>, arXiv:2006.13002 [math.HO], 2020.
 %H A000078 Tomás Aguilar-Fraga, Jennifer Elder, Rebecca E. Garcia, Kimberly P. Hadaway, Pamela E. Harris, Kimberly J. Harry, Imhotep B. Hogan, Jakeyl Johnson, Jan Kretschmann, Kobe Lawson-Chavanu, J. Carlos Martínez Mori, Casandra D. Monroe, Daniel Quiñonez, Dirk Tolson III, and Dwight Anderson Williams II, <a href="https://arxiv.org/abs/2311.14055">Interval and L-interval Rational Parking Functions</a>, arXiv:2311.14055 [math.CO], 2023.
+%H A000078 Kassie Archer and Noel Bourne, <a href="https://arxiv.org/abs/2505.05218">Pattern avoidance in compositions and powers of permutations</a>, arXiv:2505.05218 [math.CO], 2025. See pp. 2, 6, 8.
 %H A000078 Kassie Archer and Aaron Geary, <a href="https://arxiv.org/abs/2312.14351">Powers of permutations that avoid chains of patterns</a>, arXiv:2312.14351 [math.CO], 2023. See p. 15.
 %H A000078 Joerg Arndt, <a href="http://www.jjj.de/fxt/#fxtbook">Matters Computational (The Fxtbook)</a>, pp. 307-309.
 %H A000078 Vladimir Baltic, <a href="http://pefmath.etf.rs/vol4num1/AADM-Vol4-No1-119-135.pdf">On the number of certain types of strongly restricted permutations</a>, Applicable Analysis and Discrete Mathematics 4(1) (2010), 119-135.
-%H A000078 Elena Barcucci, Antonio Bernini, Stefano Bilotta, and Renzo Pinzani, <a href="http://arxiv.org/abs/1601.07723">Non-overlapping matrices</a>, arXiv:1601.07723 [cs.DM], 2016.
-%H A000078 Martin Burtscher, Igor Szczyrba, and Rafał Szczyrba, <a href="http://www.emis.de/journals/JIS/VOL18/Szczyrba/sz3.html">Analytic Representations of the n-anacci Constants and Generalizations Thereof</a>, J. Integer Seq. 18 (2015), Article 15.4.5.
-%H A000078 P. J. Cameron, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL3/groups.html">Sequences realized by oligomorphic permutation groups</a>, J. Integer Seq. 3 (2000), Article 00.1.5.
-%H A000078 S. A. Corey and Otto Dunkel, <a href="http://www.jstor.org/stable/2299550">Problem 2803</a>, Amer. Math. Monthly 33 (1926), 229-232.
-%H A000078 F. Michel Dekking, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL19/Dekking/dekk4.html">Morphisms, Symbolic Sequences, and Their Standard Forms</a>, J. Integer Seq. 19 (2016), Article 16.1.1.
-%H A000078 Emeric Deutsch, <a href="http://www.jstor.org/stable/3219192">Problem 1613: A recursion in four parts</a>, Math. Mag. 75(1) (2002), 64-65.
+%H A000078 Elena Barcucci, Antonio Bernini, Stefano Bilotta, and Renzo Pinzani, <a href="https://arxiv.org/abs/1601.07723">Non-overlapping matrices</a>, arXiv:1601.07723 [cs.DM], 2016.
+%H A000078 Erik Bates, Blan Morrison, Mason Rogers, Arianna Serafini, and Anav Sood, <a href="https://arxiv.org/abs/2503.11055">A new combinatorial interpretation of partial sums of m-step Fibonacci numbers</a>, arXiv:2503.11055 [math.CO], 2025. See p. 2.
+%H A000078 Martin Burtscher, Igor Szczyrba, and Rafał Szczyrba, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL18/Szczyrba/sz3.html">Analytic Representations of the n-anacci Constants and Generalizations Thereof</a>, J. Integer Seq. 18 (2015), Article 15.4.5.
+%H A000078 Peter J. Cameron, <a href="https://www.cs.uwaterloo.ca/journals/JIS/VOL3/groups.html">Sequences realized by oligomorphic permutation groups</a>, J. Int. Seq. (2000) Vol. 3, Art. 00.1.5.
+%H A000078 S. A. Corey and Otto Dunkel, <a href="https://www.jstor.org/stable/2299550">Problem 2803</a>, Amer. Math. Monthly 33 (1926), 229-232.
+%H A000078 Carlos M. da Fonseca and Paulo Saraiva, <a href="https://doi.org/10.7546/nntdm.2025.31.4.829-838">Alternating generalized Fibonacci sequences</a>, Notes Num. Theory Disc. Math. (2025) Vol. 31, No. 4, 829-838. See p. 833, Table 1.
+%H A000078 F. Michel Dekking, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL19/Dekking/dekk4.html">Morphisms, Symbolic Sequences, and Their Standard Forms</a>, J. Int. Seq. (2016) Vol. 19, Art. 16.1.1.
+%H A000078 Emeric Deutsch, <a href="https://www.jstor.org/stable/3219192">Problem 1613: A recursion in four parts</a>, Math. Mag. 75(1) (2002), 64-65.
 %H A000078 Ömür Deveci, Zafer Adıgüzel and Taha Doğan, <a href="https://doi.org/10.7546/nntdm.2020.26.1.179-190">On the Generalized Fibonacci-circulant-Hurwitz numbers</a>, Notes on Number Theory and Discrete Mathematics (2020) Vol. 26, No. 1, 179-190.
-%H A000078 G. P. B. Dresden and Z. Du, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL17/Dresden/dresden6.html">A Simplified Binet Formula for k-Generalized Fibonacci Numbers</a>, J. Integer Seq. 17 (2014), Article 14.4.7.
-%H A000078 M. Feinberg, <a href="https://web.archive.org/web/2024*/https://www.fq.math.ca/Scanned/1-3/feinberg.pdf">Fibonacci-Tribonacci</a>, Fib. Quart. 1(3) (1963), 71-74.
-%H A000078 Taras Goy and Mark Shattuck, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL23/Shattuck/shattuck20.html">Some Toeplitz-Hessenberg determinant identities for the tetranacci numbers</a>, J. Integer Seq. 23 (2020), Article 20.6.8.
-%H A000078 Petros Hadjicostas, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL19/Hadjicostas/hadji2.html">Cyclic compositions of a positive integer with parts avoiding an arithmetic sequence</a>, J. Integer Seq. 19 (2016), Article 16.8.2.
+%H A000078 Gregory P. B. Dresden and Zhaohui Du, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL17/Dresden/dresden6.html">A Simplified Binet Formula for k-Generalized Fibonacci Numbers</a>, J. Int. Seq. (2014) Vol. 17, Art. 14.4.7.
+%H A000078 Mark Feinberg, <a href="https://www.fq.math.ca/Scanned/1-3/feinberg.pdf">Fibonacci-Tribonacci</a>, Fib. Quart. 1(3) (1963), 71-74.
+%H A000078 Taras Goy and Mark Shattuck, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL23/Shattuck/shattuck20.html">Some Toeplitz-Hessenberg determinant identities for the tetranacci numbers</a>, J. Int. Seq. (2020) Vol. 23, Art. 20.6.8.
+%H A000078 Petros Hadjicostas, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL19/Hadjicostas/hadji2.html">Cyclic compositions of a positive integer with parts avoiding an arithmetic sequence</a>, J. Int. Seq. (2016) Vol. 19, Art. 16.8.2.
 %H A000078 Petros Hadjicostas, <a href="https://doi.org/10.2140/moscow.2020.9.173">Generalized colored circular palindromic compositions</a>, Moscow Journal of Combinatorics and Number Theory, 9(2) (2020), 173-186.
-%H A000078 P. Hadjicostas and L. Zhang, <a href="https://web.archive.org/web/2024*/https://www.fq.math.ca/Papers1/55-1/HadjicostasZhang10252016.pdf">Sommerville's symmetrical cyclic compositions of a positive integer with parts avoiding multiples of an integer</a>, Fibonacci Quarterly 55 (2017), 54-73.
+%H A000078 Petros Hadjicostas and Lingyun Zhang, <a href="https://www.fq.math.ca/Papers1/55-1/HadjicostasZhang10252016.pdf">Sommerville's symmetrical cyclic compositions of a positive integer with parts avoiding multiples of an integer</a>, Fibonacci Quarterly 55 (2017), 54-73.
 %H A000078 Russell Jay Hendel, <a href="https://arxiv.org/abs/2107.03549">A Method for Uniformly Proving a Family of Identities</a>, arXiv:2107.03549 [math.CO], 2021.
-%H A000078 F. T. Howard and Curtis Cooper, <a href="https://web.archive.org/web/2024*/https://www.fq.math.ca/Papers1/49-3/HowardCooper.pdf">Some identities for r-Fibonacci numbers</a>, Fibonacci Quarterly 49 (2011), 231-242.
+%H A000078 F. T. Howard and Curtis Cooper, <a href="https://www.fq.math.ca/Papers1/49-3/HowardCooper.pdf">Some identities for r-Fibonacci numbers</a>, Fibonacci Quarterly 49 (2011), 231-242.
 %H A000078 INRIA Algorithms Project, <a href="http://ecs.inria.fr/services/structure?nbr=11">Encyclopedia of Combinatorial Structures 11</a>
 %H A000078 Ziqian Jin, <a href="https://arxiv.org/abs/1907.09935">Tetrancci Identities With Squares, Dominoes, And Hexagonal Double Strips</a>, arXiv:1907.09935 [math.GM], 2019.
 %H A000078 Omar Khadir, László Németh, and László Szalay, <a href="https://doi.org/10.1007/s00025-024-02284-3">Tiling of dominoes with ranked colors</a>, Results in Math. (2024) Vol. 79, Art. No. 253. See p. 2.
 %H A000078 Sergey Kirgizov, <a href="https://arxiv.org/abs/2201.00782">Q-bonacci words and numbers</a>, arXiv:2201.00782 [math.CO], 2022.
-%H A000078 W. C. Lynch, <a href="https://web.archive.org/web/2024*/https://www.fq.math.ca/Scanned/8-1/lynch.pdf">The t-Fibonacci numbers and polyphase sorting</a>, Fib. Quart., 8 (1970), 6-22.
-%H A000078 T. Mansour and M. Shattuck, <a href="http://arxiv.org/abs/1410.6943">A monotonicity property for generalized Fibonacci sequences</a>, arXiv:1410.6943 [math.CO], 2014.
-%H A000078 Tony D. Noe and Jonathan Vos Post, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL8/Noe/noe5.html">Primes in Fibonacci n-step and Lucas n-step Sequences,</a> J. Integer Seq. 8 (2005), Article 05.4.4.
+%H A000078 W. C. Lynch, <a href="https://www.fq.math.ca/Scanned/8-1/lynch.pdf">The t-Fibonacci numbers and polyphase sorting</a>, Fib. Quart., 8 (1970), 6-22.
+%H A000078 Toufik Mansour and Mark Shattuck, <a href="https://arxiv.org/abs/1410.6943">A monotonicity property for generalized Fibonacci sequences</a>, arXiv:1410.6943 [math.CO], 2014.
+%H A000078 Tony D. Noe and Jonathan Vos Post, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL8/Noe/noe5.html">Primes in Fibonacci n-step and Lucas n-step Sequences,</a> J. Int. Seq. (2005) Vol. 8, Art. 05.4.4.
 %H A000078 Simon Plouffe, <a href="https://arxiv.org/abs/0911.4975">Approximations de séries génératrices et quelques conjectures</a>, Dissertation, Université du Québec à Montréal, 1992; arXiv:0911.4975 [math.NT], 2009.
 %H A000078 Simon Plouffe, <a href="/A000051/a000051_2.pdf">1031 Generating Functions</a>, Appendix to Thesis, Montreal, 1992
-%H A000078 H. Prodinger, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL17/Prodinger2/prod31.html">Counting Palindromes According to r-Runs of Ones Using Generating Functions</a>, J. Integer Seq. 17 (2014), Article 14.6.2; odd length middle 0, r=3.
+%H A000078 Helmut Prodinger, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL17/Prodinger2/prod31.html">Counting Palindromes According to r-Runs of Ones Using Generating Functions</a>, J. Int. Seq. (2014) Vol. 17, Art. 14.6.2; odd length middle 0, r=3.
 %H A000078 Helmut Prodinger and Sarah J. Selkirk, <a href="https://arxiv.org/abs/1906.08336">Sums of squares of Tetranacci numbers: A generating function approach</a>, arXiv:1906.08336 [math.NT], 2019.
 %H A000078 Lan Qi and Zhuoyu Chen, <a href="https://doi.org/10.3390/sym11121476">Identities Involving the Fourth-Order Linear Recurrence Sequence</a>, Symmetry 11(12) (2019), 1476, 8pp.
-%H A000078 J. L. Ramírez and V. F. Sirvent, <a href="http://www.combinatorics.org/ojs/index.php/eljc/article/view/v22i1p38">A Generalization of the k-Bonacci Sequence from Riordan Arrays</a>, Electron. J. Combin. 22(1) (2015), #P1.38.
-%H A000078 O. Turek, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL18/Turek/turek3.html">Abelian Complexity Function of the Tribonacci Word</a>, J. Integer Seq. 18 (2015), Article 15.3.4.
+%H A000078 José L. Ramírez and Víctor F. Sirvent, <a href="https://doi.org/10.37236/4618">A Generalization of the k-Bonacci Sequence from Riordan Arrays</a>, Electron. J. Combin. (2015) Vol. 22, No. 1, Art. P1.38.
+%H A000078 Ondřej Turek, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL18/Turek/turek3.html">Abelian Complexity Function of the Tribonacci Word</a>, J. Int. Seq. (2015) Vol. 18, Art. 15.3.4.
 %H A000078 Kai Wang, <a href="https://www.researchgate.net/publication/344295426_IDENTITIES_FOR_GENERALIZED_ENNEANACCI_NUMBERS">Identities for generalized enneanacci numbers</a>, Generalized Fibonacci Sequences (2020).
 %H A000078 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/Fibonaccin-StepNumber.html">Fibonacci n-Step Number</a>.
 %H A000078 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/TetranacciNumber.html">Tetranacci Number</a>.
-%H A000078 L. Zhang and P. Hadjicostas, <a href="http://www.appliedprobability.org/data/files/TMS%20articles/40_2_3.pdf">On sequences of independent Bernoulli trials avoiding the pattern '11..1'</a>, Math. Scientist, 40 (2015), 89-96.
+%H A000078 L. Zhang and P. Hadjicostas, <a href="https://web.archive.org/web/20210225074836/http://www.appliedprobability.org/data/files/TMS%20articles/40_2_3.pdf">On sequences of independent Bernoulli trials avoiding the pattern '11..1'</a>, Math. Scientist, 40 (2015), 89-96.
 %H A000078 <a href="/index/Rec#order_04">Index entries for linear recurrences with constant coefficients</a>, signature (1,1,1,1).
 %F A000078 a(n) = A001630(n) - a(n-1). - _Henry Bottomley_
 %F A000078 G.f.: x^3/(1 - x - x^2 - x^3 - x^4). - _Simon Plouffe_ in his 1992 dissertation
@@ -92,6 +95,7 @@
 %F A000078 a(n) - 1 = a(n-2) + 2*a(n-3) + 3*(a(n-4) + a(n-5) + ... + a(2) + a(1)), n >= 4. (End)
 %F A000078 a(n) = (Sum_{i=0..n-1} a(i)*A073817(n-i))/(n-3) for n > 3. - _Greg Dresden_ and _Advika Srivastava_, Sep 28 2019
 %F A000078 a(n) = Sum_{r root of x^4-x^3-x^2-x-1} r^n/(4*r^3-3*r^2-2*r-1). - _Fabian Pereyra_, Dec 06 2024
+%F A000078 For n>=4, a(n) = 2^(n-4) * hypergeom([(3-n)/5, (4-n)/5, (5-n)/5, (6-n)/5, (7-n)/5, 2-n/3], [(4-n)/4, (5-n)/4, (6-n)/4, (7-n)/4, (3-n)/3], 3125/8192). - _Victor Petrescu_, Oct 25 2025
 %e A000078 From _Petros Hadjicostas_, Mar 10 2018: (Start)
 %e A000078 For n = 3, we get a(3+4) = a(7) = 8 palindromic compositions of 2*n+1 = 7 into an odd number of parts that are not a multiple of 4. They are the following: 7 = 1+5+1 = 3+1+3 = 2+3+2 = 1+2+1+2+1 = 2+1+1+1+2 = 1+1+3+1+1 = 1+1+1+1+1+1+1. If we put these compositions on a circle, they become bilaterally symmetric cyclic compositions of 2*n+1 = 7.
 %e A000078 For n = 4, we get a(4+4) = a(8) = 15 palindromic compositions of 2*n + 1 = 9 into an odd number of parts that are not a multiple of 4. They are the following: 9 = 3+3+3 = 2+5+2 = 1+7+1 = 1+1+5+1+1 = 2+1+3+1+2 = 1+2+3+2+1 = 1+3+1+3+1 = 3+1+1+1+3 = 2+2+1+2+2 = 2+1+1+1+1+1+2 = 1+2+1+1+1+2+1 = 1+1+2+1+2+1+1 = 1+1+1+3+1+1+1 = 1+1+1+1+1+1+1+1+1.
@@ -121,7 +125,7 @@
 %Y A000078 Row 4 of arrays A048887 and A092921 (k-generalized Fibonacci numbers).
 %Y A000078 First differences are in A001631.
 %Y A000078 Cf. A008287 (quadrinomial coefficients) and A073817 (tetranacci with different initial conditions).
-%K A000078 nonn,easy,nice
+%K A000078 nonn,easy,nice,changed
 %O A000078 0,6
 %A A000078 _N. J. A. Sloane_
 %E A000078 Definition augmented (with 4 initial terms) by _Daniel Forgues_, Dec 02 2009

@@ -1,6 +1,6 @@
-%I A228030 #21 Sep 08 2022 08:46:05
+%I A228030 #24 Oct 08 2025 20:17:59
 %S A228030 7,13,349,33232930569607,2651730845859653471779023381607
-%N A228030 Primes of the form 7^n + 6.
+%N A228030 Primes of the form 7^k + 6.
 %H A228030 Vincenzo Librandi, <a href="/A228030/b228030.txt">Table of n, a(n) for n = 1..7</a>
 %t A228030 Select[Table[7^n + 6, {n, 0, 300}], PrimeQ]
 %o A228030 (Magma) [a: n in [0..300] | IsPrime(a) where a is  7^n+6];

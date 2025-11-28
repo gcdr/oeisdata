@@ -1,4 +1,4 @@
-%I A002035 M0614 N0224 #51 Feb 16 2024 01:20:13
+%I A002035 M0614 N0224 #52 Nov 05 2025 15:35:24
 %S A002035 2,3,5,6,7,8,10,11,13,14,15,17,19,21,22,23,24,26,27,29,30,31,32,33,34,
 %T A002035 35,37,38,39,40,41,42,43,46,47,51,53,54,55,56,57,58,59,61,62,65,66,67,
 %U A002035 69,70,71,73,74,77,78,79,82,83,85,86,87,88,89,91,93,94,95,96,97,101
@@ -9,7 +9,7 @@
 %D A002035 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
 %D A002035 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
 %H A002035 T. D. Noe, <a href="/A002035/b002035.txt">Table of n, a(n) for n = 1..1000</a>
-%H A002035 Eckford Cohen, <a href="http://www.jstor.org/stable/2313545">Quadratic congruences with an odd number of summands</a>, Amer. Math. Monthly, 73 (1966), 138-143.
+%H A002035 Eckford Cohen, <a href="https://www.jstor.org/stable/2313545">Quadratic congruences with an odd number of summands</a>, Amer. Math. Monthly, 73 (1966), 138-143.
 %p A002035 isA002035 := proc(n)
 %p A002035     local pe;
 %p A002035     for pe in ifactors(n)[2] do

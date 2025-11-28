@@ -1,7 +1,7 @@
-%I A096186 #10 Feb 17 2017 11:57:22
+%I A096186 #13 Aug 07 2025 14:03:35
 %S A096186 1,2,4,9,12,14,19,26,28,72,79,273,565,990,1166,2205,4212,5340,5562,
 %T A096186 9877,10297,14316,35908,48410,61525
-%N A096186 Numbers n such that 10^n+9^(n-1) is prime.
+%N A096186 Numbers k such that 10^k+9^(k-1) is prime.
 %C A096186 a(26) > 10^5. - _Robert Price_, Mar 28 2016
 %t A096186 Do[ If[ PrimeQ[10^n + 9^(n - 1)], Print[n]], {n, 4000}]
 %o A096186 (PARI) is(n)=isprime(10^n+9^(n-1)) \\ _Charles R Greathouse IV_, Feb 17 2017

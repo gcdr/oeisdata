@@ -1,4 +1,4 @@
-%I A000122 #155 Feb 16 2025 08:32:20
+%I A000122 #169 Oct 04 2025 11:39:20
 %S A000122 1,2,0,0,2,0,0,0,0,2,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,
 %T A000122 0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,
 %U A000122 0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0
@@ -10,17 +10,20 @@
 %C A000122 Closely related: theta_4(x) = Sum_{m = -oo..oo} (-x)^(m^2). See A002448.
 %C A000122 Number 6 of the 14 primitive eta-products which are holomorphic modular forms of weight 1/2 listed by D. Zagier on page 30 of "The 1-2-3 of Modular Forms". - _Michael Somos_, May 04 2016
 %D A000122 Tom M. Apostol, Modular Functions and Dirichlet Series in Number Theory, Second edition, Springer, 1990, Exercise 1, p. 91.
+%D A000122 Richard Bellman, A Brief Introduction to Theta Functions, Dover, 2013.
 %D A000122 J. M. Borwein and P. B. Borwein, Pi and the AGM, Wiley, 1987, p. 64.
 %D A000122 L. Comtet, Advanced Combinatorics, Reidel, 1974, p. 104, [5n].
 %D A000122 J. H. Conway and N. J. A. Sloane, "Sphere Packings, Lattices and Groups", Springer-Verlag, p. 102.
 %D A000122 N. J. Fine, Basic Hypergeometric Series and Applications, Amer. Math. Soc., 1988; p. 93, Eq. (34.1); p. 78, Eq. (32.22).
-%D A000122 G. H. Hardy and E. M. Wright, Theorem 352, p. 282.
+%D A000122 G. H. Hardy, Ramanujan: twelve lectures on subjects suggested by his life and work, Cambridge, University Press, 1940, p. 133.
+%D A000122 G. H. Hardy and E. M. Wright, An Introduction to the Theory of Numbers, Sixth Edition, Clarendon Press, Oxford, 2009, Theorem 352, p. 372.
 %D A000122 J. Tannery and J. Molk, Eléments de la Théorie des Fonctions Elliptiques, Vol. 2, Gauthier-Villars, Paris, 1902; Chelsea, NY, 1972, see p. 27.
 %D A000122 E. T. Whittaker and G. N. Watson, A Course of Modern Analysis, Cambridge Univ. Press, 4th ed., 1963, p. 464.
 %H A000122 T. D. Noe, <a href="/A000122/b000122.txt">Table of n, a(n) for n = 0..10000</a>
 %H A000122 Steven R. Finch, <a href="https://doi.org/10.1017/9781316997741">Mathematical Constants II</a>, Encyclopedia of Mathematics and Its Applications, Cambridge University Press, Cambridge, 2018.
-%H A000122 M. D. Hirschhorn and J. A. Sellers, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL17/Sellers/sellers32.html">A Congruence Modulo 3 for Partitions into Distinct Non-Multiples of Four</a>, Article 14.9.6, Journal of Integer Sequences, Vol. 17 (2014).
-%H A000122 K. Ono, S. Robins and P. T. Wahl, <a href="https://web.archive.org/web/20190712123047/http://www.mathcs.emory.edu/~ono/publications-cv/pdfs/006.pdf">On the representation of integers as sums of triangular numbers</a>, Aequationes mathematicae, August 1995, Volume 50, Issue 1-2, pp 73-94.
+%H A000122 Michael D. Hirschhorn and James A. Sellers, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL17/Sellers/sellers32.html">A Congruence Modulo 3 for Partitions into Distinct Non-Multiples of Four</a>, Article 14.9.6, Journal of Integer Sequences, Vol. 17 (2014).
+%H A000122 Ken Ono, Sinai Robins, and Patrick T. Wahl, <a href="https://web.archive.org/web/20190712123047/http://www.mathcs.emory.edu/~ono/publications-cv/pdfs/006.pdf">On the representation of integers as sums of triangular numbers</a>, Aequationes mathematicae, August 1995, Volume 50, Issue 1-2, pp 73-94.
+%H A000122 Simon Plouffe, <a href="https://arxiv.org/abs/2509.15609">Numbers in the base e^Pi</a>, arXiv:2509.15609 [math.NT], 2025. See pp. 3-5, and 8/24, the last is marked 5.
 %H A000122 Michael Somos, <a href="/A010815/a010815.txt">Introduction to Ramanujan theta functions</a>
 %H A000122 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/RamanujanThetaFunctions.html">Ramanujan Theta Functions</a>
 %H A000122 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/JacobiThetaFunctions.html">Jacobi Theta Functions</a>
@@ -45,6 +48,7 @@
 %F A000122 A(x) = Sum_{n >= 1} x^(n-1)*Product_{k >= n} 1 - (-x)^k.
 %F A000122 A(x)^2 = 1 + 4*Sum_{n >= 1} (-1)^(n+1)*x^(2*n-1)/(1 - x^(2*n-1)), which gives the number of representations of an integer as a sum of two squares. See, for example, Fine, 26.63.
 %F A000122 A(x) = 1 + 2*Sum_{n >= 1} x^(n*(n+1)/2) * ( Product_{k = 1..n-1} 1 + x^k ) /( Product_{k = 1..n} 1 + x^(2*k) ). See Fine, equation 14.43. (End)
+%F A000122 Conjecture: Sum_{k>=0} a(k) / exp(k*Pi) = Pi^(1/4)/Gamma(3/4) = A175573. - _Simon Plouffe_, Sep 09 2025
 %e A000122 G.f. = 1 + 2*q + 2*q^4 + 2*q^9 + 2*q^16 + 2*q^25 + 2*q^36 + 2*q^49 + 2*q^64 + 2*q^81 + ...
 %p A000122 add(x^(m^2),m=-10..10): seq(coeff(%,x,n), n=0..100);
 %p A000122 # alternative
@@ -67,7 +71,7 @@
 %o A000122 (PARI) {a(n) = issquare(n) * 2 -(n==0)}; /* _Michael Somos_, Jun 17 1999 */
 %o A000122 (Magma) Basis( ModularForms( Gamma0(4), 1/2), 100) [1]; /* _Michael Somos_, Jun 10 2014 */
 %o A000122 (Magma) L := Lattice("A",1); A<q> := ThetaSeries(L, 20); A; /* _Michael Somos_, Nov 13 2014 */
-%o A000122 (Sage)
+%o A000122 (SageMath)
 %o A000122 Q = DiagonalQuadraticForm(ZZ, [1])
 %o A000122 Q.representation_number_list(105) # _Peter Luschny_, Jun 20 2014
 %o A000122 (Julia)
@@ -84,7 +88,7 @@
 %Y A000122 1st column of A286815. - _Seiichi Manyama_, May 27 2017
 %Y A000122 Row d=1 of A122141.
 %Y A000122 Cf. A002448 (theta_4). Partial sums give A001650.
-%Y A000122 Cf. A010052, A010054, A089801.
+%Y A000122 Cf. A010052, A010054, A089801, A175573.
 %Y A000122 Cf. A000007, A004015, A004016, A008444, A008445, A008446, A008447, A008448, A008449 (Theta series of lattices A_0, A_3, A_2, A_4, ...).
 %K A000122 nonn,easy,nice
 %O A000122 0,2

@@ -1,6 +1,7 @@
-%I A001841 M2460 N0977 #37 Apr 13 2022 13:25:16
+%I A001841 M2460 N0977 #40 Nov 09 2025 21:21:11
 %S A001841 3,5,10,14,21,26,36,43,55,64,78,88,105,117,136,150,171,186,210,227,
-%T A001841 253,272,300,320,351,373,406,430,465,490,528,555,595,624,666,696,741
+%T A001841 253,272,300,320,351,373,406,430,465,490,528,555,595,624,666,696,741,
+%U A001841 773,820,854,903,938,990,1027,1081,1120,1176,1216,1275,1317,1378,1422,1485,1530
 %N A001841 Related to Zarankiewicz's problem.
 %C A001841 Definition appears to be: a(n) is the maximum number of triangles in K_n, where each edge may be used 3 times. - _Charles R Greathouse IV_, Jul 06 2017
 %D A001841 R. K. Guy, A problem of Zarankiewicz, in P. Erdős and G. Katona, editors, Theory of Graphs (Proceedings of the Colloquium, Tihany, Hungary), Academic Press, NY, 1968, pp. 119-150, (p. 126, divided by 2).

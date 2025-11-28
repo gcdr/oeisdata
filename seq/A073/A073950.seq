@@ -1,11 +1,11 @@
-%I A073950 #30 May 03 2019 03:04:27
+%I A073950 #31 Nov 05 2025 15:22:02
 %S A073950 1,2,3,9,30,81,225,702,2187,6561,19602,59049,177633,532170,1594323,
 %T A073950 4782969,14351094,43046721,129127041,387400806,1162261467,3486784401,
 %U A073950 10460294154,31381059609,94143533121,282430067922,847288609443,2541865828329,7625599079310
 %N A073950 Number of strings over Z_3 of length n with trace 1 and subtrace 0.
 %C A073950 Same as number of strings over Z_3 of length n with trace 2 and subtrace 0. Same as number of strings over GF(3) of length n with trace 1 and subtrace 0. Same as number of strings over GF(3) of length n with trace 2 and subtrace 0.
 %H A073950 Max Alekseyev, <a href="http://home.gwu.edu/~maxal/gpscripts/">PARI/GP scripts for miscellaneous math problems</a>
-%H A073950 Katarzyna Grygiel, Pawel M. Idziak and Marek Zaionc, <a href="http://arxiv.org/abs/1112.0643">How big is BCI fragment of BCK logic</a>, arXiv preprint arXiv:1112.0643 [cs.LO], 2011. [_N. J. A. Sloane_, Feb 21 2012]
+%H A073950 Katarzyna Grygiel, Pawel M. Idziak and Marek Zaionc, <a href="https://arxiv.org/abs/1112.0643">How big is BCI fragment of BCK logic</a>, arXiv preprint arXiv:1112.0643 [cs.LO], 2011. [_N. J. A. Sloane_, Feb 21 2012]
 %H A073950 F. Ruskey, <a href="http://combos.org/TSstringZ3">Strings over Z_3 with given trace and subtrace</a>
 %H A073950 F. Ruskey, <a href="http://combos.org/TSstringF3">Strings over GF(3) with given trace and subtrace</a>
 %H A073950 <a href="/index/Rec#order_05">Index entries for linear recurrences with constant coefficients</a>, signature (6,-15,27,-36,27).

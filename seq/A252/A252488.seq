@@ -1,11 +1,11 @@
-%I A252488 #21 Jul 12 2022 14:35:55
+%I A252488 #24 May 28 2025 20:06:07
 %S A252488 1,0,0,1,0,0,0,1,0,0,1,0,0,0,0,1,0,0,1,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,
 %T A252488 1,0,0,0,1,0,0,1,0,0,0,0,1,0,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,1,0,
 %U A252488 0,0,1,0,0,1,0,0,0,0,1,0,0,1,0,0,0,1,0,0,1,0,0,0,0,0,1
 %N A252488 Binary sequence starting with 1 and with run lengths given by the ruler sequence A001511.
 %C A252488 Inspired by _Jeremy Gardiner_'s sequence A253585.
 %o A252488 (PARI) concat(vector(50,n,if(1<m=A001511(n),vector(m),1)))
-%o A252488 (Python 3.10+)
+%o A252488 (Python)
 %o A252488 def A252488_gen(): # generator of terms
 %o A252488         m = 0
 %o A252488         for n in count(0):

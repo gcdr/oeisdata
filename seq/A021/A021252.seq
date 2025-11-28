@@ -1,8 +1,10 @@
-%I A021252 #4 Mar 30 2012 16:46:38
+%I A021252 #12 Aug 03 2025 16:08:35
 %S A021252 0,0,4,0,3,2,2,5,8,0,6,4,5,1,6,1,2,9,0,3,2,2,5,8,0,6,4,5,1,6,1,2,9,0,
 %T A021252 3,2,2,5,8,0,6,4,5,1,6,1,2,9,0,3,2,2,5,8,0,6,4,5,1,6,1,2,9,0,3,2,2,5,
 %U A021252 8,0,6,4,5,1,6,1,2,9,0,3,2,2,5,8,0,6,4,5,1,6,1,2,9,0,3,2,2,5,8
 %N A021252 Decimal expansion of 1/248.
-%K A021252 nonn,cons
+%H A021252 <a href="/index/Rec#order_15">Index entries for linear recurrences with constant coefficients</a>, signature (0,0,0,0,0,0,0,0,0,0,0,0,0,0,1).
+%t A021252 First[RealDigits[1/248, 10, 100, -1]] (* _Paolo Xausa_, Aug 03 2025 *)
+%K A021252 nonn,cons,easy
 %O A021252 0,3
-%A A021252 _N. J. A. Sloane_.
+%A A021252 _N. J. A. Sloane_

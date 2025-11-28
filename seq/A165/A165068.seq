@@ -1,8 +1,8 @@
-%I A165068 #4 Mar 30 2012 17:28:43
+%I A165068 #6 Jun 02 2025 01:59:26
 %S A165068 0,38,217,1297,1311,7777,7779,7790,7833,46657,279937,279938,279986,
 %T A165068 280043,280238,1679617,1681257,10077697,10077698,10077710,10077803,
 %U A165068 10077962,10078343,10079524,60466177,60466179,60475766,362797057
-%N A165068 a(n) = smallest number that leads to a new cycle under the base-6 Kaprekar map of A165051
+%N A165068 a(n) = smallest number that leads to a new cycle under the base-6 Kaprekar map of A165051.
 %C A165068 Initial terms in base 6: 0, 102, 1001, 10001, 10023, 100001, 100003, 100022, 100133, 1000001.
 %H A165068 Joseph Myers, <a href="/A165068/b165068.txt">Table of n, a(n) for n=1..23045</a>
 %H A165068 <a href="/index/K#Kaprekar_map">Index entries for the Kaprekar map</a>

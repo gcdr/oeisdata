@@ -1,4 +1,4 @@
-%I A052985 #15 Apr 18 2017 07:04:21
+%I A052985 #17 Oct 30 2025 15:09:43
 %S A052985 1,2,5,14,38,103,280,761,2068,5620,15273,41506,112797,306538,833050,
 %T A052985 2263903,6152400,16719809,45437880,123482328,335576513,911965282,
 %U A052985 2478363781,6735220246,18303685726,49742235431,135179877032
@@ -11,5 +11,5 @@
 %p A052985 spec := [S,{S=Sequence(Union(Prod(Union(Prod(Z,Z),Sequence(Z)),Z),Z))},unlabeled ]: seq(combstruct[count ](spec,size=n), n=0..20);
 %K A052985 easy,nonn
 %O A052985 0,2
-%A A052985 encyclopedia(AT)pommard.inria.fr, Jan 25 2000
-%E A052985 More terms from _James A. Sellers_, Jun 05 2000
+%A A052985 _INRIA Encyclopedia of Combinatorial Structures_, Jan 25 2000
+%E A052985 More terms from _James Sellers_, Jun 05 2000

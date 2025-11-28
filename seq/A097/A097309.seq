@@ -1,4 +1,4 @@
-%I A097309 #56 Sep 08 2022 08:45:14
+%I A097309 #57 Sep 22 2025 16:00:44
 %S A097309 0,1,26,675,17524,454949,11811150,306634951,7960697576,206671502025,
 %T A097309 5365498355074,139296285729899,3616337930622300,93885489910449901,
 %U A097309 2437406399741075126,63278680903357503375,1642808297087554012624
@@ -23,8 +23,8 @@
 %p A097309 seq( simplify(ChebyshevU(n, 13)), n=-1..20); # _G. C. Greubel_, Dec 22 2019
 %t A097309 Table[GegenbauerC[n,1,13], {n,-1,20}] (* _Vladimir Joseph Stephan Orlovsky_, Sep 11 2008 *)
 %t A097309 ChebyshevU[Range[22] -2, 13] (* _G. C. Greubel_, Dec 22 2019 *)
-%o A097309 (Sage) [lucas_number1(n,26,1) for n in range(0,20)] # _Zerinvary Lajos_, Jun 25 2008
-%o A097309 (Sage) [chebyshev_U(n,13) for n in (-1..20)] # _G. C. Greubel_, Dec 22 2019
+%o A097309 (SageMath) [lucas_number1(n,26,1) for n in range(0,20)] # _Zerinvary Lajos_, Jun 25 2008
+%o A097309 (SageMath) [chebyshev_U(n,13) for n in (-1..20)] # _G. C. Greubel_, Dec 22 2019
 %o A097309 (PARI) vector( 22, n, polchebyshev(n-2, 2, 13) ) \\ _G. C. Greubel_, Dec 22 2019
 %o A097309 (Magma) m:=13; I:=[0,1]; [n le 2 select I[n] else 2*m*Self(n-1) -Self(n-2): n in [1..20]]; // _G. C. Greubel_, Dec 22 2019
 %o A097309 (GAP) m:=13;; a:=[0,1];; for n in [3..20] do a[n]:=2*m*a[n-1]-a[n-2]; od; a; # _G. C. Greubel_, Dec 22 2019

@@ -1,10 +1,10 @@
-%I A238970 #25 Jan 30 2025 15:38:55
+%I A238970 #26 Nov 05 2025 15:22:26
 %S A238970 1,1,2,2,2,3,4,3,4,5,6,8,3,5,6,8,9,12,16,4,6,8,10,8,12,16,14,18,24,32,
 %T A238970 4,7,9,12,10,15,20,16,18,24,32,27,36,48,64,5,8,11,14,12,18,24,13,20,
 %U A238970 23,30,40,24,32,36,48,64,41,54,72,96,128
 %N A238970 The number of nodes at even level in divisor lattice in canonical order.
 %H A238970 Andrew Howroyd, <a href="/A238970/b238970.txt">Table of n, a(n) for n = 0..2713</a> (rows 0..20)
-%H A238970 S.-H. Cha, E. G. DuCasse, and L. V. Quintas, <a href="http://arxiv.org/abs/1405.5283">Graph Invariants Based on the Divides Relation and Ordered by Prime Signatures</a>, arxiv:1405.5283 [math.NT], 2014.
+%H A238970 S.-H. Cha, E. G. DuCasse, and L. V. Quintas, <a href="https://arxiv.org/abs/1405.5283">Graph Invariants Based on the Divides Relation and Ordered by Prime Signatures</a>, arxiv:1405.5283 [math.NT], 2014.
 %F A238970 From _Andrew Howroyd_, Mar 25 2020: (Start)
 %F A238970 T(n,k) = A038548(A063008(n,k)).
 %F A238970 T(n,k) = A238963(n,k) - A238971(n,k).

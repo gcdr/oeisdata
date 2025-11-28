@@ -1,4 +1,4 @@
-%I A028491 M2643 #121 Feb 16 2025 08:32:35
+%I A028491 M2643 #126 Nov 05 2025 15:21:52
 %S A028491 3,7,13,71,103,541,1091,1367,1627,4177,9011,9551,36913,43063,49681,
 %T A028491 57917,483611,877843,2215303,2704981,3598867,7973131,8530117
 %N A028491 Numbers k such that (3^k - 1)/2 is prime.
@@ -6,6 +6,7 @@
 %C A028491 Salas lists these, except 3, in "Open Problems" p. 6 [March 2012], and proves that the Cantor primes > 3 are exactly the prime-valued cyclotomic polynomials of the form Phi_s(3^{s^j}) == 1 (mod 4).
 %C A028491 Also, k such that 3^k-1 is a semiprime - see also A080892. - _M. F. Hasler_, Mar 19 2013
 %D A028491 J. Brillhart et al., Factorizations of b^n +- 1. Contemporary Mathematics, Vol. 22, Amer. Math. Soc., Providence, RI, 2nd edition, 1985; and later supplements.
+%D A028491 Paulo Ribenboim, The Little Book of Bigger Primes, Springer-Verlag NY 2004. See p. 236.
 %D A028491 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
 %H A028491 Antal Bege and Kinga Fogarasi, <a href="https://arxiv.org/abs/1008.0155">Generalized perfect numbers</a>, arXiv:1008.0155 [math.NT], 2010. See p. 81.
 %H A028491 Paul Bourdelais, <a href="https://listserv.nodak.edu/cgi-bin/wa.exe?A2=NMBRTHRY;417ab0d6.0906">A Generalized Repunit Conjecture</a>, Posting in NMBRTHRY@LISTSERV.NODAK.EDU, Jun 25, 2009.
@@ -13,7 +14,7 @@
 %H A028491 H. Dubner, <a href="http://dx.doi.org/10.1090/S0025-5718-1993-1185243-9">Generalized repunit primes</a>, Math. Comp., 61 (1993), 927-930.
 %H A028491 H. Dubner, <a href="/A028491/a028491.pdf">Generalized repunit primes</a>, Math. Comp., 61 (1993), 927-930. [Annotated scanned copy]
 %H A028491 H. Lifchitz, <a href="http://www.primenumbers.net/Henri/us/MersFermus.htm">Mersenne and Fermat primes field</a>
-%H A028491 Christian Salas, <a href="http://arxiv.org/abs/1203.3969">Cantor Primes as Prime-Valued Cyclotomic Polynomials</a>, arXiv:1203.3969 [math.NT], 2012.
+%H A028491 Christian Salas, <a href="https://arxiv.org/abs/1203.3969">Cantor Primes as Prime-Valued Cyclotomic Polynomials</a>, arXiv:1203.3969 [math.NT], 2012.
 %H A028491 S. S. Wagstaff, Jr., <a href="http://www.cerias.purdue.edu/homes/ssw/cun/index.html">The Cunningham Project</a>
 %H A028491 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/Repunit.html">Repunit</a>
 %H A028491 <a href="/index/Pri#primepop">Index to primes in various ranges</a>, form ((k+1)^n-1)/k

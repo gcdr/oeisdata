@@ -1,14 +1,14 @@
-%I A079000 #27 Dec 14 2024 23:20:30
+%I A079000 #29 Nov 05 2025 15:22:02
 %S A079000 1,4,6,7,8,9,11,13,15,16,17,18,19,20,21,23,25,27,29,31,33,34,35,36,37,
 %T A079000 38,39,40,41,42,43,44,45,47,49,51,53,55,57,59,61,63,65,67,69,70,71,72,
 %U A079000 73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,95,97
 %N A079000 a(n) is taken to be the smallest positive integer greater than a(n-1) which is consistent with the condition "n is a member of the sequence if and only if a(n) is odd".
 %C A079000 a(a(n)) = 2n + 3 for n>1.
-%D A079000 Hsien-Kuei Hwang, S Janson, TH Tsai, Exact and asymptotic solutions of the recurrence f(n) = f(floor(n/2)) + f(ceiling(n/2)) + g(n): theory and applications, Preprint, 2016; http://140.109.74.92/hk/wp-content/files/2016/12/aat-hhrr-1.pdf. Also Exact and Asymptotic Solutions of a Divide-and-Conquer Recurrence Dividing at Half: Theory and Applications, ACM Transactions on Algorithms, 13:4 (2017), #47; DOI: 10.1145/3127585
+%D A079000 Hsien-Kuei Hwang, S Janson, TH Tsai, Exact and asymptotic solutions of the recurrence f(n) = f(floor(n/2)) + f(ceiling(n/2)) + g(n): theory and applications, Preprint, 2016; https://algo.stat.sinica.edu.tw/hk/files/2016/12/aat-hhrr-1.pdf. Also Exact and Asymptotic Solutions of a Divide-and-Conquer Recurrence Dividing at Half: Theory and Applications, ACM Transactions on Algorithms, 13:4 (2017), #47; DOI: 10.1145/3127585
 %D A079000 N. J. A. Sloane, Seven Staggering Sequences, in Homage to a Pied Puzzler, E. Pegg Jr., A. H. Schoen and T. Rodgers (editors), A. K. Peters, Wellesley, MA, 2009, pp. 93-110.
 %H A079000 N. J. A. Sloane, <a href="/A079000/b079000.txt">Table of n, a(n) for n = 1..10000</a>
 %H A079000 B. Cloitre, N. J. A. Sloane and M. J. Vandermast, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL6/Cloitre/cloitre2.html">Numerical analogues of Aronson's sequence</a>, J. Integer Seqs., Vol. 6 (2003), #03.2.2.
-%H A079000 B. Cloitre, N. J. A. Sloane and M. J. Vandermast, <a href="http://arxiv.org/abs/math/0305308">Numerical analogues of Aronson's sequence</a>, arXiv:math/0305308 [math.NT], 2003.
+%H A079000 B. Cloitre, N. J. A. Sloane and M. J. Vandermast, <a href="https://arxiv.org/abs/math/0305308">Numerical analogues of Aronson's sequence</a>, arXiv:math/0305308 [math.NT], 2003.
 %H A079000 N. J. A. Sloane, <a href="http://neilsloane.com/doc/g4g7.pdf">Seven Staggering Sequences</a>.
 %H A079000 <a href="/index/Aa#aan">Index entries for sequences of the a(a(n)) = 2n family</a>
 %F A079000 a(1) = 1, a(2) = 4, then a(9*2^k-3+j) = 12*2^k-3+3*j/2+|j|/2 for k>=0, -3*2^k <= j <= 3*2^k. Also a(3n) = 3*b(n/3), a(3n+1) = 2*b(n)+b(n+1), a(3n+2) = b(n)+2*b(n+1) for n>=2, where b = A079905. - _N. J. A. Sloane_ and _Benoit Cloitre_, Feb 20 2003

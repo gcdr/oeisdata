@@ -1,4 +1,4 @@
-%I A110501 #297 May 18 2024 01:50:32
+%I A110501 #310 Nov 05 2025 15:35:32
 %S A110501 1,1,3,17,155,2073,38227,929569,28820619,1109652905,51943281731,
 %T A110501 2905151042481,191329672483963,14655626154768697,1291885088448017715,
 %U A110501 129848163681107301953,14761446733784164001387,1884515541728818675112649,268463531464165471482681379
@@ -14,7 +14,6 @@
 %D A110501 L. Comtet, Advanced Combinatorics, Reidel, 1974, p. 49.
 %D A110501 Leonhard Euler, Institutionum Calculi Differentialis, volume 2 (1755), para. 181.
 %D A110501 A. Genocchi, Intorno all'espressione generale de'numeri Bernulliani, Ann. Sci. Mat. Fis., 3 (1852), 395-405.
-%D A110501 Qiongqiong Pan and Jiang Zeng, Cycles of even-odd drop permutations and continued fractions of Genocchi numbers, arXiv:2108.03200 [math.CO], 2021.
 %D A110501 R. P. Stanley, Enumerative Combinatorics, Cambridge, Vol. 2 (1999) p. 74; see Problem 5.8.
 %H A110501 Alan Sokal, <a href="/A110501/b110501.txt">Table of n, a(n) for n = 1..250</a> (terms up to a(100) from Alois P. Heinz)
 %H A110501 F. Alayont and N. Krzywonos, <a href="http://faculty.gvsu.edu/alayontf/notes/rook_polynomials_higher_dimensions_preprint.pdf">Rook Polynomials in Three and Higher Dimensions</a>, to appear in Involve
@@ -22,7 +21,7 @@
 %H A110501 R. C. Archibald, <a href="http://dx.doi.org/10.1090/S0025-5718-45-99088-0">Review of Terrill-Terrill paper</a>, Math. Comp., 1 (1945), pp. 385-386.
 %H A110501 A. Ayyer, D. Hathcock and P. Tetali, <a href="https://arxiv.org/abs/2010.11236">Toppleable Permutations, Excedances and Acyclic Orientations</a>, arXiv:2010.11236 [math.CO], 2020.
 %H A110501 Peter Bala, <a href="/A110501/a110501_1.pdf">A triangle for calculating the Genocchi numbers</a>
-%H A110501 Ange Bigeni, <a href="http://arxiv.org/abs/1402.1383">A bijection between the irreducible k-shapes and the surjective pistols of height k-1</a>, arXiv preprint arXiv:1402.1383 [math.CO] (2014). Also Discrete Math., 338 (2015), 1432-1448.
+%H A110501 Ange Bigeni, <a href="https://arxiv.org/abs/1402.1383">A bijection between the irreducible k-shapes and the surjective pistols of height k-1</a>, arXiv preprint arXiv:1402.1383 [math.CO] (2014). Also Discrete Math., 338 (2015), 1432-1448.
 %H A110501 Ange Bigeni, <a href="https://arxiv.org/abs/1705.03804">Enumerating the symplectic Dellac configurations</a>, arXiv:1705.03804 [math.CO], 2017.
 %H A110501 Ange Bigeni, <a href="https://arxiv.org/abs/1712.05475">The universal sl2 weight system and the Kreweras triangle</a>, arXiv:1712.05475 [math.CO], 2017.
 %H A110501 Ange Bigeni, <a href="https://arxiv.org/abs/1712.01929">Combinatorial interpretations of the Kreweras triangle in terms of subset tuples</a>, arXiv:1712.01929 [math.CO], 2017.
@@ -36,11 +35,11 @@
 %H A110501 Dominique Dumont and Dominique Foata, <a href="http://www.numdam.org/item?id=BSMF_1976__104__433_0">Une propriété de symétrie des nombres de Genocchi</a> Bull. Soc. Math. France 104 (1976), no. 4, 433-451. MR0434830 (55 #7794)
 %H A110501 D. Dumont and G. Viennot, <a href="/A110501/a110501.pdf"> A combinatorial interpretation of the Seidel generation of Genocchi numbers</a>, Preprint, Annotated scanned copy.
 %H A110501 Dominique Dumont and Gérard Viennot, <a href="http://dx.doi.org/10.1016/S0167-5060(08)70696-4">A combinatorial interpretation of the Seidel generation of Genocchi numbers</a>, Combinatorial mathematics, optimal designs and their applications (Proc. Sympos. Combin. Math. and Optimal Design, Colorado State Univ., Fort Collins, Colo., 1978). Ann. Discrete Math. 6 (1980), 77-87. MR0593524 (82j:10024).
-%H A110501 A. L. Edmonds and S, Klee, <a href="http://arxiv.org/abs/1210.7396">The combinatorics of hyperbolized manifolds</a>, arXiv:1210.7396 [math.CO], 2012.
+%H A110501 A. L. Edmonds and S, Klee, <a href="https://arxiv.org/abs/1210.7396">The combinatorics of hyperbolized manifolds</a>, arXiv:1210.7396 [math.CO], 2012.
 %H A110501 Richard Ehrenborg and Einar Steingrímsson, <a href="http://dx.doi.org/10.1006/eujc.1999.0370">Yet another triangle for the Genocchi numbers</a>, European J. Combin. 21 (2000), no. 5, 593-600. MR1771988 (2001h:05008)
 %H A110501 Sen-Peng Eu, Tung-Shan Fu, Hsin-Hao Lai, and Yuan-Hsun Lo, <a href="https://arxiv.org/abs/2103.09130">Gamma-positivity for a Refinement of Median Genocchi Numbers</a>, arXiv:2103.09130 [math.CO], 2021.
 %H A110501 Vincent Froese and Malte Renken, <a href="https://arxiv.org/abs/2210.16281">Terrain-like Graphs and the Median Genocchi Numbers</a>, arXiv:2210.16281 [math.CO], 2022.
-%H A110501 J. M. Gandhi, <a href="http://www.jstor.org/stable/2317385">Research Problems: A Conjectured Representation of Genocchi Numbers</a>, Amer. Math. Monthly 77 (1970), no. 5, 505-506. MR1535914
+%H A110501 J. M. Gandhi, <a href="https://www.jstor.org/stable/2317385">Research Problems: A Conjectured Representation of Genocchi Numbers</a>, Amer. Math. Monthly 77 (1970), no. 5, 505-506. MR1535914
 %H A110501 Ira M. Gessel, <a href="https://doi.org/10.5281/zenodo.7625111">On the Almkvist-Meurman Theorem for Bernoulli Polynomials</a>, Integers (2023) Vol. 23, #A14.
 %H A110501 S. W. Golomb and E. C. Posner, <a href="http://dx.doi.org/10.1109/TIT.1964.1053680">Rook Domains, Latin Squares, Affine Planes, and Error-Distributing Codes</a>, Transactions of the Information Theory Group of the IEEE, Vol. 10, No. 3 (1964), 196-208.
 %H A110501 Guo-Niu Han, <a href="http://www-irma.u-strasbg.fr/~guoniu/papers/p77puzzle.pdf">Enumeration of Standard Puzzles</a>
@@ -50,6 +49,7 @@
 %H A110501 Alexander Lazar and Michelle L. Wachs, <a href="https://arxiv.org/abs/1910.07651">The Homogenized Linial Arrangement and Genocchi Numbers</a>, arXiv:1910.07651 [math.CO], 2019.
 %H A110501 Zhicong Lin and Sherry H.F. Yan, <a href="https://arxiv.org/abs/2108.03790">Cycles on a multiset with only even-odd drops</a>, arXiv:2108.03790 [math.CO], 2021. See also <a href="https://doi.org/10.1016/j.disc.2021.112683">Disc. Math.</a> (2022) Vol. 345, No. 2, 112683.
 %H A110501 A. H. Morales and D. G. Zhu, <a href="https://arxiv.org/abs/2007.05006">On the Okounkov--Olshanski formula for standard tableaux of skew shape</a>, arXiv:2007.05006 [math.CO], 2020.
+%H A110501 Qiongqiong Pan and Jiang Zeng, <a href="https://arxiv.org/abs/2108.03200">Cycles of even-odd drop permutations and continued fractions of Genocchi numbers</a>, arXiv:2108.03200 [math.CO], 2021.
 %H A110501 John Riordan and Paul R. Stein, <a href="http://dx.doi.org/10.1016/0012-365X(73)90131-3">Proof of a conjecture on Genocchi numbers</a>, Discrete Math. 5 (1973), 381-388. MR0316372 (47 #4919) - From _N. J. A. Sloane_, Jun 12 2012
 %H A110501 Alan Sokal, <a href="/A110501/a110501.txt">Table of n, a(n) for n = 1..10000 [315 MB file]</a>
 %H A110501 H. M. Terrill and E. M. Terrill, <a href="https://ur.booksc.eu/ireader/2106189">Tables of numbers related to the tangent coefficients</a>, J. Franklin Inst., 239 (1945), 66-67.
@@ -80,11 +80,11 @@
 %e A110501 where A(x) = x + x^2/(1+x) + 2!^2*x^3/((1+x)*(1+4*x)) + 3!^2*x^4/((1+x)*(1+4*x)*(1+9*x)) + 4!^2*x^5/((1+x)*(1+4*x)*(1+9*x)*(1+16*x)) + ... . - _Paul D. Hanna_, Jul 21 2011
 %e A110501 From _Gary W. Adamson_, Jul 19 2011: (Start)
 %e A110501 The first few rows of production matrix M are:
-%e A110501 1, 2,  0,  0,  0, 0, ...
-%e A110501 1, 3,  3,  0,  0, 0, ...
-%e A110501 1, 4,  6,  4,  0, 0, ...
-%e A110501 1, 5, 10, 10,  5, 0, ...
-%e A110501 1, 6, 15, 20, 15, 6, ... (End)
+%e A110501   1, 2,  0,  0,  0, 0, ...
+%e A110501   1, 3,  3,  0,  0, 0, ...
+%e A110501   1, 4,  6,  4,  0, 0, ...
+%e A110501   1, 5, 10, 10,  5, 0, ...
+%e A110501   1, 6, 15, 20, 15, 6, ... (End)
 %p A110501 A110501 := proc(n)
 %p A110501     2*(-1)^n*(1-4^n)*bernoulli(2*n) ;
 %p A110501 end proc:
@@ -93,7 +93,8 @@
 %o A110501 (PARI) {a(n) = if( n<1, 0, 2 * (-1)^n * (1 - 4^n) * bernfrac( 2*n))};
 %o A110501 (PARI) {a(n) = if( n<1, 0, (2*n)! * polcoeff( x * tan(x/2 + x * O(x^(2*n))), 2*n))};
 %o A110501 (PARI) {a(n)=polcoeff(sum(m=0,n,m!^2*x^(m+1)/prod(k=1,m, 1+k^2*x+x*O(x^n))),n)} /* _Paul D. Hanna_, Jul 21 2011 */
-%o A110501 (Sage) # Algorithm of L. Seidel (1877)
+%o A110501 (PARI) upto(n) = my(v1, v2, v3); v1 = vector(n, i, 0); v1[1] = 1; v2 = vector(n-1, i, ((i+1)^2)\4); v3 = v1; for(i=2, n, for(j=2, i-1, v1[j] += v2[i-j+1]*v1[j-1]); v1[i] = v1[i-1]; v3[i] = v1[i]); v3 \\ _Mikhail Kurkov_, Aug 28 2025
+%o A110501 (SageMath) # Algorithm of L. Seidel (1877)
 %o A110501 # n -> [a(1), ..., a(n)] for n >= 1.
 %o A110501 def A110501_list(n) :
 %o A110501     D = []; [D.append(0) for i in (0..n+2)]; D[1] = 1
@@ -108,7 +109,7 @@
 %o A110501         if b : R.append(D[h])
 %o A110501     return R
 %o A110501 A110501_list(19) # _Peter Luschny_, Apr 01 2012
-%o A110501 (Sage) [2*(-1)^n*(1-4^n)*bernoulli(2*n) for n in (1..20)] # _G. C. Greubel_, Nov 28 2018
+%o A110501 (SageMath) [2*(-1)^n*(1-4^n)*bernoulli(2*n) for n in (1..20)] # _G. C. Greubel_, Nov 28 2018
 %o A110501 (Magma) [Abs(2*(4^n-1)*Bernoulli(2*n)): n in [1..20]]; // _Vincenzo Librandi_, Jul 28 2017
 %o A110501 (Python)
 %o A110501 from sympy import bernoulli

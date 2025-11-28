@@ -1,4 +1,4 @@
-%I A264768 #19 Jul 24 2024 14:46:18
+%I A264768 #20 Nov 05 2025 15:22:30
 %S A264768 0,0,0,0,4,4,4,4,28,28,28,28,44,44,44,44,140,140,140,140,156,156,156,
 %T A264768 156,236,236,236,236,284,284,284,284,620,620,620,620,636,636,636,636,
 %U A264768 716,716,716,716,764,764,764,764,1068,1068,1068,1068,1116,1116,1116
@@ -31,7 +31,7 @@
 %D A264768 S. Ulam, On some mathematical problems connected with patterns of growth of figures, pp. 215-224 of R. E. Bellman, ed., Mathematical Problems in the Biological Sciences, Proc. Sympos. Applied Math., Vol. 14, Amer. Math. Soc., 1962.
 %D A264768 S. Wolfram, A New Kind of Science, Wolfram Media, 2002; p. 928.
 %H A264768 JungHwan Min, <a href="/A264768/b264768.txt">Table of n, a(n) for n = 0..2500</a>
-%H A264768 N. J. A. Sloane, <a href="http://arxiv.org/abs/1503.01168">On the Number of ON Cells in Cellular Automata</a>, arXiv:1503.01168 [math.CO], 2015.
+%H A264768 N. J. A. Sloane, <a href="https://arxiv.org/abs/1503.01168">On the Number of ON Cells in Cellular Automata</a>, arXiv:1503.01168 [math.CO], 2015.
 %H A264768 N. J. A. Sloane, <a href="/wiki/Catalog_of_Toothpick_and_CA_Sequences_in_OEIS">Catalog of Toothpick and Cellular Automata Sequences in the OEIS</a>
 %H A264768 <a href="/index/Ce#cell">Index entries for sequences related to cellular automata</a>
 %t A264768 A264768[0] = 0; A264768[n_] := Count[CellularAutomaton[{87187427555196485724117344277761165884880477484970720900802366279596402859298341814252922040475078175743656473048023, 3, {{0, 1}, {-1, 0}, {0, 0}, {1, 0}, {0, -1}}}, {{{1}}, 0}, {{{n}}}], 2, 2] (* _JungHwan Min_, Jan 25 2016 *)

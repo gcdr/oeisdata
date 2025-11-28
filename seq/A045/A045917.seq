@@ -1,4 +1,4 @@
-%I A045917 #155 Feb 16 2025 08:32:38
+%I A045917 #170 Oct 28 2025 19:08:47
 %S A045917 0,1,1,1,2,1,2,2,2,2,3,3,3,2,3,2,4,4,2,3,4,3,4,5,4,3,5,3,4,6,3,5,6,2,
 %T A045917 5,6,5,5,7,4,5,8,5,4,9,4,5,7,3,6,8,5,6,8,6,7,10,6,6,12,4,5,10,3,7,9,6,
 %U A045917 5,8,7,8,11,6,5,12,4,8,11,5,8,10,5,6,13,9,6,11,7,7,14,6,8,13,5,8,11,7,9
@@ -13,12 +13,14 @@
 %C A045917 The previous conjecture is related to the sequence A053033. - _Ahmad J. Masad_, Dec 09 2019
 %C A045917 Conjecture: For each k >= 0, there exists a minimum sufficiently large number r that depends on k such that for each n >= r, a(n) > k. - _Ahmad J. Masad_, Jan 08 2020
 %C A045917 Conjecture: If the previous conjecture is true, then for each m >= 0, the number of terms that are equal to (m+1) is larger than the number of terms that are equal to m. - _Ahmad J. Masad_, Jan 08 2020
+%C A045917 Also, the number of equidistant prime pairs in Goldbach's Prime Triangle for integers n > 2. An equidistant prime pair is a pair of not necessarily different prime numbers (p1, p2) that have the same distance d >= 0 from an integer n, i.e., so that p1 = n - d and p2 = n + d. - _Jörg Winkelmann_, Mar 05 2025
 %D A045917 Calvin C. Clawson, "Mathematical Mysteries, the beauty and magic of numbers," Perseus Books, Cambridge, MA, 1996, Chapter 12, pages 236-257.
 %D A045917 H. Halberstam and H. E. Richert, 1974, "Sieve methods", Academic press, London, New York, San Francisco.
 %H A045917 H. J. Smith, <a href="/A045917/b045917.txt">Table of n, a(n) for n = 1..20000</a>
 %H A045917 M. Herkommer, <a href="http://www.petrospec-technologies.com/Herkommer/goldbach.htm">Goldbach Conjecture Research</a>.
 %H A045917 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/GoldbachPartition.html">Goldbach Partition</a>.
 %H A045917 Wikipedia, <a href="http://en.wikipedia.org/wiki/Goldbach%27s_conjecture">Goldbach's conjecture</a>.
+%H A045917 J. Winkelmann, <a href="https://zenodo.org/records/14947270">Goldbach's Prime Triangle — A Recreational Math Journey with an Introduction to Equidistant Primes</a>.
 %H A045917 G. Xiao, WIMS server, <a href="http://wims.unice.fr/~wims/en_tool~number~goldbach.en.html">Goldbach</a>
 %H A045917 <a href="/index/Go#Goldbach">Index entries for sequences related to Goldbach conjecture</a>
 %F A045917 From Halberstam and Richert: a(n) < (8+0(1))*c(n)*n/log(n)^2 where c(n) = Product_{p>2} (1 - 1/(p-1)^2)*Product_{p|n, p>2} (p-1)/(p-2). It is conjectured that the factor 8 can be replaced by 2. - _Benoit Cloitre_, May 16 2002
@@ -42,6 +44,7 @@
 %p A045917 G := proc (n) local g, j: g := {}: for j from 2 to (1/2)*n do if isprime(j) and isprime(n-j) then g := `union`(g, {{n-j, j}}) end if end do: g end proc: seq(nops(G(2*n)), n = 1 .. 98); # _Emeric Deutsch_, Jan 03 2017
 %t A045917 f[n_] := Length[Select[2n - Prime[Range[PrimePi[n]]], PrimeQ]]; Table[ f[n], {n, 100}] (* Paul Abbott, Jan 11 2005 *)
 %t A045917 nn = 10^2; ps = Boole[PrimeQ[Range[1,2*nn,2]]]; Join[{0,1}, Table[Sum[ps[[i]] ps[[n-i+1]], {i, Ceiling[n/2]}], {n, 3, nn}]] (* _T. D. Noe_, Apr 13 2011 *)
+%t A045917 Table[Length@IntegerPartitions[2 n, {2}, Prime[Range[PrimePi[2n]]]], {n, 1, 98}] (* _Oliver Seipel_, Oct 26 2025 *)
 %o A045917 (PARI) a(n)=my(s);forprime(p=2,n,s+=isprime(2*n-p));s \\ _Charles R Greathouse IV_, Mar 27 2012
 %o A045917 (Haskell)
 %o A045917 a045917 n = sum $ map (a010051 . (2 * n -)) $ takeWhile (<= n) a000040_list

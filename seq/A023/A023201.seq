@@ -1,11 +1,13 @@
-%I A023201 #61 Feb 16 2025 08:32:34
+%I A023201 #73 Sep 18 2025 12:17:03
 %S A023201 5,7,11,13,17,23,31,37,41,47,53,61,67,73,83,97,101,103,107,131,151,
 %T A023201 157,167,173,191,193,223,227,233,251,257,263,271,277,307,311,331,347,
 %U A023201 353,367,373,383,433,443,457,461,503,541,557,563,571,587,593,601,607,613,641,647
 %N A023201 Primes p such that p + 6 is also prime. (Lesser of a pair of sexy primes.)
 %H A023201 T. D. Noe, <a href="/A023201/b023201.txt">Table of n, a(n) for n = 1..10000</a>
+%H A023201 Hermann Prossinger, Silvia Boschetti, Tomáš Hladký, Daniel Říha, Jan Slavík, Martin Stachoň, and Jakub Binter, <a href="https://doi.org/10.54941/ahfe1006711">Personality Traits in 12 Countries Defined by the 'Big Five' are Found to Have a Culture Dependency: Implications for Modeling Citizens' Personalities</a>, Human Interaction Emerging Tech. (IHIET 2025) Vol 197, 182-192. See p. 189.
 %H A023201 Maxie D. Schmidt, <a href="https://arxiv.org/abs/1701.04741">New Congruences and Finite Difference Equations for Generalized Factorial Functions</a>, arXiv:1701.04741 [math.CO], 2017.
 %H A023201 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/SexyPrimes.html">Sexy Primes</a>. [The definition in this webpage is unsatisfactory, because it defines a "sexy prime" as a pair of primes.- _N. J. A. Sloane_, Mar 07 2021].
+%H A023201 Wikipedia, <a href="https://en.wikipedia.org/wiki/Sexy_prime">Sexy prime</a>.
 %F A023201 From _M. F. Hasler_, Jan 02 2020: (Start)
 %F A023201 a(n) = A046117(n) - 6 = A087695(n) - 3.
 %F A023201 A023201 = { p = A000040(k) | A000040(k+1) = p+6 or A000040(k+2) = p+6 } = A031924 U A007529. (End)
@@ -23,7 +25,7 @@
 %p A023201 end proc: # _R. J. Mathar_, May 28 2013
 %t A023201 Select[Range[10^2], PrimeQ[ # ]&&PrimeQ[ #+6] &] (* _Vladimir Joseph Stephan Orlovsky_, Apr 29 2008 *)
 %t A023201 Select[Prime[Range[120]],PrimeQ[#+6]&] (* _Harvey P. Dale_, Mar 20 2018 *)
-%o A023201 (Magma) [n: n in [0..40000] | IsPrime(n) and IsPrime(n+6)] // _Vincenzo Librandi_, Aug 04 2010
+%o A023201 (Magma) [n: n in [0..40000] | IsPrime(n) and IsPrime(n+6)]; // _Vincenzo Librandi_, Aug 04 2010
 %o A023201 (Haskell)
 %o A023201 a023201 n = a023201_list !! (n-1)
 %o A023201 a023201_list = filter ((== 1) . a010051 . (+ 6)) a000040_list

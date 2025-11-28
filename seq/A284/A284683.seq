@@ -1,8 +1,8 @@
-%I A284683 #10 Apr 27 2017 11:37:41
+%I A284683 #12 Jun 02 2025 12:21:09
 %S A284683 0,1,0,0,0,0,0,1,0,1,0,1,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,
 %T A284683 0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,1,0,1,0,1,0,0,0,0,0,1,0,1,0,1,0,1,0,1,
 %U A284683 0,0,0,0,0,1,0,1,0,1,0,1,0,1,0,0,0,0
-%N A284683 Fixed point of the morphism 0 -> 01, 1 -> 0000
+%N A284683 Fixed point of the morphism 0 -> 01, 1 -> 0000.
 %H A284683 Clark Kimberling, <a href="/A284683/b284683.txt">Table of n, a(n) for n = 1..10000</a>
 %H A284683 <a href="/index/Fi#FIXEDPOINTS">Index entries for sequences that are fixed points of mappings</a>
 %e A284683 0 -> 01-> 010000 -> 01000001010101 -> 01000001010101010000010000010000100000 ->

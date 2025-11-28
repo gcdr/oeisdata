@@ -1,10 +1,10 @@
-%I A162695 #18 Jan 24 2025 11:59:57
+%I A162695 #19 Nov 05 2025 15:22:17
 %S A162695 1,1,5,43,549,9341,199303,5122503,154174121,5321093689,207228932811,
 %T A162695 8991136486619,430126003707997,22494400020052533,1276807091011902479,
 %U A162695 78178242047074260751,5136433584083525179857,360458257425576984629873
 %N A162695 E.g.f. satisfies A(x) = exp( x*A(x) * exp(x*A(x)) ).
 %H A162695 Seiichi Manyama, <a href="/A162695/b162695.txt">Table of n, a(n) for n = 0..361</a>
-%H A162695 R Lorentz, S Tringali, CH Yan, <a href="http://arxiv.org/abs/1511.04039">Generalized Goncarov polynomials</a>, arXiv preprint arXiv:1511.04039, 2015
+%H A162695 R Lorentz, S Tringali, CH Yan, <a href="https://arxiv.org/abs/1511.04039">Generalized Goncarov polynomials</a>, arXiv preprint arXiv:1511.04039, 2015
 %F A162695 a(n) = Sum_{k=0..n} binomial(n,k) * (n+1)^(k-1) * k^(n-k).
 %F A162695 Let A(x)^m = Sum_{n>=0} a(n,m)*x^n/n! with a(0,m)=1, then
 %F A162695 a(n,m) = Sum_{k=0..n} binomial(n,k) * m*(n+m)^(k-1) * k^(n-k).

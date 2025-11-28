@@ -1,4 +1,4 @@
-%I A002119 M4444 N1880 #103 Jul 31 2024 01:50:51
+%I A002119 M4444 N1880 #105 Nov 05 2025 15:35:24
 %S A002119 1,-1,7,-71,1001,-18089,398959,-10391023,312129649,-10622799089,
 %T A002119 403978495031,-16977719590391,781379079653017,-39085931702241241,
 %U A002119 2111421691000680031,-122501544009741683039,7597207150294985028449,-501538173463478753560673
@@ -12,10 +12,10 @@
 %D A002119 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
 %D A002119 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
 %H A002119 T. D. Noe, <a href="/A002119/b002119.txt">Table of n, a(n) for n = 0..100</a>
-%H A002119 Leo Chao, Paul DesJarlais and John L Leonard, <a href="http://www.jstor.org/stable/3621238">A binomial identity, via derangements</a>, Math. Gaz. 89 (2005), 268-270.
+%H A002119 Leo Chao, Paul DesJarlais and John L Leonard, <a href="https://www.jstor.org/stable/3621238">A binomial identity, via derangements</a>, Math. Gaz. 89 (2005), 268-270.
 %H A002119 J. W. L. Glaisher, <a href="https://archive.org/stream/reportofbritisha72brit#page/n345/mode/2up">On Lambert's proof of the irrationality of Pi and on the irrationality of certain other quantities</a>, Reports of British Assoc. Adv. Sci., 1871, pp. 16-18.
 %H A002119 M. Krasner and B. Ranulac, <a href="https://gallica.bnf.fr/ark:/12148/bpt6k31562/f397.item">Sur une propriété des polynomes de la division du cercle</a>, Comptes Rendus Académie des Sciences Paris, 240:397-399, 1937.
-%H A002119 D. H. Lehmer, <a href="http://www.jstor.org/stable/1968107">Arithmetical periodicities of Bessel functions</a>, Annals of Mathematics, 33 (1932): 143-150. The sequence but with all signs positive is on page 149.
+%H A002119 D. H. Lehmer, <a href="https://www.jstor.org/stable/1968107">Arithmetical periodicities of Bessel functions</a>, Annals of Mathematics, 33 (1932): 143-150. The sequence but with all signs positive is on page 149.
 %H A002119 D. H. Lehmer, <a href="http://dx.doi.org/10.1090/S0025-5718-46-99625-1">Review of various tables by P. Pederson</a>, Math. Comp., 2 (1946), 68-69.
 %H A002119 <a href="/index/Be#Bessel">Index entries for sequences related to Bessel functions or polynomials</a>
 %F A002119 D-finite with recurrence a(n) = -2(2n-1)*a(n-1) + a(n-2). - _T. D. Noe_, Oct 26 2006
@@ -67,7 +67,7 @@
 %o A002119 (PARI) {a(n)= if(n<0, n=-n-1); sum(k=0, n, (2*n-k)!/ (k!*(n-k)!)* (-1)^(n-k) )} /* _Michael Somos_, Apr 02 2007 */
 %o A002119 (PARI) {a(n)= local(A); if(n<0, n= -n-1); A= sqrt(1 +4*x +x*O(x^n)); n!*polcoeff( exp((A-1)/2)/A, n)} /* _Michael Somos_, Apr 02 2007 */
 %o A002119 (PARI) {a(n)= local(A); if(n<0, n= -n-1); n+=2 ; for(k= 1, n, A+= x*O(x^k); A= truncate( (1+x)* exp(A) -1-A) ); A+= x*O(x^n); A-= A^2; -(-1)^n*n!* polcoeff( serreverse(A), n)} /* _Michael Somos_, Apr 02 2007 */
-%o A002119 (Sage)
+%o A002119 (SageMath)
 %o A002119 A002119 = lambda n: hypergeometric([-n, n+1], [], 1)
 %o A002119 [simplify(A002119(n)) for n in (0..17)] # _Peter Luschny_, Oct 17 2014
 %Y A002119 Cf. A053556, A053557, A001514, A065920, A065921, A065922, A065707, A000806, A006199, A065923.

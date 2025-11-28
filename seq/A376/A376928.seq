@@ -1,4 +1,4 @@
-%I A376928 #12 Oct 13 2024 11:17:19
+%I A376928 #19 Apr 26 2025 05:59:25
 %S A376928 1,2,1,2,1,3,1,2,1,2,1,3,1,2,1,2,1,3,1,2,1,2,1,3,1,2,1,2,1,5,1,2,1,2,
 %T A376928 1,3,1,2,1,2,1,3,1,2,1,2,1,3,1,2,1,2,1,3,1,2,1,2,1,5,1,2,1,2,1,3,1,2,
 %U A376928 1,2,1,3,1,2,1,2,1,3,1,2,1,2,1,3,1,2,1,2,1,5,1,2,1,2,1,3,1,2,1,2,1,3,1,2,1
@@ -7,9 +7,9 @@
 %C A376928 The least index n such that a(n) = prime(k) is A002110(k).
 %C A376928 Let p be a prime and prev(p) = A151799(p) if p >= 3, and prev(2) = 1 (i.e., prev(p) is the largest noncomposite number that is smaller than p). Then, the asymptotic density of the occurrences of prev(p) in this sequence is 1/prev(p)# - 1/p#, where # denotes primorial (second definition, A034386). For example, the asymptotic densities of the occurrences of 1, 2, 3, 5 and 7 are 1/2, 1/3, 2/15, 1/35 and 1/231, respectively.
 %H A376928 Amiram Eldar, <a href="/A376928/b376928.txt">Table of n, a(n) for n = 1..10000</a>
-%F A376928 a(n) = 1 if and only if n is odd.	
+%F A376928 a(n) = 1 if and only if n is odd.
 %F A376928 a(n) = gpf(n) = A006530(n) if and only if n is in A055932.
-%F A376928 a(n) = prime(A276084(n)) = A000040(A276084(n))) if A276084(n) > 0, and 1 otherwise.
+%F A376928 a(n) = prime(A276084(n)) = A000040(A276084(n)) if A276084(n) > 0, and 1 otherwise.
 %F A376928 primepi(a(n)) = A000720(a(n)) = A276084(n).
 %F A376928 A034386(a(n)) = A053589(n).
 %F A376928 a(n) = prev(A053669(n)), where prev(p) is defined in the Comments section.

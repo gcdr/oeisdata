@@ -1,4 +1,4 @@
-%I A000522 M1497 N0589 #510 Feb 16 2025 08:32:21
+%I A000522 M1497 N0589 #538 Nov 26 2025 12:21:46
 %S A000522 1,2,5,16,65,326,1957,13700,109601,986410,9864101,108505112,
 %T A000522 1302061345,16926797486,236975164805,3554627472076,56874039553217,
 %U A000522 966858672404690,17403456103284421,330665665962404000,6613313319248080001,138879579704209680022,3055350753492612960485,70273067330330098091156
@@ -25,15 +25,15 @@
 %C A000522 Equals row sums of triangle A158359(unsigned). - _Gary W. Adamson_, Mar 17 2009
 %C A000522 Equals eigensequence of triangle A158821. - _Gary W. Adamson_, Mar 30 2009
 %C A000522 For positive n, equals 1/BarnesG(n+1) times the determinant of the n X n matrix whose (i,j)-coefficient is the (i+j)th Bell number. - _John M. Campbell_, Oct 03 2011
-%C A000522 a(n) is the number of n X n binary matrices with i) at most one 1 in each row and column and ii) the subset of rows that contain a 1 must also be the columns that contain a 1.  Cf. A002720 where restriction ii is removed. - _Geoffrey Critzer_, Dec 20 2011
+%C A000522 a(n) is the number of n X n binary matrices with i) at most one 1 in each row and column and ii) the subset of rows that contain a 1 must also be the columns that contain a 1. Cf. A002720 where restriction ii is removed. - _Geoffrey Critzer_, Dec 20 2011
 %C A000522 Number of restricted growth strings (RGS) [d(1),d(2),...,d(n)] such that d(k) <= k and d(k) <= 1 + (number of nonzero digits in prefix). The positions of nonzero digits determine the subset, and their values (decreased by 1) are the (left) inversion table (a rising factorial number) for the permutation, see example. - _Joerg Arndt_, Dec 09 2012
 %C A000522 Number of a restricted growth strings (RGS) [d(0), d(1), d(2), ..., d(n)] where d(k) >= 0 and d(k) <= 1 + chg([d(0), d(1), d(2), ..., d(k-1)]) and chg(.) gives the number of changes of its argument. Replacing the function chg(.) by a function asc(.) that counts the ascents in the prefix gives A022493 (ascent sequences). - _Joerg Arndt_, May 10 2013
-%C A000522 The sequence t(n) = number of i <= n such that floor( e i! ) is a square is mentioned in the abstract of Luca & Shparlinski. The values are t(n)=0  for 0 <= n <= 2 and t(n) = 1 for at least 3 <= n <= 300. - _R. J. Mathar_, Jan 16 2014
+%C A000522 The sequence t(n) = number of i <= n such that floor(e*i!) is a square is mentioned in the abstract of Luca & Shparlinski. The values are t(n) = 0 for 0 <= n <= 2 and t(n) = 1 for at least 3 <= n <= 300. - _R. J. Mathar_, Jan 16 2014
 %C A000522 a(n) = p(n,1) = q(n,1), where p and q are polynomials defined at A248664 and A248669. - _Clark Kimberling_, Oct 11 2014
 %C A000522 a(n) is the number of ways at most n people can queue up at a (slow) ticket counter when one or more of the people may choose not to queue up. Note that there are C(n,k) sets of k people who quene up and k! ways to queue up. Since k can run from 0 to n, a(n) = Sum_{k=0..n} n!/(n-k)! = Sum_{k=0..n} n!/k!. For example, if n=3 and the people are A(dam), B(eth), and C(arl), a(3)=16 since there are 16 possible lineups: ABC, ACB, BAC, BCA, CAB, CBA, AB, BA, AC, CA, BC, CB, A, B, C, and empty queue. - _Dennis P. Walsh_, Oct 02 2015
 %C A000522 As the row sums of A008279, Motzkin uses the abbreviated notation $n_<^\Sigma$ for a(n).
 %C A000522 The piecewise polynomial function f defined by f(x) = a(n)*x^n/n! on each interval [ 1-1/a(n), 1-1/a(n+1) ) is continuous on [0,1) and lim_{x->1} f(x) = e. - _Luc Rousseau_, Oct 15 2019
-%C A000522 a(n) is composite for 3 <= n <= 2015, but a(2016) is prime (or at least a strong pseudoprime): see Johansson link. - _Robert Israel_, Jul 27 2020
+%C A000522 a(n) is composite for 3 <= n <= 2015, but a(2016) is prime (or at least a strong pseudoprime): see Johansson link. - _Robert Israel_, Jul 27 2020 [a(2016) is prime, ECPP certificate generated with CM 0.4.3 and checked by factordb. - _Jason H Parker_, Jun 15 2025]
 %C A000522 In general, sequences of the form a(0)=a, a(n) = n*a(n-1) + k, n>0, will have a closed form of n!*a + floor(n!*(e-1))*k. - _Gary Detlefs_, Oct 26 2020
 %C A000522 From _Peter Bala_, Apr 03 2022: (Start)
 %C A000522 a(2*n) is odd and a(2*n+1) is even. More generally, a(n+k) == a(n) (mod k) for all n and k. It follows that for each positive integer k, the sequence obtained by reducing a(n) modulo k is periodic, with the exact period dividing k. Various divisibility properties of the sequence follow from this; for example, a(5*n+2) == a(5*n+4) == 0 (mod 5), a(25*n+7) == a(25*n+19) == 0 (mod 25) and a(13*n+4) == a(13*n+10)== a(13*n+12) == 0 (mod 13). (End)
@@ -51,60 +51,64 @@
 %D A000522 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
 %D A000522 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
 %H A000522 Alois P. Heinz, <a href="/A000522/b000522.txt">Table of n, a(n) for n = 0..450</a> (first 101 terms from T. D. Noe)
-%H A000522 J. L. Adams, <a href="/A000522/a000522_1.pdf">Conceptual Blockbusting: A Guide to Better Ideas</a>,  Freeman, San Francisco, 1974. [Annotated scans of pages 69 and 70 only]
-%H A000522 F. Ardila, F. Rincón, and L. Williams, <a href="http://arxiv.org/abs/1308.2698">Positroids and non-crossing partitions</a>, arXiv preprint arXiv:1308.2698 [math.CO], 2013.
-%H A000522 F. Ardila, F. Rincón, and L. Williams, <a href="https://doi.org/10.46298/dmtcs.2431">Positroids, non-crossing partitions, and positively oriented matroids</a>, in FPSAC 2014, Chicago, USA; Discrete Mathematics and Theoretical Computer Science (DMTCS) Proceedings, 2014, 555-666.
+%H A000522 James L. Adams, <a href="/A000522/a000522_1.pdf">Conceptual Blockbusting: A Guide to Better Ideas</a>, Freeman, San Francisco, 1974. [Annotated scans of pages 69 and 70 only]
+%H A000522 Federico Ardila, Felipe Rincón, and Lauren Williams, <a href="https://arxiv.org/abs/1308.2698">Positroids and non-crossing partitions</a>, arXiv preprint arXiv:1308.2698 [math.CO], 2013.
+%H A000522 Federico Ardila, Felipe Rincón, and Lauren Williams, <a href="https://doi.org/10.46298/dmtcs.2431">Positroids, non-crossing partitions, and positively oriented matroids</a>, in FPSAC 2014, Chicago, USA; Disc. Math. Theor. Comp. Sci. (DMTCS) Proc. (2014), 555-666.
 %H A000522 Juan S. Auli and Sergi Elizalde, <a href="https://arxiv.org/abs/1906.07365">Consecutive patterns in inversion sequences II: avoiding patterns of relations</a>, arXiv:1906.07365 [math.CO], 2019. See Table 1, p. 6.
 %H A000522 Roland Bacher, <a href="https://doi.org/10.37236/2522">Counting Packings of Generic Subsets in Finite Groups</a>, Electr. J. Combinatorics, 19 (2012), #P7.
 %H A000522 M. Bahrami-Taghanaki, A. R. Moghaddamfar, Nima Salehy, and Navid Salehy, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL27/Moghaddamfar/mogh14.html">Some Identities Involving Stirling Numbers Arising from Matrix Decompositions</a>, J. Int. Seq. (2024) Vol. 24, No. 5, Art. No. 24.5.3. See p. 9.
-%H A000522 C. Banderier, M. Bousquet-Mélou, A. Denise, P. Flajolet, D. Gardy and D. Gouyou-Beauchamps, <a href="http://dx.doi.org/10.1016/S0012-365X(01)00250-3">Generating functions for generating trees</a>, Discrete Mathematics 246(1-3), March 2002, pp. 29-55.
-%H A000522 E. Barcucci, A. Del Lungo and R. Pinzani, <a href="http://dx.doi.org/10.1016/0304-3975(95)00199-9">"Deco" polyominoes, permutations and random generation</a>, Theoretical Computer Science, 159, 1996, 29-42.
+%H A000522 Cyril Banderier, Mireille Bousquet-Mélou, Alain Denise, Philippe Flajolet, Danièle Gardy, and Dominique Gouyou-Beauchamps, <a href="https://doi.org/10.1016/S0012-365X(01)00250-3">Generating functions for generating trees</a>, Disc. Math. (March 2002) Vol. 246, No. 1-3, 29-55.
+%H A000522 Elena Barcucci, Alberto Del Lungo, and Renzo Pinzani, <a href="https://doi.org/10.1016/0304-3975(95)00199-9">"Deco" polyominoes, permutations and random generation</a>, Theoretical Computer Science, 159, 1996, 29-42.
 %H A000522 Paul Barry, <a href="https://arxiv.org/abs/2107.14278">Series reversion with Jacobi and Thron continued fractions</a>, arXiv:2107.14278 [math.NT], 2021.
+%H A000522 Lisa Berry, Stefan Forcey, Maria Ronco, and Patrick Showers, <a href="https://arxiv.org/abs/1608.08546">Polytopes and algebras of grafted trees: Stellohedra</a>, arXiv preprint arXiv:1608.08546 [math.CO], 2016.
 %H A000522 Lisa Berry, Stefan Forcey, Maria Ronco, and Patrick Showers, <a href="https://arxiv.org/abs/1608.08546">Species substitution, graph suspension, and graded hopf algebras of painted tree polytopes</a>, arXiv:1608.08546 [math.CO], 2016-2019.
 %H A000522 Louis J. Billera, Sara C. Billey, and Vasu Tewari, <a href="https://arxiv.org/abs/1806.02943">Boolean product polynomials and Schur-positivity</a>, arXiv:1806.02943 [math.CO], 2018.
-%H A000522 P. Blasiak, A. Horzela, K. A. Penson, G.H.E. Duchamp and A. I. Solomon, <a href="http://arXiv.org/abs/quant-ph/0501155">Boson normal ordering via substitutions and Sheffer-type polynomials</a>, arXiv:quant-ph/0501155, 2005.
-%H A000522 E. Biondi, L. Divieti, and G. Guardabassi, <a href="http://dx.doi.org/10.4153/CJM-1970-003-9">Counting paths, circuits, chains and cycles in graphs: A unified approach</a>, Canad. J. Math. 22 1970 22-35. See Table I.
+%H A000522 Pawel Blasiak, Andrzej Horzela, Karol A. Penson, Gerard E. H. Duchamp, and Allan I. Solomon, <a href="http://arXiv.org/abs/quant-ph/0501155">Boson normal ordering via substitutions and Sheffer-type polynomials</a>, arXiv:quant-ph/0501155, 2005.
+%H A000522 E. Biondi, L. Divieti, and G. Guardabassi, <a href="https://doi.org/10.4153/CJM-1970-003-9">Counting paths, circuits, chains and cycles in graphs: A unified approach</a>, Canad. J. Math. (1970) Vol. 22, 22-35. See Table I.
 %H A000522 Olivier Bodini, Antoine Genitrini, and Mehdi Naima, <a href="https://arxiv.org/abs/1808.08376">Ranked Schröder Trees</a>, arXiv:1808.08376 [cs.DS], 2018.
-%H A000522 Adam Brandenburger, <a href="http://adambrandenburger.com/wp/wp-content/uploads/2018/03/strategy-from-combination-optimized-03-08-18.pdf">The Strategist: Strategy from Combination</a>, 2018.
-%H A000522 J. Brzozowski and M. Szykula, <a href="http://arxiv.org/abs/1401.0157">Large Aperiodic Semigroups</a>, arXiv preprint arXiv:1401.0157 [cs.FL], 2013.
-%H A000522 P. J. Cameron, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL3/groups.html">Sequences realized by oligomorphic permutation groups</a>, J. Integ. Seqs. Vol. 3 (2000), #00.1.5.
+%H A000522 Adam Brandenburger, <a href="https://web.archive.org/web/20230405172618/http://adambrandenburger.com/wp/wp-content/uploads/2018/03/strategy-from-combination-optimized-03-08-18.pdf">The Strategist: Strategy from Combination</a>, 2018.
+%H A000522 Paul Breiding, Taylor Brysiewicz, and Hannah Friedman, <a href="https://arxiv.org/abs/2509.08084">Homotopy Iterators</a>, arXiv:2509.08084 [math.AG], 2025. See p. 16.
+%H A000522 Janusz Brzozowski and Marek Szykuła, <a href="https://arxiv.org/abs/1401.0157">Large Aperiodic Semigroups</a>, arXiv preprint arXiv:1401.0157 [cs.FL], 2013.
+%H A000522 Oscar Cabrera, <a href="https://doi.org/10.31224/4431">Introducing loop compression for encoding de Bruijn sequences</a>, engrXiv (2025) Art. No. 4431. See p. 16.
+%H A000522 Peter J. Cameron, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL3/groups.html">Sequences realized by oligomorphic permutation groups</a>, J. Integ. Seqs. (2000) Vol. 3, Art. 00.1.5.
 %H A000522 Jean Cardinal, Arturo Merino, and Torsten Mütze, <a href="https://arxiv.org/abs/2106.16204">Combinatorial generation via permutation languages. IV. Elimination trees</a>, arXiv:2106.16204 [cs.DM], 2021.
-%H A000522 CombOS - Combinatorial Object Server, <a href="http://combos.org/elim">Generate partial permutations</a>
-%H A000522 Dan Daly and Lara Pudwell, <a href="http://faculty.valpo.edu/lpudwell/slides/sandiego2013.pdf">Pattern avoidance in rook monoids</a>, Special Session on Patterns in Permutations and Words, Joint Mathematics Meetings, 2013.
-%H A000522 Philip Feinsilver and John McSorley, <a href="http://dx.doi.org/10.1155/2011/539030">Zeons, Permanents, the Johnson Scheme, and Generalized Derangements</a>, International Journal of Combinatorics, Volume 2011, Article ID 539030, 29 pages.
-%H A000522 P. Flajolet and R. Sedgewick, <a href="http://algo.inria.fr/flajolet/Publications/books.html">Analytic Combinatorics</a>, 2009; see page 114.
-%H A000522 Stefan Forcey, Aaron Lauve and Frank Sottile, <a href="http://dx.doi.org/10.1007/s00026-012-0170-5">Cofree compositions of coalgebras</a>, Annals of Combinatorics 17 (1) pp. 105-130 March, 2013.
-%H A000522 Stefan Forcey, M. Ronco, and P. Showers, <a href="https://arxiv.org/abs/1608.08546">Polytopes and algebras of grafted trees: Stellohedra</a>, arXiv preprint arXiv:1608.08546 [math.CO], 2016.
-%H A000522 Bernd Gaertner, Walter D. Jr. Morris and Leo Ruest, <a href="http://www.inf.ethz.ch/personal/gaertner/texts/own_work/ipco.pdf">Unique Sink Orientations of Grids</a>, Algorithmica, Volume 51, Number 2 / June 2008.
+%H A000522 CombOS - Combinatorial Object Server, <a href="http://combos.org/elim">Generate partial permutations</a>.
+%H A000522 Dan Daly and Lara Pudwell, <a href="https://faculty.valpo.edu/lpudwell/slides/sandiego2013.pdf">Pattern avoidance in rook monoids</a>, Special Session on Patterns in Permutations and Words, Joint Mathematics Meetings, 2013.
+%H A000522 Philip Feinsilver and John McSorley, <a href="https://doi.org/10.1155/2011/539030">Zeons, Permanents, the Johnson Scheme, and Generalized Derangements</a>, Int'l J. Comb., Vol. 2011, Art. 539030.
+%H A000522 Philippe Flajolet and Robert Sedgewick, <a href="http://algo.inria.fr/flajolet/Publications/books.html">Analytic Combinatorics</a>, 2009. See p. 114.
+%H A000522 Stefan Forcey, Aaron Lauve, and Frank Sottile, <a href="https://doi.org/10.1007/s00026-012-0170-5">Cofree compositions of coalgebras</a>, Ann. Comb. (March 2013) Vol. 17 Issue 1, 105-130.
+%H A000522 Bernd Gärtner, Walter D. Jr. Morris, and Leo Rüst, <a href="https://web.archive.org/web/20150911032439/http://www.inf.ethz.ch/personal/gaertner/texts/own_work/ipco.pdf">Unique Sink Orientations of Grids</a>, Algorithmica (June 2008) Vol. 51, No. 2.
 %H A000522 J. M. Gandhi, <a href="/A002741/a002741.pdf">On logarithmic numbers</a>, Math. Student, 31 (1963), 73-83. [Annotated scanned copy]
-%H A000522 Xing Gao and William F. Keigher, <a href="https://doi.org/10.1080/00927872.2016.1226885">Interlacing of Hurwitz series</a>, Communications in Algebra, 45:5 (2017), 2163-2185, DOI: 10.1080/00927872.2016.1226885. See Ex. 2.16.
+%H A000522 Xing Gao and William F. Keigher, <a href="https://doi.org/10.1080/00927872.2016.1226885">Interlacing of Hurwitz series</a>, Comm. Alg. (2017) Vol. 45, No. 5, 2163-2185. See Ex. 2.16.
 %H A000522 Jan Geuenich, <a href="https://arxiv.org/abs/1803.10707">Tilting modules for the Auslander algebra of K[x]/(xn)</a>, arXiv:1803.10707 [math.RT], 2018.
 %H A000522 Henry W. Gould, <a href="/A003099/a003099_1.pdf">Letter to N. J. A. Sloane, Nov 1973, and various attachments</a>.
-%H A000522 R. K. Guy, <a href="/A006231/a006231.pdf">Letter to N. J. A. Sloane, 1977</a>
-%H A000522 Lorenz Halbeisen and Norbert Hungerbuehler, Number theoretic aspects of a combinatorial function, Notes on Number Theory and Discrete Mathematics 5 (1999) 138-150. (<a href="http://math.berkeley.edu/~halbeis/publications/psf/seq.ps">ps</a>, <a href="http://math.berkeley.edu/~halbeis/publications/pdf/seq.pdf">pdf</a>)
-%H A000522 Lorenz Halbeisen and Saharon Shelah, <a href="http://arxiv.org/abs/math/9308220v1">Consequences of arithmetic for set theory</a>, The Journal of Symbolic Logic, vol. 59 (1994), pp. 30-40.
-%H A000522 M. Hassani, <a href="https://arxiv.org/abs/math/0606613">Counting and computing by e</a>, arXiv:math/0606613 [math.CO], 2006.
+%H A000522 Richard K. Guy, <a href="/A006231/a006231.pdf">Letter to N. J. A. Sloane, 1977</a>
+%H A000522 Lorenz Halbeisen and Norbert Hungerbuehler, Number theoretic aspects of a combinatorial function, Notes Num. Theory Disc. Math. (1999) Vol. 5, 138-150. (<a href="http://math.berkeley.edu/~halbeis/publications/psf/seq.ps">ps</a>, <a href="http://math.berkeley.edu/~halbeis/publications/pdf/seq.pdf">pdf</a>)
+%H A000522 Lorenz Halbeisen and Saharon Shelah, <a href="https://arxiv.org/abs/math/9308220v1">Consequences of arithmetic for set theory</a>, J. Symb. Logic (1994) Vol. 59, pp. 30-40.
+%H A000522 Mehdi Hassani, <a href="https://arxiv.org/abs/math/0606613">Counting and computing by e</a>, arXiv:math/0606613 [math.CO], 2006.
 %H A000522 INRIA Algorithms Project, <a href="http://ecs.inria.fr/services/structure?nbr=35">Encyclopedia of Combinatorial Structures 35</a>
-%H A000522 M. Janjic, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL12/Janjic/janjic22.html">Some classes of numbers and derivatives</a>, JIS 12 (2009) 09.8.3.
-%H A000522 F. Johansson et al, MathOverflow, <a href="https://mathoverflow.net/questions/366663/is-sum-k-1n-fracn-1k-1-composite-for-n-geq-4">Is Sum_{k=1..n} (n-1)!/(k-1)! composite for n >= 4?</a>
+%H A000522 Milan Janjić, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL12/Janjic/janjic22.html">Some classes of numbers and derivatives</a>, J. Int. Seq. (2009) Vol. 12, Art. 09.8.3.
+%H A000522 Fredrik Johansson et al, MathOverflow, <a href="https://mathoverflow.net/questions/366663/is-sum-k-1n-fracn-1k-1-composite-for-n-geq-4">Is Sum_{k=1..n} (n-1)!/(k-1)! composite for n >= 4?</a>
 %H A000522 Michael Joswig, Max Klimm, and Sylvain Spitz, <a href="https://arxiv.org/abs/2108.00979">Generalized permutahedra and optimal auctions</a>, arXiv:2108.00979 [math.MG], 2021.
 %H A000522 Nicholas Kapoor and P. Christopher Staecker, <a href="https://arxiv.org/abs/2405.09009">Ahead of the Count: An Algorithm for Probabilistic Prediction of Instant Runoff (IRV) Elections</a>, arXiv:2405.09009 [cs.CY], 2024. See p. 11.
 %H A000522 Marin Knežević, Vedran Krčadinac, and Lucija Relić, <a href="https://arxiv.org/abs/2012.15307">Matrix products of binomial coefficients and unsigned Stirling numbers</a>, arXiv:2012.15307 [math.CO], 2020.
 %H A000522 Germain Kreweras, <a href="http://archive.numdam.org/ARCHIVE/MSH/MSH_1963__3_/MSH_1963__3__31_0/MSH_1963__3__31_0.pdf">Une dualité élémentaire souvent utile dans les problèmes combinatoires</a>, Mathématiques et Sciences Humaines 3 (1963): 31-41.
-%H A000522 J. W. Layman, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL4/LAYMAN/hankel.html">The Hankel Transform and Some of its Properties</a>, J. Integer Sequences, 4 (2001), #01.1.5.
-%H A000522 F. Luca and I. E. Shparlinski, <a href="https://doi.org/10.1017/S0017089507003734">On the squarefree parts of floor(e*n!)</a>, Glasgow Math. J., 49 (2007), 391-403.
-%H A000522 T. Manneville and V. Pilaud, <a href="http://arxiv.org/abs/1501.07152">Compatibility fans for graphical nested complexes</a>, arXiv preprint arXiv:1501.07152 [math.CO], 2015.
-%H A000522 T. Mansour and J. West, <a href="https://arxiv.org/abs/math/0207204">Avoiding 2-letter signed patterns</a>, arXiv:math/0207204 [math.CO], 2002.
+%H A000522 John W. Layman, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL4/LAYMAN/hankel.html">The Hankel Transform and Some of its Properties</a>, J. Integer Sequences, 4 (2001), #01.1.5.
+%H A000522 Florian Luca and Igor E. Shparlinski, <a href="https://doi.org/10.1017/S0017089507003734">On the squarefree parts of floor(e*n!)</a>, Glasgow Math. J., 49 (2007), 391-403.
+%H A000522 Thibault Manneville and Vincent Pilaud, <a href="https://arxiv.org/abs/1501.07152">Compatibility fans for graphical nested complexes</a>, arXiv preprint arXiv:1501.07152 [math.CO], 2015.
+%H A000522 Toufik Mansour and J. West, <a href="https://arxiv.org/abs/math/0207204">Avoiding 2-letter signed patterns</a>, arXiv:math/0207204 [math.CO], 2002.
+%H A000522 Pedro J. Miana, <a href="https://arxiv.org/abs/2511.13868">Two Koopman semigroups on discrete Lebesgue spaces</a>, arXiv:2511.13868 [math.FA], 2025. See pp. 7, 9.
 %H A000522 T. S. Motzkin, <a href="/A000262/a000262.pdf">Sorting numbers for cylinders and other classification numbers</a>, in Combinatorics, Proc. Symp. Pure Math. 19, AMS, 1971, pp. 167-176. [Annotated, scanned copy]
 %H A000522 Emanuele Munarini, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL23/Munarini2/muna24.html">Combinatorial Identities for the Tricomi Polynomials</a>, J. Int. Seq., Vol. 23 (2020), Article 20.9.4.
 %H A000522 Emanuele Munarini, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL26/Munarini/muna25.html">Two-Parameter Identities for q-Appell Polynomials</a>, Journal of Integer Sequences, Vol. 26 (2023), Article 23.3.1.
-%H A000522 R. Ondrejka, <a href="/A000522/a000522.pdf">Letter to N. J. A. Sloane, May 15 1976</a>
-%H A000522 Alexsandar Petojevic, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL5/Petojevic/petojevic5.html">The Function vM_m(s; a; z) and Some Well-Known Sequences</a>, Journal of Integer Sequences, Vol. 5 (2002), Article 02.1.7
-%H A000522 Robert A. Proctor, <a href="http://arxiv.org/abs/math/0606404">Let's Expand Rota's Twelvefold Way For Counting Partitions!</a>, arXiv:math/0606404 [math.CO], 2006-2007.
-%H A000522 D. Singh, <a href="/A002627/a002627.pdf">The numbers L(m,n) and their relations with prepared Bernoulli and Eulerian numbers</a>, Math. Student, 20 (1952), 66-70. [Annotated scanned copy]
-%H A000522 Jonathan Sondow, <a href="http://arxiv.org/abs/0704.1282">A geometric proof that e is irrational and a new measure of its irrationality</a>, Amer. Math. Monthly 113 (2006) 637-641. arXiv:0704.1282 [math.HO], 2007-2010.
-%H A000522 Jonathan Sondow, <a href="http://home.earthlink.net/~jsondow/PrimesAndE.pdf">The Taylor series for e and the primes 2, 5, 13, 37, 463, ...: a surprising connection</a>
-%H A000522 Jonathan Sondow and K. Schalm, <a href="http://arxiv.org/abs/0709.0671">Which partial sums of the Taylor series for e are convergents to e? (and a link to the primes 2, 5, 13, 37, 463), II</a>, arXiv:0709.0671 [math.NT], 2006-2009; Gems in Experimental Mathematics (T. Amdeberhan, L. A. Medina, and V. H. Moll, eds.), Contemporary Mathematics, vol. 517, Amer. Math. Soc., Providence, RI, 2010.
+%H A000522 Rudolf Ondrejka, <a href="/A000522/a000522.pdf">Letter to N. J. A. Sloane, May 15 1976</a>
+%H A000522 Jason H Parker, <a href="/A000522/a000522.primo.txt">Certificate for a(2016)</a>, generated with CM 0.4.4dev.
+%H A000522 Alexsandar Petojevic, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL5/Petojevic/petojevic5.html">The Function vM_m(s; a; z) and Some Well-Known Sequences</a>, J. Int. Seq. (2002) Vol. 5, Art. 02.1.7.
+%H A000522 Robert A. Proctor, <a href="https://arxiv.org/abs/math/0606404">Let's Expand Rota's Twelvefold Way For Counting Partitions!</a>, arXiv:math/0606404 [math.CO], 2006-2007.
+%H A000522 Daljit Singh, <a href="/A002627/a002627.pdf">The numbers L(m,n) and their relations with prepared Bernoulli and Eulerian numbers</a>, Math. Student, 20 (1952), 66-70. [Annotated scanned copy]
+%H A000522 Jonathan Sondow, <a href="https://arxiv.org/abs/0704.1282">A geometric proof that e is irrational and a new measure of its irrationality</a>, Amer. Math. Monthly 113 (2006) 637-641. arXiv:0704.1282 [math.HO], 2007-2010.
+%H A000522 Jonathan Sondow, <a href="https://web.archive.org/web/20200215083228/http://home.earthlink.net/~jsondow/PrimesAndE.pdf">The Taylor series for e and the primes 2, 5, 13, 37, 463, ...: a surprising connection</a>
+%H A000522 Jonathan Sondow and K. Schalm, <a href="https://arxiv.org/abs/0709.0671">Which partial sums of the Taylor series for e are convergents to e? (and a link to the primes 2, 5, 13, 37, 463), II</a>, arXiv:0709.0671 [math.NT], 2006-2009; Gems in Experimental Mathematics (T. Amdeberhan, L. A. Medina, and V. H. Moll, eds.), Contemporary Mathematics, vol. 517, Amer. Math. Soc., Providence, RI, 2010.
 %H A000522 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/BinomialSums.html">Binomial Sums</a>
 %H A000522 <a href="/index/Lo#logarithmic">Index entries for sequences related to logarithmic numbers</a>
 %H A000522 <a href="/index/Par#partN">Index entries for related partition-counting sequences</a>
@@ -117,7 +121,7 @@
 %F A000522 E.g.f.: exp(x)/(1-x).
 %F A000522 a(n) = 1 + Sum_{n>=k>=j>=0} (k-j+1)*k!/j! = a(n-1) + A001339(n-1) = A007526(n) + 1. Binomial transformation of n!, i.e., A000142. - _Henry Bottomley_, Jun 04 2001
 %F A000522 a(n) = floor(2/(n+1))*A009578(n+1)-1. - _Emeric Deutsch_, Oct 24 2001
-%F A000522 Integral representation as n-th moment of a nonnegative function on a positive half-axis: a(n) = e*Integral_{x=0..infinity} (x^n*e^(-x)*Heaviside(x-1). - _Karol A. Penson_, Oct 01 2001
+%F A000522 Integral representation as n-th moment of a nonnegative function on a positive half-axis: a(n) = e*Integral_{x>=0} x^n*e^(-x)*Heaviside(x-1) dx. - _Karol A. Penson_, Oct 01 2001
 %F A000522 Formula, in Mathematica notation: Special values of Laguerre polynomials, a(n)=(-1)^n*n!*LaguerreL[n, -1-n, 1], n=1, 2, ... . This relation cannot be checked by Maple, as it appears that Maple does not incorporate Laguerre polynomials with second index equal to negative integers. It does check with Mathematica. - _Karol A. Penson_ and Pawel Blasiak ( blasiak(AT)lptl.jussieu.fr), Feb 13 2004
 %F A000522 G.f.: Sum_{k>=0} k!*x^k/(1-x)^(k+1). a(n) = Sum_{k=0..n} (-1)^(n-k)*binomial(n, k)*k^(n-k)*(k+1)^k. - _Vladeta Jovovic_, Aug 18 2002
 %F A000522 a(n) = Sum_{k=0..n} A008290(n, k)*2^k. - _Philippe Deléham_, Dec 12 2003
@@ -174,23 +178,23 @@
 %e A000522 With two objects we can form 5 sequences: (), (a), (b), (a,b), (b,a), so a(2) = 5.
 %e A000522 From _Joerg Arndt_, Dec 09 2012: (Start)
 %e A000522 The 16 arrangements of the 3-set and their RGS (dots denote zeros) are
-%e A000522 [ #]       RGS        perm. of subset
-%e A000522 [ 1]    [ . . . ]      [  ]
-%e A000522 [ 2]    [ . . 1 ]      [ 3 ]
-%e A000522 [ 3]    [ . 1 . ]      [ 2 ]
-%e A000522 [ 4]    [ . 1 1 ]      [ 2 3 ]
-%e A000522 [ 5]    [ . 1 2 ]      [ 3 2 ]
-%e A000522 [ 6]    [ 1 . . ]      [ 1 ]
-%e A000522 [ 7]    [ 1 . 1 ]      [ 1 3 ]
-%e A000522 [ 8]    [ 1 . 2 ]      [ 3 1 ]
-%e A000522 [ 9]    [ 1 1 . ]      [ 1 2 ]
-%e A000522 [10]    [ 1 1 1 ]      [ 1 2 3 ]
-%e A000522 [11]    [ 1 1 2 ]      [ 1 3 2 ]
-%e A000522 [12]    [ 1 1 3 ]      [ 2 3 1 ]
-%e A000522 [13]    [ 1 2 . ]      [ 2 1 ]
-%e A000522 [14]    [ 1 2 1 ]      [ 2 1 3 ]
-%e A000522 [15]    [ 1 2 2 ]      [ 3 1 2 ]
-%e A000522 [16]    [ 1 2 3 ]      [ 3 2 1 ]
+%e A000522   [ #]       RGS        perm. of subset
+%e A000522   [ 1]    [ . . . ]      [  ]
+%e A000522   [ 2]    [ . . 1 ]      [ 3 ]
+%e A000522   [ 3]    [ . 1 . ]      [ 2 ]
+%e A000522   [ 4]    [ . 1 1 ]      [ 2 3 ]
+%e A000522   [ 5]    [ . 1 2 ]      [ 3 2 ]
+%e A000522   [ 6]    [ 1 . . ]      [ 1 ]
+%e A000522   [ 7]    [ 1 . 1 ]      [ 1 3 ]
+%e A000522   [ 8]    [ 1 . 2 ]      [ 3 1 ]
+%e A000522   [ 9]    [ 1 1 . ]      [ 1 2 ]
+%e A000522   [10]    [ 1 1 1 ]      [ 1 2 3 ]
+%e A000522   [11]    [ 1 1 2 ]      [ 1 3 2 ]
+%e A000522   [12]    [ 1 1 3 ]      [ 2 3 1 ]
+%e A000522   [13]    [ 1 2 . ]      [ 2 1 ]
+%e A000522   [14]    [ 1 2 1 ]      [ 2 1 3 ]
+%e A000522   [15]    [ 1 2 2 ]      [ 3 1 2 ]
+%e A000522   [16]    [ 1 2 3 ]      [ 3 2 1 ]
 %e A000522 (End)
 %p A000522 a(n):= exp(1)*int(x^n*exp(-x)*Heaviside(x-1), x=0..infinity); # _Karol A. Penson_, Oct 01 2001
 %p A000522 A000522 := n->add(n!/k!,k=0..n);
@@ -222,7 +226,7 @@
 %o A000522 a000522 = length . choices . enumFromTo 1 where
 %o A000522 choices = concat . map permutations . subsequences
 %o A000522 -- _Reinhard Zumkeller_, Feb 21 2012, Oct 25 2010
-%o A000522 (Sage)
+%o A000522 (SageMath)
 %o A000522 # program adapted from _Alois P. Heinz_'s Maple code in A022493
 %o A000522 @CachedFunction
 %o A000522 def b(n, i, t):
@@ -243,7 +247,7 @@
 %Y A000522 Partial sums are in A001338, A002104.
 %Y A000522 A row of the array in A144502.
 %Y A000522 See also A370973, Nearest integer to e*n!.
-%K A000522 nonn,easy,nice
+%K A000522 nonn,easy,nice,changed
 %O A000522 0,2
 %A A000522 _N. J. A. Sloane_
 %E A000522 Additional comments from _Michael Somos_

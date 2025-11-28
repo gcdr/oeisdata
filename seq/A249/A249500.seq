@@ -1,8 +1,8 @@
-%I A249500 #4 Oct 30 2014 14:21:16
+%I A249500 #6 Jul 23 2025 12:02:51
 %S A249500 2,123,604,2045,5706,17291,40824,85257,163450,289707,483580,806469,
 %T A249500 1260206,1878203,2699068,3768905,5148246,7049943,9439200,12402097,
 %U A249500 16020222,20393923,25627720,32226209,40035934,49199783,59874744,72234765
-%N A249500 Number of length 3+5 0..n arrays with every six consecutive terms having five times some element equal to the sum of the remaining five
+%N A249500 Number of length 3+5 0..n arrays with every six consecutive terms having five times some element equal to the sum of the remaining five.
 %C A249500 Row 3 of A249497
 %H A249500 R. H. Hardin, <a href="/A249500/b249500.txt">Table of n, a(n) for n = 1..84</a>
 %e A249500 Some solutions for n=6

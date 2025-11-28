@@ -1,6 +1,6 @@
-%I A183184 #17 Jan 17 2019 13:44:08
+%I A183184 #21 Sep 29 2025 22:13:33
 %S A183184 1,5,13,43,169,181,1579,18077,22652,157363
-%N A183184 Numbers n such that 10^(2n+1)-8*10^n-1 is prime.
+%N A183184 Numbers k such that 10^(2*k+1)-8*10^k-1 is prime.
 %D A183184 C. Caldwell and H. Dubner, "Journal of Recreational Mathematics", Volume 28, No. 1, 1996-97, pp. 1-9.
 %H A183184 Patrick De Geest, World!Of Numbers, <a href="http://www.worldofnumbers.com/wing.htm#pwp919">Palindromic Wing Primes (PWP's)</a>
 %H A183184 Makoto Kamada, <a href="https://stdkmd.net/nrr/9/99199.htm#prime">Prime numbers of the form 99...99199...99</a>

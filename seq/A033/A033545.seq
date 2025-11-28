@@ -1,4 +1,4 @@
-%I A033545 #13 Feb 23 2014 05:56:58
+%I A033545 #18 Oct 10 2025 00:12:16
 %S A033545 1,3,4,5,7,8,8,9,10,15,16,23,32,37,42,42,44,49
 %N A033545 Uniform numbers retired by New York Yankees.
 %C A033545 In 1972, the Yankees retired number 8 in honor of the Bill Dickey and Yogi Berra.
@@ -9,5 +9,5 @@
 %Y A033545 Cf. A033546.
 %K A033545 nonn,fini
 %O A033545 1,2
-%A A033545 Jack Rosenthal, rosebud(AT)nytimes.com (submitted by James Gleick, jim(AT)around.com).
+%A A033545 Jack Rosenthal, rosebud(AT)nytimes.com (submitted by James Gleick, jim(AT)around.com)
 %E A033545 Updated by _Gerry Myerson_, Feb 10 2014

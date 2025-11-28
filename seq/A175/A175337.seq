@@ -1,8 +1,8 @@
-%I A175337 #18 Nov 09 2023 08:52:14
+%I A175337 #24 Jun 04 2025 10:53:29
 %S A175337 0,0,1,1,0,0,0,1,1,0,0,0,1,1,1,0,0,1,1,1,0,0,1,1,0,0,0,1,1,0,0,0,1,1,
 %T A175337 0,0,0,1,1,1,0,0,1,1,1,0,0,1,1,0,0,0,1,1,0,0,0,1,1,0,0,0,1,1,1,0,0,1,
 %U A175337 1,1,0,0,1,1,1,0,0,1,1,0,0,0,1,1,0,0,0,1,1,1,0,0,1,1,1,0,0,1,1,1,0,0,1,1,0
-%N A175337 Fixed point of morphism 0 -> 00110, 1 -> 00111
+%N A175337 Fixed point of morphism 0 -> 00110, 1 -> 00111.
 %C A175337 Turns (by 90 degrees) of a dragon curve (called R5-dragon in the fxtbook, see link below) which can be rendered as follows:
 %C A175337   [Init] Set n=0 and direction=0.
 %C A175337   [Draw] Draw a unit line (in the current direction). Turn left/right if a(n) is zero/nonzero respectively.
@@ -11,7 +11,7 @@
 %C A175337 With morphism F -> F0F0F1F1F, 0 -> 0, 1 -> 1: fixed point with all 'F' omitted.
 %H A175337 Paolo Xausa, <a href="/A175337/b175337.txt">Table of n, a(n) for n = 0..10000</a>
 %H A175337 Joerg Arndt, <a href="http://www.jjj.de/fxt/#fxtbook">Matters Computational (The Fxtbook)</a>, section 1.31.5 "Dragon curves based on radix-R counting", pp.95-101; image on p.96
-%t A175337 Nest[Flatten[ReplaceAll[#,{0->{0,0,1,1,0},1->{0,0,1,1,1}}]]&,{0},3] (* _Paolo Xausa_, Nov 09 2023 *)
+%t A175337 First[SubstitutionSystem[{t_ :> {0, 0, 1, 1, t}}, {0}, {3}]] (* _Paolo Xausa_, Jun 04 2025 *)
 %o A175337 (C++) /* CAT algorithm */
 %o A175337 bool bit_dragon_r5_turn(ulong &x)
 %o A175337 /* Increment the radix-5 word x and return (tr) whether

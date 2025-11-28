@@ -1,8 +1,8 @@
-%I A164993 #13 Jan 08 2020 09:42:57
+%I A164993 #15 Jun 02 2025 01:54:09
 %S A164993 0,0,0,2,0,2,4,2,0,8,8,16,8,0,8,16,8,8,16,16,16,16,8,8,16,8,0,26,32,
 %T A164993 58,32,26,52,58,52,58,32,26,52,26,0,26,52,26,32,58,52,58,52,26,32,58,
 %U A164993 32,26,52,58,64,58,52,58,64,58,52,58,52,58,52,26,32,58,32,26,64,58,52,58,32
-%N A164993 a(n) = image of n under the base-3 Kaprekar map n -> (n with digits sorted into descending order) - (n with digits sorted into ascending order)
+%N A164993 a(n) = image of n under the base-3 Kaprekar map n -> (n with digits sorted into descending order) - (n with digits sorted into ascending order).
 %H A164993 Indranil Ghosh, <a href="/A164993/b164993.txt">Table of n, a(n) for n = 0..19683</a> (terms 0..2187 from Joseph Myers)
 %H A164993 <a href="/index/K#Kaprekar_map">Index entries for the Kaprekar map</a>
 %e A164993 For n = 10, 10_10 = 101_3. So, a(10) = 110_3 - 11_3 = 12 - 4 = 8. - _Indranil Ghosh_, Feb 02 2017

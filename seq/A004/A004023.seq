@@ -1,4 +1,4 @@
-%I A004023 M2114 #268 Feb 16 2025 08:32:28
+%I A004023 M2114 #280 Nov 05 2025 15:21:44
 %S A004023 2,19,23,317,1031,49081,86453,109297,270343,5794777,8177207
 %N A004023 Indices of prime repunits: numbers k such that 11...111 (with k 1's) = (10^k - 1)/9 is prime.
 %C A004023 People who search for repunit primes or repdigit primes may be looking for this entry.
@@ -13,6 +13,7 @@
 %D A004023 R. K. Guy, Unsolved Problems in Number Theory, Section A3.
 %D A004023 Graham, Knuth and Patashnik, Concrete Mathematics, Addison-Wesley, 1994; see p 146 problem 22.
 %D A004023 Clifford A. Pickover, A Passion for Mathematics, Wiley, 2005; see p. 60.
+%D A004023 Paulo Ribenboim, The Little Book of Bigger Primes, Springer-Verlag NY 2004. See p. 235.
 %D A004023 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
 %D A004023 David Wells, The Penguin Dictionary of Curious and Interesting Numbers. Penguin Books, NY, 1986, Revised edition 1987. See entry 142857 at pp. 197-198.
 %H A004023 Paul Bourdelais, <a href="https://listserv.nodak.edu/cgi-bin/wa.exe?A2=NMBRTHRY;417ab0d6.0906">A Generalized Repunit Conjecture</a>, NMBRTHRY, 25 Jun 2009.
@@ -25,12 +26,13 @@
 %H A004023 Harvey Dubner, <a href="https://listserv.nodak.edu/cgi-bin/wa.exe?A2=NMBRTHRY;1d525256.9909">New probable prime repunit, R(49081)</a>, Number Theory List, Sep 09 1999.
 %H A004023 Harvey Dubner, <a href="http://dx.doi.org/10.1090/S0025-5718-01-01319-9">Repunit R49081 is a probable prime</a>, Math. Comp., 71 (2001), 833-835.
 %H A004023 Harvey Dubner, <a href="https://listserv.nodak.edu/cgi-bin/wa.exe?A2=NMBRTHRY;a9325f9e.0704">Posting to Number Theory List : Apr 03 2007</a>
-%H A004023 Martianus Frederic Ezerman, Bertrand Meyer, and Patrick Solé, <a href="http://arxiv.org/abs/1210.7593">On Polynomial Pairs of Integers</a>, arXiv:1210.7593 [math.NT], 2012-2014.
+%H A004023 Martianus Frederic Ezerman, Bertrand Meyer, and Patrick Solé, <a href="https://arxiv.org/abs/1210.7593">On Polynomial Pairs of Integers</a>, arXiv:1210.7593 [math.NT], 2012-2014.
 %H A004023 Martianus Frederic Ezerman, Bertrand Meyer and Patrick Solé, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL18/Ezerman/eze3.html">On Polynomial Pairs of Integers</a>, Journal of Integer Sequences, Vol. 18 (2015), Article 15.3.5.
+%H A004023 Shyam Sunder Gupta, <a href="https://doi.org/10.1007/978-981-97-2465-9_9">On Some Marvellous Numbers of Kaprekar</a>, Exploring the Beauty of Fascinating Numbers, Springer (2025) Ch. 9, 275-315. See also <a href="https://doi.org/10.1007/978-981-97-2465-9_11">Repunit Numbers</a>, Ch. 11, 327-352.
 %H A004023 Dmytro S. Inosov and Emil Vlasák, <a href="https://arxiv.org/abs/2410.21427">Cryptarithmically unique terms in integer sequences</a>, arXiv:2410.21427 [math.NT], 2024. See p. 18.
 %H A004023 Makoto Kamada, <a href="https://stdkmd.net/nrr/repunit">Factorizations of 11...11 (Repunit)</a>.
 %H A004023 Henri Lifchitz, <a href="http://www.primenumbers.net/Henri/us/MersFermus.htm">Mersenne and Fermat primes field</a>
-%H A004023 T. Muller, <a href="https://doi.org/10.4171/EM/183">Ist die Folge der Primzahl-quersummen beschrankt?</a>, Elem. Math. 66 (2011) 146-154; doi:10.4171/EM/183.
+%H A004023 Tom Muller, <a href="https://doi.org/10.4171/EM/183">Ist die Folge der Primzahl-quersummen beschrankt?</a>, Elem. Math. 66 (2011) 146-154; doi:10.4171/EM/183.
 %H A004023 Bernard Schott, <a href="/A125134/a125134.pdf">Les nombres brésiliens</a>, Quadrature, no. 76, avril-juin 2010, pages 30-38; included here with permission from the editors of Quadrature.
 %H A004023 Andy Steward, <a href="http://www.users.globalnet.co.uk/~aads/primes.html">Prime Generalized Repunits</a>
 %H A004023 Sam Wagstaff, Jr., <a href="http://www.cerias.purdue.edu/homes/ssw/cun/index.html">The Cunningham Project</a>

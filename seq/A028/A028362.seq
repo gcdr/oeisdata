@@ -1,4 +1,4 @@
-%I A028362 #109 Aug 15 2024 19:04:58
+%I A028362 #114 Sep 22 2025 16:00:29
 %S A028362 1,3,15,135,2295,75735,4922775,635037975,163204759575,83724041661975,
 %T A028362 85817142703524375,175839325399521444375,720413716161839357604375,
 %U A028362 5902349576513949856852644375,96709997811181068404530578084375
@@ -29,12 +29,12 @@
 %o A028362 (PARI) {a(n)=polcoeff(sum(m=0,n,2^(m*(m-1)/2)*x^m/prod(k=0,m-1,1-2^k*x+x*O(x^n))),n)} \\ _Paul D. Hanna_, Sep 16 2009
 %o A028362 (PARI) {a(n) = if( n<1, 0 , prod(k=1, n-1, 2^k + 1))}; /* _Michael Somos_, Jan 28 2018 */
 %o A028362 (PARI) {a(n) = sum(k=0, n-1, 2^(k*(k+1)/2) * prod(j=1, k, (2^(n-j) - 1) / (2^j - 1)))}; /* _Michael Somos_, Jan 28 2018 */
-%o A028362 (Sage)
+%o A028362 (SageMath)
 %o A028362 from ore_algebra import *
 %o A028362 R.<x> = QQ['x']
 %o A028362 A.<Qx> = OreAlgebra(R, 'Qx', q=2)
 %o A028362 print((Qx - x - 1).to_list([0,1], 10))  # _Ralf Stephan_, Apr 24 2014
-%o A028362 (Sage)
+%o A028362 (SageMath)
 %o A028362 from sage.combinat.q_analogues import q_pochhammer
 %o A028362 [q_pochhammer(n-1,-2,2) for n in (1..20)] # _G. C. Greubel_, Jun 06 2020
 %o A028362 (Magma) [1] cat [&*[ 2^k+1: k in [1..n] ]: n in [1..16]]; // _Vincenzo Librandi_, Dec 24 2015
@@ -48,7 +48,8 @@
 %o A028362 (Python)
 %o A028362 from math import prod
 %o A028362 def A028362(n): return prod((1<<i)+1 for i in range(1,n)) # _Chai Wah Wu_, Jun 20 2022
-%o A028362 (Scheme, with memoization-macro definec)
+%o A028362 (Scheme)
+%o A028362 ;; With memoization-macro definec.
 %o A028362 (define (A028362 n) (A028362off0 (- n 1)))
 %o A028362 (definec (A028362off0 n) (if (zero? n) 1 (+ (A028362off0 (- n 1)) (* (expt 2 n) (A028362off0 (- n 1))))))
 %o A028362 ;; _Antti Karttunen_, Apr 15 2017

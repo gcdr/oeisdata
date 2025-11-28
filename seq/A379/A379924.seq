@@ -1,9 +1,9 @@
-%I A379924 #10 Jan 06 2025 10:55:11
+%I A379924 #14 Apr 26 2025 05:31:27
 %S A379924 1,2,9,54,101,178,189,2071,3070,9171,11450,12794,21405,27553,35285,
 %T A379924 251974,2069863,2395894,155931488,387586437,758519827,1202435693,
 %U A379924 9859113494,42703260442
 %N A379924 Numbers m that divide the alternating sum Sum_{k=1..m} (-1)^(k+1) * usigma(k).
-%C A379924 Numbers m such that m | A370898(m).	
+%C A379924 Numbers m such that m | A370898(m).
 %C A379924 The corresponding quotients, A370898(m)/m, are -1, 1, 0, 6, 9, ... (see the link for more values).
 %C A379924 a(25) > 5*10^10, if it exists.
 %H A379924 Amiram Eldar, <a href="/A379924/a379924.txt">Table of n, a(n), A370898(a(n))/a(n) for n = 1..24</a>.

@@ -1,4 +1,4 @@
-%I A188342 #50 Feb 10 2024 09:05:43
+%I A188342 #51 Nov 05 2025 15:35:33
 %S A188342 945,3465,15015,692835,22309287,1542773001,33426748355,1635754104985,
 %T A188342 114761064312895,9316511857401385,879315530560980695,
 %U A188342 88452776289145528645,2792580508557308832935,428525983200229616718445,42163230434005200984080045,1357656019974967471687377449
@@ -11,7 +11,7 @@
 %C A188342 "If these a(n) are squarefree and don't have a greatest prime factor more than 3 primes away from that of the preceding term, then these bounds are the actual values of a(n)."
 %C A188342 This conjecture is correct up to a(50). (End)
 %H A188342 Daniel Suteu, <a href="/A188342/b188342.txt">Table of n, a(n) for n = 3..27</a>
-%H A188342 L. E. Dickson, <a href="http://www.jstor.org/stable/2370405">Finiteness of the odd perfect and primitive abundant numbers with n distinct prime factors</a>, American Journal of Mathematics 35 (1913), pp. 413-422.
+%H A188342 L. E. Dickson, <a href="https://www.jstor.org/stable/2370405">Finiteness of the odd perfect and primitive abundant numbers with n distinct prime factors</a>, American Journal of Mathematics 35 (1913), pp. 413-422.
 %H A188342 H. N. Shapiro, <a href="http://projecteuclid.org/euclid.bams/1183513752">Note on a theorem of Dickson</a>, Bull Amer. Math. Soc. 55 (4) (1949), 450-452
 %e A188342 From _M. F. Hasler_, Jul 17 2016: (Start)
 %e A188342                945 = 3^3 * 5 * 7

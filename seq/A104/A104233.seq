@@ -1,4 +1,4 @@
-%I A104233 #60 Feb 16 2025 08:32:56
+%I A104233 #65 Nov 05 2025 15:35:31
 %S A104233 125,128,216,243,256,343,512,625,729,1000,1015,1016,1017,1018,1019,
 %T A104233 1020,1021,1022,1023,1024,1025,1026,1027,1028,1029,1030,1031,1032,
 %U A104233 1033,1080,1089,1125,1152,1156,1215,1225,1250,1280,1287,1288,1289,1290,1291,1292,1293,1294
@@ -16,12 +16,12 @@
 %C A104233 These numbers are called "entiers compressibles" in French.
 %C A104233 There are no 1-digit or 2-digit terms.
 %C A104233 The 3-digit terms are all of the form m^q, with 2 <= m, q <= 9.
-%C A104233 The 4-digit terms are of the form m^q with m, q > 1, or of the form m^q+-d or m^q*r with m, q, r > 1, d >= 0, and m, q, r, d are all digits (see examples where [...] is a corresponding "compact" representation. (End)
+%C A104233 The 4-digit terms are of the form m^q with m, q > 1, or of the form m^q+-d or m^q*r with m, q, r > 1, d >= 0, and m, q, r, d are all digits (see examples where [...] is a corresponding "compact" representation). (End)
 %D A104233 R. K. Guy, Unsolved Problems Number Theory, Sect. F26.
 %H A104233 J. Arias de Reyna, <a href="/A005245/a005245_1.pdf">Complejidad de los números naturales</a>, Gaceta R. Soc. Mat. Esp., 3 (2000), 230-250. [Cached copy, with permission]
 %H A104233 J. Arias de Reyna, <a href="https://arxiv.org/abs/2111.03345">Complexity of natural numbers</a>, arXiv:2111.03345 [math.NT], 2021.
 %H A104233 Diophante, <a href="http://www.diophante.fr/problemes-par-themes/arithmetique-et-algebre/a1-pot-pourri/1861-a164-les-entiers-compressibles">A164, Les entiers compressibles</a> (in French).
-%H A104233 R. K. Guy, <a href="http://www.jstor.org/stable/2323338">Some suspiciously simple sequences</a>, Amer. Math. Monthly 93 (1986), 186-190; 94 (1987), 965; 96 (1989), 905.
+%H A104233 R. K. Guy, <a href="https://www.jstor.org/stable/2323338">Some suspiciously simple sequences</a>, Amer. Math. Monthly 93 (1986), 186-190; 94 (1987), 965; 96 (1989), 905.
 %H A104233 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/IntegerComplexity.html">Integer Complexity</a>
 %H A104233 <a href="/index/Com#complexity">Index to sequences related to the complexity of n</a>
 %e A104233 From _Bernard Schott_, Feb 10 2021: (Start)

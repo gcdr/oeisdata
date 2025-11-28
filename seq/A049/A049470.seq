@@ -1,4 +1,4 @@
-%I A049470 #71 Feb 16 2025 08:32:40
+%I A049470 #75 Nov 05 2025 15:35:29
 %S A049470 5,4,0,3,0,2,3,0,5,8,6,8,1,3,9,7,1,7,4,0,0,9,3,6,6,0,7,4,4,2,9,7,6,6,
 %T A049470 0,3,7,3,2,3,1,0,4,2,0,6,1,7,9,2,2,2,2,7,6,7,0,0,9,7,2,5,5,3,8,1,1,0,
 %U A049470 0,3,9,4,7,7,4,4,7,1,7,6,4,5,1,7,9,5,1,8,5,6,0,8,7,1,8,3,0,8,9
@@ -6,10 +6,10 @@
 %C A049470 Also, decimal expansion of the real part of e^i. - _Bruno Berselli_, Feb 08 2013
 %C A049470 By the Lindemann-Weierstrass theorem, this constant is transcendental. - _Charles R Greathouse IV_, May 13 2019
 %H A049470 Muniru A Asiru, <a href="/A049470/b049470.txt">Table of n, a(n) for n = 0..2000</a>
-%H A049470 Mohammad K. Azarian, <a href="http://www.jstor.org/stable/30044897">Forty-Five Nested Equilateral Triangles and cosecant of 1 degree, Problem 813</a>, College Mathematics Journal, Vol. 36, No. 5, November 2005, p. 413-414.
-%H A049470 Mohammad K. Azarian, <a href="http://www.jstor.org/stable/27646393">Solution of Forty-Five Nested Equilateral Triangles and cosecant of 1 degree, Problem 813</a>, College Mathematics Journal, Vol. 37, No. 5, November 2006, pp. 394-395.
+%H A049470 Mohammad K. Azarian, <a href="https://www.jstor.org/stable/30044897">Forty-Five Nested Equilateral Triangles and cosecant of 1 degree, Problem 813</a>, College Mathematics Journal, Vol. 36, No. 5, November 2005, p. 413-414.
+%H A049470 Mohammad K. Azarian, <a href="https://www.jstor.org/stable/27646393">Solution of Forty-Five Nested Equilateral Triangles and cosecant of 1 degree, Problem 813</a>, College Mathematics Journal, Vol. 37, No. 5, November 2006, pp. 394-395.
 %H A049470 I. S. Gradsteyn and I. M. Ryzhik, <a href="http://mathtable.com/gr/index.html">Table of integrals, series and products</a>, (1980), page 10 (formula 0.245.7).
-%H A049470 Simon Plouffe, <a href="http://www.worldwideschool.org/library/books/sci/math/MiscellaneousMathematicalConstants/chap14.html">cos(1)</a>
+%H A049470 Simon Plouffe, <a href="https://www.plouffe.fr/simon/constants/cos1.txt">cos(1)</a>
 %H A049470 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/FactorialSums.html">Factorial Sums</a>
 %H A049470 <a href="/index/Tra#transcendental">Index entries for transcendental numbers</a>
 %F A049470 Continued fraction representation: cos(1) = 1/(1 + 1/(1 + 2/(11 + 12/(29 + ... + (2*n - 2)*(2*n - 3)/((4*n^2 - 2*n - 1) + ... ))))). See A275651 for proof. Cf. A073743. - _Peter Bala_, Sep 02 2016

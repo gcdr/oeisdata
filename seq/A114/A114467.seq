@@ -1,8 +1,8 @@
-%I A114467 #25 Feb 16 2025 08:32:59
+%I A114467 #26 Jun 02 2025 16:49:53
 %S A114467 1,4,41,434,4346,43451,434111,4342303,43428680
 %N A114467 Number of decimal digits in the numerator of the 10^n-th harmonic number.
 %C A114467 See A114468 for denominators.
-%C A114467 Eric Weisstein's link conjectures that for both this sequence and A114468, a(n) ~ (log_10(e) = A002285)*10^n. - _Nathan L. Skirrow_, Jun 22 2023
+%C A114467 Eric Weisstein's link conjectures that for both this sequence and A114468, a(n) ~ (log_10(e) = A002285)*10^n. - _Natalia L. Skirrow_, Jun 22 2023
 %H A114467 J. Sondow and E. W. Weisstein, <a href="https://mathworld.wolfram.com/HarmonicNumber.html">MathWorld: Harmonic Number</a>
 %t A114467 Table[IntegerLength[Numerator[HarmonicNumber[10^n]]],{n,0,8}](* _Harvey P. Dale_, May 24 2019 *)
 %o A114467 (Python)

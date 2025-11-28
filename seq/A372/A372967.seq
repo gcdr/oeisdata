@@ -1,9 +1,9 @@
-%I A372967 #21 May 30 2024 06:55:38
+%I A372967 #25 Apr 02 2025 04:12:36
 %S A372967 1,1,7,226,2059,20926,315646,4397212,66201971,999067510,15168583482,
 %T A372967 240202475668,3731763898510,57290627029676,887861389544668,
 %U A372967 13713341876387776,210889953761225667,3248614469788303782,50091681144815341810,772966100038376636332
 %N A372967 Number of compositions of 2n into 2n nonnegative parts such that their xor-sum is zero.
-%C A372967 Number of starting configurations of Nim with 2n pieces such that 2nd player wins, and the configurations are in the form {x_1, x_2, ..., x_2n}, where x_i is the number of pieces on i-th stack (x_i>=0), and the sum of all pieces is 2n.
+%C A372967 Number of starting configurations of Nim with 2n pieces such that 2nd player wins, and the configurations are of the form {x_1, x_2, ..., x_2n}, where x_i is the number of pieces on i-th stack (x_i>=0), and the sum of all pieces is 2n.
 %H A372967 C. L. Bouton, <a href="https://www.jstor.org/stable/1967631">Nim, A Game with a Complete Mathematical Theory</a>, Annals of Mathematics, Second Series, vol. 3 (1/4), 1902, 35-39.
 %F A372967 a(n) = A088218(2n) - A372871(2n).
 %F A372967 a(n) mod 2 = 1 <=> n in { A131577 }.

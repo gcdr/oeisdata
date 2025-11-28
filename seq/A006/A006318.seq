@@ -1,4 +1,4 @@
-%I A006318 M1659 #773 Feb 16 2025 08:32:30
+%I A006318 M1659 #800 Nov 10 2025 21:50:37
 %S A006318 1,2,6,22,90,394,1806,8558,41586,206098,1037718,5293446,27297738,
 %T A006318 142078746,745387038,3937603038,20927156706,111818026018,600318853926,
 %U A006318 3236724317174,17518619320890,95149655201962,518431875418926,2832923350929742,15521467648875090
@@ -41,6 +41,8 @@
 %C A006318 a(n) is the number of sequences of nonnegative integers (u_1, u_2, ..., u_n) such that (i) u_i <= i for all i, and (ii) the nonzero u_i are weakly increasing. For example, a(2) = 6 counts 00, 01, 02, 10, 11, 12. See link "Some bijections for lattice paths" at A001003. - _David Callan_, Dec 18 2021
 %C A006318 a(n) is the number of separable elements of the Weyl group of type B_n/C_n (see Gaetz and Gao). - _Fern Gossow_, Jul 31 2023
 %C A006318 The number of domino tilings of an Aztec triangle of order n. Dually, the number perfect matchings of the edges in the cellular graph formed by a triangular grid of n squares (n = 1, 4, 9, 16, 25, ...) as in Ciucu (1996). - _Michael Somos_, Sep 16 2024
+%C A006318 a(n) is the number of dissections of a convex (n+3)-sided polygon by non-intersecting diagonals such that none of the dividing diagonals passes through a chosen vertex. - _Muhammed Sefa Saydam_, Mar 01 2025
+%C A006318 a(n) is the number of dissections of a convex (n+m+1)-sided polygon by non-intersecting diagonals such that the selected m consecutive sides of the polygon will be in the same subpolygon. - _Muhammed Sefa Saydam_, Jul 02 2025
 %D A006318 D. Andrica and E. J. Ionascu, On the number of polynomials with coefficients in [n], An. St. Univ. Ovidius Constanta, 2013, to appear.
 %D A006318 Paul Barry, On Integer-Sequence-Based Constructions of Generalized Pascal Triangles, Journal of Integer Sequences, Vol. 9 (2006), Article 06.2.4.
 %D A006318 Paul Barry, Riordan-Bernstein Polynomials, Hankel Transforms and Somos Sequences, Journal of Integer Sequences, Vol. 15 2012, #12.8.2.
@@ -86,7 +88,7 @@
 %H A006318 Axel Bacher, <a href="https://arxiv.org/abs/1802.06030">Improving the Florentine algorithms: recovering algorithms for Motzkin and Schröder paths</a>, arXiv:1802.06030 [cs.DS], 2018.
 %H A006318 C. Banderier and D. Merlini, <a href="http://algo.inria.fr/banderier/Papers/infjumps.ps">Lattice paths with an infinite set of jumps</a>, FPSAC02, Melbourne, 2002.
 %H A006318 Kayleigh Bangs, Skye Binegar, Young Kim, Kyle Ormsby, Angélica M. Osorno, David Tamas-Parris, and Livia Xu, <a href="https://arxiv.org/abs/1907.00933">Biased permutative equivariant categories</a>, arXiv:1907.00933 [math.AT], 2019.
-%H A006318 E. Barcucci, A. Del Lungo, E. Pergola, and R. Pinzani, <a href="https://www.emis.de/journals/DMTCS/pdfpapers/dm040103.pdf">Permutations avoiding an increasing number of length-increasing forbidden subsequences</a>, Discrete Mathematics and Theoretical Computer Science, 4 (2000), 31-44.
+%H A006318 E. Barcucci, A. Del Lungo, E. Pergola, and R. Pinzani, <a href="https://doi.org/10.46298/dmtcs.273">Permutations avoiding an increasing number of length-increasing forbidden subsequences</a>, Discrete Mathematics and Theoretical Computer Science, 4 (2000), 31-44.
 %H A006318 E. Barcucci, A. Del Lungo, E. Pergola, and R. Pinzani, <a href="https://doi.org/10.1016/S0012-365X(00)00359-9">Some permutations with forbidden subsequences and their inversion number</a>, Discrete Math. 234(1-3) (2001), 1-15.
 %H A006318 E. Barcucci, E. Pergola, R. Pinzani, and S. Rinaldi, <a href="http://www.mat.univie.ac.at/~slc/wpapers/s46rinaldi.html">ECO method and hill-free generalized Motzkin paths</a>, Séminaire Lotharingien de Combinatoire, B46b (2001), 14 pp.
 %H A006318 J.-L. Baril, C. Khalil, and V. Vajnovszki, <a href="https://arxiv.org/abs/2004.01812">Catalan and Schröder permutations sortable by two restricted stacks</a>, arXiv:2004.01812 [cs.DM], 2020.
@@ -96,10 +98,11 @@
 %H A006318 Paul Barry, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL14/Barry4/barry142.html">On a Generalization of the Narayana Triangle</a>, J. Int. Seq. 14 (2011), Article 11.4.5.
 %H A006318 Paul Barry, <a href="https://arxiv.org/abs/1311.2292">Laurent Biorthogonal Polynomials and Riordan Arrays</a>, arXiv preprint arXiv:1311.2292 [math.CA], 2013.
 %H A006318 Paul Barry, <a href="https://arxiv.org/abs/1802.03443">On a transformation of Riordan moment sequences</a>, arXiv:1802.03443 [math.CO], 2018.
-%H A006318 Paul Barry, <a href="https://www.emis.de/journals/JIS/VOL22/Barry3/barry422.html">Generalized Catalan Numbers Associated with a Family of Pascal-like Triangles</a>, J. Int. Seq., 22 (2019), Article 19.5.8.
+%H A006318 Paul Barry, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL22/Barry3/barry422.html">Generalized Catalan Numbers Associated with a Family of Pascal-like Triangles</a>, J. Int. Seq., 22 (2019), Article 19.5.8.
 %H A006318 Paul Barry, <a href="https://arxiv.org/abs/1910.00875">Generalized Catalan recurrences, Riordan arrays, elliptic curves, and orthogonal polynomials</a>, arXiv:1910.00875 [math.CO], 2019.
 %H A006318 Paul Barry, <a href="https://arxiv.org/abs/1912.01126">Riordan arrays, the A-matrix, and Somos 4 sequences</a>, arXiv:1912.01126 [math.CO], 2019.
-%H A006318 P. Barry and A. Hennessy, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL14/Barry2/barry126.html">A Note on Narayana Triangles and Related Polynomials, Riordan Arrays, and MIMO Capacity Calculations</a>, J. Int. Seq. 14 (2011), Article 11.3.8.
+%H A006318 Paul Barry, <a href="https://arxiv.org/abs/2504.09719">Notes on Riordan arrays and lattice paths</a>, arXiv:2504.09719 [math.CO], 2025. See pp. 25, 29.
+%H A006318 Paul Barry and Aoife Hennessy, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL14/Barry2/barry126.html">A Note on Narayana Triangles and Related Polynomials, Riordan Arrays, and MIMO Capacity Calculations</a>, J. Int. Seq. 14 (2011), Article 11.3.8.
 %H A006318 Paul Barry and Nikolaos Pantelidis,<a href="https://doi.org/10.1007/s10801-020-00993-w">On pseudo-involutions, involutions and quasi-involutions in the group of almost Riordan arrays</a>, J Algebr Comb 54, 399-423 (2021). (appeared in its aerated form,i.e. 1,0,2,0,6,0,...)
 %H A006318 Christian Bean, Émile Nadeau, and Henning Ulfarsson, <a href="https://arxiv.org/abs/1912.07503">Enumeration of Permutation Classes and Weighted Labelled Independent Sets</a>, arXiv:1912.07503 [math.CO], 2019.
 %H A006318 Arkady Berenstein, Vladimir Retakh, Christophe Reutenauer, and Doron Zeilberger, <a href="https://arxiv.org/abs/1206.4225">The Reciprocal of Sum_{n >= 0} a^n b^n for non-commuting a and b, Catalan numbers and non-commutative quadratic equations</a>, arXiv preprint arXiv:1206.4225 [math.CO], 2012. - From _N. J. A. Sloane_, Nov 28 2012
@@ -129,7 +132,6 @@
 %H A006318 M. Ciucu, <a href="https://www.researchgate.net/publication/225203580_Perfect_Matchings_of_Cellular_Graphs">Perfect matchings of cellular graphs</a>, J. Algebraic Combin., 5 (1996) 87-103.
 %H A006318 CombOS - Combinatorial Object Server, <a href="http://combos.org/rect">Generate slicing floorplans</a>
 %H A006318 Sylvie Corteel, Megan A. Martinez, Carla D. Savage, and Michael Weselcouch, <a href="https://arxiv.org/abs/1510.05434">Patterns in Inversion Sequences I</a>, arXiv:1510.05434 [math.CO], 2015
-%H A006318 S. Crowley, <a href="https://arxiv.org/abs/1210.5652">Integral Transforms of the Harmonic Sawtooth Map, The Riemann Zeta Function, Fractal Strings, and a Finite Reflection Formula</a>, arXiv:1210.5652 [math.NT], 2012.
 %H A006318 S. Crowley, <a href="http://vixra.org/abs/1202.0079">Mellin and Laplace Integral Transforms Related to the Harmonic Sawtooth Map and a Diversion Into The Theory Of Fractal Strings</a>, Number Theory, viXra:1202.0079, 2012.
 %H A006318 R. De Castro, A. L. Ramírez, and J. L. Ramírez, <a href="https://arxiv.org/abs/1310.2339">Applications in Enumerative Combinatorics of Infinite Weighted Automata and Graphs</a>, arXiv:1310.2449 [math.PR], 2013.
 %H A006318 Colin Defant, <a href="https://arxiv.org/abs/1809.03123">Stack-sorting preimages of permutation classes</a>, arXiv:1809.03123 [math.CO], 2018.
@@ -178,7 +180,7 @@
 %H A006318 Philippe Leroux, <a href="https://arxiv.org/abs/0806.4093">Hochschild two-cocycles and the good triple (As,Hoch,Mag infinity)</a>, arXiv:0806.4093 [math.RA], 2008.
 %H A006318 Huyile Liang, Yanni Pei, and Yi Wang, <a href="https://arxiv.org/abs/2302.11856">Analytic combinatorics of coordination numbers of cubic lattices</a>, arXiv:2302.11856 [math.CO], 2023. See p. 5.
 %H A006318 Huyile Liang, Jeffrey Remmel, and Sainan Zheng, <a href="https://arxiv.org/abs/1710.05795">Stieltjes moment sequences of polynomials</a>, arXiv:1710.05795 [math.CO], 2017, see pp. 18-19.
-%H A006318 Peter Luschny, <a href="http://oeis.org/wiki/User:Peter_Luschny/TheLostCatalanNumbers">The Lost Catalan Numbers And The Schröder Tableaux</a>.
+%H A006318 Peter Luschny, <a href="https://oeis.org/wiki/User:Peter_Luschny/TheLostCatalanNumbers">The Lost Catalan Numbers And The Schröder Tableaux</a>.
 %H A006318 Megan A. Martinez and Carla D. Savage, <a href="https://arxiv.org/abs/1609.08106">Patterns in Inversion Sequences II: Inversion Sequences Avoiding Triples of Relations</a>, arXiv:1609.08106 [math.CO], 2016 [Section 2.24].
 %H A006318 Peter McCalla and Asamoah Nkwanta, <a href="https://arxiv.org/abs/1901.07092">Catalan and Motzkin Integral Representations</a>, arXiv:1901.07092 [math.NT], 2019.
 %H A006318 Arturo Merino and Torsten Mütze, <a href="https://arxiv.org/abs/2103.09333">Combinatorial generation via permutation languages. III. Rectangulations</a>, arXiv:2103.09333 [math.CO], 2021.
@@ -207,11 +209,12 @@
 %H A006318 Paul Tarau, <a href="https://arxiv.org/abs/1608.03912">A Hiking Trip Through the Orders of Magnitude: Deriving Efficient Generators for Closed Simply-Typed Lambda Terms and Normal Forms</a>, arXiv preprint arXiv:1608.03912 [cs.PL], 2016.
 %H A006318 V. K. Varma and H. Monien, <a href="https://arxiv.org/abs/1211.5664">Renormalization of two-body interactions due to higher-body interactions of lattice bosons</a>, arXiv:1211.5664 [cond-mat.quant-gas], 2012. - _N. J. A. Sloane_, Jan 03 2013
 %H A006318 Vincent Vatter, <a href="https://arxiv.org/abs/1409.5159">Permutation classes</a>, arXiv:1409.5159 [math.CO], 2014.
-%H A006318 Yi Wang and Bao-Xuan Zhu, <a href="http://arxiv.org/abs/1303.5595">Proofs of some conjectures on monotonicity of number-theoretic and combinatorial sequences</a>, arXiv:1303.5595 [math.CO], 2013.
+%H A006318 Yi Wang and Bao-Xuan Zhu, <a href="https://arxiv.org/abs/1303.5595">Proofs of some conjectures on monotonicity of number-theoretic and combinatorial sequences</a>, arXiv:1303.5595 [math.CO], 2013.
 %H A006318 M. S. Waterman, <a href="https://web.archive.org/web/20131025071301/http://www.cmb.usc.edu/people/msw/Waterman.html">Home Page</a> (contains copies of his papers)
 %H A006318 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/SchroederNumber.html">Schröder Number</a>.
 %H A006318 J. West, <a href="https://doi.org/10.1016/0012-365X(94)00067-1">Generating trees and the Catalan and Schröder numbers</a>, Discrete Math. 146 (1995), 247-262.
 %H A006318 J. Winter, M. M. Bonsangue, and J. J. M. M. Rutten, <a href="https://web.archive.org/web/20160319213413/http://oai.cwi.nl/oai/asset/21313/21313A.pdf">Context-free coalgebras</a>, 2013.
+%H A006318 Wikipedia, <a href="https://en.wikipedia.org/wiki/Schr%C3%B6der_number">Schröder number</a>
 %H A006318 Chunyan Yan and Zhicong Lin, <a href="https://arxiv.org/abs/1912.03674">Inversion sequences avoiding pairs of patterns</a>, arXiv:1912.03674 [math.CO], 2019.
 %H A006318 S.-n. Zheng and S.-l. Yang, <a href="https://doi.org/10.1155/2014/848374">On the-Shifted Central Coefficients of Riordan Matrices</a>, Journal of Applied Mathematics 2014, Article ID 848374.
 %H A006318 <a href="/index/Cor#core">Index entries for "core" sequences</a>
@@ -289,7 +292,7 @@
 %t A006318 CoefficientList[Nest[1+x(#+#^2)&, 1+O[x], 20], x] (* _Oliver Seipel_, Dec 21 2024 *)
 %o A006318 (PARI) {a(n) = if( n<0, n = -1-n); polcoeff( (1 - x - sqrt( 1 - 6*x + x^2 + x^2 * O(x^n))) / 2, n+1)}; /* _Michael Somos_, Apr 03 2013 */
 %o A006318 (PARI) {a(n) = if( n<1, 1, sum( k=0, n, 2^k * binomial( n, k) * binomial( n, k-1)) / n)};
-%o A006318 (Sage) # Generalized algorithm of L. Seidel
+%o A006318 (SageMath) # Generalized algorithm of L. Seidel
 %o A006318 def A006318_list(n) :
 %o A006318     D = [0]*(n+1); D[1] = 1
 %o A006318     b = True; h = 1; R = []

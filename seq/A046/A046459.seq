@@ -1,8 +1,9 @@
-%I A046459 #69 Feb 16 2025 08:32:39
+%I A046459 #73 Nov 08 2025 05:36:38
 %S A046459 0,1,8,17,18,26,27
 %N A046459 Dudeney numbers: integers equal to the sum of the digits of their cubes.
 %C A046459 This sequence was first found by the French mathematician Claude (Séraphin) Moret-Blanc in 1879. See Le Lionnais page 27 for the last term of this sequence: 27. - _Bernard Schott_, Dec 07 2012
 %C A046459 The name "Dudeney numbers" appears in the October 2018 issue of Mathematics Teacher (see link). - _N. J. A. Sloane_, Oct 10 2018
+%D A046459 Elena Deza and Michel Marie Deza, Figurate numbers, World Scientific Publishing (2012), page 424.
 %D A046459 H. E. Dudeney, 536 Puzzles & Curious Problems, reprinted by Souvenir Press, London, 1968, p. 36, #120.
 %D A046459 Italo Ghersi, Matematica dilettevole e curiosa, p. 115, Hoepli, Milano, 1967. [From _Vincenzo Librandi_, Jan 02 2009]
 %D A046459 F. Le Lionnais, Les nombres remarquables, Hermann, 1983.

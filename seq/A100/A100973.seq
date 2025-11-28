@@ -1,12 +1,14 @@
-%I A100973 #13 Feb 16 2025 08:32:55
+%I A100973 #16 Jul 01 2025 02:49:21
 %S A100973 15540,21054,25331,44360,44660,44733,47652,50560,54944,76857,77142,
 %T A100973 83334,83694,96448,97944,106575,108273,117624,125952,138966,141204,
-%U A100973 144236,153318,158417,159424,188529,188598,189350,192000,192126,196652
+%U A100973 144236,153318,158417,159424,188529,188598,189350,192000,192126,196652,202350,203320,205390,246675,247632
 %N A100973 Integers that are Rhonda numbers to base 9.
 %C A100973 See sequence A099542 for definition of Rhonda numbers and for some links.
 %H A100973 Reinhard Zumkeller, <a href="/A100973/b100973.txt">Table of n, a(n) for n = 1..1000</a>
 %H A100973 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/RhondaNumber.html">Rhonda Number</a>
 %e A100973 The product of the base 9 digits of 15540 is 2*3*2*7*6=504, the sum of the prime factors of 15540 is 2*2+3+5+7+37=56 and 504=9*56. So 15540 is a Rhonda number to base 9.
+%t A100973 A100973Q[k_] := Times @@ IntegerDigits[k, 9] == 9*Total[Times @@@ FactorInteger[k]];
+%t A100973 Select[Range[250000], A100973Q] (* _Paolo Xausa_, Jul 01 2025 *)
 %o A100973 (Haskell)
 %o A100973 a100973 n = a100973_list !! (n-1)
 %o A100973 a100973_list = filter (rhonda 9) a255808_list

@@ -1,8 +1,8 @@
-%I A215943 #9 Sep 12 2015 11:00:28
+%I A215943 #11 Jun 02 2025 08:06:48
 %S A215943 2,9,34,289,1546,19321,130922,2169729,17572114,364466281,3405357682,
 %T A215943 85143154849,896324308634,26309790300249,306827170866106,
 %U A215943 10366719612433921,132240988644215842,5064730099043043529,69974827707903049154,3000912883089564050721
-%N A215943 Number of ways to place k non-attacking bishops on an n x n toroidal chessboard, summed over all k >= 0
+%N A215943 Number of ways to place k non-attacking bishops on an n x n toroidal chessboard, summed over all k >= 0.
 %C A215943 a(n) = A002720(n) if n is odd.
 %H A215943 Vaclav Kotesovec, <a href="/A215943/b215943.txt">Table of n, a(n) for n = 1..440</a>
 %H A215943 V. Kotesovec, <a href="https://oeis.org/wiki/User:Vaclav_Kotesovec">Non-attacking chess pieces</a>

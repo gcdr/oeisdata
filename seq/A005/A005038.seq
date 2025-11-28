@@ -1,13 +1,13 @@
-%I A005038 M2026 #47 Jan 26 2024 08:36:14
+%I A005038 M2026 #50 Sep 26 2025 13:17:31
 %S A005038 1,1,2,12,57,366,2340,16252,115940,854981,6444826,49554420,387203390,
 %T A005038 3068067060,24604111560,199398960212,1631041938108,13451978877748,
 %U A005038 111765327780200,934774244822704,7865200653146905
 %N A005038 Number of nonequivalent dissections of a polygon into n pentagons by nonintersecting diagonals up to rotation.
 %C A005038 Also, with a different offset, number of colored quivers in the 3-mutation class of a quiver of Dynkin type A_n. - _N. J. A. Sloane_, Jan 22 2013
-%C A005038 Number of oriented polyominoes composed of n pentagonal cells of the hyperbolic regular tiling with Schläfli symbol {5,oo}. A stereographic projection of this tiling on the Poincaré disk can be obtained via the Christensson link. For oriented polyominoes, chiral pairs are counted as two. - _Robert A. Russell_, Jan 23 2024
+%C A005038 Number of oriented polyominoes composed of n pentagonal cells of the hyperbolic regular tiling with Schläfli symbol {5,oo}. A stereographic projection of this tiling on the Poincaré disk can be obtained via the Christersson link. For oriented polyominoes, chiral pairs are counted as two. - _Robert A. Russell_, Jan 23 2024
 %D A005038 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
 %H A005038 G. C. Greubel, <a href="/A005038/b005038.txt">Table of n, a(n) for n = 1..1000</a>
-%H A005038 Malin Christensson, <a href="http://malinc.se/m/ImageTiling.php">Make hyperbolic tilings of images</a>, web page, 2019.
+%H A005038 Malin Christersson, <a href="http://malinc.se/m/ImageTiling.php">Make hyperbolic tilings of images</a>, web page, 2019.
 %H A005038 F. Harary, E. M. Palmer, R. C. Read, <a href="/A000108/a000108_20.pdf">On the cell-growth problem for arbitrary polygons, computer printout, circa 1974</a>
 %H A005038 F. Harary, E. M. Palmer and R. C. Read, <a href="https://doi.org/10.1016/0012-365X(75)90041-2">On the cell-growth problem for arbitrary polygons</a>, Discr. Math. 11 (1975), 371-389.
 %H A005038 Hermund A. Torkildsen, <a href="https://arxiv.org/abs/1004.4512">Colored quivers of type A and the cell-growth problem</a>, arXiv:1004.4512 [math.RT], 2010.

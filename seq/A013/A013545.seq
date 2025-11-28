@@ -1,4 +1,4 @@
-%I A013545 #18 Nov 15 2016 03:21:23
+%I A013545 #19 Sep 30 2025 20:34:18
 %S A013545 -1,13,29,397,74927,2570951,495301,2978520989,879781928617,
 %T A013545 1962442468445621,4485273725677799419,17810142018975186977
 %N A013545 Numerator of the coefficient [x^(2n+1)] of the Taylor series arctanh(cosec(x) - coth(x)).
@@ -7,5 +7,5 @@
 %t A013545 Numerator[Take[CoefficientList[Series[ArcTanh[Csc[x] - Coth[x]], {x, 0, 35}], x], {2, -2, 2}]] (* _Vincenzo Librandi_, Nov 12 2016 *)
 %K A013545 sign,frac
 %O A013545 0,2
-%A A013545 Patrick Demichel (patrick.demichel(AT)hp.com)
+%A A013545 _Patrick Demichel_
 %E A013545 Name edited by _R. J. Mathar_, Dec 21 2011

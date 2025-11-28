@@ -1,8 +1,8 @@
-%I A078770 #13 Sep 24 2017 17:28:41
+%I A078770 #17 Jul 15 2025 18:05:54
 %S A078770 1,1,1,2,1,1,2,1,1,3,1,2,2,1,1,2,4,1,2,1,1,5,1,2,3,1,2,2,1,1,2,4,1,2,
 %T A078770 1,1,2,7,1,5,1,2,3,1,3,2,4,1,2,1,1,2,1,1,5,1,10,3,4,3,2,7,1,3,1,2,2,1,
 %U A078770 1,3,7,2,2,1,1,2,4,1,2,4,1,5,1,2,3,1
-%N A078770 a(n) = the least positive integer k such that k^2 + k + N is prime, where N is the n-th positive odd integer.
+%N A078770 a(n) = the least positive integer k such that k^2 + k + 2*n - 1 is prime.
 %C A078770 k^2 + k + n for even n is always even and > 2, so is never prime.
 %H A078770 Charles R Greathouse IV, <a href="/A078770/b078770.txt">Table of n, a(n) for n = 1..10000</a>
 %e A078770 For n=1, k^2+k+1 is prime for k=1, since it is 3.

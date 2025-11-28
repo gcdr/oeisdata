@@ -1,8 +1,9 @@
-%I A033332 #16 Apr 04 2023 22:57:51
+%I A033332 #18 Mar 14 2025 09:50:26
 %S A033332 12,6,4,3,2,2,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 %T A033332 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 %U A033332 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 %N A033332 a(n) = floor(12/n).
+%H A033332 <a href="/index/Rec#order_01">Index entries for linear recurrences with constant coefficients</a>, signature (1).
 %t A033332 Floor[12/Range[100]] (* _Harvey P. Dale_, Jun 06 2022 *)
 %o A033332 (Python)
 %o A033332 def a(n): return 12//n

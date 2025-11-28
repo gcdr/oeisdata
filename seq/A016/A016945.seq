@@ -1,4 +1,4 @@
-%I A016945 #124 Feb 16 2025 08:32:33
+%I A016945 #131 Nov 05 2025 15:21:47
 %S A016945 3,9,15,21,27,33,39,45,51,57,63,69,75,81,87,93,99,105,111,117,123,129,
 %T A016945 135,141,147,153,159,165,171,177,183,189,195,201,207,213,219,225,231,
 %U A016945 237,243,249,255,261,267,273,279,285,291,297,303,309,315,321,327
@@ -15,7 +15,7 @@
 %H A016945 Friedrich L. Bauer, <a href="https://doi.org/10.1007/978-3-540-85790-7_57">Der (ungerade) Collatz-Baum</a>, Informatik Spektrum 31 (Springer, April 2008), pp. 379-384.
 %H A016945 Milan Janjic, <a href="https://web.archive.org/web/20181001110015/https://pmf.unibl.org/wp-content/uploads/2017/10/enumfor.pdf">Two Enumerative Functions</a>.
 %H A016945 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>.
-%H A016945 Luis Manuel Rivera, <a href="http://arxiv.org/abs/1406.3081">Integer sequences and k-commuting permutations</a>, arXiv preprint arXiv:1406.3081 [math.CO], 2014.
+%H A016945 Luis Manuel Rivera, <a href="https://arxiv.org/abs/1406.3081">Integer sequences and k-commuting permutations</a>, arXiv preprint arXiv:1406.3081 [math.CO], 2014.
 %H A016945 William A. Stein, <a href="http://wstein.org/Tables/dimskg0new.gp">Dimensions of the spaces S_k^{new}(Gamma_0(N))</a>.
 %H A016945 William A. Stein, <a href="http://wstein.org/Tables/">The modular forms database</a>.
 %H A016945 Dennis P. Walsh, <a href="http://capone.mtsu.edu/dwalsh/POWRCORR.pdf">The correlation for a power curve on nonnegative support</a>.
@@ -32,6 +32,7 @@
 %F A016945 From _Amiram Eldar_, Nov 22 2024: (Start)
 %F A016945 Product_{n>=0} (1 - (-1)^n/a(n)) = sqrt(2)/2 (A010503).
 %F A016945 Product_{n>=0} (1 + (-1)^n/a(n)) = sqrt(3/2) (A115754). (End)
+%F A016945 a(n) = (n+2)^2 - (n-1)^2. - _Alexander Yutkin_, Mar 15 2025
 %p A016945 seq(6*n+3, n=0..60); # _Dennis P. Walsh_, Aug 20 2013
 %p A016945 A016945:=n->6*n+3; # _Wesley Ivan Hurt_, Sep 29 2013
 %t A016945 Range[3, 350, 6] (* _Vladimir Joseph Stephan Orlovsky_, May 26 2011 *)
@@ -46,7 +47,7 @@
 %o A016945 (Maxima) makelist(6*n+3, n, 0, 60); /* _Wesley Ivan Hurt_, Sep 29 2013 */
 %o A016945 (PARI) {a(n) = 6*n + 3} \\ _Wesley Ivan Hurt_, Sep 29 2013
 %o A016945 (PARI) x='x+O('x^60); Vec(3*(1+x)/(1-x)^2) \\ _Altug Alkan_, Apr 08 2016
-%o A016945 (Sage) [3*(1+2*n) for n in (0..60)] # _G. C. Greubel_, Sep 18 2019
+%o A016945 (SageMath) [3*(1+2*n) for n in (0..60)] # _G. C. Greubel_, Sep 18 2019
 %o A016945 (GAP) List([0..60], n-> 3*(1+2*n)); # _G. C. Greubel_, Sep 18 2019
 %Y A016945 Third row of A092260.
 %Y A016945 Cf. A004442, A008588, A010503, A016921, A016933, A016957, A016969, A019679, A115754.

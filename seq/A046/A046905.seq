@@ -1,4 +1,4 @@
-%I A046905 #8 Aug 21 2015 22:45:30
+%I A046905 #10 Jul 09 2025 03:52:13
 %S A046905 1,1,0,0,24,360,17400,1066800
 %N A046905 Posets with n points with property that there is no nonsingelton proper subset T for which x not in T implies x<T or x>T or x incomparable with every element of T.
 %D A046905 J. A. Wright, There are 718 6-point topologies, quasi-orderings and transgraphs, Notices Amer. Math. Soc., 17 (1970), p. 646, Abstract #70T-A106.
@@ -7,4 +7,4 @@
 %Y A046905 A subset of the posets enumerated in A003431. Cf. A046904.
 %K A046905 nonn
 %O A046905 0,5
-%A A046905 John A. Wright.
+%A A046905 John A. Wright

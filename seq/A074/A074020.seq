@@ -1,9 +1,9 @@
-%I A074020 #18 May 13 2024 02:13:08
+%I A074020 #19 Sep 22 2025 16:00:40
 %S A074020 0,2,6,49,350,2352,16807,117992,823200,5767202,40339201,282492056
 %N A074020 Number of elements of GF(7^n) with trace 1 and subtrace 3.
 %C A074020 Same as the number of elements of GF(7^n) with trace 2 and subtrace 5. Same as the number of elements of GF(7^n) with trace 3 and subtrace 6. Same as the number of elements of GF(7^n) with trace 4 and subtrace 6. Same as the number of elements of GF(7^n) with trace 5 and subtrace 5. Same as the number of elements of GF(7^n) with trace 6 and subtrace 3.
 %H A074020 Frank Ruskey, <a href="http://combos.org/TSGF7">Number of Elements of GF(7^n) with given trace and subtrace</a>
-%o A074020 (Sage)
+%o A074020 (SageMath)
 %o A074020 def a(n):
 %o A074020     ans = 0
 %o A074020     for x in GF(7^n):

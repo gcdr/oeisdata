@@ -1,4 +1,4 @@
-%I A014062 #57 May 01 2024 07:18:29
+%I A014062 #65 Nov 05 2025 15:35:27
 %S A014062 1,1,6,84,1820,53130,1947792,85900584,4426165368,260887834350,
 %T A014062 17310309456440,1276749965026536,103619293824707388,
 %U A014062 9176358300744339432,880530516383349192480,91005567811177478095440,10078751602022313874633200,1190739044344491048895397910
@@ -8,9 +8,10 @@
 %C A014062 It appears that a(n) == n (mod n^3) only if n is 1, an odd prime, the square of an odd prime, or the cube of an odd prime. - _Gary Detlefs_, Aug 06 2013; corrected by _Michel Marcus_, May 29 2015
 %D A014062 J. Roberts, Lure of the Integers, Math. Assoc. America, 1992, p. 265.
 %H A014062 T. D. Noe, <a href="/A014062/b014062.txt">Table of n, a(n) for n=0..100</a>
-%H A014062 H. Alzer and J. Sandor, <a href="https://dx.doi.org/10.2298/AADM110206008A">On a binomial coefficient and a product of prime numbers</a>, Appl. An. Disc. Math. 5 (2011) 87-92.
-%H A014062 H. J. Brothers, <a href="http://www.brotherstechnology.com/math/pascals-prism.html">Pascal's Prism: Supplementary Material</a>.
-%H A014062 H. Gupta and S. P. Khare, <a href="http://pefmath2.etf.rs/files/101/580.pdf">On C(k^2,k) and the product of the first k primes</a>, Publ. Fac. Electrotechn. Belgrade, Ser. Math. Phys. 25-29 (1977) 577-598.
+%H A014062 Horst A. Alzer and Jozsef J. B. Šandor, <a href="https://dx.doi.org/10.2298/AADM110206008A">On a binomial coefficient and a product of prime numbers</a>, Appl. An. Disc. Math. 5 (2011) 87-92.
+%H A014062 Harlan J. Brothers, <a href="http://www.brotherstechnology.com/math/pascals-prism.html">Pascal's Prism: Supplementary Material</a>.
+%H A014062 Harlan J. Brothers, <a href="https://doi.org/10.35834/2025/3701067">Pascal's triangle, Sidi polynomials, and powers of e</a>, Missouri J. Math. Sci. (2025) Vol. 37, No. 1, 67-78.
+%H A014062 Hansraj Gupta and S. P. Khare, <a href="https://www.jstor.org/stable/43667790">On C(k^2,k) and the product of the first k primes</a>, Publ. Fac. Electrotechn. Belgrade, Ser. Math. Phys. 25-29 (1977) 577-598.
 %F A014062 a(n) ~ 1/sqrt(2*Pi) * (e*n)^(n - 1/2). - _Charles R Greathouse IV_, Jul 07 2007
 %F A014062 a(n) = Sum_{k=0..n} binomial(n, k) * binomial(n^2 - n, k). - _Paul D. Hanna_, Nov 18 2015
 %F A014062 a(n) = (n+1)*A177234(n). - _R. J. Mathar_, Jan 25 2019
@@ -18,7 +19,9 @@
 %F A014062 a(n) = n*(n+1)*A177784(n).
 %F A014062 a(n) = (n+1)*A177456(n)/(n-1).
 %F A014062 a(n) = (n+1)*A177788(n)/n. (End)
+%F A014062 a(n) = [x^n] (1+x)^(n^2). - _Vaclav Kotesovec_, Aug 06 2025
 %t A014062 Table[Binomial[n^2,n],{n,0,22}] (* _Vladimir Joseph Stephan Orlovsky_, Mar 03 2011 *)
+%t A014062 Table[SeriesCoefficient[(1+x)^(n^2), {x, 0, n}], {n, 0, 20}] (* _Vaclav Kotesovec_, Aug 06 2025 *)
 %o A014062 (PARI) {a(n) = sum(k=0, n, binomial(n, k)*binomial(n^2-n, k))}
 %o A014062 for(n=0,20,print1(a(n),", ")) \\ _Paul D. Hanna_, Nov 18 2015
 %o A014062 (Magma) [Binomial(n^2,n): n in [0..30]]; // _G. C. Greubel_, Apr 29 2024

@@ -1,10 +1,10 @@
-%I A101533 #14 Jan 17 2019 13:44:06
+%I A101533 #17 Oct 19 2025 23:55:59
 %S A101533 0,3,8,20,47,83,695,1488,4166,8399,52098
 %N A101533 Indices of primes in sequence defined by A(0) = 67, A(n) = 10*A(n-1) - 13 for n > 0.
-%C A101533 Numbers n such that (590*10^n + 13)/9 is prime.
-%C A101533 Numbers n such that digit 6 followed by n >= 0 occurrences of digit 5 followed by digit 7 is prime.
+%C A101533 Numbers k such that (590*10^k + 13)/9 is prime.
+%C A101533 Numbers k such that digit 6 followed by k >= 0 occurrences of digit 5 followed by digit 7 is prime.
 %C A101533 Numbers corresponding to terms <= 695 are certified primes.
-%C A101533 a(12) > 10^5. - Robert Price, Sep 20 2015
+%C A101533 a(12) > 10^5. - _Robert Price_, Sep 20 2015
 %D A101533 Klaus Brockhaus and Walter Oberschelp, Zahlenfolgen mit homogenem Ziffernkern, MNU 59/8 (2006), pp. 462-467.
 %H A101533 Makoto Kamada, <a href="https://stdkmd.net/nrr/6/65557.htm#prime">Prime numbers of the form 655...557</a>.
 %H A101533 <a href="/index/Pri#Pri_rep">Index entries for primes involving repunits</a>.

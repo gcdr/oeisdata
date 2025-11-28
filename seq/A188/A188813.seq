@@ -1,8 +1,8 @@
-%I A188813 #5 Mar 31 2012 12:36:14
+%I A188813 #9 Oct 03 2025 04:52:17
 %S A188813 0,1,1,2,4,2,9,20,20,9,44,272,448,272,44,265,6032,25904,25904,6032,
 %T A188813 265,1854,205312,2952608,7114752,2952608,205312,1854,14833,9672448,
 %U A188813 596917696,4566151168,4566151168,596917696,9672448,14833,133496,601903360
-%N A188813 T(n,k)=Number of nXk array permutations with each element moved but remaining in its original row or its original column
+%N A188813 T(n,k)=Number of nXk array permutations with each element moved but remaining in its original row or its original column.
 %C A188813 Table starts
 %C A188813 .....0.......1.........2..........9.........44.......265.........1854.....14833
 %C A188813 .....1.......4........20........272.......6032....205312......9672448.601903360
@@ -21,4 +21,4 @@
 %Y A188813 Column 1 is A000166
 %K A188813 nonn,tabl
 %O A188813 1,4
-%A A188813 _R. H. Hardin_ Apr 11 2011
+%A A188813 _R. H. Hardin_, Apr 11 2011

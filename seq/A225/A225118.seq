@@ -1,10 +1,10 @@
-%I A225118 #39 Aug 25 2023 12:03:37
+%I A225118 #41 Nov 10 2025 21:50:40
 %S A225118 1,3,1,9,22,1,27,235,121,1,81,1996,3446,620,1,243,15349,63854,40314,
 %T A225118 3119,1,729,112546,963327,1434812,422087,15618,1,2187,806047,12960063,
 %U A225118 37898739,26672209,4157997,78117,1,6561,5705752,162711868,840642408,1151050534
 %N A225118 Triangle read by rows, coefficients of the generalized Eulerian polynomials A_{n, 4}(x) in descending order.
 %C A225118 The row sums equal the quadruple factorial numbers A047053 and the alternating row sums, i.e., sum((-1)^k*T(n,k),k=0..n), are up to a sign A079858. - _Johannes W. Meijer_, May 04 2013
-%H A225118 Peter Luschny, <a href="http://oeis.org/wiki/User:Peter_Luschny/EulerianPolynomialsGeneralized">Generalized Eulerian polynomials</a>.
+%H A225118 Peter Luschny, <a href="https://oeis.org/wiki/User:Peter_Luschny/EulerianPolynomialsGeneralized">Generalized Eulerian polynomials</a>.
 %H A225118 Zhe Wang and Zhi-Yong Zhu, <a href="https://ajc.maths.uq.edu.au/pdf/87/ajc_v87_p198.pdf">The spiral property of q-Eulerian numbers of type B</a>, The Australasian Journal of Combinatorics, Volume 87(1) (2023), Pages 198-202. See p. 199.
 %F A225118 G.f. of the polynomials is gf(n, k) = k^n*n!*(1/x-1)^(n+1)[t^n](x*e^(t*x/k)*(1-x*e(t*x))^(-1)) for k = 4; here [t^n]f(t,x) is the coefficient of t^n in f(t,x).
 %F A225118 From _Wolfdieter Lang_, Apr 12 2017 : (Start)
@@ -44,7 +44,7 @@
 %p A225118 A225117 := (n,k) -> 4^n*coeff(P(n,x),x,n-k):
 %p A225118 seq(print(seq(A225117(n,k), k=0..n)), n=0..5);  # _Peter Luschny_, Mar 08 2014
 %t A225118 gf[n_, k_] := Module[{f, s}, f[x_, t_] := x*Exp[t*x/k]/(1-x*Exp[t*x]); s = Series[f[x, t], {t, 0, n+2}]; ((1-x)/x)^(n+1)*k^n*n!*SeriesCoefficient[s, {t, 0, n}]]; Table[Table[SeriesCoefficient[gf[n, 4], {x, 0, n-k}], {k, 0, n}], {n, 0, 8}] // Flatten (* _Jean-François Alcover_, Jan 27 2014, after Maple *)
-%o A225118 (Sage)
+%o A225118 (SageMath)
 %o A225118 @CachedFunction
 %o A225118 def EB(n, k, x):  # Modified cardinal B-splines
 %o A225118     if n == 1: return 0 if (x < 0) or (x >= 1) else 1

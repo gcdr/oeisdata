@@ -1,4 +1,4 @@
-%I A129194 #93 Feb 03 2024 10:16:00
+%I A129194 #94 Nov 05 2025 15:22:06
 %S A129194 0,1,2,9,8,25,18,49,32,81,50,121,72,169,98,225,128,289,162,361,200,
 %T A129194 441,242,529,288,625,338,729,392,841,450,961,512,1089,578,1225,648,
 %U A129194 1369,722,1521,800,1681,882,1849,968,2025,1058,2209,1152,2401,1250,2601,1352
@@ -13,7 +13,7 @@
 %H A129194 Vincenzo Librandi, <a href="/A129194/b129194.txt">Table of n, a(n) for n = 0..960</a>
 %H A129194 Olivier Bordelles, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL18/Bordelles/bord21.html">A Multidimensional Cesaro Type Identity and Applications</a>, J.
 %H A129194 Int. Seq. 18 (2015) # 15.3.7.
-%H A129194 John M. Campbell, <a href="http://arxiv.org/abs/1105.3399">An Integral Representation of Kekulé Numbers, and Double Integrals Related to Smarandache Sequences</a>, arXiv preprint arXiv:1105.3399 [math.GM], 2011.
+%H A129194 John M. Campbell, <a href="https://arxiv.org/abs/1105.3399">An Integral Representation of Kekulé Numbers, and Double Integrals Related to Smarandache Sequences</a>, arXiv preprint arXiv:1105.3399 [math.GM], 2011.
 %H A129194 <a href="/index/Rec#order_06">Index entries for linear recurrences with constant coefficients</a>, signature (0,3,0,-3,0,1).
 %F A129194 G.f.: x*(1 + 2*x + 6*x^2 + 2*x^3 + x^4)/(1-x^2)^3.
 %F A129194 a(n+1) = denominator((1/(2*Pi))*Integral_{t=0..2*Pi} exp(i*n*t)(-((Pi-t)/i)^2)), i=sqrt(-1).

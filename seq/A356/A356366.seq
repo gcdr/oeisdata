@@ -1,5 +1,6 @@
-%I A356366 #40 Oct 19 2022 07:09:30
-%S A356366 1,2,5,18,523,44884,227838935,1086696880188,1566338449874827101
+%I A356366 #44 Jul 17 2025 14:51:14
+%S A356366 1,2,5,18,523,44884,227838935,1086696880188,1566338449874827101,
+%T A356366 694432397394116143569646
 %N A356366 Number of (directed) circuits in the complete undirected graph on n labeled vertices.
 %C A356366 In other words, number of closed trails up to cyclic rotations (cf. A357855).
 %F A356366 a(n) = Sum_{k = 0..n(n-1)/2} A357887(n,k) = n + n * Sum_{k = 1..n(n-1)/2} A357885(n,k) / k.
@@ -9,3 +10,4 @@
 %O A356366 1,2
 %A A356366 _Max Alekseyev_, Oct 16 2022
 %E A356366 a(9) from _Bert Dobbelaere_, Oct 17 2022
+%E A356366 a(10) from _Max Alekseyev_, Jul 17 2025

@@ -1,4 +1,4 @@
-%I A219507 #29 Feb 21 2025 06:18:31
+%I A219507 #31 Nov 26 2025 15:59:40
 %S A219507 4,6,109,111,1330669,1330671,2356194280407770989,2356194280407770991,
 %T A219507 13080769480548649962914459850235688797656360638877986029,
 %U A219507 13080769480548649962914459850235688797656360638877986031
@@ -8,8 +8,8 @@
 %C A219507 _Jeffrey Shallit_ has shown that the Pierce expansion of the quadratic irrational (c - sqrt(c^2 - 4))/2 has the form [c(0) - 1, c(0) + 1, c(1) - 1, c(1) + 1, c(2) - 1, c(2) + 1, ...], where c(0) = c and c(n+1) = c(n)^3 - 3*c(n). This is the case c = 5. For other cases see A006276 (c = 3), A219506 (c = 4) and A006275 (essentially c = 6 apart from the initial term).
 %C A219507 The Pierce expansion of ((c - sqrt(c^2 - 4))/2)^(3^n) is [c(n) - 1, c(n) + 1, c(n+1) - 1, c(n+1) + 1, c(n+2) - 1, c(n+2) + 1, ...].
 %H A219507 G. C. Greubel, <a href="/A219507/b219507.txt">Table of n, a(n) for n = 0..13</a>
-%H A219507 T. A. Pierce, <a href="http://www.jstor.org/stable/2299963">On an algorithm and its use in approximating roots of algebraic equations</a>, Amer. Math. Monthly, Vol. 36 No. 10, (1929) p.523-525.
-%H A219507 Jeffrey Shallit, <a href="https://web.archive.org/web/2024*/https://www.fq.math.ca/Scanned/22-4/shallit1.pdf">Some predictable Pierce expansions</a>, Fib. Quart., 22 (1984), 332-335.
+%H A219507 T. A. Pierce, <a href="https://www.jstor.org/stable/2299963">On an algorithm and its use in approximating roots of algebraic equations</a>, Amer. Math. Monthly, Vol. 36 No. 10, (1929) p.523-525.
+%H A219507 Jeffrey Shallit, <a href="https://www.fq.math.ca/Scanned/22-4/shallit1.pdf">Some predictable Pierce expansions</a>, Fib. Quart., 22 (1984), 332-335.
 %H A219507 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/PierceExpansion.html">Pierce Expansion</a>
 %F A219507 a(2*n) = (1/2*(5 + sqrt(21)))^(3^n) + (1/2*(5 - sqrt(21)))^(3^n) - 1.
 %F A219507 a(2*n+1) = (1/2*(5 + sqrt(21)))^(3^n) + (1/2*(5 - sqrt(21)))^(3^n) + 1.

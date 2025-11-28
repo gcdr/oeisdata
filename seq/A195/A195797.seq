@@ -1,6 +1,6 @@
-%I A195797 #5 Mar 31 2012 12:36:24
+%I A195797 #9 Oct 03 2025 06:17:41
 %S A195797 1,1,4,125,5052,5828215,479534519840
-%N A195797 Number of triangular nXnXn 0..n arrays with all rows and diagonals having the same length having the same sum, with corners zero
+%N A195797 Number of triangular nXnXn 0..n arrays with all rows and diagonals having the same length having the same sum, with corners zero.
 %C A195797 Diagonal of A195805
 %e A195797 Some solutions for n=5
 %e A195797 ......0..........0..........0..........0..........0..........0..........0
@@ -10,4 +10,4 @@
 %e A195797 ..0.0.5.0.0..0.5.5.0.0..0.5.1.2.0..0.5.2.3.0..0.5.2.1.0..0.1.3.0.0..0.4.2.3.0
 %K A195797 nonn
 %O A195797 1,3
-%A A195797 _R. H. Hardin_ Sep 23 2011
+%A A195797 _R. H. Hardin_, Sep 23 2011

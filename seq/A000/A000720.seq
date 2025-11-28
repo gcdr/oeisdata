@@ -1,4 +1,4 @@
-%I A000720 M0256 N0090 #399 Feb 16 2025 08:32:21
+%I A000720 M0256 N0090 #434 Nov 12 2025 13:33:43
 %S A000720 0,1,2,2,3,3,4,4,4,4,5,5,6,6,6,6,7,7,8,8,8,8,9,9,9,9,9,9,10,10,11,11,
 %T A000720 11,11,11,11,12,12,12,12,13,13,14,14,14,14,15,15,15,15,15,15,16,16,16,
 %U A000720 16,16,16,17,17,18,18,18,18,18,18,19,19,19,19,20,20,21,21,21,21,21,21
@@ -13,19 +13,22 @@
 %D A000720 M. Abramowitz and I. A. Stegun, eds., Handbook of Mathematical Functions, National Bureau of Standards Applied Math. Series 55, 1964 (and various reprintings), p. 870.
 %D A000720 Tom M. Apostol, Introduction to Analytic Number Theory, Springer-Verlag, 1976, p. 8.
 %D A000720 Raymond Ayoub, An Introduction to the Analytic Theory of Numbers, Amer. Math. Soc., 1963; p. 129.
+%D A000720 Florian Cajori, A History of Mathematical Notations, Dover edition (2012), par. 409.
 %D A000720 Richard Crandall and Carl Pomerance, Prime Numbers: A Computational Perspective, Springer, NY, 2001; see p. 5.
 %D A000720 G. H. Hardy and E. M. Wright, An Introduction to the Theory of Numbers, 5th ed., Oxford Univ. Press, 1979, Theorems 6, 7, 420.
 %D A000720 G. J. O. Jameson, The Prime Number Theorem, Camb. Univ. Press, 2003. [See also the review by D. M. Bressoud (link below).]
 %D A000720 Władysław Narkiewicz, The Development of Prime Number Theory, Springer-Verlag, 2000.
+%D A000720 Paulo Ribenboim, The Little Book of Bigger Primes, Springer-Verlag NY 2004. See pp. 132-133, 157-184.
 %D A000720 József Sándor, Dragoslav S. Mitrinovic and Borislav Crstici, Handbook of Number Theory I, Springer Science & Business Media, 2005, Section VII.1. (For inequalities, etc.).
 %D A000720 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
 %D A000720 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
 %D A000720 Gerald Tenenbaum and Michel Mendès France, Prime Numbers and Their Distribution, AMS Providence RI, 1999.
-%D A000720 V. Udrescu, Some remarks concerning the conjecture pi(x + y) <= pi(x) + pi(y). Math. Pures Appl. 20 (1975), 1201-1208.
-%H A000720 Daniel Forgues, <a href="/A000720/b000720.txt">Table of n, pi(n) for n = 1..100000</a> (first 20000 terms from N. J. A. Sloane; see below for links with 823852 terms (Verma) and more (Caldwell))
+%D A000720 V. Udrescu, Some remarks concerning the conjecture pi(x + y) <= pi(x) + pi(y), Rev. Roumaine Math. Pures Appl. 20 (1975), 1201-1208.
+%H A000720 Daniel Forgues, <a href="/A000720/b000720.txt">Table of n, pi(n) for n = 1..100000</a> (first 20000 terms from N. J. A. Sloane; see below for links with 823852 terms (Verma) and more (Caldwell)).
+%H A000720 Gaurav Verma and Srujan Sapkal, <a href="/A000720/a000720.txt">Table of n, pi(n) for n = 1..823852</a>.
 %H A000720 M. Abramowitz and I. A. Stegun, eds., <a href="http://www.convertit.com/Go/ConvertIt/Reference/AMS55.ASP">Handbook of Mathematical Functions</a>, National Bureau of Standards, Applied Math. Series 55, Tenth Printing, 1972 [alternative scanned copy].
 %H A000720 Christian Axler, <a href="http://docserv.uni-duesseldorf.de/servlets/DocumentServlet?id=26247">Über die Primzahl-Zählfunktion, die n-te Primzahl und verallgemeinerte Ramanujan-Primzahlen</a>, Ph.D. thesis 2013, in German, English summary.
-%H A000720 Paul T. Bateman and Harold G. Diamond, <a href="http://www.jstor.org/stable/2974443">A Hundred Years of Prime Numbers</a>, Amer. Math. Month., Vol. 103, No. 9 (Nov. 1996), pp. 729-741, MAA Washington DC.
+%H A000720 Paul T. Bateman and Harold G. Diamond, <a href="https://www.jstor.org/stable/2974443">A Hundred Years of Prime Numbers</a>, Amer. Math. Month., Vol. 103, No. 9 (Nov. 1996), pp. 729-741, MAA Washington DC.
 %H A000720 Steve Bennett, <a href="https://web.archive.org/web/20110926073136/http://www.freewebs.com/history_of_mathematics">The role of Riemann's zeta function in the analytic proof of the Prime Number Theorem</a>, 2004.
 %H A000720 Claudio Bonanno and Mirko S. Mega, <a href="https://doi.org/10.1016/S0960-0779(03)00433-8">Toward a dynamical model for prime numbers</a>, Chaos, Solitons & Fractals, Vol. 20, No. 1 (2004), pp. 107-118; <a href="https://arxiv.org/abs/cond-mat/0309251">arXiv preprint</a>, arXiv:cond-mat/0309251, 2003.
 %H A000720 David M. Bressoud, <a href="https://www.maa.org/press/maa-reviews/the-prime-number-theorem">Review of "The Prime Number Theorem" by G. J. O. Jameson</a>, MAA Reviews, 2005. - from _N. J. A. Sloane_, Dec 29 2018
@@ -41,7 +44,7 @@
 %H A000720 R. Gray and J. D. Mitchell, <a href="http://dx.doi.org/10.1016/j.disc.2007.08.075">Largest subsemigroups of the full transformation monoid</a>, Discrete Math., 308 (2008), 4801-4810.
 %H A000720 G. H. Hardy and J. E. Littlewood, <a href="https://doi.org/10.1007/BF02422942">Contributions to the theory of the Riemann zeta-function and the theory of the distribution of primes</a>, Acta Mathematica, Vol. 41 (1916), pp. 119-196.
 %H A000720 G. H. Hardy and J. E. Littlewood, <a href="https://doi.org/10.1007/BF02403921">Some problems of 'Partitio numerorum'; III: On the expression of a number as a sum of primes</a>, Acta Math., Vol. 44, No. 1 (1923), pp. 1-70.
-%H A000720 Mehdi Hassani, <a href="https://www.emis.de/journals/JIPAM/article643.html?sid=643">Approximation of pi(x) by Psi(x)</a>, J. Inequ. Pure Appl. Math., Vol. 7, No. 1 (2006), Article #7.
+%H A000720 Mehdi Hassani, <a href="https://web.archive.org/web/20220202154211/https://www.emis.de/journals/JIPAM/article643.html">Approximation of pi(x) by Psi(x)</a>, J. Inequ. Pure Appl. Math., Vol. 7, No. 1 (2006), Article #7.
 %H A000720 Y.-C. Kim, <a href="https://arxiv.org/abs/math/0502062">Note on the Prime Number Theorem</a>, arXiv:math/0502062 [math.NT], 2005.
 %H A000720 Tzanio V. Kolev, <a href="https://www.researchgate.net/publication/2585909_On_the_Number_of_Prime_Numbers_less_than_a_Given_Quantity">On the number of Prime Numbers less than a Given Quantity</a>, 2000.
 %H A000720 Angel V. Kumchev, <a href="https://tigerweb.towson.edu/akumchev/distributionofprimesnotes.pdf">The Distribution of Prime Numbers</a>, 2005.
@@ -55,19 +58,19 @@
 %H A000720 Simon Plouffe, <a href="/A000051/a000051_2.pdf">1031 Generating Functions</a>, Appendix to Thesis, Montreal, 1992
 %H A000720 Omar E. Pol, <a href="http://www.polprimos.com">Determinacion geometrica de los numeros primos y perfectos</a>, personal website, 2001 (?); <a href="http://www.polprimos.com/imagenespub/polprdipi.jpg">Illustration of initial terms: Divisors and pi(x)</a>.
 %H A000720 Bernhard Riemann, <a href="http://www.maths.tcd.ie/pub/HistMath/People/Riemann/Zeta/">On the Number of Prime Numbers</a>, 1859, last page (various transcripts)
-%H A000720 J. Barkley Rosser, <a href="http://www.jstor.org/stable/2371291">Explicit Bounds for Some Functions of Prime Numbers</a>, American Journal of Mathematics, Vol. 63, No. 1 (1941), pp. 211-232.
+%H A000720 J. Barkley Rosser, <a href="https://www.jstor.org/stable/2371291">Explicit Bounds for Some Functions of Prime Numbers</a>, American Journal of Mathematics, Vol. 63, No. 1 (1941), pp. 211-232.
 %H A000720 J. Barkley Rosser and Lowell Schoenfeld, <a href="http://projecteuclid.org/euclid.ijm/1255631807">Approximate formulas for some functions of prime numbers</a>, Ill. Journ. Math. 6 (1962) 64-94.
 %H A000720 J. Barkley Rosser and Lowell Schoenfeld, <a href="/A000720/a000720.html">Approximate formulas for some functions of prime numbers</a> (scan of some key pages from an ancient annotated photocopy).
 %H A000720 Sebastian Martin Ruiz and Jonathan Sondow, <a href="https://arxiv.org/abs/math/0210312">Formulas for pi(n) and the n-th prime</a>, arXiv:math/0210312 [math.NT], 2002, 2014.
 %H A000720 Jeffrey Shallit, <a href="http://www.cs.uwaterloo.ca/~shallit/bib/pi.bib">Bibliography on calculation of pi(x)</a>.
 %H A000720 Jonathan Sondow, <a href="https://www.jstor.org/stable/40391170">Ramanujan Primes and Bertrand's Postulate</a>, The American Mathematical Monthly, Vol. 116, No. 7 (2009), pp. 630-635; <a href="https://arxiv.org/abs/0907.5232">arXiv preprint</a>, arXiv:0907.5232 [math.NT], 2009-2010.
 %H A000720 Igor Turkanov, <a href="https://arxiv.org/abs/1603.02914">The prime counting function</a>, arXiv:1603.02914 [math.NT], 2016.
-%H A000720 Gaurav Verma and Srujan Sapkal, <a href="/A000720/a000720.txt">Table of n, pi(n) for n = 1..823852</a>.
 %H A000720 Matthew R. Watkins, <a href="https://web.archive.org/web/20200111044829/http://empslocal.ex.ac.uk/people/staff/mrwatkin//zeta/ss-a.htm">The distribution of Prime Numbers</a>.
 %H A000720 Matthew R. Watkins, <a href="https://web.archive.org/web/20040214162502/http://www.maths.ex.ac.uk/~mwatkins/zeta/pnt.htm">The prime number theorem (some references)</a>.
 %H A000720 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/PrimeCountingFunction.html">Prime Counting Function</a>.
 %H A000720 Wikipedia, <a href="http://en.wikipedia.org/wiki/Prime_number_theorem">Prime number theorem</a>.
 %H A000720 Wikipedia, <a href="http://en.wikipedia.org/wiki/Prime-counting_function">Prime-counting function</a>.
+%H A000720 C. P. Willans, <a href="https://doi.org/10.2307/3611701">On formulae for the nth prime</a>, Math. Gazette 48 (1964), 413-415.
 %H A000720 Marek Wolf, <a href="https://doi.org/10.1016/S0378-4371(99)00318-0">Applications of Statistical Mechanics in Number Theory</a>, Physica A, vol. 274, no. 2, 1999, pp. 149-157; <a href="http://www.maths.ex.ac.uk/~mwatkins/zeta/wolfgas.htm">1999 preprint</a>.
 %H A000720 Wolfram Research, <a href="http://functions.wolfram.com/NumberTheoryFunctions/PrimePi/03/02">First 50 values of pi(n)</a>.
 %H A000720 <a href="/index/Cor#core">Index entries for "core" sequences</a>
@@ -101,6 +104,8 @@
 %F A000720 (End)
 %F A000720 Sum_{k=2..n} 1/a(k) ~ (1/2) * log(n)^2 + O(log(n)) (de Koninck and Ivić, 1980). - _Amiram Eldar_, Mar 08 2021
 %F A000720 a(n) ~ 1/(n^(1/n)-1). - _Thomas Ordowski_, Jan 30 2023
+%F A000720 a(n) = Sum_{j=2..n} floor(((j - 1)! + 1)/j - floor((j - 1)!/j)) [Mináč, unpublished] (see Ribenboim, pp. 132-133). - _Stefano Spezia_, Apr 13 2025
+%F A000720 a(n) = n - 1 - Sum_{k=2..floor(log_2(n))} pi_k(n), where pi_k(n) is the number of k-almost primes <= n. - _Daniel Suteu_, Aug 27 2025
 %e A000720 There are 3 primes <= 6, namely 2, 3 and 5, so pi(6) = 3.
 %p A000720 with(numtheory); A000720 := pi; [ seq(A000720(i),i=1..50) ];
 %t A000720 A000720[n_] := PrimePi[n]; Table[ A000720[n], {n, 1, 100} ]
@@ -108,7 +113,7 @@
 %t A000720 Accumulate[Table[Boole[PrimeQ[n]],{n,100}]] (* _Harvey P. Dale_, Jan 17 2015 *)
 %o A000720 (PARI) A000720=vector(100,n,omega(n!)) \\ For illustration only; better use A000720=primepi
 %o A000720 (PARI) vector(300,j,primepi(j)) \\ _Joerg Arndt_, May 09 2008
-%o A000720 (Sage) [prime_pi(n) for n in range(1, 79)]  # _Zerinvary Lajos_, Jun 06 2009
+%o A000720 (SageMath) [prime_pi(n) for n in range(1, 79)]  # _Zerinvary Lajos_, Jun 06 2009
 %o A000720 (Magma) [ #PrimesUpTo(n): n in [1..200] ];  // _Bruno Berselli_, Jul 06 2011
 %o A000720 (Haskell)
 %o A000720 a000720 n = a000720_list !! (n-1)

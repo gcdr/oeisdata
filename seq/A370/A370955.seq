@@ -1,4 +1,4 @@
-%I A370955 #23 Apr 28 2024 18:07:08
+%I A370955 #24 Nov 05 2025 15:22:48
 %S A370955 1,-1,-4,-29,-265,-2745,-30773,-364315,-4488749,-57020414,-741999700,
 %T A370955 -9845906898,-132774990781,-1814964497342,-25098172218816,
 %U A370955 -350548840292011,-4938909144117611,-70118741489312657,-1002259422501603334,-14412940220878338617,-208393139882994584383
@@ -7,7 +7,7 @@
 %H A370955 Hendrik A. Kramers and Gregory H. Wannier. <a href="https://doi.org/10.1103/PhysRev.60.263">Statistics of the two-dimensional ferromagnet. Part II</a>. Phys. Rev. 60 (1941), 263-276. See (45), p. 264.
 %H A370955 Hendrik A. Kramers and Gregory H. Wannier, <a href="/A370955/a370955.pdf">Extract 1 from page 264 of Part II.</a>
 %H A370955 Hendrik A. Kramers and Gregory H. Wannier, <a href="/A370955/a370955_1.pdf">Extract 2 from page 264 of Part II.</a>
-%H A370955 Gandhimohan M. Viswanathan, <a href="http://doi.org/10.1088/1742-5468/2015/07/P07004">The hypergeometric series for the partition function of the 2D Ising model</a>, J. Stat. Mech. (2015) P07004; arXiv:<a href="http://arxiv.org/abs/1411.2495">1411.2495</a> [cond-mat.stat-mech], 2014-2015.
+%H A370955 Gandhimohan M. Viswanathan, <a href="http://doi.org/10.1088/1742-5468/2015/07/P07004">The hypergeometric series for the partition function of the 2D Ising model</a>, J. Stat. Mech. (2015) P07004; arXiv:<a href="https://arxiv.org/abs/1411.2495">1411.2495</a> [cond-mat.stat-mech], 2014-2015.
 %H A370955 Wikipedia, <a href="https://en.wikipedia.org/wiki/Square_lattice_Ising_model">Square lattice Ising model</a>.
 %F A370955 From _Vaclav Kotesovec_, Apr 28 2024: (Start)
 %F A370955 a(n) ~ -c * 16^n / n^2, where c = 0.071286406...

@@ -1,6 +1,6 @@
-%I A231355 #4 Nov 08 2013 08:23:15
+%I A231355 #6 Jul 23 2025 06:25:29
 %S A231355 1,5,69,2190,151357,22223936,6484084119,3749929770640
-%N A231355 Number of (n+1)X(n+1) 0..3 arrays with no element unequal to a strict majority of its horizontal, vertical and antidiagonal neighbors, with values 0..3 introduced in row major order
+%N A231355 Number of (n+1)X(n+1) 0..3 arrays with no element unequal to a strict majority of its horizontal, vertical and antidiagonal neighbors, with values 0..3 introduced in row major order.
 %C A231355 Diagonal of A231363
 %e A231355 Some solutions for n=4
 %e A231355 ..0..0..0..0..0....0..0..0..0..1....0..0..0..1..1....0..1..1..1..2

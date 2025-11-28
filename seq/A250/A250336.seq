@@ -1,8 +1,8 @@
-%I A250336 #4 Nov 19 2014 07:14:24
+%I A250336 #6 Jul 23 2025 12:19:15
 %S A250336 44,429,68,2056,907,108,6785,5264,1989,172,17796,20085,14040,4409,272,
 %T A250336 39949,59396,62041,37824,9771,424,80144,147903,206724,193437,101264,
 %U A250336 21523,648,147681,325312,569693,725596,596245,266448,46941,996,254620
-%N A250336 T(n,k)=Number of length n+5 0..k arrays with every six consecutive terms having the maximum of some three terms equal to the minimum of the remaining three terms
+%N A250336 T(n,k)=Number of length n+5 0..k arrays with every six consecutive terms having the maximum of some three terms equal to the minimum of the remaining three terms.
 %C A250336 Table starts
 %C A250336 ...44....429.....2056......6785.....17796......39949.......80144......147681
 %C A250336 ...68....907.....5264.....20085.....59396.....147903......325312......651369

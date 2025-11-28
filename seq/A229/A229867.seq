@@ -1,7 +1,7 @@
-%I A229867 #4 Dec 18 2015 18:18:42
+%I A229867 #6 Jul 23 2025 05:47:58
 %S A229867 4,64,8704,15106048,354003288064,115737559589453824,
 %T A229867 542277543422445827915776
-%N A229867 Number of n X n 0..3 arrays with corresponding row and column sums equal
+%N A229867 Number of n X n 0..3 arrays with corresponding row and column sums equal.
 %C A229867 Column 3 of A229870
 %e A229867 Some solutions for n=4
 %e A229867 ..0..0..2..2....0..2..0..2....0..0..2..2....0..2..0..0....0..2..2..0

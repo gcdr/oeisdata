@@ -1,10 +1,10 @@
-%I A238964 #24 Jan 20 2024 16:06:49
+%I A238964 #29 Nov 05 2025 15:22:26
 %S A238964 0,1,2,4,3,7,12,4,10,12,20,32,5,13,17,28,33,52,80,6,16,22,36,24,46,72,
 %T A238964 54,84,128,192,7,19,27,44,31,59,92,64,75,116,176,135,204,304,448,8,22,
 %U A238964 32,52,38,72,112,40,82,96,148,224,104,160,186,280,416,216,324,480,704,1024
 %N A238964 Size of divisor lattice in canonical order.
 %H A238964 Andrew Howroyd, <a href="/A238964/b238964.txt">Table of n, a(n) for n = 0..2713</a> (rows 0..20)
-%H A238964 S.-H. Cha, E. G. DuCasse, and L. V. Quintas, <a href="http://arxiv.org/abs/1405.5283">Graph Invariants Based on the Divides Relation and Ordered by Prime Signatures</a>, arxiv:1405.5283 [math.NT], 2014.
+%H A238964 S.-H. Cha, E. G. DuCasse, and L. V. Quintas, <a href="https://arxiv.org/abs/1405.5283">Graph Invariants Based on the Divides Relation and Ordered by Prime Signatures</a>, arxiv:1405.5283 [math.NT], 2014.
 %F A238964 T(n,k) = A062799(A063008(n,k)). - _Andrew Howroyd_, Mar 24 2020
 %e A238964 Triangle T(n,k) begins:
 %e A238964   0;
@@ -21,6 +21,11 @@
 %p A238964 T:= n-> map(x-> (p-> add(nops(factorset(d)), d=divisors
 %p A238964     (p)))(mul(ithprime(i)^x[i], i=1..nops(x))), b(n$2))[]:
 %p A238964 seq(T(n), n=0..9);  # _Alois P. Heinz_, Mar 24 2020
+%t A238964 A062799[n_] := PrimeNu[Divisors[n]] // Total;
+%t A238964 b[n_, i_] := b[n, i] = If[n == 0 || i == 1, {Table[1, {n}]}, Join[Prepend[#, i]& /@ b[n - i, Min[n - i, i]], b[n, i - 1]]];
+%t A238964 A063008[n_] := Product[Prime[i]^#[[i]], {i, 1, Length[#]}]& /@ b[n, n];
+%t A238964 T[n_] := A062799 /@ A063008[n];
+%t A238964 Table[T[n], {n, 0, 9}] // Flatten (* _Jean-François Alcover_, Apr 16 2025, after _Alois P. Heinz_ in A063008 *)
 %o A238964 (PARI) \\ here b(n) is A062799.
 %o A238964 b(n)={sumdiv(n, d, omega(d))}
 %o A238964 N(sig)={prod(k=1, #sig, prime(k)^sig[k])}

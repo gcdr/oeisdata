@@ -1,4 +1,4 @@
-%I A198341 #10 Mar 07 2017 11:26:49
+%I A198341 #11 Nov 05 2025 15:22:21
 %S A198341 0,1,7,7,28,28,30,30,84,84,84,94,94,94,210,104,94,247,104,243,243,210,
 %T A198341 247,283,462,247,579,278,243,565,210,320,462,243,547,681,283,283,565,
 %U A198341 667,247,661,278,547,1216,579,565,793,644,1174,547,661,320,1506,924
@@ -12,7 +12,7 @@
 %D A198341 D. W. Matula, A natural rooted tree enumeration by prime factorization, SIAM Review, 10, 1968, 273.
 %D A198341 D. Bonchev, The overall Wiener index - a new tool for characterization of molecular topology, J. Chem. Inf. Comput. Sci., 2001, 41, 582-592.
 %D A198341 X. H. Li and J. J. Lin, The overall hyper-Wiener index, J. Math. Chemistry, 33, 2003, 81-89.
-%H A198341 E. Deutsch, <a href="http://arxiv.org/abs/1111.4288"> Rooted tree statistics from Matula numbers</a>, arXiv:1111.4288.
+%H A198341 E. Deutsch, <a href="https://arxiv.org/abs/1111.4288"> Rooted tree statistics from Matula numbers</a>, arXiv:1111.4288.
 %H A198341 <a href="/index/Mat#matula">Index entries for sequences related to Matula-Goebel numbers</a>
 %F A198341 A198339(n) gives the sequence of the Matula-Goebel numbers of all the subtrees of the rooted tree with Matula-Goebel number n. A196060(k) is the hyper-Wiener index of the rooted tree with Matula-Goebel number k.
 %e A198341 a(4)=7 because the rooted tree with Matula-Goebel number 4 is V; each of the 3 one-vertex subtrees has hyper-Wiener index 0, each of the 2 one-edge subtrees has hyper-Wiener index 1, and the tree V itself has hyper-Wiener index 5; 0+0+0+1+1+5=7.

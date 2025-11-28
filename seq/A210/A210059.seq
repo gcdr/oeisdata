@@ -1,8 +1,8 @@
-%I A210059 #5 Mar 31 2012 12:37:31
+%I A210059 #9 Oct 03 2025 15:40:20
 %S A210059 111659,26510247,6488330257,1622061565898,409244238764475,
 %T A210059 103709585657221609,26336924516842226001,6694938325332208321451,
 %U A210059 1702693751940512877132139,433138276610022010132013399
-%N A210059 Number of (n+1)X7 0..3 arrays with every 2X2 subblock having one, two or four distinct values, and new values 0..3 introduced in row major order
+%N A210059 Number of (n+1)X7 0..3 arrays with every 2X2 subblock having one, two or four distinct values, and new values 0..3 introduced in row major order.
 %C A210059 Column 6 of A210061
 %H A210059 R. H. Hardin, <a href="/A210059/b210059.txt">Table of n, a(n) for n = 1..210</a>
 %e A210059 Some solutions for n=4
@@ -13,4 +13,4 @@
 %e A210059 ..2..2..2..3..1..1..2....3..3..2..3..2..3..3....2..3..0..3..3..2..3
 %K A210059 nonn
 %O A210059 1,1
-%A A210059 _R. H. Hardin_ Mar 16 2012
+%A A210059 _R. H. Hardin_, Mar 16 2012

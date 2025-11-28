@@ -1,4 +1,4 @@
-%I A214618 #116 Feb 16 2025 08:33:18
+%I A214618 #118 Jul 09 2025 04:34:17
 %S A214618 9,81,512,5041,14884,3805914951397,4902227890625,235260548044817,
 %T A214618 443689062789184,902576261010649
 %N A214618 Perfect powers z^r that can be written in the form x^p + y^q, where x, y, z are positive coprime integers and p, q, r are positive integers satisfying 1/p + 1/q + 1/r < 1.
@@ -23,4 +23,4 @@
 %Y A214618 Cf. A001597.
 %K A214618 hard,more,nonn
 %O A214618 1,1
-%A A214618 _Arkadiusz Wesolowski_, Mar 06 2013.
+%A A214618 _Arkadiusz Wesolowski_, Mar 06 2013

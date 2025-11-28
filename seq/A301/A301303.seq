@@ -1,4 +1,4 @@
-%I A301303 #12 Mar 19 2018 04:20:43
+%I A301303 #13 Nov 05 2025 15:22:41
 %S A301303 1,1,1,1,3,3,1,1,3,3,2,2,2,4,2,1,3,5,3,5,5,4,3,3,3,5,3,3,4,6,2,1,4,3,
 %T A301303 4,5,3,4,2,3,6,5,2,4,6,4,2,2,3,6,3,3,4,6,4,4,5,4,4,5,2,4,4,1,7,8,2,7,
 %U A301303 8,5,3,5,5,7,4,5,6,5,2,5
@@ -8,7 +8,7 @@
 %C A301303 See also A301304 and A301314 for similar conjectures.
 %H A301303 Zhi-Wei Sun, <a href="/A301303/b301303.txt">Table of n, a(n) for n = 1..10000</a>
 %H A301303 Zhi-Wei Sun, <a href="http://dx.doi.org/10.1016/j.jnt.2016.11.008">Refining Lagrange's four-square theorem</a>, J. Number Theory 175(2017), 167-190.
-%H A301303 Zhi-Wei Sun, <a href="http://arxiv.org/abs/1701.05868">Restricted sums of four squares</a>, arXiv:1701.05868 [math.NT], 2017-2018.
+%H A301303 Zhi-Wei Sun, <a href="https://arxiv.org/abs/1701.05868">Restricted sums of four squares</a>, arXiv:1701.05868 [math.NT], 2017-2018.
 %e A301303 a(2) = 1 since 2 = 1^2 + 0^2 + 0^2 + 1^2 with 1 + 23*0 = 1^3.
 %e A301303 a(4) = 1 since 4 = 2^2 + 0^2 + 0^2 + 0^2 with 2^2 + 23*0 = 2^2*1^3.
 %e A301303 a(7) = 1 since 7 = 2^2 + 1^2 + 1^2 + 1^2 with 2^2 + 23*1^2 = 3^3.

@@ -1,7 +1,7 @@
-%I A033487 #134 Feb 16 2025 08:32:36
+%I A033487 #140 Nov 05 2025 15:21:54
 %S A033487 0,6,30,90,210,420,756,1260,1980,2970,4290,6006,8190,10920,14280,
 %T A033487 18360,23256,29070,35910,43890,53130,63756,75900,89700,105300,122850,
-%U A033487 142506,164430,188790,215760,245520,278256,314160,353430,396270,442890,493506
+%U A033487 142506,164430,188790,215760,245520,278256,314160,353430,396270,442890,493506,548340,607620
 %N A033487 a(n) = n*(n+1)*(n+2)*(n+3)/4.
 %C A033487 Non-vanishing diagonal of (A132440)^4/4. Third subdiagonal of unsigned A238363 without the zero. Cf. A130534 for relations to colored forests, disposition of flags on flagpoles, and colorings of the vertices of the complete graph K_4. - _Tom Copeland_, Apr 05 2014
 %C A033487 Total number of pips on a set of trominoes (3-armed dominoes) with up to n pips on each arm. - _Alan Shore_ and _N. J. A. Sloane_, Jan 06 2016
@@ -14,7 +14,7 @@
 %H A033487 Ömür Deveci and Anthony G. Shannon, <a href="https://doi.org/10.20948/mathmontis-2021-50-4">Some aspects of Neyman triangles and Delannoy arrays</a>, Mathematica Montisnigri (2021) Vol. L, 36-43.
 %H A033487 Sela Fried, <a href="https://arxiv.org/abs/2406.18923">Counting r X s rectangles in nondecreasing and Smirnov words</a>, arXiv:2406.18923 [math.CO], 2024. See p. 9.
 %H A033487 Aleksandar Petojević and Nenad Đapić, <a href="http://www.mi.sanu.ac.rs/~gvm/radovi/AP-Budva.pdf">The vAm(a,b,c;z) function</a>, Preprint 2013.
-%H A033487 Luis Manuel Rivera, <a href="http://arxiv.org/abs/1406.3081">Integer sequences and k-commuting permutations</a>, arXiv preprint arXiv:1406.3081 [math.CO], 2014-2015.
+%H A033487 Luis Manuel Rivera, <a href="https://arxiv.org/abs/1406.3081">Integer sequences and k-commuting permutations</a>, arXiv preprint arXiv:1406.3081 [math.CO], 2014-2015.
 %H A033487 Hasan Unal, <a href="https://www.jstor.org/stable/10.4169/math.mag.88.1.37">Proof Without Words: Sums of Products of Three Consecutive Integers</a>, Mathematics Magazine, Vol. 88, No. 1 (February 2015), pp. 37-38.
 %H A033487 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/CocktailPartyGraph.html">Cocktail Party Graph</a>.
 %H A033487 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/ConnectedDominatingSet.html">Connected Dominating Set</a>.
@@ -38,6 +38,7 @@
 %F A033487 a(n) = A002378(binomial(n+2,2)-1). - _Salvador Cerdá_, Nov 04 2016
 %F A033487 a(n) = Sum_{k=0..n} A007531(k+2). See Proof Without Words link. - _Michel Marcus_, Oct 29 2021
 %F A033487 Sum_{n>=1} (-1)^(n+1)/a(n) = 16*log(2)/3 - 32/9. - _Amiram Eldar_, Nov 02 2021
+%F A033487 E.g.f.: exp(x)*x*(24 + 36*x + 12*x^2 + x^3)/4. - _Stefano Spezia_, Jul 03 2025
 %e A033487 G.f. = 6*x + 30*x^2 + 90*x^3 + 210*x^4 + 420*x^5 + 756*x^6 + 1260*x^7 + ...
 %p A033487 [seq(binomial(n+3,4)*6, n=0..40)]; # _Zerinvary Lajos_, Jul 18 2006
 %t A033487 Table[Times @@ (n + Range[0, 3])/4, {n, 0, 40}] (* _Harvey P. Dale_, Nov 27 2013 *)

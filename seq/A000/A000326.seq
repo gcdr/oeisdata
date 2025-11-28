@@ -1,4 +1,4 @@
-%I A000326 M3818 N1562 #495 Feb 22 2025 00:02:50
+%I A000326 M3818 N1562 #536 Nov 26 2025 15:59:31
 %S A000326 0,1,5,12,22,35,51,70,92,117,145,176,210,247,287,330,376,425,477,532,
 %T A000326 590,651,715,782,852,925,1001,1080,1162,1247,1335,1426,1520,1617,1717,
 %U A000326 1820,1926,2035,2147,2262,2380,2501,2625,2752,2882,3015,3151
@@ -25,35 +25,41 @@
 %C A000326 A generalization of the Comment dated Apr 10 2003 follows. (k-3)*A000292(n-2) plus the average of the first n (2k-1)-gonal numbers is the n-th k-gonal number. - _Charlie Marion_, Nov 01 2020
 %C A000326 a(n+1) is the number of Dyck paths of size (3,3n+1); i.e., the number of NE lattice paths from (0,0) to (3,3n+1) which stay above the line connecting these points. - _Harry Richman_, Jul 13 2021
 %C A000326 a(n) is the largest sum of n positive integers x_1, ..., x_n such that x_i | x_(i+1)+1 for each 1 <= i <= n, where x_(n+1) = x_1. - _Yifan Xie_, Feb 21 2025
+%C A000326 a(n) is the number of all integer triples (a,b,c) with 0 <= a < n, 0 < b,c < n and a+b < n. It is the number of new game situations in the game Risk or Safety (see A387260). - _Ruediger Jehn_, Sep 18 2025
 %D A000326 Tom M. Apostol, Introduction to Analytic Number Theory, Springer-Verlag, 1976, pages 2 and 311.
 %D A000326 Raymond Ayoub, An Introduction to the Analytic Theory of Numbers, Amer. Math. Soc., 1963; p. 129.
 %D A000326 Albert H. Beiler, Recreations in the Theory of Numbers, Dover, NY, 1964, p. 189.
-%D A000326 E. Deza and M. M. Deza, Figurate numbers, World Scientific Publishing (2012), page 6.
+%D A000326 John H. Conway and Richard K. Guy, The Book of Numbers, New York: Springer-Verlag, 1996. See pp. 38, 40.
+%D A000326 Elena Deza and Michel Marie Deza, Figurate numbers, World Scientific Publishing (2012), pages 2, 6, 91.
 %D A000326 L. E. Dickson, History of the Theory of Numbers. Carnegie Institute Public. 256, Washington, DC, Vol. 1, 1919; Vol. 2, 1920; Vol. 3, 1923, see vol. 2, p. 1.
 %D A000326 Jan Gullberg, Mathematics from the Birth of Numbers, W. W. Norton & Co., NY & London, 1997, §8.6 Figurate Numbers, p. 291.
 %D A000326 G. H. Hardy and E. M. Wright, An Introduction to the Theory of Numbers. 3rd ed., Oxford Univ. Press, 1954, p. 284.
 %D A000326 Clifford A. Pickover, A Passion for Mathematics, Wiley, 2005; see p. 64.
+%D A000326 Alfred S. Posamentier, Math Charmers, Tantalizing Tidbits for the Mind, Prometheus Books, NY, 2003, pages 52-53, 129-130, 132.
 %D A000326 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
 %D A000326 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A000326 James J. Tattersall, Elementary Number Theory in Nine Chapters, Cambridge University Press, 1999, pages 7-10.
 %D A000326 André Weil, Number theory: an approach through history; from Hammurapi to Legendre, Birkhäuser, Boston, 1984; see p. 186.
 %D A000326 David Wells, The Penguin Dictionary of Curious and Interesting Numbers, Penguin Books, 1987, pp. 98-100.
 %D A000326 Douglas B. West, Introduction to Graph Theory, 2nd ed., Prentice-Hall, NJ, 2001.
 %H A000326 Daniel Mondot, <a href="/A000326/b000326.txt">Table of n, a(n) for n = 0..10000</a> (first 1000 terms by T. D. Noe)
-%H A000326 George E. Andrews, <a href="http://dx.doi.org/10.1090/S0273-0979-07-01180-9">Euler's "De Partitio Numerorum"</a>, Bull. Amer. Math. Soc., 44 (No. 4, 2007), 561-573.
-%H A000326 S. Barbero, U. Cerruti and N. Murru, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL13/Barbero/barbero5.html">Transforming Recurrent Sequences by Using the Binomial and Invert Operators</a>, J. Int. Seq. 13 (2010) # 10.7.7, section 4.4.
+%H A000326 George E. Andrews, <a href="https://doi.org/10.1090/S0273-0979-07-01180-9">Euler's "De Partitio Numerorum"</a>, Bull. Amer. Math. Soc., 44 (No. 4, 2007), 561-573.
+%H A000326 Stefano Barbero, Umberto Cerruti, and Nadir Murru, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL13/Barbero/barbero5.html">Transforming Recurrent Sequences by Using the Binomial and Invert Operators</a>, J. Int. Seq. 13 (2010) # 10.7.7, section 4.4.
 %H A000326 Jordan Bell, <a href="https://arxiv.org/abs/math/0510054">Euler and the pentagonal number theorem</a>, arXiv:math/0510054 [math.HO], 2005-2006.
 %H A000326 Anicius Manlius Severinus Boethius, <a href="https://archive.org/stream/aniciimanliitor01friegoog#page/n114/mode/2up">De institutione arithmetica libri duo</a>, Book 2, sections 13-14.
-%H A000326 C. K. Cook and M. R. Bacon, <a href="https://web.archive.org/web/2024*/https://www.fq.math.ca/Papers1/52-4/CookBacon4292014.pdf">Some polygonal number summation formulas</a>, Fib. Q., 52 (2014), 336-343.
+%H A000326 Charles K. Cook and Michael R. Bacon, <a href="https://www.fq.math.ca/Papers1/52-4/CookBacon4292014.pdf">Some polygonal number summation formulas</a>, Fib. Q., 52 (2014), 336-343.
+%H A000326 David O. H. Cutler and Neil J. A. Sloane, <a href="https://arxiv.org/abs/2511.15864">Cutting a Pancake with an Exotic Knife</a>, arXiv:2511.15864[math.CO], 2025.
 %H A000326 Olivier Danvy, <a href="https://arxiv.org/abs/2412.03127">Summa Summarum: Moessner's Theorem without Dynamic Programming</a>, arXiv:2412.03127 [cs.DM], 2024. See p. 33.
 %H A000326 Stephan Eberhart, <a href="/A000326/a000326_2.pdf">Letter to N. J. A. Sloane, Jan 06 1978</a>, also scanned copy of Mathematical-Physical Correspondence, No. 22, Christmas 1977.
-%H A000326 Leonhard Euler, <a href="http://math.dartmouth.edu/~euler/pages/E542.html">De mirabilibus proprietatibus numerorum pentagonalium</a>, par. 1
-%H A000326 Leonhard Euler, <a href="http://math.dartmouth.edu/~euler/pages/E243.html">Observatio de summis divisorum</a> p. 8.
+%H A000326 Leonhard Euler, <a href="https://scholarlycommons.pacific.edu/euler-works/243/">Observatio de summis divisorum</a>, E243 (1760). See p. 8.
+%H A000326 Leonhard Euler, <a href="https://scholarlycommons.pacific.edu/euler-works/542/">De mirabilibus proprietatibus numerorum pentagonalium</a>, E542 (1783). See par. 1.
 %H A000326 Leonhard Euler, <a href="https://arxiv.org/abs/math/0411587">An observation on the sums of divisors</a>, arXiv:math/0411587 [math.HO], 2004, 2009. See p. 8.
 %H A000326 Leonhard Euler, <a href="http://arXiv.org/abs/math.HO/0505373">On the remarkable properties of the pentagonal numbers</a>, arXiv:math/0505373 [math.HO], 2005.
-%H A000326 Rodney T. Hansen, <a href="https://web.archive.org/web/2024*/https://www.fq.math.ca/Scanned/8-1/hansen.pdf">Arithmetic of pentagonal numbers</a>, Fib. Quart., 8 (1970), 83-87.
+%H A000326 Shyam Sunder Gupta, <a href="https://doi.org/10.1007/978-981-97-2465-9_15">Beauty of Number 153</a>, Exploring the Beauty of Fascinating Numbers, Springer (2025) Ch. 15, 399-410.
+%H A000326 Rodney T. Hansen, <a href="https://www.fq.math.ca/Scanned/8-1/hansen.pdf">Arithmetic of pentagonal numbers</a>, Fib. Quart., 8 (1970), 83-87.
 %H A000326 Alfred Hoehn, <a href="/A000326/a000326.pdf">Illustration of initial terms of A000326, A005449, A045943, A115067</a>
 %H A000326 INRIA Algorithms Project, <a href="http://ecs.inria.fr/services/structure?nbr=339">Encyclopedia of Combinatorial Structures 339</a>
-%H A000326 Milan Janjic and Boris Petkovic, <a href="http://arxiv.org/abs/1301.4550">A Counting Function</a>, arXiv preprint arXiv:1301.4550 [math.CO], 2013. - From _N. J. A. Sloane_, Feb 13 2013
+%H A000326 Milan Janjic and Boris Petkovic, <a href="https://arxiv.org/abs/1301.4550">A Counting Function</a>, arXiv preprint arXiv:1301.4550 [math.CO], 2013. - From _N. J. A. Sloane_, Feb 13 2013
 %H A000326 Jangwon Ju and Daejun Kim, <a href="https://arxiv.org/abs/2010.16123">The pentagonal theorem of sixty-three and generalizations of Cauchy's lemma</a>, arXiv:2010.16123 [math.NT], 2020.
 %H A000326 Bir Kafle, Florian Luca and Alain Togbé, <a href="https://doi.org/10.33039/ami.2020.09.002">Pentagonal and heptagonal repdigits</a>, Annales Mathematicae et Informaticae. pp. 137-145.
 %H A000326 Sameen Ahmed Khan, <a href="https://doi.org/10.12732/ijam.v33i2.6">Sums of the powers of reciprocals of polygonal numbers</a>, Int'l J. of Appl. Math. (2020) Vol. 33, No. 2, 265-282.
@@ -61,11 +67,12 @@
 %H A000326 Clark Kimberling, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL10/Kimberling/kimberling26.html">Complementary Equations</a>, Journal of Integer Sequences, Vol. 10 (2007), Article 07.1.4.
 %H A000326 Clark Kimberling and John E. Brown, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL7/Kimberling/kimber67.html">Partial Complements and Transposable Dispersions</a>, J. Integer Seqs., Vol. 7, 2004.
 %H A000326 R. P. Loh, A. G. Shannon and A. F. Horadam, <a href="/A000969/a000969.pdf">Divisibility Criteria and Sequence Generators Associated with Fermat Coefficients</a>, Preprint, 1980.
+%H A000326 Adriana Mora and Eric Bravo, <a href="https://doi.org/10.7546/nntdm.2025.31.4.819-828">On b-repdigit polygonal numbers, Notes Num. Theory Disc. Math. (2025) Vol. 31, No. 4, 819-828. See p. 820, Table 2.
 %H A000326 Simon Plouffe, <a href="https://arxiv.org/abs/0911.4975">Approximations de séries génératrices et quelques conjectures</a>, Dissertation, Université du Québec à Montréal, 1992; arXiv:0911.4975 [math.NT], 2009.
 %H A000326 Simon Plouffe, <a href="/A000051/a000051_2.pdf">1031 Generating Functions</a>, Appendix to Thesis, Montreal, 1992
 %H A000326 Omar E. Pol, <a href="http://www.polprimos.com/imagenespub/polnum01.jpg">Illustration of initial terms of A000217, A000290, A000326, A000384, A000566, A000567</a>
 %H A000326 Cliff Reiter, <a href="http://hdl.handle.net/10385/2864">Polygonal Numbers and Fifty One Stars</a>, Lafayette College, Easton, PA (2019).
-%H A000326 Alison Schuetz and Gwyneth Whieldon, <a href="http://arxiv.org/abs/1401.7194">Polygonal Dissections and Reversions of Series</a>, arXiv:1401.7194 [math.CO], 2014.
+%H A000326 Alison Schuetz and Gwyneth Whieldon, <a href="https://arxiv.org/abs/1401.7194">Polygonal Dissections and Reversions of Series</a>, arXiv:1401.7194 [math.CO], 2014.
 %H A000326 W. Sierpiński, <a href="/A000326/a000326_1.pdf">Sur les nombres pentagonaux</a>, Bull. Soc. Royale Sciences Liège, 33 (No. 9-10, 1964), 513-517. [Annotated scanned copy]
 %H A000326 N. J. A. Sloane, <a href="/A000217/a000217.gif">Illustration of initial terms of A000217, A000290, A000326</a>.
 %H A000326 Michel Waldschmidt, <a href="http://webusers.imj-prg.fr/~michel.waldschmidt/articles/pdf/ContinuedFractionsOujda2015.pdf">Continued fractions</a>, Ecole de recherche CIMPA-Oujda, Théorie des Nombres et ses Applications, 18 - 29 mai 2015: Oujda (Maroc).
@@ -79,7 +86,7 @@
 %H A000326 <a href="/index/Rec#order_03">Index entries for linear recurrences with constant coefficients</a>, signature (3,-3,1).
 %H A000326 <a href="/index/Tu#2wis">Index entries for two-way infinite sequences</a>
 %F A000326 Product_{m > 0} (1 - q^m) = Sum_{k} (-1)^k*x^a(k). - _Paul Barry_, Jul 20 2003
-%F A000326 G.f.: x*(1+2*x)/(1-x)^3.
+%F A000326 G.f.: x*(1+2*x)/(1-x)^3. - _Simon Plouffe_ in his 1992 dissertation
 %F A000326 E.g.f.: exp(x)*(x+3*x^2/2).
 %F A000326 a(n) = n*(3*n-1)/2.
 %F A000326 a(-n) = A005449(n).
@@ -145,8 +152,15 @@
 %e A000326 .  1    5     12       22           35
 %e A000326 - _Philippe Deléham_, Mar 30 2013
 %p A000326 A000326 := n->n*(3*n-1)/2: seq(A000326(n), n=0..100);
-%p A000326 A000326:=-(1+2*z)/(z-1)**3; # _Simon Plouffe_ in his 1992 dissertation
-%p A000326 a[0]:=0:a[1]:=1:for n from 2 to 50 do a[n]:=2*a[n-1]-a[n-2]+3 od: seq(a[n], n=0..50); # _Miklos Kristof_, _Zerinvary Lajos_, Feb 18 2008
+%p A000326 isA000326 := proc(n)
+%p A000326     if issqr(1+24*n) and modp(1+sqrt(1+24*n),6) = 0 then
+%p A000326         true;
+%p A000326     elif n =0 then
+%p A000326         true;
+%p A000326     else
+%p A000326         false
+%p A000326     end if;
+%p A000326 end proc: # _R. J. Mathar_, Sep 26 2025
 %t A000326 Table[n (3 n - 1)/2, {n, 0, 60}] (* _Stefan Steinerberger_, Apr 01 2006 *)
 %t A000326 Array[# (3 # - 1)/2 &, 47, 0] (* _Zerinvary Lajos_, Jul 10 2009 *)
 %t A000326 LinearRecurrence[{3, -3, 1}, {0, 1, 5}, 61] (* _Harvey P. Dale_, Dec 27 2011 *)
@@ -157,7 +171,7 @@
 %t A000326 PolygonalNumber[5, Range[0, 20]] (* _Eric W. Weisstein_, Dec 01 2017 *)
 %o A000326 (PARI) a(n)=n*(3*n-1)/2
 %o A000326 (PARI) vector(100, n, n--; binomial(3*n, 2)/3) \\ _Altug Alkan_, Oct 06 2015
-%o A000326 (PARI) is_a000326 = my(s); n==0 || (issquare (24*n+1, &s) && s%6==5) \\ _Hugo Pfoertner_, Aug 03 2023
+%o A000326 (PARI) is_a000326(n) = my(s); n==0 || (issquare (24*n+1, &s) && s%6==5); \\ _Hugo Pfoertner_, Aug 03 2023
 %o A000326 (Haskell)
 %o A000326 a000326 n = n * (3 * n - 1) `div` 2  -- _Reinhard Zumkeller_, Jul 07 2012
 %o A000326 (Magma) [n*(3*n-1)/2 : n in [0..100]]; // _Wesley Ivan Hurt_, Oct 15 2015

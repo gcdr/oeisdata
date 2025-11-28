@@ -1,8 +1,9 @@
-%I A190339 #65 Oct 20 2024 02:09:04
+%I A190339 #73 Nov 10 2025 21:50:39
 %S A190339 2,6,15,105,105,231,15015,2145,36465,969969,4849845,10140585,10140585,
 %T A190339 22287,3231615,7713865005,7713865005,90751353,218257003965,1641030105,
 %U A190339 67282234305,368217318651,1841086593255
 %N A190339 The denominators of the subdiagonal in the difference table of the Bernoulli numbers.
+%C A190339 Apparently a(n) = A181131(n) for n>=2 (checked numerically up to n=640). - _R. J. Mathar_, Aug 25 2025
 %C A190339 The denominators of the T(n, n+1) with T(0, m) = A164555(m)/A027642(m) and T(n, m) = T(n-1, m+1) - T(n-1, m), n >= 1, m >= 0. For the numerators of the T(n, n+1) see A191972.
 %C A190339 The T(n, m) are defined by A164555(n)/A027642(n) and its successive differences, see the formulas.
 %C A190339 Reading the array T(n, m), see the examples, by its antidiagonals leads to A085737(n)/A085738(n).
@@ -13,7 +14,7 @@
 %D A190339 Ludwig Seidel, Über eine einfache Entstehungsweise der Bernoulli'schen Zahlen und einiger verwandten Reihen, Sitzungsberichte der mathematisch-physikalischen Classe der königlich bayerischen Akademie der Wissenschaften zu München, volume 7 (1877), 157-187.
 %H A190339 G. C. Greubel, <a href="/A190339/b190339.txt">Table of n, a(n) for n = 0..450</a>
 %H A190339 Kwang-Wu Chen, <a href="http://dx.doi.org/10.1016/j.jnt.2004.08.011">A summation on Bernoulli numbers</a>, Journal of Number Theory, Volume 111, Issue 2, April 2005, Pages 372-391.
-%H A190339 Peter Luschny, <a href="http://oeis.org/wiki/User:Peter_Luschny/ComputationAndAsymptoticsOfBernoulliNumbers">Computation and asymptotics of the Bernoulli numbers</a>
+%H A190339 Peter Luschny, <a href="https://oeis.org/wiki/User:Peter_Luschny/ComputationAndAsymptoticsOfBernoulliNumbers">Computation and asymptotics of the Bernoulli numbers</a>
 %F A190339 T(0, m) = A164555(m)/A027642(m) and T(n, m) = T(n-1, m+1) - T(n-1, m), n >= 1, m >= 0.
 %F A190339 T(1, m) = A051716(m+1)/A051717(m+1);
 %F A190339 T(n, n) = 2*T(n, n+1).
@@ -45,7 +46,7 @@
 %p A190339     denom( T(n+1,n)) ;
 %p A190339 end proc: # _R. J. Mathar_, Apr 25 2013
 %t A190339 nmax = 23; b[n_] := BernoulliB[n]; b[1]=1/2; bb = Table[b[n], {n, 0, 2*nmax-1}]; diff = Table[Differences[bb, n], {n, 1, nmax}]; Diagonal[diff] // Denominator (* _Jean-François Alcover_, Aug 08 2012 *)
-%o A190339 (Sage)
+%o A190339 (SageMath)
 %o A190339 def A190339_list(n) :
 %o A190339     T = matrix(QQ, 2*n+1)
 %o A190339     for m in (0..2*n) :

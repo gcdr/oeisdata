@@ -1,4 +1,4 @@
-%I A000312 M3619 N1469 #328 Feb 16 2025 08:32:20
+%I A000312 M3619 N1469 #358 Nov 05 2025 15:21:38
 %S A000312 1,1,4,27,256,3125,46656,823543,16777216,387420489,10000000000,
 %T A000312 285311670611,8916100448256,302875106592253,11112006825558016,
 %U A000312 437893890380859375,18446744073709551616,827240261886336764177,39346408075296537575424,1978419655660313589123979
@@ -30,6 +30,7 @@
 %C A000312 (End)
 %C A000312 For each n >= 1 there is a graph on a(n) vertices whose largest independent set has size n and whose independent set sequence is constant (specifically, for each k=1,2,...,n, the graph has n^n independent sets of size k). There is no graph of smaller order with this property (Ball et al. 2019). - _David Galvin_, Jun 13 2019
 %C A000312 For n >= 2 and 1 <= k <= n, a(n)*(n + 1)/4 + a(n)*(k - 1)*(n + 1 - k)/2*n is equal to the sum over all words w = w(1)...w(n) of length n over the alphabet {1, 2, ..., n} of the following quantity: Sum_{i=1..w(k)} w(i). Inspired by Problem 12432 in the AMM (see links). - _Sela Fried_, Dec 10 2023
+%C A000312 Also, dimension of the unique cohomology group of the smallest interval containing the poset of partitions decorated by Perm, i.e. the poset of pointed partitions. - _Bérénice Delcroix-Oger_, Jun 25 2025
 %D A000312 F. Bergeron, G. Labelle and P. Leroux, Combinatorial Species and Tree-Like Structures, Cambridge, 1998, pp. 62, 63, 87.
 %D A000312 L. Comtet, Advanced Combinatorics, Reidel, 1974, p. 173, #39.
 %D A000312 A. P. Prudnikov, Yu. A. Brychkov and O.I. Marichev, "Integrals and Series", Volume 1: "Elementary Functions", Chapter 4: "Finite Sums", New York, Gordon and Breach Science Publishers, 1986-1992, Eq. (4.2.2.37)
@@ -39,16 +40,18 @@
 %H A000312 Taylor Ball, David Galvin, Katie Hyry, and Kyle Weingartner, <a href="https://arxiv.org/abs/1901.06579">Independent set and matching permutations</a>, arXiv:1901.06579 [math.CO], 2019.
 %H A000312 Arthur T. Benjamin and Fritz Juhnke, <a href="http://dx.doi.org/10.1137/0405028">Another way of counting n^n</a>, SIAM J. Discrete Math., Vol. 5, No. 3 (1992), pp. 377-379. - _N. J. A. Sloane_, Jun 09 2011
 %H A000312 H. Bottomley, <a href="/A000312/a000312.gif">Illustration of initial terms</a>.
-%H A000312 H. J. Brothers and J. A. Knox, <a href="http://www.brotherstechnology.com/docs/mi_paper1.pdf">New closed-form approximations to the logarithmic constant e</a>, The Mathematical Intelligencer,  Vol. 20 (4), 1998, pp. 25-29. (Sequence appears as formula in Eq. (8))
+%H A000312 H. J. Brothers and J. A. Knox, <a href="http://www.brotherstechnology.com/docs/mi_paper1.pdf">New closed-form approximations to the logarithmic constant e</a>, The Mathematical Intelligencer, Vol. 20 (4), 1998, pp. 25-29. (Sequence appears as formula in Eq. (8))
 %H A000312 C. Chauve, S. Dulucq and O. Guibert, <a href="http://www.cecm.sfu.ca/~cchauve/Publications/SFCA00.ps">Enumeration of some labeled trees</a>, Proceedings of FPSAC/SFCA 2000 (Moscow), Springer, pp. 146-157.
+%H A000312 Bérénice Delcroix-Oger and Clément Dupont, <a href="https://arxiv.org/abs/2505.06094">Lie-operads and operadic modules from poset cohomology</a>, arXiv:2505.06094 [math.CO], 2025. See p. 34.
 %H A000312 Frank Ellermann, <a href="/A001792/a001792.txt">Illustration of binomial transforms</a>.
-%H A000312 José María Grau and Antonio M. Oller-Marcén, <a href="https://doi.org/10.4134/BKMS.2014.51.5.1325">On the last digit and the last non-zero digit of n^n in base b</a>, Bulletin of the Korean Mathematical Society, Vol. 51, No. 5 (2014), pp. 1325-1337; <a href="http://arxiv.org/abs/1203.4066">arXiv preprint</a>, arXiv:1203.4066 [math.NT], 2012.
+%H A000312 José María Grau and Antonio M. Oller-Marcén, <a href="https://doi.org/10.4134/BKMS.2014.51.5.1325">On the last digit and the last non-zero digit of n^n in base b</a>, Bulletin of the Korean Mathematical Society, Vol. 51, No. 5 (2014), pp. 1325-1337; <a href="https://arxiv.org/abs/1203.4066">arXiv preprint</a>, arXiv:1203.4066 [math.NT], 2012.
 %H A000312 Nick Hobson, <a href="https://web.archive.org/web/20160413232742/http://www.qbyte.org/puzzles/p048s.html">Solution to puzzle 48: Exponential equation</a>.
 %H A000312 INRIA Algorithms Project, <a href="http://ecs.inria.fr/services/structure?nbr=36">Encyclopedia of Combinatorial Structures 36</a>.
-%H A000312 Steven J. Miller (ed.), <a href="https://web.williams.edu/Mathematics/sjmiller/public_html/benford/BenfordBook_final_homework20.pdf">Exercises to “The Theory and Applications of Benford’s Law”</a>, Princeton University Press, 2015.
+%H A000312 Steven J. Miller (ed.), <a href="https://web.williams.edu/Mathematics/sjmiller/public_html/benford/BenfordBook_final_homework20.pdf">Exercises to "The Theory and Applications of Benford's Law"</a>, Princeton University Press, 2015.
 %H A000312 Mustafa Obaid et al., <a href="https://arxiv.org/abs/1307.7573">The number of complete exceptional sequences for a Dynkin algebra</a>, arXiv preprint arXiv:1307.7573 [math.RT], 2013.
 %H A000312 Franck Ramaharo, <a href="https://arxiv.org/abs/1805.10680">A generating polynomial for the pretzel knot</a>, arXiv:1805.10680 [math.CO], 2018.
 %H A000312 E. Vigren (Proposer), <a href="https://www.tandfonline.com/doi/full/10.1080/00029890.2023.2252314">Problem 12432</a>, Amer. Math. Monthly 130 (2023), p. 953.
+%H A000312 Elena L. Wang and Guoce Xin, <a href="https://arxiv.org/abs/2507.15654">On Ward Numbers and Increasing Schröder Trees</a>, arXiv:2507.15654 [math.CO], 2025. See pp. 12-13.
 %H A000312 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/HadamardsMaximumDeterminantProblem.html">Hadamard's Maximum Determinant Problem</a>.
 %H A000312 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/HankelMatrix.html">Hankel Matrix</a>.
 %H A000312 Dimitri Zvonkine, <a href="https://arxiv.org/abs/math/0403092">An algebra of power series...</a>, arXiv:math/0403092 [math.AG], 2004.
@@ -77,7 +80,7 @@
 %F A000312 a(n-1) = abs(p_n(2-n)), for n > 2, the single local extremum of the n-th row polynomial of A055137 with Bagula's sign convention. - _Tom Copeland_, Nov 15 2019
 %F A000312 Sum_{n>=1} (-1)^(n+1)/a(n) = A083648. - _Amiram Eldar_, Jun 25 2021
 %F A000312 Limit_{n->oo} (a(n+1)/a(n) - a(n)/a(n-1)) = e (see Brothers/Knox link). - _Harlan J. Brothers_, Oct 24 2021
-%F A000312 Conjecture: a(n) = Sum_{i=0..n} A048994(n, i) * A048993(n+i, n) for n >= 0; proved by Mike Earnest, see link at A354797. - _Werner Schulte_, Jun 03 and 19 2022
+%F A000312 Conjecture: a(n) = Sum_{i=0..n} A048994(n, i) * A048993(n+i, n) for n >= 0; proved by Mike Earnest, see link at A354797. - _Werner Schulte_, Jun 19 2022
 %e A000312 G.f. = 1 + x + 4*x^2 + 27*x^3 + 256*x^4 + 3125*x^5 + 46656*x^6 + 823543*x^7 + ...
 %p A000312 A000312 := n->n^n: seq(A000312(n), n=0..17);
 %t A000312 Array[ #^# &, 16] (* _Vladimir Joseph Stephan Orlovsky_, May 01 2008 *)

@@ -1,25 +1,27 @@
-%I A008932 #27 Apr 19 2018 15:02:12
+%I A008932 #37 Apr 30 2025 11:10:38
 %S A008932 1,1,2,5,17,65,292,1434,7875,47098,305226,2122983,15752080,124015310,
-%T A008932 1031857395,9041908204,83186138212
+%T A008932 1031857395,9041908204,83186138212,801235247145,8059220936672,
+%U A008932 84463182889321
 %N A008932 Number of increasing sequences of Goldbach type of length n; a(0) = 1 by convention.
 %C A008932 From _David S. Newman_, Feb 17 2009: (Start)
 %C A008932 This sequence also arises in the following way.
 %C A008932 Call a set A of nonnegative integers a basis if every nonnegative integer can be written as the sum of two (not necessarily distinct) elements of A.
 %C A008932 Call a basis an increasing basis if its elements are arranged in increasing order, a0 < a1 < a2 < ...
 %C A008932 For example, A126684: 0, 1, 2, 4, 5, 8, 10, 16, 17, 20, 21, 32, 34, 40, ... is an increasing basis.
-%C A008932 Now consider the set of all initial subsequences of any length {a0, a1, a2,...,an} of all the increasing bases. These can be arranged in lexicographic order, giving:
-%C A008932 0
-%C A008932 0, 1
-%C A008932 0, 1, 2
-%C A008932 0, 1, 3
-%C A008932 0, 1, 2, 3
-%C A008932 0, 1, 2, 4
-%C A008932 0, 1, 2, 5
-%C A008932 0, 1, 3, 4
-%C A008932 0, 1, 3, 5
-%C A008932 ...
-%C A008932 How many such subsequences are there of length n? The answer is a(n+1).
-%C A008932 A Goldbach sequence is then an increasing basis without the initial zero. (End)
+%C A008932 Now consider the set of all initial subsequences of any length {a0, a1, a2,...,an} of all the increasing bases.
+%C A008932 These can be arranged in lexicographic order, giving:
+%C A008932   0
+%C A008932   0, 1
+%C A008932   0, 1, 2
+%C A008932   0, 1, 3
+%C A008932   0, 1, 2, 3
+%C A008932   0, 1, 2, 4
+%C A008932   0, 1, 2, 5
+%C A008932   0, 1, 3, 4
+%C A008932   0, 1, 3, 5
+%C A008932   ...
+%C A008932 How many such subsequences are there of length n? (End)
+%C A008932 The answer is a(n-1), or a(n) if "length n" ignores the initial zero. A Goldbach sequence is then an increasing basis with each element increased by 1. - [Corrected by _Martin Fuller_, Apr 28 2025]
 %C A008932 The largest value for each term in any increasing basis is given by A123509. - _Martin Fuller_, Jun 01 2010
 %D A008932 M. Torelli, Increasing integer sequences and Goldbach's conjecture, preprint, 1996.
 %H A008932 M. Torelli, <a href="http://dx.doi.org/10.1051/ita:2006017">Increasing integer sequences and Goldbach's conjecture</a>, RAIRO - Theoretical Informatics and Applications, vol.40, no.02 (April 2006), pp.107-121.
@@ -39,3 +41,4 @@
 %E A008932 a(9)-a(14) from _Martin Fuller_, Feb 18 2009
 %E A008932 Edited by _N. J. A. Sloane_, Mar 12 2009
 %E A008932 a(15)-a(16) from _Sean A. Irvine_, Apr 19 2018
+%E A008932 a(17)-a(19) from _Martin Fuller_, Apr 30 2025

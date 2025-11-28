@@ -1,8 +1,8 @@
-%I A165008 #4 Mar 30 2012 17:28:43
+%I A165008 #6 Jul 22 2025 07:19:21
 %S A165008 0,32,320,26240,1240024,11160256,2297798771761759543384,
 %T A165008 15075857741528904364175224,8135830264,5931020266096,659002251784,
 %U A165008 350220815692997944
-%N A165008 Consider the base-3 Kaprekar map x->K(x) described in A164993. Sequence gives the smallest number that belongs to a cycle of length n under repeated iteration of this map, or -1 if there is no cycle of length n
+%N A165008 Consider the base-3 Kaprekar map x->K(x) described in A164993. Sequence gives the smallest number that belongs to a cycle of length n under repeated iteration of this map, or -1 if there is no cycle of length n.
 %C A165008 Known values (to 200 base-3 digits):
 %C A165008 a(1) = 0 (base 10) = 0 (base 3)
 %C A165008 a(2) = 32 (base 10) = 1012 (base 3)

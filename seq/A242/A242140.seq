@@ -1,8 +1,8 @@
-%I A242140 #5 May 05 2014 06:32:39
+%I A242140 #7 Jun 02 2025 10:12:40
 %S A242140 8688,36224,154647,663395,2837837,12043599,50455611,212162746,
 %T A242140 895579480,3787247400,16020690930,67729965951,286080148023,
 %U A242140 1208022059263,5102043513434,21553426093066,91062071731465,384728908620213
-%N A242140 Number of length n+5 0..4 arrays with no consecutive six elements summing to more than 3*4
+%N A242140 Number of length n+5 0..4 arrays with no consecutive six elements summing to more than 3*4.
 %C A242140 Column 4 of A242144
 %H A242140 R. H. Hardin, <a href="/A242140/b242140.txt">Table of n, a(n) for n = 1..210</a>
 %e A242140 Some solutions for n=3

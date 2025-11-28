@@ -1,13 +1,13 @@
-%I A113275 #52 Dec 25 2024 09:17:28
+%I A113275 #53 Nov 05 2025 15:22:05
 %S A113275 3,5,17,41,71,311,347,659,2381,5879,13397,18539,24419,62297,187907,
 %T A113275 687521,688451,850349,2868959,4869911,9923987,14656517,17382479,
 %U A113275 30752231,32822369,96894041,136283429,234966929,248641037,255949949
 %N A113275 Lesser of twin primes for which the gap before the following twin primes is a record.
 %H A113275 Martin Raab, <a href="/A113275/b113275.txt">Table of n, a(n) for n = 1..82</a> (first 75 terms from Max Alekseyev)
 %H A113275 Harvey Dubner, <a href="/A007534/a007534.pdf">Twin Prime Conjectures</a>, Journal of Recreational Mathematics, Vol. 30 (3), 1999-2000.
-%H A113275 Alexei Kourbatov, <a href="http://arxiv.org/abs/1301.2242">Maximal gaps between prime k-tuples: a statistical approach</a>, arXiv preprint arXiv:1301.2242 [math.NT], 2013.
-%H A113275 Alexei Kourbatov, <a href="http://arxiv.org/abs/1309.4053">Tables of record gaps between prime constellations</a>, arXiv preprint arXiv:1309.4053 [math.NT], 2013.
-%H A113275 Alexei Kourbatov and Marek Wolf, <a href="http://arxiv.org/abs/1901.03785">Predicting maximal gaps in sets of primes</a>, arXiv preprint arXiv:1901.03785 [math.NT], 2019.
+%H A113275 Alexei Kourbatov, <a href="https://arxiv.org/abs/1301.2242">Maximal gaps between prime k-tuples: a statistical approach</a>, arXiv preprint arXiv:1301.2242 [math.NT], 2013.
+%H A113275 Alexei Kourbatov, <a href="https://arxiv.org/abs/1309.4053">Tables of record gaps between prime constellations</a>, arXiv preprint arXiv:1309.4053 [math.NT], 2013.
+%H A113275 Alexei Kourbatov and Marek Wolf, <a href="https://arxiv.org/abs/1901.03785">Predicting maximal gaps in sets of primes</a>, arXiv preprint arXiv:1901.03785 [math.NT], 2019.
 %H A113275 Mersenneforum, <a href="https://www.mersenneforum.org/showthread.php?t=24303">Gaps between prime pairs (Twin Primes)</a>.
 %H A113275 Tomás Oliveira e Silva, <a href="http://sweet.ua.pt/tos/twin_gaps.html">Gaps between twin primes</a>
 %F A113275 a(n) = A036061(n) - 2.

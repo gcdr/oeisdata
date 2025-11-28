@@ -1,4 +1,4 @@
-%I A010899 #10 Jan 08 2014 22:42:45
+%I A010899 #12 Jul 08 2025 01:47:57
 %S A010899 6,19,36,60
 %N A010899 Minimal scope of a (6,n) difference triangle.
 %D A010899 CRC Handbook of Combinatorial Designs, 1996, p. 315.
@@ -7,4 +7,4 @@
 %Y A010899 A row or column of array in A234943.
 %K A010899 nonn,hard,more
 %O A010899 1,1
-%A A010899 _N. J. A. Sloane_.
+%A A010899 _N. J. A. Sloane_

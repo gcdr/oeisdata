@@ -1,4 +1,4 @@
-%I A012904 #7 Mar 14 2015 14:48:23
+%I A012904 #8 Sep 30 2025 20:34:17
 %S A012904 0,2,-1,11,-30,215,-1095,9200,-67060,676565,-6364125,75816050,
 %T A012904 -870716550,12014125175,-162677426275,2556597056000,-39838813521000,
 %U A012904 703292880031625,-12389158068197625,242880759376082750
@@ -6,5 +6,5 @@
 %t A012904 With[{nn=20},CoefficientList[Series[Sinh[ArcSin[x]+Log[x+1]],{x,0,nn}],x] Range[0,nn]!] (* _Harvey P. Dale_, Mar 14 2015 *)
 %K A012904 sign
 %O A012904 0,2
-%A A012904 Patrick Demichel (patrick.demichel(AT)hp.com)
+%A A012904 _Patrick Demichel_
 %E A012904 Zero prepended and definition clarified by _Harvey P. Dale_, Mar 14 2015

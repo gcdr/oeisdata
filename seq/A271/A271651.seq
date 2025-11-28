@@ -1,4 +1,4 @@
-%I A271651 #16 Apr 13 2016 02:37:36
+%I A271651 #17 Nov 05 2025 15:22:32
 %S A271651 1,0,60,960,30780,996480,36560400,1430553600,59089923900,
 %T A271651 2543035488000,113129280527760,5170796720812800,241741903350301200,
 %U A271651 11520044551208793600,558061378022616811200,27421336248833005839360
@@ -8,7 +8,7 @@
 %H A271651 C. Koutschan, <a href="http://www.koutschan.de/data/fcc/">Computations for higher-dimensional fcc lattices</a>.
 %H A271651 C. Koutschan, <a href="http://www.koutschan.de/data/fcc1/fcc6_mop.txt">Differential operator annihilating the generating function</a>.
 %H A271651 C. Koutschan, <a href="http://www.koutschan.de/data/fcc1/fcc6_rec.txt">Recurrence equation</a>.
-%H A271651 C. Koutschan, <a href="http://arxiv.org/abs/1108.2164">Lattice Green's Functions of the Higher-Dimensional Face-Centered Cubic Lattices</a>, arXiv:1108.2164 [math.CO], 2011-2013.
+%H A271651 C. Koutschan, <a href="https://arxiv.org/abs/1108.2164">Lattice Green's Functions of the Higher-Dimensional Face-Centered Cubic Lattices</a>, arXiv:1108.2164 [math.CO], 2011-2013.
 %H A271651 C. Koutschan, <a href="http://dx.doi.org/10.1088/1751-8113/46/12/125005">Lattice Green's functions of the higher-dimensional face-centered cubic lattices</a>, Journal of Physics A: Mathematical and Theoretical 46(12) (2013), 125005.
 %F A271651 a(n) satisfies a twelfth-order linear recurrence equation with polynomial coefficients of degree 33 (see link above).
 %F A271651 The probability generating function P(z) = Sum_{n>=0} a(n)*(z/60)^n is given by the 6-fold integral (1/Pi)^6 Int_{0..Pi} ... Int_{0..Pi} 1/(1-z*lambda_6) dk_1 ... dk_6, where the structure function is defined as lambda_6 = (1/binomial(6,2)) Sum_{i=1..6} Sum_{j=(i+1)..6} cos(k_i)*cos(k_j). The function P(z) satisfies an eighth-order linear ODE with polynomial coefficients of degree 43 (see link above).

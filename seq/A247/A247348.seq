@@ -1,4 +1,4 @@
-%I A247348 #24 Sep 21 2014 16:22:53
+%I A247348 #30 Jul 07 2025 14:08:00
 %S A247348 174599,334319,535919,671039,907199,2129399,2298119,3103799,3369959,
 %T A247348 4351199,4598159,5697599,6184799,6446159,7224839,7943759,7957319,
 %U A247348 8148839,8346959,8656919,9096359,9339119,9463319,9511199,10514159,10780559,11816999,12424319,13781039
@@ -8,7 +8,8 @@
 %C A247348 a(n) = 119 (mod 120) for all n.
 %C A247348 These numbers generate sequences 5-4-3-2-1 in A052126.
 %H A247348 Jens Kruse Andersen, <a href="/A247348/b247348.txt">Table of n, a(n) for n = 1..10000</a>
-%t A247348 lst={}; Do[p=Prime[n]; If[PrimeQ[(p-1)/2]&&PrimeQ[(p-2)/3]&&PrimeQ[(p-3)/ 4&&PrimeQ[(p-4)/ 5], AppendTo[lst, p]], {n, 2*9!}]; lst
+%t A247348 lst={}; Do[p=Prime[n]; If[PrimeQ[(p-1)/2]&&PrimeQ[(p-2)/3]&&PrimeQ[(p-3)/4]&&PrimeQ[(p-4)/5], AppendTo[lst, p]], {n, 2*9!}]; lst
+%t A247348 Select[Prime[Range[900000]],AllTrue[Table[(#-k)/(k+1),{k,4}],PrimeQ]&] (* _Harvey P. Dale_, Jul 07 2025 *)
 %o A247348 (PARI) isokp(v) = (type(v) == "t_INT") && isprime(v);
 %o A247348 lista(nn) = {forprime(p=2, nn, if (isokp((p-1)/2) && isokp((p-2)/3) && isokp((p-3)/4) && isokp((p-4)/5), print1(p, ", ")););} \\ _Michel Marcus_, Sep 15 2014
 %o A247348 (Python)

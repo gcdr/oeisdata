@@ -1,4 +1,4 @@
-%I A030141 #38 Jul 13 2022 02:06:50
+%I A030141 #41 Nov 05 2025 15:35:28
 %S A030141 0,1,2,3,4,5,6,7,8,9,10,12,14,16,18,21,23,25,27,29,30,32,34,36,38,41,
 %T A030141 43,45,47,49,50,52,54,56,58,61,63,65,67,69,70,72,74,76,78,81,83,85,87,
 %U A030141 89,90,92,94,96,98,101,103,105,107,109,121,123,125,127,129
@@ -8,10 +8,11 @@
 %C A030141 The number of terms between 10^n and 10^(n+1) is 9 * 5^n for n>=0. For n>=0, number of terms < 10^n is 1 + 9 * (5^n-1)/4. - _Franklin T. Adams-Watters_, Apr 01 2011
 %C A030141 A228710(a(n)) = 1. - _Reinhard Zumkeller_, Aug 31 2013
 %H A030141 Reinhard Zumkeller, <a href="/A030141/b030141.txt">Table of n, a(n) for n = 1..10000</a>
-%H A030141 45th International Mathematical Olympiad (45th IMO), <a href="http://www.jstor.org/stable/30044168">Problem #6 and Solution</a>, Mathematics Magazine, 78 (2005), pp. 247, 250, 251.
+%H A030141 45th International Mathematical Olympiad (45th IMO), <a href="https://www.jstor.org/stable/30044168">Problem #6 and Solution</a>, Mathematics Magazine, 78 (2005), pp. 247, 250, 251.
 %H A030141 <a href="/index/Ar#10-automatic">Index entries for 10-automatic sequences</a>.
 %e A030141 121 is alternating and in the sequence because its consecutive digits are odd-even-odd, 1 being odd and 2 even. Of course, 1234567890 is also alternating.
 %t A030141 fQ[n_] := Block[{m = Mod[ IntegerDigits@ n, 2]}, m == Split[m, UnsameQ][[1]]]; Select[ Range[0, 130], fQ] (* _Robert G. Wilson v_, Apr 01 2011 *)
+%t A030141 Select[Range[0,150],FreeQ[Differences[Boole[EvenQ[IntegerDigits[#]]]],0]&] (* _Harvey P. Dale_, Jul 19 2025 *)
 %o A030141 (Haskell)
 %o A030141 a030141 n = a030141_list !! (n-1)
 %o A030141 a030141_list = filter ((== 1) . a228710) [0..]

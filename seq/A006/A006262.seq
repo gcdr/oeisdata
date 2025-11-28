@@ -1,4 +1,4 @@
-%I A006262 M2111 #11 Mar 30 2012 16:44:56
+%I A006262 M2111 #15 Jul 08 2025 16:44:41
 %S A006262 1,2,18,4608,1800000000,5077997833420800000000,
 %T A006262 5608281336980602120684110607059901336780800000000
 %N A006262 Product k^(2^(k-2)), k = 2..n.
@@ -6,4 +6,4 @@
 %D A006262 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
 %K A006262 nonn,easy
 %O A006262 1,2
-%A A006262 _N. J. A. Sloane_.
+%A A006262 _N. J. A. Sloane_

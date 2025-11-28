@@ -1,4 +1,4 @@
-%I A000013 M0313 N0115 #103 Nov 26 2024 13:40:50
+%I A000013 M0313 N0115 #121 Nov 05 2025 15:21:37
 %S A000013 1,1,2,2,4,4,8,10,20,30,56,94,180,316,596,1096,2068,3856,7316,13798,
 %T A000013 26272,49940,95420,182362,349716,671092,1290872,2485534,4794088,
 %U A000013 9256396,17896832,34636834,67110932,130150588,252648992,490853416,954444608,1857283156,3616828364
@@ -17,16 +17,17 @@
 %H A000013 Seiichi Manyama, <a href="/A000013/b000013.txt">Table of n, a(n) for n = 0..3334</a> (first 201 terms from T. D. Noe)
 %H A000013 Nicolás Álvarez, Victória Becher, Martín Mereb, Ivo Pajor, and Carlos Miguel Soto, <a href="https://www-2.dc.uba.ar/staff/becher/papers/extremal.pdf">On extremal factors of de Bruijn-like graphs</a>, Univ. Buenos Aires (Argentina 2023). See also <a href="https://arxiv.org/abs/2308.16257">arXiv:2308.16257</a> [math.CO], 2023. See references.
 %H A000013 Joerg Arndt, <a href="http://www.jjj.de/fxt/#fxtbook">Matters Computational (The Fxtbook)</a>, p. 151, p. 408.
+%H A000013 Raghav Bhutani and Frederick Saia, <a href="https://arxiv.org/abs/2508.05816">Replacement dynamics of binary quadratic forms</a>, arXiv:2508.05816 [math.NT], 2025. See p. 6.
 %H A000013 Henry Bottomley, <a href="/A000011/a000011_a000013.gif">Initial terms of A000011 and A000013</a>
 %H A000013 Zachary E. Chin and Isaac L. Chuang, <a href="https://arxiv.org/abs/2410.00893">The quantum trajectory sensing problem and its solution</a>, arXiv:2410.00893 [quant-ph], 2024. See p. 19.
 %H A000013 N. J. Fine, <a href="http://projecteuclid.org/euclid.ijm/1255381350">Classes of periodic sequences</a>, Illinois J. Math., 2 (1958), 285-302.
 %H A000013 E. N. Gilbert and J. Riordan, <a href="http://projecteuclid.org/euclid.ijm/1255631587">Symmetry types of periodic sequences</a>, Illinois J. Math., 5 (1961), 657-665.
 %H A000013 Darij Grinberg and Peter Mao, <a href="https://arxiv.org/abs/2405.08937">Necklaces over a group with identity product</a>, arXiv:2405.08937 [math.CO], 2024. See pp. 15, 22.
-%H A000013 Karyn McLellan, <a href="http://www.combinatorics.org/ojs/index.php/eljc/article/view/v20i4p32">Periodic coefficients and random Fibonacci sequences</a>, Electronic Journal of Combinatorics, 20(4), 2013, #P32.
+%H A000013 Karyn McLellan, <a href="https://doi.org/10.37236/3204">Periodic coefficients and random Fibonacci sequences</a>, Electronic Journal of Combinatorics, 20(4), 2013, #P32.
 %H A000013 Frank Ruskey, <a href="http://combos.org/necklace">Necklaces, Lyndon words, De Bruijn sequences, etc.</a>
 %H A000013 Frank Ruskey, <a href="/A000011/a000011.pdf">Necklaces, Lyndon words, De Bruijn sequences, etc.</a> [Cached copy, with permission, pdf format only]
 %H A000013 N. J. A. Sloane, <a href="http://neilsloane.com/doc/dijen.txt">On single-deletion-correcting codes</a>
-%H A000013 N. J. A. Sloane, <a href="http://arxiv.org/abs/math/0207197">On single-deletion-correcting codes</a>, arXiv:math/0207197 [math.CO], 2002; in Codes and Designs (Columbus, OH, 2000), 273-291, Ohio State Univ. Math. Res. Inst. Publ., 10, de Gruyter, Berlin, 2002.
+%H A000013 N. J. A. Sloane, <a href="https://arxiv.org/abs/math/0207197">On single-deletion-correcting codes</a>, arXiv:math/0207197 [math.CO], 2002; in Codes and Designs (Columbus, OH, 2000), 273-291, Ohio State Univ. Math. Res. Inst. Publ., 10, de Gruyter, Berlin, 2002.
 %H A000013 N. J. A. Sloane, <a href="/A000013/a000013.txt">Maple code for this and related sequences</a>
 %H A000013 <a href="/index/Ne#necklaces">Index entries for sequences related to necklaces</a>
 %F A000013 a(n) = Sum_{ d divides n } (phi(2*d)*2^(n/d))/(2*n) for n>0. - _Michael Somos_, Oct 20 1999
@@ -36,6 +37,7 @@
 %F A000013 a(n) = (1/(2*n))*Sum_{k=1..n} phi(2*gcd(n,k))*2^(n/gcd(n,k))/phi(n/gcd(n,k)), where phi = A000010.
 %F A000013 a(n) = (1/(2*n))*Sum_{k=1..n} phi(2*n/gcd(n,k))*2^gcd(n,k)/phi(n/gcd(n,k)). (End)
 %F A000013 a(n) ~ 2^(n-1)/n. - _Cedric Lorand_, Apr 24 2022
+%F A000013 a(n) = Sum_{k=1..n} A385665(n,k) = Sum_{d|n} A000048(d). - _Tilman Piesk_, Jul 31 2025
 %e A000013 G.f. = 1 + x + 2*x^2 + 2*x^3 + 4*x^4 + 4*x^5 + 8*x^6 + 10*x^7 + 20*x^8 + ...
 %p A000013 with(numtheory): A000013 := proc(n) local s,d; if n = 0 then RETURN(1) else s := 0; for d in divisors(n) do s := s+(phi(2*d)*2^(n/d))/(2*n); od; RETURN(s); fi; end;
 %t A000013 a[n_] := Fold[ #1 + EulerPhi[2#2]2^(n/#2)/(2n) &, 0, Divisors[n]]
@@ -50,10 +52,11 @@
 %o A000013 -- _Reinhard Zumkeller_, Jul 08 2013
 %o A000013 (Python)
 %o A000013 from sympy import divisors, totient
-%o A000013 def a(n): return 1 if n<1 else sum([totient(2*d)*2**(n/d) for d in divisors(n)])/(2*n) # _Indranil Ghosh_, Apr 28 2017
+%o A000013 def a(n): return 1 if n<1 else sum([totient(2*d)*2**(n//d) for d in divisors(n)])//(2*n) # _Indranil Ghosh_, Apr 28 2017
 %Y A000013 Cf. A000031, A000016, A000116.
 %Y A000013 Cf. A128976.
 %Y A000013 Cf. A000010, A027750.
+%Y A000013 Cf. A385665, A000048.
 %K A000013 nonn,nice,easy
 %O A000013 0,3
 %A A000013 _N. J. A. Sloane_

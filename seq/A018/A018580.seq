@@ -1,4 +1,4 @@
-%I A018580 #12 Sep 04 2022 14:00:29
+%I A018580 #14 Jul 08 2025 07:17:33
 %S A018580 1,2,4,8,83,166,332,664
 %N A018580 Divisors of 664.
 %H A018580 <a href="/index/Di#divisors">Index entries for sequences related to divisors of numbers</a>
@@ -6,4 +6,4 @@
 %o A018580 (PARI) divisors(664) \\ _Charles R Greathouse IV_, Jun 23 2017
 %K A018580 nonn,fini,full,easy
 %O A018580 1,2
-%A A018580 _N. J. A. Sloane_.
+%A A018580 _N. J. A. Sloane_

@@ -1,13 +1,14 @@
-%I A286508 #8 Feb 16 2025 08:33:45
+%I A286508 #14 Nov 05 2025 15:22:38
 %S A286508 1,10,10,100,100,1000,1000,10000,10000,100000,100000,1000000,1000000,
 %T A286508 10000000,10000000,100000000,100000000,1000000000,1000000000,
 %U A286508 10000000000,10000000000,100000000000,100000000000,1000000000000,1000000000000,10000000000000
 %N A286508 Binary representation of the diagonal from the origin to the corner of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 190", based on the 5-celled von Neumann neighborhood.
 %C A286508 Initialized with a single black (ON) cell at stage zero.
+%C A286508 Mathematica program seems to be exactly the same as in A286507, but a(1) of the two sequences differ. - _R. J. Mathar_, Jun 21 2025
 %D A286508 S. Wolfram, A New Kind of Science, Wolfram Media, 2002; p. 170.
 %H A286508 Robert Price, <a href="/A286508/b286508.txt">Table of n, a(n) for n = 0..126</a>
 %H A286508 Robert Price, <a href="/A286508/a286508.tmp.txt">Diagrams of first 20 stages</a>
-%H A286508 N. J. A. Sloane, <a href="http://arxiv.org/abs/1503.01168">On the Number of ON Cells in Cellular Automata</a>, arXiv:1503.01168 [math.CO], 2015
+%H A286508 N. J. A. Sloane, <a href="https://arxiv.org/abs/1503.01168">On the Number of ON Cells in Cellular Automata</a>, arXiv:1503.01168 [math.CO], 2015
 %H A286508 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/ElementaryCellularAutomaton.html">Elementary Cellular Automaton</a>
 %H A286508 S. Wolfram, <a href="http://wolframscience.com/">A New Kind of Science</a>
 %H A286508 Wolfram Research, <a href="http://atlas.wolfram.com/">Wolfram Atlas of Simple Programs</a>

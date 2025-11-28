@@ -1,8 +1,8 @@
-%I A231455 #4 Nov 09 2013 06:54:49
+%I A231455 #6 Jul 23 2025 06:31:21
 %S A231455 492,5643,54868,738459,9796477,144109697,2112748453,32019266420,
 %T A231455 485170357093,7429808973717,113778434951707,1748064728994801,
 %U A231455 26855530210166200,412973901119461490,6350209893633300189
-%N A231455 Number of (5+1)X(n+1) 0..3 arrays with no element unequal to a strict majority of its horizontal and antidiagonal neighbors, with values 0..3 introduced in row major order
+%N A231455 Number of (5+1)X(n+1) 0..3 arrays with no element unequal to a strict majority of its horizontal and antidiagonal neighbors, with values 0..3 introduced in row major order.
 %C A231455 Row 5 of A231451
 %H A231455 R. H. Hardin, <a href="/A231455/b231455.txt">Table of n, a(n) for n = 1..77</a>
 %e A231455 Some solutions for n=3

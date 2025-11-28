@@ -1,8 +1,10 @@
-%I A002189 M5039 N2175 N2326 #68 Feb 16 2025 08:32:25
+%I A002189 M5039 N2175 N2326 #71 Nov 05 2025 15:21:41
 %S A002189 17,73,241,1009,2641,8089,18001,53881,87481,117049,515761,1083289,
 %T A002189 3206641,3818929,9257329,22000801,48473881,48473881,175244281,
 %U A002189 427733329,427733329,898716289,2805544681,2805544681,2805544681
 %N A002189 Pseudo-squares: a(n) = the least nonsquare positive integer which is 1 mod 8 and is a (nonzero) quadratic residue modulo the first n odd primes.
+%C A002189 To save the reader's time, note that the 1965 article by Atkin does not appear to be related to this sequence. - _N. J. A. Sloane_, May 10 2025
+%D A002189 A. O. L. Atkin, On pseudo-squares, Proc. London Math. Soc., 14A (1965), 22-27.(See comment above)
 %D A002189 Michael A. Bender, R Chowdhury, A Conway, The I/O Complexity of Computing Prime Tables, In: Kranakis E., Navarro G., Chávez E. (eds) LATIN 2016: Theoretical Informatics. LATIN 2016. Lecture Notes in Computer Science, vol 9644. Springer, Berlin, Heidelberg. See Footnote 9.
 %D A002189 D. H. Lehmer, A sieve problem on "pseudo-squares", Math. Tables Other Aids Comp., 8 (1954), 241-242.
 %D A002189 D. H. Lehmer, E. Lehmer and D. Shanks, Integer sequences having prescribed quadratic character, Math. Comp., 24 (1970), 433-451.
@@ -15,7 +17,7 @@
 %H A002189 D. H. Lehmer, <a href="/A002189/a002189_1.pdf">A sieve problem on "pseudo-squares"</a>, Math. Tables Other Aids Comp., 8 (1954), 241-242. [Annotated scanned copy]
 %H A002189 D. H. Lehmer, E. Lehmer and D. Shanks, <a href="/A002189/a002189.pdf">Integer sequences having prescribed quadratic character</a>, Math. Comp., 24 (1970), 433-451 [Annotated scanned copy]
 %H A002189 R. F. Lukes, C. D. Patterson and H. C. Williams, <a href="https://doi.org/10.1090/S0025-5718-96-00678-3">Some results on pseudosquares</a>, Mathematics of Computation 65:213 (1996), pp. 361-372.
-%H A002189 Jonathan P. Sorenson, <a href="http://arxiv.org/abs/1001.3316">Sieving for pseudosquares and pseudocubes in parallel using doubly-focused enumeration and wheel datastructures</a>, arXiv:1001.3316 [math.NT], 2010.
+%H A002189 Jonathan P. Sorenson, <a href="https://arxiv.org/abs/1001.3316">Sieving for pseudosquares and pseudocubes in parallel using doubly-focused enumeration and wheel datastructures</a>, arXiv:1001.3316 [math.NT], 2010.
 %H A002189 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/Pseudosquare.html">Pseudosquare</a>
 %e A002189 a(0) = 17 since 1 + 8*0 and 1 + 8*1 are squares, 17 = 1 + 8*2 is not and the quadratic residue condition is satisfied vacuosly. - _Michael Somos_, Nov 24 2018
 %t A002189 a[n_] := a[n] = (pp = Prime[ Range[2, n+1]]; k = If[ n == 0, 9, a[n-1] - 8]; While[ True, k += 8; If[ ! IntegerQ[ Sqrt[k]] && If[ Scan[ If[ ! (JacobiSymbol[k, #] == 1 ), Return[ False]] & , pp], , False, True], Break[]]]; k); Table[ Print[ an = a[n]]; an, {n, 0, 24}] (* _Jean-François Alcover_, Sep 30 2011 *)

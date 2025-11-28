@@ -1,4 +1,4 @@
-%I A000012 M0003 #446 Feb 16 2025 08:32:18
+%I A000012 M0003 #454 Jul 28 2025 08:57:58
 %S A000012 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
 %T A000012 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
 %U A000012 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
@@ -43,9 +43,11 @@
 %C A000012 a(n) is also the determinant of the (n+1) X (n+1) matrix M defined by M(i,j) = binomial(i,j) for 0 <= i,j <= n, since M is a lower triangular matrix with main diagonal all 1's. - _Jianing Song_, Jul 17 2018
 %C A000012 a(n) is also the determinant of the symmetric n X n matrix M defined by M(i,j) = min(i,j) for 1 <= i,j <= n (see Xavier Merlin reference). - _Bernard Schott_, Dec 05 2018
 %C A000012 a(n) is also the determinant of the symmetric n X n matrix M defined by M(i,j) = tau(gcd(i,j)) for 1 <= i,j <= n (see De Koninck & Mercier reference). - _Bernard Schott_, Dec 08 2020
+%D A000012 John H. Conway and Richard K. Guy, The Book of Numbers, New York: Springer-Verlag, 1996. See p. 186.
 %D A000012 J.-M. De Koninck & A. Mercier, 1001 Problèmes en Théorie Classique des Nombres, Problème 692 pp. 90 and 297, Ellipses, Paris, 2004.
 %D A000012 Xavier Merlin, Méthodix Algèbre, Exercice 1-a), page 153, Ellipses, Paris, 1995.
 %D A000012 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A000012 James J. Tattersall, Elementary Number Theory in Nine Chapters, Cambridge University Press, 1999, pages 277, 284.
 %D A000012 S. Wolfram, A New Kind of Science, Wolfram Media, 2002; p. 55.
 %D A000012 Paul Zeitz, The Art and Craft of Mathematical Problem Solving, The Great Courses, The Teaching Company, 2010 (DVDs and Course Guidebook, Lecture 6: "Pictures, Recasting, and Points of View", pp. 32-34).
 %H A000012 Charles R Greathouse IV, <a href="/A000012/b000012.txt">Table of n, a(n) for n = 0..10000</a> [Useful when <a href="/plot2.html">plotting one sequence against another</a>.]

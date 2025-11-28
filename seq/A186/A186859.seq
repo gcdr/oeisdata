@@ -1,10 +1,10 @@
-%I A186859 #20 Sep 08 2022 08:45:56
+%I A186859 #21 Nov 05 2025 15:22:20
 %S A186859 1,1,5,31,241,2021,19741,224155,2816801,38127241,557512021,8805585911,
 %T A186859 148896471505,2668912291501,50505733789421,1007422798667251,
 %U A186859 21118304040298561,463416656527980305,10612758078821689381,253157568544420465231,6279192326923499850161
 %N A186859 E.g.f. A(x)=exp(x^6+3*x^5+4*x^4+3*x^3+2*x^2+x).
 %H A186859 G. C. Greubel, <a href="/A186859/b186859.txt">Table of n, a(n) for n = 0..470</a>
-%H A186859 Kruchinin Vladimir Victorovich, <a href="http://arxiv.org/abs/1009.2565">Composition of ordinary generating functions</a>, arXiv:1009.2565 [math.CO], 2010.
+%H A186859 Kruchinin Vladimir Victorovich, <a href="https://arxiv.org/abs/1009.2565">Composition of ordinary generating functions</a>, arXiv:1009.2565 [math.CO], 2010.
 %F A186859 a(n) = n!*Sum(m=1..n, Sum(k=m..n, binomial(k,n-k)*Sum(j=0..m, binomial(m,j)*binomial(j,k-3*m+2*j)))/m!).
 %F A186859 From _Benedict W. J. Irwin_, Jun 02 2016: (Start)
 %F A186859 Let y(0)=1, y(1)=1, y(2)=5/2, y(3)=31/6, y(4)=241/24, y(5)=2021/120,

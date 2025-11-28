@@ -1,11 +1,11 @@
-%I A213267 #19 Feb 16 2025 08:33:17
+%I A213267 #20 Nov 05 2025 15:22:22
 %S A213267 1,1,1,1,2,3,4,5,7,10,12,15,20,26,32,39,50,63,76,92,114,140,168,201,
 %T A213267 244,295,350,415,496,591,696,818,967,1140,1332,1554,1820,2126,2468,
 %U A213267 2861,3324,3855,4448,5126,5916,6816,7824,8970,10292,11793,13471,15372,17548
 %N A213267 Expansion of phi(q^9) / (psi(-q) * chi(q^3)) in powers of q where phi(), psi(), chi() are Ramanujan theta functions.
 %C A213267 Ramanujan theta functions: f(q) (see A121373), phi(q) (A000122), psi(q) (A010054), chi(q) (A000700).
 %H A213267 G. C. Greubel, <a href="/A213267/b213267.txt">Table of n, a(n) for n = 0..1000</a>
-%H A213267 Vaclav Kotesovec, <a href="http://arxiv.org/abs/1509.08708">A method of finding the asymptotics of q-series based on the convolution of generating functions</a>, arXiv:1509.08708 [math.CO], Sep 30 2015
+%H A213267 Vaclav Kotesovec, <a href="https://arxiv.org/abs/1509.08708">A method of finding the asymptotics of q-series based on the convolution of generating functions</a>, arXiv:1509.08708 [math.CO], Sep 30 2015
 %H A213267 Michael Somos, <a href="/A010815/a010815.txt">Introduction to Ramanujan theta functions</a>
 %H A213267 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/RamanujanThetaFunctions.html">Ramanujan Theta Functions</a>
 %F A213267 Expansion of eta(q^2) * eta(q^3) * eta(q^12) * eta(q^18)^5 / (eta(q) * eta(q^4) * eta(q^6)^2 * eta(q^9)^2 * eta(q^36)^2) in powers of q.

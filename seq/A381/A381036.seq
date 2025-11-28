@@ -1,8 +1,8 @@
-%I A381036 #7 Feb 17 2025 12:13:43
+%I A381036 #11 Mar 06 2025 14:52:05
 %S A381036 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,
 %T A381036 0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,
 %U A381036 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
-%N A381036 a(n) = 1 if the there is a digit > 1 in the primorial base expansion of n, and the corresponding radix primes of all such digits are also prime factors of n, otherwise 0.
+%N A381036 a(n) = 1 if there is a digit > 1 in the primorial base expansion of n, and the corresponding radix primes of all such digits are also prime factors of n, otherwise 0.
 %H A381036 Antti Karttunen, <a href="/A381036/b381036.txt">Table of n, a(n) for n = 0..100000</a>
 %H A381036 <a href="/index/Ch#char_fns">Index entries for characteristic functions</a>.
 %H A381036 <a href="/index/Pri#primorialbase">Index entries for sequences related to primorial base</a>.

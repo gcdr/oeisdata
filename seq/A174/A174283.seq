@@ -1,10 +1,10 @@
-%I A174283 #47 Jan 23 2021 17:33:19
+%I A174283 #48 Nov 05 2025 15:22:18
 %S A174283 1,2,4,9,23,57,151,415,1157,3191,8687,23199,61677,163257,432541,
 %T A174283 1146671,3039829
 %N A174283 Number of distinct resistances that can be produced using n equal resistors in, series, parallel and/or bridge configurations.
 %C A174283 This sequence is a variation on A048211, which uses only series and parallel combinations. Since a bridge circuit requires minimum of five resistances the first four terms coincide. For the definition of "bridge" see A337516.
 %H A174283 Antoni Amengual, <a href="http://dx.doi.org/10.1119/1.19396">The intriguing properties of the equivalent resistances of n equal resistors combined in series and in parallel</a>, American Journal of Physics, 68(2), 175-179 (February 2000).
-%H A174283 Sameen Ahmed Khan, <a href="http://arxiv.org/abs/1004.3346/">The bounds of the set of equivalent resistances of n equal resistors combined in series and in parallel</a>, arXiv:1004.3346v1 [physics.gen-ph], (20 April 2010).
+%H A174283 Sameen Ahmed Khan, <a href="https://arxiv.org/abs/1004.3346/">The bounds of the set of equivalent resistances of n equal resistors combined in series and in parallel</a>, arXiv:1004.3346v1 [physics.gen-ph], (20 April 2010).
 %H A174283 Sameen Ahmed Khan, <a href="https://www.ias.ac.in/describe/article/pmsc/122/02/0153-0162">Farey sequences and resistor networks</a>, Proc. Indian Acad. Sci. (Math. Sci.) Vol. 122, No. 2, May 2012, pp. 153-162.
 %H A174283 Sameen Ahmed Khan, <a href="https://dx.doi.org/10.17485/ijst/2016/v9i44/88086">Beginning to Count the Number of Equivalent Resistances</a>, Indian Journal of Science and Technology, Vol. 9, Issue 44, pp. 1-7, 2016.
 %H A174283 Hugo Pfoertner, <a href="/plot2a?name1=A174283&amp;name2=A048211&amp;tform1=untransformed&amp;tform2=untransformed&amp;shift=0&amp;radiop1=ratio&amp;drawpoints=true&amp;drawlines=true">Increase of number of representable resistances by allowing bridges</a>, Plot2 of a(n)/A048211.

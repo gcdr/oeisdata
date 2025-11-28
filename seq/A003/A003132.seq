@@ -1,15 +1,17 @@
-%I A003132 M3355 #85 Nov 05 2023 08:44:47
+%I A003132 M3355 #93 Nov 05 2025 15:35:24
 %S A003132 0,1,4,9,16,25,36,49,64,81,1,2,5,10,17,26,37,50,65,82,4,5,8,13,20,29,
 %T A003132 40,53,68,85,9,10,13,18,25,34,45,58,73,90,16,17,20,25,32,41,52,65,80,
 %U A003132 97,25,26,29,34,41,50,61,74,89,106,36,37,40,45,52,61,72,85,100,117,49
 %N A003132 Sum of squares of digits of n.
 %C A003132 It is easy to show that a(n) < 81*(log_10(n)+1). - _Stefan Steinerberger_, Mar 25 2006
 %C A003132 It is known that a(0)=0 and a(1)=1 are the only fixed points of this map. For more information about iterations of this map, see A007770, A099645 and A000216 ff. - _M. F. Hasler_, May 24 2009
+%C A003132 Also known as the "Happy number map", since happy numbers A007770 are those whose trajectory under iterations of this map ends at 1. - _M. F. Hasler_, Jun 03 2025
+%C A003132 The number of zeroless preimages that map to n under the A003132 map is given by the number of compositions of n into positive squares of single-digit numbers, i.e., the number of compositions of n into parts of 1, 4, 9, ..., 81. For n <100 this is the same as A006465(n), but for n>=100 less because A006465 also admits parts of 100, 121, 144 etc. The full set of preimages is infinite for each n>0, because one can insert or append zeros anywhere in a preimage and still obtain the same sum-of-squared-digits. - _R. J. Mathar_, Sep 27 2025
 %D A003132 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
 %D A003132 Hugo Steinhaus, One Hundred Problems in Elementary Mathematics, Dover New York, 1979, republication of English translation of Sto Zadań, Basic Books, New York, 1964. Chapter I.2, An interesting property of numbers, pp. 11-12 (available on Google Books).
 %H A003132 T. D. Noe, <a href="/A003132/b003132.txt">Table of n, a(n) for n = 0..10000</a>
 %H A003132 J.-P. Allouche and J. Shallit, <a href="http://dx.doi.org/10.1016/S0304-3975(03)00090-2">The ring of k-regular sequences, II</a>, Theoret. Computer Sci., 307 (2003), 3-29; <a href="http://www.math.jussieu.fr/~allouche/kreg2.ps">[preprint from author's web page, PostScript format]</a>.
-%H A003132 Arthur Porges, <a href="http://www.jstor.org/stable/2304639">A set of eight numbers</a>, Amer. Math. Monthly 52 (1945), 379-382.
+%H A003132 Arthur Porges, <a href="https://www.jstor.org/stable/2304639">A set of eight numbers</a>, Amer. Math. Monthly 52 (1945), 379-382.
 %H A003132 B. M. Stewart, <a href="http://dx.doi.org/10.4153/CJM-1960-032-9">Sums of functions of digits</a>, Canad. J. Math., 12 (1960), 374-389.
 %H A003132 Robert Walker, <a href="http://robertinventor.com/ftswiki/Self_Similar_Sloth_Canon_Number_Sequences">Self Similar Sloth Canon Number Sequences</a>
 %H A003132 <a href="/index/Coi#Colombian">Index entries for Colombian or self numbers and related sequences</a>

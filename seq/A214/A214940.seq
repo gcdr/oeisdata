@@ -1,7 +1,7 @@
-%I A214940 #8 Jun 30 2021 07:44:43
+%I A214940 #12 Oct 03 2025 17:03:18
 %S A214940 6,30,150,720,3480,16680,80040,383520,1838160,8807400,42202560,
 %T A214940 202209720,968880960,4642304520,22243228680,106576361760,510651000360
-%N A214940 Number of squarefree words of length n in a 6-ary alphabet
+%N A214940 Number of squarefree words of length n in a 6-ary alphabet.
 %C A214940 Column 5 of A214943
 %e A214940 Some solutions for n=6
 %e A214940 ..4....4....4....1....5....5....4....5....2....1....5....4....2....1....4....5
@@ -21,4 +21,4 @@
 %o A214940 print([a(n) for n in range(1, 9)]) # _Michael S. Branicky_, Jun 30 2021
 %K A214940 nonn
 %O A214940 1,1
-%A A214940 _R. H. Hardin_ Jul 30 2012
+%A A214940 _R. H. Hardin_, Jul 30 2012

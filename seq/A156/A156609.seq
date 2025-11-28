@@ -1,4 +1,4 @@
-%I A156609 #13 Sep 08 2022 08:45:41
+%I A156609 #14 Sep 22 2025 16:00:57
 %S A156609 1,1,1,1,-2,1,1,4,4,1,1,-4,8,-4,1,1,4,8,8,4,1,1,-4,8,-8,8,-4,1,1,4,8,
 %T A156609 8,8,8,4,1,1,-4,8,-8,8,-8,8,-4,1,1,4,8,8,8,8,8,8,4,1,1,-4,8,-8,8,-8,8,
 %U A156609 -8,8,-4,1
@@ -43,7 +43,7 @@
 %o A156609   end if; return T;
 %o A156609 end function;
 %o A156609 [T(n,k): k in [0..n], n in [0..12]]; // _G. C. Greubel_, Jun 24 2021
-%o A156609 (Sage)
+%o A156609 (SageMath)
 %o A156609 @CachedFunction
 %o A156609 def f(n,x): return (2-x)^n if (n<2) else 2*(2-x)*sum( ((n-1)/(2*n-j-2))*binomial(2*n-j-2, j)*(-x)^(n-j-1) for j in (0..n-1) )
 %o A156609 def g(n,k): return factorial(n) if (k==0) else product( f(j, k+1) for j in (1..n-1) )

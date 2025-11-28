@@ -1,4 +1,4 @@
-%I A000975 #504 Feb 16 2025 08:32:22
+%I A000975 #583 Nov 26 2025 15:59:31
 %S A000975 0,1,2,5,10,21,42,85,170,341,682,1365,2730,5461,10922,21845,43690,
 %T A000975 87381,174762,349525,699050,1398101,2796202,5592405,11184810,22369621,
 %U A000975 44739242,89478485,178956970,357913941,715827882,1431655765,2863311530,5726623061,11453246122
@@ -26,9 +26,8 @@
 %C A000975 From _Hieronymus Fischer_, Nov 22 2012: (Start)
 %C A000975 Represented in binary form each term after the second one contains every previous term as a substring.
 %C A000975 The terms a(2) = 2 and a(3) = 5 are the only primes. Proof: For even n we get a(n) = 2*(2^(2*n) - 1)/3, which shows that a(n) is even, too, and obviously a(n) > 2 for all even n > 2. For odd n we have a(n) = (2^(n+1) - 1)/3 = (2^((n+1)/2) - 1) * (2^((n+1)/2) + 1)/3. Evidently, at least one of these factors is divisible by 3, both are greater than 6, provided n > 3. Hence it follows that a(n) is composite for all odd n > 3.
-%C A000975 Represented as a binary number, a(n+1) has exactly n prime substrings. Proof: Evidently, a(1) = 1_2 has zero and a(2) = 10_2 has 1 prime substring. Let n > 1. Written in binary, a(n+1) is 101010101...01 (if n + 1 is odd) and is 101010101...10 (if n + 1 is even) with n + 1 digits. Only the 2- and 3-digits substrings 10_2 (=2) and 101_2 (=5) are prime substrings. All the other substrings are nonprime since every substring is a previous term and all terms unequal to 2 and 5 are nonprime. For even n + 1, the number of prime substrings equal to 2 = 10_2 is (n+1)/2, and the number of prime substrings equal to 5 = 101_2 is (n-1)/2, makes a sum of n. For odd n + 1 we get n/2 for both, the number of 2's and 5's prime substrings, in any case, the sum is n.
-%C A000975 (End)
-%C A000975 Also the number of different 3-colorings for the vertices of all triangulated planar polygons on a base with n+2 vertices if the colors of the two base vertices are fixed. - _Patrick Labarque_, Feb 09 2013
+%C A000975 Represented as a binary number, a(n+1) has exactly n prime substrings. Proof: Evidently, a(1) = 1_2 has zero and a(2) = 10_2 has 1 prime substring. Let n > 1. Written in binary, a(n+1) is 101010101...01 (if n + 1 is odd) and is 101010101...10 (if n + 1 is even) with n + 1 digits. Only the 2- and 3-digits substrings 10_2 (=2) and 101_2 (=5) are prime substrings. All the other substrings are nonprime since every substring is a previous term and all terms unequal to 2 and 5 are nonprime. For even n + 1, the number of prime substrings equal to 2 = 10_2 is (n+1)/2, and the number of prime substrings equal to 5 = 101_2 is (n-1)/2, makes a sum of n. For odd n + 1 we get n/2 for both, the number of 2's and 5's prime substrings, in any case, the sum is n. (End)
+%C A000975 Number of different 3-colorings for the vertices of all triangulated planar polygons on a base with n+2 vertices if the colors of the two base vertices are fixed. - _Patrick Labarque_, Feb 09 2013
 %C A000975 A090079(a(n)) = a(n) and A090079(m) <> a(n) for m < a(n). - _Reinhard Zumkeller_, Feb 16 2013
 %C A000975 a(n) is the number of length n binary words containing at least one 1 and ending in an even number (possibly zero) of 0's. a(3) = 5 because we have: 001, 011, 100, 101, 111. - _Geoffrey Critzer_, Dec 15 2013
 %C A000975 a(n) is the number of permutations of length n+1 having exactly one descent such that the first element of the permutation is an even number. - _Ran Pan_, Apr 18 2015
@@ -71,29 +70,34 @@
 %C A000975 For normal multisets we have A056450, strongly normal A361202.
 %C A000975 For partitions we have A325347, strict A359907, complement A307683.
 %C A000975 (End)
+%C A000975 In binary form, because the sequence 10101_2... keeps repeating, one can represent a(n) = floor(0.(10)_2 * 2^n). Because 0.(10)_2 = 0.(10)_2 * 4 - 2, then 0.(10)_2 = 2/3. Substituting this value in the first expression, we obtain a(n) = floor(2^(n+1)/3). This also agrees with the formula of Paul Barry, Oct 08 2005. - _Giovanni Ciriani_, Mar 31 2025
+%C A000975 The binary reflected Gray code at a(n) is the binary n-repunit, A003188(a(n)) = 2^n-1, and this is where the number of 1's in that Gray code sets a new record high. - _Asher Shmidov_, Oct 02 2025
+%C A000975 The n-fold homomorphic graph product ( ... ((K2 X (K2 X ... (K2 X (K2 X K2)) ... ) represents a regular graph with 2^(n+1) vertices. a(n+1) is the degree of regularity for this graph. - _Helmut Ruhland_, Oct 19 2025
+%C A000975 a(n) is the number of rooted binary perfect phylogenies with sample size n+1 that have a caterpillar shape; that is, a(n) is the number of rooted binary trees with a caterpillar shape in which the leaf labels are assigned positive integers that sum to n+1. - _Noah A Rosenberg_, Nov 10 2025
 %D A000975 Thomas Fink and Yong Mao, The 85 Ways to Tie a Tie, Broadway Books, New York (1999), p. 138.
 %D A000975 Clifford A. Pickover, The Math Book, From Pythagoras to the 57th Dimension, 250 Milestones in the History of Mathematics, Sterling Publ., NY, 2009.
 %H A000975 G. C. Greubel, <a href="/A000975/b000975.txt">Table of n, a(n) for n = 0..3300</a> (terms 0..300 from T. D. Noe)
 %H A000975 Paul Barry, <a href="https://arxiv.org/abs/2104.01644">Centered polygon numbers, heptagons and nonagons, and the Robbins numbers</a>, arXiv:2104.01644 [math.CO], 2021.
 %H A000975 Thomas Baruchel, <a href="https://arxiv.org/abs/1908.02250">Properties of the cumulated deficient binary digit sum</a>, arXiv:1908.02250 [math.NT], 2019.
 %H A000975 Sergei L. Bezrukov et al., <a href="https://doi.org/10.1016/S0012-365X(99)00162-4">The congestion of n-cube layout on a rectangular grid</a>, Discrete Mathematics 213.1-3 (2000): 13-19. See Theorem 1.
-%H A000975 F. Chapoton and S. Giraudo, <a href="http://arxiv.org/abs/1310.4521">Enveloping operads and bicoloured noncrossing configurations</a>, arXiv:1310.4521 [math.CO], 2013. Is the sequence in Table 2 this sequence? - _N. J. A. Sloane_, Jan 04 2014. (Yes, it is. See Stockmeyer's arXiv:1608.08245 2016 paper for the proof.)
+%H A000975 F. Chapoton and S. Giraudo, <a href="https://arxiv.org/abs/1310.4521">Enveloping operads and bicoloured noncrossing configurations</a>, arXiv:1310.4521 [math.CO], 2013. Is the sequence in Table 2 this sequence? - _N. J. A. Sloane_, Jan 04 2014. (Yes, it is. See Stockmeyer's arXiv:1608.08245 2016 paper for the proof.)
 %H A000975 Ji Young Choi, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL19/Choi/choi6.html">Ternary Modified Collatz Sequences And Jacobsthal Numbers</a>, Journal of Integer Sequences, Vol. 19 (2016), #16.7.5.
-%H A000975 Ji Young Choi, <a href="https://www.emis.de/journals/JIS/VOL21/Choi/choi10.html">A Generalization of Collatz Functions and Jacobsthal Numbers</a>, J. Int. Seq., Vol. 21 (2018), Article 18.5.4.
+%H A000975 Ji Young Choi, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL21/Choi/choi10.html">A Generalization of Collatz Functions and Jacobsthal Numbers</a>, J. Int. Seq., Vol. 21 (2018), Article 18.5.4.
 %H A000975 Madeleine Goertz and Aaron Williams, <a href="https://arxiv.org/abs/2411.19291">The Quaternary Gray Code and How It Can Be Used to Solve Ziggurat and Other Ziggu Puzzles</a>, arXiv:2411.19291 [math.CO], 2024. See pp. 1, 17, 42.
-%H A000975 David Hayes, Kaveh Khodjasteh, Lorenza Viola and Michael J. Biercuk, <a href="http://arxiv.org/abs/1109.6002">Reducing sequencing complexity in dynamical quantum error suppression by Walsh modulation</a>, arXiv:1109.6002 [quant-ph], 2011.
+%H A000975 David Hayes, Kaveh Khodjasteh, Lorenza Viola and Michael J. Biercuk, <a href="https://arxiv.org/abs/1109.6002">Reducing sequencing complexity in dynamical quantum error suppression by Walsh modulation</a>, arXiv:1109.6002 [quant-ph], 2011.
 %H A000975 Clemens Heuberger and Daniel Krenn, <a href="https://arxiv.org/abs/1808.00842">Esthetic Numbers and Lifting Restrictions on the Analysis of Summatory Functions of Regular Sequences</a>, arXiv:1808.00842 [math.CO], 2018. See p. 10.
 %H A000975 Clemens Heuberger and Daniel Krenn, <a href="https://arxiv.org/abs/1810.13178">Asymptotic Analysis of Regular Sequences</a>, arXiv:1810.13178 [math.CO], 2018. See p. 29.
-%H A000975 Andreas M. Hinz, <a href="https://web.archive.org/web/2024*/https://www.fq.math.ca/Papers1/55-1/Hinz09152016.pdf">The Lichtenberg sequence</a>, Fib. Quart., 55 (2017), 2-12.
+%H A000975 Andreas M. Hinz, <a href="https://www.fq.math.ca/Papers1/55-1/Hinz09152016.pdf">The Lichtenberg sequence</a>, Fib. Quart., 55 (2017), 2-12.
 %H A000975 Andreas M. Hinz, Sandi Klavžar, Uroš Milutinović, and Ciril Petr, <a href="http://dx.doi.org/10.1007/978-3-0348-0237-6">The Tower of Hanoi - Myths and Maths</a>, Birkhäuser 2013. See page 56. <a href="http://tohbook.info">Book's website</a>
 %H A000975 Andreas M. Hinz and Paul K. Stockmeyer, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL25/Hinz/hinz5.html">Precious Metal Sequences and Sierpinski-Type Graphs</a>, J. Integer Seq., Vol 25 (2022), Article 22.4.8.
 %H A000975 Jia Huang, <a href="https://arxiv.org/abs/2001.05547">Nonassociativity of the Norton Algebras of some distance regular graphs</a>, arXiv:2001.05547 [math.CO], 2020.
 %H A000975 Jia Huang, <a href="https://arxiv.org/abs/2101.05711">Norton algebras of the Hamming Graphs via linear characters</a>, arXiv:2101.05711 [math.CO], 2021.
 %H A000975 Jia Huang and Erkko Lehtonen, <a href="https://arxiv.org/abs/2401.15786">Associative-commutative spectra for some varieties of groupoids</a>, arXiv:2401.15786 [math.CO], 2024. See p. 17.
 %H A000975 Jia Huang, Madison Mickey, and Jianbai Xu, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL20/Huang/huang3.html">The Nonassociativity of the Double Minus Operation</a>, Journal of Integer Sequences, Vol. 20 (2017), #17.10.3.
+%H A000975 Ryota Inagaki, Tanya Khovanova, and Austin Luo, <a href="https://doi.org/10.1007/s00026-025-00779-6">On Chip-Firing on Undirected Binary Trees</a>, Ann. Comb. (2025). See p. 10.
 %H A000975 INRIA Algorithms Project, <a href="http://ecs.inria.fr/services/structure?nbr=394">Encyclopedia of Combinatorial Structures 394</a>
 %H A000975 Hans Isdahl, <a href="/A000975/a000975.jpg">"Knitwear" puzzle</a>
-%H A000975 D. E. Knuth and O. P. Lossers, <a href="http://www.jstor.org/stable/27642185">Partitions of a circular set</a>, Problem 11151 in Amer. Math. Monthly 114 (3) (2007) p 265, E_3.
+%H A000975 D. E. Knuth and O. P. Lossers, <a href="https://www.jstor.org/stable/27642185">Partitions of a circular set</a>, Problem 11151 in Amer. Math. Monthly 114 (3) (2007) p 265, E_3.
 %H A000975 S. Lafortune, A. Ramani, B. Grammaticos, Y. Ohta and K.M. Tamizhmani, <a href="http://arXiv.org/abs/nlin.SI/0104020">Blending two discrete integrability criteria: singularity confinement and algebraic entropy</a>, arXiv:nlin/0104020 [nlin.SI], 2001.
 %H A000975 Robert L. Lamphere, <a href="http://www.maa.org/sites/default/files/0746834214182.di020773.02p0248n.pdf">A Recurrence Relation in the Spinout Puzzle</a>, The College Mathematics Journal, Vol. 27, Nbr. 4, Page 289, Sep. 96.
 %H A000975 Wolfdieter Lang, <a href="/A000975/a000975.pdf">Notes on certain inhomogeneous three term recurrences.</a>
@@ -103,13 +107,15 @@
 %H A000975 Gregg Musiker and Son Nguyen, <a href="https://arxiv.org/abs/2206.02007">Labeled Chip-firing on Binary Trees</a>, arXiv:2206.02007 [math.CO], 2022.
 %H A000975 Kival Ngaokrajang, <a href="/A000975/a000975_1.pdf">Illustration of initial terms</a>
 %H A000975 Ahmet Öteleş, <a href="https://dx.doi.org/10.1063/1.4992479">On the sum of Pell and Jacobsthal numbers by the determinants of Hessenberg matrices</a>, AIP Conference Proceedings 1863, 310003 (2017).
-%H A000975 Vladimir Shevelev, <a href="http://arxiv.org/abs/0801.0072">On the Basis Polynomials in the Theory of Permutations with Prescribed Up-Down Structure</a>, arXiv:0801.0072 [math.CO], 2007-2010. See Example 3.
+%H A000975 Vladimir Shevelev, <a href="https://arxiv.org/abs/0801.0072">On the Basis Polynomials in the Theory of Permutations with Prescribed Up-Down Structure</a>, arXiv:0801.0072 [math.CO], 2007-2010. See Example 3.
 %H A000975 Chloe E. Shiff and Noah A. Rosenberg, <a href="https://arxiv.org/abs/2410.14915">Enumeration of rooted binary perfect phylogenies</a>, arXiv:2410.14915 [q-bio.PE], 2024. See pp. 15, 17.
+%H A000975 Chloe E. Shiff and Noah A. Rosenberg, <a href="https://doi.org/10.1016/j.dam.2025.10.053"> Enumeration of rooted binary perfect phylogenies</a>, Discr. Appl. Math. 380 (2026), 538-561. See Table 3.
 %H A000975 A. V. Sills and H. Wang, <a href="http://dx.doi.org/10.1016/j.dam.2012.03.002">On the maximal Wiener index and related questions</a>, Discrete Applied Mathematics, Volume 160, Issues 10-11, July 2012, Pages 1615-1623 - _N. J. A. Sloane_, Sep 21 2012
 %H A000975 N. J. A. Sloane, <a href="/transforms.txt">Transforms</a>
-%H A000975 Paul K. Stockmeyer, <a href="http://arxiv.org/abs/1608.08245">An Exploration of Sequence A000975</a>, arXiv:1608.08245 [math.CO], 2016; <a href="https://web.archive.org/web/2024*/https://www.fq.math.ca/Papers1/55-5/Stockmeyer.pdf">Fib. Quart. 55 (2017) 174</a>.
+%H A000975 Elen Viviani Pereira Spreafico, Francisco Regis Vieira Alves, Paula Maria Machado Cruz Catarino, and Eudes Antonio Costa, <a href="https://icmase.com/uploadfiles/files/338764f2-63ab-4004-9260-eca4ed67bfe3.pdf">A brief study of the one parameter Lichtenberg numbers</a>, VI Int'l Conf. Math. Appl. Sci. Eng. (ICMASE 2025).
+%H A000975 Paul K. Stockmeyer, <a href="https://arxiv.org/abs/1608.08245">An Exploration of Sequence A000975</a>, arXiv:1608.08245 [math.CO], 2016; <a href="https://www.fq.math.ca/Papers1/55-5/Stockmeyer.pdf">Fib. Quart. 55 (2017) 174</a>.
 %H A000975 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/Baguenaudier.html">Baguenaudier</a>
-%H A000975 A. K. Whitford, <a href="https://web.archive.org/web/2024*/https://www.fq.math.ca/Scanned/15-1/whitford-a.pdf">Binet's Formula Generalized</a>, Fibonacci Quarterly, Vol. 15, No. 1, 1979, pp. 21, 24, 29.
+%H A000975 A. K. Whitford, <a href="https://www.fq.math.ca/Scanned/15-1/whitford-a.pdf">Binet's Formula Generalized</a>, Fibonacci Quarterly, Vol. 15, No. 1, 1979, pp. 21, 24, 29.
 %H A000975 <a href="/index/Bi#binary">Index entries for sequences related to binary expansion of n</a>
 %H A000975 <a href="/index/Rec#order_03">Index entries for linear recurrences with constant coefficients</a>, signature (2,1,-2).
 %F A000975 a(n) = ceiling(2*(2^n-1)/3).
@@ -191,7 +197,7 @@
 %Y A000975 Equals A026644/2.
 %Y A000975 Union of the bijections A002450 and A020988. - _Robert G. Wilson v_, Jun 09 2014
 %Y A000975 Column k=3 of A261139.
-%Y A000975 Cf. A000295, A005578, A015441, A043291, A053404, A059260, A077854, A119440, A127824, A130125, A135228, A155051, A179970, A264784.
+%Y A000975 Cf. A000295, A003188, A005578, A015441, A043291, A053404, A059260, A077854, A119440, A127824, A130125, A135228, A155051, A179970, A264784.
 %Y A000975 Complement of A107907.
 %Y A000975 Row 3 of A300653.
 %Y A000975 Other sequences that relate to the binary representation of the terms: A003714, A003754, A007088, A022290, A056830, A104161, A107909.
@@ -199,7 +205,7 @@
 %Y A000975 Cf. A005186, A033491, A153772.
 %Y A000975 Cf. A014550, A035263
 %Y A000975 Cf. A051293, A067659, A079309, A231147, A325347, A359893, A359907, A361801.
-%K A000975 nonn,easy,nice
+%K A000975 nonn,easy,nice,changed
 %O A000975 0,3
 %A A000975 _Mira Bernstein_, _N. J. A. Sloane_, _Robert G. Wilson v_, Sep 13 1996
 %E A000975 Additional comments from _Barry E. Williams_, Jan 10 2000

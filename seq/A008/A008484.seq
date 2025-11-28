@@ -1,4 +1,4 @@
-%I A008484 #93 Dec 01 2024 10:03:46
+%I A008484 #94 Sep 22 2025 16:00:21
 %S A008484 1,0,0,0,1,1,1,1,2,2,3,3,5,5,7,8,11,12,16,18,24,27,34,39,50,57,70,81,
 %T A008484 100,115,140,161,195,225,269,311,371,427,505,583,688,791,928,1067,
 %U A008484 1248,1434,1668,1914,2223,2546,2945,3370,3889,4443,5113,5834,6698
@@ -29,7 +29,7 @@
 %o A008484 (Magma) a:= func< n | NumberOfPartitions(n)-NumberOfPartitions(n-1)-NumberOfPartitions(n-2)+ NumberOfPartitions(n-4)+NumberOfPartitions(n-5)- NumberOfPartitions(n-6) >; [1,0,0,0,1,1,1] cat [ a(n) : n in [7..60]]; // _Vincenzo Librandi_, Aug 20 2017
 %o A008484 (Magma) R<x>:=PowerSeriesRing(Integers(), 60); Coefficients(R!( 1/(&*[1-x^(m+4): m in [0..70]]) )); // _G. C. Greubel_, Nov 03 2019
 %o A008484 (PARI) my(x='x+O('x^60)); Vec(1/prod(m=0,70, 1-x^(m+4))) \\ _G. C. Greubel_, Nov 03 2019
-%o A008484 (Sage)
+%o A008484 (SageMath)
 %o A008484 def A008484_list(prec):
 %o A008484     P.<x> = PowerSeriesRing(ZZ, prec)
 %o A008484     return P( 1/product((1-x^(m+4)) for m in (0..70)) ).list()

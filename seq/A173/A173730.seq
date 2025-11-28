@@ -1,4 +1,4 @@
-%I A173730 #16 Jun 29 2023 09:27:23
+%I A173730 #17 Nov 05 2025 15:22:18
 %S A173730 1,1,2,4,7,10,20,22,35,50,63,78,116,131,170,215,260,306,395,440,537,
 %T A173730 640,737,841,1025,1125,1310,1507,1700,1898,2213,2404,2729,3071,3391,
 %U A173730 3725,4242,4566,5075,5612,6127,6656,7418,7931,8703,9499,10254,11038,12140
@@ -6,7 +6,7 @@
 %C A173730 A magilatin square has equal row and column sums and no number repeated in any row or column. The symmetries are row and column permutations and diagonal flip.
 %C A173730 a(n) is given by a quasipolynomial of degree 4 and period 840.
 %H A173730 T. Zaslavsky, <a href="/A173730/b173730.txt">Table of n, a(n) for n = 6..10000</a>.
-%H A173730 Matthias Beck and Thomas Zaslavsky, <a href="http://arxiv.org/abs/math/0506315">An enumerative geometry for magic and magilatin labellings</a>, arXiv:math/0506315 [math.CO], 2005.
+%H A173730 Matthias Beck and Thomas Zaslavsky, <a href="https://arxiv.org/abs/math/0506315">An enumerative geometry for magic and magilatin labellings</a>, arXiv:math/0506315 [math.CO], 2005.
 %H A173730 Matthias Beck and Thomas Zaslavsky, <a href="https://doi.org/10.1007/s00026-006-0296-4">An enumerative geometry for magic and magilatin labellings</a>, Annals of Combinatorics, 10 (2006), no. 4, pages 395-413. MR 2007m:05010. Zbl 1116.05071.
 %H A173730 Matthias Beck and Thomas Zaslavsky, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL13/Zaslavsky/sls.html">Six Little Squares and How their Numbers Grow</a>, Journal of Integer Sequences, 13 (2010), Article 10.6.2.
 %H A173730 <a href="/index/Rec#order_34">Index entries for linear recurrences with constant coefficients</a>, signature (-2, -3, -2, 0, 3, 6, 8, 9, 7, 3, -4, -10, -15, -16, -14, -8, 0, 8, 14, 16, 15, 10, 4, -3, -7, -9, -8, -6, -3, 0, 2, 3, 2, 1).

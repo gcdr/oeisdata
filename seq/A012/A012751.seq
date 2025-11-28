@@ -1,4 +1,4 @@
-%I A012751 #8 Feb 06 2015 10:33:05
+%I A012751 #9 Sep 30 2025 20:34:16
 %S A012751 0,2,12,430,27384,2844538,444855620,96566466022,27798112443248,
 %T A012751 10239758940342642,4695120560496345596,2621628020059813754526,
 %U A012751 1751011006876497963996520,1378272807335260827405511146
@@ -7,5 +7,5 @@
 %t A012751 nn = 20; Table[(CoefficientList[Series[Tan[ArcTanh[x]*Sinh[x]], {x, 0, 2*nn}], x] * Range[0, 2*nn]!)[[n]], {n, 1, 2*nn+1, 2}] (* _Vaclav Kotesovec_, Feb 06 2015 *)
 %K A012751 nonn
 %O A012751 0,2
-%A A012751 Patrick Demichel (patrick.demichel(AT)hp.com)
+%A A012751 _Patrick Demichel_
 %E A012751 a(0)=0 prepended by _Vaclav Kotesovec_, Feb 06 2015

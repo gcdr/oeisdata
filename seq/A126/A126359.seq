@@ -1,4 +1,4 @@
-%I A126359 #26 Aug 19 2012 10:35:18
+%I A126359 #28 Jul 09 2025 04:26:17
 %S A126359 3,5,7,37,43,223,1297,1303,1549,2801,4673,6571,10111,101111
 %N A126359 A sequence of prime numbers that can be expressed using only digits 0 and 1 in minimum ascending bases.
 %C A126359 3 = 10 base 3 = 3 + 0
@@ -23,4 +23,4 @@
 %Y A126359 A215511
 %K A126359 nonn,base
 %O A126359 3,1
-%A A126359 _Jason Betts_, Aug 14 2012.
+%A A126359 _Jason Betts_, Aug 14 2012

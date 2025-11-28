@@ -1,10 +1,10 @@
-%I A331488 #21 Feb 16 2025 08:33:59
+%I A331488 #22 Nov 05 2025 15:22:42
 %S A331488 0,0,0,1,1,2,3,6,10,20,36,70,134,263,513,1022,2030,4076,8203,16614,
 %T A331488 33738,68833,140796,288989,594621,1226781,2536532,5256303,10913196,
 %U A331488 22700682,47299699,98714362,206323140,431847121,905074333,1899247187,3990145833,8392281473
 %N A331488 Number of unlabeled lone-child-avoiding rooted trees with n vertices and more than two branches (of the root).
 %C A331488 Also the number of lone-child-avoiding rooted trees with n vertices and more than two branches.
-%H A331488 David Callan, <a href="http://arxiv.org/abs/1406.7784">A sign-reversing involution to count labeled lone-child-avoiding trees</a>, arXiv:1406.7784 [math.CO], (30-June-2014)
+%H A331488 David Callan, <a href="https://arxiv.org/abs/1406.7784">A sign-reversing involution to count labeled lone-child-avoiding trees</a>, arXiv:1406.7784 [math.CO], (30-June-2014)
 %H A331488 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/Series-ReducedTree.html">Series-reduced tree.</a>
 %H A331488 Gus Wiseman, <a href="https://oeis.org/A001678/a001678.txt">Sequences counting series-reduced and lone-child-avoiding trees by number of vertices.</a>
 %F A331488 For n > 1, a(n) = A001679(n) - A001678(n).

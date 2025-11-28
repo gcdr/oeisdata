@@ -1,8 +1,8 @@
-%I A199947 #5 Mar 31 2012 12:36:37
+%I A199947 #9 Oct 03 2025 08:23:48
 %S A199947 2,868,13890,104268,464782,1577040,4310382,10274388,21921086,43069520,
 %T A199947 78878810,137045852,226914998,361712248,557412114,834701940,
 %U A199947 1217933582,1739046456,2432877362,3344664408,4524523614,6033558944,7938870746
-%N A199947 Number of -n..n arrays x(0..5) of 6 elements with zeroth through 5th differences all nonzero
+%N A199947 Number of -n..n arrays x(0..5) of 6 elements with zeroth through 5th differences all nonzero.
 %C A199947 Row 6 of A199943
 %H A199947 R. H. Hardin, <a href="/A199947/b199947.txt">Table of n, a(n) for n = 1..35</a>
 %e A199947 Some solutions for n=6
@@ -14,4 +14,4 @@
 %e A199947 ..4....4....5...-2...-2...-2...-2....2...-2....2...-6...-3....4....5....4...-5
 %K A199947 nonn
 %O A199947 1,1
-%A A199947 _R. H. Hardin_ Nov 12 2011
+%A A199947 _R. H. Hardin_, Nov 12 2011

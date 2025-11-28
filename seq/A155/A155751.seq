@@ -1,8 +1,8 @@
-%I A155751 #12 Oct 19 2017 10:46:17
+%I A155751 #14 Jun 02 2025 01:19:12
 %S A155751 1,-7,-2,-3,4,6,-8,5,-1,7,2,3,-4,-6,8,-5,1,-7,-2,-3,4,6,-8,5,-1,7,2,3,
 %T A155751 -4,-6,8,-5,1,-7,-2,-3,4,6,-8,5,-1,7,2,3,-4,-6,8,-5,1,-7,-2,-3,4,6,-8,
 %U A155751 5,-1,7,2,3,-4,-6,8,-5,1,-7,-2,-3,4,6,-8,5,-1,7,2,3,-4,-6,8,-5
-%N A155751 A variation on 10^n mod 17
+%N A155751 A variation on 10^n mod 17.
 %C A155751 This is 10^n mod 17, using values -8,-7,...,7,8 (instead of 0..16). - _Don Reble_, Sep 02 2017.
 %C A155751 This sequence can be employed in a test for divisibility by 17 and works like A033940 works for 7.
 %C A155751 The use of negative coefficients ensures the termination of the test because the modulus of the intermediate sum at each step of the test decreases strictly.

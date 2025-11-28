@@ -1,8 +1,8 @@
-%I A192216 #21 Jun 02 2024 08:22:32
+%I A192216 #22 Sep 22 2025 16:01:06
 %S A192216 0,0,54,448,9520,103104,1608936,13488064,267423822
 %N A192216 Number of zero trace primitive elements in Galois field GF(13^n).
 %F A192216 a(n) = n * A192511(n). - _Joerg Arndt_, Jul 03 2011
-%o A192216 (Sage)
+%o A192216 (SageMath)
 %o A192216 def a(n):
 %o A192216     ans = 0
 %o A192216     for x in GF(13^n):

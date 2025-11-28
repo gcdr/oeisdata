@@ -1,9 +1,9 @@
-%I A274439 #17 Feb 16 2025 08:33:36
+%I A274439 #18 Nov 05 2025 15:22:34
 %S A274439 2,6,3,6,1,8,5,7,2,5,2,2,4,8,7,2,2,2,6,5,4,6,4,0,2,0,4,7,9,1,9,8,6,8,
 %T A274439 6,8,5,5,3,3,9,5,2,4,3,7,4,0,8,5,4,6,5,0,4,9,6,2,6,1,4,3,4,0,2,7,6,6,
 %U A274439 5,5,4,3,8,2,5,1,8,2,0,4,0,7,9,4,7,0,6,6,7,0,6,1,6,0,6,2,2,0,5,4,7,6,6
 %N A274439 Decimal expansion of Q(1), value of one of five integrals related to Quantum Field Theory (see the paper by David Broadhurst).
-%H A274439 David J. Broadhurst, <a href="http://arxiv.org/abs/hep-th/9803091">Massive 3-loop Feynman diagrams reducible to SC* primitives of algebras of the sixth root of unity</a>, arXiv:hep-th/9803091, 1998, p. 12.
+%H A274439 David J. Broadhurst, <a href="https://arxiv.org/abs/hep-th/9803091">Massive 3-loop Feynman diagrams reducible to SC* primitives of algebras of the sixth root of unity</a>, arXiv:hep-th/9803091, 1998, p. 12.
 %H A274439 Eric Weisstein's MathWorld, <a href="https://mathworld.wolfram.com/ClausensIntegral.html">Clausen's Integral</a>
 %F A274439 Q(n) = Integral_{x>0} arccosh((x+2)/2)^2 log((x+1)/x)/(x+n) dx.
 %F A274439 Computation is done using the analytical form given by David Broadhurst:

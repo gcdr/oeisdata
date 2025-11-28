@@ -1,4 +1,4 @@
-%I A069072 #51 Jan 15 2024 12:02:28
+%I A069072 #52 Nov 05 2025 15:22:01
 %S A069072 6,60,210,504,990,1716,2730,4080,5814,7980,10626,13800,17550,21924,
 %T A069072 26970,32736,39270,46620,54834,63960,74046,85140,97290,110544,124950,
 %U A069072 140556,157410,175560,195054,215940,238266,262080,287430,314364,342930
@@ -8,7 +8,7 @@
 %D A069072 T. J. I'a. Bromwich, Introduction to the Theory of Infinite Series, Macmillan, 2nd. ed. 1949, p. 190.
 %D A069072 Jolley, Summation of Series, Oxford (1961).
 %D A069072 Konrad Knopp, Theory and application of infinite series, Dover, p. 269.
-%H A069072 M. Janjic and B. Petkovic, <a href="http://arxiv.org/abs/1301.4550">A Counting Function</a>, arXiv 1301.4550 [math.CO], 2013.
+%H A069072 M. Janjic and B. Petkovic, <a href="https://arxiv.org/abs/1301.4550">A Counting Function</a>, arXiv 1301.4550 [math.CO], 2013.
 %H A069072 Konrad Knopp, <a href="http://name.umdl.umich.edu/ACM1954.0001.001">Theorie und Anwendung der unendlichen Reihen</a>, Berlin, J. Springer, 1922. (Original german edition of "Theory and Application of Infinite Series")
 %H A069072 S. Ramanujan, <a href="http://www.imsc.res.in/~rao/ramanujan/NoteBooks/NoteBook2/chapterII/page1.htm">Notebook entry</a>
 %H A069072 <a href="/index/Rec#order_04">Index entries for linear recurrences with constant coefficients</a>, signature (4,-6,4,-1).

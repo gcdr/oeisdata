@@ -1,4 +1,4 @@
-%I A012290 #20 Sep 08 2022 08:44:38
+%I A012290 #21 Sep 30 2025 20:34:15
 %S A012290 0,1,2,0,-24,-140,-8,8960,92736,12240,-14154208,-210017280,-50776704,
 %T A012290 58549241920,1133642065792,435228385280,-500888609593344,
 %U A012290 -11981516394489600,-6690495105515008,7684815276420464640
@@ -13,5 +13,5 @@
 %o A012290 (Magma) m:=30; R<x>:=PowerSeriesRing(Rationals(), m); b:=Coefficients(R!( Arctan(Sin(x)*Exp(x)) )); [0] cat [Factorial(n)*b[n]: n in [1..m-1]]; // _G. C. Greubel_, Oct 26 2018
 %K A012290 sign
 %O A012290 0,3
-%A A012290 Patrick Demichel (patrick.demichel(AT)hp.com)
+%A A012290 _Patrick Demichel_
 %E A012290 Missing a(0)=0 prepended by _Vaclav Kotesovec_, Jan 02 2014

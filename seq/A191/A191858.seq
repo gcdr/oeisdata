@@ -1,6 +1,6 @@
-%I A191858 #15 Oct 28 2021 12:37:08
+%I A191858 #17 Jun 02 2025 04:10:50
 %S A191858 0,1051,6776941,50904310155,833954771945899
-%N A191858 The greatest integer M for which there are no primes between M^(1+1/n) and (M+1)^(1+1/n)
+%N A191858 The greatest integer M for which there are no primes between M^(1+1/n) and (M+1)^(1+1/n).
 %C A191858 Terms are conjectural, even under the Riemann Hypothesis.
 %C A191858 (1) The initial term a(1)=0 gives a simple restatement of Legendre's conjecture: There are no primes between 0^2 and 1^2, but there is a prime between m^2 and (m+1)^2 for m>0.
 %C A191858 (2) Lists of known maximum prime gaps and known first occurrences of prime gaps help verify the initial terms in this sequence. However, a lengthy computation would be needed for subsequent terms.

@@ -1,4 +1,4 @@
-%I A303338 #16 Jul 30 2022 11:56:36
+%I A303338 #17 Nov 05 2025 15:22:41
 %S A303338 0,0,0,1,1,1,3,3,2,4,3,2,6,2,4,8,2,4,7,3,4,8,5,5,10,6,4,10,8,5,12,7,3,
 %T A303338 12,4,5,12,5,5,14,7,4,12,7,6,12,6,6,10,7,7,12,7,6,14,6,8,16,4,8,18,5,
 %U A303338 6,16,5,9,13,7,7,14
@@ -9,7 +9,7 @@
 %H A303338 Zhi-Wei Sun, <a href="/A303338/b303338.txt">Table of n, a(n) for n = 1..10000</a>
 %H A303338 Zhi-Wei Sun, <a href="http://dx.doi.org/10.1016/j.jnt.2016.11.008">Refining Lagrange's four-square theorem</a>, J. Number Theory 175(2017), 167-190.
 %H A303338 Zhi-Wei Sun, <a href="http://maths.nju.edu.cn/~zwsun/179b.pdf">New conjectures on representations of integers (I)</a>, Nanjing Univ. J. Math. Biquarterly 34(2017), no. 2, 97-120.
-%H A303338 Zhi-Wei Sun, <a href="http://arxiv.org/abs/1701.05868">Restricted sums of four squares</a>, arXiv:1701.05868 [math.NT], 2017-2018.
+%H A303338 Zhi-Wei Sun, <a href="https://arxiv.org/abs/1701.05868">Restricted sums of four squares</a>, arXiv:1701.05868 [math.NT], 2017-2018.
 %e A303338 a(4) = 1 with 4 = 0^2 + 2*0^2 + 3*2^0 + 4^0.
 %e A303338 a(5) = 1 with 5 = 1^2 + 2*0^2 + 3*2^0 + 4^0.
 %e A303338 a(6) = 1 with 6 = 0^2 + 2*1^2 + 3*2^0 + 4^0.

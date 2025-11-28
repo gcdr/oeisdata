@@ -1,4 +1,4 @@
-%I A000396 M4186 N1744 #461 Feb 16 2025 08:32:21
+%I A000396 M4186 N1744 #521 Nov 05 2025 15:35:22
 %S A000396 6,28,496,8128,33550336,8589869056,137438691328,2305843008139952128,
 %T A000396 2658455991569831744654692615953842176,
 %U A000396 191561942608236107294793378084303638130997321548169216
@@ -22,16 +22,21 @@
 %D A000396 Tom M. Apostol, Introduction to Analytic Number Theory, Springer-Verlag, 1976, page 4.
 %D A000396 Albert H. Beiler, Recreations in the Theory of Numbers, Dover, NY, 2d ed. 1966, pp. 11-23.
 %D A000396 Stanley J. Bezuszka, Perfect Numbers (Booklet 3, Motivated Math. Project Activities), Boston College Press, Chestnut Hill MA, 1980.
+%D A000396 John H. Conway and Richard K. Guy, The Book of Numbers, New York: Springer-Verlag, 1996. See pp. 136-137.
+%D A000396 Elena Deza and Michel Marie Deza, Figurate numbers, World Scientific Publishing (2012), page 263.
 %D A000396 Euclid, Elements, Book IX, Section 36, about 300 BC.
 %D A000396 Jan Gullberg, Mathematics from the Birth of Numbers, W. W. Norton & Co., NY & London, 1997, §3.3 Perfect and Amicable Numbers, pp. 82-83.
 %D A000396 R. K. Guy, Unsolved Problems in Number Theory, Springer, 1st edition, 1981. See section B1.
 %D A000396 G. H. Hardy and E. M. Wright, An Introduction to the Theory of Numbers. 3rd ed., Oxford Univ. Press, 1954, p. 239.
 %D A000396 T. Koshy, "The Ends Of A Mersenne Prime And An Even Perfect Number", Journal of Recreational Mathematics, Baywood, NY, 1998, pp. 196-202.
-%D A000396 Joseph S. Madachy, Madachy's Mathematical Recreations, New York: Dover Publications, Inc., 1979, p. 149 (First publ. by Charles Scribner's Sons, New York, 1966, under the title: Mathematics on Vacation)
+%D A000396 Joseph S. Madachy, Madachy's Mathematical Recreations, New York: Dover Publications, Inc., 1979, p. 149 (First publ. by Charles Scribner's Sons, New York, 1966, under the title: Mathematics on Vacation).
+%D A000396 Alfred S. Posamentier, Math Charmers, Tantalizing Tidbits for the Mind, Prometheus Books, NY, 2003, pages 46-48, 244-245.
+%D A000396 Paulo Ribenboim, The Little Book of Bigger Primes, Springer-Verlag NY 2004. See pp. 83-87.
 %D A000396 József Sándor and Borislav Crstici, Handbook of Number Theory, II, Springer Verlag, 2004.
 %D A000396 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
 %D A000396 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
 %D A000396 Ian Stewart, L'univers des nombres, "Diviser Pour Régner", Chapter 14, pp. 74-81, Belin-Pour La Science, Paris, 2000.
+%D A000396 James J. Tattersall, Elementary Number Theory in Nine Chapters, Cambridge University Press, 1999, chapter 4, pages 127-149.
 %D A000396 Horace S. Uhler, On the 16th and 17th perfect numbers, Scripta Math., Vol. 19 (1953), pp. 128-131.
 %D A000396 André Weil, Number Theory, An approach through history, From Hammurapi to Legendre, Birkhäuser, 1984, p. 6.
 %D A000396 David Wells, The Penguin Dictionary of Curious and Interesting Numbers, pp. 107-110, Penguin Books, 1987.
@@ -39,19 +44,20 @@
 %H A000396 Abiodun E. Adeyemi, <a href="https://arxiv.org/abs/1906.05798">A Study of @-numbers</a>, arXiv:1906.05798 [math.NT], 2019.
 %H A000396 Anonymous, <a href="http://www-maths.swan.ac.uk/pgrads/bb/project/node3.html">Perfect Numbers</a>. [broken link]
 %H A000396 Anonymous, <a href="http://www-maths.swan.ac.uk/pgrads/bb/project/node43.html">Timetable of discovery of perfect numbers</a>. [broken link]
-%H A000396 Antal Bege and Kinga Fogarasi, <a href="http://arxiv.org/abs/1008.0155">Generalized perfect numbers</a>, arXiv:1008.0155 [math.NT], 2010.
+%H A000396 Antal Bege and Kinga Fogarasi, <a href="https://arxiv.org/abs/1008.0155">Generalized perfect numbers</a>, arXiv:1008.0155 [math.NT], 2010.
+%H A000396 Chris Bispels, Matthew Cohen, Joshua Harrington, Joshua Lowrance, Kaelyn Pontes, Leif Schaumann, and Tony W. H. Wong, <a href="https://arxiv.org/abs/2507.16135">A further investigation on covering systems with odd moduli</a>, arXiv:2507.16135 [math.NT], 2025. See p. 3.
 %H A000396 Richard P. Brent and Graeme L. Cohen, <a href="https://doi.org/10.1090/S0025-5718-1989-0968150-2">A new lower bound for odd perfect numbers</a>, Math. Comp., Vol. 53, No. 187 (1989), pp. 431-437, S7; <a href="http://wwwmaths.anu.edu.au/~brent/pub/pub100.html">alternative link</a>.
 %H A000396 Richard P. Brent, Graeme L. Cohen and Herman J. J. te Riele, <a href="http://wwwmaths.anu.edu.au/~brent/pub/pub106.html">A new approach to lower bounds for odd perfect numbers</a>, Report TR-CS-88-08, CSL, ANU, August 1988, 71 pp.
 %H A000396 Richard P. Brent, Graeme L. Cohen and Herman J. J. te Riele, <a href="https://doi.org/10.1090/S0025-5718-1991-1094940-3">Improved Techniques For Lower Bounds For Odd Perfect Numbers</a>, Math. Comp., Vol. 57, No. 196 (1991), pp. 857-868.
 %H A000396 J. Britton, <a href="http://britton.disted.camosun.bc.ca/perfect/jbperfect.htm">Perfect Number Analyser</a>.
-%H A000396 C. K. Caldwell, <a href="https://t5k.org/glossary/page.php?sort=PerfectNumber">Perfect number</a>.
-%H A000396 C. K. Caldwell, <a href="http://www.utm.edu/research/primes/mersenne/index.html">Mersenne Primes, etc.</a>
-%H A000396 C. K. Caldwell, <a href="http://www.utm.edu/research/primes/notes/proofs/Theorem3.html">Iterated sums of the digits of a perfect number converge to 1</a>.
+%H A000396 Chris K. Caldwell, <a href="https://t5k.org/glossary/page.php?sort=PerfectNumber">Perfect number</a>.
+%H A000396 Chris K. Caldwell, <a href="http://www.utm.edu/research/primes/mersenne/index.html">Mersenne Primes, etc.</a>
+%H A000396 Chris K. Caldwell, <a href="http://www.utm.edu/research/primes/notes/proofs/Theorem3.html">Iterated sums of the digits of a perfect number converge to 1</a>.
 %H A000396 Jose Arnaldo B. Dris, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL15/Dris/dris8.html">The Abundancy Index of Divisors of Odd Perfect Numbers</a>, J. Int. Seq., Vol. 15 (2012) Article # 12.4.4.
 %H A000396 Jason Earls, <a href="https://pdfs.semanticscholar.org/4559/ac50797ddeda688576630c4d92229440a0a3.pdf#page=243">The Smarandache sum of composites between factors function</a>, in Smarandache Notions Journal, Vol. 14, No. 1 (2004), p. 243.
 %H A000396 Roger B. Eggleston, <a href="https://doi.org/10.3390/a12080164">Equisum Partitions of Sets of Positive Integers</a>, Algorithms, Vol. 12, No. 8 (2019), Article 164.
 %H A000396 Leonhard Euler, <a href="https://scholarlycommons.pacific.edu/euler-works/798/">De numeris amicibilibus></a>, Commentationes arithmeticae collectae, Vol. 2 (1849), pp. 627-636. Written in 1747.
-%H A000396 Bakir Farhi, <a href="http://arxiv.org/abs/1504.07322">On the representation of an even perfect number as the sum of a limited number of cubes</a>, arXiv:1504.07322 [math.NT], 2015.
+%H A000396 Bakir Farhi, <a href="https://arxiv.org/abs/1504.07322">On the representation of an even perfect number as the sum of a limited number of cubes</a>, arXiv:1504.07322 [math.NT], 2015.
 %H A000396 Steven Finch, <a href="/A000396/a000396.pdf">Amicable Pairs and Aliquot Sequences</a>, 2013. [Cached copy, with permission of the author]
 %H A000396 Farideh Firoozbakht and Maximilian F. Hasler, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL13/Hasler/hasler2.html">Variations on Euclid's formula for Perfect Numbers</a>, Journal of Integer Sequences, Vol. 13 (2010), Article 10.3.1.
 %H A000396 S. Flora Jeba, Anirban Roy, and Manjil P. Saikia, <a href="https://doi.org/10.1007/978-981-97-6798-4_9">On k-Facile Perfect Numbers</a>, Algebra and Its Applications (ICAA-2023) Springer Proc. Math. Stat., Vol. 474, 111-121. See p. 111.
@@ -67,14 +73,14 @@
 %H A000396 Tom Leinster, <a href="http://arXiv.org/abs/math.GR/0104012">Perfect numbers and groups</a>, arXiv:math/0104012 [math.GR], 2001.
 %H A000396 A. V. Lelechenko, <a href="https://web.archive.org/web/20190411020829/https://taac.org.ua/files/a2014/proceedings/UA-2-Andrew%20Lelechenko-440.pdf">The Quest for the Generalized Perfect Numbers</a>, in Theoretical and Applied Aspects of Cybernetics, TAAC 2014, Kiev.
 %H A000396 Daniel Lustig, <a href="http://dx.doi.org/10.1016/j.jnt.2010.03.022">The algebraic independence of the sum of divisors functions</a>, Journal of Number Theory, Volume 130, Issue 11 (November 2010), pp. 2628-2633.
-%H A000396 T. Masiwa, T. Shonhiwa & G. Hitchcock, <a href="http://uzweb.uz.ac.zw/science/maths/zimaths/51/perfect.htm">Perfect Numbers & Mersenne Primes</a>.
+%H A000396 Thomas Masiwa, Temba Shonhiwa, and Gavin Hitchcock, <a href="https://web.archive.org/web/20140501004243/http://uzweb.uz.ac.zw:80/science/maths/zimaths/51/perfect.htm">Perfect Numbers & Mersenne Primes</a>. [Wayback Machine link]
 %H A000396 Mathforum, <a href="http://mathforum.org/dr.math/faq/faq.perfect.html">Perfect Numbers</a>.
 %H A000396 Mathforum, <a href="http://mathforum.org/library/drmath/view/51516.html">List of Perfect Numbers</a>.
 %H A000396 Judson S. McCranie, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL3/mccranie.html">A study of hyperperfect numbers</a>, J. Int. Seqs., Vol. 3 (2000), Article #00.1.3.
 %H A000396 Gérard P. Michon, <a href="http://www.numericana.com/answer/numbers.htm#perfect">Perfect Numbers, Mersenne Primes</a>.
 %H A000396 David Moews, <a href="http://djm.cc/amicable.html">Perfect, amicable and sociable numbers</a>.
 %H A000396 Derek Muller, <a href="https://www.youtube.com/watch?v=Zrv1EDIqHkY">The Oldest Unsolved Problem in Math</a>, Veritasium, YouTube video, 2024.
-%H A000396 Pace P. Nielsen, <a href="https://doi.org/10.1090/S0025-5718-07-01990-4">Odd perfect numbers have at least nine distinct prime factors</a>, Mathematics of Computation, Vol. 76, No. 260 (2007), pp. 2109-2126; <a href="http://arxiv.org/abs/math/0602485">arXiv preprint</a>, arXiv:math/0602485 [math.NT], 2006.
+%H A000396 Pace P. Nielsen, <a href="https://doi.org/10.1090/S0025-5718-07-01990-4">Odd perfect numbers have at least nine distinct prime factors</a>, Mathematics of Computation, Vol. 76, No. 260 (2007), pp. 2109-2126; <a href="https://arxiv.org/abs/math/0602485">arXiv preprint</a>, arXiv:math/0602485 [math.NT], 2006.
 %H A000396 Walter Nissen, <a href="http://upforthecount.com/math/abundance.html">Abundancy : Some Resources </a>, 2008-2010.
 %H A000396 J. J. O'Connor and E. F. Robertson, <a href="http://www-groups.dcs.st-and.ac.uk/~history/HistTopics/Perfect_numbers.html">Perfect Numbers</a>.
 %H A000396 J. O. M. Pedersen, <a href="https://web.archive.org/web/20141006120722/http://amicable.homepage.dk/perfect.htm">Perfect numbers</a>. [Via Internet Archive Wayback-Machine]
@@ -88,7 +94,7 @@
 %H A000396 Tyler Ross, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL27/Ross/ross3.html">A Perfect Number Generalization and Some Euclid-Euler Type Results</a>, Journal of Integer Sequences, Vol. 27 (2024), Article 24.7.5. See p. 3.
 %H A000396 D. Scheffler and R. Ondrejka, <a href="http://dx.doi.org/10.1090/S0025-5718-1960-0112239-6">The numerical evaluation of the eighteenth perfect number</a>, Math. Comp., Vol. 14, No. 70 (1960), pp. 199-200.
 %H A000396 K. Schneider, <a href="https://planetmath.org/perfectnumber">perfect number</a>, PlanetMath.org.
-%H A000396 Jonathan Sondow and Kieren MacMillan, <a href="http://www.jstor.org/stable/10.4169/amer.math.monthly.124.3.232">Primary pseudoperfect numbers, arithmetic progressions, and the Erdős-Moser equation</a>, Amer. Math. Monthly, Vol. 124, No. 3 (2017), pp. 232-240; <a href="http://arxiv.org/abs/1812.06566">arXiv preprint</a>, arXiv:math/1812.06566 [math.NT], 2018.
+%H A000396 Jonathan Sondow and Kieren MacMillan, <a href="https://www.jstor.org/stable/10.4169/amer.math.monthly.124.3.232">Primary pseudoperfect numbers, arithmetic progressions, and the Erdős-Moser equation</a>, Amer. Math. Monthly, Vol. 124, No. 3 (2017), pp. 232-240; <a href="https://arxiv.org/abs/1812.06566">arXiv preprint</a>, arXiv:math/1812.06566 [math.NT], 2018.
 %H A000396 G. Villemin's Almanach of Numbers, <a href="http://villemin.gerard.free.fr/Wwwgvmm/Decompos/SixNbPf.htm">Nombres Parfaits</a>.
 %H A000396 J. Voight, <a href="http://magma.maths.usyd.edu.au/~voight/notes/perfelem.pdf">Perfect Numbers:An Elementary Introduction</a>.
 %H A000396 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/PerfectNumber.html">Perfect Number</a>.
@@ -98,6 +104,7 @@
 %H A000396 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/Abundance.html">Abundance</a>.
 %H A000396 Wikipedia, <a href="http://www.wikipedia.org/wiki/Perfect_number">Perfect number</a>.
 %H A000396 Tomohiro Yamada, <a href="http://arXiv.org/abs/math.NT/0511410">On the divisibility of odd perfect numbers by a high power of a prime</a>, arXiv:math/0511410 [math.NT], 2005-2007.
+%H A000396 Joshua Zelinsky, <a href="https://math.colgate.edu/~integers/z59/z59.pdf">The Sum of the Reciprocals of the Prime Divisors of an Odd Perfect or Odd Primitive Non-deficient Number</a>, Integers (2025) Vol. 25, Art. No. A59. See p. 1.
 %H A000396 <a href="/index/Cor#core">Index entries for "core" sequences</a>
 %H A000396 <a href="/index/O#opnseqs">Index entries for sequences where any odd perfect numbers must occur</a>
 %F A000396 The perfect number N = 2^(p-1)*(2^p - 1) is also multiplicatively p-perfect (i.e., A007955(N) = N^p), since tau(N) = 2*p. - _Lekraj Beedassy_, Sep 21 2004
@@ -119,6 +126,7 @@
 %F A000396 For n >= 2, a(n) = Sum_{k=1..A065549(n)} (2*k-1)^3, assuming there are no odd perfect numbers. - _Derek Orr_, Sep 28 2013
 %F A000396 a(n) = A275496(2^((A000043(n) - 1)/2)) - 2^A000043(n), assuming there are no odd perfect numbers. - _Daniel Poveda Parrilla_, Aug 16 2016
 %F A000396 a(n) = A156552(A324201(n)), assuming there are no odd perfect numbers. - _Antti Karttunen_, Mar 28 2019
+%F A000396 a(n) = ((2^(A000043(n)))^3 - (2^(A000043(n)) - 1)^3 - 1)/6, assuming there are no odd perfect numbers. - _Jules Beauchamp_, Jun 06 2025
 %e A000396 6 is perfect because 6 = 1+2+3, the sum of all divisors of 6 less than 6; 28 is perfect because 28 = 1+2+4+7+14.
 %t A000396 Select[Range[9000], DivisorSigma[1,#]== 2*# &] (* _G. C. Greubel_, Oct 03 2017 *)
 %t A000396 PerfectNumber[Range[15]] (* Requires Mathematica version 10 or later *) (* _Harvey P. Dale_, Dec 10 2018 *)

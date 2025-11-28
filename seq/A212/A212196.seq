@@ -1,4 +1,4 @@
-%I A212196 #28 Apr 12 2019 06:54:13
+%I A212196 #30 Nov 10 2025 21:50:40
 %S A212196 1,-1,2,-8,8,-32,6112,-3712,362624,-71706112,3341113856,-79665268736,
 %T A212196 1090547664896,-38770843648,106053090598912,-5507347586961932288,
 %U A212196 136847762542978039808,-45309996254420664320,3447910579774800362340352,-916174777198089643491328
@@ -6,7 +6,7 @@
 %C A212196 The Bernoulli median numbers are the numbers in the median (central) column of the difference table of the Bernoulli numbers.
 %C A212196 The Sage script below is based on L. Seidel's algorithm and does not make use of a library function for the Bernoulli numbers; in fact it generates the Bernoulli numbers on the fly.
 %C A212196 A181130 is an unsigned version with offset 1. A181131 are the denominators of the Bernoulli median numbers.
-%H A212196 Peter Luschny, <a href="http://oeis.org/wiki/User:Peter_Luschny/ComputationAndAsymptoticsOfBernoulliNumbers">The computation and asymptotics of the Bernoulli numbers</a>.
+%H A212196 Peter Luschny, <a href="https://oeis.org/wiki/User:Peter_Luschny/ComputationAndAsymptoticsOfBernoulliNumbers">The computation and asymptotics of the Bernoulli numbers</a>.
 %H A212196 Ludwig Seidel, <a href="http://publikationen.badw.de/de/003384831">Über eine einfache Entstehungsweise der Bernoulli'schen Zahlen und einiger verwandten Reihen</a>, Sitzungsberichte der mathematisch-physikalischen Classe der königlich bayerischen Akademie der Wissenschaften zu München, volume 7 (1877), 157-187.
 %F A212196 a(n) = numerator(Sum_{k=0..n} C(n,k)*Bernoulli(n+k)). - _Vladimir Kruchinin_, Apr 06 2015
 %e A212196 The difference table of the Bernoulli numbers, [m] the Bernoulli median numbers.
@@ -32,7 +32,7 @@
 %e A212196 Integral_{x=0..1} (-1)^n*(Sum_{k=0..n} Stirling2(n,k)*k!*(-x)^k)^2 = BernoulliMedian(n).
 %e A212196 Compare A164555. - _Peter Luschny_, Aug 13 2017
 %t A212196 max = 19; t[0] = Table[ BernoulliB[n], {n, 0, 2*max}]; t[n_] := Differences[t[0], n]; a[1] = -1; a[n_] := t[n][[n + 1]] // Numerator; Table[a[n], {n, 0, max}] (* _Jean-François Alcover_, Jun 26 2013 *)
-%o A212196 (Sage)
+%o A212196 (SageMath)
 %o A212196 def BernoulliMedian_list(n) :
 %o A212196     def T(S, a) :
 %o A212196         R = [a]

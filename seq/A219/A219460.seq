@@ -1,8 +1,8 @@
-%I A219460 #4 Nov 20 2012 10:15:30
+%I A219460 #8 Oct 03 2025 18:05:38
 %S A219460 4,4,4,10,4,10,20,13,13,20,35,26,114,26,35,56,57,498,498,57,56,84,116,
 %T A219460 2266,3422,2266,116,84,120,231,9146,27967,27967,9146,231,120,165,450,
 %U A219460 34529,197308,435960,197308,34529,450,165,220,859,123778,1324860,5544714
-%N A219460 T(n,k)=Number of nXk arrays of the minimum value of corresponding elements and their horizontal, vertical, diagonal or antidiagonal neighbors in a random, but sorted with lexicographically nondecreasing rows and columns, 0..3 nXk array
+%N A219460 T(n,k)=Number of nXk arrays of the minimum value of corresponding elements and their horizontal, vertical, diagonal or antidiagonal neighbors in a random, but sorted with lexicographically nondecreasing rows and columns, 0..3 nXk array.
 %C A219460 Table starts
 %C A219460 ...4....4......10.......20........35.........56.........84.........120
 %C A219460 ...4....4......13.......26........57........116........231.........450
@@ -24,4 +24,4 @@
 %Y A219460 Column 1 is A000292 for n>1
 %K A219460 nonn,tabl
 %O A219460 1,1
-%A A219460 _R. H. Hardin_ Nov 20 2012
+%A A219460 _R. H. Hardin_, Nov 20 2012

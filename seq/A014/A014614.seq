@@ -1,4 +1,4 @@
-%I A014614 #34 Feb 16 2025 08:32:33
+%I A014614 #38 Nov 11 2025 10:37:14
 %S A014614 32,48,72,80,108,112,120,162,168,176,180,200,208,243,252,264,270,272,
 %T A014614 280,300,304,312,368,378,392,396,405,408,420,440,450,456,464,468,496,
 %U A014614 500,520,552,567,588,592,594,612,616,630,656,660,675,680,684,688,696
@@ -6,6 +6,7 @@
 %C A014614 Divisible by exactly 5 prime powers (not including 1).
 %H A014614 T. D. Noe, <a href="/A014614/b014614.txt">Table of n, a(n) for n = 1..10000</a>
 %H A014614 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/AlmostPrime.html">Almost Prime</a>
+%H A014614 Chai Wah Wu, <a href="https://math.colgate.edu/~integers/z95/z95.pdf">Algorithms for Complementary Sequences</a>, Integers (2025) Vol. 25, Art. No. A95. See p. 24.
 %F A014614 Product p_i^e_i with sum e_i = 5.
 %F A014614 a(n) ~ 24n log n/(log log n)^4. - _Charles R Greathouse IV_, Mar 20 2013
 %F A014614 a(n) = A078840(5,n). - _R. J. Mathar_, Jan 30 2019

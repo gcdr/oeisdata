@@ -1,4 +1,4 @@
-%I A143438 #28 Sep 08 2022 08:45:37
+%I A143438 #29 Sep 22 2025 16:00:55
 %S A143438 1,0,1,1,2,2,3,5,6,9,12,18,24,34,48,67,94,131,185,258,362,507,711,996,
 %T A143438 1395,1956,2740,3840,5380,7540,10565,14804,20745,29069,40734,57078,
 %U A143438 79983,112077,157050,220069,308376,432118,605512,848486,1188956,1666047,2334578
@@ -14,7 +14,7 @@
 %o A143438 (Maxima) makelist(ratcoef(taylor(1/(1 -x^2 -x^3 -x^4 +x^6), x, 0, n), x, n), n, 0, 50); /* _Franck Maminirina Ramaharo_, Oct 31 2018 */
 %o A143438 (PARI) my(x='x+O('x^50)); Vec(1/(1-x^2-x^3-x^4+x^6)) \\ _G. C. Greubel_, Nov 03 2018
 %o A143438 (Magma) R<x>:=PowerSeriesRing(Integers(), 50); Coefficients(R!(1/(1 -x^2-x^3-x^4+x^6))); // _G. C. Greubel_, Nov 03 2018
-%o A143438 (Sage)
+%o A143438 (SageMath)
 %o A143438 def A143438_list(prec):
 %o A143438     P.<x> = PowerSeriesRing(ZZ, prec)
 %o A143438     return P(1/(1-x^2-x^3-x^4+x^6)).list()

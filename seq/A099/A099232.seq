@@ -1,10 +1,11 @@
-%I A099232 #25 Mar 02 2024 13:39:49
+%I A099232 #30 Mar 19 2025 20:30:20
 %S A099232 0,1,2,6,13,32,72,169,386,894,2053,4736,10896,25105,57794,133110,
 %T A099232 306493,705824,1625304,3742777,8618690,19847022,45703093,105244160,
 %U A099232 242353440,558085921,1285146242,2959404006,6814842733,15693054752,36137582952
-%N A099232 a(n) = 2*a(n-1) + 2*a(n-2) - 3*a(n-3).
+%N A099232 a(n) = 2*a(n-1) + 2*a(n-2) - 3*a(n-3), with a(0) = 0, a(1) = 1, a(2) = 2.
 %C A099232 Partial sums of A006130 (with leading zero).
 %C A099232 Specify a triangle by T(n,0) = T(n+1,1) = A001045(n) and T(n,k) = T(n-1,k-1) + T(n-1,k-2) + T(n-2,k-2) otherwise. Then T(n,n)= a(n-1). - _J. M. Bergot_, May 24 2013
+%H A099232 Andrew Howroyd, <a href="/A099232/b099232.txt">Table of n, a(n) for n = 0..1000</a>
 %H A099232 <a href="/index/Rec#order_03">Index entries for linear recurrences with constant coefficients</a>, signature (2,2,-3).
 %F A099232 G.f.: x/((1-x)*(1-x-3*x^2)).
 %F A099232 a(n) = Sum_{k=0..floor(n/2)} binomial(n-k, k+1)*3^k.

@@ -1,4 +1,4 @@
-%I A076478 #53 Jan 05 2022 00:58:34
+%I A076478 #58 Nov 05 2025 15:35:30
 %S A076478 0,1,0,0,0,1,1,0,1,1,0,0,0,0,0,1,0,1,0,0,1,1,1,0,0,1,0,1,1,1,0,1,1,1,
 %T A076478 0,0,0,0,0,0,0,1,0,0,1,0,0,0,1,1,0,1,0,0,0,1,0,1,0,1,1,0,0,1,1,1,1,0,
 %U A076478 0,0,1,0,0,1,1,0,1,0,1,0,1,1,1,1,0,0,1,1,0,1,1,1,1,0,1,1,1,1,0,0,0,0,0,0,0
@@ -29,7 +29,7 @@
 %D A076478 Bodil Branner, Dynamics, Chap. IV.14 of The Princeton Companion to Mathematics, ed. T. Gowers, p. 499.
 %D A076478 K. Dajani and C. Kraaikamp, Ergodic Theory of Numbers, Math. Assoc. America, 2002, p. 72.
 %H A076478 Reinhard Zumkeller, <a href="/A076478/b076478.txt">Table of n, a(n) for n = 0..10000</a>
-%H A076478 Michael Barnsley and Andrew Vince, <a href="http://www.jstor.org/stable/10.4169/amer.math.monthly.124.10.905">Self-similar polygonal tiling</a>, The American Mathematical Monthly 124.10 (2017): 905-921. See page 917.
+%H A076478 Michael Barnsley and Andrew Vince, <a href="https://www.jstor.org/stable/10.4169/amer.math.monthly.124.10.905">Self-similar polygonal tiling</a>, The American Mathematical Monthly 124.10 (2017): 905-921. See page 917.
 %H A076478 Igor Pak, <a href="https://arxiv.org/abs/1803.06636">Complexity problems in enumerative combinatorics</a>, arXiv:1803.06636 [math.CO], 2018.
 %F A076478 To get the m-th binary vector, write m+1 in base 2 and remove the initial 1. - _Clark Kimberling_, Feb 07 2010
 %e A076478 0,
@@ -106,6 +106,7 @@
 %t A076478 u21 = Flatten[Table[Position[tt, Reverse[w[n]]], {n, 1, 150}]]
 %t A076478 (* _Clark Kimberling_, Jul 18 2011 *)
 %o A076478 (PARI) {m=5; for(d=1,m, for(k=0,2^d-1,v=binary(k); while(matsize(v)[2]<d,v=concat(0,v)); for(j=1,matsize(v)[2],print1(v[j],","))))}
+%o A076478 (PARI) listn(n)= my(a=List(), i=0, s=0); while(s<=n, listput(~a, binary(i++)[^1]); s+=#a[#a]); concat(a)[1..n+1]; \\ _Ruud H.G. van Tol_, Mar 17 2025
 %o A076478 (Haskell)
 %o A076478 import Data.List (unfoldr)
 %o A076478 a076478 n = a076478_list !! n

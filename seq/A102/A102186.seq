@@ -1,14 +1,17 @@
-%I A102186 #40 Jun 11 2020 16:42:38
+%I A102186 #51 Nov 03 2025 13:12:56
 %S A102186 1,1,2,4,5,8,12,16,22,32,42,56,76,98,128,168,213,272,348,436,548,688,
 %T A102186 852,1056,1308,1603,1964,2404,2920,3544,4296,5176,6230,7488,8958,
 %U A102186 10704,12772,15182,18024,21368,25254,29808,35136,41308,48504,56880,66552,77776
 %N A102186 The PDO(n) function (Partitions with Designated summands in which all parts are Odd): the sum of products of multiplicities of parts in all partitions of n into odd parts.
 %H A102186 Seiichi Manyama, <a href="/A102186/b102186.txt">Table of n, a(n) for n = 0..10000</a> (terms 0..1000 from Alois P. Heinz)
-%H A102186 G. E. Andrews, R. P. Lewis, J. Lovejoy, <a href="http://dx.doi.org/10.4064/aa105-1-5">Partitions with designated summands</a>, Acta Arith. 105 (2002), no. 1, 51-66.
-%H A102186 Nayandeep Deka Baruah and Kanan Kumari Ojah, <a href="https://www.emis.de/journals/INTEGERS/papers/p9/p9.Abstract.html">Partitions with designated summands in which all parts are odd</a>, INTEGERS 15 (2015), #A9.
+%H A102186 G. E. Andrews, R. P. Lewis, and J. Lovejoy, <a href="http://dx.doi.org/10.4064/aa105-1-5">Partitions with designated summands</a>, Acta Arith. 105 (2002), no. 1, 51-66.
+%H A102186 Shane Chern, Dennis Eichhorn, Shishuo Fu, and James A. Sellers, <a href="https://arxiv.org/abs/2507.10965">Convolutive sequences, I: Through the lens of integer partition functions</a>, arXiv:2507.10965 [math.CO], 2025. See pp. 4, 10, 12.
+%H A102186 Nayandeep Deka Baruah and Kanan Kumari Ojah, <a href="http://www.integers-ejcnt.org/p9/p9.Abstract.html">Partitions with designated summands in which all parts are odd</a>, INTEGERS 15 (2015), #A9.
+%H A102186 Shishuo Fu and James Sellers, <a href="https://arxiv.org/abs/2505.21111">A refined view of a curious identity for partitions into odd parts with designated summands</a>, arXiv:2505.21111 [math.CO], 2025.
 %F A102186 Euler transform of period 12 sequence [1, 1, 2, 0, 1, 0, 1, 0, 2, 1, 1, 0, ...].
 %F A102186 a(n) ~ 5^(1/4) * exp(sqrt(5*n)*Pi/3) / (2^(5/2)*sqrt(3)*n^(3/4)). - _Vaclav Kotesovec_, Nov 28 2015
 %F A102186 G.f.: Product_{k>=1} (1 + Sum_{j>=1} j * x^(j*(2*k - 1))). - _Ilya Gutkovskiy_, Nov 06 2019
+%F A102186 Empirical: Sum_{n>=0} a(n) / exp(n*Pi) = (1/2) * 2^(5/12) * (sqrt(2) * (1+3^(1/2)))^(1/3) = A388498. - _Simon Plouffe_, Sep 17 2025
 %e A102186 a(8)=22 because in the six partitions of 8 into odd parts, namely, 71,53,5111,3311,311111,11111111, the multiplicities of the parts are (1,1),(1,1),(1,3),(2,2),(1,5),(8) with products 1,1,3,4,5,8, having sum 22.
 %p A102186 b:= proc(n, i) option remember; `if`(n=0, 1, `if`(i<1, 0,
 %p A102186        b(n, i-2) +add(b(n-i*j, i-2)*j, j=1..n/i)))

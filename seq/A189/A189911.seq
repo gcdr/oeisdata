@@ -1,10 +1,10 @@
-%I A189911 #29 Nov 25 2022 03:58:43
+%I A189911 #31 Nov 10 2025 21:50:39
 %S A189911 1,2,4,9,18,40,80,175,350,756,1512,3234,6468,13728,27456,57915,115830,
 %T A189911 243100,486200,1016158,2032316,4232592,8465184,17577014,35154028,
 %U A189911 72804200,145608400,300874500,601749000,1240940160,2481880320,5109183315,10218366630
 %N A189911 Row sums of the extended Catalan triangle A189231.
 %H A189911 G. C. Greubel, <a href="/A189911/b189911.txt">Table of n, a(n) for n = 0..1000</a>
-%H A189911 Peter Luschny, <a href="http://oeis.org/wiki/User:Peter_Luschny/TheLostCatalanNumbers">The lost Catalan numbers</a>.
+%H A189911 Peter Luschny, <a href="https://oeis.org/wiki/User:Peter_Luschny/TheLostCatalanNumbers">The lost Catalan numbers</a>.
 %F A189911 Let a = Gamma(n-floor(n/2)), b = Gamma(floor(n/2+3/2)), d = Gamma( floor(n/2+1))^2, c = Gamma(n+1). Then a(n) = c*(a*b+d)/(a*b*d).
 %F A189911 a(n) = A162246(n,n) + A162246(n,n+1) for n > 0.
 %F A189911 From _Peter Luschny_, Oct 24 2013 : (Start)
@@ -21,7 +21,7 @@
 %p A189911 d := GAMMA(floor(n/2+1))^2; GAMMA(n+1)*(a*b+d)/(a*b*d) fi end: seq(A189911(n),n=0..32);
 %p A189911 A189911 := proc(n) h:=irem(n,2); g:=iquo(n,2); (g+h+1)*binomial(2*g+h,g+h) end; # _Peter Luschny_, Oct 24 2013
 %t A189911 a[n_] := Module[{q, r}, {q, r} = QuotientRemainder[n, 2]; (q+r+1)*Pochhammer[q+1, q+r]/(q+r)!]; Table[a[n], {n, 0, 32}] (* _Jean-François Alcover_, Jan 09 2014 *)
-%o A189911 (Sage)
+%o A189911 (SageMath)
 %o A189911 def A189911():
 %o A189911     r, n = 1, 1
 %o A189911     while True:

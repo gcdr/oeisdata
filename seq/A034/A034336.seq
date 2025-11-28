@@ -1,4 +1,4 @@
-%I A034336 #8 Mar 30 2012 16:47:28
+%I A034336 #10 Jul 08 2025 20:15:12
 %S A034336 0,0,0,0,0,1,6,25,95,334,1123,3621
 %N A034336 Number of matroids: column 6 of A034328.
 %D A034336 Computed by Harald Fripertinger (fripert(AT)kfunigraz.ac.at).
@@ -7,4 +7,4 @@
 %Y A034336 Cf. A034327-.
 %K A034336 nonn
 %O A034336 0,7
-%A A034336 _N. J. A. Sloane_.
+%A A034336 _N. J. A. Sloane_

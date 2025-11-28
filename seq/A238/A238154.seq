@@ -1,8 +1,8 @@
-%I A238154 #4 Feb 18 2014 08:52:59
+%I A238154 #6 Jul 23 2025 10:47:51
 %S A238154 22488016,2177434900,345494546192,79094196555400,18866641119536914,
 %T A238154 4598319821027426208,1158658575893011968206,284756685386736905732440,
 %U A238154 72205997284711788508129548,18078425642652079031512663212
-%N A238154 Number of (n+1)X(7+1) 0..3 arrays with the maximum plus the upper median of every 2X2 subblock differing from its horizontal and vertical neighbors by exactly one
+%N A238154 Number of (n+1)X(7+1) 0..3 arrays with the maximum plus the upper median of every 2X2 subblock differing from its horizontal and vertical neighbors by exactly one.
 %C A238154 Column 7 of A238155
 %H A238154 R. H. Hardin, <a href="/A238154/b238154.txt">Table of n, a(n) for n = 1..11</a>
 %e A238154 Some solutions for n=1

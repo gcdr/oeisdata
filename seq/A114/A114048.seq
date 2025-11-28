@@ -1,4 +1,4 @@
-%I A114048 #42 Sep 21 2024 13:24:49
+%I A114048 #47 Jun 01 2025 01:28:44
 %S A114048 1,170,57799,19651490,6681448801,2271672940850,772362118440199,
 %T A114048 262600848596726810,89283516160768675201,30356132893812752841530,
 %U A114048 10320995900380175197444999,3509108249996365754378458130
@@ -6,6 +6,7 @@
 %C A114048 This sequence is computed with g(1e9,19) in the PARI program.
 %C A114048 A Pellian equation (Pell's equation). - _Benoit Cloitre_, Feb 03 2006
 %C A114048 The corresponding values of y of this Pell equation are in A174765. - _Vincenzo Librandi_, Dec 21 2011
+%C A114048 Also numbers k such that 19*(k-1)*(k+1) is a square. - _Bruno Berselli_, May 31 2025
 %H A114048 Vincenzo Librandi, <a href="/A114048/b114048.txt">Table of n, a(n) for n = 1..200</a>
 %H A114048 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
 %H A114048 John Robertson, <a href="https://web.archive.org/web/20190501092519/http://www.jpr2718.org/">Home page</a>.

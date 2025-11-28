@@ -1,8 +1,8 @@
-%I A230914 #4 Nov 01 2013 08:43:06
+%I A230914 #6 Jul 23 2025 06:05:56
 %S A230914 0,32,17694,4725576,1406791226,433315174684,132452949993492,
 %T A230914 40377009411879390,12312133218182190396,3754741447813230806820,
 %U A230914 1145012085042280823184860,349169214981668401382285878
-%N A230914 Number of nX7 0..7 arrays x(i,j) with each element horizontally or antidiagonally next to at least one element with value (x(i,j)+1) mod 8, and upper left element zero
+%N A230914 Number of nX7 0..7 arrays x(i,j) with each element horizontally or antidiagonally next to at least one element with value (x(i,j)+1) mod 8, and upper left element zero.
 %C A230914 Column 7 of A230915
 %H A230914 R. H. Hardin, <a href="/A230914/b230914.txt">Table of n, a(n) for n = 1..37</a>
 %e A230914 Some solutions for n=3

@@ -1,4 +1,4 @@
-%I A018541 #12 Sep 04 2022 13:51:01
+%I A018541 #14 Jul 08 2025 07:13:50
 %S A018541 1,2,3,4,5,6,8,10,12,15,20,24,25,30,40,50,60,75,100,120,150,200,300,
 %T A018541 600
 %N A018541 Divisors of 600.
@@ -7,4 +7,4 @@
 %o A018541 (PARI) divisors(600) \\ _Charles R Greathouse IV_, Jun 23 2017
 %K A018541 nonn,fini,full,easy
 %O A018541 1,2
-%A A018541 _N. J. A. Sloane_.
+%A A018541 _N. J. A. Sloane_

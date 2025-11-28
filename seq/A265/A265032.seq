@@ -1,4 +1,4 @@
-%I A265032 #89 Feb 10 2025 12:25:07
+%I A265032 #97 Jul 26 2025 08:08:03
 %S A265032 1,1,4,16,64
 %N A265032 Maximal size of an error-correcting code of length n and minimal distance 3 over an alphabet of size 4.
 %C A265032 The alphabet may be any set of size 4 (GF(4), Z/4Z, etc.) so there is no requirement of linearity.
@@ -10,10 +10,12 @@
 %H A265032 Maryam Fazel and Omid Sadeghi, <a href="https://doi.org/10.1137/1.9781611977714.15">Fast First-Order Methods for Monotone Strongly DR-Submodular Maximization</a>, Proc. SIAM Conf. Appl. Comp. Disc. Algo. (ACDA23, 2023), 169-179. See page 178.
 %H A265032 Balázs Király and Sándor Szabó, <a href="https://doi.org/10.1556/314.2023.00002">Splitting Edge Partitions of Graphs</a>, Mathematica Pannonica (2023).
 %H A265032 Christopher Hojny, Marc E. Pfetsch, and José Verschae, <a href="https://arxiv.org/abs/2311.06085">The Impact of Symmetry Handling for the Stable Set Problem via Schreier-Sims Cuts</a>, arXiv:2311.06085 [math.OC], 2023.
+%H A265032 Di Hou, Tianyun Tang, and Kim-Chuan Toh, <a href="https://arxiv.org/abs/2507.13776">RiNNAL+: a Riemannian ALM Solver for SDP-RLT Relaxations of Mixed-Binary Quadratic Programs</a>, arXiv:2507.13776 [math.OC], 2025. See p. 30.
 %H A265032 Prabhu Manyem, <a href="https://www.researchgate.net/publication/380034972_Maximum_independent_set_stable_set_problem_A_Satisfiability_SAT_based_model_and_Computational_testing">Maximum independent set (stable set) problem: A Satisfiability (3SAT) based model and Computational testing</a>, ResearchGate, 2024. See pp. 4, 8.
 %H A265032 Raffaele Marino, Lorenzo Buffoni, and Bogdan Zavalnij, <a href="https://arxiv.org/abs/2403.09742">A Short Review on Novel Approaches for Maximum Clique Problem: from Classical algorithms to Graph Neural Networks and Quantum algorithms</a>, arXiv:2403.09742 [cs.AI], 2024. See index p. 36.
 %H A265032 Albert No, <a href="https://doi.org/10.3390/e21121202">Nonasymptotic Upper Bounds on Binary Single Deletion Codes via Mixed Integer Linear Programming</a>, Entropy (2019) Vol. 21, 1202.
 %H A265032 Pablo San Segundo, Fabio Furini, and Jorge Artieda, <a href="https://doi.org/10.1016/j.cor.2019.05.017">A new branch-and-bound algorithm for the Maximum Weighted Clique Problem</a>, Computers & Operations Research (2019) Vol. 110, 18-33.
+%H A265032 Monit Sharma and Hoong Chuin Lau, <a href="https://arxiv.org/abs/2503.12121">A Comparative Study of Quantum Optimization Techniques for Solving Combinatorial Optimization Benchmark Problems</a>, arXiv:2503.12121 [quant-ph], 2025. See p. 21.
 %H A265032 Sándor Szabó, <a href="https://doi.org/10.2478/ausi-2021-0006">Estimating the fractional chromatic number of a graph</a>, Acta Univ. Sapientiae Informatica (2021) Vol. 13, No. 1, 122-133.
 %H A265032 Sándor Szabó and Bogdán Zaválnij, <a href="https://doi.org/10.31449/inf.v45i2.3107">Estimating clique size via discarding subgraphs</a>, Informatica (2021) Vol. 45, 197-204.
 %H A265032 Sándor Szabó and Bogdán Zaválnij, <a href="https://is.ijs.si/wp-content/uploads/2024/09/IS2024_-_SIKDD_2024_paper_9.pdf">Solving hard optimization problems of packing, covering, and tiling via clique search</a>, 27th Info. Soc. Multiconf. (2024).

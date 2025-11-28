@@ -1,4 +1,4 @@
-%I A005249 M4882 #83 Feb 16 2025 08:32:28
+%I A005249 M4882 #87 Nov 05 2025 15:35:26
 %S A005249 1,1,12,2160,6048000,266716800000,186313420339200000,
 %T A005249 2067909047925770649600000,365356847125734485878112256000000,
 %U A005249 1028781784378569697887052962909388800000000,46206893947914691316295628839036278726983680000000000
@@ -9,7 +9,7 @@
 %D A005249 Jerry Glynn and Theodore Gray, "The Beginner's Guide to Mathematica Version 4," Cambridge University Press, Cambridge UK, 2000, page 76.
 %D A005249 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
 %H A005249 T. D. Noe, <a href="/A005249/b005249.txt">Table of n, a(n) for n = 0..25</a>
-%H A005249 Man-Duen Choi, <a href="http://www.jstor.org/stable/2975779">Tricks or treats with the Hilbert matrix</a>, Amer. Math. Monthly, 90 (1983), 301-312.
+%H A005249 Man-Duen Choi, <a href="https://www.jstor.org/stable/2975779">Tricks or treats with the Hilbert matrix</a>, Amer. Math. Monthly, 90 (1983), 301-312.
 %H A005249 Richard K. Guy, <a href="/A005249/a005249_1.pdf">Letter to N. J. A. Sloane, Sep 1986</a>.
 %H A005249 John E. Lauer, <a href="/A005249/a005249.pdf">Letter to N. J. A. Sloane, Dec 1980</a>.
 %H A005249 Sajad Salami, <a href="https://www.researchgate.net/publication/334263576_On_special_matrices_related_to_Cauchy_and_Toeplitz_matrices">On special matrices related to Cauchy and Toeplitz matrices</a>, Instítuto da Matemática e Estatística, Universidade Estadual do Rio de Janeiro (Brazil, 2019).
@@ -35,10 +35,7 @@
 %o A005249 (PARI) a(n)=n^n*prod(k=1,n-1,(n^2-k^2)^(n-k))/prod(k=0,n-1,k!^2)
 %o A005249 (PARI) a(n)=if(n<0,0,1/matdet(mathilbert(n)))
 %o A005249 (PARI) a(n)=if(n<0,0,prod(k=0,n-1,(2*k)!*(2*k+1)!/k!^4))
-%o A005249 (J)
-%o A005249 H=: % @: >: @: (+/~) @: i.
-%o A005249 det=: -/ .* NB. _Roger Hui_, Oct 12 2005
-%o A005249 (Sage)
+%o A005249 (SageMath)
 %o A005249 def A005249(n):
 %o A005249     swing = lambda n: factorial(n)/factorial(n//2)^2
 %o A005249     return mul(swing(i) for i in (1..2*n-1))

@@ -1,20 +1,26 @@
-%I A102896 #49 Mar 21 2024 17:45:49
+%I A102896 #67 Nov 05 2025 15:22:04
 %S A102896 1,2,7,61,2480,1385552,75973751474,14087648235707352472
 %N A102896 Number of ACI algebras (or semilattices) on n generators with no annihilator.
 %C A102896 Or, number of Moore families on an n-set, that is, families of subsets that contain the universal set {1,...,n} and are closed under intersection.
 %C A102896 Or, number of closure operators on a set of n elements.
 %C A102896 An ACI algebra or semilattice is a system with a single binary, idempotent, commutative and associative operation.
 %C A102896 Also the number of set-systems on n vertices that are closed under union. The BII-numbers of these set-systems are given by A326875. - _Gus Wiseman_, Jul 31 2019
+%C A102896 From _Bernhard Ganter_, Jul 08 2025: (Start)
+%C A102896 Also the number of union-free families of subsets of an n-set; i.e., families of nonempty sets on n elements such that no set is a union of some others.
+%C A102896 Also the number of intersection-free families of subsets of an n-set; i.e., of families of proper subsets on n elements such that no set is an intersection of some others.
+%C A102896 (Note that every union-free family on an n-set is the set of union-irreducible elements of exactly one union-closed family, and each family of union-irreducible elements is union-free. Same for intersection.) (End)
 %D A102896 G. Birkhoff, Lattice Theory. American Mathematical Society, Colloquium Publications, Vol. 25, 3rd ed., Providence, RI, 1967.
 %D A102896 Maria Paola Bonacina and Nachum Dershowitz, Canonical Inference for Implicational Systems, in Automated Reasoning, Lecture Notes in Computer Science, Volume 5195/2008, Springer-Verlag.
 %D A102896 P. Colomb, A. Irlande and O. Raynaud, Counting of Moore Families for n=7, International Conference on Formal Concept Analysis (2010). [From Pierre Colomb (pierre(AT)colomb.me), Sep 04 2010]
 %D A102896 E. H. Moore, Introduction to a Form of General Analysis, AMS Colloquium Publication 2 (1910), pp. 53-80.
 %H A102896 Andrew J. Blumberg, Michael A. Hill, Kyle Ormsby, Angélica M. Osorno, and Constanze Roitzheim, <a href="https://doi.org/10.1090/noti2882">Homotopical Combinatorics</a>, Notices Amer. Math. Soc. (2024) Vol. 71, No. 2, 260-266. See p. 261.
 %H A102896 Daniel Borchmann and Bernhard Ganter, <a href="https://doi.org/10.1007/978-3-642-01815-2_2">Concept Lattice Orbifolds - First Steps</a>, Proceedings of the 7th International Conference on Formal Concept Analysis (ICFCA 2009), 22-37.
-%H A102896 Pierre Colomb, Alexis Irlande, Olivier Raynaud and Yoan Renaud, <a href="http://www.colomb.me/pierre/data/paper/icfca2011.pdf">About the Recursive Decomposition of the lattice of co-Moore Families</a>.
+%H A102896 Jishnu Bose, Tien Chih, Hannah Housden, Legrand Jones II, Chloe Lewis, Kyle Ormsby, and Millie Rose, <a href="https://arxiv.org/abs/2503.22883">Combinatorics of factorization systems on lattices</a>, arXiv:2503.22883 [math.CO], 2025. See p. 11.
+%H A102896 Pierre Colomb, Alexis Irlande, Olivier Raynaud and Yoan Renaud, <a href="https://www.researchgate.net/publication/233841963_About_The_Recursive_Decomposition_of_the_lattice_of_co-Moore_Families">About the Recursive Decomposition of the lattice of co-Moore Families</a>, ICFCA 2011.
 %H A102896 Pierre Colomb, Alexis Irlande, Olivier Raynaud, and Yoan Renaud, <a href="https://doi.org/10.1007/s10472-013-9362-x">Recursive decomposition tree of a Moore co-family and closure algorithm</a>, Annals of Mathematics and Artificial Intelligence, 2013, DOI 10.1007/s10472-013-9362-x.
-%H A102896 Nachum Dershowitz, Mitchell A. Harris, and Guan-Shieng Huang, <a href="http://arxiv.org/abs/cs/0610054">Enumeration Problems Related to Ground Horn Theories</a>, arXiv:cs/0610054v2 [cs.LO], 2006-2008.
+%H A102896 Nachum Dershowitz, Mitchell A. Harris, and Guan-Shieng Huang, <a href="https://arxiv.org/abs/cs/0610054">Enumeration Problems Related to Ground Horn Theories</a>, arXiv:cs/0610054v2 [cs.LO], 2006-2008.
 %H A102896 Michel Habib and Lhouari Nourine, <a href="https://doi.org/10.1016/j.disc.2004.11.010">The number of Moore families on n = 6</a>, Discrete Math., 294 (2005), 291-296.
+%H A102896 Caoilainn Kirkpatrick, Amelie el Mahmoud, Kyle Ormsby, Angélica M. Osorno, Dale Schandelmeier-Lynch, Riley Shahar, Lixing Yi, Avery Young, and Saron Zhu, <a href="https://arxiv.org/abs/2508.20786">Enumerating submonoids of finite commutative monoids</a>, arXiv:2508.20786 [math.CO], 2025. See p. 16.
 %F A102896 a(n) = Sum_{k=0..n} C(n, k)*A102894(k), where C(n, k) is the binomial coefficient.
 %F A102896 For asymptotics see A102897.
 %F A102896 a(n) = A102897(n)/2. - _Gus Wiseman_, Jul 31 2019

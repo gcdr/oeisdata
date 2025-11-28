@@ -1,4 +1,4 @@
-%I A111062 #68 Feb 12 2025 11:56:13
+%I A111062 #70 Nov 05 2025 15:22:04
 %S A111062 1,1,1,2,2,1,4,6,3,1,10,16,12,4,1,26,50,40,20,5,1,76,156,150,80,30,6,
 %T A111062 1,232,532,546,350,140,42,7,1,764,1856,2128,1456,700,224,56,8,1,2620,
 %U A111062 6876,8352,6384,3276,1260,336,72,9,1,9496,26200,34380,27840,15960,6552,2100,480,90,10,1
@@ -8,7 +8,7 @@
 %C A111062 Array is exp(S+S^2/2) where S is A132440 the infinitesimal generator for Pascal's triangle. T(n,k) gives the number of ways to choose a subset of {1,2,...,n} of size k and then partitioning the remaining n-k elements into sets each of size 1 or 2. Cf. A122832. - _Peter Bala_, May 14 2012
 %C A111062 T(n,k) is equal to the number of R-classes (equivalently, L-classes) in the D-class consisting of all rank k elements of the partial Brauer monoid of degree n. - _James East_, Aug 17 2015
 %H A111062 Muniru A Asiru, <a href="/A111062/b111062.txt">Table of n, a(n) for n = 0..1325</a>
-%H A111062 Igor Dolinka, James East, Athanasios Evangelou, Des FitzGerald, Nicholas Ham, James Hyde, and Nicholas Loughlin, <a href="http://arxiv.org/abs/1408.2021">Enumeration of idempotents in diagram semigroups and algebras</a>, arXiv:1408.2021 [math.GR], 2014.
+%H A111062 Igor Dolinka, James East, Athanasios Evangelou, Des FitzGerald, Nicholas Ham, James Hyde, and Nicholas Loughlin, <a href="https://arxiv.org/abs/1408.2021">Enumeration of idempotents in diagram semigroups and algebras</a>, arXiv:1408.2021 [math.GR], 2014.
 %H A111062 Igor Dolinka, James East, Athanasios Evangelou, Des FitzGerald, Nicholas Ham, James Hyde, and Nicholas Loughlin, <a href="http://dx.doi.org/10.1016/j.jcta.2014.11.008">Enumeration of idempotents in diagram semigroups and algebras</a>, J. Combin. Theory Ser. A 131 (2015), 119-152.
 %H A111062 Tom Halverson and Theodore N. Jacobson, <a href="https://arxiv.org/abs/1808.08118">Set-partition tableaux and representations of diagram algebras</a>, arXiv:1808.08118 [math.RT], 2018.
 %F A111062 Sum_{k>=0} T(m, k)*T(n, k)*k! = T(m+n, 0) = A000085(m+n).
@@ -57,7 +57,7 @@
 %e A111062   ...
 %e A111062 and is the generalized exponential Riordan array [x + x^2/2!,x].(End)
 %t A111062 a[n_] := Sum[(2 k - 1)!! Binomial[n, 2 k], {k, 0, n/2}]; Table[Binomial[n, k] a[n - k], {n, 0, 10}, {k, 0, n}] // Flatten (* _Michael De Vlieger_, Aug 20 2015, after _Michael Somos_ at A000085 *)
-%o A111062 (Sage)
+%o A111062 (SageMath)
 %o A111062 def A111062_triangle(dim):
 %o A111062     M = matrix(ZZ,dim,dim)
 %o A111062     for n in (0..dim-1): M[n,n] = 1

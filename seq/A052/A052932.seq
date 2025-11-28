@@ -1,4 +1,4 @@
-%I A052932 #24 Sep 08 2022 08:44:59
+%I A052932 #27 Oct 30 2025 15:09:42
 %S A052932 1,1,2,4,9,18,37,76,157,323,665,1369,2819,5804,11950,24604,50658,
 %T A052932 104301,214748,442150,910354,1874351,3859149,7945700,16359604,
 %U A052932 33683205,69351208,142788967,293991838,605307277,1246282557,2566002873
@@ -15,7 +15,7 @@
 %t A052932 LinearRecurrence[{2,0,0,1,-1}, {1,1,2,4,9}, 40] (* _G. C. Greubel_, Oct 17 2019 *)
 %o A052932 (PARI) my(x='x+O('x^40)); Vec((1-x)/(1-2*x+x^5-x^4)) \\ _G. C. Greubel_, Oct 17 2019
 %o A052932 (Magma) R<x>:=PowerSeriesRing(Integers(), 40); Coefficients(R!( (1-x)/(1-2*x+x^5-x^4) )); // _G. C. Greubel_, Oct 17 2019
-%o A052932 (Sage)
+%o A052932 (SageMath)
 %o A052932 def A052932_list(prec):
 %o A052932     P.<x> = PowerSeriesRing(ZZ, prec)
 %o A052932     return P((1-x)/(1-2*x+x^5-x^4)).list()
@@ -23,5 +23,5 @@
 %o A052932 (GAP) a:=[1,1,2,4,9];; for n in [6..40] do a[n]:=2*a[n-1]+a[n-4]-a[n-5]; od; a; # _G. C. Greubel_, Oct 17 2019
 %K A052932 easy,nonn
 %O A052932 0,3
-%A A052932 encyclopedia(AT)pommard.inria.fr, Jan 25 2000
-%E A052932 More terms from _James A. Sellers_, Jun 05 2000
+%A A052932 _INRIA Encyclopedia of Combinatorial Structures_, Jan 25 2000
+%E A052932 More terms from _James Sellers_, Jun 05 2000

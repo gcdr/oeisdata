@@ -1,8 +1,8 @@
-%I A131439 #17 Mar 04 2022 11:19:32
+%I A131439 #19 Jun 02 2025 00:31:49
 %S A131439 1,7,14,18,22,26,30,34,38,42,46,50,54,58,62,66,70,74,78,82,86,90,94,
 %T A131439 98,102,106,110,114,118,122,126,130,134,138,142,146,150,154,158,162,
 %U A131439 166,170,174,178,182
-%N A131439 Inverse binomial transform of A131438 (assuming zero offset in both sequences)
+%N A131439 Inverse binomial transform of A131438 (assuming zero offset in both sequences).
 %C A131439 Conjecture: The sequence appears to be (1, 7, ...) followed by 4k + 14; k=0,1,2,...; thus: (1, 7, 14, 18, 22, 26, ...).
 %C A131439 Inverse binomial transform of this sequence = (1, 6, 1, -4, 7, -10, 13, -16, 19, -22, ...).
 %F A131439 A007318^(-1) * A131438.

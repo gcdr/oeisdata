@@ -1,5 +1,5 @@
-%I A205300 #32 Feb 08 2023 17:23:02
-%S A205300 6,14,4,119,993,21161,588821,26600591
+%I A205300 #36 May 12 2025 14:01:43
+%S A205300 6,14,4,119,933,21161,588821,26600591
 %N A205300 Least semiprime for which n-1 iterations of "Look & Say" (A045918) all yield semiprimes, but not the n-th iteration.
 %C A205300 a(8) > 10^7. - _Tyler Busby_, Feb 07 2023
 %C A205300 a(9) > 10^8. - _Daniel Suteu_, Feb 08 2023
@@ -15,3 +15,4 @@
 %A A205300 _Robert G. Wilson v_, Jan 27 2012
 %E A205300 a(7) from _Tyler Busby_, Feb 07 2023
 %E A205300 a(8) from _Daniel Suteu_, Feb 08 2023
+%E A205300 a(5) corrected by _Giovanni Resta_, May 12 2025

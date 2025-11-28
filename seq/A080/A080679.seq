@@ -1,8 +1,8 @@
-%I A080679 #13 Apr 30 2019 08:31:20
+%I A080679 #15 Jun 02 2025 00:15:27
 %S A080679 0,0,0,0,1,0,0,1,1,0,1,0,1,1,1,1,0,0,0,0,1,0,0,1,1,0,1,0,1,1,1,1,0,0,
 %T A080679 0,0,1,0,0,1,1,0,1,0,1,1,1,1,0,0,0,0,1,0,0,1,1,0,1,0,1,1,1,1,0,0,0,0,
 %U A080679 1,0,0,1,1,0,1,0,1,1,1,1,0,0,0,0,1,0,0,1,1,0,1,0,1,1,1,1,0,0,0
-%N A080679 Lexicographically earliest de Bruijn cycle of length 16 (repeated indefinitely)
+%N A080679 Lexicographically earliest de Bruijn cycle of length 16 (repeated indefinitely).
 %D A080679 N. G. de Bruijn, A combinatorial problem, Koninklijke Nederlandse Akademie v. Wetenschappen 49, 758-764, 1946.
 %D A080679 S. W. Golomb, Shift-Register Sequences, Holden-Day, San Francisco, 1967, Chap. VI, Section 2.2.
 %H A080679 Alex Bogomolny, <a href="http://www.cut-the-knot.com/ctk/FromLCarrollToArchimedes.shtml">Lewis Carroll to Archimedes</a>

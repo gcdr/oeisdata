@@ -1,4 +1,4 @@
-%I A001316 M0297 N0109 #341 Feb 16 2025 08:32:23
+%I A001316 M0297 N0109 #374 Nov 05 2025 15:35:23
 %S A001316 1,2,2,4,2,4,4,8,2,4,4,8,4,8,8,16,2,4,4,8,4,8,8,16,4,8,8,16,8,16,16,
 %T A001316 32,2,4,4,8,4,8,8,16,4,8,8,16,8,16,16,32,4,8,8,16,8,16,16,32,8,16,16,
 %U A001316 32,16,32,32,64,2,4,4,8,4,8,8,16,4,8,8,16,8,16,16,32,4,8,8,16,8,16,16,32
@@ -45,39 +45,41 @@
 %D A001316 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
 %D A001316 Andrew Wuensche, Exploring Discrete Dynamics, Luniver Press, 2011. See Fig. 2.3.
 %H A001316 Indranil Ghosh, <a href="/A001316/b001316.txt">Table of n, a(n) for n = 0..50000</a> (terms 0..1000 from T. D. Noe)
-%H A001316 David Applegate, Omar E. Pol, and N. J. A. Sloane, <a href="/A000695/a000695_1.pdf">The Toothpick Sequence and Other Sequences from Cellular Automata</a>, Congressus Numerantium, Vol. 206 (2010), pp. 157-191. [There is a typo in Theorem 6: (13) should read u(n) = 4.3^(wt(n-1)-1) for n >= 2.]
+%H A001316 David Applegate, Omar E. Pol, and N. J. A. Sloane, <a href="/A000695/a000695_2.pdf">The Toothpick Sequence and Other Sequences from Cellular Automata</a>, Congressus Numerantium, Vol. 206 (2010), pp. 157-191
 %H A001316 Jean-Paul Allouche and Jeffrey Shallit, <a href="http://www.cs.uwaterloo.ca/~shallit/Papers/as0.ps">The ring of k-regular sequences</a>, Theoretical Computer Sci., Vol. 98 (1992), pp. 163-197.
 %H A001316 Paul Barry, <a href="https://arxiv.org/abs/1912.01124">A Note on Riordan Arrays with Catalan Halves</a>, arXiv:1912.01124 [math.CO], 2019.
 %H A001316 George Beck and Karl Dilcher, <a href="https://arxiv.org/abs/2106.10400">A Matrix Related to Stern Polynomials and the Prouhet-Thue-Morse Sequence</a>, arXiv:2106.10400 [math.CO], 2021.
 %H A001316 Christina Talar Bekaroğlu, <a href="https://scholarworks.calstate.edu/concern/theses/bk128j63v">Analyzing Dynamics of Larger than Life: Impacts of Rule Parameters on the Evolution of a Bug's Geometry</a>, Master's thesis, Calif. State Univ. Northridge (2023). See pp. 91-92.
 %H A001316 Neil J. Calkin, Eunice Y. S. Chan, and Robert M. Corless, <a href="https://ojs.lib.uwo.ca/index.php/maple/article/view/14037">Some Facts and Conjectures about Mandelbrot Polynomials</a>, Maple Transactions (2021) Vol. 1, No. 1, Article 1.
 %H A001316 Neil J. Calkin, Eunice Y. S. Chan, Robert M. Corless, David J. Jeffrey, and Piers W. Lawrence, <a href="https://arxiv.org/abs/2104.01116">A Fractal Eigenvector</a>, arXiv:2104.01116 [math.DS], 2021.
-%H A001316 Emeric Deutsch and Bruce E. Sagan, <a href="http://arxiv.org/abs/math.CO/0407326">Congruences for Catalan and Motzkin numbers and related sequences</a>, arXiv:math/0407326 [math.CO], 2004.
+%H A001316 Emeric Deutsch and Bruce E. Sagan, <a href="https://arxiv.org/abs/math.CO/0407326">Congruences for Catalan and Motzkin numbers and related sequences</a>, arXiv:math/0407326 [math.CO], 2004.
 %H A001316 Emeric Deutsch and Bruce E. Sagan, <a href="http://dx.doi.org/10.1016/j.jnt.2005.06.005">Congruences for Catalan and Motzkin numbers and related sequences</a>, J. Num. Theory, Vol. 117 (2006), pp. 191-215.
 %H A001316 Philippe Dumas, <a href="https://web.archive.org/web/20160416184556/http://algo.inria.fr/dumas/DC/asympt.html">Diviser pour régner Comportement asymptotique</a>.
 %H A001316 Philippe Dumas, <a href="https://web.archive.org/web/20160909212032/http://alea2016.gforge.inria.fr:80/cours-dumas.pdf">Diviser pour régner Comportement asymptotique</a>. (has many references)
-%H A001316 Shalosh B. Ekhad, N. J. A. Sloane, and Doron Zeilberger, <a href="http://arxiv.org/abs/1503.01796">A Meta-Algorithm for Creating Fast Algorithms for Counting ON Cells in Odd-Rule Cellular Automata</a>, arXiv:1503.01796 [math.CO], 2015; see also the <a href="http://www.math.rutgers.edu/~zeilberg/mamarim/mamarimhtml/CAcount.html">Accompanying Maple Package</a>.
-%H A001316 Shalosh B. Ekhad, N. J. A. Sloane, and Doron Zeilberger, <a href="http://arxiv.org/abs/1503.04249">Odd-Rule Cellular Automata on the Square Grid</a>, arXiv:1503.04249 [math.CO], 2015.
+%H A001316 Shalosh B. Ekhad, N. J. A. Sloane, and Doron Zeilberger, <a href="https://arxiv.org/abs/1503.01796">A Meta-Algorithm for Creating Fast Algorithms for Counting ON Cells in Odd-Rule Cellular Automata</a>, arXiv:1503.01796 [math.CO], 2015; see also the <a href="http://www.math.rutgers.edu/~zeilberg/mamarim/mamarimhtml/CAcount.html">Accompanying Maple Package</a>.
+%H A001316 Shalosh B. Ekhad, N. J. A. Sloane, and Doron Zeilberger, <a href="https://arxiv.org/abs/1503.04249">Odd-Rule Cellular Automata on the Square Grid</a>, arXiv:1503.04249 [math.CO], 2015.
 %H A001316 Steven R. Finch, <a href="http://www.people.fas.harvard.edu/~sfinch/constant/stlrsky/stlrsky.html">Stolarsky-Harborth Constant</a>. [Broken link]
 %H A001316 Steven R. Finch, <a href="http://web.archive.org/web/20010207195349/http://www.mathsoft.com/asolve/constant/stlrsky/stlrsky.html">Stolarsky-Harborth Constant</a>. [From the Wayback machine]
+%H A001316 Ignas Gasparavičius, Andrius Grigutis, and Juozas Petkelis, <a href="https://arxiv.org/abs/2507.23619">Picturesque convolution-like recurrences and partial sums' generation</a>, arXiv:2507.23619 [math.NT], 2025. See p. 28.
 %H A001316 Michael Gilleland, <a href="/selfsimilar.html">Some Self-Similar Integer Sequences</a>.
 %H A001316 Po-Yi Huang and Wen-Fong Ke, <a href="https://arxiv.org/abs/2307.07733">Sequences Derived from The Symmetric Powers of {1, 2, ..., k}</a>, arXiv:2307.07733 [math.CO], 2023.
-%H A001316 Kathy Q. Ji and Herbert S. Wilf, <a href="http://www.jstor.org/stable/27642506">Extreme Palindromes</a>, Amer. Math. Monthly, Vol. 115, No. 5 (2008), pp. 447-451.
+%H A001316 Hsien-Kuei Hwang, Svante Janson, and Tsung-Hsi Tsai, <a href="https://arxiv.org/abs/2408.06817">Periodic minimum in the count of binomial coefficients not divisible by a prime</a>, arXiv:2408.06817 [math.NT], 2024.
+%H A001316 Kathy Q. Ji and Herbert S. Wilf, <a href="https://www.jstor.org/stable/27642506">Extreme Palindromes</a>, Amer. Math. Monthly, Vol. 115, No. 5 (2008), pp. 447-451.
 %H A001316 Alan J. Macfarlane, <a href="http://www.damtp.cam.ac.uk/user/ajm/Papers2016/GFsForCAsOfEvenRuleNo.ps">Generating functions for integer sequences defined by the evolution of cellular automata...</a>.
 %H A001316 Hans Montanus and Ron Westdijk, <a href="https://greenbluemath.nl/wp-content/uploads/2024/03/Cellular-Automation-and-Binomials.pdf">Cellular Automation and Binomials</a>, Green Blue Mathematics (2022), p. 57.
-%H A001316 Sam Northshield, <a href="http://www.jstor.org/stable/10.4169/000298910X496714">Stern's Diatomic Sequence 0,1,1,2,1,3,2,3,1,4,...</a>, Amer. Math. Month., Vol. 117, No. 7 (2010), pp. 581-598.
+%H A001316 Sam Northshield, <a href="https://www.jstor.org/stable/10.4169/000298910X496714">Stern's Diatomic Sequence 0,1,1,2,1,3,2,3,1,4,...</a>, Amer. Math. Month., Vol. 117, No. 7 (2010), pp. 581-598.
 %H A001316 Tomaz Pisanski and Thomas W. Tucker, <a href="http://citeseerx.ist.psu.edu/pdf/3c773fe830967d425448196d25d0d70e182d0c5f">Growth in Repeated Truncations of Maps</a>, Atti Sem. Mat. Fis. Univ. Modena, Vol. 49 (2001), suppl., pp. 167-176.
-%H A001316 David G. Poole, <a href="http://www.jstor.org/stable/2690991">The towers and triangles of Professor Claus (or, Pascal knows Hanoi)</a>, Math. Mag., Vol. 67, No. 5 (1994), pp. 323-344.
+%H A001316 David G. Poole, <a href="https://www.jstor.org/stable/2690991">The towers and triangles of Professor Claus (or, Pascal knows Hanoi)</a>, Math. Mag., Vol. 67, No. 5 (1994), pp. 323-344.
 %H A001316 Joseph M. Shunia, <a href="https://arxiv.org/abs/2312.00302">A Polynomial Ring Connecting Central Binomial Coefficients and Gould's Sequence</a>, arXiv:2312.00302 [math.GM], 2023.
 %H A001316 N. J. A. Sloane, <a href="/A001316/a001316.png">Illustration of first 20 generations of Rule 90</a>.
-%H A001316 N. J. A. Sloane, <a href="http://arxiv.org/abs/1503.01168">On the Number of ON Cells in Cellular Automata</a>, arXiv:1503.01168 [math.CO], 2015.
+%H A001316 N. J. A. Sloane, <a href="https://arxiv.org/abs/1503.01168">On the Number of ON Cells in Cellular Automata</a>, arXiv:1503.01168 [math.CO], 2015.
 %H A001316 N. J. A. Sloane, <a href="/wiki/Catalog_of_Toothpick_and_CA_Sequences_in_OEIS">Catalog of Toothpick and Cellular Automata Sequences in the OEIS</a>.
 %H A001316 Lukas Spiegelhofer and Michael Wallner, <a href="https://arxiv.org/abs/1710.10884">Divisibility of binomial coefficients by powers of two</a>, arXiv:1710.10884 [math.NT], 2017.
 %H A001316 Ralf Stephan, <a href="https://arxiv.org/abs/math/0307027">Divide-and-conquer generating functions. I. Elementary sequences</a>, arXiv:math/0307027 [math.CO], 2003.
 %H A001316 Alexander Yu. Vlasov, <a href="https://arxiv.org/abs/2312.13034">Modelling reliability of reversible circuits with 2D second-order cellular automata</a>, arXiv:2312.13034 [nlin.CG], 2023. See page 12.
 %H A001316 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/ElementaryCellularAutomaton.html">Elementary Cellular Automaton</a>.
 %H A001316 Stephen Wolfram, <a href="http://dx.doi.org/10.1103/RevModPhys.55.601">Statistical mechanics of cellular automata</a>, Rev. Mod. Phys., Vol. 55 (1983), pp. 601-644.
-%H A001316 Stephen Wolfram, <a href="http://www.jstor.org/stable/2323743">Geometry of Binomial Coefficients</a>, Amer. Math. Monthly, Vol. 91, No. 9 (November 1984), pp. 566-571.
+%H A001316 Stephen Wolfram, <a href="https://www.jstor.org/stable/2323743">Geometry of Binomial Coefficients</a>, Amer. Math. Monthly, Vol. 91, No. 9 (November 1984), pp. 566-571.
 %H A001316 Chai Wah Wu, <a href="https://arxiv.org/abs/1610.06166">Sums of products of binomial coefficients mod 2 and run length transforms of sequences</a>, arXiv preprint arXiv:1610.06166 [math.CO], 2016.
 %H A001316 Zhujun Zhang, <a href="https://www.researchgate.net/publication/333261503_A_Note_on_Counting_Binomial_Heaps">A Note on Counting Binomial Heaps</a>, ResearchGate (2019).
 %H A001316 <a href="/index/Ce#cell">Index entries for sequences related to cellular automata</a>
@@ -104,27 +106,28 @@
 %F A001316 a(n) = lcm(n!, 2^n) / n!. - _Daniel Suteu_, Apr 28 2017
 %F A001316 a(n) = A061142(A005940(1+n)). - _Antti Karttunen_, May 29 2017
 %F A001316 a(0) = 1, a(2*n) = a(n), a(2*n+1) = 2*a(n). - _Daniele Parisse_, Feb 15 2024
+%F A001316 a(n*m) <= a(n)^A000120(m). - _Joe Amos_, Mar 27 2025
 %e A001316 Has a natural structure as a triangle:
-%e A001316 .1,
-%e A001316 .2,
-%e A001316 .2,4,
-%e A001316 .2,4,4,8,
-%e A001316 .2,4,4,8,4,8,8,16,
-%e A001316 .2,4,4,8,4,8,8,16,4,8,8,16,8,16,16,32,
-%e A001316 .2,4,4,8,4,8,8,16,4,8,8,16,8,16,16,32,4,8,8,16,8,16,16,32,8,16,16,32,16,32,32,64,
-%e A001316 ....
+%e A001316   1,
+%e A001316   2,
+%e A001316   2,4,
+%e A001316   2,4,4,8,
+%e A001316   2,4,4,8,4,8,8,16,
+%e A001316   2,4,4,8,4,8,8,16,4,8,8,16,8,16,16,32,
+%e A001316   2,4,4,8,4,8,8,16,4,8,8,16,8,16,16,32,4,8,8,16,8,16,16,32,8,16,16,32,16,32,32,64,
+%e A001316   ...
 %e A001316 The rows converge to A117973.
 %e A001316 From _Omar E. Pol_, Jun 07 2009: (Start)
 %e A001316 Also, triangle begins:
-%e A001316 .1;
-%e A001316 .2,2;
-%e A001316 .4,2,4,4;
-%e A001316 .8,2,4,4,8,4,8,8;
-%e A001316 16,2,4,4,8,4,8,8,16,4,8,8,16,8,16,16;
-%e A001316 32,2,4,4,8,4,8,8,16,4,8,8,16,8,16,16,32,4,8,8,16,8,16,16,32,8,16,16,32,16,32,32;
-%e A001316 64,2,4,4,8,4,8,8,16,4,8,8,16,8,16,16,32,4,8,8,16,8,16,16,32,8,16,16,32,16,32,...
+%e A001316    1;
+%e A001316    2,2;
+%e A001316    4,2,4,4;
+%e A001316    8,2,4,4,8,4,8,8;
+%e A001316   16,2,4,4,8,4,8,8,16,4,8,8,16,8,16,16;
+%e A001316   32,2,4,4,8,4,8,8,16,4,8,8,16,8,16,16,32,4,8,8,16,8,16,16,32,8,16,16,32,16,32,32;
+%e A001316   64,2,4,4,8,4,8,8,16,4,8,8,16,8,16,16,32,4,8,8,16,8,16,16,32,8,16,16,32,16,32,...
 %e A001316 (End)
-%e A001316 G.f. = 1 + 2*x + 2*x^2 + 4*x^3 + 2*x^4 + 4*x^5 + 4*x^6 + 8*x^7 + 2*x^8 + ...
+%e A001316 G.f. = 1 + 2*x + 2*x^2 + 4*x^3 + 2*x^4 + 4*x^5 + 4*x^6 + 8*x^7 + 2*x^8 + ... - _Michael Somos_, Aug 26 2015
 %p A001316 A001316 := proc(n) local k; add(binomial(n,k) mod 2, k=0..n); end;
 %p A001316 S:=[1]; S:=[op(S),op(2*s)]; # repeat ad infinitum!
 %p A001316 a := n -> 2^add(i,i=convert(n,base,2)); # _Peter Luschny_, Mar 11 2009
@@ -135,6 +138,7 @@
 %t A001316 Table[2^(RealDigits[n - 1, 2][[1]] // Total), {n, 1, 100}] (* _Gabriel C. Benamy_, Dec 08 2009 *)
 %t A001316 CoefficientList[Series[Exp[2*x], {x, 0, 100}], x] // Numerator (* _Jean-François Alcover_, Oct 25 2013 *)
 %t A001316 Count[#,_?OddQ]&/@Table[Binomial[n,k],{n,0,90},{k,0,n}] (* _Harvey P. Dale_, Sep 22 2015 *)
+%t A001316 2^DigitSum[Range[0, 100], 2] (* _Paolo Xausa_, Jul 31 2025 *)
 %o A001316 (PARI) {a(n) = if( n<0, 0, numerator(2^n / n!))};
 %o A001316 (PARI) A001316(n)=1<<norml2(binary(n)) \\ _M. F. Hasler_, May 03 2009
 %o A001316 (PARI) a(n)=2^hammingweight(n) \\ _Charles R Greathouse IV_, Jan 04 2013
@@ -144,7 +148,7 @@
 %o A001316 a001316_list = 1 : zs where
 %o A001316    zs = 2 : (concat $ transpose [zs, map (* 2) zs])
 %o A001316 -- _Reinhard Zumkeller_, Aug 27 2014, Sep 16 2011
-%o A001316 (Sage, Python)
+%o A001316 (SageMath)
 %o A001316 from functools import cache
 %o A001316 @cache
 %o A001316 def A001316(n):
@@ -154,6 +158,14 @@
 %o A001316 (Python)
 %o A001316 def A001316(n):
 %o A001316     return 2**bin(n)[2:].count("1") # _Indranil Ghosh_, Feb 06 2017
+%o A001316 (Python)
+%o A001316 def A001316(n): return 1<<n.bit_count() # _Karl-Heinz Hofmann_, Aug 01 2025
+%o A001316 (Python)
+%o A001316 import numpy # (version >= 2.0.0)
+%o A001316 n_up_to = 2**22
+%o A001316 A000079 = 1 << numpy.arange(n_up_to.bit_length())
+%o A001316 A001316 = A000079[numpy.bitwise_count(numpy.arange(n_up_to))]
+%o A001316 print(A001316[0:100]) # _Karl-Heinz Hofmann_, Aug 01 2025
 %o A001316 (Scheme) (define (A001316 n) (let loop ((n n) (z 1)) (cond ((zero? n) z) ((even? n) (loop (/ n 2) z)) (else (loop (/ (- n 1) 2) (* z 2)))))) ;; _Antti Karttunen_, May 29 2017
 %Y A001316 Equals left border of triangle A166548. - _Gary W. Adamson_, Oct 16 2009
 %Y A001316 For generating functions Product_{k>=0} (1+a*x^(b^k)) for the following values of (a,b) see: (1,2) A000012 and A000027, (1,3) A039966 and A005836, (1,4) A151666 and A000695, (1,5) A151667 and A033042, (2,2) A001316, (2,3) A151668, (2,4) A151669, (2,5) A151670, (3,2) A048883, (3,3) A117940, (3,4) A151665, (3,5) A151671, (4,2) A102376, (4,3) A151672, (4,4) A151673, (4,5) A151674.

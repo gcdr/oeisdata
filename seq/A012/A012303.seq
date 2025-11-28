@@ -1,4 +1,4 @@
-%I A012303 #11 Sep 08 2022 08:44:38
+%I A012303 #12 Sep 30 2025 20:34:15
 %S A012303 1,0,-12,240,4368,-942720,42639168,8638506240,-2287049555712,
 %T A012303 38746394603520,145600412857955328,-42974022434701332480,
 %U A012303 -7760313189299657306112,11863589839842518338928640
@@ -11,4 +11,4 @@
 %o A012303 (Magma) m:=30; R<x>:=PowerSeriesRing(Rationals(), m); b:=Coefficients(R!( 1/Cosh(Sin(x)^2) ));  [Factorial(2*n)*b[2*n+1]: n in [0..Floor((m-2)/2)]];  // _G. C. Greubel_, Oct 25 2018
 %K A012303 sign
 %O A012303 0,3
-%A A012303 Patrick Demichel (patrick.demichel(AT)hp.com)
+%A A012303 _Patrick Demichel_

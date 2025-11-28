@@ -1,4 +1,4 @@
-%I A105749 #34 Sep 26 2023 06:28:55
+%I A105749 #39 Nov 05 2025 15:22:04
 %S A105749 1,2,14,222,6384,291720,19445040,1781750880,214899027840,
 %T A105749 33007837322880,6290830003852800,1456812592995513600,
 %U A105749 402910665227270323200,131173228963370155161600,49656810289225281849907200,21628258853895305337293568000,10739534026001485514941587456000
@@ -6,8 +6,9 @@
 %C A105749 Equivalently, number of sequences of n labeled items such that each item occurs just once or twice. - _David Applegate_, Dec 08 2008
 %C A105749 Also, number of assembly trees for a certain star graph, see Vince-Bona, Theorem 4. - _N. J. A. Sloane_, Oct 08 2012
 %H A105749 Alois P. Heinz, <a href="/A105749/b105749.txt">Table of n, a(n) for n = 0..100</a>
-%H A105749 R. A. Proctor, <a href="https://arxiv.org/abs/math/0606404">Let's Expand Rota's Twelvefold Way for Counting Partitions!</a>, arXiv:math/0606404 [math.CO], 2006-2007.
-%H A105749 Andrew Vince and Miklos Bona, <a href="http://arxiv.org/abs/1204.3842">The Number of Ways to Assemble a Graph</a>, arXiv preprint arXiv:1204.3842 [math.CO], 2012.
+%H A105749 Samuele Giraudo and Yannic Vargas, <a href="https://www.mat.univie.ac.at/~slc/wpapers/FPSAC2025/82.pdf">Operads of packed words, quotients, and monomial bases</a>, Proc. 37th Conf. Formal Power Series Alg. Comb., Sém. Lotharingien Combin. (2025) Vol. 93B Art. No. 82. See p. 9.
+%H A105749 Robert A. Proctor, <a href="https://arxiv.org/abs/math/0606404">Let's Expand Rota's Twelvefold Way for Counting Partitions!</a>, arXiv:math/0606404 [math.CO], 2006-2007.
+%H A105749 Andrew Vince and Miklos Bona, <a href="https://arxiv.org/abs/1204.3842">The Number of Ways to Assemble a Graph</a>, arXiv preprint arXiv:1204.3842 [math.CO], 2012.
 %H A105749 <a href="/index/Par#partN">Index entries for related partition-counting sequences</a>
 %F A105749 a(n) = Sum_{k=0..n} C(n,k) * (n+k)! / 2^k.
 %F A105749 a(n) = n! * A001515(n).

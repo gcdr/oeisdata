@@ -1,8 +1,8 @@
-%I A247639 #19 Aug 22 2022 09:40:07
+%I A247639 #20 Nov 05 2025 15:22:28
 %S A247639 1,5,31,210,1488,10826,80111,599671,4525573,34357725,262011295,
 %T A247639 2004962487,15383479300
 %N A247639 Dimensions of algebraic generators of combinatorial Hopf algebra H(Heap_2).
-%H A247639 J.-P. Bultel, S. Giraudo, <a href="http://arxiv.org/abs/1406.6903">Combinatorial Hopf algebras from PROs</a>, arXiv preprint arXiv:1406.6903 [math.CO], 2014-2016. <a href="https://doi.org/10.1007/s10801-016-0677-7">[DOI]</a>
+%H A247639 J.-P. Bultel, S. Giraudo, <a href="https://arxiv.org/abs/1406.6903">Combinatorial Hopf algebras from PROs</a>, arXiv preprint arXiv:1406.6903 [math.CO], 2014-2016. <a href="https://doi.org/10.1007/s10801-016-0677-7">[DOI]</a>
 %t A247639 terms = 11;
 %t A247639 c[g_, t_] := c[g, t] = Sum[c[g, n, t], {n, 0, 3 terms}];
 %t A247639 c[g_, n_, t_] := c[g, n, t] = P[g, n, t] - Sum[c[g, k, t] P[g, n-k-1, t], {k, 0, n - 1}];

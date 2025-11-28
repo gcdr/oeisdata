@@ -1,8 +1,8 @@
-%I A110040 #42 Oct 28 2023 03:37:38
+%I A110040 #44 Jun 27 2025 23:18:37
 %S A110040 1,0,0,1,10,112,1760,35150,848932,24243520,805036704,30649435140,
 %T A110040 1322299270600,64008728200384,3447361661136640,205070807479444088,
 %U A110040 13388424264027157520,953966524932871436800,73817914562041635228928
-%N A110040 Number of {2,3}-regular graphs, i.e., labeled simple graphs (no multi-edges or loops) on n vertices, each of degree 2 or 3.
+%N A110040 Number of {2,3}-regular graphs; i.e., labeled simple graphs (no multi-edges or loops) on n vertices, each of degree 2 or 3.
 %C A110040 P-recursive.
 %C A110040 Starting at n=3, number of symmetric binary matrices with all row sums 3. - _R. H. Hardin_, Jun 12 2008
 %C A110040 From _R. J. Mathar_, Apr 07 2017: (Start)
@@ -16,7 +16,7 @@
 %C A110040 6:  70 0 810 0 810 0 70
 %C A110040 7:  0 5670 0 19355 0 9660 0 465
 %C A110040 This has A001205 on the diagonal. (End)
-%C A110040 The traceless (2n) X (2n) binary matrices in that triangle seem to be counted in A002829. - _Alois P. Heinz_, Apr 07, 2017
+%C A110040 The traceless (2n) X (2n) binary matrices in that triangle seem to be counted in A002829. - _Alois P. Heinz_, Apr 07 2017
 %D A110040 Tan and S. Gao, Enumeration of (0,1)-Symmetric Matrices, submitted [From _Shanzhen Gao_, Jun 05 2009]
 %H A110040 Vaclav Kotesovec, <a href="/A110040/b110040.txt">Table of n, a(n) for n = 0..320</a>
 %H A110040 I. P. Goulden and D. M. Jackson, <a href="http://dx.doi.org/10.1137/0607007">Labelled graphs with small vertex degrees and P-recursiveness</a>, SIAM J. Algebraic Discrete Methods 7(1986), no. 1, 60--66. MR0819706 (87k:05093). [Gives e.g.f.]

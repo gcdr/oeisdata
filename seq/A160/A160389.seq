@@ -1,4 +1,4 @@
-%I A160389 #109 Nov 22 2024 08:31:47
+%I A160389 #118 Nov 05 2025 15:35:33
 %S A160389 1,8,0,1,9,3,7,7,3,5,8,0,4,8,3,8,2,5,2,4,7,2,2,0,4,6,3,9,0,1,4,8,9,0,
 %T A160389 1,0,2,3,3,1,8,3,8,3,2,4,2,6,3,7,1,4,3,0,0,1,0,7,1,2,4,8,4,6,3,9,8,8,
 %U A160389 6,4,8,4,0,8,5,5,8,7,9,9,3,1,0,0,2,7,2,2,9,0,9,4,3,7,0,2,4,8,3,0,6,3,6,6,2
@@ -9,11 +9,12 @@
 %C A160389 An algebraic integer of degree 3 with minimal polynomial x^3 - x^2 - 2x + 1. - _Charles R Greathouse IV_, Nov 12 2014
 %C A160389 The other two solutions of the minimal polynomial of rho(7) = 2*cos(Pi/7) are 2*cos(3*Pi/7) and 2*cos(5*Pi/7). See eq. (20) of the W. Lang link. - _Wolfdieter Lang_, Feb 11 2015
 %C A160389 The constant is the square root of 3.24697... (cf. A116425). It is the fifth-longest diagonal in the regular 14-gon with unit radius, which equals 2*sin(5*Pi/14). - _Gary W. Adamson_, Feb 14 2022
+%D A160389 John H. Conway and Richard K. Guy, The Book of Numbers, New York: Springer-Verlag, 1996. See p. 207.
 %H A160389 Harry J. Smith, <a href="/A160389/b160389.txt">Table of n, a(n) for n = 1..20000</a>
 %H A160389 Simon Baker, <a href="https://arxiv.org/abs/1711.10397">Exceptional digit frequencies and expansions in non-integer bases</a>, arXiv:1711.10397 [math.DS], 2017. See Theorem 1.1 p. 3.
 %H A160389 Sam Buss and Ryan Williams, <a href="http://eccc.hpi-web.de/report/2011/031/">Limits on alternation-trading proofs for time-space lower bounds</a>, Electronic Colloquium on Computational Complexity 2011
-%H A160389 Wolfdieter Lang, <a href="http://arxiv.org/abs/1210.1018">The field Q(2cos(pi/n)), its Galois group and length ratios in the regular n-gon</a>, arXiv:1210.1018 [math.GR], Oct 03 2012.
-%H A160389 Peter Steinbach, <a href="http://www.jstor.org/stable/2691048">Golden Fields: A Case for the Heptagon</a>, Mathematics Magazine, Vol. 70, No. 1, Feb. 1997.
+%H A160389 Wolfdieter Lang, <a href="https://arxiv.org/abs/1210.1018">The field Q(2cos(pi/n)), its Galois group and length ratios in the regular n-gon</a>, arXiv:1210.1018 [math.GR], Oct 03 2012.
+%H A160389 Peter Steinbach, <a href="https://www.jstor.org/stable/2691048">Golden Fields: A Case for the Heptagon</a>, Mathematics Magazine, Vol. 70, No. 1, Feb. 1997.
 %H A160389 Ryan Williams, <a href="https://citeseerx.ist.psu.edu/pdf/54d8304f13676f7cbddd71d1d0f3801f243eed6e">Time-space tradeoffs for counting NP solutions modulo integers</a>, Computational Complexity 17 (2008), pp. 179-219.
 %H A160389 <a href="/index/Al#algebraic_03">Index entries for algebraic numbers, degree 3</a>
 %F A160389 Equals 2*A073052. - _Michel Marcus_, Nov 21 2013
@@ -21,7 +22,7 @@
 %F A160389 Equals i^(2/7) - i^(12/7). - _Peter Luschny_, Apr 04 2020
 %F A160389 From _Peter Bala_, Oct 20 2021: (Start)
 %F A160389 Equals 2 - (1 - z)*(1 - z^6)/((1 - z^3)*(1 - z^4)), where z = exp(2*Pi*i/7).
-%F A160389 The other two zeros of the minimal polynomial x^3 - x^2 - 2*x + 1 of 2*cos(Pi/7) are given by 2 - (1 - z^3)*(1 - z^4)/((1 - z^2)*(1 - z^5)) = 2*cos(3*Pi/7) and 2 - (1 - z^2)*(1 - z^5)/((1 - z)*(1 - z^6)) = cos(5*Pi/7).
+%F A160389 The other two zeros of the minimal polynomial x^3 - x^2 - 2*x + 1 of 2*cos(Pi/7) are given by 2 - (1 - z^3)*(1 - z^4)/((1 - z^2)*(1 - z^5)) = 2*cos(3*Pi/7) = A255241 and 2 - (1 - z^2)*(1 - z^5)/((1 - z)*(1 - z^6)) = cos(5*Pi/7) = -A362922.
 %F A160389 Equals Product_{n >= 0} (7*n+2)*(7*n+5)/((7*n+1)*(7*n+6)) = 1 + Product_{n >= 0} (7*n+2)*(7*n+5)/((7*n+3)*(7*n+4)) = 1/A255240.
 %F A160389 The linear fractional mapping r -> 1/(1 - r) cyclically permutes the three zeros of the minimal polynomial x^3 - x^2 - 2*x + 1. The inverse mapping is r -> (r - 1)/r.
 %F A160389 The quadratic mapping r -> 2 - r^2 also cyclically permutes the three zeros. The inverse mapping is r -> r^2 - r - 1. (End)

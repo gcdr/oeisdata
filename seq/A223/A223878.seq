@@ -1,8 +1,8 @@
-%I A223878 #6 Aug 11 2014 22:45:50
+%I A223878 #10 Oct 03 2025 22:50:55
 %S A223878 256,65536,3863372,88682677,1271992512,13394424591,112751480926,
 %T A223878 798519332969,4918189868664,26945689043408,133456233695247,
 %U A223878 604775893442790,2531399109074463,9862376758221364,35997221510544568
-%N A223878 Number of 4Xn 0..3 arrays with rows, diagonals and antidiagonals unimodal
+%N A223878 Number of 4Xn 0..3 arrays with rows, diagonals and antidiagonals unimodal.
 %C A223878 Row 4 of A223876
 %H A223878 R. H. Hardin, <a href="/A223878/b223878.txt">Table of n, a(n) for n = 1..177</a>
 %H A223878 R. H. Hardin, <a href="/A223878/a223878.txt">Empirical polynomial of degree 24</a>
@@ -14,4 +14,4 @@
 %e A223878 ..1..3..0....1..2..3....3..3..0....0..3..0....2..3..1....0..0..1....0..1..0
 %K A223878 nonn
 %O A223878 1,1
-%A A223878 _R. H. Hardin_ Mar 28 2013
+%A A223878 _R. H. Hardin_, Mar 28 2013

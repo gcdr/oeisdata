@@ -1,4 +1,4 @@
-%I A000594 M5153 N2237 #395 Feb 16 2025 08:32:21
+%I A000594 M5153 N2237 #421 Nov 05 2025 15:21:39
 %S A000594 1,-24,252,-1472,4830,-6048,-16744,84480,-113643,-115920,534612,
 %T A000594 -370944,-577738,401856,1217160,987136,-6905934,2727432,10661420,
 %U A000594 -7109760,-4219488,-12830688,18643272,21288960,-25499225,13865712,-73279080,24647168
@@ -50,7 +50,7 @@
 %H A000594 John A. Ewell, <a href="https://dx.doi.org/10.1090/S0002-9939-99-05289-2">Ramanujan's Tau Function</a>, Proc. Amer. Math. Soc. 128 (2000), 723-726.
 %H A000594 John A. Ewell, <a href="http://math.la.asu.edu/~rmmc/rmj/Vol28-2/EWE/EWE.html">Ramanujan's Tau Function</a>.
 %H A000594 Steven R. Finch, <a href="/A000521/a000521_1.pdf">Modular forms on SL_2(Z)</a>, December 28, 2005. [Cached copy, with permission of the author]
-%H A000594 Luis H. Gallardo, <a href="http://www.emis.de/journals/RCM/revistas.art1038.html">On some formulae for Ramanujan's tau function</a>, Rev. Colomb. Matem. 44 (2010) 103-112.
+%H A000594 Luis H. Gallardo, <a href="https://revistas.unal.edu.co/index.php/recolma/article/view/28569">On some formulae for Ramanujan's tau function</a>, Rev. Colomb. Matem. 44 (2010) 103-112.
 %H A000594 M. Z. Garaev, V. C. Garcia, and S. V. Konyagin, <a href="https://doi.org/10.1070/IM2008v072n01ABEH002390">Waring problem with the Ramanujan tau function</a>, Izvestiya: Mathematics, Vol. 72, No 1 (2008), pp. 35-46; <a href="https://arxiv.org/abs/math/0607169">arXiv preprint</a>, arXiv:math/0607169 [math.NT], 2006.
 %H A000594 Frank Garvan and Michael J. Schlosser, <a href="https://doi.org/10.1016/j.disc.2018.07.001">Combinatorial interpretations of Ramanujan's tau function</a>, Discrete Mathematics, Vol. 341, No. 10 (2018), pp. 2831-2840; <a href="https://arxiv.org/abs/1606.08037">arXiv preprint</a>, arXiv:1606.08037 [math.CO], 2016.
 %H A000594 Hansraj Gupta, <a href="https://web.archive.org/web/20151210181615/https://www.currentscience.ac.in/Downloads/article_id_017_06_0179_0180_0.pdf">The Vanishing of Ramanujan's Function(n)</a>, Current Science, 17 (1948), p. 180. [Wayback Machine link]
@@ -60,18 +60,18 @@
 %H A000594 Masanobu Kaneko and Don Zagier, <a href="http://www2.math.kyushu-u.ac.jp/~mkaneko/papers/atkin.pdf">Supersingular j-invariants, hypergeometric series and Atkin's orthogonal polynomials</a>, pp. 97-126 of D. A. Buell and J. T. Teitelbaum, eds., Computational Perspectives on Number Theory, Amer. Math. Soc., 1998
 %H A000594 Jon Keating and Brady Haran, <a href="https://www.youtube.com/watch?v=VTveQ1ndH1c">The Key to the Riemann Hypothesis</a>, Numberphile video (2016).
 %H A000594 Jerry B. Keiper, <a href="http://mathsource.wri.com/MathSource22/Enhancements/NumberTheory/0200-978/Documentation.txt">Ramanujan's Tau-Dirichlet Series</a> [Dead link?]
-%H A000594 Martin Klazar, <a href="http://arxiv.org/abs/1808.08449">What is an answer? — remarks, results and problems on PIO formulas in combinatorial enumeration, part I</a>, arXiv:1808.08449 [math.CO], 2018.
+%H A000594 Martin Klazar, <a href="https://arxiv.org/abs/1808.08449">What is an answer? — remarks, results and problems on PIO formulas in combinatorial enumeration, part I</a>, arXiv:1808.08449 [math.CO], 2018.
 %H A000594 N. Laptyeva and V. K. Murty, <a href="https://doi.org/10.1007/s13226-014-0086-3">Fourier coefficients of forms of CM-type</a>, Indian Journal of Pure and Applied Mathematics, Volume 45, Issue 5 (October 2014), pp. 747-758.
 %H A000594 D. H. Lehmer, <a href="http://dx.doi.org/10.1215/S0012-7094-47-01436-1">The Vanishing of Ramanujan's Function tau(n)</a>, Duke Mathematical Journal, 14 (1947), pp. 429-433.
 %H A000594 D. H. Lehmer, <a href="/A000594/a000594.pdf">The Vanishing of Ramanujan's Function tau(n)</a>, Duke Mathematical Journal, 14 (1947), pp. 429-433. [Annotated scanned copy]
 %H A000594 D. H. Lehmer, <a href="http://dx.doi.org/10.1090/S0025-5718-70-99853-4">Tables of Ramanujan's function tau(n)</a>, Math. Comp., 24 (1970), 495-496.
-%H A000594 LMFDB, <a href="http://www.lmfdb.org/ModularForm/GL2/Q/holomorphic/1/12/1/a/">Newform 1.12.1.a</a>.
+%H A000594 LMFDB, <a href="https://www.lmfdb.org/ModularForm/GL2/Q/holomorphic/1/12/a/a/">Newform orbit 1.12.a.a</a>
 %H A000594 Florian Luca and Igor E. Shparlinski, <a href="https://doi.org/10.1007/BF02829735">Arithmetic properties of the Ramanujan function</a>, Proceedings of the Indian Academy of Sciences-Mathematical Sciences, Vol. 116. No. 1 (2006), pp. 1-8; <a href="https://www.arxiv.org/abs/math/0607591">arXiv preprint</a>, arXiv:math/0607591 [math.NT], 2006.
 %H A000594 Nik Lygeros and Olivier Rozier, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL13/Lygeros/lygeros5.html">A new solution to the equation tau(rho) == 0 (mod p)</a>, J. Int. Seq. 13 (2010), Article 10.7.4.
 %H A000594 Yves Martin, <a href="http://dx.doi.org/10.1090/S0002-9947-96-01743-6">Multiplicative eta-quotients</a>, Trans. Amer. Math. Soc., Vol. 348, No. 12 (1996), 4825-4856, see page 4852 Table I.
 %H A000594 Yuri Matiyasevich, <a href="http://math.colgate.edu/~integers/sjs14/sjs14.Abstract.html">Computational rediscovery of Ramanujan's tau numbers</a>, Integers (2018) 18A, Article #A14.
 %H A000594 Keith Matthews, <a href="http://www.numbertheory.org/php/tau.html">Computing Ramanujan's tau function</a>.
-%H A000594 Stephen C. Milne, <a href="https://doi.org/10.1073/pnas.93.26.15004">New infinite families of exact sums of squares formulas, Jacobi elliptic functions, and Ramanujan's tau function</a>, Proc. Nat. Acad. Sci. USA, 93 (1996) 15004-15008.
+%H A000594 Stephen C. Milne, <a href="https://doi.org/10.1073/pnas.93.26.15004">New infinite families of exact sums of squares formulas, Jacobi elliptic functions, and Ramanujan's tau function</a>, Proc. Nat. Acad. Sci. USA, 93 (1996) 15004-15008.
 %H A000594 Stephen C. Milne, <a href="http://dx.doi.org/10.1023/A:1014865816981">Infinite families of exact sums of squares formulas, Jacobi elliptic functions, continued fractions and Schur functions</a>, Ramanujan J., 6 (2002), 7-149.
 %H A000594 Louis J. Mordell, <a href="http://www.archive.org/stream/proceedingsofcam1920191721camb#page/n133">On Mr. Ramanujan's empirical expansions of modular functions</a>, Proceedings of the Cambridge Philosophical Society 19 (1917), pp. 117-124.
 %H A000594 Pieter Moree, <a href="http://arXiv.org/abs/math.NT/0201265">On some claims in Ramanujan's 'unpublished' manuscript on the partition and tau functions</a>, arXiv:math/0201265 [math.NT], 2002.
@@ -82,6 +82,7 @@
 %H A000594 Jon Perry, <a href="https://web.archive.org/web/20030623234353/http://www.users.globalnet.co.uk/~perry/maths/ramanujantau/ramanujantau.htm">Ramanujan's Tau Function</a>. [Wayback Machine link]
 %H A000594 Simon Plouffe, <a href="https://web.archive.org/web/20240421145736/https://plouffe.fr/OEIS/b000594.txt">The first 225035 terms</a> (432 MB) [Wayback Machine link]
 %H A000594 Simon Plouffe, <a href="http://vixra.org/abs/1409.0048">Conjectures of the OEIS, as of June 20, 2018</a>.
+%H A000594 Simon Plouffe, <a href="https://arxiv.org/abs/2509.15609">Numbers in the base e^Pi</a>, arXiv:2509.15609 [math.NT], 2025. See p. 10/24, marked 7.
 %H A000594 Srinivasa Ramanujan, Collected Papers, <a href="http://www.imsc.res.in/~rao/ramanujan/CamUnivCpapers/Cpaper18/page18.htm">Table of tau(n);n=1 to 30</a>.
 %H A000594 Jean-Pierre Serre, <a href="http://www.numdam.org/item/SDPP_1967-1968__9_1_A13_0/">An interpretation of some congruences concerning Ramanujan's tau function</a>, Séminaire Delange-Pisot-Poitou. Théorie des nombres, tome 9, no 1 (1967-1968), exp. no 14, pp. 1-17.
 %H A000594 Jean-Pierre Serre, <a href="https://www.researchgate.net/publication/2396158_An_Interpretation_of_some_congruences_concerning_Ramanujan&#39;s_tau-function">An interpretation of some congruences concerning Ramanujan's Tau function</a>, 1997.
@@ -118,6 +119,8 @@
 %F A000594 a(1) = 1, a(n) = -(24/(n-1))*Sum_{k=1..n-1} A000203(k)*a(n-k) for n > 1. - _Seiichi Manyama_, Mar 26 2017
 %F A000594 G.f.: x*exp(-24*Sum_{k>=1} x^k/(k*(1 - x^k))). - _Ilya Gutkovskiy_, Feb 05 2018
 %F A000594 Euler Transform of [-24, -24, -24, -24, ...]. - _Simon Plouffe_, Jun 21 2018
+%F A000594 a(n) = n^4*sigma(n)-24*Sum_{k=1..n-1} (35*k^4-52*k^3*n+18*k^2*n^2)*sigma(k)*sigma(n-k). [See Douglas Niebur link]. - _Wesley Ivan Hurt_, Jul 22 2025
+%F A000594 Empirical: Sum_{n>=0} a(n) / exp(n*Pi) = (1/512) * exp(Pi) * Pi^6 / Gamma(3/4)^24 = A388084. - _Simon Plouffe_, Sep 14 2025
 %e A000594 G.f. = q - 24*q^2 + 252*q^3 - 1472*q^4 + 4830*q^5 - 6048*q^6 - 16744*q^7 + 84480*q^8 - 113643*q^9 + ...
 %e A000594 35328 = (-24)*(-1472) = a(2)*a(4) = a(2*4) + 2^11*a(2*4/4) = 84480 + 2048*(-24) = 35328. See a comment on T_n Delta = tau(n) Delta above. - _Wolfdieter Lang_, Jan 21 2016
 %p A000594 M := 50; t1 := series(x*mul((1-x^k)^24,k=1..M),x,M); A000594 := n-> coeff(t1,x,n);
@@ -155,8 +158,8 @@
 %o A000594 a(n) = n^4*sigma(n) - 24*sum(k=1, n-1, (35*k^4-52*k^3*n+18*k^2*n^2)*sigma(k)*sigma(n-k));
 %o A000594 vector(33, n, a(n)) \\ _Joerg Arndt_, Sep 06 2015
 %o A000594 (PARI) a(n)=ramanujantau(n) \\ _Charles R Greathouse IV_, May 27 2016
-%o A000594 (Sage) CuspForms( Gamma1(1), 12, prec=100).0; # _Michael Somos_, May 28 2013
-%o A000594 (Sage) list(delta_qexp(100))[1:] # faster _Peter Luschny_, May 16 2016
+%o A000594 (SageMath) CuspForms( Gamma1(1), 12, prec=100).0; # _Michael Somos_, May 28 2013
+%o A000594 (SageMath) list(delta_qexp(100))[1:] # faster _Peter Luschny_, May 16 2016
 %o A000594 (Ruby)
 %o A000594 def s(n)
 %o A000594   s = 0

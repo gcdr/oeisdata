@@ -1,4 +1,4 @@
-%I A359762 #25 Jan 25 2023 10:11:32
+%I A359762 #32 Jun 30 2025 18:41:13
 %S A359762 1,1,1,1,1,1,1,2,1,1,1,4,3,1,1,1,10,7,4,1,1,1,26,25,10,5,1,1,1,76,81,
 %T A359762 46,13,6,1,1,1,232,331,166,73,16,7,1,1,1,764,1303,856,281,106,19,8,1,
 %U A359762 1,1,2620,5937,3844,1741,426,145,22,9,1,1
@@ -7,24 +7,25 @@
 %C A359762 In graph theory, the n-th telephone number is the total number of matchings of a complete graph K_n (see the Wikipedia entry). Assuming a network with k possibilities of connections leads to a network that can be modeled by a complete multigraph K(n, k). The total number of connection patterns in such a network is given by T(n, k).
 %D A359762 John Riordan, Introduction to Combinatorial Analysis, Dover (2002).
 %H A359762 Urszula Bednarz and Małgorzata Wołowiec-Musiał, <a href="https://doi.org/10.3906/mat-1812-108">On a new generalization of telephone numbers</a>, Turkish Journal of Mathematics: Vol. 43: No. 3, (2019).
+%H A359762 Carlos M. da Fonseca and Anthony G. Shannon, <a href="https://doi.org/10.47974/JIM-2148">Telephone numbers extensions</a>, J. Interdisc. Math. (2025) Vol. 28, No. 4, 1573-1580. See pp. 1574, 1577.
 %H A359762 Wikipedia, <a href="https://en.wikipedia.org/wiki/Telephone_number_(mathematics)">Telephone numbers</a>.
 %F A359762 T(n, k) = Sum_{j=0..n, j even} binomial(n, j) * (j - 1)!! * k^(j/2).
 %F A359762 T(n, k) = T(n, k-1) + n*(k-1)*T(n, k-2) for n >= 2, T(n, 0) = T(n, 1) = 1.
-%F A359762 T(n, k) = i^(-n) * (2*k)^(n/2) * KummerU(-n/2, 1/2, -1/(2*k))) for k >= 1, and T(n, 0) = 1.
+%F A359762 T(n, k) = i^(-n) * (2*k)^(n/2) * KummerU(-n/2, 1/2, -1/(2*k)) for k >= 1, and T(n, 0) = 1.
 %e A359762 Array T(n, k) starts:
-%e A359762 [n\k] 0   1      2        3       4        5        6        7
-%e A359762 --------------------------------------------------------------
-%e A359762 [0] 1,    1,     1,       1,      1,       1,       1,       1, ... [A000012]
-%e A359762 [1] 1,    1,     1,       1,      1,       1,       1,       1, ... [A000012]
-%e A359762 [2] 1,    2,     3,       4,      5,       6,       7,       8, ... [A000027]
-%e A359762 [3] 1,    4,     7,      10,     13,      16,      19,      22, ... [A016777]
-%e A359762 [4] 1,   10,    25,      46,     73,     106,     145,     190, ... [A100536]
-%e A359762 [5] 1,   26,    81,     166,    281,     426,     601,     806, ...
-%e A359762 [6] 1,   76,   331,     856,   1741,    3076,    4951,    7456, ...
-%e A359762 [7] 1,  232,  1303,    3844,   8485,   15856,   26587,   41308, ...
-%e A359762 [8] 1,  764,  5937,   21820,  57233,  123516,  234529,  406652, ...
-%e A359762 [9] 1, 2620, 26785,  114076, 328753,  757756, 1510705, 2719900, ...
-%e A359762  [A000085][A047974][A115327][A115329][A115331]
+%e A359762   [n\k] 0   1      2        3       4        5        6        7
+%e A359762   --------------------------------------------------------------
+%e A359762   [0] 1,    1,     1,       1,      1,       1,       1,       1, ... [A000012]
+%e A359762   [1] 1,    1,     1,       1,      1,       1,       1,       1, ... [A000012]
+%e A359762   [2] 1,    2,     3,       4,      5,       6,       7,       8, ... [A000027]
+%e A359762   [3] 1,    4,     7,      10,     13,      16,      19,      22, ... [A016777]
+%e A359762   [4] 1,   10,    25,      46,     73,     106,     145,     190, ... [A100536]
+%e A359762   [5] 1,   26,    81,     166,    281,     426,     601,     806, ...
+%e A359762   [6] 1,   76,   331,     856,   1741,    3076,    4951,    7456, ...
+%e A359762   [7] 1,  232,  1303,    3844,   8485,   15856,   26587,   41308, ...
+%e A359762   [8] 1,  764,  5937,   21820,  57233,  123516,  234529,  406652, ...
+%e A359762   [9] 1, 2620, 26785,  114076, 328753,  757756, 1510705, 2719900, ...
+%e A359762    [A000085][A047974][A115327][A115329][A115331]
 %p A359762 T := (n, k) -> add(binomial(n, j)*doublefactorial(j-1)*k^(j/2), j = 0..n, 2):
 %p A359762 for n from 0 to 9 do lprint(seq(T(n, k), k = 0..7)) od;
 %p A359762 T := (n, k) -> ifelse(k=0, 1, I^(-n)*(2*k)^(n/2)*KummerU(-n/2, 1/2, -1/(2*k))):

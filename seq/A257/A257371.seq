@@ -1,8 +1,8 @@
-%I A257371 #18 Dec 31 2020 16:52:20
+%I A257371 #20 Jul 23 2025 15:22:13
 %S A257371 3,3,5,5,5,7,8,8,8,8,8,9,12,12,12,15,15,15,17,17,18,18,18,19,29,29,31,
 %T A257371 31,31,31,31,33,34,34,35,35,35,37,37,37,37,37,37,38,41,40,41,41,49,49,
 %U A257371 49,49,49,49,51,52,53,53,55,59,59,59,62,62,63,63,65,65
-%N A257371 Number of states in minimal DFA for P_n^*, where P_n is the set of base-2 representations of the first n prime numbers
+%N A257371 Number of states in minimal DFA for P_n^*, where P_n is the set of base-2 representations of the first n prime numbers.
 %C A257371 Here by "DFA" we mean "deterministic finite automaton", and by P_n^* we mean the set of all binary strings that can be formed as the concatenation of 0 or more of the base-2 representations of the first n primes.  The DFA must be "complete" (there must be a transition for each state and symbol) and hence includes any "dead state".
 %C A257371 P_n^* is identical to P_{n-1}^* when prime(n) in binary is the concatenation of smaller primes, since it adds nothing to the pattern.  So a(n) = a(n-1) when n in A090423, though various other a(n) = a(m) occur too when different state machines happen to have the same state count. - _Kevin Ryde_, Dec 26 2020
 %H A257371 Kevin Ryde, <a href="/A257371/b257371.txt">Table of n, a(n) for n = 1..10000</a>

@@ -1,4 +1,4 @@
-%I A079317 #27 Feb 16 2025 08:32:48
+%I A079317 #30 Nov 05 2025 15:22:02
 %S A079317 1,5,5,17,9,29,21,65,25,77,37,113,49,149,85,257,89,269,101,305,113,
 %T A079317 341,149,449,161,485,197,593,233,701,341,1025,345,1037,357,1073,369,
 %U A079317 1109,405,1217,417,1253,453,1361,489,1469,597,1793,609,1829,645,1937,681
@@ -11,11 +11,11 @@
 %D A079317 D. Singmaster, On the cellular automaton of Ulam and Warburton, M500 Magazine of the Open University, #195 (December 2003), pp. 2-7.
 %D A079317 S. Wolfram, A New Kind of Science, Wolfram Media, 2002; p. 170.
 %H A079317 Robert Price, <a href="/A079317/b079317.txt">Table of n, a(n) for n = 0..128</a>
-%H A079317 David Applegate, Omar E. Pol and N. J. A. Sloane, <a href="/A000695/a000695_1.pdf">The Toothpick Sequence and Other Sequences from Cellular Automata</a>, Congressus Numerantium, Vol. 206 (2010), 157-191. [There is a typo in Theorem 6: (13) should read u(n) = 4.3^(wt(n-1)-1) for n >= 2.]
+%H A079317 David Applegate, Omar E. Pol and N. J. A. Sloane, <a href="/A000695/a000695_2.pdf">The Toothpick Sequence and Other Sequences from Cellular Automata</a>, Congressus Numerantium, Vol. 206 (2010), 157-191
 %H A079317 Robert Price, <a href="/A079317/a079317.tmp.txt">Diagrams of the first 20 stages</a>
 %H A079317 D. Singmaster, <a href="/A079314/a079314.pdf">On the cellular automaton of Ulam and Warburton</a>, 2003 [Cached copy, included with permission]
 %H A079317 N. J. A. Sloane, <a href="/wiki/Catalog_of_Toothpick_and_CA_Sequences_in_OEIS">Catalog of Toothpick and Cellular Automata Sequences in the OEIS</a>
-%H A079317 N. J. A. Sloane, <a href="http://arxiv.org/abs/1503.01168">On the Number of ON Cells in Cellular Automata</a>, arXiv:1503.01168 [math.CO], 2015
+%H A079317 N. J. A. Sloane, <a href="https://arxiv.org/abs/1503.01168">On the Number of ON Cells in Cellular Automata</a>, arXiv:1503.01168 [math.CO], 2015
 %H A079317 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/ElementaryCellularAutomaton.html">Elementary Cellular Automaton</a>
 %H A079317 S. Wolfram, <a href="http://wolframscience.com/">A New Kind of Science</a>
 %H A079317 <a href="/index/Ce#cell">Index entries for sequences related to cellular automata</a>

@@ -1,8 +1,9 @@
-%I A014545 #96 Feb 16 2025 08:32:33
+%I A014545 #113 Aug 21 2025 08:47:25
 %S A014545 0,1,2,3,4,5,11,75,171,172,384,457,616,643,1391,1613,2122,2647,2673,
-%T A014545 4413,13494,31260,33237,304723,365071,436504,498865
+%T A014545 4413,13494,31260,33237,304723,365071,436504,498865,637491
 %N A014545 Numbers k such that the k-th Euclid number A006862(k) = 1 + (Product of first k primes) is prime.
 %D A014545 J.-M. De Koninck, Ces nombres qui nous fascinent, Entry 211, p. 61, Ellipses, Paris 2008.
+%D A014545 James J. Tattersall, Elementary Number Theory in Nine Chapters, Cambridge University Press, 1999, page 114.
 %H A014545 C. K. Caldwell, <a href="https://t5k.org/primes/search.php?Description=%5E[[:digit:]]{1,}%23%2B1&amp;Style=HTML">Prime Pages: Database Search</a>
 %H A014545 C. K. Caldwell, <a href="https://t5k.org/glossary/page.php?sort=PrimorialPrime">Primorial Primes</a>.
 %H A014545 H. Ibstedt, <a href="http://vixra.org/abs/1403.0853">A Few Smarandache Sequences</a>, Smarandache Notions Journal, Vol. 8, No. 1-2-3, 1997, 170-183.
@@ -43,3 +44,4 @@
 %E A014545 a(25) from _Jeppe Stig Nielsen_, Sep 01 2024
 %E A014545 a(26) from _Jeppe Stig Nielsen_, Sep 24 2024
 %E A014545 a(27) from _Jeppe Stig Nielsen_, Nov 10 2024
+%E A014545 a(28) from _Jeppe Stig Nielsen_, Aug 21 2025

@@ -1,8 +1,8 @@
-%I A189490 #6 Mar 31 2012 12:36:15
+%I A189490 #10 Oct 03 2025 05:15:14
 %S A189490 0,12,152,3388,85480,2642358,93830584,3870426602,179336321514,
 %T A189490 9289851475820,529329739784248,33294638055400354,2251636269472534394,
 %U A189490 165280305640591105462,13029806159083867494110,1097830097296833990293942
-%N A189490 Number of arrangements of n+1 nonzero numbers x(i) in -n..n with the sum of floor(x(i)/x(i+1)) equal to zero
+%N A189490 Number of arrangements of n+1 nonzero numbers x(i) in -n..n with the sum of floor(x(i)/x(i+1)) equal to zero.
 %C A189490 Diagonal of A189498
 %H A189490 R. H. Hardin, <a href="/A189490/b189490.txt">Table of n, a(n) for n = 1..21</a>
 %e A189490 Some solutions for n=5
@@ -14,4 +14,4 @@
 %e A189490 ..4...-4...-4....3...-4...-2...-5...-1....4....2....4...-5....1...-5....5....5
 %K A189490 nonn
 %O A189490 1,2
-%A A189490 _R. H. Hardin_ Apr 23 2011
+%A A189490 _R. H. Hardin_, Apr 23 2011

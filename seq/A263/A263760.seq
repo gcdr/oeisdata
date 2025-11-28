@@ -1,8 +1,8 @@
-%I A263760 #4 Oct 25 2015 12:52:42
+%I A263760 #6 Jul 23 2025 15:37:49
 %S A263760 0,0,1,4,31,106,485,1546,6083,21020,83505,298850,1157277,4174794,
 %T A263760 15848043,57833610,218278105,803890160,3022404618,11185043168,
 %U A263760 41937855185,155739217814,583290598528,2171877488824,8131306069328
-%N A263760 Number of length n arrays of permutations of 0..n-1 with each element moved by -4 to 4 places and exactly one more element moved upwards than downwards
+%N A263760 Number of length n arrays of permutations of 0..n-1 with each element moved by -4 to 4 places and exactly one more element moved upwards than downwards.
 %C A263760 Column 4 of A263764
 %H A263760 R. H. Hardin, <a href="/A263760/b263760.txt">Table of n, a(n) for n = 1..210</a>
 %e A263760 Some solutions for n=7

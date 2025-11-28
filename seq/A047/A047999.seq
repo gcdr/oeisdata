@@ -1,4 +1,4 @@
-%I A047999 #319 Feb 16 2025 08:32:39
+%I A047999 #344 Nov 26 2025 15:59:35
 %S A047999 1,1,1,1,0,1,1,1,1,1,1,0,0,0,1,1,1,0,0,1,1,1,0,1,0,1,0,1,1,1,1,1,1,1,
 %T A047999 1,1,1,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,1,1,1,
 %U A047999 1,1,0,0,0,0,1,1,1,1,1,0,0,0,1,0,0,0,1,0,0,0,1,1,1
@@ -13,7 +13,7 @@
 %C A047999 When regarded as an infinite lower triangular matrix, its inverse is a (-1,0,1)-matrix with zeros undisturbed and the nonzero entries in every column form the Prouhet-Thue-Morse sequence (1,-1,-1,1,-1,1,1,-1,...) A010060 (up to relabeling). - _David Callan_, Oct 27 2006
 %C A047999 Triangle read by rows: antidiagonals of an array formed by successive iterates of running sums mod 2, beginning with (1, 1, 1, ...). - _Gary W. Adamson_, Jul 10 2008
 %C A047999 T(n,k) = A057427(A143333(n,k)). - _Reinhard Zumkeller_, Oct 24 2010
-%C A047999 The triangle sums, see A180662 for their definitions, link Sierpiński’s triangle A047999 with seven sequences, see the crossrefs. The Kn1y(n) and Kn2y(n), y >= 1, triangle sums lead to the Sierpiński-Stern triangle A191372. - _Johannes W. Meijer_, Jun 05 2011
+%C A047999 The triangle sums, see A180662 for their definitions, link Sierpiński's triangle A047999 with seven sequences, see the crossrefs. The Kn1y(n) and Kn2y(n), y >= 1, triangle sums lead to the Sierpiński-Stern triangle A191372. - _Johannes W. Meijer_, Jun 05 2011
 %C A047999 Used to compute the total Steifel-Whitney cohomology class of the Real Projective space. This was an essential component of the proof that there are no product operations without zero divisors on R^n for n not equal to 1, 2, 4 or 8 (real numbers, complex numbers, quaternions, Cayley numbers), proved by Bott and Milnor. - _Marcus Jaiclin_, Feb 07 2012
 %C A047999 T(n,k) = A134636(n,k) mod 2. - _Reinhard Zumkeller_, Nov 23 2012
 %C A047999 T(n,k) = 1 - A219463(n,k), 0 <= k <= n. - _Reinhard Zumkeller_, Nov 30 2012
@@ -44,52 +44,54 @@
 %C A047999 See A123098 for a multiplicative encoding of the rows, i.e., product of the primes selected by nonzero terms; e.g., 1 0 1 => 2^1 * 3^0 * 5^1. - _M. F. Hasler_, Sep 18 2016
 %C A047999 From _Valentin Bakoev_, Jul 11 2020: (Start)
 %C A047999 The Sierpinski's triangle with 2^n rows is a part of a lower triangular matrix M_n of dimension 2^n X 2^n. M_n is a block matrix defined recursively: M_1= [1, 0], [1, 1], and for n>1, M_n = [M_(n-1), O_(n-1)], [M_(n-1), M_(n-1)], where M_(n-1) is a block matrix of the same type, but of dimension 2^(n-1) X 2^(n-1), and O_(n-1) is the zero matrix of dimension 2^(n-1) X 2^(n-1). Here is how M_1, M_2 and M_3 look like:
-%C A047999 1 0     1 0 0 0      1 0 0 0 0 0 0 0
-%C A047999 1 1     1 1 0 0      1 1 0 0 0 0 0 0   - It is seen the self-similarity of the
-%C A047999         1 0 1 0      1 0 1 0 0 0 0 0     matrices M_1, M_2, ..., M_n, ...,
-%C A047999         1 1 1 1      1 1 1 1 0 0 0 0     analogously to the Sierpinski's fractal.
-%C A047999                      1 0 0 0 1 0 0 0
-%C A047999                      1 1 0 0 1 1 0 0
-%C A047999                      1 0 1 0 1 0 1 0
-%C A047999                      1 1 1 1 1 1 1 1
+%C A047999   1 0     1 0 0 0      1 0 0 0 0 0 0 0
+%C A047999   1 1     1 1 0 0      1 1 0 0 0 0 0 0   - It is seen the self-similarity of the
+%C A047999           1 0 1 0      1 0 1 0 0 0 0 0     matrices M_1, M_2, ..., M_n, ...,
+%C A047999           1 1 1 1      1 1 1 1 0 0 0 0     analogously to the Sierpinski's fractal.
+%C A047999                        1 0 0 0 1 0 0 0
+%C A047999                        1 1 0 0 1 1 0 0
+%C A047999                        1 0 1 0 1 0 1 0
+%C A047999                        1 1 1 1 1 1 1 1
 %C A047999 M_n can also be defined as M_n = M_1 X M_(n-1) where X denotes the Kronecker product. M_n is an important matrix in coding theory, cryptography, Boolean algebra, monotone Boolean functions, etc. It is a transformation matrix used in computing the algebraic normal form of Boolean functions. Some properties and links concerning M_n can be seen in LINKS. (End)
 %C A047999 Sierpinski's gasket has fractal (Hausdorff) dimension log(A000217(2))/log(2) = log(3)/log(2) = 1.58496... (and cf. A020857). This gasket is the first of a family of gaskets formed by taking the Pascal triangle (A007318) mod j, j >= 2 (see CROSSREFS). For prime j, the dimension of the gasket is log(A000217(j))/log(j) = log(j(j + 1)/2)/log(j) (see Reiter and Bondarenko references). - _Richard L. Ollerton_, Dec 14 2021
 %D A047999 Boris A. Bondarenko, Generalized Pascal Triangles and Pyramids (in Russian), FAN, Tashkent, 1990, ISBN 5-648-00738-8.
-%D A047999 Brand, Neal; Das, Sajal; Jacob, Tom. The number of nonzero entries in recursively defined tables modulo primes. Proceedings of the Twenty-first Southeastern Conference on Combinatorics, Graph Theory, and Computing (Boca Raton, FL, 1990). Congr. Numer. 78 (1990), 47--59. MR1140469 (92h:05004).
+%D A047999 Neal Brand, Sajal Das, and Tom Jacob, The number of nonzero entries in recursively defined tables modulo primes. Proceedings of the Twenty-first Southeastern Conference on Combinatorics, Graph Theory, and Computing (Boca Raton, FL, 1990). Congr. Numer. 78 (1990), 47--59. MR1140469 (92h:05004).
+%D A047999 Elena Deza and Michel Marie Deza, Figurate numbers, World Scientific Publishing (2012), page 253.
 %D A047999 John W. Milnor and James D. Stasheff, Characteristic Classes, Princeton University Press, 1974, pp. 43-49 (sequence appears on p. 46).
 %D A047999 H.-O. Peitgen, H. Juergens and D. Saupe: Chaos and Fractals (Springer-Verlag 1992), p. 408.
 %D A047999 Michel Rigo, Formal Languages, Automata and Numeration Systems, 2 vols., Wiley, 2014. Mentions this sequence - see "List of Sequences" in Vol. 2.
 %D A047999 S. Wolfram, A New Kind of Science, Wolfram Media, 2002; Chapter 3.
 %H A047999 N. J. A. Sloane, <a href="/A047999/b047999.txt">Table of n, a(n) for n = 0..10584</a> [First 144 rows, flattened; first 50 rows from T. D. Noe].
-%H A047999 J.-P. Allouche and V. Berthe, <a href="https://doi.org/10.36045/bbms/1105730620">Triangle de Pascal, complexité et automates</a>, Bulletin of the Belgian Mathematical Society Simon Stevin 4.1 (1997): 1-24.
-%H A047999 J.-P. Allouche, F. v. Haeseler, H.-O. Peitgen and G. Skordev, <a href="http://dx.doi.org/10.1016/0166-218X(94)00132-W">Linear cellular automata, finite automata and Pascal's triangle</a>, Discrete Appl. Math. 66 (1996), 1-22.
-%H A047999 David Applegate, Omar E. Pol and N. J. A. Sloane, <a href="/A000695/a000695_1.pdf">The Toothpick Sequence and Other Sequences from Cellular Automata</a>, Congressus Numerantium, Vol. 206 (2010), 157-191. [There is a typo in Theorem 6: (13) should read u(n) = 4.3^(wt(n-1)-1) for n >= 2.],
-%H A047999 J. Baer, <a href="http://ccins.camosun.bc.ca/~jbritton/blaise/bigblaise.html">Explore patterns in Pascal's Triangle</a>
-%H A047999 Valentin Bakoev, <a href="http://serdica-comp.math.bas.bg/index.php/serdicajcomputing/article/view/304">Fast Bitwise Implementation of the Algebraic Normal Form Transform</a>, Serdica J. of Computing 11 (2017), No 1, 45-57.
+%H A047999 Jean-Paul Allouche and Valérie Berthé, <a href="https://doi.org/10.36045/bbms/1105730620">Triangle de Pascal, complexité et automates</a>, Bulletin of the Belgian Mathematical Society Simon Stevin 4.1 (1997): 1-24.
+%H A047999 Jean-Paul Allouche, Friedrich v. Haeseler, Heinz-Otto Peitgen and Guentcho Skordev, <a href="http://dx.doi.org/10.1016/0166-218X(94)00132-W">Linear cellular automata, finite automata and Pascal's triangle</a>, Discrete Appl. Math. 66 (1996), 1-22.
+%H A047999 David Applegate, Omar E. Pol and N. J. A. Sloane, <a href="/A000695/a000695_2.pdf">The Toothpick Sequence and Other Sequences from Cellular Automata</a>, Congressus Numerantium, Vol. 206 (2010), 157-191,
+%H A047999 J. Baer, <a href="http://ccins.camosun.bc.ca/~jbritton/blaise/bigblaise.html">Explore patterns in Pascal's Triangle</a> [Broken link].
+%H A047999 Valentin Bakoev, <a href="https://doi.org/10.55630/sjc.2017.11.45-57">Fast Bitwise Implementation of the Algebraic Normal Form Transform</a>, Serdica J. of Computing 11 (2017), No 1, 45-57.
 %H A047999 Valentin Bakoev, <a href="/A047999/a047999_1.txt">Properties and links concerning M_n</a>
 %H A047999 Thomas Baruchel, <a href="https://doi.org/10.1007/s42979-019-0049-1">Flattening Karatsuba's Recursion Tree into a Single Summation</a>, SN Computer Science (2020) Vol. 1, Article No. 48.
 %H A047999 Thomas Baruchel, <a href="https://arxiv.org/abs/1912.00452">A non-symmetric divide-and-conquer recursive formula for the convolution of polynomials and power series</a>, arXiv:1912.00452 [math.NT], 2019.
-%H A047999 A. Bogomolny, <a href="http://www.cut-the-knot.org/ctk/Sierpinski.shtml">Dot Patterns and Sierpinski Gasket</a>
-%H A047999 Boris A. Bondarenko, <a href="https://web.archive.org/web/2024*/https://www.fq.math.ca/pascal.html">Generalized Pascal Triangles and Pyramids</a>, English translation published by Fibonacci Association, Santa Clara Univ., Santa Clara, CA, 1993; see pp. 130-132.
+%H A047999 Alex Bogomolny, <a href="http://www.cut-the-knot.org/ctk/Sierpinski.shtml">Dot Patterns and Sierpinski Gasket</a>
+%H A047999 Boris A. Bondarenko, <a href="https://www.fq.math.ca/pascal.html">Generalized Pascal Triangles and Pyramids</a>, English translation published by Fibonacci Association, Santa Clara Univ., Santa Clara, CA, 1993; see pp. 130-132.
 %H A047999 Paul Bradley and Peter Rowley, <a href="http://eprints.ma.man.ac.uk/2167/01/covered/MIMS_ep2014_42.pdf">Orbits on k-subsets of 2-transitive Simple Lie-type Groups</a>, 2014.
-%H A047999 E. Burlachenko, <a href="https://arxiv.org/abs/1612.00970">Fractal generalized Pascal matrices</a>, arXiv:1612.00970 [math.NT], 2016. See p. 9.
-%H A047999 S. Butkevich, <a href="https://web.archive.org/web/20050305151737/http://www.math.ohio-state.edu/~btk/Pascal/">Pascal Triangle Applet</a>
-%H A047999 David Callan, <a href="http://arxiv.org/abs/math/0610932">Sierpinski's triangle and the Prouhet-Thue-Morse word</a>, arXiv:math/0610932 [math.CO], 2006.
-%H A047999 B. Cherowitzo, <a href="http://www-math.cudenver.edu/~wcherowi/jcorn5.html">Pascal's Triangle using Clock Arithmetic, Part I</a>
-%H A047999 B. Cherowitzo, <a href="http://www-math.cudenver.edu/~wcherowi/jcorn6.html">Pascal's Triangle using Clock Arithmetic, Part II</a>
-%H A047999 C. Cobeli, A. Zaharescu, <a href="https://arxiv.org/abs/1411.1334">A game with divisors and absolute differences of exponents</a>, arXiv:1411.1334 [math.NT], 2014; Journal of Difference Equations and Applications, Vol. 20, #11, 2014.
+%H A047999 Evgenii Burlachenko, <a href="https://arxiv.org/abs/1612.00970">Fractal generalized Pascal matrices</a>, arXiv:1612.00970 [math.NT], 2016. See p. 9.
+%H A047999 Sergey Butkevich, <a href="https://web.archive.org/web/20050305151737/http://www.math.ohio-state.edu/~btk/Pascal/">Pascal Triangle Applet</a>
+%H A047999 David Callan, <a href="https://arxiv.org/abs/math/0610932">Sierpinski's triangle and the Prouhet-Thue-Morse word</a>, arXiv:math/0610932 [math.CO], 2006.
+%H A047999 Bill Cherowitzo, <a href="https://web.archive.org/web/20100701110206/http://www-math.cudenver.edu/~wcherowi/jcorn5.html">Pascal's Triangle using Clock Arithmetic, Part I</a>
+%H A047999 Bill Cherowitzo, <a href="https://web.archive.org/web/20100701105707/http://www-math.cudenver.edu/~wcherowi/jcorn6.html">Pascal's Triangle using Clock Arithmetic, Part II</a>
+%H A047999 Cristian Cobeli and Alexandru Zaharescu, <a href="https://arxiv.org/abs/1411.1334">A game with divisors and absolute differences of exponents</a>, arXiv:1411.1334 [math.NT], 2014; Journal of Difference Equations and Applications, Vol. 20, #11, 2014.
 %H A047999 Ilya Gutkovskiy, <a href="/A275198/a275198.pdf">Illustrations (triangle formed by reading Pascal's triangle mod m)</a>
-%H A047999 R. K. Guy, <a href="http://www.jstor.org/stable/2322249">The strong law of small numbers</a>. Amer. Math. Monthly 95 (1988), no. 8, 697-712.
+%H A047999 R. K. Guy, <a href="https://www.jstor.org/stable/2322249">The strong law of small numbers</a>. Amer. Math. Monthly 95 (1988), no. 8, 697-712.
 %H A047999 Brady Haran, <a href="https://youtu.be/kbKtFN71Lfs">Chaos Game</a>, Numberphile video, YouTube (April 27, 2017).
 %H A047999 I. Kobayashi et al., <a href="http://www.ies.co.jp/math/java/misc/PascalTriangle/PascalTriangle.html">Pascal's Triangle</a>
 %H A047999 Dr. Math, <a href="http://www.mathforum.org/dr.math/faq/formulas/faq/regpoly.html">Regular polygon formulas</a> [Broken link?]
-%H A047999 Y. Moshe, <a href="http://dx.doi.org/10.1016/j.disc.2005.03.022">The distribution of elements in automatic double sequences</a>, Discr. Math., 297 (2005), 91-103.
+%H A047999 Yossi Moshe, <a href="http://dx.doi.org/10.1016/j.disc.2005.03.022">The distribution of elements in automatic double sequences</a>, Discr. Math., 297 (2005), 91-103.
 %H A047999 National Curve Bank, <a href="http://curvebank.calstatela.edu/sierpinski/sierpinski.htm">Sierpinski Triangles</a>
-%H A047999 Hieu D. Nguyen, <a href="http://arxiv.org/abs/1412.3181">A Digital Binomial Theorem</a>, arXiv:1412.3181 [math.NT], 2014.
+%H A047999 Hieu D. Nguyen, <a href="https://arxiv.org/abs/1412.3181">A Digital Binomial Theorem</a>, arXiv:1412.3181 [math.NT], 2014.
+%H A047999 Johan Nilsson, <a href="https://arxiv.org/abs/2510.06493">The Pattern Complexity of the Sierpiński Triangle</a>, arXiv:2510.06493 [math.CO], 2025. See p. 1.
 %H A047999 S. Northshield, <a href="http://hdl.handle.net/20.500.12648/1110">Sums across Pascal's triangle modulo 2</a>, Congressus Numerantium, 200, pp. 35-52, 2010.
-%H A047999 A. M. Reiter, <a href="https://web.archive.org/web/2024*/https://www.fq.math.ca/Issues/31-2.pdf">Determining the dimension of fractals generated by Pascal's triangle</a>, Fibonacci Quarterly, 31(2), 1993, pp. 112-120.
-%H A047999 F. Richman, <a href="http://math.fau.edu/richman/jscripts.htm">Javascript for computing Pascal's triangle modulo n</a>. Go to this page, then under "Modern Algebra and Other Things", click "Pascal's triangle modulo n".
-%H A047999 Vladimir Shevelev, <a href="http://arxiv.org/abs/1011.6083">On Stephan's conjectures concerning Pascal triangle modulo 2 and their polynomial generalization</a>, J. of Algebra Number Theory: Advances and Appl., 7 (2012), no.1, 11-29. Also arXiv:1011.6083, 2010.
+%H A047999 Ashley Melia Reiter, <a href="https://www.fq.math.ca/Issues/31-2.pdf">Determining the dimension of fractals generated by Pascal's triangle</a>, Fibonacci Quarterly, 31(2), 1993, pp. 112-120.
+%H A047999 Fred Richman, <a href="https://web.archive.org/web/20230606040749/http://math.fau.edu/richman/jscripts.htm">Javascript for computing Pascal's triangle modulo n</a>. Go to this page, then under "Modern Algebra and Other Things", click "Pascal's triangle modulo n".
+%H A047999 Vladimir Shevelev, <a href="https://arxiv.org/abs/1011.6083">On Stephan's conjectures concerning Pascal triangle modulo 2 and their polynomial generalization</a>, J. of Algebra Number Theory: Advances and Appl., 7 (2012), no.1, 11-29. Also arXiv:1011.6083, 2010.
 %H A047999 N. J. A. Sloane, <a href="/A047999/a047999.png">Illustration of rows 0 to 32</a> (encoignure style)
 %H A047999 N. J. A. Sloane, <a href="/A047999/a047999_1.png">Illustration of rows 0 to 64</a> (encoignure style)
 %H A047999 N. J. A. Sloane, <a href="/A047999/a047999_2.png">Illustration of rows 0 to 128</a> (encoignure style)
@@ -149,6 +151,8 @@
 %t A047999 Mod[ Flatten[ NestList[ Prepend[ #, 0] + Append[ #, 0] &, {1}, 13]], 2] (* _Robert G. Wilson v_, May 26 2004 *)
 %t A047999 rows = 14; ca = CellularAutomaton[60, {{1}, 0}, rows-1]; Flatten[ Table[ca[[k, 1 ;; k]], {k, 1, rows}]] (* _Jean-François Alcover_, May 24 2012 *)
 %t A047999 Mod[#,2]&/@Flatten[Table[Binomial[n,k],{n,0,20},{k,0,n}]] (* _Harvey P. Dale_, Jun 26 2019 *)
+%t A047999 A047999[n_,k_]:= Boole[BitAnd[n-k,k]==0];
+%t A047999 Table[A047999[n,k], {n,0,15}, {k,0,n}]//Flatten (* _G. C. Greubel_, Sep 03 2025 *)
 %o A047999 (PARI) \\ Recurrence for Pascal's triangle mod p, here p = 2.
 %o A047999 p = 2; s=13; T=matrix(s,s); T[1,1]=1;
 %o A047999 for(n=2,s, T[n,1]=1; for(k=2,n, T[n,k] = (T[n-1,k-1] + T[n-1,k])%p ));
@@ -175,7 +179,7 @@
 %Y A047999 From _Johannes W. Meijer_, Jun 05 2011: (Start)
 %Y A047999 A106344 is a skew version of this triangle.
 %Y A047999 Triangle sums (see the comments): A001316 (Row1; Related to Row2), A002487 (Related to Kn11, Kn12, Kn13, Kn21, Kn22, Kn23), A007306 (Kn3, Kn4), A060632 (Fi1, Fi2), A120562 (Ca1, Ca2), A112970 (Gi1, Gi2), A127830 (Ze3, Ze4). (End)
-%K A047999 nonn,tabl,easy,nice
+%K A047999 nonn,tabl,easy,nice,changed
 %O A047999 0,1
 %A A047999 _N. J. A. Sloane_
 %E A047999 Additional links from _Lekraj Beedassy_, Jan 22 2004

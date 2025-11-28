@@ -1,4 +1,4 @@
-%I A002378 M1581 N0616 #781 Feb 16 2025 08:32:25
+%I A002378 M1581 N0616 #806 Nov 05 2025 15:21:41
 %S A002378 0,2,6,12,20,30,42,56,72,90,110,132,156,182,210,240,272,306,342,380,
 %T A002378 420,462,506,552,600,650,702,756,812,870,930,992,1056,1122,1190,1260,
 %U A002378 1332,1406,1482,1560,1640,1722,1806,1892,1980,2070,2162,2256,2352,2450,2550
@@ -82,9 +82,11 @@
 %C A002378 a(n-1) is the maximum Zagreb index over all trees with n vertices. The extremal graphs are stars. (The Zagreb index of a graph is the sum of the squares of the degrees over all vertices of the graph.) - _Allan Bickle_, Apr 11 2024
 %C A002378 For n >= 1, a(n) is the determinant of the distance matrix of a cycle graph on 2*n + 1 vertices (if the length of the cycle is even such a determinant is zero). - _Miquel A. Fiol_, Aug 20 2024
 %C A002378 For n > 1, the continued fraction expansion of sqrt(16*a(n)) is [2n+1; {1, 2n-1, 1, 8n+2}]. - _Magus K. Chu_, Nov 20 2024
+%C A002378 For n>=2, a(n) is the number of faces on a n+1-zone rhombic zonohedron. Each pair of a collection of great circles on a sphere intersects at two points, so there are 2*binomial(n+1,2) intersections. The dual of the implied polyhedron is a rhombic zonohedron, its faces corresponding to the intersections. - _Shel Kaphan_, Aug 12 2025
 %D A002378 W. W. Berman and D. E. Smith, A Brief History of Mathematics, 1910, Open Court, page 67.
 %D A002378 J. H. Conway and R. K. Guy, The Book of Numbers, 1996, p. 34.
 %D A002378 J. H. Conway and N. J. A. Sloane, "Sphere Packings, Lattices and Groups", Springer-Verlag.
+%D A002378 Elena Deza and Michel Marie Deza, Figurate numbers, World Scientific Publishing (2012), page 61.
 %D A002378 L. E. Dickson, History of the Theory of Numbers, Vol. 1: Divisibility and Primality. New York: Chelsea, p. 357, 1952.
 %D A002378 L. E. Dickson, History of the Theory of Numbers, Vol. 2: Diophantine Analysis. New York: Chelsea, pp. 6, 232-233, 350 and 407, 1952.
 %D A002378 H. Eves, An Introduction to the History of Mathematics, revised, Holt, Rinehart and Winston, 1964, page 72.
@@ -92,9 +94,11 @@
 %D A002378 Jan Gullberg, Mathematics from the Birth of Numbers, W. W. Norton & Co., NY & London, 1997, §8.6 Figurate Numbers, p. 291.
 %D A002378 Granino A. Korn and Theresa M. Korn, Mathematical Handbook for Scientists and Engineers, McGraw-Hill Book Company, New York (1968), pp. 980-981.
 %D A002378 C. S. Ogilvy and J. T. Anderson, Excursions in Number Theory, Oxford University Press, 1966, pp. 61-62.
+%D A002378 Alfred S. Posamentier, Math Charmers, Tantalizing Tidbits for the Mind, Prometheus Books, NY, 2003, pages 54-55.
 %D A002378 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
 %D A002378 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
 %D A002378 F. J. Swetz, From Five Fingers to Infinity, Open Court, 1994, p. 219.
+%D A002378 James J. Tattersall, Elementary Number Theory in Nine Chapters, Cambridge University Press, 1999, pages 2-6.
 %H A002378 T. D. Noe, <a href="/A002378/b002378.txt">Table of n, a(n) for n = 0..1000</a>
 %H A002378 D. Applegate, M. LeBrun and N. J. A. Sloane, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL14/Sloane/carry2.html">Dismal Arithmetic</a>, J. Int. Seq. 14 (2011) # 11.9.8.
 %H A002378 R. Bapat, S. J. Kirkland, and M. Neumann, <a href="https://doi.org/10.1016/j.laa.2004.05.011">On distance matrices and Laplacians</a>, Linear Algebra Appl. 401 (2005), 193-209.
@@ -122,12 +126,13 @@
 %H A002378 Simon Plouffe, <a href="https://arxiv.org/abs/0911.4975">Approximations de séries génératrices et quelques conjectures</a>, Dissertation, Université du Québec à Montréal, 1992; arXiv:0911.4975 [math.NT], 2009.
 %H A002378 Simon Plouffe, <a href="/A000051/a000051_2.pdf">1031 Generating Functions</a>, Appendix to Thesis, Montreal, 1992.
 %H A002378 John D. Roth, David A. Garren, and R. Clark Robertson, <a href="https://doi.org/10.1109/ICASSP39728.2021.9413937">Integer Carrier Frequency Offset Estimation in OFDM with Zadoff-Chu Sequences</a>, IEEE Int'l Conference on Acoustics, Speech and Signal Processing (ICASSP 2021) 4850-4854.
-%H A002378 Luis Manuel Rivera, <a href="http://arxiv.org/abs/1406.3081">Integer sequences and k-commuting permutations</a>, arXiv preprint arXiv:1406.3081 [math.CO], 2014-2015.
-%H A002378 Michelle Rudolph-Lilith, <a href="http://arxiv.org/abs/1508.07894">On the Product Representation of Number Sequences, with Application to the Fibonacci Family</a>, arXiv preprint arXiv:1508.07894 [math.NT], 2015.
+%H A002378 Luis Manuel Rivera, <a href="https://arxiv.org/abs/1406.3081">Integer sequences and k-commuting permutations</a>, arXiv preprint arXiv:1406.3081 [math.CO], 2014-2015.
+%H A002378 Michelle Rudolph-Lilith, <a href="https://arxiv.org/abs/1508.07894">On the Product Representation of Number Sequences, with Application to the Fibonacci Family</a>, arXiv preprint arXiv:1508.07894 [math.NT], 2015.
 %H A002378 Amelia Carolina Sparavigna, <a href="https://www.researchgate.net/publication/333844014">Groupoids of OEIS A002378 and A016754 Numbers (oblong and odd square numbers)</a>, Politecnico di Torino (Italy, 2019).
 %H A002378 Amelia Carolina Sparavigna, <a href="https://doi.org/10.5281/zenodo.3471358">The groupoids of Mersenne, Fermat, Cullen, Woodall and other Numbers and their representations by means of integer sequences</a>, Politecnico di Torino, Italy (2019), [math.NT].
 %H A002378 J. Striker and N. Williams, <a href="https://arxiv.org/abs/1108.1172">Promotion and Rowmotion </a>, arXiv preprint arXiv:1108.1172 [math.CO], 2011-2012.
 %H A002378 D. Suprijanto and Rusliansyah, <a href="http://dx.doi.org/10.12988/ams.2014.4140">Observation on Sums of Powers of Integers Divisible by Four</a>, Applied Mathematical Sciences, Vol. 8, 2014, no. 45, 2219 - 2226.
+%H A002378 Leo Tavares, <a href="/A002378/a002378.jpg">Square illustration</a>
 %H A002378 R. Tijdeman, <a href="http://www.math.leidenuniv.nl/~tijdeman/tij1.ps">Some applications of Diophantine approximation</a>, pp. 261-284 of Surveys in Number Theory (Urbana, May 21, 2000), ed. M. A. Bennett et al., Peters, 2003.
 %H A002378 G. Villemin's Almanach of Numbers, <a href="http://villemin.gerard.free.fr/Wwwgvmm/Geometri/Pronique.htm">Nombres Proniques</a>.
 %H A002378 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/CrownGraph.html">Crown Graph</a>.
@@ -191,6 +196,7 @@
 %F A002378 a(n)*a(n+2k) + k^2 = ((2n+1)*k + a(n))^2. (End)
 %F A002378 Product_{n>=1} (1 + 1/a(n)) = cosh(sqrt(3)*Pi/2)/Pi. - _Amiram Eldar_, Jan 20 2021
 %F A002378 A generalization of the Dec 29 2003 formula, a(n)*a(n+1) = a(n*(n+2)), follows. a(n)*a(n+k) = a(n*(n+k+1)) + (k-1)*n*(n+k+1). - _Charlie Marion_, Jan 02 2023
+%F A002378 a(n) = A016742(n) - A049450(n). - _Leo Tavares_, Mar 15 2025
 %e A002378 a(3) = 12, since 2(3)+2 = 8 has 4 partitions with exactly two parts: (7,1), (6,2), (5,3), (4,4). Taking the positive differences of the parts in each partition and adding, we get: 6 + 4 + 2 + 0 = 12. - _Wesley Ivan Hurt_, Jun 02 2013
 %e A002378 G.f. = 2*x + 6*x^2 + 12*x^3 + 20*x^4 + 30*x^5 + 42*x^6 + 56*x^7 + ... - _Michael Somos_, May 22 2014
 %e A002378 From _Miquel Cerda_, Dec 04 2016: (Start)
@@ -234,6 +240,7 @@
 %Y A002378 Cf. A002378, A046092, A028896 (irregularities of maximal k-degenerate graphs).
 %Y A002378 Cf. A347213 (Dgf at s=4).
 %Y A002378 Cf. A002378, A152811, A371912 (Zagreb indices of maximal k-degenerate graphs).
+%Y A002378 Cf. A016742, A049450.
 %K A002378 nonn,easy,core,nice
 %O A002378 0,2
 %A A002378 _N. J. A. Sloane_

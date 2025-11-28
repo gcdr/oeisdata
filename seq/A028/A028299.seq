@@ -1,4 +1,4 @@
-%I A028299 #13 Dec 16 2018 08:38:59
+%I A028299 #15 Jul 08 2025 18:32:12
 %S A028299 1,0,0,396,1485,1980,234
 %N A028299 Weight distribution of the dodecacode, a [[12,0,6]] quantum-error-correcting code.
 %C A028299 Also weight distribution of nonexistent extremal [12,6,6] code over GF(4) [cf. MacWilliams et al., 1978; Ward]. - _N. J. A. Sloane_, Aug 13 2010
@@ -8,4 +8,4 @@
 %H A028299 H. N. Ward, <a href="https://doi.org/10.1016/0012-365X(79)90123-7">Combinatorial polarization</a>, Discr. Math., 26 (1979), 185-197. - _N. J. A. Sloane_, Aug 13 2010
 %K A028299 nonn,fini,full
 %O A028299 0,4
-%A A028299 _N. J. A. Sloane_.
+%A A028299 _N. J. A. Sloane_

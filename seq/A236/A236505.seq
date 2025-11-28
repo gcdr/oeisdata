@@ -1,8 +1,8 @@
-%I A236505 #4 Jan 27 2014 05:04:28
+%I A236505 #6 Jul 23 2025 09:18:44
 %S A236505 256,2632,2632,27458,54110,27458,284408,1116232,1116232,284408,
 %T A236505 2954930,23079872,46503900,23079872,2954930,30642966,477377520,
 %U A236505 1936913190,1936913190,477377520,30642966,318132117,9873995570,81160939773
-%N A236505 T(n,k)=Number of (n+1)X(k+1) 0..3 arrays colored with the maximum plus the minimum minus the lower median of every 2X2 subblock
+%N A236505 T(n,k)=Number of (n+1)X(k+1) 0..3 arrays colored with the maximum plus the minimum minus the lower median of every 2X2 subblock.
 %C A236505 Table starts
 %C A236505 ........256.........2632.........27458.........284408........2954930
 %C A236505 .......2632........54110.......1116232.......23079872......477377520

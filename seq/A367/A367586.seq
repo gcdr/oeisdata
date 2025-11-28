@@ -1,4 +1,4 @@
-%I A367586 #9 Dec 04 2023 08:32:51
+%I A367586 #12 Jun 10 2025 16:32:55
 %S A367586 1,2,4,6,8,10,14,16,22,26,30,32,34,36,38,42,46,58,62,64,66,70,74,78,
 %T A367586 82,86,94,100,102,106,110,114,118,122,128,130,134,138,142,146,154,158,
 %U A367586 166,170,174,178,182,186,190,194,196,202,206,210,214,216,218,222
@@ -24,6 +24,8 @@
 %e A367586    36: {1,1,2,2}
 %e A367586    38: {1,8}
 %e A367586    42: {1,2,4}
+%p A367586 isA := proc(n) z := padic:-ordp(n, 2); andseq(z=p[2], p in ifactors(n)[2]) end:
+%p A367586 select(isA, [seq(1..222)]);  # _Peter Luschny_, Jun 10 2025
 %t A367586 Select[Range[100], #==1||EvenQ[#]&&SameQ@@Last/@FactorInteger[#]&]
 %Y A367586 Contains all prime powers A000961 and squarefree numbers A005117.
 %Y A367586 Partitions of this type (uniform containing 1) are counted by A097986.

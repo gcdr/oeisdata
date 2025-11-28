@@ -1,4 +1,4 @@
-%I A303235 #9 Apr 20 2018 13:18:08
+%I A303235 #10 Nov 05 2025 15:22:41
 %S A303235 0,1,2,3,4,5,4,5,6,6,6,8,7,7,8,8,8,10,10,10,10,9,9,11,9,10,11,10,9,12,
 %T A303235 10,11,14,13,11,14,12,12,13,15,12,14,12,13,14,14,14,15,13,11,14,13,11,
 %U A303235 16,13,10,11,13,11,14
@@ -9,7 +9,7 @@
 %H A303235 Zhi-Wei Sun, <a href="/A303235/b303235.txt">Table of n, a(n) for n = 1..10000</a>
 %H A303235 Zhi-Wei Sun, <a href="http://dx.doi.org/10.1016/j.jnt.2016.11.008">Refining Lagrange's four-square theorem</a>, J. Number Theory 175(2017), 167-190.
 %H A303235 Zhi-Wei Sun, <a href="http://maths.nju.edu.cn/~zwsun/179b.pdf">New conjectures on representations of integers (I)</a>, Nanjing Univ. J. Math. Biquarterly 34(2017), no. 2, 97-120.
-%H A303235 Zhi-Wei Sun, <a href="http://arxiv.org/abs/1701.05868">Restricted sums of four squares</a>, arXiv:1701.05868 [math.NT], 2017-2018.
+%H A303235 Zhi-Wei Sun, <a href="https://arxiv.org/abs/1701.05868">Restricted sums of four squares</a>, arXiv:1701.05868 [math.NT], 2017-2018.
 %e A303235 a(2) = 1 with 2 - 2^0 - 2^0 = 0*(0+1)/2 + 0*(0+1)/2.
 %e A303235 a(3) = 2 with 3 - 2^0 - 2^0 = 0*(0+1)/2 + 1*(1+1)/2 and 3 - 2^0 - 2^1 = 0*(0+1)/2 + 0*(0+1)/2.
 %t A303235 f[n_]:=f[n]=FactorInteger[n];

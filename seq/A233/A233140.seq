@@ -1,7 +1,7 @@
-%I A233140 #5 Dec 18 2015 18:18:48
+%I A233140 #7 Jul 23 2025 07:54:39
 %S A233140 1,16,13259,198313130,39758352524643,104628720219120084935,
 %T A233140 3612824935976380302597462081,1636876887880533270191858718052988313
-%N A233140 Number of n X n 0..5 arrays with no element x(i,j) adjacent to value 5-x(i,j) horizontally, antidiagonally or vertically, top left element zero, and 1 appearing before 2 3 and 4, and 2 appearing before 3 in row major order
+%N A233140 Number of n X n 0..5 arrays with no element x(i,j) adjacent to value 5-x(i,j) horizontally, antidiagonally or vertically, top left element zero, and 1 appearing before 2 3 and 4, and 2 appearing before 3 in row major order.
 %C A233140 Diagonal of A233147
 %e A233140 Some solutions for n=3
 %e A233140 ..0..0..1....0..1..2....0..1..2....0..0..1....0..1..2....0..1..5....0..1..5

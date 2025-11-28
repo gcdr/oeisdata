@@ -1,8 +1,8 @@
-%I A172324 #12 Sep 08 2022 08:45:50
+%I A172324 #14 May 04 2025 15:36:09
 %S A172324 0,4,9,14,19,24,29,34,39,43,48,53,58,63,68,73,78,82,87,92,97,102,107,
 %T A172324 112,117,122,126,131,136,141,146,151,156,161,165,170,175,180,185,190,
 %U A172324 195,200,205,209,214,219,224,229,234,239,244,248,253,258,263,268,273
-%N A172324 Floor(n*(sqrt(7)+sqrt(5))).
+%N A172324 a(n) = floor(n*(sqrt(7)+sqrt(5))).
 %C A172324 a(n) = integer part of n*(sqrt(7)+sqrt(5)), where the constant is the largest root of x^4 -24*x^2 +4.
 %H A172324 Vincenzo Librandi, <a href="/A172324/b172324.txt">Table of n, a(n) for n = 0..1000</a>
 %t A172324 With[{c = Sqrt[7] + Sqrt[5]}, Floor[c Range[0, 70]]] (* _Vincenzo Librandi_, Aug 01 2013 *)

@@ -1,9 +1,9 @@
-%I A259150 #30 Feb 16 2025 08:33:25
+%I A259150 #36 May 28 2025 11:30:47
 %S A259150 9,9,9,9,9,6,5,1,2,6,4,5,4,8,2,2,3,4,2,9,5,0,9,8,9,1,6,8,5,2,1,1,9,2,
 %T A259150 4,7,6,5,7,5,0,9,7,8,9,3,2,6,3,4,5,8,4,8,4,4,7,7,3,2,6,9,1,0,0,4,7,2,
 %U A259150 0,1,5,2,5,7,6,7,4,4,8,2,0,3,2,6,8,9,6,2,4,9,7,3,0,1,1,9,7,2,8,1,0,8,9
 %N A259150 Decimal expansion of phi(exp(-4*Pi)), where phi(q) = Product_{n>=1} (1-q^n) is the Euler modular function.
-%H A259150 Istvan Mezo, <a href="http://arxiv.org/pdf/1106.2703.pdf">Several special values of Jacobi theta functions</a> arXiv:1106.2703v3 [math.CA] 24 Sep 2013
+%H A259150 Istvan Mezo, <a href="https://arxiv.org/abs/1106.2703">Several special values of Jacobi theta functions</a>, arXiv:1106.2703 [math.CA], 2011-2013.
 %H A259150 Eric Weisstein's MathWorld, <a href="https://mathworld.wolfram.com/InfiniteProduct.html">Infinite Product</a>
 %H A259150 Eric Weisstein's MathWorld, <a href="https://mathworld.wolfram.com/JacobiThetaFunctions.html">Jacobi Theta Functions</a>
 %H A259150 Eric Weisstein's MathWorld, <a href="https://mathworld.wolfram.com/q-PochhammerSymbol.html">q-Pochhammer Symbol</a>

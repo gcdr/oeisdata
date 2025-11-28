@@ -1,8 +1,8 @@
-%I A249000 #4 Oct 18 2014 19:46:48
+%I A249000 #6 Jul 23 2025 11:49:28
 %S A249000 27740,189660,1298968,8902860,61034658,418454994,2869206494,
 %T A249000 19673497892,134897701458,924972633722,6342399495490,43489021952576,
 %U A249000 298198855766202,2044713089447888,14020347915273238,96135813057541116,659191600029773658
-%N A249000 Number of length n+4 0..7 arrays with no five consecutive terms having two times the sum of any three elements equal to three times the sum of the remaining two
+%N A249000 Number of length n+4 0..7 arrays with no five consecutive terms having two times the sum of any three elements equal to three times the sum of the remaining two.
 %C A249000 Column 7 of A249001
 %H A249000 R. H. Hardin, <a href="/A249000/b249000.txt">Table of n, a(n) for n = 1..210</a>
 %e A249000 Some solutions for n=2

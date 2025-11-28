@@ -1,4 +1,4 @@
-%I A005384 M0731 #335 Feb 16 2025 08:32:28
+%I A005384 M0731 #351 Nov 05 2025 15:21:44
 %S A005384 2,3,5,11,23,29,41,53,83,89,113,131,173,179,191,233,239,251,281,293,
 %T A005384 359,419,431,443,491,509,593,641,653,659,683,719,743,761,809,911,953,
 %U A005384 1013,1019,1031,1049,1103,1223,1229,1289,1409,1439,1451,1481,1499,1511,1559
@@ -16,12 +16,14 @@
 %C A005384 Consider a pair of numbers (p, 2*p+1), with p >= 3. Then p is a Sophie Germain prime iff (p-1)!^2 + 6*p == 1 (mod p*(2*p+1)). - _Davide Rotondo_, May 02 2024
 %D A005384 M. Abramowitz and I. A. Stegun, eds., Handbook of Mathematical Functions, National Bureau of Standards Applied Math. Series 55, 1964 (and various reprintings), p. 870.
 %D A005384 A. Peretti, The quantity of Sophie Germain primes less than x, Bull. Number Theory Related Topics, Vol. 11, No. 1-3 (1987), pp. 81-92.
+%D A005384 Paulo Ribenboim, The Little Book of Bigger Primes, Springer-Verlag NY 2004. See pp. 76, 227-230.
 %D A005384 Joe Roberts, Lure of the Integers, Math. Assoc. America, 1992, p. 83.
 %D A005384 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A005384 James J. Tattersall, Elementary Number Theory in Nine Chapters, Cambridge University Press, 1999, page 114.
 %H A005384 J. S. Cheema, <a href="/A005384/b005384.txt">Table of n, a(n) for n = 1..100000</a>. [This replaces an earlier b-file computed by T. D. Noe]
 %H A005384 M. Abramowitz and I. A. Stegun, eds., <a href="http://www.convertit.com/Go/ConvertIt/Reference/AMS55.ASP">Handbook of Mathematical Functions</a>, National Bureau of Standards, Applied Math. Series 55, Tenth Printing, 1972 [alternative scanned copy].
 %H A005384 R. P. Boas & N. J. A. Sloane, <a href="/A005381/a005381.pdf">Correspondence, 1974</a>
-%H A005384 P. Bruillard, S.-H. Ng, E. Rowell and Z. Wang, <a href="http://arxiv.org/abs/1310.7050">On modular categories</a>, arXiv preprint arXiv:1310.7050 [math.QA], 2013.
+%H A005384 P. Bruillard, S.-H. Ng, E. Rowell and Z. Wang, <a href="https://arxiv.org/abs/1310.7050">On modular categories</a>, arXiv preprint arXiv:1310.7050 [math.QA], 2013.
 %H A005384 Chris K. Caldwell, The Prime Glossary, <a href="https://t5k.org/glossary/page.php?sort=SophieGermainPrime">Sophie Germain Prime</a>
 %H A005384 Andrea Del Centina, <a href="http://web.unife.it/progetti/geometria/Germain.html">Letters of Sophie Germain preserved in Florence</a> Historia Mathematica, Vol. 32 (2005), pp. 60-75.
 %H A005384 Harvey Dubner, <a href="http://dx.doi.org/10.1090/S0025-5718-96-00670-9">Large Sophie Germain Primes</a>, Math. Comp., Vol. 65, No. 213 (1996), pp. 393-396.
@@ -30,14 +32,15 @@
 %H A005384 Reikku Kulon, <a href="/A005384/a005384.c">Sublinear arbitrary precision generator of Sophie Germain and safe primes in C</a> (public domain).
 %H A005384 Henri Lifchitz, <a href="http://www.primenumbers.net/Henri/us/ThSgus.htm">A new and simpler primality test for Sophie-Germain numbers(q=2*p+1)</a>.
 %H A005384 Victor Meally, <a href="/A006556/a006556.pdf">Letter to N. J. A. Sloane</a>, no date.
-%H A005384 Romeo Meštrović, <a href="http://arxiv.org/abs/1305.1867">Generalizations of Carmichael numbers I</a>, arXiv:1305.1867v1 [math.NT], May 04 2013.
+%H A005384 Romeo Meštrović, <a href="https://arxiv.org/abs/1305.1867">Generalizations of Carmichael numbers I</a>, arXiv:1305.1867v1 [math.NT], May 04 2013.
 %H A005384 Frans Oort, <a href="https://webspace.science.uu.nl/~oort0109/Oort3Taiwan-PrimeNu-2013.pdf">Prime numbers</a>, 2013.
-%H A005384 Mario Raso, <a href="https://hdl.handle.net/11573/1732819">Integer Sequences in Cryptography: A New Generalized Family and its Application</a>, Ph. D. Thesis, Univ. Bari (Italy 2025). See p. 31, 114.
+%H A005384 Mario Raso, <a href="https://hdl.handle.net/11573/1732819">Integer Sequences in Cryptography: A New Generalized Family and its Application</a>, Ph. D. Thesis, Sapienza University of Rome (Italy 2025). See p. 31, 114.
 %H A005384 Larry Riddle, <a href="http://www.agnesscott.edu/lriddle/women/germain-flt/sgandflt.htm">Sophie Germain and Fermat's Last Theorem</a>, Agnes Scott College, Math. Dept., Jul, 1999.
 %H A005384 Carlos Rivera, <a href="https://www.primepuzzles.net/puzzles/puzz_1122.htm">Puzzle 1122. OEIS A005385</a>, The Prime Puzzles & Problems Connection.
 %H A005384 Carlos Rivera, <a href="https://www.primepuzzles.net/puzzles/puzz_1140.htm">Puzzle 1140. Test for Sophie Germain primes</a>, The Prime Puzzles & Problems Connection.
 %H A005384 Maxie D. Schmidt, <a href="https://arxiv.org/abs/1701.04741">New Congruences and Finite Difference Equations for Generalized Factorial Functions</a>, arXiv:1701.04741 [math.CO], 2017.
-%H A005384 Rosemary Sullivan and Neil Watling, <a href="http://www.emis.de/journals/INTEGERS/papers/n65/n65.Abstract.html">Independent divisibility pairs on the set of integers from 1 to n</a>, INTEGERS, Vol. 13 (2013), Article A65.
+%H A005384 Anthony G. Shannon, Peter J.-S. Shiue, Tian-Xiao He, and Christopher Saito, <a href="https://doi.org/10.7546/nntdm.2025.31.3.504-534">On the special cases of Carmichael's totient conjecture</a>, Notes Num. Theor. Disc. Math. (2025) Vol. 31, No. 3, 504-534.
+%H A005384 Rosemary Sullivan and Neil Watling, <a href="http://www.integers-ejcnt.org/n65/n65.Abstract.html">Independent divisibility pairs on the set of integers from 1 to n</a>, INTEGERS, Vol. 13 (2013), Article A65.
 %H A005384 Agoh Takashi, <a href="http://tatra.mat.savba.sk/paper.php?id_paper=532">On Sophie Germain primes</a>, Number theory (Liptovský Ján, 1999), Tatra Mt. Math. Publ., Vol. 20 (2000), pp. 65-73.
 %H A005384 Terence Tao, <a href="https://arxiv.org/abs/math/0505402">Obstructions to uniformity and arithmetic patterns in the primes</a>, arXiv:math/0505402 [math.NT], 2005.
 %H A005384 Apoloniusz Tyszka, <a href="https://philarchive.org/rec/TYSDAS">On sets X subset of N for which we know an algorithm that computes a threshold number t(X) in N such that X is infinite if and only if X contains an element greater than t(X)</a>, 2019.

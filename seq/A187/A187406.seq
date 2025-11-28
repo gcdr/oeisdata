@@ -1,6 +1,6 @@
-%I A187406 #4 Mar 31 2012 12:36:08
+%I A187406 #8 Oct 03 2025 03:56:26
 %S A187406 49,9331,8583967,41906480269,1150080863229361,184765819216226770459
-%N A187406 Number of (n+1)X(n+1) 0..6 arrays with diagonal zero and the i,j-th 2X2 subblock sum equal to the j,i-th 2X2 subblock sum
+%N A187406 Number of (n+1)X(n+1) 0..6 arrays with diagonal zero and the i,j-th 2X2 subblock sum equal to the j,i-th 2X2 subblock sum.
 %C A187406 Column 6 of A187408
 %e A187406 Some solutions for 4X4
 %e A187406 ..0..0..0..2....0..0..3..0....0..0..0..5....0..0..3..0....0..0..0..4
@@ -9,4 +9,4 @@
 %e A187406 ..3..2..6..0....3..0..3..0....5..4..5..0....5..5..2..0....4..4..5..0
 %K A187406 nonn
 %O A187406 1,1
-%A A187406 _R. H. Hardin_ Mar 09 2011
+%A A187406 _R. H. Hardin_, Mar 09 2011

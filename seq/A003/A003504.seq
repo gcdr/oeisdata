@@ -1,4 +1,4 @@
-%I A003504 M0728 #106 Feb 26 2025 01:59:06
+%I A003504 M0728 #136 Nov 26 2025 15:59:32
 %S A003504 1,1,2,3,5,10,28,154,3520,1551880,267593772160,7160642690122633501504,
 %T A003504 4661345794146064133843098964919305264116096,
 %U A003504 1810678717716933442325741630275004084414865420898591223522682022447438928019172629856
@@ -6,18 +6,20 @@
 %C A003504 The sequence appears with a different offset in some other sources. - _Michael Somos_, Apr 02 2006
 %C A003504 Also known as Göbel's (or Goebel's) Sequence. Asymptotically, a(n) ~ n*C^(2^n) where C=1.0478... (A115632). A more precise asymptotic formula is given in A116603. - _M. F. Hasler_, Dec 12 2007
 %C A003504 Let s(n) = (n-1)*a(n). By considering the p-adic representation of s(n) for primes p=2,3,...,43, one finds that a(44) is the first nonintegral value in this sequence. Furthermore, for n>44, the valuation of s(n) w.r.t. 43 is -2^(n-44), implying that both s(n) and a(n) are nonintegral. - _M. F. Hasler_ and _Max Alekseyev_, Mar 03 2009
-%C A003504 a(44) is approximately 5.4093*10^178485291567. - _Hans Havermann_, Nov 14 2017.
+%C A003504 a(44) is approximately 5.4093*10^178485291567. - _Hans Havermann_, Nov 14 2017
 %C A003504 The fractional part is simply 24/43 (see page 709 of Guy (1988)).
 %C A003504 The more precise asymptotic formula is a(n+1) ~ C^(2^n) * (n + 2 - 1/n + 4/n^2 - 21/n^3 + 138/n^4 - 1091/n^5 + ...). - _Michael Somos_, Mar 17 2012
+%C A003504 One can compute each a(n) for n <= 44 exactly; a(43) has 89242645785 decimal digits. The computation was done in Mathematica. a(43) = 822865(89242645773 digits)286976. - _Stan Wagon_ and _Eric W. Weisstein_, Oct 11 2025
 %D A003504 R. K. Guy, Unsolved Problems in Number Theory, 3rd edition, Sect. E15.
 %D A003504 Clifford Pickover, A Passion for Mathematics, 2005.
 %D A003504 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
 %H A003504 T. D. Noe, <a href="/A003504/b003504.txt">Table of n, a(n) for n = 0..16</a>
+%H A003504 Max Alekseyev, <a href="https://mathoverflow.net/q/282154">Simple recurrence that fails to be integer for the first time at the 44th term</a>, MathOverflow, 2017.
 %H A003504 Hibiki Gima, Toshiki Matsusaka, Taichi Miyazaki, and Shunta Yara, <a href="https://arxiv.org/abs/2402.09064">On integrality and asymptotic behavior of the (k,l)-Göbel sequences</a>, arXiv:2402.09064 [math.NT], 2024. See p. 1.
 %H A003504 R. K. Guy, <a href="/A005169/a005169_6.pdf">Letter to N. J. A. Sloane</a>, Sep 25 1986.
-%H A003504 R. K. Guy, <a href="http://www.jstor.org/stable/2322249">The strong law of small numbers</a>. Amer. Math. Monthly 95 (1988), no. 8, 697-712.
+%H A003504 R. K. Guy, <a href="https://www.jstor.org/stable/2322249">The strong law of small numbers</a>. Amer. Math. Monthly 95 (1988), no. 8, 697-712.
 %H A003504 R. K. Guy, <a href="/A005165/a005165.pdf">The strong law of small numbers</a>. Amer. Math. Monthly 95 (1988), no. 8, 697-712. [Annotated scanned copy]
-%H A003504 H. Ibstedt, <a href="https://web.archive.org/web/2024*/https://www.fq.math.ca/Scanned/28-3/ibstedt.pdf">Some sequences of large integers</a>, Fibonacci Quart. 28 (1990), 200-203.
+%H A003504 H. Ibstedt, <a href="https://www.fq.math.ca/Scanned/28-3/ibstedt.pdf">Some sequences of large integers</a>, Fibonacci Quart. 28 (1990), 200-203.
 %H A003504 Yuh Kobayashi and Shin-ichiro Seki, <a href="https://arxiv.org/abs/2502.17448">On the length over which k-Göbel sequences remain integers</a>, arXiv:2502.17448 [math.CO], 2025.
 %H A003504 H. W. Lenstra, Jr., R. K. Guy, and N. J. A. Sloane, <a href="/A003504/a003504.pdf">Correspondence, 1975-1978</a>
 %H A003504 N. Lygeros and M. Mizony, <a href="https://web.archive.org/web/20050310052154/http://igd.univ-lyon1.fr/home/mizony/premiers.html">Study of primality of terms of a_k(n)=(1+(sum from 1 to n-1)(a_k(i)^k))/(n-1)</a>
@@ -26,8 +28,8 @@
 %H A003504 D. Rusin, <a href="/A003504/a003504.txt">Law of small numbers</a> [Cached copy]
 %H A003504 Alex Stone, <a href="https://www.quantamagazine.org/the-astonishing-behavior-of-recursive-sequences-20231116/">The Astonishing Behavior of Recursive Sequences</a>, Quanta Magazine, Nov 16 2023, 13 pages.
 %H A003504 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/GoebelsSequence.html">Göbel's Sequence</a>
-%H A003504 D. Zagier, <a href="http://www-groups.mcs.st-andrews.ac.uk/~john/Zagier/Problems.html">Problems posed at the St Andrews Colloquium, 1996</a>
-%H A003504 D. Zagier, <a href="http://www-groups.mcs.st-andrews.ac.uk/~john/Zagier/Solution5.3.html">Solution: Day 5, problem 3</a>
+%H A003504 D. Zagier, <a href="https://mathshistory.st-andrews.ac.uk/EMS/Zagier/Problems/">Problems posed at the St Andrews Colloquium, 1996</a>
+%H A003504 D. Zagier, <a href="https://mathshistory.st-andrews.ac.uk/EMS/Zagier/Solution53/">Solution: Day 5, problem 3</a>
 %F A003504 a(n+1) = ((n-1) * a(n) + a(n)^2) / n if n > 1. - _Michael Somos_, Apr 02 2006
 %F A003504 0 = a(n)*(+a(n)*(a(n+1) - a(n+2)) - a(n+1) - a(n+1)^2) +a(n+1)*(a(n+1)^2 - a(n+2)) if n>1. - _Michael Somos_, Jul 25 2016
 %e A003504 a(3) = (1 * 2 + 2^2) / 2 = 3 given a(2) = 2.
@@ -41,7 +43,8 @@
 %o A003504     a=a*(a+k)//(k+1)
 %o A003504     L.append(a)
 %o A003504 print(L) # _Robert FERREOL_, Nov 07 2015
-%Y A003504 Cf. A005166, A005167, A097398, A108394, A115632, A116603 (asymptotic formula).
+%Y A003504 Cf. A005166, A005167, A097398, A108394, A115632, A116603 (asymptotic formula), A292996.
+%Y A003504 Cf. A389769 (number of decimal digits in numerator).
 %K A003504 nonn,easy,nice,changed
 %O A003504 0,3
 %A A003504 _N. J. A. Sloane_, _R. K. Guy_

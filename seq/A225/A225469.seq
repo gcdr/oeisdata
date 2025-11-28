@@ -1,4 +1,4 @@
-%I A225469 #31 Mar 14 2024 15:43:37
+%I A225469 #33 Nov 05 2025 15:22:24
 %S A225469 1,3,1,9,10,1,27,79,21,1,81,580,310,36,1,243,4141,3990,850,55,1,729,
 %T A225469 29230,48031,16740,1895,78,1,2187,205339,557571,299131,52745,3689,105,
 %U A225469 1,6561,1439560,6338620,5044536,1301286,137592,6524,136,1
@@ -10,7 +10,7 @@
 %H A225469 Paweł Hitczenko, <a href="https://arxiv.org/abs/2403.03422">A class of polynomial recurrences resulting in (n/log n, n/log^2 n)-asymptotic normality</a>, arXiv:2403.03422 [math.CO], 2024. See pp. 8-9.
 %H A225469 Peter Luschny, <a href="http://www.luschny.de/math/euler/GeneralizedEulerianPolynomials.html">Generalized Eulerian polynomials.</a>
 %H A225469 Peter Luschny, <a href="http://www.luschny.de/math/euler/StirlingFrobeniusNumbers.html">The Stirling-Frobenius numbers.</a>
-%H A225469 Shi-Mei Ma, Toufik Mansour, and Matthias Schork, <a href="http://arxiv.org/abs/1308.0169">Normal ordering problem and the extensions of the Stirling grammar</a>, Russian Journal of Mathematical Physics, 2014, 21(2), arXiv 1308.0169 p. 12.
+%H A225469 Shi-Mei Ma, Toufik Mansour, and Matthias Schork, <a href="https://arxiv.org/abs/1308.0169">Normal ordering problem and the extensions of the Stirling grammar</a>, Russian Journal of Mathematical Physics, 2014, 21(2), arXiv 1308.0169 p. 12.
 %F A225469 T(n, k) = (sum_{j=0..n} binomial(j, n-k)*A_4(n, j)) / (4^k*k!) where A_4(n,j) = A225118.
 %F A225469 For a recurrence see the Maple program.
 %F A225469 T(n, 0) ~ A000244; T(n, 1) ~ A016138; T(n, 2) ~ A018054.
@@ -34,7 +34,7 @@
 %p A225469 SF_S(n-1, k-1, m) + (m*(k+1)-1)*SF_S(n-1, k, m) end:
 %p A225469 seq(print(seq(SF_S(n, k, 4), k=0..n)), n = 0..5);
 %t A225469 EulerianNumber[n_, k_, m_] := EulerianNumber[n, k, m] = (If[ n == 0, Return[If[k == 0, 1, 0]]]; Return[(m*(n-k)+m-1)*EulerianNumber[n-1, k-1, m] + (m*k+1)*EulerianNumber[n-1, k, m]]); SFS[n_, k_, m_] := Sum[ EulerianNumber[n, j, m]*Binomial[j, n-k], {j, 0, n}]/(k!*m^k); Table[ SFS[n, k, 4], {n, 0, 8}, {k, 0, n}] // Flatten (* _Jean-François Alcover_, May 29 2013, translated from Sage *)
-%o A225469 (Sage)
+%o A225469 (SageMath)
 %o A225469 @CachedFunction
 %o A225469 def EulerianNumber(n, k, m) :
 %o A225469     if n == 0: return 1 if k == 0 else 0

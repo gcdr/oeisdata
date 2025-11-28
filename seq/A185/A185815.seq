@@ -1,11 +1,11 @@
-%I A185815 #28 Feb 19 2025 11:57:16
+%I A185815 #33 Nov 05 2025 15:22:20
 %S A185815 0,1,0,1,2,0,2,3,3,0,6,32,6,4,0,24,210,140,10,5,0,120,2904,1170,400,
 %T A185815 15,6,0,720,41580,22344,3990,910,21,7,0,5040,789984,379680,98784,
 %U A185815 10500,1792,28,8,0,40320,16961616,8595936,1930320,325584,23436,3192,36,9,0
 %N A185815 Exponential Riordan array (log(1/(1-x)), x*A005043(x)).
 %H A185815 G. C. Greubel, <a href="/A185815/b185815.txt">Table of n, a(n) for the first 50 rows, flattened</a>
-%H A185815 Vladimir Kruchinin and D. V. Kruchinin, <a href="http://arxiv.org/abs/1103.2582">Composita and their properties</a>, arXiv:1103.2582 [math.CO], 2011-2013.
-%F A185815 R(n,k):= (n!/(k-1))*Sum_{i=1..(n-k)} (1/i)*Sum_{j=k..(n-i)} binomial(2*j-k-1,j-1)*(-1)^(n-j-i)*binomial(n-i,j))/(n-i), k>0, R(0,0)=0, R(n,0)=(n-1)!.
+%H A185815 Vladimir Kruchinin and D. V. Kruchinin, <a href="https://arxiv.org/abs/1103.2582">Composita and their properties</a>, arXiv:1103.2582 [math.CO], 2011-2013.
+%F A185815 R(n,k):= (n!/(k-1)!)*Sum_{i=1..(n-k)} (1/(i*(n-i)))*Sum_{j=k..(n-i)} binomial(2*j-k-1,j-1)*(-1)^(n-j-i)*binomial(n-i,j), k>0, R(0,0)=0, R(n,0)=(n-1)!.
 %e A185815 Array begins:
 %e A185815     0;
 %e A185815     1,     0;

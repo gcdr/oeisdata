@@ -1,9 +1,9 @@
-%I A365983 #32 Feb 23 2024 20:13:31
+%I A365983 #36 Mar 28 2025 03:26:00
 %S A365983 26,70226,130576328,189750626,512706121226,13837575261124,
 %T A365983 99612037019890,1385331749802026
 %N A365983 Even numbers k such that k^2 - 1 is a powerful number.
 %C A365983 This sequence is a subsequence of A060860 (the even terms) and a supersequence of A094835. All the terms of A094835 are in this sequence, but 130576328 is not in A094835. A094835 also shows that this sequence is infinite.
-%C A365983 Terms A076445(n)+1 are terms of this sequence because A076445(n) and A076445(n)+2 are powerful and A076445(n)+1)^2-1 = A076445(n) * (A076445(n)+2), which is also powerful.
+%C A365983 Terms A076445(n)+1 are terms of this sequence because A076445(n) and A076445(n)+2 are powerful and (A076445(n)+1)^2-1 = A076445(n) * (A076445(n)+2), which is also powerful.
 %C A365983 a(n) - 1 is an odd powerful number (A062739). - _Amiram Eldar_, Feb 23 2024
 %D A365983 Jean-Marie De Koninck, Those Fascinating Numbers, American Mathematical Society, 2009, entries 70226 and 485.
 %H A365983 <a href="/index/Pow#powerful">Index entries for sequences related to powerful numbers</a>.

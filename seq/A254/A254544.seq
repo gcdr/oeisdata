@@ -1,8 +1,8 @@
-%I A254544 #4 Feb 01 2015 09:44:22
+%I A254544 #6 Jul 23 2025 14:47:39
 %S A254544 6,126,421,3001,5604,20393,45472,102595,161277,338402,489034,893944,
 %T A254544 1412682,2264545,3019845,4792281,6143391,9149646,12553350,17386054,
 %U A254544 21421963,30096986,38927373,51682575,65462507,84502439,100115923
-%N A254544 Number of length 6 1..(n+2) arrays with no leading partial sum equal to a prime
+%N A254544 Number of length 6 1..(n+2) arrays with no leading partial sum equal to a prime.
 %C A254544 Row 6 of A254539
 %H A254544 R. H. Hardin, <a href="/A254544/b254544.txt">Table of n, a(n) for n = 1..210</a>
 %e A254544 Some solutions for n=4

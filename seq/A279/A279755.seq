@@ -1,4 +1,4 @@
-%I A279755 #9 Feb 16 2025 08:33:38
+%I A279755 #10 Nov 05 2025 15:22:36
 %S A279755 1,1,2,3,28,15,96,111,16,863,32,3263,1600,16255,640,63743,3840,242687,
 %T A279755 96256,789503,893952,210943,7309312,45055,28184576,1531903,113778688,
 %U A279755 6864895,457850880,107184127,2134409216,64946175,8263106560,517079039,31232753664
@@ -7,7 +7,7 @@
 %D A279755 S. Wolfram, A New Kind of Science, Wolfram Media, 2002; p. 170.
 %H A279755 Robert Price, <a href="/A279755/b279755.txt">Table of n, a(n) for n = 0..126</a>
 %H A279755 Robert Price, <a href="/A279755/a279755.tmp.txt">Diagrams of first 20 stages</a>
-%H A279755 N. J. A. Sloane, <a href="http://arxiv.org/abs/1503.01168">On the Number of ON Cells in Cellular Automata</a>, arXiv:1503.01168 [math.CO], 2015
+%H A279755 N. J. A. Sloane, <a href="https://arxiv.org/abs/1503.01168">On the Number of ON Cells in Cellular Automata</a>, arXiv:1503.01168 [math.CO], 2015
 %H A279755 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/ElementaryCellularAutomaton.html">Elementary Cellular Automaton</a>
 %H A279755 S. Wolfram, <a href="http://wolframscience.com/">A New Kind of Science</a>
 %H A279755 Wolfram Research, <a href="http://atlas.wolfram.com/">Wolfram Atlas of Simple Programs</a>

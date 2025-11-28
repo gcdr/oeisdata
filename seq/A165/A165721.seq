@@ -1,9 +1,9 @@
-%I A165721 #13 Jul 26 2024 08:57:51
+%I A165721 #16 Oct 10 2025 21:39:24
 %S A165721 4,14,22,25,35,55,69,74,90,120,140,147,169,209,235,244,272,322,354,
 %T A165721 365,399,459,497,510,550,620,664,679,725,805,855,872,924,1014,1070,
 %U A165721 1089,1147,1247,1309,1330,1394,1504,1572,1595,1665,1785,1859,1884,1960,2090
 %N A165721 Integers of the form k*(k+13)/12.
-%C A165721 Integers of the form k+k*(k+1)/12 = k+A000217(k)/6 (see A069497). - R. J. Mathar, Sep 25 2009
+%C A165721 Integers of the form k+k*(k+1)/12 = k+A000217(k)/6 (see A069497). - _R. J. Mathar_, Sep 25 2009
 %C A165721 Are all terms composite numbers?
 %C A165721 Contribution from _Zak Seidov_, Sep 25 2009: (Start)
 %C A165721 Integers of form n(13+n)/12, n=0,1,2,...

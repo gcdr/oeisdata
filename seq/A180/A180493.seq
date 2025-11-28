@@ -1,7 +1,7 @@
-%I A180493 #6 Jul 13 2015 22:43:38
+%I A180493 #8 Jun 02 2025 03:04:10
 %S A180493 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,21,22,23,24,25,26,27,
 %T A180493 29,30,35,38,39,40,53
-%N A180493 Numbers n such that prime(n)! is divisible by A180491(prime(n))
+%N A180493 Numbers n such that prime(n)! is divisible by A180491(prime(n)).
 %C A180493 Also numbers n such that prime(n)! is divisible by A180492(n).
 %C A180493 Is this sequence finite?
 %C A180493 From _Robert G. Wilson v_, Sep 09 2010: (Start)

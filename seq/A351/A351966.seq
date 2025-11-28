@@ -1,10 +1,10 @@
-%I A351966 #13 Feb 27 2022 07:02:08
+%I A351966 #14 Nov 05 2025 15:22:48
 %S A351966 1,8,23,46,56,79,89,113,120,147,153,181,184,215,217,249,248,283,281,
 %T A351966 317,312,351,345,385,376,419,409,453,440,487,473,521,504,555,537,589,
 %U A351966 568,623,601,657,632,691,665,725,696,759,729,793,760,827,793,861,824,895
 %N A351966 Coordination sequence for the XXOXX tiling with respect to a tile of type G.
 %C A351966 See the main entry A350963 for details about this tiling.
-%H A351966 Vytautas Gruslys, Imre Leader, and Ta Sheng Tan, <a href="http://arxiv.org/abs/1505.03697">Tiling with arbitrary tiles</a>, arXiv:1505.03697 [math.CO], 2015-2016. A small piece of this tiling is shown in Fig. 2.
+%H A351966 Vytautas Gruslys, Imre Leader, and Ta Sheng Tan, <a href="https://arxiv.org/abs/1505.03697">Tiling with arbitrary tiles</a>, arXiv:1505.03697 [math.CO], 2015-2016. A small piece of this tiling is shown in Fig. 2.
 %H A351966 Rémy Sigrist, <a href="/A351966/a351966.png">Illustration of initial terms</a>
 %H A351966 Rémy Sigrist, <a href="/A351966/a351966_1.png">Illustration of the configuration for n = 0..100 with cyclic colors</a>
 %H A351966 Rémy Sigrist, <a href="/A351966/a351966.gp.txt">PARI program</a>

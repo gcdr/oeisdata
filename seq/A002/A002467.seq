@@ -1,4 +1,4 @@
-%I A002467 M3507 N1423 #151 Feb 16 2025 08:32:25
+%I A002467 M3507 N1423 #157 Nov 05 2025 15:21:42
 %S A002467 0,1,1,4,15,76,455,3186,25487,229384,2293839,25232230,302786759,
 %T A002467 3936227868,55107190151,826607852266,13225725636255,224837335816336,
 %U A002467 4047072044694047,76894368849186894,1537887376983737879,32295634916658495460,710503968166486900119
@@ -11,6 +11,7 @@
 %C A002467 (n-1) | a(n), hence a(n) is never prime. - _Jonathan Vos Post_, Mar 25 2009
 %C A002467 a(n) is the number of permutations of [n] that have at least one fixed point = number of positive terms in n-th row of the triangle in A170942, n > 0. - _Reinhard Zumkeller_, Mar 29 2012
 %C A002467 Numerator of partial sum of alternating harmonic series, provided that the denominator is n!. - _Richard Locke Peterson_, May 11 2020
+%C A002467 a(n) is the number of terms in the polynomial expansion of the determinant of a n X n matrix that contains at least one diagonal element. - _Adam Wang_, May 28 2025
 %D A002467 R. K. Guy, Unsolved Problems Number Theory, E37.
 %D A002467 R. K. Guy and R. J. Nowakowski, "Mousetrap," in D. Miklos, V. T. Sos and T. Szonyi, eds., Combinatorics, Paul Erdős is Eighty. Bolyai Society Math. Studies, Vol. 1, pp. 193-206, 1993.
 %D A002467 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
@@ -22,7 +23,7 @@
 %H A002467 R. K. Guy, <a href="/A002467/a002467.pdf">Letter to N. J. A. Sloane, Feb 10 1993</a>
 %H A002467 R. K. Guy and R. J. Nowakowski, <a href="/A002467/a002467_1.pdf">Mousetrap</a>, Preprint, Feb 10 1993 [Annotated scanned copy]
 %H A002467 R. K. Guy and S. Washburn, <a href="/A002467/a002467_2.pdf">Correspondence, Nov. - Dec. 1991</a>
-%H A002467 T. Kotek, J. A. Makowsky, <a href="http://arxiv.org/abs/1309.4020">Recurrence Relations for Graph Polynomials on Bi-iterative Families of Graphs</a>, arXiv preprint arXiv:1309.4020 [math.CO], 2013.
+%H A002467 T. Kotek, J. A. Makowsky, <a href="https://arxiv.org/abs/1309.4020">Recurrence Relations for Graph Polynomials on Bi-iterative Families of Graphs</a>, arXiv preprint arXiv:1309.4020 [math.CO], 2013.
 %H A002467 J. Metzger, <a href="/A002467/a002467_3.pdf">Email to N. J. A. Sloane, Apr 30 1991</a>
 %H A002467 Daniel J. Mundfrom, <a href="http://dx.doi.org/10.1006/eujc.1994.1057">A problem in permutations: the game of 'Mousetrap'</a>, European J. Combin. 15 (1994), no. 6, 555-560.
 %H A002467 Alexsandar Petojevic, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL5/Petojevic/petojevic5.html">The Function vM_m(s; a; z) and Some Well-Known Sequences</a>, Journal of Integer Sequences, Vol. 5 (2002), Article 02.1.7.

@@ -1,8 +1,8 @@
-%I A203642 #7 Jul 06 2024 12:07:32
+%I A203642 #11 Oct 03 2025 10:37:14
 %S A203642 1,2,5,15,52,203,877,4140,21147,115975,678570,4213597,27644436,
 %T A203642 190899230,1382953889,10479970386,82859701769,681942165393,
 %U A203642 5829591731684,51656311613107,473501669531146,4480550589850064,43672799989835155
-%N A203642 Number of arrays of n 0..11 integers with new values introduced in order 0..11 but otherwise unconstrained
+%N A203642 Number of arrays of n 0..11 integers with new values introduced in order 0..11 but otherwise unconstrained.
 %C A203642 Column 11 of A203647
 %H A203642 R. H. Hardin, <a href="/A203642/b203642.txt">Table of n, a(n) for n = 1..210</a>
 %H A203642 <a href="/index/Rec#order_11">Index entries for linear recurrences with constant coefficients</a>, signature (67, -1980, 33990, -375573, 2795331, -14241590, 49412660, -113667576, 163671552, -131172480, 43545600).
@@ -11,4 +11,4 @@
 %Y A203642 Cf. A203641.
 %K A203642 nonn
 %O A203642 1,2
-%A A203642 _R. H. Hardin_ Jan 04 2012
+%A A203642 _R. H. Hardin_, Jan 04 2012

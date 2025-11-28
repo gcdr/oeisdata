@@ -1,4 +1,4 @@
-%I A143128 #61 Oct 21 2023 17:07:00
+%I A143128 #62 Sep 22 2025 16:00:55
 %S A143128 1,7,19,47,77,149,205,325,442,622,754,1090,1272,1608,1968,2464,2770,
 %T A143128 3472,3852,4692,5364,6156,6708,8148,8923,10015,11095,12663,13533,
 %U A143128 15693,16685,18701,20285,22121,23801,27077,28483,30763,32947,36547
@@ -23,7 +23,7 @@
 %o A143128 g(n) = n*(n+1)/2; \\ A000217
 %o A143128 a(n) = sum(k=1, sqrtint(n), k * f(n\k) + k^2 * g(n\k)) - f(sqrtint(n)) * g(sqrtint(n)); \\ _Daniel Suteu_, Nov 26 2020
 %o A143128 (Magma) [(&+[k*DivisorSigma(1,k): k in [1..n]]): n in [1..50]]; // _G. C. Greubel_, Nov 21 2018
-%o A143128 (Sage) [sum(k*sigma(k,1) for k in (1..n)) for n in (1..50)] # _G. C. Greubel_, Nov 21 2018
+%o A143128 (SageMath) [sum(k*sigma(k,1) for k in (1..n)) for n in (1..50)] # _G. C. Greubel_, Nov 21 2018
 %o A143128 (Python)
 %o A143128 def A143128(n): return sum(k**2*(m:=n//k)*(m+1)>>1 for k in range(1,n+1)) # _Chai Wah Wu_, Oct 20 2023
 %o A143128 (Python)

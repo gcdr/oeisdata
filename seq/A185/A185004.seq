@@ -1,4 +1,4 @@
-%I A185004 #44 Jun 06 2017 23:28:32
+%I A185004 #45 Nov 05 2025 15:22:19
 %S A185004 7,31,43,67,97,103,151,163,181,223,229,271,331,337,367,373,409,433,
 %T A185004 487,499,571,577,601,607,631,643,709,727,751,769,823,853,883,937,991,
 %U A185004 1009,1021,1033,1051,1063,1087,1117,1123,1231,1291,1297,1303
@@ -8,7 +8,7 @@
 %C A185004 We conjecture that for all n >= 1 a(n) <= A104272(3*n). This conjecture is based on observation that, if interval (x/2, x] contains >= 3*n primes, then at least n of them are of the form 3*k+1.
 %C A185004 The function pi_(3,1)(n) starts 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3,... with records occurring as specified in A123365/A002476. - _R. J. Mathar_, Jan 10 2013
 %H A185004 G. C. Greubel, <a href="/A185004/b185004.txt">Table of n, a(n) for n = 1..1000</a>
-%H A185004 Vladimir Shevelev, Charles R. Greathouse IV, Peter J. C. Moses, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL16/Moses/moses1.html">On intervals (kn, (k+1)n) containing a prime for all n>1</a>, Journal of Integer Sequences, Vol. 16 (2013), Article 13.7.3. <a href="http://arxiv.org/abs/1212.2785">arXiv:1212.2785</a>
+%H A185004 Vladimir Shevelev, Charles R. Greathouse IV, Peter J. C. Moses, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL16/Moses/moses1.html">On intervals (kn, (k+1)n) containing a prime for all n>1</a>, Journal of Integer Sequences, Vol. 16 (2013), Article 13.7.3. <a href="https://arxiv.org/abs/1212.2785">arXiv:1212.2785</a>
 %F A185004 lim(a(n)/prime(4*n)) = 1 as n tends to infinity.
 %p A185004 pimod := proc(m,n,x)
 %p A185004     option remember;

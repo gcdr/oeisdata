@@ -1,8 +1,8 @@
-%I A182913 #8 Jan 06 2014 14:55:55
+%I A182913 #10 Jun 02 2025 03:15:01
 %S A182913 1,1,144,12960,207360,2612736,9405849600,18811699200,1083553873920,
 %T A182913 4022693756928000,300361133850624000,210853515963138048000,
 %U A182913 151814531493459394560000,151814531493459394560000,21861292535058152816640000
-%N A182913 Denominators of an asymptotic series for the Gamma function (G. Nemes)
+%N A182913 Denominators of an asymptotic series for the Gamma function (G. Nemes).
 %C A182913 G_n = A182912(n)/A182913(n). These rational numbers provide the coefficients for an asymptotic expansion of the Gamma function.
 %D A182913 G. Nemes, More Accurate Approximations for the Gamma Function,
 %D A182913 Thai Journal of Mathematics Volume 9(1) (2011), 21-28.

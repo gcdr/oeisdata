@@ -1,4 +1,4 @@
-%I A026802 #27 Sep 08 2022 08:44:49
+%I A026802 #28 Sep 22 2025 16:00:28
 %S A026802 0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,2,2,3,3,4,4,5,5,
 %T A026802 6,7,8,9,11,12,14,16,18,20,24,26,30,34,39,43,50,55,63,71,80,89,102,
 %U A026802 113,128,143,161,179,203,225,253,282,316,351,395,437,489,544,607,673,752,832,927,1028,1143
@@ -14,7 +14,7 @@
 %t A026802 Rest@CoefficientList[Series[x^9/QPochhammer[x^9, x], {x,0,80}], x] (* _G. C. Greubel_, Nov 03 2019 *)
 %o A026802 (PARI) my(x='x+O('x^70)); concat(vector(8), Vec(x^9/prod(m=0,85, 1-x^(m+9)))) \\ _G. C. Greubel_, Nov 03 2019
 %o A026802 (Magma) R<x>:=PowerSeriesRing(Integers(), 80); [0,0,0,0,0,0,0,0] cat Coefficients(R!( x^9/(&*[1-x^(m+9): m in [0..85]]) )); // _G. C. Greubel_, Nov 03 2019
-%o A026802 (Sage)
+%o A026802 (SageMath)
 %o A026802 def A026802_list(prec):
 %o A026802     P.<x> = PowerSeriesRing(ZZ, prec)
 %o A026802     return P( x^9/product((1-x^(m+9)) for m in (0..85)) ).list()

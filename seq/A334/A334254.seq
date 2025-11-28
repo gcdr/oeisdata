@@ -1,9 +1,9 @@
-%I A334254 #27 Feb 16 2025 08:34:00
+%I A334254 #28 Nov 05 2025 15:22:47
 %S A334254 1,2,1,8,545,702525,66960965307
 %N A334254 Number of closure operators on a set of n elements which satisfy the T_1 separation axiom.
 %C A334254 The T_1 axiom states that all singleton sets {x} are closed.
 %C A334254 For n>1, this property implies strictness (meaning that the empty set is closed).
-%H A334254 Dmitry I. Ignatov, <a href="http://arxiv.org/abs/2209.12256">On the Cryptomorphism between Davis' Subset Lattices, Atomic Lattices, and Closure Systems under T1 Separation Axiom</a>, arXiv:2209.12256 [cs.DM], 2022.
+%H A334254 Dmitry I. Ignatov, <a href="https://arxiv.org/abs/2209.12256">On the Cryptomorphism between Davis' Subset Lattices, Atomic Lattices, and Closure Systems under T1 Separation Axiom</a>, arXiv:2209.12256 [cs.DM], 2022.
 %H A334254 Dmitry I. Ignatov, <a href="https://github.com/dimachine/ClosureSeparation/">Supporting iPython code for counting closure systems w.r.t. the T_1 separation axiom</a>, Github repository
 %H A334254 Dmitry I. Ignatov, <a href="/A334254/a334254.pdf">PDF of the supporting iPython notebook</a>
 %H A334254 S. Mapes, <a href="https://www3.nd.edu/~smapes1/FALRMI.pdf">Finite atomic lattices and resolutions of monomial ideals</a>, J. Algebra,  379 (2013), 259-276.

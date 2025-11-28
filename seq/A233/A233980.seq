@@ -1,8 +1,8 @@
-%I A233980 #4 Dec 18 2013 07:42:05
+%I A233980 #6 Jun 02 2025 09:07:36
 %S A233980 216,1308,1308,7920,8688,7920,50680,59440,59440,50680,323296,453988,
 %T A233980 455832,453988,323296,2103216,3530540,4097024,4097024,3530540,2103216,
 %U A233980 13644992,29109544,37974312,44228076,37974312,29109544,13644992,89161440
-%N A233980 T(n,k)=Number of (n+1)X(k+1) 0..6 arrays with every 2X2 subblock having the sum of the absolute values of all six edge and diagonal differences equal to 13 (13 maximizes T(1,1))
+%N A233980 T(n,k)=Number of (n+1)X(k+1) 0..6 arrays with every 2X2 subblock having the sum of the absolute values of all six edge and diagonal differences equal to 13 (13 maximizes T(1,1)).
 %C A233980 Table starts
 %C A233980 ......216.......1308........7920.........50680.........323296........2103216
 %C A233980 .....1308.......8688.......59440........453988........3530540.......29109544

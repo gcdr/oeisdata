@@ -1,11 +1,11 @@
-%I A232981 #21 Feb 24 2022 02:06:22
+%I A232981 #22 Nov 05 2025 15:35:36
 %S A232981 1,1,2,6,24,24,144,1008,8064,72576,72576,798336,9580032,124540416,
 %T A232981 1743565824,1743565824,27897053184,474249904128,8536498274304,
 %U A232981 162193467211776,162193467211776,3406062811447296,74933381851840512,1723467782592331776,41363226782215962624,41363226782215962624
 %N A232981 The Gauss factorial n_5!.
 %C A232981 The Gauss factorial n_k! is defined to be Product_{1<=j<=n, gcd(j,k)=1} j.
 %H A232981 Robert Israel, <a href="/A232981/b232981.txt">Table of n, a(n) for n = 0..542</a>
-%H A232981 J. B. Cosgrave and K. Dilcher, <a href="http://www.jstor.org/stable/10.4169/amer.math.monthly.118.09.812">An introduction to Gauss factorials</a>, Amer. Math. Monthly, 118 (2011), 810-828.
+%H A232981 J. B. Cosgrave and K. Dilcher, <a href="https://www.jstor.org/stable/10.4169/amer.math.monthly.118.09.812">An introduction to Gauss factorials</a>, Amer. Math. Monthly, 118 (2011), 810-828.
 %H A232981 J. B. Cosgrave and K. Dilcher, <a href="http://dx.doi.org/10.1007/s10474-013-0357-1">The Gauss-Wilson theorem for quarter-intervals</a>, Acta Mathematica Hungarica, Sept. 2013.
 %F A232981 From _Robert Israel_, Mar 06 2017: (Start)
 %F A232981 a(n) = a(n-1) if 5 | n; otherwise n*a(n-1).

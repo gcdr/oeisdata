@@ -1,13 +1,13 @@
-%I A060296 #23 Jan 29 2025 07:08:56
+%I A060296 #28 Sep 27 2025 17:18:33
 %S A060296 1,1,-1,5,6,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
 %T A060296 3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
 %U A060296 3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3
 %N A060296 Number of regular convex polytopes in n-dimensional space, or -1 if the number is infinite.
 %D A060296 H. S. M. Coxeter, Regular Polytopes, 3rd ed., Dover, NY, 1973.
-%D A060296 B. Grünbaum, Convex Polytopes. Wiley, NY, 1967, p. 424.
-%D A060296 P. McMullen and E. Schulte, Abstract Regular Polytopes, Encyclopedia of Mathematics and its Applications, Vol. 92, Cambridge University Press, Cambridge, 2002.
-%H A060296 John Baez, <a href="http://math.ucr.edu/home/baez/platonic.html">Platonic Solids in All Dimensions</a>, Nov 12 2006.
-%H A060296 Brady Haran, Pete McPartlan, and Carlo Sequin, <a href="https://www.youtube.com/watch?v=2s4TqVAbfz4">Perfect Shapes in Higher Dimensions</a>, Numberphile video (2016)
+%D A060296 Branko Grünbaum, Convex Polytopes, Wiley, NY, 1967, p. 424.
+%D A060296 Peter McMullen and Egon Schulte, Abstract Regular Polytopes, Encyclopedia of Mathematics and its Applications, Vol. 92, Cambridge University Press, Cambridge, 2002.
+%H A060296 John Baez, <a href="https://math.ucr.edu/home/baez/platonic.html">Platonic Solids in All Dimensions</a>, Nov 12 2006.
+%H A060296 Brady Haran, Pete McPartlan, and Carlo Sequin, <a href="https://www.youtube.com/watch?v=2s4TqVAbfz4">Perfect Shapes in Higher Dimensions</a>, Numberphile video (2016).
 %H A060296 <a href="/index/Rec#order_01">Index entries for linear recurrences with constant coefficients</a>, signature (1).
 %F A060296 a(n) = 3 for all n > 4. - _Christian Schroeder_, Nov 16 2015
 %e A060296 a(2) = -1 because of the regular polygons in the plane.

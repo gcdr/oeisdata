@@ -1,4 +1,4 @@
-%I A126074 #61 Jan 26 2025 17:38:29
+%I A126074 #66 Sep 22 2025 16:00:51
 %S A126074 1,1,1,1,3,2,1,9,8,6,1,25,40,30,24,1,75,200,180,144,120,1,231,980,
 %T A126074 1260,1008,840,720,1,763,5152,8820,8064,6720,5760,5040,1,2619,28448,
 %U A126074 61236,72576,60480,51840,45360,40320,1,9495,162080,461160,653184,604800,518400,453600,403200,362880
@@ -45,8 +45,8 @@
 %p A126074     end:
 %p A126074 T:= (n, k)-> A(n, k) -A(n, k-1):
 %p A126074 seq(seq(T(n,k), k=1..n), n=1..10);  # _Alois P. Heinz_, Feb 11 2013
-%t A126074 Table[CoefficientList[ Series[(Exp[x^m/m] - 1) Exp[Sum[x^k/k, {k, 1, m - 1}]], {x, 0, 8}], x]*Table[n!, {n, 0, 8}], {m, 1, 8}] // Transpose // Grid [From _Geoffrey Critzer_, May 23 2009]
-%o A126074 (Sage)
+%t A126074 Table[CoefficientList[ Series[(Exp[x^m/m] - 1) Exp[Sum[x^k/k, {k, 1, m - 1}]], {x, 0, 8}], x]*Table[n!, {n, 0, 8}], {m, 1, 8}] // Transpose // Grid (* _Geoffrey Critzer_, May 23 2009 *)
+%o A126074 (SageMath)
 %o A126074 def A126074(n, k):
 %o A126074     f = factorial(n)
 %o A126074     P = Partitions(n, max_part=k, inner=[k])

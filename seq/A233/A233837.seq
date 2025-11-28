@@ -1,8 +1,8 @@
-%I A233837 #5 Dec 16 2013 17:44:12
+%I A233837 #7 Jul 23 2025 08:12:09
 %S A233837 201664,1909001345,220722832237568,309991751661980537856,
 %T A233837 5282676168847397906091279616,1092733829722948057628861796014602753,
 %U A233837 2743515983406193863098184416154650757282395648
-%N A233837 Number of (n+2)X(n+2) 0..3 arrays with no increasing sequence of length 3 horizontally or antidiagonally downwards
+%N A233837 Number of (n+2)X(n+2) 0..3 arrays with no increasing sequence of length 3 horizontally or antidiagonally downwards.
 %C A233837 Diagonal of A233845
 %H A233837 R. H. Hardin, <a href="/A233837/b233837.txt">Table of n, a(n) for n = 1..10</a>
 %e A233837 Some solutions for n=1

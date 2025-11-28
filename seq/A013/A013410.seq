@@ -1,4 +1,4 @@
-%I A013410 #14 Mar 25 2013 21:37:41
+%I A013410 #15 Sep 30 2025 20:34:18
 %S A013410 0,3,-15,945,-44415,5769225,-711485775,171504558225,-40549611477375,
 %T A013410 15553976334521625,-6025672551378855375,3368007502842396038625,
 %U A013410 -1937899053877871819109375,1488068350680083972290115625
@@ -7,5 +7,5 @@
 %o A013410 (PARI) A013410(n)=x='x+O('x^(2*n+2));polcoeff(atan(asin(x)-atan(x)),2*n+1)*(n*2+1)!
 %K A013410 sign
 %O A013410 0,2
-%A A013410 Patrick Demichel (patrick.demichel(AT)hp.com)
+%A A013410 _Patrick Demichel_
 %E A013410 Definition clarified by _Harvey P. Dale_ and _M. F. Hasler_, initial term a(0)=0 added as suggested by _N. J. A. Sloane_, Mar 25 2013

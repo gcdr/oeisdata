@@ -1,8 +1,8 @@
-%I A239184 #4 Mar 11 2014 19:56:54
+%I A239184 #6 Jul 23 2025 10:59:35
 %S A239184 720,196698,26726740,3901908720,652274371446,108383467365104,
 %T A239184 17806026561159264,2921245671064879068,479740247531890299338,
 %U A239184 78803065045379232569310,12943940087672133212368806
-%N A239184 Number of (6+1)X(n+1) 0..2 arrays with no element greater than all horizontal neighbors or equal to all vertical neighbors
+%N A239184 Number of (6+1)X(n+1) 0..2 arrays with no element greater than all horizontal neighbors or equal to all vertical neighbors.
 %C A239184 Row 6 of A239178
 %H A239184 R. H. Hardin, <a href="/A239184/b239184.txt">Table of n, a(n) for n = 1..37</a>
 %e A239184 Some solutions for n=2

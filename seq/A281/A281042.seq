@@ -1,4 +1,4 @@
-%I A281042 #8 Feb 16 2025 08:33:39
+%I A281042 #9 Nov 05 2025 15:22:36
 %S A281042 1,0,4,3,20,19,64,63,368,495,1952,735,5696,6207,26368,3327,116992,767,
 %T A281042 520704,229887,1210368,47103,8230912,1521663,28446720,15052799,
 %U A281042 72146944,42491903,307675136,5488639,2128707584,1050181631,4681236480,2598502399,17617649664
@@ -6,7 +6,7 @@
 %C A281042 Initialized with a single black (ON) cell at stage zero.
 %D A281042 S. Wolfram, A New Kind of Science, Wolfram Media, 2002; p. 170.
 %H A281042 Robert Price, <a href="/A281042/b281042.txt">Table of n, a(n) for n = 0..126</a>
-%H A281042 N. J. A. Sloane, <a href="http://arxiv.org/abs/1503.01168">On the Number of ON Cells in Cellular Automata</a>, arXiv:1503.01168 [math.CO], 2015
+%H A281042 N. J. A. Sloane, <a href="https://arxiv.org/abs/1503.01168">On the Number of ON Cells in Cellular Automata</a>, arXiv:1503.01168 [math.CO], 2015
 %H A281042 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/ElementaryCellularAutomaton.html">Elementary Cellular Automaton</a>
 %H A281042 S. Wolfram, <a href="http://wolframscience.com/">A New Kind of Science</a>
 %H A281042 Wolfram Research, <a href="http://atlas.wolfram.com/">Wolfram Atlas of Simple Programs</a>

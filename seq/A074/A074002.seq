@@ -1,10 +1,10 @@
-%I A074002 #29 Dec 28 2024 09:44:06
+%I A074002 #30 Sep 22 2025 16:00:40
 %S A074002 0,0,6,6,30,72,252,756,2106,6642,19602,59292,176904,530712,1596510,
 %T A074002 4780782,14351094,43040160,129146724,387440172,1162202418
 %N A074002 Number of elements of GF(3^n) with trace 0 and subtrace 2.
 %H A074002 Frank Ruskey, <a href="http://combos.org/TSGF3">Number of Elements of GF(3^n) with given trace and subtrace</a>
 %F A074002 A074000(n) + A074001(n) + a(n) = 3^(n-1) = A000244(n-1). - _R. J. Mathar_, Jun 14 2019
-%o A074002 (Sage)
+%o A074002 (SageMath)
 %o A074002 def a(n):
 %o A074002     ans = 0
 %o A074002     for x in GF(3^n):

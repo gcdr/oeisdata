@@ -1,9 +1,10 @@
-%I A003338 #43 Feb 16 2025 08:32:27
+%I A003338 #47 Nov 04 2025 09:25:05
 %S A003338 4,19,34,49,64,84,99,114,129,164,179,194,244,259,274,289,304,324,339,
 %T A003338 354,369,419,434,499,514,529,544,594,609,628,643,658,673,674,708,723,
 %U A003338 738,769,784,788,803,849,868,883,898,913,963,978,1024,1043,1138,1153,1218
 %N A003338 Numbers that are the sum of 4 nonzero 4th powers.
 %C A003338 As the order of addition doesn't matter we can assume terms are in nondecreasing order. - _David A. Corneth_, Aug 01 2020
+%D A003338 Elena Deza and Michel Marie Deza, Figurate numbers, World Scientific Publishing (2012), page 310.
 %H A003338 David A. Corneth, <a href="/A003338/b003338.txt">Table of n, a(n) for n = 1..10000</a> (first 1000 terms from T. D. Noe)
 %H A003338 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/BiquadraticNumber.html">Biquadratic Number.</a>
 %e A003338 From _David A. Corneth_, Aug 01 2020: (Start)

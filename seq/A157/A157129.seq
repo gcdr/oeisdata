@@ -1,8 +1,9 @@
-%I A157129 #26 Dec 31 2024 20:16:30
+%I A157129 #30 Sep 19 2025 11:09:26
 %S A157129 1,1,2,2,1,1,1,1,2,2,2,2,1,1,2,2,1,1,2,2,1,1,1,1,2,2,2,2,1,1,1,1,2,2,
 %T A157129 2,2,1,1,2,2,1,1,1,1,2,2,2,2,1,1,2,2,1,1,1,1,2,2,2,2,1,1,2,2,1,1,2,2,
 %U A157129 1,1,1,1,2,2,2,2,1,1,1,1,2,2,2,2,1,1,2,2,1,1,2,2,1,1,1,1,2,2,2,2,1,1,1,1,2
 %N A157129 An analog of the Kolakoski sequence  A000002, only now a(n) = (length of n-th run divided by 2) using 1 and 2 and starting with 1,1.
+%H A157129 Jon Maiga, <a href="https://jonkagstrom.com/kolakoski/A_Recurrence_for_the_Run_Numbers_of_Kolakoski__p_2p.pdf">A Recurrence for the Run Numbers of Kolakoski-(p, 2p)</a>, 2025.
 %F A157129 As for the Kolakoski sequence we suspect Sum_{k=1..n} a(k) = (3/2)*n + o(n).
 %F A157129 a(n) = A071928(n)/2. - _Jon Maiga_, Jun 04 2021
 %F A157129 a(n) = gcd(A284796(ceiling(n/2)), 2) (conjectured). - _Jon Maiga_, Jun 11 2021

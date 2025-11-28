@@ -1,4 +1,4 @@
-%I A308171 #27 Jul 03 2019 09:25:14
+%I A308171 #29 Jul 09 2025 04:47:00
 %S A308171 5,2,4,6,1,6,3,1,6,3,9,1,6,3,9,1,8,1,6,3,9,1,8,1,4,6,1,6,3,9,1,8,1,4,
 %T A308171 6,1,6,1,6,3,1,6,3,9,1,8,1,4,6,1,6,1,6,3,1,6,3,1,6,3,9,1,6,3,9,1,8,1,
 %U A308171 4,6,1,6,1,6,3,1,6,3,1,6,3,9,1,6,3,9,1
@@ -12,5 +12,5 @@
 %Y A308171 Cf. A082026, A308170.
 %K A308171 nonn,base
 %O A308171 1,1
-%A A308171 _N. J. A. Sloane_, May 15 2019, following a suggestion from _Jeremy Gardiner_.
+%A A308171 _N. J. A. Sloane_, May 15 2019, following a suggestion from _Jeremy Gardiner_
 %E A308171 More terms from _Rémy Sigrist_, May 15 2019

@@ -1,4 +1,4 @@
-%I A219551 #20 Mar 06 2017 19:35:00
+%I A219551 #21 Nov 05 2025 15:22:23
 %S A219551 0,3,0,0,0,3,0,2,0,0,0,1,0,2,0,0,0,1,0,1,0,0,0,2,0,1,0,0,0,1,0
 %N A219551 Number of positive integer solutions to the equation |2^x - 3^y| = n.
 %C A219551 Pillai (1931) proved that a(n) is finite for all n.
@@ -11,7 +11,7 @@
 %H A219551 M. A. Bennett, <a href="http://dx.doi.org/10.4153/CJM-2001-036-6">On Some Exponential Equations of S. S. Pillai</a>, Canad. J. Math. 53 (2001), 897-922.
 %H A219551 M. A. Bennett, <a href="http://www.math.ubc.ca/~bennett/B-Pillai.pdf">Pillai’s conjecture revisited</a>, J. Number Theory, 98 (2003) 228-235.
 %H A219551 A. Herschfeld, <a href="https://doi.org/10.1090/S0002-9904-1936-06275-0">The equation 2^x - 3^y = d</a>, Bull. Amer. Math. Soc., 42 (1936), 231-234.
-%H A219551 M. Waldschmidt, <a href="http://arxiv.org/abs/0908.4031">Perfect Powers: Pillai's works and their developments</a>, arXiv:0908.4031 [math.NT], 2009.
+%H A219551 M. Waldschmidt, <a href="https://arxiv.org/abs/0908.4031">Perfect Powers: Pillai's works and their developments</a>, arXiv:0908.4031 [math.NT], 2009.
 %F A219551 a(2n) = a(3n) = 0.
 %F A219551 a(n) <= 2 for n > 13.
 %e A219551 1 = 2^2 - 3 = 3 - 2 = 3^2 - 2^3.

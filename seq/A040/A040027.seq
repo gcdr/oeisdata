@@ -1,4 +1,4 @@
-%I A040027 #121 Oct 26 2024 10:47:44
+%I A040027 #125 Nov 05 2025 15:21:58
 %S A040027 1,1,3,9,31,121,523,2469,12611,69161,404663,2512769,16485691,
 %T A040027 113842301,824723643,6249805129,49416246911,406754704841,
 %U A040027 3478340425563,30845565317189,283187362333331,2687568043654521,26329932233283223,265946395403810289,2766211109503317451
@@ -16,7 +16,7 @@
 %H A040027 Robert Dougherty-Bliss, <a href="https://arxiv.org/abs/2210.13520">Gosper's algorithm and Bell numbers</a>, arXiv:2210.13520 [cs.SC], 2022.
 %H A040027 Robert Dougherty-Bliss, <a href="https://sites.math.rutgers.edu/~zeilberg/Theses/RobertDoughertyBlissThesis.pdf">Experimental Methods in Number Theory and Combinatorics</a>, Ph. D. Dissertation, Rutgers Univ. (2024). See p. 69.
 %H A040027 Branko Dragovich, <a href="https://arxiv.org/abs/1702.02569">On Summation of p-Adic Series</a>, arXiv:1702.02569 [math.NT], 2017.
-%H A040027 Branko Dragovich, Andrei Yu. Khrennikov and Natasa Z. Misic, <a href="http://arxiv.org/abs/1508.05079">Summation of p-Adic Functional Series in Integer Points</a>, arXiv:1508.05079 [math.NT], 2015.
+%H A040027 Branko Dragovich, Andrei Yu. Khrennikov and Natasa Z. Misic, <a href="https://arxiv.org/abs/1508.05079">Summation of p-Adic Functional Series in Integer Points</a>, arXiv:1508.05079 [math.NT], 2015.
 %H A040027 B. Dragovich and N. Z. Misic, <a href="http://dx.doi.org/10.1134/S2070046614040025">p-Adic invariant summation of some p-adic functional series</a>, P-Adic Numbers, Ultrametric Analysis, and Applications, October 2014, Volume 6, Issue 4, pp 275-283.
 %H A040027 H. W. Gould and Jocelyn Quaintance, <a href="https://doi.org/10.2298/AADM0702371G">A linear binomial recurrence and the Bell numbers and polynomials</a>, Applicable Analysis and Discrete Mathematics, 1 (2007), 371-385.
 %H A040027 R. K. Guy, <a href="/A002186/a002186.pdf">Letters to N. J. A. Sloane, June-August 1968</a> [The letter gives the g.f. for this sequence as e^{e^x} Integral_{0..x} e^{e^t-1} dt but the correct g.f. is e^{e^x-1} Integral_0^x e^{1-e^t} dt. - _Don Knuth_, Feb 01 2018]
@@ -26,7 +26,7 @@
 %F A040027 a(n) = b(n-2), n>1, b(n) = Sum_{k = 1..n} binomial(n, k-1)*b(n-k), b(0) = 1. - _Vladeta Jovovic_, Apr 28 2001
 %F A040027 E.g.f. satisfies A'(x) = exp(x)*A(x)+1. - _N. J. A. Sloane_
 %F A040027 With offset 0, e.g.f.: x + exp(exp(x)) * Integral_{t=0..x} t*exp(-exp(t)+t) dt (fits the recurrence up to n=215). - _Ralf Stephan_, Apr 25 2004
-%F A040027 Recurrence: a(1)=1, a(2)=1, for n > 2, a(n) = n - 1 + Sum_{j=2..n-1} binomial(n-1, j)*a(j)) [gives a(n+1)]. - _Jon Perry_, Apr 26 2005
+%F A040027 Recurrence: a(0)=1, a(1)=1, for n > 1, a(n) = n + Sum_{j=1..n-1} binomial(n, j+1)*a(j). - _Jon Perry_, Apr 26 2005
 %F A040027 O.g.f. satisfies: A(x) = 1 + x*A( x/(1-x) ) / (1-x)^2. - _Paul D. Hanna_, Mar 23 2012
 %F A040027 From _Peter Bala_, Dec 17 2014: (Start)
 %F A040027 Starting from A(x) = 1 + O(x) (big Oh notation) we can get a series expansion for the o.g.f. by repeatedly applying the above functional equation of Hanna: A(x) = 1 + O(x) = 1 + x/(1-x)^2 + O(x^2) = 1 + x/(1-x)^2 + x^2/((1-x)*(1-2*x)^2) + O(x^3) = ... = 1 + x/(1-x)^2 + x^2/((1-x)*(1-2*x)^2) + x^3/((1-x)*(1-2*x)*(1-3*x)^2) + x^4/((1-x)*(1-2*x)*(1-3*x)*(1-4*x)^2) + ....

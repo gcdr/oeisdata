@@ -1,8 +1,8 @@
-%I A174051 #9 Jan 27 2018 23:01:57
+%I A174051 #11 Jun 02 2025 02:43:26
 %S A174051 10,25,26,34,50,58,65,74,82,85,106,122,125,130,145,146,169,170,178,
 %T A174051 185,194,202,205,218,221,226,250,265,274,289,290,298,305,314,325,338,
 %U A174051 346,362,365,370,377,386,394,410,425,442,445,458,466,481,482,485,493,505
-%N A174051 Composite numbers of the form x^2+y^2, gcd(x,y) = 1
+%N A174051 Composite numbers of the form x^2+y^2, gcd(x,y) = 1.
 %C A174051 Composite numbers in A008784. - _R. J. Mathar_, Jul 08 2012
 %H A174051 Charles R Greathouse IV, <a href="/A174051/b174051.txt">Table of n, a(n) for n = 1..10000</a>
 %e A174051 10 is in the sequence because 10 = 1^2 + 3^2 = 2*5;

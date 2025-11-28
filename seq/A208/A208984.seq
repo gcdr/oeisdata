@@ -1,11 +1,11 @@
-%I A208984 #19 Feb 16 2025 08:33:16
+%I A208984 #20 Nov 05 2025 15:35:34
 %S A208984 24,96,120,168,216,240,336,384,432,480,600,624,672,720,768,840,864,
 %T A208984 960,1080,1176,1320,1344,1512,1536,1560,1680,1728,1848,1920,1944,2016,
 %U A208984 2040,2160,2184,2304,2376,2400,2496,2520,2688,2856,2880,2904,3000,3024,3072,3240
 %N A208984 Areas A of the triangles such that A, the sides, the circumradius and the inradius are integers.
 %C A208984 a(n) is divisible by 24, and the positive squares A000290(n) are included in the sequence a(n)/24 = {1, 4, 5, 7, 9, 10, 14, 16, 18, 20, 25, 26, 28, 30, 32, 35, 36, 40, 45, 49, 55, 56, 63, 64, 65, ...}.
 %C A208984 The area A of a triangle whose sides have lengths a, b, and c is given by Heron's formula: A = sqrt(s*(s-a)*(s-b)*(s-c)), where s = (a+b+c)/2. The inradius r is given by r = A/s and the circumradius is given by R = abc/4A.
-%H A208984 Mohammad K. Azarian, <a href="http://www.jstor.org/stable/25678790">Solution of problem 125: Circumradius and Inradius</a>, Math Horizons, Vol. 16, No. 2 (Nov. 2008), p. 32.
+%H A208984 Mohammad K. Azarian, <a href="https://www.jstor.org/stable/25678790">Solution of problem 125: Circumradius and Inradius</a>, Math Horizons, Vol. 16, No. 2 (Nov. 2008), p. 32.
 %H A208984 Eric W. Weisstein, <a href="https://mathworld.wolfram.com/Circumradius.html">MathWorld: Circumradius</a>
 %H A208984 Eric W. Weisstein, <a href="https://mathworld.wolfram.com/Inradius.html">MathWorld: Inradius</a>
 %e A208984 a(1) = 24 because, for (a,b,c) = (6, 8, 10) => s = (6 + 8 + 10)/2 = 12, and

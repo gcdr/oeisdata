@@ -1,4 +1,4 @@
-%I A049310 #344 Feb 16 2025 08:32:40
+%I A049310 #358 Nov 05 2025 15:35:29
 %S A049310 1,0,1,-1,0,1,0,-2,0,1,1,0,-3,0,1,0,3,0,-4,0,1,-1,0,6,0,-5,0,1,0,-4,0,
 %T A049310 10,0,-6,0,1,1,0,-10,0,15,0,-7,0,1,0,5,0,-20,0,21,0,-8,0,1,-1,0,15,0,
 %U A049310 -35,0,28,0,-9,0,1,0,-6,0,35,0,-56,0,36,0,-10,0,1,1,0,-21,0,70,0,-84,0
@@ -12,7 +12,7 @@
 %C A049310 S(n,x)= R(n,x) + S(n-2,x), n >= 2, S(-1,x)=0, S(0,x)=1, R(n,x):=2*T(n,x/2) = Sum_{m=0..n} A127672(n,m)*x^m (monic integer Chebyshev T-Polynomials). This is the rewritten so-called trace of the transfer matrix formula for the T-polynomials. - _Wolfdieter Lang_, Dec 02 2010
 %C A049310 In a regular N-gon inscribed in a unit circle, the side length is d(N,1) = 2*sin(Pi/N). The length ratio R(N,k):=d(N,k)/d(N,1) for the (k-1)-th diagonal, with k from {2,3,...,floor(N/2)}, N >= 4, equals S(k-1,x) = sin(k*Pi/N)/sin(Pi/N) with x=rho(N):=R(N,2) = 2*cos(Pi/N). Example: N=7 (heptagon), rho=R(7,2), sigma:=R(N,3) = S(2,rho) = rho^2 - 1. Motivated by the quoted paper by P. Steinbach. - _Wolfdieter Lang_, Dec 02 2010
 %C A049310 From _Wolfdieter Lang_, Jul 12 2011: (Start)
-%C A049310 In q- or basic analysis, q-numbers are [n]_q :=S(n-1,q+1/q) = (q^n-(1/q)^n})/(q-1/q), with the row polynomials S(n,x), n >= 0.
+%C A049310 In q- or basic analysis, q-numbers are [n]_q := S(n-1,q+1/q) = (q^n-(1/q)^n)/(q-1/q), with the row polynomials S(n,x), n >= 0.
 %C A049310 The zeros of the row polynomials S(n-1,x) are (from those of Chebyshev U-polynomials):
 %C A049310   x(n-1;k) = +- t(k,rho(n)), k = 1..ceiling((n-1)/2), n >= 2, with t(n,x) the row polynomials of A127672 and rho(n):= 2*cos(Pi/n). The simple vanishing zero for even n appears here as +0 and -0.
 %C A049310 Factorization of the row polynomials S(n-1,x), x >= 1, in terms of the minimal polynomials of cos(2 Pi/2), called Psi(n,x), with coefficients given by A181875/A181876:
@@ -43,7 +43,7 @@
 %C A049310 For connections to generalized Fibonacci polynomials, compare their generating function on p. 5 of the Amdeberhan et al. link with the o.g.f. given above for the bivariate row polynomials of this entry. - _Tom Copeland_, Jan 08 2017
 %C A049310 The formula for Ramanujan's tau function (see A000594) for prime powers is tau(p^k) = p^(11*k/2)*S(k, p^(-11/2)*tau(p)) for k >= 1, and p = A000040(n), n >= 1. See the Hardy reference, p. 164, eqs. (10.3.4) and (10.3.6) rewritten in terms of S. - _Wolfdieter Lang_, Jan 27 2017
 %C A049310 From _Wolfdieter Lang_, May 08 2017: (Start)
-%C A049310 The number of zeros Z(n) of the S(n, x) polynomials in the open interval (-1,+1) is 2*b(n) for even n >= 0 and 1 + 2*b(n) for odd n >= 1, where b(n) = floor(n/2) - floor((n+1)/3). This b(n) is the number of integers k in the interval (n+1)/3 < k <= floor(n/2). See a comment on the zeros of S(n, x) above, and b(n) = A008615(n-2), n >= 0. The numbers Z(n) have been proposed (with a conjecture related to A008611) by _Michel Lagneau_, Mar 2017, as the number of zeros of Fibonacci polynomials on the imaginary axis (-I,+I), with I=sqrt(-1). They are Z(n) = A008611(n-1), n >= 0, with A008611(-1) = 0. Also Z(n) = A194960(n-4), n >= 0. Proof using the A008611 version. A194960 follows from this.
+%C A049310 The number of zeros Z(n) of the S(n, x) polynomials in the open interval (-1,+1) is 2*b(n) for even n >= 0 and 1 + 2*b(n) for odd n >= 1, where b(n) = floor(n/2) - floor((n+1)/3). This b(n) is the number of integers k in the interval (n+1)/3 < k <= floor(n/2). See a comment on the zeros of S(n, x) above, and b(n) = A008615(n-2), n >= 0. The numbers Z(n) have been proposed (with a conjecture related to A008611) by _Michel Lagneau_, as the number of zeros of Fibonacci polynomials on the imaginary axis (-I,+I), with I=sqrt(-1). They are Z(n) = A008611(n-1), n >= 0, with A008611(-1) = 0. Also Z(n) = A194960(n-4), n >= 0. Proof using the A008611 version. A194960 follows from this.
 %C A049310 In general the number of zeros Z(a;n) of S(n, x) for n >= 0 in the open interval (-a,+a) for a from the interval (0,2) (x >= 2 never has zeros, and a=0 is trivial: Z(0;n) = 0) is with b(a;n) = floor(n//2) - floor((n+1)*arccos(a/2)/Pi), as above Z(a;n) = 2*b(a;n) for even n >= 0 and 1 + 2*b(a;n) for odd n >= 1. For the closed interval [-a,+a] Z(0;n) = 1 and for a from (0,1) one uses for Z(a;n) the values b(a;n) = floor(n/2) - ceiling((n+1)*arccos(a/2)/Pi) + 1. (End)
 %C A049310 The Riordan row polynomials S(n, x) (Chebyshev S) belong to the Boas-Buck class (see a comment and references in A046521), hence they satisfy the Boas-Buck identity: (E_x - n*1)*S(n, x) = (E_x + 1)*Sum_{p=0..n-1} (1 - (-1)^p)*(-1)^((p+1)/2)*S(n-1-p, x), for n >= 0, where E_x = x*d/dx (Euler operator). For the triangle T(n, k) this entails a recurrence for the sequence of column k, given in the formula section. - _Wolfdieter Lang_, Aug 11 2017
 %C A049310 The e.g.f. E(x,t) := Sum_{n>=0} (t^n/n!)*S(n,x) for the row polynomials is obtained via inverse Laplace transformation from the above given o.g.f. as E(x,t) = ((1/xm)*exp(t/xm) - (1/xp)*exp(t/xp) )/(xp - xm) with xp = (x + sqrt(x^2-4))/2 and xm = (x - sqrt(x^2-4))/2. - _Wolfdieter Lang_, Nov 08 2017
@@ -71,22 +71,22 @@
 %H A049310 T. D. Noe, <a href="/A049310/b049310.txt">Rows 0 to 100 of the triangle, flattened.</a>
 %H A049310 M. Abramowitz and I. A. Stegun, eds., <a href="http://www.convertit.com/Go/ConvertIt/Reference/AMS55.ASP">Handbook of Mathematical Functions</a>, National Bureau of Standards, Applied Math. Series 55, Tenth Printing, 1972 [alternative scanned copy], Table 22.8, p.797.
 %H A049310 J. Allouche and G. Skordev, <a href="http://dx.doi.org/10.1016/S0012-365X(99)00195-8">Schur congruences, Carlitz sequences of polynomials and automaticity</a>, Discrete Mathematics, Vol. 214, Issue 1-3, 21 March 2000, p.21-49.
-%H A049310 T. Amdeberhan, X. Chen, V. Moll, and B. Sagan,  <a href="http://arxiv.org/abs/1306.6511">Generalized Fibonacci polynomials and Fibonomial coefficients</a>, arXiv preprint arXiv:1306.6511 [math.CO], 2013.
+%H A049310 T. Amdeberhan, X. Chen, V. Moll, and B. Sagan,  <a href="https://arxiv.org/abs/1306.6511">Generalized Fibonacci polynomials and Fibonomial coefficients</a>, arXiv preprint arXiv:1306.6511 [math.CO], 2013.
 %H A049310 Paul Barry, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL12/Barry4/barry64.html">Symmetric Third-Order Recurring Sequences, Chebyshev Polynomials, and Riordan Arrays</a>, JIS 12 (2009) 09.8.6.
 %H A049310 Paul Barry, <a href="https://arxiv.org/abs/2101.06713">On the inversion of Riordan arrays</a>, arXiv:2101.06713 [math.CO], 2021.
 %H A049310 Paul Barry and A. Hennessy, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL13/Barry5/barry96s.html">Meixner-Type Results for Riordan Arrays and Associated Integer Sequences</a>, J. Int. Seq. 13 (2010) # 10.9.4, section 5.
 %H A049310 C. Beck, <a href="https://arxiv.org/abs/hep-th/0207081">Spatio-temporal Chaos and Vacuum Fluctuations of Quantized Fields </a>, arXiv preprint arXiv:0207081 [hep-th], 2002.
 %H A049310 Alexander Burstein and Louis W. Shapiro, <a href="https://arxiv.org/abs/2112.11595">Pseudo-involutions in the Riordan group</a>, arXiv:2112.11595 [math.CO], 2021.
 %H A049310 Tom Copeland, <a href="http://tcjpn.wordpress.com/2015/10/12/the-elliptic-lie-triad-kdv-and-ricattt-equations-infinigens-and-elliptic-genera/">Addendum to Elliptic Lie Triad</a>
-%H A049310 J. R. Dias, <a href="http://www.stkpula.hr/ccacaa/CCA-PDF/cca2004/v77-n1_n2/CCA_77_2004_325-330_dias.pdf"> Properties and relationships of conjugated polyenes having a reciprocal eigenvalue spectrum - dendralene and radialene hydrocarbons </a>, Croatica Chem. Acta, 77 (2004), 325-330. [p. 328].
+%H A049310 Jerry Ray Dias, <a href="https://hrcak.srce.hr/102724">Properties and relationships of conjugated polyenes having a reciprocal eigenvalue spectrum - dendralene and radialene hydrocarbons</a>, Croatica Chem. Acta, 77 (2004), 325-330. [p. 328].
 %H A049310 S. R. Finch, P. Sebah and Z.-Q. Bai, <a href="http://arXiv.org/abs/0802.2654">Odd Entries in Pascal's Trinomial Triangle</a>, arXiv:0802.2654 [math.NT], 2008.
 %H A049310 Aoife Hennessy, <a href="http://repository.wit.ie/1693">A Study of Riordan Arrays with Applications to Continued Fractions, Orthogonal Polynomials and Lattice Paths</a>, Ph. D. Thesis, Waterford Institute of Technology, Oct. 2011.
-%H A049310 M. Ismail, <a href="http://arxiv.org/abs/math/0606743">One parameter generalizations of the Fibonacci and Lucas numbers</a>, arXiv preprint arXiv:0606743v1 [math.CA], 2006.
+%H A049310 M. Ismail, <a href="https://arxiv.org/abs/math/0606743">One parameter generalizations of the Fibonacci and Lucas numbers</a>, arXiv preprint arXiv:0606743v1 [math.CA], 2006.
 %H A049310 Wolfdieter Lang, <a href="/A049310/a049310.pdf">First rows of the triangle.</a>
 %H A049310 Wolfdieter Lang, <a href="/A049310/a049310appl.pdf ">Chebyshev S-polynomials: ten applications</a>.
-%H A049310 Wolfdieter Lang, <a href="http://arxiv.org/abs/1210.1018">The field Q(2cos(pi/n)), its Galois group and length ratios in the regular n-gon</a>, arXiv:1210.1018 [math.GR], 2012-2017.
+%H A049310 Wolfdieter Lang, <a href="https://arxiv.org/abs/1210.1018">The field Q(2cos(pi/n)), its Galois group and length ratios in the regular n-gon</a>, arXiv:1210.1018 [math.GR], 2012-2017.
 %H A049310 R. Sazdanovic, <a href="http://www.math.toronto.edu/~drorbn/SK11/Sazdanovic.pdf ">A categorification of the polynomial ring</a>, slide presentation, 2011. [From _Tom Copeland_, Dec 27 2015]
-%H A049310 P. Steinbach, <a href="http://www.jstor.org/stable/2691048">Golden fields: a case for the heptagon</a>, Math. Mag. 70 (1997), no. 1, 22-31.
+%H A049310 P. Steinbach, <a href="https://www.jstor.org/stable/2691048">Golden fields: a case for the heptagon</a>, Math. Mag. 70 (1997), no. 1, 22-31.
 %H A049310 T. Sunada, <a href="https://www.researchgate.net/publication/236218294_Discrete_Geometric_Analysis">Discrete Geometric Analysis</a>, 2008.
 %H A049310 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/AdjacencyMatrix.html">Adjacency Matrix</a>, <a href="https://mathworld.wolfram.com/CharacteristicPolynomial.html">Characteristic Polynomial</a>, <a href="https://mathworld.wolfram.com/ChebyshevPolynomialoftheSecondKind.html">Chebyshev Polynomial of the Second Kind</a>, <a href="https://mathworld.wolfram.com/FibonacciPolynomial.html">Fibonacci Polynomial</a>, <a href="https://mathworld.wolfram.com/MatchingPolynomial.html">Matching Polynomial</a>, and <a href="https://mathworld.wolfram.com/PathGraph.html">Path Graph</a>
 %H A049310 <a href="/index/Ch#Cheby">Index entries for sequences related to Chebyshev polynomials.</a>
@@ -108,21 +108,21 @@
 %F A049310 The Boas-Buck recurrence (see a comment above) for the sequence of column k is: S(n, k) = ((k+1)/(n-k))*Sum_{p=0..n-1-k} (1 - (-1)^p)*(-1)^((p+1)/2) * S(n-1-p, k), for n > k >= 0 and input S(k, k) = 1. - _Wolfdieter Lang_, Aug 11 2017
 %F A049310 The m-th row consecutive nonzero entries in order are (-1)^c*(c+b)!/c!b! with c = m/2, m/2-1, ..., 0 and b = m-2c if m is even and with c = (m-1)/2, (m-1)/2-1, ..., 0 with b = m-2c if m is odd. For the 8th row starting at a(36) the 5 consecutive nonzero entries in order are 1,-10,15,-7,1 given by c = 4,3,2,1,0 and b = 0,2,4,6,8. - _Richard Turk_, Aug 20 2017
 %F A049310 O.g.f.: exp( Sum_{n >= 0} 2*T(n,x/2)*t^n/n ) = 1 + x*t + (-1 + x^2)*t^2 + (-2*x + x^3)*t^3 + (1 - 3*x^2 + x^4)*t^4 + ..., where T(n,x) denotes the n-th Chebyshev polynomial of the first kind. - _Peter Bala_, Aug 15 2022
-%e A049310 The triangle T(n, k) begins
-%e A049310 n\k  0  1   2   3   4   5   6    7   8   9  10  11
-%e A049310 0:   1
-%e A049310 1:   0  1
-%e A049310 2:  -1  0   1
-%e A049310 3:   0 -2   0   1
-%e A049310 4:   1  0  -3   0   1
-%e A049310 5:   0  3   0  -4   0   1
-%e A049310 6:  -1  0   6   0  -5   0   1
-%e A049310 7:   0 -4   0  10   0  -6   0    1
-%e A049310 8:   1  0 -10   0  15   0  -7    0   1
-%e A049310 9:   0  5   0 -20   0  21   0   -8   0   1
-%e A049310 10: -1  0  15   0 -35   0  28    0  -9   0   1
-%e A049310 11:  0 -6   0  35   0 -56   0   36   0 -10   0   1
-%e A049310 ... Reformatted and extended by _Wolfdieter Lang_, Oct 24 2012
+%e A049310 The triangle T(n, k) begins:
+%e A049310   n\k  0  1   2   3   4   5   6    7   8   9  10  11
+%e A049310   0:   1
+%e A049310   1:   0  1
+%e A049310   2:  -1  0   1
+%e A049310   3:   0 -2   0   1
+%e A049310   4:   1  0  -3   0   1
+%e A049310   5:   0  3   0  -4   0   1
+%e A049310   6:  -1  0   6   0  -5   0   1
+%e A049310   7:   0 -4   0  10   0  -6   0    1
+%e A049310   8:   1  0 -10   0  15   0  -7    0   1
+%e A049310   9:   0  5   0 -20   0  21   0   -8   0   1
+%e A049310   10: -1  0  15   0 -35   0  28    0  -9   0   1
+%e A049310   11:  0 -6   0  35   0 -56   0   36   0 -10   0   1
+%e A049310   ... Reformatted and extended by _Wolfdieter Lang_, Oct 24 2012
 %e A049310 For more rows see the link.
 %e A049310 E.g., fourth row {0,-2,0,1} corresponds to polynomial S(3,x)= -2*x + x^3.
 %e A049310 From _Wolfdieter Lang_, Jul 12 2011: (Start)
@@ -161,7 +161,7 @@
 %o A049310 A049310:= func< n,k | ((n+k) mod 2) eq 0 select (-1)^(Floor((n+k)/2)+k)*Binomial(Floor((n+k)/2), k) else 0 >;
 %o A049310 [A049310(n,k): k in [0..n], n in [0..15]]; // _G. C. Greubel_, Jul 25 2022
 %Y A049310 Cf. A000005, A000217, A000292, A000332, A000389, A001227, A007318, A008611, A008615, A101455, A010892, A011973, A053112 (without zeros), A053117, A053119 (reflection), A053121 (inverse triangle), A055034, A097610, A099774, A099777, A100258, A112552 (first column clipped), A127672, A168561 (absolute values), A187360. A194960, A232624, A255237.
-%Y A049310 Triangles of coefficients of Chebyshev's S(n,x+k) for k  = 5, 4, 3, 2, 1, 0, -1, -2, -3, -4, -5: A207824, A207823, A125662, A078812, A101950, A049310, A104562, A053122, A207815, A159764, A123967.
+%Y A049310 Triangles of coefficients of Chebyshev's S(n,x+k) for k = 5, 4, 3, 2, 1, 0, -1, -2, -3, -4, -5: A207824, A207823, A125662, A078812, A101950, A049310, A104562, A053122, A207815, A159764, A123967.
 %K A049310 easy,nice,sign,tabl,core
 %O A049310 0,8
 %A A049310 _Wolfdieter Lang_

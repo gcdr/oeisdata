@@ -1,8 +1,8 @@
-%I A251478 #4 Dec 02 2014 19:15:01
+%I A251478 #6 Jul 23 2025 13:24:49
 %S A251478 12670,123739,1096596,7485767,48046512,261990105,1374831443,
 %T A251478 6492635940,29922945960,128376366657,542148465879,2177044477138,
 %U A251478 8653751344617,33172911909577,126371883761749,468816840146963,1733460732539026
-%N A251478 Number of (n+1)X(4+1) 0..3 arrays with every 2X2 subblock summing to a prime and those sums nondecreasing in every row and column
+%N A251478 Number of (n+1)X(4+1) 0..3 arrays with every 2X2 subblock summing to a prime and those sums nondecreasing in every row and column.
 %C A251478 Column 4 of A251481
 %H A251478 R. H. Hardin, <a href="/A251478/b251478.txt">Table of n, a(n) for n = 1..87</a>
 %e A251478 Some solutions for n=2

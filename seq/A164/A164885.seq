@@ -1,8 +1,8 @@
-%I A164885 #6 Dec 25 2016 01:03:20
+%I A164885 #8 Jun 02 2025 01:53:28
 %S A164885 0,1,2,1,2,2,2,1,2,0,1,2,1,2,2,1,2,1,1,1,1,0,1,2,1,1,1,2,1,2,2,1,2,1,
 %T A164885 1,1,1,1,1,1,1,1,1,1,1,0,1,2,1,0,1,1,1,1,1,2,1,1,1,2,1,2,2,1,2,1,1,1,
 %U A164885 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,2,1,1,1,1,1,1,1,1,1
-%N A164885 Length of preperiodic part of trajectory of n under iteration of the base-2 Kaprekar map in A164884
+%N A164885 Length of preperiodic part of trajectory of n under iteration of the base-2 Kaprekar map in A164884.
 %C A164885 All base-2 cycles are fixed points, so one less than A164886.
 %H A164885 Joseph Myers, <a href="/A164885/b164885.txt">Table of n, a(n) for n = 0..1024</a>
 %H A164885 <a href="/index/K#Kaprekar_map">Index entries for the Kaprekar map</a>

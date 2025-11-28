@@ -1,4 +1,4 @@
-%I A001567 M5441 N2365 #245 Feb 16 2025 08:32:24
+%I A001567 M5441 N2365 #260 Nov 05 2025 15:35:23
 %S A001567 341,561,645,1105,1387,1729,1905,2047,2465,2701,2821,3277,4033,4369,
 %T A001567 4371,4681,5461,6601,7957,8321,8481,8911,10261,10585,11305,12801,
 %U A001567 13741,13747,13981,14491,15709,15841,16705,18705,18721,19951,23001,23377,25761,29341
@@ -25,8 +25,10 @@
 %D A001567 Richard K. Guy, Unsolved Problems in Number Theory, 3rd Edition, Springer, 2004, Section A12, pp. 44-50.
 %D A001567 George P. Loweke, The Lore of Prime Numbers. New York: Vantage Press (1982), p. 22.
 %D A001567 Øystein Ore, Number Theory and Its History, McGraw-Hill, 1948.
+%D A001567 Paulo Ribenboim, The Little Book of Bigger Primes, Springer-Verlag NY 2004. See pp. 88-92.
 %D A001567 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
 %D A001567 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A001567 James J. Tattersall, Elementary Number Theory in Nine Chapters, Cambridge University Press, 1999, page 145.
 %H A001567 N. J. A. Sloane, <a href="/A001567/b001567.txt">Table of n, a(n) for n = 1..101629</a> [The pseudoprimes up to 10^12, from Richard Pinch's web site - see links below]
 %H A001567 Jonathan Bayless and Paul Kinlaw, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL20/Bayless/bayless3.html">Explicit Bounds for the Sum of Reciprocals of Pseudoprimes and Carmichael Numbers</a>, Journal of Integer Sequences, Vol. 20 (2017), Article 17.6.4.
 %H A001567 Jens Bernheiden, <a href="https://web.archive.org/web/20160508153313/http://www.mathe-schule.de/download/pdf/Primzahl/PSP.pdf">Pseudoprimes</a> (Text in German).
@@ -39,7 +41,7 @@
 %H A001567 Richard K. Guy, <a href="/A005165/a005165.pdf">The strong law of small numbers</a>. Amer. Math. Monthly, Vol. 95, No. 8 (1988), pp. 697-712. [Annotated scanned copy]
 %H A001567 Paul Kinlaw, <a href="https://doi.org/10.1090/mcom/3933">The reciprocal sums of pseudoprimes and Carmichael numbers</a>, Mathematics of Computation (2023).
 %H A001567 D. H. Lehmer, <a href="https://www.nap.edu/read/18678/chapter/3#47">Guide to Tables in the Theory of Numbers</a>, Bulletin No. 105, National Research Council, Washington, DC, 1941, p. 48.
-%H A001567 D. H. Lehmer, <a href="http://www.jstor.org/stable/2004371">Errata for Poulet's table</a>, Math. Comp., Vol. 25, No. 116 (1971), pp. 944-945.
+%H A001567 D. H. Lehmer, <a href="https://www.jstor.org/stable/2004371">Errata for Poulet's table</a>, Math. Comp., Vol. 25, No. 116 (1971), pp. 944-945.
 %H A001567 D. H. Lehmer, <a href="/A001567/a001567_1.pdf">Errata for Poulet's table</a>.  [annotated scanned copy]
 %H A001567 Gérard P. Michon, <a href="http://www.numericana.com/answer/pseudo.htm">Pseudoprimes</a>.
 %H A001567 J. C. P. Miller, <a href="http://dx.doi.org/10.1090/S0025-5718-1975-0366796-6">On factorization, with a suggested new approach</a>, Math. Comp., Vol. 29, No. 129 (1975), pp. 155-172. - _Felix Fröhlich_, Aug 18 2014

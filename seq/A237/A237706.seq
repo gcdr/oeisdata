@@ -1,4 +1,4 @@
-%I A237706 #15 Apr 06 2014 22:20:03
+%I A237706 #16 Nov 05 2025 15:22:26
 %S A237706 0,0,1,2,1,1,1,1,2,2,2,4,3,3,3,1,1,2,2,3,3,1,1,2,3,4,4,4,4,6,5,4,4,2,
 %T A237706 2,3,3,5,5,3,3,3,3,4,4,3,3,3,3,3,3,2,2,4,5,5,5,4,4,7,6,5,5,4,4,5,5,7,
 %U A237706 7,5
@@ -8,7 +8,7 @@
 %C A237706 We have verified that a(n) > 0 for every n = 3, ..., 1.5*10^7. See A237710 for the least prime p < n with pi(n-p) a square.
 %C A237706 See also A237705, A237720 and A237721 for similar conjectures.
 %H A237706 Zhi-Wei Sun, <a href="/A237706/b237706.txt">Table of n, a(n) for n = 1..10000</a>
-%H A237706 Z.-W. Sun, <a href="http://arxiv.org/abs/1402.6641">Problems on combinatorial properties of primes</a>, arXiv:1402.6641, 2014
+%H A237706 Z.-W. Sun, <a href="https://arxiv.org/abs/1402.6641">Problems on combinatorial properties of primes</a>, arXiv:1402.6641, 2014
 %e A237706 a(8) = 1 since 7 is prime with pi(8-7) = 0^2.
 %e A237706 a(16) = 1 since 7 is prime with pi(16-7) = 2^2.
 %e A237706 a(149) = 1 since 139 is prime with pi(149-139) = pi(10) = 2^2.

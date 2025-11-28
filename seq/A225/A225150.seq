@@ -1,4 +1,4 @@
-%I A225150 #23 Feb 16 2025 08:33:19
+%I A225150 #24 Nov 05 2025 15:35:34
 %S A225150 6,21,40,52,60,90,288,301,657,697,1333,1909,2041,2176,3856,3901,5536,
 %T A225150 6517,15025,24601,26977,30105,87360,96361,105301,130153,163201,250321,
 %U A225150 275833,296341,389593,486877,495529,524961,542413,808861,1005421,1005649,1055833
@@ -9,7 +9,7 @@
 %C A225150 Peter Hagis, Jr. calculated all the unitary hyperperfect numbers below 10^6. - _Amiram Eldar_, Aug 24 2018
 %D A225150 J. M. De Koninck, Ces nombres qui nous fascinent, Ellipses 2008, Entry 288 p. 74.
 %H A225150 Donovan Johnson, <a href="/A225150/b225150.txt">Table of n, a(n) for n = 1..1000</a>
-%H A225150 Peter Hagis, Jr., <a href="http://www.jstor.org/stable/10.2307/2007751">Unitary Hyperperfect Numbers</a>, Mathematics of Computation, Vol. 36, No. 153 (1981), pp. 299-301.
+%H A225150 Peter Hagis, Jr., <a href="https://www.jstor.org/stable/10.2307/2007751">Unitary Hyperperfect Numbers</a>, Mathematics of Computation, Vol. 36, No. 153 (1981), pp. 299-301.
 %H A225150 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/HyperperfectNumber.html">Hyperperfect Number</a>
 %H A225150 Wikipedia, <a href="http://en.wikipedia.org/wiki/Hyperperfect_number">Hyperperfect number</a>
 %e A225150 21 is in the sequence because 1 + k(usigma(21) - 21 - 1) = 1 + 2(32 - 21 - 1) = 21 where k = 2 and usigma(21) = A034448 (21) = 32.

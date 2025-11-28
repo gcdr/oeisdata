@@ -1,7 +1,8 @@
-%I A174612 #23 Apr 20 2024 04:17:07
+%I A174612 #26 Apr 22 2025 10:48:46
 %S A174612 0,0,0,0,0,4,19,55,144,314,619,1179,2102,3639,6042,9938,16202,25758,
 %T A174612 40685,63343,98253,151566,232742
 %N A174612 Number of four-prime Carmichael numbers less than 10^n.
+%D A174612 Paulo Ribenboim, The Little Book of Bigger Primes, Springer-Verlag NY 2004. See p. 220.
 %H A174612 Claude Goutier, <a href="http://www-labs.iro.umontreal.ca/~goutier/OEIS/A055553/">Text file readme.text summarizing enumeration of Carmichael numbers up to 10^22</a>.
 %H A174612 Claude Goutier, <a href="/A055553/a055553.txt">Text file readme.text summarizing enumeration of Carmichael numbers up to 10^22</a>. [Local copy, with permission]
 %H A174612 R. G. E. Pinch, <a href="http://s369624816.websitehome.co.uk/rgep/p82p.pdf">The Carmichael numbers up to 10^21</a>, Proceedings of Conference on Algorithmic Number Theory 2007.

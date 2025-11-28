@@ -1,4 +1,4 @@
-%I A187075 #46 Nov 12 2022 02:13:16
+%I A187075 #48 Nov 05 2025 15:22:20
 %S A187075 1,2,3,4,18,15,8,84,180,105,16,360,1500,2100,945,32,1488,10800,27300,
 %T A187075 28350,10395,64,6048,72240,294000,529200,436590,135135,128,24384,
 %U A187075 463680,2857680,7938000,11060280,7567560,2027025,256,97920,2904000,26107200,105099120,220041360,249729480,145945800,34459425
@@ -7,7 +7,7 @@
 %C A187075 Let f(x) = (exp(2*x) + 1)^(-1/2); then the n-th derivative of f equals Sum_{k=1..n} (-1)^k*T(n,k)*(f(x))^(2*k+1). - _Groux Roland_, May 17 2011
 %C A187075 Triangle T(n,k), 1 <= k <= n, given by (0, 2, 0, 4, 0, 6, 0, 8, 0, 10, 0, ...) DELTA (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, ...) where DELTA is the operator defined in A084938. - _Philippe Deléham_, Oct 20 2013
 %H A187075 G. C. Greubel, <a href="/A187075/b187075.txt">Table of n, a(n) for the first 50 rows</a>
-%H A187075 Shi-Mei Ma, <a href="http://arxiv.org/abs/1204.4963">A family of two-variable derivative polynomials for tangent and secant</a>, arXiv:1204.4963v3 [math.CO]
+%H A187075 Shi-Mei Ma, <a href="https://arxiv.org/abs/1204.4963">A family of two-variable derivative polynomials for tangent and secant</a>, arXiv:1204.4963v3 [math.CO]
 %H A187075 Shi-Mei Ma, <a href="https://doi.org/10.37236/2344">A family of two-variable derivative polynomials for tangent and secant</a>, El J. Combinat. 20 (1) (2013) P11.
 %H A187075 E. Neuwirth, <a href="https://doi.org/10.1016/S0012-365X(00)00373-3">Recursively defined combinatorial functions: Extending Galton's board,</a> Discrete Math. 239 (2001) 33-51.
 %F A187075 T(n,k) = 2^(n-2*k)*binomial(2k,k)*k!*Stirling2(n,k).
@@ -33,7 +33,7 @@
 %e A187075 T(6,4) = 8*T(5,4) + 7*T(5,3) = 8*2100 + 7*1500 = 27300.
 %p A187075 A187075 := proc(n, k) option remember; if k < 1 or k > n then 0; elif k = 1 then 2^(n-1); else 2*k*procname(n-1, k) + (2*k-1)*procname(n-1, k-1) ; end if; end proc:seq(seq(A187075(n,k),k = 1..n),n = 1..10);
 %t A187075 Flatten[Table[2^(n - 2*k)*Binomial[2 k, k]*k!*StirlingS2[n, k], {n, 10}, {k, 1, n}]] (* _G. C. Greubel_, Jun 17 2016 *)
-%o A187075 (Sage) # uses[delehamdelta from A084938]
+%o A187075 (SageMath) # uses[delehamdelta from A084938]
 %o A187075 # Adds a first column (1,0,0,0, ...).
 %o A187075 def A187075_triangle(n):
 %o A187075     return delehamdelta([(i+1)*int(is_even(i+1)) for i in (0..n)], [i+1 for i in (0..n)])

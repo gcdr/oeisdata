@@ -1,20 +1,23 @@
-%I A000224 #79 Oct 07 2024 15:28:45
+%I A000224 #106 Nov 05 2025 15:35:22
 %S A000224 1,2,2,2,3,4,4,3,4,6,6,4,7,8,6,4,9,8,10,6,8,12,12,6,11,14,11,8,15,12,
 %T A000224 16,7,12,18,12,8,19,20,14,9,21,16,22,12,12,24,24,8,22,22,18,14,27,22,
 %U A000224 18,12,20,30,30,12,31,32,16,12,21,24,34,18,24,24,36,12
 %N A000224 Number of squares mod n.
 %C A000224 For any n > 2, there are quadratic nonresidues mod n, so a(n) < n. - _Charles R Greathouse IV_, Oct 28 2022
+%C A000224 Conjecture: n^2 == 1 (mod a(n)*(a(n)-1)) if and only if n is an odd prime. - _Thomas Ordowski_, Apr 13 2025
+%C A000224 This conjecture holds at least up to n = 10^8. - _Michel Marcus_, Apr 13 2025
 %H A000224 T. D. Noe, <a href="/A000224/b000224.txt">Table of n, a(n) for n = 1..10000</a>
 %H A000224 Imanuel Chen and Michael Z. Spivey, <a href="http://soundideas.pugetsound.edu/summer_research/238">Integral Generalized Binomial Coefficients of Multiplicative Functions</a>, Preprint 2015; Summer Research Paper 238, Univ. Puget.
 %H A000224 Steven R. Finch and Pascal Sebah, <a href="https://arxiv.org/abs/math/0604465">Squares and Cubes Modulo n</a>, arXiv:math/0604465 [math.NT], 2006-2016.
 %H A000224 Shuguang Li, <a href="http://pldml.icm.edu.pl/pldml/element/bwmeta1.element.bwnjournal-article-aav86i2p113bwm">On the number of elements with maximal order in the multiplicative group modulo n</a>, Acta Arithm. 86 (2) (1998) 113, see proof of theorem 2.1.
 %H A000224 Param Parekh, Paavan Parekh, Sourav Deb, and Manish K. Gupta, <a href="https://arxiv.org/abs/2310.11768">On the Classification of Weierstrass Elliptic Curves over Z_n</a>, arXiv:2310.11768 [cs.CR], 2023. See p. 6.
 %H A000224 E. J. F. Primrose, <a href="http://dx.doi.org/10.2307/3617445">The number of quadratic residues mod m</a>, Math. Gaz. v. 61 (1977) n. 415, 60-61.
-%H A000224 Walter D. Stangl, <a href="http://www.jstor.org/stable/2690536">Counting Squares in Z_n</a>, Math. Mag. 69 (1996) 285-289.
+%H A000224 Walter D. Stangl, <a href="https://www.jstor.org/stable/2690536">Counting Squares in Z_n</a>, Math. Mag. 69 (1996) 285-289.
 %F A000224 a(n) = A105612(n) + 1.
 %F A000224 Multiplicative with a(p^e) = floor(p^e/6) + 2 if p = 2; floor(p^(e+1)/(2p + 2)) + 1 if p > 2. - _David W. Wilson_, Aug 01 2001
 %F A000224 a(2^n) = A023105(n). a(3^n) = A039300(n). a(5^n) = A039302(n). a(7^n) = A039304(n). - _R. J. Mathar_, Sep 28 2017
 %F A000224 Sum_{k=1..n} a(k) ~ c * n^2/sqrt(log(n)), where c = (17/(32*sqrt(Pi))) * Product_{p prime} (1 - (p^2+2)/(2*(p^2+1)*(p+1))) * (1-1/p)^(-1/2) = 0.37672933209687137604... (Finch and Sebah, 2006). - _Amiram Eldar_, Oct 18 2022
+%F A000224 If p is an odd prime, then a(p) = (p + 1)/2. - _Thomas Ordowski_, Apr 09 2025
 %e A000224 The sequence of squares (A000290) modulo 10 reads 0, 1, 4, 9, 6, 5, 6, 9, 4, 1, 0, 1, 4, 9, 6, 5, 6, 9, 4, 1,... and this reduced sequence contains a(10) = 6 different values, {0,1,4,5,6,9}. - _R. J. Mathar_, Oct 10 2014
 %p A000224 A000224 := proc(m)
 %p A000224     {seq( modp(b^2,m),b=0..m-1) };

@@ -1,8 +1,8 @@
-%I A192796 #23 Feb 16 2025 08:33:15
+%I A192796 #25 Jul 22 2025 12:16:10
 %S A192796 0,28,132,360,760,1380,2268,3472,5040,7020,9460,12408,15912,20020,
 %T A192796 24780,30240,36448,43452,51300,60040,69720,80388,92092,104880,118800,
 %U A192796 133900,150228,167832,186760,207060
-%N A192796 Molecular topological indices of the crown graphs
+%N A192796 Molecular topological indices of the crown graphs.
 %C A192796 Crown graphs are defined for n>=3; extended to n=1 using the closed form.
 %H A192796 Charles R Greathouse IV, <a href="/A192796/b192796.txt">Table of n, a(n) for n = 1..10000</a>
 %H A192796 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/CrownGraph.html">Crown Graph</a>

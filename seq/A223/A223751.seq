@@ -1,8 +1,8 @@
-%I A223751 #4 Mar 27 2013 03:50:27
+%I A223751 #8 Oct 03 2025 22:19:56
 %S A223751 6,24,20,117,200,120,456,2826,4800,536,1962,26980,330642,74504,3378,
 %T A223751 7660,308268,12302880,21965901,1918704,17362,31897,2964940,604821816,
 %U A223751 2762855184,2810374281,37050508,108534,125240,31799477,22711440400
-%N A223751 T(n,k)=Number of nX(k+1) 0..3 arrays with every row least squares fitting to a positive slope straight line and every column least squares fitting to a zero or positive slope straight line, with a single point array taken as having zero slope
+%N A223751 T(n,k)=Number of nX(k+1) 0..3 arrays with every row least squares fitting to a positive slope straight line and every column least squares fitting to a zero or positive slope straight line, with a single point array taken as having zero slope.
 %C A223751 Table starts
 %C A223751 .......6..........24............117.............456.............1962
 %C A223751 ......20.........200...........2826...........26980...........308268
@@ -21,4 +21,4 @@
 %Y A223751 Column 1 is A223045
 %K A223751 nonn,tabl
 %O A223751 1,1
-%A A223751 _R. H. Hardin_ Mar 27 2013
+%A A223751 _R. H. Hardin_, Mar 27 2013

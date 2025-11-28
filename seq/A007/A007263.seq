@@ -1,4 +1,4 @@
-%I A007263 M4995 #41 Nov 20 2019 11:37:11
+%I A007263 M4995 #42 Nov 10 2025 21:50:37
 %S A007263 1,0,16,-8,0,128,28,0,576,-64,0,2048,134,0,6304,-288,0,17408,568,0,
 %T A007263 44416,-1024,0,106496,1809,0,242480,-3152,0,528896,5316,0,1112128,
 %U A007263 -8704,0,2265088,13990,0,4486112
@@ -7,7 +7,7 @@
 %C A007263 G.f. is a period 1 Fourier series which satisfies f(-1 / (18 t)) = f(t) where q = exp(2 Pi i t). - _Michael Somos_, Nov 20 2019
 %D A007263 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
 %H A007263 G. C. Greubel, <a href="/A007263/b007263.txt">Table of n, a(n) for n = -1..1000</a> (terms -1..99 from G. A. Edgar)
-%H A007263 D. Alexander, C. Cummins, J. McKay and C. Simons, <a href="http://oeis.org/A007242/a007242_1.pdf">Completely Replicable Functions</a>, in Groups, Combinatorics & Geometry, (Durham, 1990), pp. 87--98, London Math. Soc. Monograph No. 165.
+%H A007263 D. Alexander, C. Cummins, J. McKay and C. Simons, <a href="https://oeis.org/A007242/a007242_1.pdf">Completely Replicable Functions</a>, in Groups, Combinatorics & Geometry, (Durham, 1990), pp. 87--98, London Math. Soc. Monograph No. 165.
 %H A007263 J. H. Conway and S. P. Norton, <a href="http://blms.oxfordjournals.org/content/11/3/308.extract">Monstrous Moonshine</a>, Bull. Lond. Math. Soc. 11 (1979) 308-339.
 %H A007263 D. Ford, J. McKay and S. P. Norton, <a href="http://dx.doi.org/10.1080/00927879408825127">More on replicable functions</a>, Commun. Algebra 22, No. 13, 5175-5193 (1994).
 %H A007263 J. McKay and H. Strauss, <a href="http://dx.doi.org/10.1080/00927879008823911">The q-series of monstrous moonshine and the decomposition of the head characters</a>, Comm. Algebra 18 (1990), no. 1, 253-278.

@@ -1,4 +1,4 @@
-%I A034332 #7 Mar 30 2012 16:47:28
+%I A034332 #9 Jul 08 2025 20:14:45
 %S A034332 0,0,0,0,0,0,1,5,29,133,556,2108
 %N A034332 Number of matroids: column 6 of A034327.
 %D A034332 Computed by Harald Fripertinger (fripert(AT)kfunigraz.ac.at).
@@ -7,4 +7,4 @@
 %Y A034332 Cf. A034327-.
 %K A034332 nonn
 %O A034332 0,8
-%A A034332 _N. J. A. Sloane_.
+%A A034332 _N. J. A. Sloane_

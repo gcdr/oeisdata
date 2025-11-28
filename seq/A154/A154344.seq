@@ -1,10 +1,11 @@
-%I A154344 #14 Feb 03 2025 01:54:46
+%I A154344 #18 Jul 18 2025 09:45:04
 %S A154344 1,0,-2,0,-3,3,0,-4,12,0,0,-5,35,0,-30,0,-6,90,0,-360,180,0,-7,217,0,
 %T A154344 -2730,3150,-630,0,-8,504,0,-16800,33600,-15120,0,0,-9,1143,0,-91854,
 %U A154344 283500,-215460,0,22680,0,-10,2550,0,-466200,2085300,-2381400,0,907200,-226800
 %N A154344 Triangle read by rows. G(n, k) an additive decomposition of 2^n*G(n), G(n) the Genocchi numbers.
 %C A154344 The Swiss-Knife polynomials A153641 can be understood as a sum of polynomials. Evaluated at x=-1 multiplied by n+1 this results in a decomposition of 2^n times the Genocchi numbers A036968.
 %H A154344 G. C. Greubel, <a href="/A154344/b154344.txt">Table of n, a(n) for n = 0..1274</a>
+%H A154344 Ayse Yilmaz Ceylan and Yilmaz Simsek, <a href="https://doi.org/10.3390/sym17071126">Formulae for Generalization of Touchard Polynomials with Their Generating Functions</a>, Symmetry (2025) Vol. 17, Issue 7, Art. No. 1126. See Eq. 28 and after.
 %H A154344 Peter Luschny, <a href="http://www.luschny.de/math/seq/SwissKnifePolynomials.html">The Swiss-Knife polynomials.</a>
 %F A154344 Let c(k) = ((-1)^floor(k/4) / 2^floor(k/2)) * [4 not div k+1] (Iverson notation).
 %F A154344 G(n,k) = Sum_{v=0..k} (-1)^v*binomial(k,v)*(n+1)*c(k)*v^n.

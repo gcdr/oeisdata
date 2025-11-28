@@ -1,8 +1,8 @@
-%I A251940 #4 Dec 11 2014 12:24:07
+%I A251940 #6 Jul 23 2025 13:33:37
 %S A251940 136,3185,30882,180069,759084,2556917,7303048,18382689,41883774,
 %T A251940 88029351,173063726,321693183,570089840,969551427,1590970704,
 %U A251940 2530011331,3913099856,5904594753,8714661346,12608284547,17915736648,25043801479
-%N A251940 Number of length 6+2 0..n arrays with the sum of the maximum minus the median of adjacent triples multiplied by some arrangement of +-1 equal to zero
+%N A251940 Number of length 6+2 0..n arrays with the sum of the maximum minus the median of adjacent triples multiplied by some arrangement of +-1 equal to zero.
 %C A251940 Row 6 of A251935
 %H A251940 R. H. Hardin, <a href="/A251940/b251940.txt">Table of n, a(n) for n = 1..25</a>
 %e A251940 Some solutions for n=4

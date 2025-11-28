@@ -1,4 +1,4 @@
-%I A120733 #96 Nov 18 2024 15:59:19
+%I A120733 #101 Nov 05 2025 15:22:05
 %S A120733 1,1,5,33,281,2961,37277,546193,9132865,171634161,3581539973,
 %T A120733 82171451025,2055919433081,55710251353953,1625385528173693,
 %U A120733 50800411296363617,1693351638586070209,59966271207156833313,2248276994650395873861,88969158875611127548481
@@ -16,10 +16,11 @@
 %H A120733 Giulio Cerbai and Anders Claesson, <a href="https://arxiv.org/abs/2411.08426">Enumerative aspects of Caylerian polynomials</a>, arXiv:2411.08426 [math.CO], 2024. See pp. 3, 19.
 %H A120733 P. Diaconis and A. Gangolli, <a href="http://dx.doi.org/10.1007/978-1-4612-0801-3_3">Rectangular arrays with fixed margins</a>, Discrete probability and algorithms (Minneapolis, MN, 1993), 15-41, IMA Vol. Math. Appl., 72, Springer, New York, 1995.
 %H A120733 G. Duchamp, F. Hivert and J.-Y. Thibon, <a href="https://arxiv.org/abs/math/0105065">Noncommutative symmetric functions VI: Free quasi-symmetric functions and related algebras</a>, arXiv:math/0105065 [math.CO], 2001; Internat. J. Alg. Comp. 12 (2002), 671-717.
+%H A120733 Loïc Foissy, Claudia Malvenuto, and Frédéric Patras, <a href="https://arxiv.org/abs/2503.14417">Matrix symmetric and quasi-symmetric functions and noncommutative representation theory</a>, arXiv:2503.14417 [math.CO], 2025. See p. 11.
 %H A120733 Masato Kobayashi, <a href="https://arxiv.org/abs/1907.11801">Construction of double coset system of a Coxeter group and its applications to Bruhat graphs</a>, arXiv:1907.11801 [math.CO], 2019.
 %H A120733 Vaclav Kotesovec, <a href="/A120733/a120733.pdf">Asymptotics of the sequence A120733</a>
 %H A120733 E. Munarini, M. Poneti, and S. Rinaldi, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL12/Rinaldi/rinaldi.html">Matrix compositions</a>, JIS 12 (2009) 09.4.8, Remark 30.
-%H A120733 T. K. Petersen, <a href="http://arxiv.org/abs/1607.00086">A two-sided analogue of the Coxeter complex</a>, arXiv:1607.00086 [math.CO], (2016).
+%H A120733 T. K. Petersen, <a href="https://arxiv.org/abs/1607.00086">A two-sided analogue of the Coxeter complex</a>, arXiv:1607.00086 [math.CO], (2016).
 %F A120733 a(n) = (1/n!)*Sum_{k=0..n} (-1)^(n-k)*Stirling1(n,k)*A000670(k)^2.
 %F A120733 G.f.: Sum_{m>=0,n>=0} Sum_{j=0..n} (-1)^(n-j)*C(n,j)*((1-x)^(-j)-1)^m.
 %F A120733 a(n) = Sum_{r>=0,s>=0} binomial(r*s+n-1,n)/2^(r+s+2).

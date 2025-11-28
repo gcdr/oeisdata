@@ -1,4 +1,4 @@
-%I A003484 M0161 #103 Oct 22 2022 08:05:41
+%I A003484 M0161 #105 Nov 05 2025 15:35:24
 %S A003484 1,2,1,4,1,2,1,8,1,2,1,4,1,2,1,9,1,2,1,4,1,2,1,8,1,2,1,4,1,2,1,10,1,2,
 %T A003484 1,4,1,2,1,8,1,2,1,4,1,2,1,9,1,2,1,4,1,2,1,8,1,2,1,4,1,2,1,12,1,2,1,4,
 %U A003484 1,2,1,8,1,2,1,4,1,2,1,9,1,2,1,4,1,2,1,8,1,2,1,4,1,2,1,10,1,2,1,4,1,2
@@ -13,12 +13,12 @@
 %H A003484 T. D. Noe, <a href="/A003484/b003484.txt">Table of n, a(n) for n = 1..10000</a>
 %H A003484 J. Frank Adams, <a href="http://dx.doi.org/10.1016/0040-9383(62)90096-4">Vector fields on spheres</a>, Topology, Vol. 1 (1962), pp. 63-65.
 %H A003484 J. Frank Adams, <a href="https://doi.org/10.1090/S0002-9904-1962-10693-4">Vector fields on spheres</a>, Bull. Amer. Math. Soc., Vol. 68 (1962), pp. 39-41.
-%H A003484 J. Frank Adams, <a href="http://www.jstor.org/stable/1970213">Vector fields on spheres</a>, Annals of Math., Vol. 75 (1962), pp. 603-632.
+%H A003484 J. Frank Adams, <a href="https://www.jstor.org/stable/1970213">Vector fields on spheres</a>, Annals of Math., Vol. 75 (1962), pp. 603-632.
 %H A003484 J.-P. Allouche and J. Shallit, <a href="http://www.math.jussieu.fr/~allouche/kreg2.ps">The Ring of k-regular Sequences, II</a>.
 %H A003484 J.-P. Allouche and J. Shallit, <a href="http://dx.doi.org/10.1016/S0304-3975(03)00090-2">The ring of k-regular sequences, II</a>, Theoret. Computer Sci., Vol. 307 (2003), pp. 3-29.
 %H A003484 Adolf Hurwitz, <a href="http://gdz.sub.uni-goettingen.de/dms/load/img/?PID=GDZPPN002269074">Uber die Komposition der quadratischen formen</a>, Math. Annalen, Vol. 88 (1923), pp. 1-25.
 %H A003484 Michel A. Kervaire, <a href="http://www.pnas.org/content/44/3/280.full.pdf">Non-parallelizability of the sphere for n > 7</a>, Proc. Nat. Acad. Sci. USA, Vol. 44, No. 3 (1958), pp. 280-283.
-%H A003484 John Milnor, <a href="http://www.jstor.org/stable/1970255">Some consequences of a theorem of Bott</a>, Annals of Mathematics, Second Series, Vol. 68, No. 2 (1958), pp. 444-449.
+%H A003484 John Milnor, <a href="https://www.jstor.org/stable/1970255">Some consequences of a theorem of Bott</a>, Annals of Mathematics, Second Series, Vol. 68, No. 2 (1958), pp. 444-449.
 %H A003484 Johann Radon, <a href="https://doi.org/10.1007/BF02940576">Lineare scharen orthogonaler matrizen</a>,Abh. Math. Sem. Univ. Hamburg, Vol. 1 (1922), pp. 1-14.
 %H A003484 Daniel B. Shapiro, <a href="/A003484/a003484.pdf">Letter to N. J. A. Sloane, 1974</a>.
 %H A003484 <a href="/index/Cor#core">Index entries for "core" sequences</a>.
@@ -32,7 +32,7 @@
 %F A003484 Lambert series g.f. Sum_(k >=0) q^(2^(4*k))/(1-q^(2^(4*k))) +q^(2^(4*k+1))/(1-q^(2^(4*k+1))) +2*q^(2^(4*k+2))/(1-q^(2^(4*k+2))) +4*q^(2^(4*k+3))/(1-q^(2^(4*k+3))). - _Mamuka Jibladze_, Dec 07 2016
 %F A003484 Asymptotic mean: Limit_{m->oo} (1/m) * Sum_{k=1..m} a(k) = 8/3. - _Amiram Eldar_, Oct 22 2022
 %e A003484 G.f. = x + 2*x^2 + x^3 + 4*x^4 + x^5 + 2*x^6 + x^7 + 8*x^8 + x^9 + ...
-%p A003484 readlib(ifactors): for n from 1 to 150 do if n mod 2 = 1 then printf(`%d,`,1) fi: if n mod 2 = 0 then m := ifactors(n)[2][1][2]: if m mod 4 = 0 then printf(`%d,`,2*m+1) fi: if m mod 4 = 1 then printf(`%d,`,2*m) fi: if m mod 4 = 2 then printf(`%d,`,2*m) fi: if m mod 4 = 3 then printf(`%d,`,2*m+2) fi: fi: od: # _James A. Sellers_, Dec 07 2000
+%p A003484 readlib(ifactors): for n from 1 to 150 do if n mod 2 = 1 then printf(`%d,`,1) fi: if n mod 2 = 0 then m := ifactors(n)[2][1][2]: if m mod 4 = 0 then printf(`%d,`,2*m+1) fi: if m mod 4 = 1 then printf(`%d,`,2*m) fi: if m mod 4 = 2 then printf(`%d,`,2*m) fi: if m mod 4 = 3 then printf(`%d,`,2*m+2) fi: fi: od: # _James Sellers_, Dec 07 2000
 %p A003484 nmax:=102; A003485 := proc(n): A003485(n) := ceil((n+1)/4) + ceil(n/4) + 2*ceil((n-1)/4) + 4*ceil((n-2)/4) end: A029837 := n -> ceil(simplify(log[2](n))): for p from 0 to A029837(nmax) do for n from 1 to ceil(nmax/(p+2)) do A003484((2*n-1)*2^p):= A003485(p): od: od: seq(A003484(n), n=1..nmax); # _Johannes W. Meijer_, Jun 07 2011, Dec 15 2012
 %t A003484 a[n_] := 8*Quotient[IntegerExponent[n, 2], 4] + 2^Mod[IntegerExponent[n, 2], 4]; Table[a[n], {n, 1, 102}] (* _Jean-François Alcover_, Sep 08 2011, after _Paul D. Hanna_ *)
 %o A003484 (PARI) a(n)=8*(valuation(n,2)\4)+2^(valuation(n,2)%4) /* _Paul D. Hanna_, Dec 02 2004 */

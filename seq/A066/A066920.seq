@@ -1,10 +1,10 @@
-%I A066920 #19 Feb 16 2025 08:32:45
+%I A066920 #20 Nov 10 2025 21:50:38
 %S A066920 1,1,2,2,2,3,4,4,6,7,7,9,11,12,15,18,19,23,26,28,34,39,42,49,56,60,69,
 %T A066920 79,85,97,110,118,133,150,162,181,203,219,243,271,292,323,359,387,425,
 %U A066920 471,507,554,612,659,719,791,851,924,1012,1089,1179,1289,1386,1497,1630
 %N A066920 Number of partitions of n into lucky parts.
 %H A066920 V. Gardiner, R. Lazarus, N. Metropolis, and S. Ulam, <a href="https://www.jstor.org/stable/3029719">On certain sequences of integers defined by sieves</a>, Mathematics Magazine, 29(3) (1955), 117-122.
-%H A066920 OEIS, <a href="http://oeis.org/wiki/Lucky_numbers">Lucky numbers</a>.
+%H A066920 OEIS, <a href="https://oeis.org/wiki/Lucky_numbers">Lucky numbers</a>.
 %H A066920 Hugo van der Sanden, <a href="https://github.com/hvds/seq/tree/master/lucky">C code to calculate lucky numbers for A000959</a>.
 %H A066920 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/LuckyNumber.html">Lucky number</a>.
 %H A066920 Wikipedia, <a href="http://en.wikipedia.org/wiki/Lucky_number">Lucky number</a>.

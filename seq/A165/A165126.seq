@@ -1,8 +1,8 @@
-%I A165126 #4 Mar 30 2012 17:28:44
+%I A165126 #6 Jul 22 2025 07:20:03
 %S A165126 0,16,2256,31596672,34960,26531651360,14560721001508880,
 %T A165126 8724454714749973651840,108401672318914272,711223428647787942432,
 %U A165126 16513410921312,278474880,4754966263206652084045296,183696
-%N A165126 Consider the base-9 Kaprekar map x->K(x) described in A165110. Sequence gives the smallest number that belongs to a cycle of length n under repeated iteration of this map, or -1 if there is no cycle of length n
+%N A165126 Consider the base-9 Kaprekar map x->K(x) described in A165110. Sequence gives the smallest number that belongs to a cycle of length n under repeated iteration of this map, or -1 if there is no cycle of length n.
 %C A165126 Known values (to 70 base-9 digits):
 %C A165126 a(1) = 0 (base 10) = 0 (base 9)
 %C A165126 a(2) = 16 (base 10) = 17 (base 9)

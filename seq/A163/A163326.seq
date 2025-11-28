@@ -1,10 +1,10 @@
-%I A163326 #20 Sep 27 2020 02:38:05
+%I A163326 #21 Nov 10 2025 21:50:39
 %S A163326 0,0,0,1,1,1,2,2,2,0,0,0,1,1,1,2,2,2,0,0,0,1,1,1,2,2,2,3,3,3,4,4,4,5,
 %T A163326 5,5,3,3,3,4,4,4,5,5,5,3,3,3,4,4,4,5,5,5,6,6,6,7,7,7,8,8,8,6,6,6,7,7,
 %U A163326 7,8,8,8,6,6,6,7,7,7,8,8,8,0,0,0,1,1,1,2,2,2,0,0,0,1,1,1,2,2,2,0,0,0
 %N A163326 Pick digits at the odd distance from the least significant end of the ternary expansion of n, then convert back to decimal.
 %H A163326 Antti Karttunen, <a href="/A163326/b163326.txt">Table of n, a(n) for n = 0..728</a>
-%H A163326 Kevin Ryde, <a href="http://oeis.org/plot2a?name1=A163325&amp;name2=A163326&amp;tform1=untransformed&amp;tform2=untransformed&amp;shift=0&amp;radiop1=xy&amp;drawpoints=true&amp;drawlines=true">Plot2 of X=A163325,Y=A163326</a>, illustrating the ternary Z-order curve.
+%H A163326 Kevin Ryde, <a href="https://oeis.org/plot2a?name1=A163325&amp;name2=A163326&amp;tform1=untransformed&amp;tform2=untransformed&amp;shift=0&amp;radiop1=xy&amp;drawpoints=true&amp;drawlines=true">Plot2 of X=A163325,Y=A163326</a>, illustrating the ternary Z-order curve.
 %H A163326 <a href="/index/Con#coordinates_2D_curves">Index entries for sequences related to coordinates of 2D curves</a>
 %F A163326 a(n) = A163325(floor(n/3))
 %F A163326 a(n) = Sum_{k>=0} A030341(n,k)*b(k) with (b) = (0,1,0,3,0,9,0,27,0,81,0,243,0,...): powers of 3 alternating with zeros. - _Philippe Deléham_, Oct 22 2011

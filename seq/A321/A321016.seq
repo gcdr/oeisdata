@@ -1,8 +1,8 @@
-%I A321016 #13 Nov 10 2018 17:14:01
+%I A321016 #15 Apr 07 2025 13:45:49
 %S A321016 1,0,1,0,1,1,0,0,0,1,0,0,1,0,1,0,0,1,0,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,
 %T A321016 0,1,0,0,0,1,1,0,0,0,1,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,1,0,0,
 %U A321016 0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,1,0,0,0,0,0,0,1
-%N A321016 Triangle read by rows: number of partitions of n into distinct and consecutive parts with largest part k (n >= 1, 1 <= k <= n)..
+%N A321016 Triangle read by rows: number of partitions of n into distinct and consecutive parts with largest part k (n >= 1, 1 <= k <= n).
 %C A321016 Suggested by A321440.
 %e A321016 Triangle begins:
 %e A321016 [1]

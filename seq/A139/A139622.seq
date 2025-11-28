@@ -1,10 +1,10 @@
-%I A139622 #24 Jan 14 2022 19:45:20
+%I A139622 #25 Nov 05 2025 15:22:06
 %S A139622 1,1,1,1,2,1,1,6,4,1,1,10,19,6,1,1,19,73,59,9,1,1,28,208,350,138,12,1,
 %T A139622 1,44,534,1670,1361,301,16,1,1,60,1215,6476,9724,4364,575,20,1,1,85,
 %U A139622 2542,21898,55707,45284,12131,1042,25,1,1,110,4951,65789,268329,365063,175416,30090,1749,30,1
 %N A139622 Triangle read by rows: T(n,k) is the number of strongly connected directed multigraphs with loops, with n arcs and k vertices.
 %H A139622 Andrew Howroyd, <a href="/A139622/b139622.txt">Table of n, a(n) for n = 1..820</a> (rows 1..40)
-%H A139622 R. J. Mathar, <a href="http://arxiv.org/abs/1709.09000">Statistics on Small Graphs</a>, arXiv:1709.09000 (2017) Table 73.
+%H A139622 R. J. Mathar, <a href="https://arxiv.org/abs/1709.09000">Statistics on Small Graphs</a>, arXiv:1709.09000 (2017) Table 73.
 %F A139622 T(n,1) = T(n,n) = 1.
 %F A139622 T(n,2) = A139621(n,2) - n(n+1)/2.
 %e A139622 Triangle begins:

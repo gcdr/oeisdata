@@ -1,8 +1,8 @@
-%I A233682 #4 Dec 14 2013 16:21:21
+%I A233682 #6 Jun 02 2025 08:57:23
 %S A233682 48,184,184,648,928,648,2440,4448,4448,2440,8712,23568,28544,23568,
 %T A233682 8712,32456,117744,216592,216592,117744,32456,116872,621904,1500800,
 %U A233682 2442208,1500800,621904,116872,432456,3145968,11482368,25036784,25036784
-%N A233682 T(n,k)=Number of (n+1)X(k+1) 0..3 arrays with every 2X2 subblock having the sum of the squares of the edge differences equal to 6 (6 maximizes T(1,1))
+%N A233682 T(n,k)=Number of (n+1)X(k+1) 0..3 arrays with every 2X2 subblock having the sum of the squares of the edge differences equal to 6 (6 maximizes T(1,1)).
 %C A233682 Table starts
 %C A233682 ......48.......184.........648..........2440............8712.............32456
 %C A233682 .....184.......928........4448.........23568..........117744............621904

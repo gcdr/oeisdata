@@ -1,4 +1,4 @@
-%I A074379 #34 Apr 23 2022 22:58:20
+%I A074379 #35 Nov 03 2025 13:12:56
 %S A074379 41041,62745,63973,75361,101101,126217,172081,188461,278545,340561,
 %T A074379 449065,552721,656601,658801,670033,748657,838201,852841,997633,
 %U A074379 1033669,1082809,1569457,1773289,2100901,2113921,2433601,2455921
@@ -6,7 +6,7 @@
 %C A074379 Original name was: "Super-Carmichael numbers with exactly 4 factors", and a comment explained that the prefix "super" means that the Moebius function (A008683) equals mu(N) = +1 for these. But for squarefree numbers such as Carmichael numbers (A002997), this just means that they have an even number of prime factors, which is trivial if that number is 4.
 %C A074379 In the literature there are other definitions of "super-Carmichael numbers", see the McIntosh and Meštrović references, so we prefer not to use this terminology at all.
 %H A074379 R. J. Mathar and Amiram Eldar, <a href="/A074379/b074379.txt">Table of n, a(n) for n = 1..10000</a> (terms 1..6042 from R. J. Mathar)
-%H A074379 Richard J. McIntosh <a href="https://www.emis.de/journals/INTEGERS/papers/o59/o59.Abstract.html">Carmichael numbers with (p + 1) | (n - 1)</a>, Integers 14 (2014) #A59.
+%H A074379 Richard J. McIntosh <a href="http://www.integers-ejcnt.org/o59/o59.Abstract.html">Carmichael numbers with (p + 1) | (n - 1)</a>, Integers 14 (2014) #A59.
 %H A074379 Romeo Meštrović, <a href="https://arxiv.org/abs/1305.1867">Generalizations of Carmichael numbers I</a>, arXiv:1305.1867, May 04 2013
 %F A074379 Intersection of A002997 (Carmichael numbers) and A046386 (product of four distinct primes). - _M. F. Hasler_, Mar 24 2022
 %e A074379 41041 = 7 * 11 * 13 * 41.

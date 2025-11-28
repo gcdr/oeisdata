@@ -1,4 +1,4 @@
-%I A182105 #93 Aug 06 2024 10:26:16
+%I A182105 #103 Nov 11 2025 14:44:16
 %S A182105 1,1,2,1,1,2,4,1,1,2,1,1,2,4,8,1,1,2,1,1,2,4,1,1,2,1,1,2,4,8,16,1,1,2,
 %T A182105 1,1,2,4,1,1,2,1,1,2,4,8,1,1,2,1,1,2,4,1,1,2,1,1,2,4,8,16,32,1,1,2,1,
 %U A182105 1,2,4,1,1,2,1,1,2,4,8,1,1,2,1,1,2,4,1,1,2,1,1,2,4,8,16,1,1,2,1,1,2,4,1,1,2,1,1,2,4,8
@@ -9,8 +9,8 @@
 %D A182105 Donald E. Knuth, The Art of Computer Programming, Addison-Wesley (2015) Vol. 4, Fascicle 6, Satisfiability, p. 80, Eq. (130).
 %H A182105 N. J. A. Sloane, <a href="/A182105/b182105.txt">Table of n, a(n) for n = 1..10000</a>
 %H A182105 Filip Bártek, Karel Chvalovský, and Martin Suda, <a href="https://arxiv.org/abs/2403.12869">Regularization in Spider-Style Strategy Discovery and Schedule Construction</a>, arXiv:2403.12869 [cs.AI], 2024. See p. 5.
-%H A182105 Michael Luby Alistair, Alistair Sinclair, and David Zuckerman, <a href="https://citeseerx.ist.psu.edu/pdf/3240392cf2a4405031257383e3202cb020749449">Optimal speedup of Las Vegas algorithms</a>, Info. Processing Lett., 47 (1993), 173-180.
-%H A182105 Laurent Orseau, Levi H. S. Lelis, Tor Lattimore, Théophane Weber, <a href="https://arxiv.org/abs/1811.10928">Single-Agent Policy Tree Search With Guarantees</a>, arXiv:1811.10928 [cs.AI], 2018, also in Advances in Neural Information Processing Systems, 32nd Conference on Neural Information Processing Systems (NIPS 2018), Montréal, Canada.
+%H A182105 Michael Luby, Alistair Sinclair, and David Zuckerman, <a href="https://citeseerx.ist.psu.edu/pdf/3240392cf2a4405031257383e3202cb020749449">Optimal speedup of Las Vegas algorithms</a>, Info. Processing Lett., 47 (1993), 173-180.
+%H A182105 Laurent Orseau, Levi H. S. Lelis, Tor Lattimore, and Théophane Weber, <a href="https://arxiv.org/abs/1811.10928">Single-Agent Policy Tree Search With Guarantees</a>, arXiv:1811.10928 [cs.AI], 2018; also in Advances in Neural Information Processing Systems, 32nd Conference on Neural Information Processing Systems (NIPS 2018), Montréal, Canada.
 %F A182105 The following two constructions are given by Knuth:
 %F A182105 (a) a(1) = 1; thereafter a(n+1) = 2a(n) if a(n) has already occurred an even number of times, otherwise a(n+1) = 1.
 %F A182105 (b) Set (u_1, v_1) = (1, 1), thereafter (u_{n+1}, v_{n+1}) = ( A ? B : C)
@@ -21,28 +21,28 @@
 %F A182105 Then v_n = A182105, u_n = A046699 minus first term.
 %F A182105 a(n) = 2^(A082850(n)-1). - _Laurent Orseau_, Jun 18 2019
 %e A182105 Using construction (b), the initial values n, u_n, v_n are:
-%e A182105 1, 1, 1
-%e A182105 2, 2, 1
-%e A182105 3, 2, 2
-%e A182105 4, 3, 1
-%e A182105 5, 4, 1
-%e A182105 6, 4, 2
-%e A182105 7, 4, 4
-%e A182105 8, 5, 1
-%e A182105 9, 6, 1
-%e A182105 10, 6, 2
-%e A182105 11, 7, 1
-%e A182105 12, 8, 1
-%e A182105 13, 8, 2
-%e A182105 14, 8, 4
-%e A182105 15, 8, 8
-%e A182105 16, 9, 1
-%e A182105 17, 10, 1
-%e A182105 18, 10, 2
-%e A182105 19, 11, 1
-%e A182105 20, 12, 1
-%e A182105 ...
-%e A182105 From _Omar E. Pol_, Set 03 2013: (Start)
+%e A182105   1, 1, 1
+%e A182105   2, 2, 1
+%e A182105   3, 2, 2
+%e A182105   4, 3, 1
+%e A182105   5, 4, 1
+%e A182105   6, 4, 2
+%e A182105   7, 4, 4
+%e A182105   8, 5, 1
+%e A182105   9, 6, 1
+%e A182105   10, 6, 2
+%e A182105   11, 7, 1
+%e A182105   12, 8, 1
+%e A182105   13, 8, 2
+%e A182105   14, 8, 4
+%e A182105   15, 8, 8
+%e A182105   16, 9, 1
+%e A182105   17, 10, 1
+%e A182105   18, 10, 2
+%e A182105   19, 11, 1
+%e A182105   20, 12, 1
+%e A182105   ...
+%e A182105 From _Omar E. Pol_, Sep 03 2013: (Start)
 %e A182105 Illustration of initial terms (first 2^5-1 terms):
 %e A182105 Written as an irregular triangle: T(j,k) is also the length of the k-th column in the j-th region of the diagram, as shown below. Note that the j-th row of the diagram is equivalent to the j-th composition (in colexicographic order) of 5 (cf. A228525):
 %e A182105 ------------------------------------

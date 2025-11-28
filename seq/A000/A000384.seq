@@ -1,4 +1,4 @@
-%I A000384 M4108 N1705 #472 Feb 16 2025 08:32:21
+%I A000384 M4108 N1705 #507 Nov 26 2025 15:59:31
 %S A000384 0,1,6,15,28,45,66,91,120,153,190,231,276,325,378,435,496,561,630,703,
 %T A000384 780,861,946,1035,1128,1225,1326,1431,1540,1653,1770,1891,2016,2145,
 %U A000384 2278,2415,2556,2701,2850,3003,3160,3321,3486,3655,3828,4005,4186,4371,4560
@@ -21,7 +21,6 @@
 %C A000384 a(n) is the number of positions of one domino in an even pyramidal board with base 2n. - _César Eliud Lozada_, Sep 26 2012
 %C A000384 Partial sums give A002412. - _Omar E. Pol_, Jan 12 2013
 %C A000384 Let a triangle have T(0,0) = 0 and T(r,c) = |r^2 - c^2|. The sum of the differences of the terms in row(n) and row(n-1) is a(n). - _J. M. Bergot_, Jun 17 2013
-%C A000384 a(n+1) = A128918(2*n+1). - _Reinhard Zumkeller_, Oct 13 2013
 %C A000384 With T_(i+1,i)=a(i+1) and all other elements of the lower triangular matrix T zero, T is the infinitesimal generator for A176230, analogous to A132440 for the Pascal matrix. - _Tom Copeland_, Dec 11 2013
 %C A000384 a(n) is the number of length 2n binary sequences that have exactly two 1's. a(2) = 6 because we have: {0,0,1,1}, {0,1,0,1}, {0,1,1,0}, {1,0,0,1}, {1,0,1,0}, {1,1,0,0}. The ordinary generating function with interpolated zeros is: (x^2 + 3*x^4)/(1-x^2)^3. - _Geoffrey Critzer_, Jan 02 2014
 %C A000384 For n > 0, a(n) is the largest integer k such that k^2 + n^2 is a multiple of k + n. More generally, for m > 0 and n > 0, the largest integer k such that k^(2*m) + n^(2*m) is a multiple of k + n is given by k = 2*n^(2*m) - n. - _Derek Orr_, Sep 04 2014
@@ -36,23 +35,26 @@
 %C A000384 See A002939(n) = 2*a(n) for the corresponding perimeters. - _M. F. Hasler_, Mar 09 2020
 %C A000384 It appears that these are the numbers k with the property that the smallest subpart in the symmetric representation of sigma(k) is 1. - _Omar E. Pol_, Aug 28 2021
 %C A000384 The above conjecture is true. See A280851 for a proof.  - _Hartmut F. W. Hoft_, Feb 02 2022
-%C A000384 The n-th hexagonal number equals the sum of the n consecutive integers with the same parity starting at 2*n-1; for example, 1, 2+4, 3+5+7, 4+6+8+10, etc. In general, the n-th 2k-gonal number is the sum of the n consecutive integers with the same parity starting at (k-2)*n - (k-3). When k = 1 and 2, this result generates the positive integers, A000027, and the squares, A000290, respectively. - _Charlie Marion_, Mar 02 2022
+%C A000384 The n-th hexagonal number equals the sum of the n consecutive integers with the same parity starting at n; for example, 1, 2+4, 3+5+7, 4+6+8+10, etc. In general, the n-th 2k-gonal number is the sum of the n consecutive integers with the same parity starting at (k-2)*n - (k-3). When k = 1 and 2, this result generates the positive integers, A000027, and the squares, A000290, respectively. - _Charlie Marion_, Mar 02 2022
 %C A000384 Conjecture: For n>0, min{k such that there exist subsets A,B of {0,1,2,...,a(n)} such that |A|=|B|=k and A+B={0,1,2,...,2*a(n)}} = 2*n. - _Michael Chu_, Mar 09 2022
 %D A000384 Albert H. Beiler, Recreations in the Theory of Numbers, Dover, NY, 1964, p. 189.
 %D A000384 Louis Comtet, Advanced Combinatorics, Reidel, 1974, pp. 77-78. (In the integral formula on p. 77 a left bracket is missing for the cosine argument.)
-%D A000384 E. Deza and M. M. Deza, Figurate numbers, World Scientific Publishing (2012), page 6.
+%D A000384 John H. Conway and Richard K. Guy, The Book of Numbers, New York: Springer-Verlag, 1996. See p. 38.
+%D A000384 Elena Deza and Michel Marie Deza, Figurate numbers, World Scientific Publishing (2012), pages 2, 6, 92.
 %D A000384 L. E. Dickson, History of the Theory of Numbers. Carnegie Institute Public. 256, Washington, DC, Vol. 1, 1919; Vol. 2, 1920; Vol. 3, 1923, see vol. 2, p. 2.
+%D A000384 Alfred S. Posamentier, Math Charmers, Tantalizing Tidbits for the Mind, Prometheus Books, NY, 2003, pages 53-54, 129-130, 132.
 %D A000384 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
 %D A000384 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A000384 James J. Tattersall, Elementary Number Theory in Nine Chapters, Cambridge University Press, 1999, page 21.
 %D A000384 David Wells, The Penguin Dictionary of Curious and Interesting Numbers. Penguin Books, NY, 1986, Revised edition 1987. See pp. 122-123.
 %H A000384 Daniel Mondot, <a href="/A000384/b000384.txt">Table of n, a(n) for n = 0..10000</a> (first 1000 terms by T. D. Noe)
-%H A000384 C. K. Cook and M. R. Bacon, <a href="https://web.archive.org/web/2024*/https://www.fq.math.ca/Papers1/52-4/CookBacon4292014.pdf">Some polygonal number summation formulas</a>, Fib. Q., 52 (2014), 336-343.
+%H A000384 C. K. Cook and M. R. Bacon, <a href="https://www.fq.math.ca/Papers1/52-4/CookBacon4292014.pdf">Some polygonal number summation formulas</a>, Fib. Q., 52 (2014), 336-343.
 %H A000384 Elena Deza and Michel Deza, <a href="https://www.fields.utoronto.ca/programs/scientific/11-12/Mtl-To-numbertheory/slides/Deza.pdf">Figurate Numbers: presentation of a book</a>, 3rd Montreal-Toronto Workshop in Number Theory, October 7-9, 2011.
 %H A000384 Anicius Manlius Severinus Boethius, <a href="https://archive.org/stream/aniciimanliitor01friegoog#page/n114/mode/2up">De institutione arithmetica</a>, Book 2, section 15.
-%H A000384 Jonathan M. Borwein, Dirk Nuyens, Armin Straub and James Wan, <a href="http://www.carmamaths.org/resources/jon/walks.pdf">Random Walk Integrals</a>, The Ramanujan Journal, October 2011, 26:109. DOI: 10.1007/s11139-011-9325-y.
+%H A000384 Jonathan M. Borwein, Dirk Nuyens, Armin Straub, and James Wan, <a href="https://www.carmamaths.org/resources/jon/walks.pdf">Random Walk Integrals</a>, Ramanujan J. (October 2011) Vol. 26, No. 109. See also <a href="https://doi.org/10.1080/10586458.2013.748379">Taylor & Francis</a>.
 %H A000384 Cesar Ceballos and Viviane Pons, <a href="https://arxiv.org/abs/2309.14261">The s-weak order and s-permutahedra II: The combinatorial complex of pure intervals</a>, arXiv:2309.14261 [math.CO], 2023. See p. 41.
 %H A000384 Paul Cooijmans, <a href="http://web.archive.org/web/20050302174449/http://members.chello.nl/p.cooijmans/gliaweb/tests/odds.html">Odds</a>.
-%H A000384 Tom Copeland, <a href="http://tcjpn.wordpress.com/2012/11/29/infinigens-the-pascal-pyramid-and-the-witt-and-virasoro-algebras/">Infinitesimal Generators, the Pascal Pyramid, and the Witt and Virasoro Algebras</a>.
+%H A000384 Tom Copeland, <a href="https://tcjpn.wordpress.com/2012/11/29/infinigens-the-pascal-pyramid-and-the-witt-and-virasoro-algebras/">Infinitesimal Generators, the Pascal Pyramid, and the Witt and Virasoro Algebras</a>, Shadows of Simplicity (blog), November 2012.
 %H A000384 Olivier Danvy, <a href="https://arxiv.org/abs/2412.03127">Summa Summarum: Moessner's Theorem without Dynamic Programming</a>, arXiv:2412.03127 [cs.DM], 2024. See p. 33.
 %H A000384 Tomislav Došlić and Luka Podrug, <a href="https://arxiv.org/abs/2304.12121">Sweet division problems: from chocolate bars to honeycomb strips and back</a>, arXiv:2304.12121 [math.CO], 2023.
 %H A000384 Jose Manuel Garcia Calcines, Luis Javier Hernandez Paricio, and Maria Teresa Rivas Rodriguez, <a href="https://arxiv.org/abs/2307.13749">Semi-simplicial combinatorics of cyclinders and subdivisions</a>, arXiv:2307.13749 [math.CO], 2023. See p. 32.
@@ -63,14 +65,15 @@
 %H A000384 Clark Kimberling, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL10/Kimberling/kimberling26.html">Complementary Equations</a>, Journal of Integer Sequences, Vol. 10 (2007), Article 07.1.4.
 %H A000384 Hyun Kwang Kim, <a href="http://dx.doi.org/10.1090/S0002-9939-02-06710-2">On Regular Polytope Numbers</a>, Proc. Amer. Math. Soc., 131 (2002), 65-75.
 %H A000384 Peter D. Loly and Ian D. Cameron, <a href="https://arxiv.org/abs/2008.11020">Frierson's 1907 Parameterization of Compound Magic Squares Extended to Orders 3^L, L = 1, 2, 3, ..., with Information Entropy</a>, arXiv:2008.11020 [math.HO], 2020.
+%H A000384 Adriana Mora and Eric Bravo, <a href="https://doi.org/10.7546/nntdm.2025.31.4.819-828">On b-repdigit polygonal numbers</a>, Notes Num. Theory Disc. Math. (2025) Vol. 31, No. 4, 819-828. See p. 820, Table 2.
 %H A000384 Simon Plouffe, <a href="https://arxiv.org/abs/0911.4975">Approximations de séries génératrices et quelques conjectures</a>, Dissertation, Université du Québec à Montréal, 1992; arXiv:0911.4975 [math.NT], 2009.
 %H A000384 Simon Plouffe, <a href="/A000051/a000051_2.pdf">1031 Generating Functions</a>, Appendix to Thesis, Montreal, 1992.
 %H A000384 Omar E. Pol, <a href="http://www.polprimos.com/imagenespub/polnum01.jpg">Illustration of initial terms of A000217, A000290, A000326, A000384, A000566, A000567</a>.
 %H A000384 Amelia Carolina Sparavigna, <a href="https://doi.org/10.5281/zenodo.3471358">The groupoids of Mersenne, Fermat, Cullen, Woodall and other Numbers and their representations by means of integer sequences</a>, Politecnico di Torino, Italy (2019), [math.NT].
 %H A000384 Amelia Carolina Sparavigna, <a href="https://doi.org/10.5281/zenodo.3470205">The groupoid of the Triangular Numbers and the generation of related integer sequences</a>, Politecnico di Torino, Italy (2019).
-%H A000384 J. C. Su, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL10/Su/su.html">On some properties of two simultaneous polygonal sequences</a>, JIS 10 (2007) 07.10.4, example 4.6.
+%H A000384 Joseph C. Su, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL10/Su/su.html">On some properties of two simultaneous polygonal sequences</a>, JIS 10 (2007) 07.10.4, example 4.6.
 %H A000384 Leo Tavares, <a href="/A000384/a000384.jpg">Illustration: Rectangles</a>.
-%H A000384 A. J. Turner and J. F. Miller, <a href="http://andrewjamesturner.co.uk/files/YDS2014.pdf">Recurrent Cartesian Genetic Programming Applied to Famous Mathematical Sequences</a>, 2014.
+%H A000384 Andrew James Turner and Julian Francis Miller, <a href="http://andrewjamesturner.co.uk/files/YDS2014.pdf">Recurrent Cartesian Genetic Programming Applied to Famous Mathematical Sequences</a>, 2014.
 %H A000384 Michel Waldschmidt, <a href="http://webusers.imj-prg.fr/~michel.waldschmidt/articles/pdf/ContinuedFractionsOujda2015.pdf">Continued fractions</a>, Ecole de recherche CIMPA-Oujda, Théorie des Nombres et ses Applications, 18 - 29 mai 2015:  Oujda (Maroc).
 %H A000384 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/CocktailPartyGraph.html">Cocktail Party Graph</a>.
 %H A000384 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/DominatingSet.html">Dominating Set</a>.
@@ -99,6 +102,7 @@
 %F A000384 a(n+1) = A045896(2*n). - _Reinhard Zumkeller_, Dec 12 2011
 %F A000384 a(2^n) = 2^(2n+1) - 2^n. - _Ivan N. Ianakiev_, Apr 13 2013
 %F A000384 a(n) = binomial(2*n,2). - _Gary Detlefs_, Jul 28 2013
+%F A000384 a(n+1) = A128918(2*n+1). - _Reinhard Zumkeller_, Oct 13 2013
 %F A000384 a(4*a(n)+7*n+1) =  a(4*a(n)+7*n) + a(4*n+1). - _Vladimir Shevelev_, Jan 24 2014
 %F A000384 Sum_{n>=1} 1/a(n) = 2*log(2) = 1.38629436111989...= A016627. - _Vaclav Kotesovec_, Apr 27 2016
 %F A000384 Sum_{n>=1} (-1)^n/a(n) = log(2) - Pi/2. - _Vaclav Kotesovec_, Apr 20 2018
@@ -136,7 +140,7 @@
 %Y A000384 a(n) = A100345(n, n-1) for n>0.
 %Y A000384 Cf. A002939 (twice a(n): sums of Pythagorean triples (X, Y, Z=Y+1)).
 %Y A000384 Cf. A280851.
-%K A000384 nonn,easy,nice
+%K A000384 nonn,easy,nice,changed
 %O A000384 0,3
 %A A000384 _N. J. A. Sloane_
 %E A000384 Partially edited by _Joerg Arndt_, Mar 11 2010

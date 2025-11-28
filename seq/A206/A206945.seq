@@ -1,8 +1,8 @@
-%I A206945 #28 May 10 2021 02:07:37
+%I A206945 #30 Jun 02 2025 07:40:05
 %S A206945 3,7,11,13,31,43,61,73,127,151,157,211,241,307,331,421,463,521,547,
 %T A206945 601,683,757,1093,1123,1483,1723,2551,2731,2801,2971,3307,3541,3907,
 %U A206945 4423,4561,4831,5113,5419,5701,6007,6163,6481,8011,8191,9091,9901,10303,11131
-%N A206945 Prime numbers Phi(k,m) with integer k > 2, |m| > 1, and k != 2^j (j > 1)
+%N A206945 Prime numbers Phi(k,m) with integer k > 2, |m| > 1, and k != 2^j (j > 1).
 %C A206945 Phi(k,m) denotes the cyclotomic polynomial numbers Cyclotomic(k,m).
 %C A206945 These are the prime terms of A206944.
 %C A206945 A059055 is a subsequence of this sequence.

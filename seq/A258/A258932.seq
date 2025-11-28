@@ -1,7 +1,8 @@
-%I A258932 #21 Sep 08 2022 08:46:13
+%I A258932 #25 Apr 28 2025 07:12:55
 %S A258932 1,3,4,5,7,9,10,11,27,35,85,169,209,221,321,347,603,610,1229,1391,
 %T A258932 2171,2303,2679,3977,4545,5721,7090,35877
-%N A258932 Numbers n such that 10^n + 103 is prime.
+%N A258932 Numbers k such that 10^k + 103 is prime.
+%C A258932 a(29) > 60000. - _Michael S. Branicky_, Apr 27 2025
 %e A258932 For n = 3, a(3) = 10^3 + 103 = 1103, which is prime.
 %t A258932 Select[Range[5000], PrimeQ[10^# + 103] &]
 %o A258932 (Magma) [n: n in [1..600] | IsPrime(10^n+103)];

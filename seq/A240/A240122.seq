@@ -1,7 +1,7 @@
-%I A240122 #11 Apr 05 2014 22:25:09
+%I A240122 #14 Nov 05 2025 15:22:26
 %S A240122 0,0,0,0,1,2,12,40,154,760,3260,22730
-%N A240122 Number of inequivalent ways to cut an n X n square into squares with integer sides, such that the dissection has 90-degree rotational symmetry and no reflective symmetry
-%H A240122 Ed Wynn, <a href="http://arxiv.org/abs/1308.5420">Exhaustive generation of Mrs Perkins's quilt square dissections for low orders</a>, arXiv:1308.5420
+%N A240122 Number of inequivalent ways to cut an n X n square into squares with integer sides, such that the dissection has 90-degree rotational symmetry and no reflective symmetry.
+%H A240122 Ed Wynn, <a href="https://arxiv.org/abs/1308.5420">Exhaustive generation of Mrs Perkins's quilt square dissections for low orders</a>, arXiv:1308.5420
 %e A240122 The two dissections for n=6:
 %e A240122 -------------    -------------
 %e A240122 | |   | | | |    | |   | | | |

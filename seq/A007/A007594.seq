@@ -1,4 +1,4 @@
-%I A007594 M4150 #18 Mar 12 2016 12:35:39
+%I A007594 M4150 #22 Jul 08 2025 17:05:30
 %S A007594 6,21,325,1950625
 %N A007594 Smallest n-hyperperfect number: m such that m=n(sigma(m)-m-1)+1; or 0 if no such number exists.
 %C A007594 _Jud McCranie_ reports that the following terms are known:
@@ -12,4 +12,4 @@
 %H A007594 Daniel Minoli, <a href="http://dx.doi.org/10.1090/S0025-5718-1980-0559206-9">Issues In Non-Linear Hyperperfect Numbers</a>, Mathematics of Computation, Vol. 34, No. 150, April 1980, pp. 639-645.
 %K A007594 nonn
 %O A007594 1,1
-%A A007594 _N. J. A. Sloane_.
+%A A007594 _N. J. A. Sloane_

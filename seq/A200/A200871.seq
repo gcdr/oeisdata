@@ -1,8 +1,8 @@
-%I A200871 #10 Mar 05 2014 07:43:26
+%I A200871 #14 Oct 03 2025 08:50:47
 %S A200871 6,17,10,36,37,16,65,94,77,26,106,195,236,163,42,161,356,567,602,343,
 %T A200871 68,232,595,1168,1673,1528,723,110,321,932,2163,3886,4917,3882,1523,
 %U A200871 178,430,1389,3704,7973,12890,14455,9858,3209,288,561,1990,5973,14932,29325
-%N A200871 T(n,k)=Number of 0..k arrays x(0..n+1) of n+2 elements without any interior element greater than both neighbors or less than both neighbors
+%N A200871 T(n,k)=Number of 0..k arrays x(0..n+1) of n+2 elements without any interior element greater than both neighbors or less than both neighbors.
 %C A200871 Table starts
 %C A200871 ...6....17.....36......65.....106......161......232.......321.......430
 %C A200871 ..10....37.....94.....195.....356......595......932......1389......1990
@@ -43,4 +43,4 @@
 %Y A200871 Row 1 is A084990(n+1)
 %K A200871 nonn,tabl
 %O A200871 1,1
-%A A200871 _R. H. Hardin_ Nov 23 2011
+%A A200871 _R. H. Hardin_, Nov 23 2011

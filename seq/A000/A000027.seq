@@ -1,4 +1,4 @@
-%I A000027 M0472 N0173 #684 Feb 16 2025 08:32:18
+%I A000027 M0472 N0173 #695 Nov 02 2025 13:55:53
 %S A000027 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,
 %T A000027 27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,
 %U A000027 50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77
@@ -59,6 +59,7 @@
 %C A000027 (1, 2, 3, 4, 5, ...) is the fourth INVERT transform of (1, -2, 3, -4, 5, ...). - _Gary W. Adamson_, Jul 15 2019
 %D A000027 T. M. Apostol, Introduction to Analytic Number Theory, Springer-Verlag, 1976, page 1.
 %D A000027 T. M. Apostol, Modular Functions and Dirichlet Series in Number Theory, Springer-Verlag, 1990, page 25.
+%D A000027 John H. Conway and Richard K. Guy, The Book of Numbers, New York: Springer-Verlag, 1996. See p. 22.
 %D A000027 W. Fulton and J. Harris, Representation theory: a first course, (1991), page 149. [From _Leonid Bedratyuk_, Jan 04 2010]
 %D A000027 I. S. Gradstein and I. M. Ryshik, Tables of series, products, and integrals, Volume 1, Verlag Harri Deutsch, 1981.
 %D A000027 R. E. Schwartz, You Can Count on Monsters: The First 100 numbers and Their Characters, A. K. Peters and MAA, 2010.
@@ -79,7 +80,7 @@
 %H A000027 M. DeLong, M. Russell, and J. Schrock, <a href="http://dx.doi.org/10.2140/involve.2015.8.361">Colorability and determinants of T(m,n,r,s) twisted torus knots for n equiv. +/-1(mod m)</a>, Involve, Vol. 8 (2015), No. 3, 361-384.
 %H A000027 Walter Felscher, <a href="http://sunsite.utk.edu/math_archives/.http/hypermail/historia/may99/0210.html">Historia Matematica Mailing List Archive.</a>
 %H A000027 P. Flajolet and R. Sedgewick, <a href="http://algo.inria.fr/flajolet/Publications/books.html">Analytic Combinatorics</a>, 2009; see page 371.
-%H A000027 Robert R. Forslund, <a href="http://www.emis.de/journals/SWJPAM/Vol1_1995/rrf01.ps">A logical alternative to the existing positional number system</a>, Southwest Journal of Pure and Applied Mathematics, Vol. 1 1995 pp. 27-29.
+%H A000027 Robert R. Forslund, <a href="https://www.emis.de/journals/SWJPAM/Vol1_1995/rrf01.ps">A logical alternative to the existing positional number system</a>, Southwest Journal of Pure and Applied Mathematics, Vol. 1 1995 pp. 27-29.
 %H A000027 E. Friedman, <a href="https://erich-friedman.github.io/numbers.html">What's Special About This Number?</a>
 %H A000027 R. K. Guy, <a href="/A000346/a000346.pdf">Letter to N. J. A. Sloane</a>
 %H A000027 Milan Janjic, <a href="http://www.pmfbl.org/janjic/">Enumerative Formulas for Some Functions on Finite Sets</a>

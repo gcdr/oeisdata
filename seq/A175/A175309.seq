@@ -1,13 +1,15 @@
-%I A175309 #61 Jan 08 2025 05:54:23
+%I A175309 #77 Aug 08 2025 20:12:33
 %S A175309 2,3,5,18713,5,683747,17,98303867,13,60335249851,137,1169769749111,
-%T A175309 8021749,3945769040698829,1071065111,159067808851610411,1613902553
+%T A175309 8021749,3945769040698829,1071065111,159067808851610411,1613902553,
+%U A175309 6919940122097246303,1797595814863
 %N A175309 a(n) = the smallest prime prime(k) such that prime(k+j) - prime(k+j-1) = prime(n+k+1-j) - prime(n+k-j) for all j with 1 <= j <= n.
 %C A175309 From _M. F. Hasler_, Apr 02 2010: (Start)
 %C A175309 Also: Start of the first sequence of n+1 consecutive primes symmetrically distributed w.r.t. their barycenter, e.g., [2,3], [3,5,7], [5,7,11,13], [18713, 18719, 18731, 18743, 18749]. With this definition, it would make sense to prefix the sequence with an initial term a(0)=2.
 %C A175309 Sequence A081235 (or A055382, which is essentially the same) consists of every other term of this sequence. (End)
 %C A175309 a(19) = 1797595814863, a(21) = 633925574060671, a(23) = 22930603692243271. - _Tomáš Brada_, May 25 2020
-%H A175309 <a href="/A175309/b175309.txt">Table of n, a(n) for n = 1..17</a>
+%H A175309 Andrew Howroyd, <a href="/A175309/b175309.txt">Table of n, a(n) for n = 1..19</a>
 %H A175309 <a href="http://stop.inferia.ru/">BOINC project</a> to search all up to 2^64
+%H A175309 Symmetric Prime Tuples, <a href="https://boinc.termit.me/adsl/">SPT test project</a>
 %F A175309 a(2n-1) = A081235(n) (= A055382(n) for n>1). - _M. F. Hasler_, Apr 02 2010
 %t A175309 A175309[n_] := Module[{k},
 %t A175309    k = 1; While[! AllTrue[Range[n], Prime[k+#] - Prime[k+#-1] ==
@@ -23,3 +25,4 @@
 %E A175309 Minor edits by _N. J. A. Sloane_, Apr 02 2010
 %E A175309 a(14) from _Dmitry Petukhov_, added by _Max Alekseyev_, Nov 03 2014
 %E A175309 a(16) from BOINC project, added by _Dmitry Petukhov_, Apr 06 2017
+%E A175309 a(18)-a(19) from SPT test project, added by _Dmitry Petukhov_, Mar 16 2025

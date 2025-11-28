@@ -1,10 +1,10 @@
-%I A225147 #51 Jul 07 2021 12:08:28
+%I A225147 #53 Nov 10 2025 21:50:40
 %S A225147 -1,2,5,-46,-205,3362,22265,-515086,-4544185,135274562,1491632525,
 %T A225147 -54276473326,-718181418565,30884386347362,476768795646785,
 %U A225147 -23657073914466766,-417370516232719345,23471059057478981762,465849831125196593045,-29279357851856595135406
 %N A225147 a(n) = Im((1-I)^(1-n)*A_{n, 3}(I)) where A_{n, k}(x) are the generalized Eulerian polynomials.
 %H A225147 Vincenzo Librandi, <a href="/A225147/b225147.txt">Table of n, a(n) for n = 0..300</a>
-%H A225147 Peter Luschny, <a href="http://oeis.org/wiki/User:Peter_Luschny/EulerianPolynomialsGeneralized">Generalized Eulerian polynomials</a>.
+%H A225147 Peter Luschny, <a href="https://oeis.org/wiki/User:Peter_Luschny/EulerianPolynomialsGeneralized">Generalized Eulerian polynomials</a>.
 %F A225147 a(n) = Im(-2*i*(1+Sum_{j=0..n}(binomial(n,j)*Li{-j}(i)*3^j))).
 %F A225147 For a recurrence see the Maple program.
 %F A225147 G.f.: conjecture -T(0)/(1+2*x), where T(k) = 1 - 9*x^2*(k+1)^2/(9*x^2*(k+1)^2 + (1+2*x)^2/T(k+1) ); (continued fraction). - _Sergei N. Gladkovskii_, Nov 12 2013
@@ -23,7 +23,7 @@
 %p A225147 seq(Im((1-I)^(1-n)*EulerianPolynomial(n, 3, I)), n=0..19);
 %t A225147 CoefficientList[Series[-E^(-2*x)*Sech[3*x],{x,0,20}],x] * Range[0,20]! (* _Vaclav Kotesovec_, Sep 29 2014 after _Sergei N. Gladkovskii_ *)
 %t A225147 Table[-6^n EulerE[n,1/6], {n,0,19}] (* _Peter Luschny_, Nov 16 2016 after _Peter Bala_ *)
-%o A225147 (Sage)
+%o A225147 (SageMath)
 %o A225147 from mpmath import mp, polylog, im
 %o A225147 mp.dps = 32; mp.pretty = True
 %o A225147 def A225147(n): return im(-2*I*(1+add(binomial(n,j)*polylog(-j,I)*3^j for j in (0..n))))

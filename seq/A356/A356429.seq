@@ -1,6 +1,6 @@
-%I A356429 #21 Aug 09 2022 15:33:49
+%I A356429 #25 Jul 07 2025 10:52:16
 %S A356429 2,8,48,315,320,6664,135450,273000,518661,519440,519622,148830266,
-%T A356429 558797841,558797968
+%T A356429 558797841,558797968,24900609294
 %N A356429 Smallest m such that A356428(m) = n, or -1 if there is no such m.
 %C A356429 a(n) is the smallest m such that there are exactly n distinct gpf(x)'s in the iterations x -> x - gpf(x) starting at m and ending at 0, where gpf = A006530.
 %C A356429 Conjecture: a(n) != -1 for all n. This would be true if A356428 is unbounded; otherwise, this sequence consists of entirely -1's after some point.
@@ -15,3 +15,4 @@
 %A A356429 _Jianing Song_, Aug 07 2022
 %E A356429 a(12) from _Michael S. Branicky_, Aug 08 2022
 %E A356429 a(13)-a(14) from _David A. Corneth_, Aug 09 2022
+%E A356429 a(15) from _Jinyuan Wang_, Jul 07 2025

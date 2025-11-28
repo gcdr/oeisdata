@@ -1,10 +1,10 @@
-%I A290380 #31 Jun 21 2024 14:18:04
+%I A290380 #33 Nov 06 2025 13:34:03
 %S A290380 1,4,12,36,105,306,889,2584,7515,21880,63778,186132,543855,1590876,
 %T A290380 4658580,13655472,40065243,117654876,345786396,1017040380,2993498739,
 %U A290380 8816790906,25984489545,76625467128,226085062525,667415280376,1971209865654,5824651789852
 %N A290380 Analog of Motzkin sums for Coxeter type D.
 %C A290380 See proposition 3.3 of the Athanasiadis-Savvidou reference.
-%H A290380 Christos A. Athanasiadis and Christina Savvidou, <a href="https://www.emis.de/journals/SLC/wpapers/s66athasav.html">The Local h-Vector of the Cluster Subdivision of a Simplex</a>, Séminaire Lotharingien de Combinatoire 66 (2012), Article B66c.
+%H A290380 Christos A. Athanasiadis and Christina Savvidou, <a href="https://www.mat.univie.ac.at/~slc/wpapers/s66athasav.html">The Local h-Vector of the Cluster Subdivision of a Simplex</a>, Séminaire Lotharingien de Combinatoire 66 (2012), Article B66c.
 %F A290380 a(n) = Sum_{i=1..n/2} (n-2)/i*binomial(2*i-2, i-1)*binomial(n-2, 2*i-2).
 %F A290380 From _Peter Luschny_, Jan 23 2018: (Start)
 %F A290380 a(n) = (n - 2)*hypergeom([1 - n/2, 3/2 - n/2], [2], 4).
@@ -19,7 +19,7 @@
 %t A290380 Table[Sum[(n - 2)/i*Binomial[2i - 2, i - 1] Binomial[n - 2, 2i - 2], {i, n/2}], {n, 3, 50}] (* _Indranil Ghosh_, Jul 29 2017 *)
 %t A290380 a[n_] := (n - 2) Hypergeometric2F1[1 - n/2, 3/2 - n/2, 2, 4];
 %t A290380 Table[a[n], {n, 3, 30}] (* _Peter Luschny_, Jan 23 2018 *)
-%o A290380 (Sage)
+%o A290380 (SageMath)
 %o A290380 def A290380(n):
 %o A290380     return sum(ZZ(n - 2) / i * binomial(2 * i - 2, i - 1) *
 %o A290380                binomial(n - 2, 2 * i - 2)

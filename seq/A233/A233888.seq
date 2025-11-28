@@ -1,8 +1,8 @@
-%I A233888 #4 Dec 17 2013 07:33:33
+%I A233888 #6 Jul 23 2025 08:14:09
 %S A233888 4292,47732,496200,5859504,64285728,759799284,8442821772,99513692668,
 %T A233888 1113177722808,13092724850804,147182159518872,1728448343828392,
 %U A233888 19509469596898344,228854323507171932,2592132414691402368
-%N A233888 Number of (n+1)X(4+1) 0..6 arrays with every 2X2 subblock having the sum of the squares of the edge differences equal to 30, and no two adjacent values equal
+%N A233888 Number of (n+1)X(4+1) 0..6 arrays with every 2X2 subblock having the sum of the squares of the edge differences equal to 30, and no two adjacent values equal.
 %C A233888 Column 4 of A233892
 %H A233888 R. H. Hardin, <a href="/A233888/b233888.txt">Table of n, a(n) for n = 1..210</a>
 %e A233888 Some solutions for n=2

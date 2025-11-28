@@ -1,4 +1,4 @@
-%I A112624 #70 Mar 08 2024 08:07:06
+%I A112624 #71 Sep 22 2025 16:00:48
 %S A112624 1,1,1,2,1,1,1,6,2,1,1,2,1,1,1,24,1,2,1,2,1,1,1,6,2,1,6,2,1,1,1,120,1,
 %T A112624 1,1,4,1,1,1,6,1,1,1,2,2,1,1,24,2,2,1,2,1,6,1,6,1,1,1,2,1,1,2,720,1,1,
 %U A112624 1,2,1,1,1,12,1,1,2,2,1,1,1,24,24,1,1,2,1,1,1,6,1,2,1,2,1,1,1,120,1,2,2,4,1
@@ -22,7 +22,7 @@
 %p A112624 w := n -> op(2, ifactors(n)): a := n -> mul(factorial(w(n)[j][2]), j = 1..nops(w(n))): seq(a(n), n = 1..101); # Emeric Deutsch, May 17 2012
 %t A112624 f[n_] := Block[{fi = Last@Transpose@FactorInteger@n}, Times @@ (fi!)]; Array[f, 101] (* _Robert G. Wilson v_, Dec 27 2005 *)
 %o A112624 (PARI) A112624(n) = { my(f = factor(n), m = 1); for (k=1, #f~, m *= f[k, 2]!; ); m; } \\ _Antti Karttunen_, May 28 2017
-%o A112624 (Sage)
+%o A112624 (SageMath)
 %o A112624 def A112624(n):
 %o A112624     return mul(factorial(s[1]) for s in factor(n))
 %o A112624 [A112624(i) for i in (1..101)]  # _Peter Luschny_, Jun 15 2013

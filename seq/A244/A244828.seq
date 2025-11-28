@@ -1,8 +1,8 @@
-%I A244828 #5 Nov 16 2016 12:30:07
+%I A244828 #7 Jul 23 2025 11:24:11
 %S A244828 5,25,117,573,2833,13785,68311,339839,1677913,8250991,41042033,
 %T A244828 202864491,1010570485,5010240575,24786030031,123527459073,
 %U A244828 613216664859,3059004849315,15214286790073,75565229450871,374920922490613
-%N A244828 Number of length n 0..4 arrays with each partial sum starting from the beginning no more than two standard deviations from its mean
+%N A244828 Number of length n 0..4 arrays with each partial sum starting from the beginning no more than two standard deviations from its mean.
 %C A244828 Column 4 of A244832
 %H A244828 R. H. Hardin, <a href="/A244828/b244828.txt">Table of n, a(n) for n = 1..210</a>
 %e A244828 Some solutions for n=7

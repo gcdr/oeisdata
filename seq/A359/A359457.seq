@@ -1,4 +1,4 @@
-%I A359457 #21 Feb 16 2023 05:34:07
+%I A359457 #24 Mar 24 2025 22:36:01
 %S A359457 0,9,11,99,1,10,9,999999999999999999,1,8,10,1,99,11,9
 %N A359457 Continued fraction for constant A359456.
 %C A359457 It seems that all terms smaller than 100 are identical to the continued fraction terms of Liouville's constant as in A058304.
@@ -8,7 +8,7 @@
 %C A359457 P(a(n) = 9) = 1/8,
 %C A359457 P(a(n) = 10) = 1/8,
 %C A359457 P(a(n) = 11) = 1/8 and
-%C A359457 P(a(n) = 10^A359458(m-1)-1 = 2^-(m+1) for m > 1.
+%C A359457 P(a(n) = 10^A359458(m-1)-1) = 2^-(m+1) for m > 1.
 %F A359457 a(n) = 1 if and only if n in A317331,
 %F A359457 a(n) = 8 if and only if n in A317332,
 %F A359457 a(n) = 9 if and only if n in A317333,

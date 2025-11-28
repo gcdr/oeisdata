@@ -1,4 +1,4 @@
-%I A212621 #14 Mar 07 2017 11:25:23
+%I A212621 #15 Nov 05 2025 15:22:22
 %S A212621 0,2,10,10,28,28,36,36,60,60,60,80,80,80,110,112,80,158,112,146,146,
 %T A212621 110,158,222,182,158,294,196,146,266,110,320,182,146,238,414,222,222,
 %U A212621 266,370,158,354,196,238,472,294,266,594,312,424,238,354,320,744,280,494,370,266,146,660,414,182,624
@@ -10,7 +10,7 @@
 %D A212621 I. Gutman and A. Ivic, On Matula numbers, Discrete Math., 150, 1996, 131-142.
 %D A212621 I. Gutman and Y-N. Yeh, Deducing properties of trees from their Matula numbers, Publ. Inst. Math., 53 (67), 1993, 17-22.
 %D A212621 D. W. Matula, A natural rooted tree enumeration by prime factorization, SIAM Review, 10, 1968, 273.
-%H A212621 E. Deutsch, <a href="http://arxiv.org/abs/1111.4288"> Rooted tree statistics from Matula numbers</a>, arXiv:1111.4288.
+%H A212621 E. Deutsch, <a href="https://arxiv.org/abs/1111.4288"> Rooted tree statistics from Matula numbers</a>, arXiv:1111.4288.
 %H A212621 <a href="/index/Mat#matula">Index entries for sequences related to Matula-Goebel numbers</a>
 %F A212621 A198339(n) gives the sequence of the Matula-Goebel numbers of all the subtrees of the rooted tree with Matula-Goebel number n. A196053(k) is the first Zagreb index of the rooted tree with Matula-Goebel number k.
 %e A212621 a(3)=10 because the rooted tree with Matula-Goebel number 3 is the path tree with 3 vertices R - A - B; the subtrees are R, A, B, RA, AB, and RAB with first Zagreb indices 0, 0, 0, 2, 2, and 6, respectively.

@@ -1,13 +1,13 @@
-%I A242061 #28 Aug 01 2019 03:49:53
+%I A242061 #32 Nov 05 2025 15:35:36
 %S A242061 14,2,129,52686,29,7,9,1274,296125969,12012350,5,1279281,44,
 %T A242061 302583265614,780914,90,316,2605,106023820090609,1754402265205275806,
 %U A242061 7794,72957466300254,768323201,40,18505,23,6478321,3966329,326,14280500082452241
 %N A242061 Position within the triangular array A226314(n)/A054531(n) of rationals x/y such that x < y, gcd(x,y)=1, x+y odd and for the least y, {x, y} are integers such that x*y(y^2-x^2)/A006991(n) is a perfect square.
 %C A242061 The triangle array A226314(n)/A054531(n) that enumerates all positive rationals x/y can be generalized to enumerate all ordered pairs {x, y} where x and y are natural numbers. For example, A243808 uses a subset of this triangular array to enumerate all primitive Pythagorean triples (PPT).
-%C A242061 A006991(n) is the sequence of primitive congruent numbers and by definition there exists a PPT whose area is equal to k^2*A006991(n) for some integer k. a(n) is an enumeration of these PPT's and is a measure of the number of Pythagorean triangles that have to be searched to find a PPT with the least hypotenuse that has an area equal to k^2*A006991(n). If {x, y} are the generators of a PPT (a, b, c) where  a = y^2-x^2, b = 2x*y, c=y^2+x^2 then its area = x*y(y^2-x^2). The Mathematica program limits searches to the first 12.5 million generated PPT's. All other results have been obtained from tables catalogued by Hisanori Mishima (see Links).
+%C A242061 A006991(n) is the sequence of primitive congruent numbers and by definition there exists a PPT whose area is equal to k^2*A006991(n) for some integer k. a(n) is an enumeration of these PPT's and is a measure of the number of Pythagorean triangles that have to be searched to find a PPT with the least hypotenuse that has an area equal to k^2*A006991(n). If {x, y} are the generators of a PPT (a, b, c) where  a = y^2-x^2, b = 2x*y, c=y^2+x^2 then its area = x*y(y^2-x^2). The Mathematica program limits searches to the first 12.5 million generated PPT's. All other results have been obtained from tables cataloged by Hisanori Mishima (see Links).
 %H A242061 Lance Fortnow, <a href="http://blog.computationalcomplexity.org/2004/03/counting-rationals-quickly.html">Counting the Rationals Quickly</a>, Computational Complexity Weblog, Monday, March 01, 2004.
 %H A242061 Hisanori Mishima, <a href="http://www.asahi-net.or.jp/~KC2H-MSM/mathland/math10/matb2000.htm">361 Congruent Numbers g: 1<=g<=999</a>, Mathematician's Secret Room, Chapter 10 : Congruent Numbers (D27 Congruent numbers).
-%H A242061 Yoram Sagher, <a href="http://www.jstor.org/stable/2324846">Counting the rationals</a>, Amer. Math. Monthly, 96 (1989), p. 823. Math. Rev. 90i:04001.
+%H A242061 Yoram Sagher, <a href="https://www.jstor.org/stable/2324846">Counting the rationals</a>, Amer. Math. Monthly, 96 (1989), p. 823. Math. Rev. 90i:04001.
 %e A242061 .  j       {A226314(n),A054531(n)}, 1<=i<=j<=12 and n=i+j(j-1)/2
 %e A242061 .  --   --------------------------------------------------------
 %e A242061 .   1:  1,1

@@ -1,10 +1,10 @@
-%I A160428 #16 Nov 02 2022 07:45:30
+%I A160428 #18 Sep 23 2025 18:13:31
 %S A160428 0,8,64,120,512,568,960,1352,4096,4152,4544,4936,7680,8072,10816,
 %T A160428 13560,32768,32824,33216,33608,36352,36744,39488,42232,61440,61832,
 %U A160428 64576,67320,86528,89272,108480,127688,262144,262200,262592,262984,265728,266120,268864,271608
 %N A160428 Number of ON cells at n-th stage of three-dimensional version of the cellular automaton A160410, using cubes.
 %H A160428 Michael De Vlieger, <a href="/A160428/b160428.txt">Table of n, a(n) for n = 0..1000</a>
-%H A160428 David Applegate, Omar E. Pol and N. J. A. Sloane, <a href="/A000695/a000695_1.pdf">The Toothpick Sequence and Other Sequences from Cellular Automata</a>, Congressus Numerantium, Vol. 206 (2010), 157-191. [There is a typo in Theorem 6: (13) should read u(n) = 4.3^(wt(n-1)-1) for n >= 2.]
+%H A160428 David Applegate, Omar E. Pol and N. J. A. Sloane, <a href="/A000695/a000695_2.pdf">The Toothpick Sequence and Other Sequences from Cellular Automata</a>, Congressus Numerantium, Vol. 206 (2010), 157-191
 %H A160428 Hsien-Kuei Hwang, Svante Janson, and Tsung-Hsi Tsai, <a href="https://arxiv.org/abs/2210.10968">Identities and periodic oscillations of divide-and-conquer recurrences splitting at half</a>, arXiv:2210.10968 [cs.DS], 2022, p. 33.
 %H A160428 N. J. A. Sloane, <a href="/wiki/Catalog_of_Toothpick_and_CA_Sequences_in_OEIS">Catalog of Toothpick and Cellular Automata Sequences in the OEIS</a>
 %H A160428 <a href="/index/Ce#cell">Index entries for sequences related to cellular automata</a>
